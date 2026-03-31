@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: deeyan-study
+    env: node
+    buildCommand: cd frontend && npm install && npm run build && cd ../backend && npm install
+    startCommand: NODE_ENV=production node backend/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
