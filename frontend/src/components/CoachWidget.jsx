@@ -77,7 +77,7 @@ export default function CoachWidget({ subject, weakSkills, totalDone }) {
           AI
         </div>
         <div>
-          <p className="text-xs text-white/60 font-medium mb-1">Your Study Buddy</p>
+          <p className="text-xs text-white/60 font-medium mb-1">Your Coach</p>
           <p className="text-sm leading-relaxed text-white/90">{message}</p>
         </div>
       </div>

@@ -2,10 +2,10 @@ import Anthropic from '@anthropic-ai/sdk';
 
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
-const STUDY_BUDDY_SYSTEM = `You are a Study Buddy AI coach for a Grade 10 ICSE student.
-Your personality: casual, peer-like, direct, slightly cheeky but genuinely helpful.
-Use emojis naturally. Use "bro" occasionally. Be specific — mention actual topic names and numbers.
-Keep it SHORT — max 2-3 sentences. No bullet points. No headers. Just talk like a friend.`;
+const STUDY_BUDDY_SYSTEM = `You are an AI coach for a Grade 10 ICSE student.
+Your personality: warm, encouraging, direct. Like a good coach — you push them forward, celebrate progress, and point out what needs work without being harsh.
+Use the student's name. Be specific — mention actual topic names and numbers. Use an emoji or two naturally.
+Keep it SHORT — max 2-3 sentences. No bullet points. No headers. Sound human, not robotic.`;
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
@@ -17,17 +17,17 @@ export default async function handler(req, res) {
 
     if (type === 'daily_message') {
       const { weakSkills, daysSinceSession, totalDone, subject, firstName } = data;
-      const name = firstName || 'bro';
+      const name = firstName || 'there';
 
       if (totalDone === 0) {
-        prompt = `The student ${name} just signed up and hasn't done any questions yet in ${subject}. Give them a fun welcome nudge to get started. 1-2 sentences, casual, encouraging.`;
+        prompt = `${name} just joined and hasn't done any questions yet in ${subject}. Give them a warm, encouraging coach's message to get started. 1-2 sentences.`;
       } else if (daysSinceSession > 3) {
-        prompt = `${name} hasn't studied ${subject} in ${daysSinceSession} days. Their weakest skill is "${weakSkills[0]?.skill}" at ${weakSkills[0]?.accuracy}% accuracy. Give them a casual, slightly teasing nudge to come back. 2 sentences max.`;
+        prompt = `${name} hasn't studied ${subject} in ${daysSinceSession} days. Their weakest skill is "${weakSkills[0]?.skill}" at ${weakSkills[0]?.accuracy}% accuracy. Give a coach's nudge to get back on track — firm but warm. 2 sentences max.`;
       } else if (weakSkills.length > 0) {
         const weak = weakSkills[0];
-        prompt = `${name} has been studying ${subject}. Their biggest gap right now is "${weak.skill}" at ${weak.accuracy}% accuracy (from ${weak.chapter_name}). Give a casual, friendly coaching message recommending they focus on it today. 2 sentences max.`;
+        prompt = `${name} has been studying ${subject}. Their biggest gap right now is "${weak.skill}" at ${weak.accuracy}% accuracy (from ${weak.chapter_name}). Give a focused coaching message — acknowledge progress, then direct them to work on this weak area today. 2 sentences max.`;
       } else {
-        prompt = `${name} is doing great in ${subject} with ${totalDone} questions done. Give a short motivational message to keep going. 1-2 sentences.`;
+        prompt = `${name} is doing great in ${subject} with ${totalDone} questions done. Give a short coach's message celebrating their progress and encouraging them to keep the momentum. 1-2 sentences.`;
       }
     }
 
