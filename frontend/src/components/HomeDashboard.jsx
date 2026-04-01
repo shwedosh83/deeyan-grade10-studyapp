@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { useSubject, SUBJECTS } from '../context/SubjectContext';
+
 import { useAuth } from '../context/AuthContext';
 
 const SUBJECT_COLORS = {
@@ -12,7 +13,7 @@ const SUBJECT_COLORS = {
 
 export default function HomeDashboard() {
   const navigate = useNavigate();
-  const { setSubject } = useSubject();
+  const { subject: activeSubject, setSubject } = useSubject();
   const { user } = useAuth();
   const firstName = user?.user_metadata?.full_name?.split(' ')[0] || user?.email?.split('@')[0] || 'there';
 
@@ -102,11 +103,12 @@ export default function HomeDashboard() {
             const stats = subjectStats[s.id] || {};
             const colors = SUBJECT_COLORS[s.id] || SUBJECT_COLORS.biology;
             const notStarted = !stats.total;
+            const isActive = activeSubject?.id === s.id;
 
             return (
               <div
                 key={s.id}
-                className={`rounded-2xl border-2 ${colors.border} ${colors.bg} p-6 transition-all hover:shadow-md`}
+                className={`rounded-2xl border-2 ${colors.border} ${colors.bg} p-6 transition-all hover:shadow-md ${isActive ? 'ring-2 ring-offset-2 ring-barca-gold' : ''}`}
               >
                 <div className="flex items-start justify-between gap-4">
                   {/* Left: info */}
@@ -114,7 +116,14 @@ export default function HomeDashboard() {
                     <div className="flex items-center gap-3 mb-3">
                       <span className="text-3xl leading-none">{s.emoji}</span>
                       <div>
-                        <h3 className="text-lg font-bold text-gray-900">{s.label}</h3>
+                        <div className="flex items-center gap-2">
+                          <h3 className="text-lg font-bold text-gray-900">{s.label}</h3>
+                          {isActive && (
+                            <span className="text-[10px] font-semibold bg-barca-gold text-barca-navy px-2 py-0.5 rounded-full uppercase tracking-wide">
+                              Last studied
+                            </span>
+                          )}
+                        </div>
                         {!notStarted && stats.daysSince !== null && (
                           <p className="text-xs text-gray-400">
                             {stats.daysSince === 0 ? 'Studied today' : `Last studied ${stats.daysSince} day${stats.daysSince > 1 ? 's' : ''} ago`}
@@ -123,6 +132,7 @@ export default function HomeDashboard() {
                         {notStarted && (
                           <p className="text-xs text-gray-400">Not started yet</p>
                         )}
+                      </div>
                       </div>
                     </div>
 
