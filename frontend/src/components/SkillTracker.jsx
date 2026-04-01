@@ -72,8 +72,14 @@ export default function SkillTracker() {
     <div className="space-y-6">
       <div className="flex items-start justify-between">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900">Skill Tracker</h1>
-          <p className="text-gray-500 text-sm mt-1">Your accuracy by topic · skill scores are preserved when you reset practice history</p>
+          <div className="flex items-center gap-2 mb-1">
+            <h1 className="text-2xl font-bold text-gray-900">Skill Tracker</h1>
+            <span className="flex items-center gap-1.5 text-xs font-semibold px-2.5 py-1 rounded-full bg-barca-navy-light text-barca-navy border border-barca-navy/10">
+              <span>{subject.emoji}</span>
+              <span>{subject.label}</span>
+            </span>
+          </div>
+          <p className="text-gray-500 text-sm">Your accuracy by topic · skill scores are preserved when you reset practice history</p>
         </div>
         {hasData && (
           <button
