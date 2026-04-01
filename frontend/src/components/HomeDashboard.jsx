@@ -133,7 +133,6 @@ export default function HomeDashboard() {
                           <p className="text-xs text-gray-400">Not started yet</p>
                         )}
                       </div>
-                      </div>
                     </div>
 
                     {!notStarted && (
