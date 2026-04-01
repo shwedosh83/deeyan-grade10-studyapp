@@ -23,41 +23,50 @@ export default function HomeDashboard() {
 
   useEffect(() => {
     async function loadAll() {
-      const results = await Promise.all(
-        SUBJECTS.map(async (s) => {
-          const [scoresRes, weakRes, lastSessionRes, reviewRes] = await Promise.all([
-            supabase.from('skill_scores').select('total_attempts, correct_attempts').eq('subject', s.id),
-            supabase.rpc('get_weak_skills', { p_subject: s.id, p_limit: 1 }),
-            supabase.from('sessions').select('created_at').eq('subject', s.id)
-              .order('created_at', { ascending: false }).limit(1).single(),
-            supabase.from('review_queue').select('id', { count: 'exact' })
-              .eq('subject', s.id).is('completed_at', null)
-              .lte('scheduled_for', new Date().toISOString()),
-          ]);
+      try {
+        const results = await Promise.all(
+          SUBJECTS.map(async (s) => {
+            try {
+              const [scoresRes, weakRes, lastSessionRes, reviewRes] = await Promise.all([
+                supabase.from('skill_scores').select('total_attempts, correct_attempts').eq('subject', s.id),
+                supabase.rpc('get_weak_skills', { p_subject: s.id, p_limit: 1 }),
+                supabase.from('sessions').select('created_at').eq('subject', s.id)
+                  .order('created_at', { ascending: false }).limit(1).single(),
+                supabase.from('review_queue').select('id', { count: 'exact' })
+                  .eq('subject', s.id).is('completed_at', null)
+                  .lte('scheduled_for', new Date().toISOString()),
+              ]);
 
-          const scores = scoresRes.data || [];
-          const total = scores.reduce((sum, r) => sum + r.total_attempts, 0);
-          const correct = scores.reduce((sum, r) => sum + r.correct_attempts, 0);
-          const accuracy = total > 0 ? Math.round((correct / total) * 100) : null;
+              const scores = scoresRes.data || [];
+              const total = scores.reduce((sum, r) => sum + r.total_attempts, 0);
+              const correct = scores.reduce((sum, r) => sum + r.correct_attempts, 0);
+              const accuracy = total > 0 ? Math.round((correct / total) * 100) : null;
 
-          const lastSession = lastSessionRes.data;
-          const daysSince = lastSession
-            ? Math.floor((Date.now() - new Date(lastSession.created_at)) / 86400000)
-            : null;
+              const lastSession = lastSessionRes.data;
+              const daysSince = lastSession
+                ? Math.floor((Date.now() - new Date(lastSession.created_at)) / 86400000)
+                : null;
 
-          const weakSkill = weakRes.data?.[0] || null;
-          const reviewCount = reviewRes.count || 0;
+              const weakSkill = weakRes.data?.[0] || null;
+              const reviewCount = reviewRes.count || 0;
 
-          return { id: s.id, total, accuracy, daysSince, weakSkill, reviewCount };
-        })
-      );
+              return { id: s.id, total, accuracy, daysSince, weakSkill, reviewCount };
+            } catch {
+              return { id: s.id, total: 0, accuracy: null, daysSince: null, weakSkill: null, reviewCount: 0 };
+            }
+          })
+        );
 
-      const statsMap = {};
-      let grand = 0;
-      results.forEach(r => { statsMap[r.id] = r; grand += r.total; });
-      setSubjectStats(statsMap);
-      setTotalQuestions(grand);
-      setLoading(false);
+        const statsMap = {};
+        let grand = 0;
+        results.forEach(r => { statsMap[r.id] = r; grand += r.total; });
+        setSubjectStats(statsMap);
+        setTotalQuestions(grand);
+      } catch {
+        // Still stop loading even if something unexpected fails
+      } finally {
+        setLoading(false);
+      }
     }
     loadAll();
   }, []);
