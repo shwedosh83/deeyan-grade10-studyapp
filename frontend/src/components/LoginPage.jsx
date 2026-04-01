@@ -1,4 +1,5 @@
 import { useAuth } from '../context/AuthContext';
+import Logo from './Logo';
 
 export default function LoginPage() {
   const { signInWithGoogle } = useAuth();
@@ -6,14 +7,9 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl border border-gray-200 p-10 max-w-sm w-full text-center shadow-sm">
-        {/* Brand mark */}
-        <div className="flex justify-center gap-1 mb-6">
-          <span className="w-3 h-8 rounded-sm bg-barca-red" />
-          <span className="w-3 h-8 rounded-sm bg-barca-gold" />
-          <span className="w-3 h-8 rounded-sm bg-barca-navy" />
+        <div className="flex justify-center mb-6">
+          <Logo size="lg" dark={false} />
         </div>
-
-        <h1 className="text-2xl font-extrabold text-barca-navy mb-1">MyAICoach</h1>
         <p className="text-sm text-gray-500 mb-8">Grade 10 · ICSE · Practice Hub</p>
 
         <button

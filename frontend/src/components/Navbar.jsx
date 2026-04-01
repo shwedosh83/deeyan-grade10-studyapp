@@ -1,5 +1,6 @@
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useSubject } from '../context/SubjectContext';
+import Logo from './Logo';
 
 const links = [
   { to: '/', label: 'Dashboard' },
@@ -21,13 +22,7 @@ export default function Navbar() {
     <nav className="bg-barca-navy sticky top-0 z-10 shadow-md">
       <div className="max-w-5xl mx-auto px-4 flex items-center justify-between h-14 gap-4">
         {/* Brand */}
-        <div className="flex items-center gap-2 shrink-0">
-          <div className="flex gap-0.5">
-            <span className="w-2.5 h-6 rounded-sm bg-barca-red" />
-            <span className="w-2.5 h-6 rounded-sm bg-barca-gold" />
-          </div>
-          <span className="font-extrabold text-white text-lg tracking-tight">MyAICoach</span>
-        </div>
+        <Logo size="md" dark={true} />
 
         {/* Subject switcher */}
         <div className="flex bg-white/10 rounded-lg p-0.5 gap-0.5 shrink-0">
