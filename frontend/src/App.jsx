@@ -6,6 +6,7 @@ import Quiz from './components/Quiz';
 import SkillTracker from './components/SkillTracker';
 import WeeklySummary from './components/WeeklySummary';
 import LoginPage from './components/LoginPage';
+import AdminPage from './components/AdminPage';
 import { SubjectProvider } from './context/SubjectContext';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { isConfigured } from './lib/supabase';
@@ -52,6 +53,7 @@ function AppShell() {
               <Route path="/quiz" element={<Quiz />} />
               <Route path="/skills" element={<SkillTracker />} />
               <Route path="/summary" element={<WeeklySummary />} />
+              <Route path="/admin" element={<AdminPage />} />
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </main>
