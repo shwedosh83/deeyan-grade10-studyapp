@@ -13,7 +13,7 @@ export default function LoginPage() {
           <span className="w-3 h-8 rounded-sm bg-barca-navy" />
         </div>
 
-        <h1 className="text-2xl font-extrabold text-barca-navy mb-1">Deeyan Study</h1>
+        <h1 className="text-2xl font-extrabold text-barca-navy mb-1">MyAICoach</h1>
         <p className="text-sm text-gray-500 mb-8">Grade 10 · ICSE · Practice Hub</p>
 
         <button

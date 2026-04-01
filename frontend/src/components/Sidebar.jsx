@@ -32,7 +32,7 @@ export default function Sidebar() {
             <span className="w-2 h-5 rounded-sm bg-barca-red" />
             <span className="w-2 h-5 rounded-sm bg-barca-gold" />
           </div>
-          <span className="font-extrabold text-white text-base tracking-tight">Deeyan Study</span>
+          <span className="font-extrabold text-white text-base tracking-tight">MyAICoach</span>
         </div>
       </div>
 

@@ -26,7 +26,7 @@ export default function Navbar() {
             <span className="w-2.5 h-6 rounded-sm bg-barca-red" />
             <span className="w-2.5 h-6 rounded-sm bg-barca-gold" />
           </div>
-          <span className="font-extrabold text-white text-lg tracking-tight">Deeyan Study</span>
+          <span className="font-extrabold text-white text-lg tracking-tight">MyAICoach</span>
         </div>
 
         {/* Subject switcher */}

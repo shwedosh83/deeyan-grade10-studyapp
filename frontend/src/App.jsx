@@ -14,7 +14,7 @@ function SetupBanner() {
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl border border-gray-200 p-8 max-w-md w-full text-center shadow-sm">
         <div className="text-4xl mb-4">🧬</div>
-        <h1 className="text-2xl font-bold text-gray-900 mb-2">Deeyan Study</h1>
+        <h1 className="text-2xl font-bold text-gray-900 mb-2">MyAICoach</h1>
         <p className="text-gray-500 mb-6">Supabase isn't configured yet. Create a <code className="bg-gray-100 px-1.5 py-0.5 rounded text-sm font-mono">.env</code> file in <code className="bg-gray-100 px-1.5 py-0.5 rounded text-sm font-mono">frontend/</code>:</p>
         <div className="bg-gray-900 text-green-400 rounded-lg p-4 text-left text-sm font-mono mb-6">
           <p>VITE_SUPABASE_URL=your_url</p>
