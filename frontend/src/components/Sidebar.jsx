@@ -1,12 +1,14 @@
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useSubject } from '../context/SubjectContext';
 import { useAuth } from '../context/AuthContext';
+import Logo from './Logo';
 
 const navLinks = [
-  { to: '/',        label: 'Dashboard', icon: '⊞' },
-  { to: '/quiz',    label: 'Quiz',      icon: '✎' },
-  { to: '/skills',  label: 'Skills',    icon: '◎' },
-  { to: '/summary', label: 'Summary',   icon: '≡' },
+  { to: '/',          label: 'Home',      icon: '⌂', end: true  },
+  { to: '/dashboard', label: 'Dashboard', icon: '⊞', end: false },
+  { to: '/quiz',      label: 'Quiz',      icon: '✎', end: false },
+  { to: '/skills',    label: 'Skills',    icon: '◎', end: false },
+  { to: '/summary',   label: 'Summary',   icon: '≡', end: false },
 ];
 
 export default function Sidebar() {
@@ -16,7 +18,7 @@ export default function Sidebar() {
 
   function handleSubjectChange(s) {
     setSubject(s);
-    navigate('/');
+    navigate('/dashboard');
   }
 
   const displayName = user?.user_metadata?.full_name || user?.email?.split('@')[0] || 'Student';
@@ -27,13 +29,7 @@ export default function Sidebar() {
     <aside className="w-56 shrink-0 bg-barca-navy min-h-screen flex flex-col sticky top-0 h-screen">
       {/* Brand */}
       <div className="px-5 pt-6 pb-4 border-b border-white/10">
-        <div className="flex items-center gap-2">
-          <div className="flex gap-0.5">
-            <span className="w-2 h-5 rounded-sm bg-barca-red" />
-            <span className="w-2 h-5 rounded-sm bg-barca-gold" />
-          </div>
-          <span className="font-extrabold text-white text-base tracking-tight">MyAICoach</span>
-        </div>
+        <Logo size="sm" dark={true} />
       </div>
 
       {/* Subjects */}
@@ -69,7 +65,7 @@ export default function Sidebar() {
             <NavLink
               key={link.to}
               to={link.to}
-              end={link.to === '/'}
+              end={link.end}
               className={({ isActive }) =>
                 `flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm font-medium transition-all ${
                   isActive

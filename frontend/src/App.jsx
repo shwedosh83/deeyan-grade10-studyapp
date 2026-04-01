@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
+import HomeDashboard from './components/HomeDashboard';
 import Dashboard from './components/Dashboard';
 import Quiz from './components/Quiz';
 import SkillTracker from './components/SkillTracker';
@@ -46,7 +47,8 @@ function AppShell() {
           <Sidebar />
           <main className="flex-1 min-w-0 px-8 py-8">
             <Routes>
-              <Route path="/" element={<Dashboard />} />
+              <Route path="/" element={<HomeDashboard />} />
+              <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/quiz" element={<Quiz />} />
               <Route path="/skills" element={<SkillTracker />} />
               <Route path="/summary" element={<WeeklySummary />} />
