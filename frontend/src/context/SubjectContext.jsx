@@ -4,6 +4,7 @@ export const SUBJECTS = [
   { id: 'biology',         label: 'Biology',            emoji: '🧬' },
   { id: 'history_civics',  label: 'History & Civics',   emoji: '🏛️' },
   { id: 'chemistry',       label: 'Chemistry',          emoji: '⚗️' },
+  { id: 'geography',       label: 'Geography',          emoji: '🗺️' },
 ];
 
 const SubjectContext = createContext(null);

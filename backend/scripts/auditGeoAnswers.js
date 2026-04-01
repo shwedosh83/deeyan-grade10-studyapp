@@ -1,10 +1,14 @@
 /**
- * auditGeoAnswers.js
- * For every Geography question:
- *  1. Generate a Claude Haiku model answer
- *  2. Compare it with the PDF answer already in the DB
- *  3. If PDF answer is significantly worse or irrelevant → replace with Claude answer
- *     Otherwise keep PDF answer (it's likely more detailed/specific)
+ * auditGeoAnswers.js  — v2
+ *
+ * Strategy: PDF answers are the baseline. Claude only intervenes when:
+ *   1. Answer is empty / too short (< 20 chars)
+ *   2. Answer is factually wrong or completely off-topic
+ *   3. Answer is too brief for the marks (missing key points)
+ *
+ * Claude NEVER replaces a PDF answer just because its prose sounds cleaner.
+ * The PDF answers come from a published ICSE question bank — they are the
+ * examiner-aligned baseline.
  */
 require('dotenv').config({ path: require('path').join(__dirname, '../.env'), override: true });
 const { createClient } = require('@supabase/supabase-js');
@@ -15,44 +19,55 @@ const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 const CONCURRENCY = 8;
 
-async function generateModelAnswer(question, chapterName, type) {
-  const lengthGuide = type === 'short_answer'
-    ? '1-2 sentences, factual, concise.'
-    : '3-5 sentences, covering key points with geographic reasons/examples.';
-
+/**
+ * Returns A (keep), B (factually wrong → replace), or C (too brief → enrich)
+ */
+async function checkAnswer(question, answer, marks) {
   const res = await anthropic.messages.create({
     model: 'claude-haiku-4-5-20251001',
-    max_tokens: 400,
+    max_tokens: 10,
     messages: [{
       role: 'user',
-      content: `You are an ICSE Grade 10 Geography teacher. Write a model answer for:
-
-Chapter: ${chapterName}
-Question: ${question}
-
-Instructions: ${lengthGuide} Use correct geographical terminology. No bullet points — write in flowing sentences.`
-    }]
-  });
-  return res.content[0].text.trim();
-}
-
-async function compareAndAudit(question, pdfAnswer, claudeAnswer) {
-  const res = await anthropic.messages.create({
-    model: 'claude-haiku-4-5-20251001',
-    max_tokens: 20,
-    messages: [{
-      role: 'user',
-      content: `For this ICSE Geography question, which answer is better for a Grade 10 student?
+      content: `ICSE Grade 10 Geography. Marks: ${marks}.
 
 Question: ${question.slice(0, 200)}
+Answer: ${answer.slice(0, 400)}
 
-Answer A (from textbook): ${pdfAnswer.slice(0, 300)}
-Answer B (Claude model): ${claudeAnswer.slice(0, 300)}
+Is this answer:
+(A) Correct and sufficient for ${marks} mark${marks > 1 ? 's' : ''} — keep it
+(B) Factually wrong or completely off-topic — needs replacement
+(C) Correct but too brief — missing key points for ${marks} marks
 
-Reply with ONLY: "A" if textbook answer is better or equally good, "B" if Claude model is clearly better.`
+Reply ONLY with A, B, or C.`
     }]
   });
-  return res.content[0].text.trim().startsWith('B') ? 'B' : 'A';
+  return res.content[0].text.trim().toUpperCase()[0];
+}
+
+/**
+ * Generate a fix. For C: enrich existing answer. For B: write fresh answer.
+ */
+async function fixAnswer(question, existingAnswer, verdict, chapterName, marks) {
+  const prompt = verdict === 'C'
+    ? `ICSE Grade 10 Geography, Chapter: ${chapterName}.
+The answer below is correct but too brief for ${marks} marks. Keep what is right and ADD the missing points only. Do not rewrite.
+
+Question: ${question}
+Existing answer: ${existingAnswer}
+
+Extended answer (add missing points):`
+    : `ICSE Grade 10 Geography, Chapter: ${chapterName}.
+Write a correct model answer for ${marks} mark${marks > 1 ? 's' : ''}. Be specific — use correct geographic facts, terminology and examples. ${marks <= 2 ? '1-2 sentences.' : '3-5 sentences.'}
+
+Question: ${question}
+Answer:`;
+
+  const res = await anthropic.messages.create({
+    model: 'claude-haiku-4-5-20251001',
+    max_tokens: 350,
+    messages: [{ role: 'user', content: prompt }]
+  });
+  return res.content[0].text.trim();
 }
 
 async function run() {
@@ -63,50 +78,58 @@ async function run() {
     .neq('type', 'mcq');
 
   if (error) { console.error(error.message); return; }
-  console.log(`Processing ${questions.length} Geography short/long answer questions...`);
-  console.log('Strategy: generate Claude model answer, keep whichever is better.\n');
+  console.log(`Auditing ${questions.length} Geography short/long answer questions`);
+  console.log('Rule: PDF is baseline. Only fix factually wrong or too-brief answers.\n');
 
-  let keptPDF = 0, replacedWithClaude = 0, errors = 0;
+  let keptA = 0, fixedB = 0, enrichedC = 0, errors = 0;
 
   for (let i = 0; i < questions.length; i += CONCURRENCY) {
     const batch = questions.slice(i, i + CONCURRENCY);
 
     await Promise.all(batch.map(async q => {
       try {
-        const claudeAns = await generateModelAnswer(q.question, q.chapter_name, q.type);
-        const winner = await compareAndAudit(q.question, q.answer, claudeAns);
+        const marks = q.type === 'short_answer' ? 2 : 4;
 
-        if (winner === 'B') {
-          const { error: upErr } = await supabase
-            .from('questions')
-            .update({ answer: claudeAns })
-            .eq('id', q.id);
-          if (!upErr) replacedWithClaude++;
-          else errors++;
-        } else {
-          keptPDF++;
+        // Empty/very short → fix directly without wasting an audit call
+        if (!q.answer || q.answer.length < 20) {
+          const fixed = await fixAnswer(q.question, q.answer || '', 'B', q.chapter_name, marks);
+          await supabase.from('questions').update({ answer: fixed }).eq('id', q.id);
+          fixedB++;
+          return;
         }
-      } catch (e) {
+
+        const verdict = await checkAnswer(q.question, q.answer, marks);
+
+        if (verdict === 'B') {
+          const fixed = await fixAnswer(q.question, q.answer, 'B', q.chapter_name, marks);
+          await supabase.from('questions').update({ answer: fixed }).eq('id', q.id);
+          fixedB++;
+        } else if (verdict === 'C') {
+          const enriched = await fixAnswer(q.question, q.answer, 'C', q.chapter_name, marks);
+          await supabase.from('questions').update({ answer: enriched }).eq('id', q.id);
+          enrichedC++;
+        } else {
+          keptA++;
+        }
+      } catch {
         errors++;
       }
     }));
 
     process.stdout.write(
       `\rProcessed: ${Math.min(i + CONCURRENCY, questions.length)}/${questions.length}  ` +
-      `Kept PDF: ${keptPDF}  Upgraded to Claude: ${replacedWithClaude}  Errors: ${errors}`
+      `Kept: ${keptA}  Fixed(wrong): ${fixedB}  Enriched(brief): ${enrichedC}  Errors: ${errors}`
     );
   }
 
-  console.log('\n\nDone!');
-  console.log(`PDF answers kept:         ${keptPDF}`);
-  console.log(`Upgraded to Claude answer: ${replacedWithClaude}`);
-  console.log(`Errors:                    ${errors}`);
+  console.log('\n\n=== Audit Complete ===');
+  console.log(`PDF answers kept as-is:     ${keptA}`);
+  console.log(`Replaced (factually wrong): ${fixedB}`);
+  console.log(`Enriched (too brief):       ${enrichedC}`);
+  console.log(`Errors:                     ${errors}`);
 
-  // Final DB count
   const { count } = await supabase
-    .from('questions')
-    .select('*', { count: 'exact', head: true })
-    .eq('subject', 'geography');
+    .from('questions').select('*', { count: 'exact', head: true }).eq('subject', 'geography');
   console.log(`\nFinal DB count: ${count}`);
 }
 

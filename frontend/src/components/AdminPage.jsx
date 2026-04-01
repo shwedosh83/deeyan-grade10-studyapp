@@ -6,7 +6,7 @@ import { useAuth } from '../context/AuthContext';
 const ADMIN_EMAIL = 'shwetadoshireads@gmail.com';
 
 const SUBJECT_META = {
-  biology:        { label: 'Biology',          emoji: '🧬', color: 'text-emerald-600 bg-emerald-50' },
+  biology:        { label: 'Biology',           emoji: '🧬', color: 'text-emerald-600 bg-emerald-50' },
   history_civics: { label: 'History & Civics',  emoji: '🏛️', color: 'text-amber-600 bg-amber-50'   },
   chemistry:      { label: 'Chemistry',         emoji: '⚗️', color: 'text-blue-600 bg-blue-50'     },
   geography:      { label: 'Geography',         emoji: '🗺️', color: 'text-purple-600 bg-purple-50' },

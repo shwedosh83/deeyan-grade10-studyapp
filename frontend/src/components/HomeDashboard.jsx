@@ -9,6 +9,7 @@ const SUBJECT_COLORS = {
   biology:        { bg: 'bg-emerald-50',  border: 'border-emerald-200', accent: 'text-emerald-700', bar: 'bg-emerald-500', btn: 'bg-emerald-600 hover:bg-emerald-700' },
   history_civics: { bg: 'bg-amber-50',    border: 'border-amber-200',   accent: 'text-amber-700',   bar: 'bg-amber-500',   btn: 'bg-amber-600 hover:bg-amber-700' },
   chemistry:      { bg: 'bg-blue-50',     border: 'border-blue-200',    accent: 'text-blue-700',    bar: 'bg-blue-500',    btn: 'bg-blue-600 hover:bg-blue-700' },
+  geography:      { bg: 'bg-purple-50',   border: 'border-purple-200',  accent: 'text-purple-700',  bar: 'bg-purple-500',  btn: 'bg-purple-600 hover:bg-purple-700' },
 };
 
 export default function HomeDashboard() {
