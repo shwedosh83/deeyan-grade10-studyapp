@@ -191,7 +191,7 @@ while i < len(sections) - 2:
                 skipped += 1
                 continue
 
-            q_type = 'long_answer' if len(q_text) > 150 or len(ans_text) > 200 else 'short_answer'
+            q_type = 'long_answer' if len(q_text) > 350 or len(ans_text) > 400 else 'short_answer'
             marks  = 4 if q_type == 'long_answer' else 2
 
             q_id_counter += 1
