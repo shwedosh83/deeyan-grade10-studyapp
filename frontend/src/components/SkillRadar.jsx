@@ -21,6 +21,19 @@ const HC_SKILLS = [
   'Judiciary',
 ];
 
+const CHEMISTRY_SKILLS = [
+  'Periodic Table & Properties',
+  'Chemical Bonding',
+  'Acids, Bases & Salts',
+  'Analytical Chemistry',
+  'Mole Concept & Stoichiometry',
+  'Electrolysis',
+  'Metallurgy',
+  'Study of Compounds',
+  'Organic Chemistry',
+  'Diagrams & Experiments',
+];
+
 // Short display labels for the radar axes
 const SHORT_LABELS = {
   'Cell Biology': 'Cell Biology',
@@ -39,10 +52,22 @@ const SHORT_LABELS = {
   'Indian Constitution': 'Constitution',
   'Executive & Parliament': 'Executive',
   'Judiciary': 'Judiciary',
+  'Periodic Table & Properties': 'Periodic Table',
+  'Chemical Bonding': 'Bonding',
+  'Acids, Bases & Salts': 'Acids & Bases',
+  'Analytical Chemistry': 'Analytical',
+  'Mole Concept & Stoichiometry': 'Mole Concept',
+  'Electrolysis': 'Electrolysis',
+  'Metallurgy': 'Metallurgy',
+  'Study of Compounds': 'Compounds',
+  'Organic Chemistry': 'Organic',
+  'Diagrams & Experiments': 'Diagrams',
 };
 
 export function getSkillsForSubject(subjectId) {
-  return subjectId === 'biology' ? BIOLOGY_SKILLS : HC_SKILLS;
+  if (subjectId === 'biology') return BIOLOGY_SKILLS;
+  if (subjectId === 'chemistry') return CHEMISTRY_SKILLS;
+  return HC_SKILLS;
 }
 
 export default function SkillRadar({ skillScores, subjectId }) {

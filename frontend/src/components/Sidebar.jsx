@@ -1,5 +1,6 @@
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useSubject } from '../context/SubjectContext';
+import { useAuth } from '../context/AuthContext';
 
 const navLinks = [
   { to: '/',        label: 'Dashboard', icon: '⊞' },
@@ -10,12 +11,17 @@ const navLinks = [
 
 export default function Sidebar() {
   const { subject, setSubject, subjects } = useSubject();
+  const { user, signOut } = useAuth();
   const navigate = useNavigate();
 
   function handleSubjectChange(s) {
     setSubject(s);
     navigate('/');
   }
+
+  const displayName = user?.user_metadata?.full_name || user?.email?.split('@')[0] || 'Student';
+  const avatarUrl = user?.user_metadata?.avatar_url;
+  const initials = displayName.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
 
   return (
     <aside className="w-56 shrink-0 bg-barca-navy min-h-screen flex flex-col sticky top-0 h-screen">
@@ -79,9 +85,27 @@ export default function Sidebar() {
         </div>
       </div>
 
-      {/* Footer */}
-      <div className="mt-auto px-5 py-4 border-t border-white/10">
-        <p className="text-white/30 text-xs">Grade 10 · ICSE</p>
+      {/* User + Sign out */}
+      <div className="mt-auto px-4 py-4 border-t border-white/10 space-y-3">
+        <div className="flex items-center gap-2.5">
+          {avatarUrl ? (
+            <img src={avatarUrl} alt={displayName} className="w-7 h-7 rounded-full object-cover" />
+          ) : (
+            <div className="w-7 h-7 rounded-full bg-barca-gold flex items-center justify-center text-barca-navy text-xs font-bold">
+              {initials}
+            </div>
+          )}
+          <div className="flex-1 min-w-0">
+            <p className="text-white text-xs font-semibold truncate">{displayName}</p>
+            <p className="text-white/30 text-[10px] truncate">Grade 10 · ICSE</p>
+          </div>
+        </div>
+        <button
+          onClick={signOut}
+          className="w-full text-left text-white/40 hover:text-white/70 text-xs px-1 transition-colors"
+        >
+          Sign out →
+        </button>
       </div>
     </aside>
   );

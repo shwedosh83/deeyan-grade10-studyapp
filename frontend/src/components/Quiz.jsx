@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { useSubject } from '../context/SubjectContext';
+import { useAuth } from '../context/AuthContext';
 
 const QUESTION_COUNTS = [5, 10, 15, 20, 30];
 
@@ -15,6 +16,7 @@ const QUESTION_TYPES = [
 export default function Quiz() {
   const navigate = useNavigate();
   const { subject } = useSubject();
+  const { user } = useAuth();
   const [searchParams] = useSearchParams();
   const preselectedChapter = searchParams.get('chapter') ? parseInt(searchParams.get('chapter')) : null;
 
@@ -118,7 +120,7 @@ export default function Quiz() {
 
     const { data: session, error: sessionErr } = await supabase
       .from('sessions')
-      .insert({ subject: subject.id, chapter_id: selectedChapters.size === 1 ? [...selectedChapters][0] : null })
+      .insert({ subject: subject.id, chapter_id: selectedChapters.size === 1 ? [...selectedChapters][0] : null, user_id: user?.id })
       .select()
       .single();
 

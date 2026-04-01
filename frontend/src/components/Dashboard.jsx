@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { useSubject } from '../context/SubjectContext';
+import { useAuth } from '../context/AuthContext';
 
 export default function Dashboard() {
   const navigate = useNavigate();
@@ -10,6 +11,8 @@ export default function Dashboard() {
   const [chapters, setChapters] = useState([]);
   const [loading, setLoading] = useState(true);
   const { subject } = useSubject();
+  const { user } = useAuth();
+  const firstName = user?.user_metadata?.full_name?.split(' ')[0] || user?.email?.split('@')[0] || 'Deeyan';
 
   useEffect(() => {
     async function load() {
@@ -62,7 +65,7 @@ export default function Dashboard() {
     <div className="space-y-6">
       {/* Header */}
       <div>
-        <h1 className="text-2xl font-bold text-gray-900">Hey Deeyan!</h1>
+        <h1 className="text-2xl font-bold text-gray-900">Hey {firstName}!</h1>
         <p className="text-gray-500 mt-1">Ready to master {subject.label}?</p>
       </div>
 

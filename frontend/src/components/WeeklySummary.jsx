@@ -19,7 +19,7 @@ export default function WeeklySummary() {
   const [weekStats, setWeekStats] = useState(null);
   const [error, setError] = useState(null);
 
-  useEffect(() => { loadData(); }, []);
+  useEffect(() => { loadData(); }, [subject]);
 
   async function loadData() {
     setLoading(true);
@@ -29,6 +29,7 @@ export default function WeeklySummary() {
       supabase
         .from('sessions')
         .select('total_questions, correct_answers, started_at')
+        .eq('subject', subject.id)
         .gte('started_at', `${weekStart}T00:00:00`)
         .not('ended_at', 'is', null),
     ]);

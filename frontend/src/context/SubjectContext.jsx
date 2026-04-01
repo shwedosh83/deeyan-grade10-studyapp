@@ -3,6 +3,7 @@ import { createContext, useContext, useState } from 'react';
 export const SUBJECTS = [
   { id: 'biology',         label: 'Biology',            emoji: '🧬' },
   { id: 'history_civics',  label: 'History & Civics',   emoji: '🏛️' },
+  { id: 'chemistry',       label: 'Chemistry',          emoji: '⚗️' },
 ];
 
 const SubjectContext = createContext(null);
