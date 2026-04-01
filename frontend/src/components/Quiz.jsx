@@ -47,6 +47,10 @@ export default function Quiz() {
   const [chapterName, setChapterName] = useState('All Chapters');
   const [error, setError] = useState(null);
 
+  // Coach / hint state
+  const [hint, setHint] = useState(null);
+  const [loadingHint, setLoadingHint] = useState(false);
+
   // Load chapters dynamically when subject changes
   useEffect(() => {
     setSelectedChapters(preselectedChapter ? new Set([preselectedChapter]) : new Set());
@@ -179,6 +183,27 @@ export default function Quiz() {
     setEvaluation(null);
     setIsAnswered(false);
     setExplanation(null);
+    setHint(null);
+  }
+
+  async function getHint() {
+    const q = questions[currentIndex];
+    setLoadingHint(true);
+    try {
+      const res = await fetch('/api/coach', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type: 'hint',
+          data: { question: q.question, correctAnswer: q.answer, subject: subject.id, skill: q.skill },
+        }),
+      });
+      const data = await res.json();
+      setHint(data.message);
+    } catch {
+      setHint('Think about the core concept behind this topic. You got this! 💪');
+    }
+    setLoadingHint(false);
   }
 
   async function handleMCQAnswer(answer) {
@@ -243,6 +268,17 @@ export default function Quiz() {
       p_chapter_name: q.chapter_name,
       p_is_correct: isCorrect,
     });
+    // Spaced repetition: queue wrong answers to review in 3 days
+    if (!isCorrect && user?.id) {
+      const reviewDate = new Date();
+      reviewDate.setDate(reviewDate.getDate() + 3);
+      await supabase.from('review_queue').upsert({
+        user_id: user.id,
+        question_id: q.id,
+        subject: q.subject,
+        scheduled_for: reviewDate.toISOString(),
+      }, { onConflict: 'user_id,question_id' });
+    }
   }
 
   async function getExplanation() {
@@ -405,7 +441,7 @@ export default function Quiz() {
   }
 
   if (phase === 'results') {
-    return <Results results={results} chapterName={chapterName} onRestart={() => setPhase('setup')} onHome={() => navigate('/')} />;
+    return <Results results={results} chapterName={chapterName} subject={subject} onRestart={() => setPhase('setup')} onHome={() => navigate('/')} />;
   }
 
   const q = questions[currentIndex];
@@ -530,13 +566,29 @@ export default function Quiz() {
               </p>
             )}
             {!isAnswered && (
-              <button
-                onClick={handleShortAnswerSubmit}
-                disabled={evaluating || !typedAnswer.trim()}
-                className="w-full bg-barca-navy hover:bg-barca-navy-dark disabled:bg-gray-200 disabled:text-gray-400 text-white font-semibold py-2.5 rounded-lg transition-colors"
-              >
-                {evaluating ? 'Evaluating...' : 'Submit Answer'}
-              </button>
+              <div className="space-y-2">
+                <button
+                  onClick={handleShortAnswerSubmit}
+                  disabled={evaluating || !typedAnswer.trim()}
+                  className="w-full bg-barca-navy hover:bg-barca-navy-dark disabled:bg-gray-200 disabled:text-gray-400 text-white font-semibold py-2.5 rounded-lg transition-colors"
+                >
+                  {evaluating ? 'Evaluating...' : 'Submit Answer'}
+                </button>
+                {!hint && !loadingHint && (
+                  <button
+                    onClick={getHint}
+                    className="w-full text-xs text-gray-400 hover:text-barca-navy py-1 transition-colors"
+                  >
+                    🤔 Need a hint?
+                  </button>
+                )}
+                {loadingHint && <p className="text-xs text-gray-400 text-center">Getting hint...</p>}
+                {hint && (
+                  <div className="bg-amber-50 border border-amber-200 rounded-lg px-4 py-3 text-sm text-amber-800 leading-relaxed">
+                    💡 {hint}
+                  </div>
+                )}
+              </div>
             )}
           </div>
         )}
@@ -633,7 +685,7 @@ export default function Quiz() {
   );
 }
 
-function Results({ results, chapterName, onRestart, onHome }) {
+function Results({ results, chapterName, subject, onRestart, onHome }) {
   const correct = results.filter((r) => r.isCorrect).length;
   const total = results.length;
   const pct = Math.round((correct / total) * 100);
@@ -641,6 +693,30 @@ function Results({ results, chapterName, onRestart, onHome }) {
     pct >= 80 ? { label: 'Excellent!', color: 'text-barca-navy' }
     : pct >= 60 ? { label: 'Good job!', color: 'text-amber-500' }
     : { label: 'Keep practicing!', color: 'text-red-500' };
+
+  const [debrief, setDebrief] = useState(null);
+  const [loadingDebrief, setLoadingDebrief] = useState(true);
+
+  useEffect(() => {
+    async function fetchDebrief() {
+      try {
+        const res = await fetch('/api/coach', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            type: 'debrief',
+            data: { results, subject: subject?.label || subject?.id },
+          }),
+        });
+        const data = await res.json();
+        setDebrief(data.message);
+      } catch {
+        setDebrief(null);
+      }
+      setLoadingDebrief(false);
+    }
+    fetchDebrief();
+  }, []);
 
   return (
     <div className="space-y-6">
@@ -657,6 +733,24 @@ function Results({ results, chapterName, onRestart, onHome }) {
           </button>
         </div>
       </div>
+
+      {/* Coach Debrief */}
+      {(loadingDebrief || debrief) && (
+        <div className="bg-barca-navy rounded-xl p-5 text-white">
+          <div className="flex items-start gap-3">
+            <div className="w-9 h-9 rounded-full bg-barca-gold flex items-center justify-center shrink-0 text-barca-navy font-bold text-sm">
+              AI
+            </div>
+            <div>
+              <p className="text-xs text-white/60 font-medium mb-1">Coach's Take</p>
+              {loadingDebrief
+                ? <div className="space-y-2 animate-pulse"><div className="h-3 bg-white/20 rounded w-full"/><div className="h-3 bg-white/20 rounded w-4/5"/></div>
+                : <p className="text-sm leading-relaxed text-white/90">{debrief}</p>
+              }
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="bg-white rounded-xl border border-gray-200 divide-y divide-gray-100">
         {results.map((r, i) => (
