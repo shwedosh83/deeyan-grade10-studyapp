@@ -1,20 +1,21 @@
-import { NavLink, useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate, useLocation } from 'react-router-dom';
 import { useSubject } from '../context/SubjectContext';
 import { useAuth } from '../context/AuthContext';
 import Logo from './Logo';
 
 const navLinks = [
-  { to: '/',          label: 'Home',      icon: '⌂', end: true  },
-  { to: '/dashboard', label: 'Dashboard', icon: '⊞', end: false },
-  { to: '/quiz',      label: 'Quiz',      icon: '✎', end: false },
-  { to: '/skills',    label: 'Skills',    icon: '◎', end: false },
-  { to: '/summary',   label: 'Summary',   icon: '≡', end: false },
+  { to: '/',         label: 'Home',    icon: '⌂', end: true  },
+  { to: '/quiz',     label: 'Quiz',    icon: '✎', end: false },
+  { to: '/skills',   label: 'Skills',  icon: '◎', end: false },
+  { to: '/summary',  label: 'Summary', icon: '≡', end: false },
 ];
 
 export default function Sidebar() {
   const { subject, setSubject, subjects } = useSubject();
   const { user, signOut } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
+  const isHome = location.pathname === '/';
 
   function handleSubjectChange(s) {
     setSubject(s);
@@ -32,33 +33,21 @@ export default function Sidebar() {
         <Logo size="sm" dark={true} />
       </div>
 
-      {/* Subjects */}
-      <div className="px-3 pt-5">
-        <p className="text-white/40 text-xs font-semibold uppercase tracking-widest px-2 mb-2">Subjects</p>
-        <div className="space-y-0.5">
-          {subjects.map((s) => {
-            const active = subject.id === s.id;
-            return (
-              <button
-                key={s.id}
-                onClick={() => handleSubjectChange(s)}
-                className={`w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm font-medium transition-all text-left ${
-                  active
-                    ? 'bg-barca-gold text-barca-navy'
-                    : 'text-white/70 hover:text-white hover:bg-white/10'
-                }`}
-              >
-                <span className="text-base leading-none">{s.emoji}</span>
-                <span className="truncate">{s.label}</span>
-                {active && <span className="ml-auto w-1.5 h-1.5 rounded-full bg-barca-navy/40" />}
-              </button>
-            );
-          })}
+      {/* Current subject indicator — hidden on home */}
+      {!isHome && <div className="px-4 pt-5 pb-1">
+        <div className="flex items-center gap-2 px-3 py-2.5 rounded-lg bg-white/10">
+          <span className="text-base leading-none">{subject.emoji}</span>
+          <div className="min-w-0">
+            <p className="text-xs text-white/40 leading-none mb-0.5">Studying</p>
+            <p className="text-sm font-semibold text-white truncate">{subject.label}</p>
+          </div>
         </div>
       </div>
 
+      }
+
       {/* Nav links */}
-      <div className="px-3 pt-6">
+      <div className={`px-3 ${isHome ? 'pt-5' : 'pt-4'}`}>
         <p className="text-white/40 text-xs font-semibold uppercase tracking-widest px-2 mb-2">Navigate</p>
         <div className="space-y-0.5">
           {navLinks.map((link) => (
