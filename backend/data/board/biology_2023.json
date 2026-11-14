@@ -1,0 +1,1994 @@
+{
+ "paper_id": "biology_2023",
+ "subject": "biology",
+ "year": 2023,
+ "sem": null,
+ "label": "2023",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Section A is compulsory. Attempt any four questions from Section B. The intended marks for questions or parts of questions are given in brackets [].",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 40,
+   "rule": "Attempt any four questions from this Section.",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Genetics",
+   "topic": "Sex chromosome in human ovum",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "sex chromosome in human ovum"
+   ],
+   "question": "The sex chromosome in a human ovum is:",
+   "options": {
+    "a": "X chromosome",
+    "b": "Y chromosome",
+    "c": "Both X and Y chromosome",
+    "d": "Either X or Y chromosome"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) X chromosome. The human ovum is the female gamete, which carries one X chromosome.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Pollution",
+   "topic": "Biodegradable waste identification",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "biodegradable vs non-biodegradable waste"
+   ],
+   "question": "Which one of the following is a biodegradable waste?",
+   "options": {
+    "a": "Metal cans",
+    "b": "E-waste",
+    "c": "Plastic",
+    "d": "Flowers"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Flowers. Flowers are decomposed by micro-organisms; metal cans, e-waste and plastic are not.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Heart sound Dup origin",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "heart sounds lub-dup valve closure"
+   ],
+   "question": "The heart sound 'Dup' is produced when:",
+   "options": {
+    "a": "Semilunar valves open",
+    "b": "Atrio ventricular valves close",
+    "c": "Semilunar valves close",
+    "d": "Atrio ventricular valves open"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Semilunar valves close. Rapid closing of the semilunar valves at ventricular diastole produces the 'dup' sound.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Deplasmolysis medium",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "deplasmolysis in hypotonic solution"
+   ],
+   "question": "Deplasmolysis occurs when a plasmolysed cell is placed in:",
+   "options": {
+    "a": "Concentrated salt solution",
+    "b": "Tap water",
+    "c": "Concentrated sugar solution",
+    "d": "Hypertonic salt solution"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Tap water. Tap water is hypotonic, so water enters the plasmolysed cell and it regains turgidity.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Alpha cells secretion",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "alpha cells secrete glucagon"
+   ],
+   "question": "Alpha cells of Pancreas secrete:",
+   "options": {
+    "a": "Glycogen",
+    "b": "Glucose",
+    "c": "Glucagon",
+    "d": "Insulin"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Glucagon. Alpha cells secrete glucagon in response to low blood glucose.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Haploid cells",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "haploid gametes"
+   ],
+   "question": "Haploid number chromosomes are found in:",
+   "options": {
+    "a": "Nephrons",
+    "b": "Neurons",
+    "c": "Skin cells",
+    "d": "Sperms"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Sperms. A mature sperm (gamete) has the haploid number of chromosomes.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Life span of RBC",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "RBC life span"
+   ],
+   "question": "The life span of a RBC is:",
+   "options": {
+    "a": "120 days",
+    "b": "220 days",
+    "c": "20 days",
+    "d": "2 weeks"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 120 days. The life span of RBCs is about 120 days.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Human Population",
+   "topic": "Statistical study of population",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "demography"
+   ],
+   "question": "The statistical study of human population is called:",
+   "options": {
+    "a": "Mortality",
+    "b": "Demography",
+    "c": "Natality",
+    "d": "Equality"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Demography. Demography is the statistical study of human population.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Urine pigment",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "urochrome pigment in urine"
+   ],
+   "question": "The pale yellow colour of normal human urine is due to the pigment:",
+   "options": {
+    "a": "Melanin",
+    "b": "Anthocyanin",
+    "c": "Urochrome",
+    "d": "Haemoglobin"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Urochrome. Urochrome, formed from the bile pigment bilirubin, gives urine its pale yellow colour.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Sympathetic nervous system effect",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "sympathetic nervous system effects"
+   ],
+   "question": "Stimulation of the nerves of the sympathetic nervous system:",
+   "options": {
+    "a": "Accelerates heartbeat",
+    "b": "Constricts pupil of eyes",
+    "c": "Increases peristalsis",
+    "d": "Retards heartbeat"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Accelerates heartbeat. The sympathetic system speeds up the heartbeat.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Photosynthesis",
+   "topic": "Site of light reaction",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "light reaction in grana"
+   ],
+   "question": "The site of light reaction in the cells of a green leaf is:",
+   "options": {
+    "a": "Nucleus",
+    "b": "Grana of chloroplast",
+    "c": "Cytoplasm",
+    "d": "Stroma of chloroplast"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Grana of chloroplast. Light reaction occurs in the thylakoid membranes of the grana of the chloroplast.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transpiration",
+   "topic": "Unequal transpiration test paper",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "cobalt chloride paper test"
+   ],
+   "question": "The paper used to demonstrate unequal transpiration in a dicot leaf is:",
+   "options": {
+    "a": "Filter paper",
+    "b": "Litmus paper",
+    "c": "Starch paper",
+    "d": "Cobalt chloride paper"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Cobalt chloride paper. Cobalt chloride paper (blue when dry, pink when wet) is used.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Location of vitreous humour",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "vitreous humour location"
+   ],
+   "question": "Vitreous humour is present between:",
+   "options": {
+    "a": "Cornea and Iris",
+    "b": "Lens and Retina",
+    "c": "Iris and Lens",
+    "d": "Cornea and Lens"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Lens and Retina. The vitreous humour fills the space between the lens and the retina.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Blood supply to liver",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "hepatic artery vs hepatic portal vein"
+   ],
+   "question": "Oxygenated blood to liver is supplied by:",
+   "options": {
+    "a": "Hepatic artery",
+    "b": "Hepatic vein",
+    "c": "Inferior vena cava",
+    "d": "Hepatic portal vein"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Hepatic artery. The hepatic artery carries oxygenated blood to the liver.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "S phase synthesis",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "S phase DNA synthesis"
+   ],
+   "question": "During the synthesis phase of the cell cycle, more of:",
+   "options": {
+    "a": "RNA is synthesised",
+    "b": "RNA and proteins are synthesised",
+    "c": "DNA is synthesised",
+    "d": "Glucose is synthesised"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) DNA is synthesised. In the S phase DNA is replicated.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(i)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Name the following terms (mixed chapters)",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "(a) centrosome: Cell Cycle and Structure of Chromosomes",
+    "(b) haemophilia: Genetics",
+    "(c) menopause: The Reproductive System",
+    "(d) lenticels: Transpiration",
+    "(e) ethylene: Chemical Coordination in Plants"
+   ],
+   "question": "Name the following:\n(a) The organelle that forms the aster during cell division.\n(b) A genetic disorder in which the blood does not clot.\n(c) The permanent stoppage of menstruation in human females around the age of 45 years.\n(d) The openings on the barks of trees through which transpiration occurs.\n(e) A gaseous plant hormone which promotes ripening of fruits.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Organelle that forms the aster during cell division",
+     "accepted": [
+      "Centrosome",
+      "Centrosomes",
+      "Centriole",
+      "Centrioles"
+     ]
+    },
+    {
+     "prompt": "Genetic disorder in which the blood does not clot",
+     "accepted": [
+      "Haemophilia",
+      "Hemophilia"
+     ]
+    },
+    {
+     "prompt": "Permanent stoppage of menstruation around age 45",
+     "accepted": [
+      "Menopause"
+     ]
+    },
+    {
+     "prompt": "Openings on bark of trees through which transpiration occurs",
+     "accepted": [
+      "Lenticels",
+      "Lenticel"
+     ]
+    },
+    {
+     "prompt": "Gaseous plant hormone promoting ripening of fruits",
+     "accepted": [
+      "Ethylene",
+      "Ethene",
+      "C2H4"
+     ]
+    }
+   ],
+   "solution": "(a) Centrosome(s) (b) Haemophilia (c) Menopause (d) Lenticels (e) Ethylene",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "other",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Logical sequence arrangement (mixed chapters)",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "(a) food chain: Pollution (ecosystem)",
+    "(b) water path in root: Absorption by Roots",
+    "(c) reflex arc: Nervous System and Sense Organs",
+    "(d) path of light in eye: Nervous System and Sense Organs",
+    "(e) path of sperm: The Reproductive System"
+   ],
+   "question": "Arrange and rewrite the terms in each group in correct order to be in a logical sequence beginning with the term that is underlined:\n(a) Snake, Rabbit, Cabbage, Hawk. (begin with Cabbage)\n(b) Xylem, Soil water, Cortical cells, Root hair. (begin with Soil water)\n(c) Receptor, Response, Effector, Spinal Cord. (begin with Receptor)\n(d) Fovea, Lens, Cornea, Conjunctiva. (begin with Conjunctiva)\n(e) Testis, Urethra, Sperm duct, Epididymis. (begin with Testis)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Cabbage, Rabbit, Snake, Hawk (b) Soil water, Root hair, Cortical cells, Xylem (c) Receptor, Spinal cord, Effector, Response (d) Conjunctiva, Cornea, Lens, Fovea (e) Testis, Epididymis, Sperm duct, Urethra",
+   "marking_points": [
+    {
+     "point": "(a) Cabbage, Rabbit, Snake, Hawk",
+     "marks": 1
+    },
+    {
+     "point": "(b) Soil water, Root hair, Cortical cells, Xylem",
+     "marks": 1
+    },
+    {
+     "point": "(c) Receptor, Spinal cord, Effector, Response",
+     "marks": 1
+    },
+    {
+     "point": "(d) Conjunctiva, Cornea, Lens, Fovea",
+     "marks": 1
+    },
+    {
+     "point": "(e) Testis, Epididymis, Sperm duct, Urethra",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Hormone disorders matching",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "hormone hypo/hypersecretion disorders"
+   ],
+   "question": "Match the items given in Column I with most appropriate ones in Column II and rewrite the correct matching pairs:\nColumn I: (a) Hyposecretion of Thyroxine in adults; (b) Hyposecretion of Insulin; (c) Hypersecretion of growth hormone in childhood; (d) Hyposecretion of ADH; (e) Hypersecretion of Thyroxine.\nColumn II: 1. Diabetes insipidus; 2. Myxedema; 3. Dwarfism; 4. Gigantism; 5. Diabetes mellitus; 6. Exophthalmic goitre; 7. Cretinism.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Hyposecretion of Thyroxine in adults",
+     "accepted": [
+      "Myxedema",
+      "Myxoedema",
+      "2"
+     ]
+    },
+    {
+     "prompt": "Hyposecretion of Insulin",
+     "accepted": [
+      "Diabetes mellitus",
+      "5"
+     ]
+    },
+    {
+     "prompt": "Hypersecretion of growth hormone in childhood",
+     "accepted": [
+      "Gigantism",
+      "4"
+     ]
+    },
+    {
+     "prompt": "Hyposecretion of ADH",
+     "accepted": [
+      "Diabetes insipidus",
+      "1"
+     ]
+    },
+    {
+     "prompt": "Hypersecretion of Thyroxine",
+     "accepted": [
+      "Exophthalmic goitre",
+      "Exophthalmic goiter",
+      "Graves' disease",
+      "6"
+     ]
+    }
+   ],
+   "solution": "(a)-2 Myxoedema; (b)-5 Diabetes mellitus; (c)-4 Gigantism; (d)-1 Diabetes insipidus; (e)-6 Exophthalmic goitre",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "other",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Pollution",
+   "topic": "Odd one out and category (mixed chapters)",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "(a) medical waste: Pollution",
+    "(b) air pollutants: Pollution",
+    "(c) urinary system: The Excretory System",
+    "(d) phases of cell cycle: Cell Cycle and Structure of Chromosomes",
+    "(e) ear ossicles: Nervous System and Sense Organs"
+   ],
+   "question": "Choose the odd one out from the following terms and name the category to which the others belong.\n(a) Used bandages, Pesticides, Face masks, Syringes.\n(b) Dust, Smoke, Carbon monoxide, Effluents.\n(c) Uterus, Urethra, Urinary bladder, Ureter.\n(d) Menstrual phase, Telophase, Follicular phase, Luteal phase.\n(e) Malleus, Incus, Cochlea, Stapes.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Pesticides - others are medical waste. (b) Dust - others are industrial air pollutants. (c) Uterus - others are organs of the urinary system. (d) Telophase - others are stages/phases of the menstrual cycle. (e) Cochlea - others are middle ear bones (ear ossicles).",
+   "marking_points": [
+    {
+     "point": "(a) Pesticides; category: medical (biomedical) waste",
+     "marks": 1
+    },
+    {
+     "point": "(b) Dust; category: industrial air pollutants",
+     "marks": 1
+    },
+    {
+     "point": "(c) Uterus; category: organs of the urinary system",
+     "marks": 1
+    },
+    {
+     "point": "(d) Telophase; category: phases of the menstrual cycle",
+     "marks": 1
+    },
+    {
+     "point": "(e) Cochlea; category: middle ear bones (ossicles)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(v)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Location of structures (mixed chapters)",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "(a) thyroid: The Endocrine System",
+    "(b) dura mater: Nervous System and Sense Organs",
+    "(c) amniotic fluid: The Reproductive System",
+    "(d) papillary muscles: The Circulatory System",
+    "(e) islets of Langerhans: The Endocrine System"
+   ],
+   "question": "State the exact location of the following structures:\n(a) Thyroid gland\n(b) Dura mater\n(c) Amniotic fluid\n(d) Papillary muscles\n(e) Islets of Langerhans",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Thyroid gland: visceral compartment of the neck. (b) Dura mater: outermost meninges (of brain and spinal cord). (c) Amniotic fluid: in the amniotic sac surrounding the foetus. (d) Papillary muscles: in the cavity of the ventricles of the heart. (e) Islets of Langerhans: in the pancreas.",
+   "marking_points": [
+    {
+     "point": "Thyroid gland: in the neck (visceral compartment of neck, on either side of trachea/larynx)",
+     "marks": 1
+    },
+    {
+     "point": "Dura mater: outermost of the three meninges covering brain and spinal cord",
+     "marks": 1
+    },
+    {
+     "point": "Amniotic fluid: in the amniotic sac surrounding the foetus",
+     "marks": 1
+    },
+    {
+     "point": "Papillary muscles: inside the ventricles of the heart (attached to the chordae tendineae)",
+     "marks": 1
+    },
+    {
+     "point": "Islets of Langerhans: in the pancreas",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 20,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Photosynthesis",
+   "topic": "Overall photosynthesis equation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "photosynthesis equation"
+   ],
+   "question": "Write the overall chemical equation for photosynthesis.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "6CO2 + 12H2O -> (sunlight, chlorophyll) C6H12O6 + 6O2 + 6H2O (equivalently 6CO2 + 6H2O -> C6H12O6 + 6O2)",
+   "marking_points": [
+    {
+     "point": "Correct balanced equation with sunlight and chlorophyll as conditions",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 21,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Functions of blood",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "functions of blood"
+   ],
+   "question": "Mention any two functions of blood.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Transports oxygen and hormones throughout the body. (b) Transports absorbed nutrients all over the body. (Other acceptable: transports CO2 and wastes, defence against germs, clotting, regulates body temperature.)",
+   "marking_points": [
+    {
+     "point": "First function of blood",
+     "marks": 1
+    },
+    {
+     "point": "Second function of blood",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 22,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Karyokinesis vs cytokinesis",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "karyokinesis vs cytokinesis"
+   ],
+   "question": "Differentiate between Karyokinesis and Cytokinesis.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Karyokinesis: division of the nucleus (karyo = nucleus, kinesis = division). Cytokinesis: division of the cytoplasm, which follows karyokinesis at the end of the cell cycle.",
+   "marking_points": [
+    {
+     "point": "Karyokinesis is division of the nucleus",
+     "marks": 1
+    },
+    {
+     "point": "Cytokinesis is division of the cytoplasm following karyokinesis",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Excess fertiliser reduces yield",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "effects of excess fertilisers on soil"
+   ],
+   "question": "Excessive use of fertilisers in agricultural fields reduces the yield of crops. Justify the statement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Excessive use of fertilisers affects soil fertility and productivity and destroys the rich nutrients of the soil, so the yield of the crop is reduced.",
+   "marking_points": [
+    {
+     "point": "Excess fertiliser damages soil fertility / destroys soil nutrients (soil pollution)",
+     "marks": 1
+    },
+    {
+     "point": "Hence soil productivity falls and crop yield decreases",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(v)",
+   "q_order": 24,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Chemical Coordination in Plants",
+   "topic": "Tropism in shoots and roots",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "phototropism diagram interpretation",
+    "auxin",
+    "geotropism"
+   ],
+   "question": "Study the diagram given below (a shoot growing/bending in response to a stimulus) and answer the questions that follow:\n(a) Name the phenomenon depicted by the shoot in the above diagram.\n(b) Which plant hormone plays an important role in the above movement?\n(c) Complete and rewrite the given statement by filling in the correct terms: Shoots show positive __________ whereas, roots show positive _________.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Phototropism: the shoot bends towards light. (The printed key shows 'photoperiodism', a misprint: photoperiodism is the flowering response to day length.) (b) Auxin. (c) Shoots show positive phototropism whereas roots show positive geotropism.",
+   "marking_points": [
+    {
+     "point": "(a) Phototropism",
+     "marks": 1
+    },
+    {
+     "point": "(b) Auxin(s)",
+     "marks": 1
+    },
+    {
+     "point": "(c) Phototropism; geotropism",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Diagram of a plant shoot bending towards a light source (phototropism).",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2023/p7.jpg"
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 25,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "DNA abbreviation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "DNA full form"
+   ],
+   "question": "Explain the abbreviation - DNA.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "DNA: Deoxyribonucleic Acid.",
+   "marking_points": [
+    {
+     "point": "Deoxyribonucleic Acid",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 26,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Absorption by Roots",
+   "topic": "Active transport definition",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "active transport definition"
+   ],
+   "question": "What is Active transport?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Active transport is the movement of molecules or ions across a cell membrane from a region of LOWER concentration to a region of HIGHER concentration, i.e. against the concentration gradient, using energy (ATP). (The printed key words this as 'in the direction of lower concentration', which is a slip.)",
+   "marking_points": [
+    {
+     "point": "Movement of molecules/ions across the (cell) membrane",
+     "marks": 1
+    },
+    {
+     "point": "Against the concentration gradient (lower to higher concentration) using energy (ATP)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 27,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "DNA base pairing",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "complementary base pairing A-T, G-C"
+   ],
+   "question": "Mention the two pairs of nitrogenous bases which pair with each other with hydrogen bonds.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Adenine-Thymine (A-T) and Guanine-Cytosine (G-C).",
+   "marking_points": [
+    {
+     "point": "Adenine pairs with Thymine (A-T)",
+     "marks": 1
+    },
+    {
+     "point": "Guanine pairs with Cytosine (G-C)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(iv)",
+   "q_order": 28,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Genetics",
+   "topic": "Law of segregation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Mendel's law of segregation"
+   ],
+   "question": "State Mendel's Law of Segregation.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "During gamete formation the two alleles of a gene separate (segregate) from each other so that each gamete receives only one allele of the gene.",
+   "marking_points": [
+    {
+     "point": "Alleles (factors) of a gene separate during gamete formation",
+     "marks": 1
+    },
+    {
+     "point": "Each gamete receives only one allele / gametes are pure",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(v)",
+   "q_order": 29,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Reproductive System",
+   "topic": "Human sperm diagram",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "structure of human sperm"
+   ],
+   "question": "Draw a neat, labelled diagram of a human sperm.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Diagram of a human sperm showing: head (containing nucleus, with acrosome as a cap at the tip), neck (with centriole), middle piece (with mitochondria spirally arranged), and a long tail (flagellum) with end piece.",
+   "marking_points": [
+    {
+     "point": "Neat, proportionate diagram showing head, middle piece and tail",
+     "marks": 1
+    },
+    {
+     "point": "Labels: acrosome, nucleus, head (any two correct labels)",
+     "marks": 1
+    },
+    {
+     "point": "Labels: middle piece/mitochondria, tail (any two correct labels)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 30,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Human Population",
+   "topic": "Population density",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "population density"
+   ],
+   "question": "Explain the term 'Population density'.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Population density is the number of individuals (people) per unit area.",
+   "marking_points": [
+    {
+     "point": "Number of individuals/people per unit area",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 31,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Human Population",
+   "topic": "Surgical birth control methods",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "vasectomy and tubectomy"
+   ],
+   "question": "Name the two surgical methods of population control.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Vasectomy (in males) and Tubectomy (in females).",
+   "marking_points": [
+    {
+     "point": "Vasectomy",
+     "marks": 1
+    },
+    {
+     "point": "Tubectomy",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 32,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Human Population",
+   "topic": "Causes of population explosion",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "causes of population explosion"
+   ],
+   "question": "Mention two factors responsible for population explosion in India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) Less awareness about control measures and family planning. (2) Desire for a male child in most families. (Also acceptable: illiteracy, early marriage, decreased death rate, better medical facilities.)",
+   "marking_points": [
+    {
+     "point": "First factor",
+     "marks": 1
+    },
+    {
+     "point": "Second factor",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5(iv)",
+   "q_order": 33,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Human Population",
+   "topic": "Resources under population pressure",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "resources under population pressure"
+   ],
+   "question": "Name any two resources which come under pressure due to rising population.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Water, food (also land, fuel, forests, energy).",
+   "marking_points": [
+    {
+     "point": "First resource",
+     "marks": 1
+    },
+    {
+     "point": "Second resource",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5(v)",
+   "q_order": 34,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Global warming causes and prevention",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "global warming causes and prevention"
+   ],
+   "question": "The diagram given below depicts the climate change on planet Earth (greenhouse effect: heat trapped in the atmosphere by gases, raising Earth's temperature). Answer the following questions:\n(a) Name the climate phenomenon for the increase in Earth's temperature.\n(b) Mention one reason for this warming.\n(c) What measure can be taken to prevent this climate change?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Global warming. (b) Any one: high emission of greenhouse gases; deforestation (fewer trees to absorb gases); high fuel utilisation. (c) Afforestation (plant more trees); reduce fossil fuel consumption; save water and electricity.",
+   "marking_points": [
+    {
+     "point": "(a) Global warming",
+     "marks": 1
+    },
+    {
+     "point": "(b) One valid reason",
+     "marks": 1
+    },
+    {
+     "point": "(c) One valid preventive measure",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Diagram of the greenhouse effect on Earth: sun's radiation reaching Earth, heat reflected back and trapped by a layer of greenhouse gases in the atmosphere.",
+   "page": 8,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2023/p8.jpg"
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 35,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Transpiration",
+   "topic": "Definition of transpiration",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "transpiration definition"
+   ],
+   "question": "Define the term Transpiration.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Transpiration is the loss of water (as vapour) from the aerial parts of the plant, through the stomata of leaves and lenticels of stems.",
+   "marking_points": [
+    {
+     "point": "Loss of water as vapour from aerial parts of plant through stomata/lenticels",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 36,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Transpiration",
+   "topic": "Adaptations reducing transpiration",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "xerophytic adaptations to reduce transpiration"
+   ],
+   "question": "State any two adaptations in plants to reduce transpiration.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sunken stomata in xerophytes; thick cuticle layer on leaves. (Also: reduced leaves/spines, rolling of leaves, stomata closing.)",
+   "marking_points": [
+    {
+     "point": "First adaptation",
+     "marks": 1
+    },
+    {
+     "point": "Second adaptation",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 37,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Reproductive System",
+   "topic": "Functions of placenta",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "functions of placenta"
+   ],
+   "question": "Mention any two functions of the human foetal placenta.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Provides nutrition and oxygen to the foetus from the mother. (b) Removes waste produced by the foetus. (Also: secretes hormones, acts as barrier against harmful substances.)",
+   "marking_points": [
+    {
+     "point": "First function",
+     "marks": 1
+    },
+    {
+     "point": "Second function",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(iv)",
+   "q_order": 38,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Reproductive System",
+   "topic": "Scrotal location of testes",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "scrotum temperature regulation for spermatogenesis"
+   ],
+   "question": "What is the significance of the human testes being located in scrotal sacs outside the abdomen?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Testes lie outside the abdominal cavity because sperm formation requires a temperature about 2 degrees C lower than the normal body temperature; the scrotal sacs provide this.",
+   "marking_points": [
+    {
+     "point": "Sperm formation (spermatogenesis) needs lower temperature",
+     "marks": 1
+    },
+    {
+     "point": "About 2 degrees C below body temperature, provided by position outside the abdomen",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(v)",
+   "q_order": 39,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Excretory System",
+   "topic": "Malpighian capsule diagram",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Malpighian capsule structure"
+   ],
+   "question": "Draw a neat, labelled diagram of Malpighian capsule.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Diagram of Malpighian (Bowman's) capsule: cup-shaped capsule enclosing a glomerulus (tuft of capillaries), with afferent arteriole (wider) entering, efferent arteriole (narrower) leaving, and the capsule continuing into the proximal convoluted tubule.",
+   "marking_points": [
+    {
+     "point": "Neat diagram of cup-shaped capsule enclosing glomerulus",
+     "marks": 1
+    },
+    {
+     "point": "Labels: Bowman's capsule, glomerulus (any two)",
+     "marks": 1
+    },
+    {
+     "point": "Labels: afferent arteriole, efferent arteriole, beginning of tubule (any two)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 40,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Reflex action definition",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "reflex action definition"
+   ],
+   "question": "What is a Reflex action?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Reflex action is an automatic, mechanical and quick response to a stimulus acting on a specific receptor, without the will (conscious control) of the individual.",
+   "marking_points": [
+    {
+     "point": "Automatic, quick response to a stimulus without conscious will",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 41,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Excretory System",
+   "topic": "Renal cortex vs medulla appearance",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "renal cortex vs medulla nephron parts"
+   ],
+   "question": "Renal cortex has a dotted appearance and Renal medulla has a striped appearance. Explain.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The renal cortex appears dotted because it contains the Malpighian bodies and convoluted parts of the tubule (proximal and distal convoluted tubules). The renal medulla appears striped because it contains the straight tubular parts of nephrons (loops of Henle) and collecting ducts.",
+   "marking_points": [
+    {
+     "point": "Cortex dotted: Malpighian bodies/convoluted tubules cut in section",
+     "marks": 1
+    },
+    {
+     "point": "Medulla striped: straight tubular parts (loop of Henle, collecting ducts)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 42,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Functions of cerebellum",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "functions of cerebellum"
+   ],
+   "question": "What are the two functions of cerebellum?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) Coordinates muscular activities (voluntary actions). (2) Maintains equilibrium (balance and posture) of the body.",
+   "marking_points": [
+    {
+     "point": "Coordinates voluntary muscular activity",
+     "marks": 1
+    },
+    {
+     "point": "Maintains balance/equilibrium and posture",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "7(iv)",
+   "q_order": 43,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Semicircular canals vs utriculus",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "semicircular canals vs utriculus function"
+   ],
+   "question": "Distinguish between Semicircular canals and Utriculus based on their function.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Semicircular canals are fluid-filled canals that detect rotational (dynamic) movement and help in balancing the body. The utriculus detects the position of the head and helps in orientation and static equilibrium.",
+   "marking_points": [
+    {
+     "point": "Semicircular canals: dynamic balance / rotational movements",
+     "marks": 1
+    },
+    {
+     "point": "Utriculus: static equilibrium / head orientation",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "7(v)",
+   "q_order": 44,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Photosynthesis",
+   "topic": "Variegated leaf chlorophyll experiment",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "variegated leaf experiment chlorophyll necessity",
+    "destarching",
+    "starch test"
+   ],
+   "question": "A potted plant with variegated leaves was kept in dark for 24 hours and then placed in bright sunlight. Answer the following questions (diagram shows a variegated leaf with green and yellow/white patches):\n(a) Which aspect of photosynthesis is being tested in the above diagram?\n(b) Why was the plant kept in dark for 24 hours?\n(c) After the starch test what will be the colour of the yellow and green parts of the leaf? Give reasons to support your answer.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Necessity of chlorophyll for photosynthesis. (b) To destarch the leaf, i.e. remove all starch already present. (c) Yellow (non-green) part stays yellowish/brown with iodine as no starch is formed (no chlorophyll); green part turns blue-black as starch is formed. Hence chlorophyll is necessary for photosynthesis.",
+   "marking_points": [
+    {
+     "point": "(a) Necessity of chlorophyll",
+     "marks": 1
+    },
+    {
+     "point": "(b) To destarch the leaf / remove all starch",
+     "marks": 1
+    },
+    {
+     "point": "(c) Yellow part: no blue-black colour (brown/yellow); green part: blue-black, with reason that chlorophyll is needed to make starch",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Variegated leaf of a potted plant with green and yellow (non-green) patches, used in the starch test.",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2023/p9.jpg"
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 45,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Genetics",
+   "topic": "Definition of mutation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "mutation definition"
+   ],
+   "question": "Define the term Mutation.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Mutation is a sudden heritable change in the base-pair sequence of DNA (genetic material) caused by factors such as radiation and chemicals.",
+   "marking_points": [
+    {
+     "point": "Sudden heritable change in DNA/genes",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 46,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Genetics",
+   "topic": "Monohybrid cross F2 ratios",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "monohybrid cross F2 Punnett square",
+    "phenotypic and genotypic ratio"
+   ],
+   "question": "A pure breeding red flower variety of pea plant (RR) is crossed with a pure breeding white flower variety of pea plant (rr). Draw a Punnett square to find out the Phenotypic and Genotypic ratios of the progeny belonging to the F2 generation.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "F1: all Rr (red). F1 x F1: Rr x Rr, gametes R, r from each parent. Punnett square: RR, Rr / Rr, rr. F2 phenotypic ratio 3 red : 1 white; genotypic ratio 1 RR : 2 Rr : 1 rr.",
+   "marking_points": [
+    {
+     "point": "Correct Punnett square (gametes R, r x R, r giving RR, Rr, Rr, rr)",
+     "marks": 1
+    },
+    {
+     "point": "Phenotypic ratio 3:1 and genotypic ratio 1:2:1",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 47,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Transpiration",
+   "topic": "Leaf rolling in hot sun",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "leaf rolling reduces transpiration"
+   ],
+   "question": "Leaves of certain plants roll up on a hot sunny day. Explain by giving suitable reasons.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Leaves roll up on a hot day to reduce the exposed surface area (and enclose the stomata), which reduces the rate of transpiration and prevents excess water loss.",
+   "marking_points": [
+    {
+     "point": "Rolling reduces surface area exposed",
+     "marks": 1
+    },
+    {
+     "point": "Hence reduces transpiration / water loss",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "8(iv)",
+   "q_order": 48,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Absorption by Roots",
+   "topic": "Semipermeable membrane",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "semipermeable membrane",
+    "plasma membrane"
+   ],
+   "question": "What is the semi permeable membrane? Name the semi permeable membrane present in a plant cell.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A semi-permeable membrane allows only certain molecules (e.g. water) to pass through it by diffusion/osmosis and not others. In a plant cell it is the plasma membrane (cell membrane).",
+   "marking_points": [
+    {
+     "point": "Definition: allows only certain molecules to pass",
+     "marks": 1
+    },
+    {
+     "point": "Plasma membrane",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "8(v)",
+   "q_order": 49,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Heart contraction phase, systole diastole",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "heart phase identification from diagram",
+    "systole vs diastole"
+   ],
+   "question": "The diagram below depicts the human heart in one of its phases (ventricles contracting, blood leaving through aorta and pulmonary artery). Answer the questions that follow:\n(a) Which part of the heart is in the contraction phase?\n(b) Give a suitable reason to justify your answer in (a).\n(c) Distinguish between Systole and Diastole.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Ventricles (ventricular systole). (b) The ventricles contract to pump blood forcefully into the aorta and the pulmonary artery. (c) Systole: contraction of the heart to pump blood out; Diastole: relaxation of the heart after contraction.",
+   "marking_points": [
+    {
+     "point": "(a) Ventricles",
+     "marks": 1
+    },
+    {
+     "point": "(b) Pump blood forcefully into aorta and pulmonary artery",
+     "marks": 1
+    },
+    {
+     "point": "(c) Systole is contraction, diastole is relaxation",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Diagram of the human heart in one phase of the cardiac cycle, with the ventricles shown contracting and blood leaving through the aorta and pulmonary artery.",
+   "page": 10,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2023/p10.jpg"
+  }
+ ]
+}

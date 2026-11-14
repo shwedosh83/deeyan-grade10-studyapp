@@ -1,0 +1,2695 @@
+{
+ "paper_id": "biology_2025",
+ "subject": "biology",
+ "year": 2025,
+ "sem": null,
+ "label": "2025",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Section A is compulsory. Attempt any four questions from Section B.",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 40,
+   "rule": "Attempt any four questions from this Section",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Human Population",
+   "topic": "Natality definition",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "natality definition"
+   ],
+   "question": "The number of live births per thousand people per year is called:",
+   "options": {
+    "a": "Mortality",
+    "b": "Population density",
+    "c": "Population growth rate",
+    "d": "Natality"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Natality. Natality (birth rate) is the number of births per 1000 individuals per year.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Ciliary body of eye",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "ciliary body location in eye"
+   ],
+   "question": "The structure that lies at the junction of the choroid and the iris and is itself a part of the choroid is called:",
+   "options": {
+    "a": "Ciliary body",
+    "b": "Suspensory ligament",
+    "c": "Pupil",
+    "d": "Lens"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Ciliary body. The ciliary body adjusts the lens for accommodation and produces aqueous humour.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Seminal vesicle alkaline secretion",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 3,
+   "concepts": [
+    "seminal vesicle secretion",
+    "ejaculatory duct vs ureter",
+    "vaginal acidity"
+   ],
+   "question": "Assertion (A): Seminal vesicles pour an alkaline secretion into the semen as it passes through the ureter.\nReason (R): The female vagina is acidic and needs to be neutralized for sperm survival.",
+   "options": {
+    "a": "(A) is true and (R) is false.",
+    "b": "(A) is false and (R) is true.",
+    "c": "Both (A) and (R) are true.",
+    "d": "Both (A) and (R) are false."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) (A) is false and (R) is true.. (A) is false: the secretion is added as semen passes through the ejaculatory duct, not the ureter. (R) is true.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Oxytocin and uterine contractions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "oxytocin and uterine contractions"
+   ],
+   "question": "The hormone that induces vigorous contractions of the uterus in a pregnant mother is:",
+   "options": {
+    "a": "Oestrogen",
+    "b": "Prolactin",
+    "c": "Oxytocin",
+    "d": "Progesterone"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Oxytocin. Oxytocin stimulates uterine muscle contraction during childbirth.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Genetics",
+   "topic": "Acquired traits not inherited",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "acquired vs inherited traits",
+    "somatic vs germ cell changes"
+   ],
+   "question": "A scientist wanted to conduct a genetic experiment on mice. He cut the tails of all the mice and made them reproduce. What will be the phenotype of the offsprings?",
+   "options": {
+    "a": "All the offsprings will be tailless.",
+    "b": "There will be a mix of tailed and tailless offsprings.",
+    "c": "All the offsprings will have tails.",
+    "d": "Tail of the offsprings cannot be predicted."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) All the offsprings will have tails.. Tail cutting is an acquired trait affecting somatic cells, not germ cells, so it is not inherited.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Turgor and wall pressure",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 4,
+   "concepts": [
+    "turgor pressure vs wall pressure",
+    "turgid cell equilibrium"
+   ],
+   "question": "Assertion (A): A turgid plant cell is in a balanced state.\nReason (R): In a turgid cell, turgor pressure and wall pressure are equal and in the same direction.",
+   "options": {
+    "a": "(A) is true and (R) is false.",
+    "b": "(A) is false and (R) is true.",
+    "c": "Both (A) and (R) are true.",
+    "d": "Both (A) and (R) are false."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) (A) is true and (R) is false.. (A) is true: no net water movement. (R) is false: turgor pressure and wall pressure are equal but act in opposite directions.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Photosynthesis",
+   "topic": "Optimum temperature for photosynthesis",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "optimum temperature for photosynthesis"
+   ],
+   "question": "The optimum temperature for photosynthesis is:",
+   "options": {
+    "a": "10 - 15°C",
+    "b": "60 - 65°C",
+    "c": "40 - 45°C",
+    "d": "25 - 35°C"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 25 - 35°C. Photosynthesis is optimum at 25-35°C.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Genetics",
+   "topic": "Parental genotype from tongue rolling",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "monohybrid cross inference of parental genotype",
+    "dominant and recessive traits"
+   ],
+   "question": "Ajay and Vijay are siblings. Ajay can roll his tongue while Vijay cannot. What is the genotype of their parents?",
+   "options": {
+    "a": "Both the parents are homozygous dominant.",
+    "b": "Both the parents are homozygous recessive.",
+    "c": "One parent is homozygous dominant, and the other is homozygous recessive.",
+    "d": "Both the parents are heterozygous dominant."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Both the parents are heterozygous dominant.. Tongue rolling is dominant; Vijay is recessive (two recessive alleles), so each parent must carry one recessive allele yet roll the tongue, i.e. both are heterozygous.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "ADH and urine volume",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "ADH and water reabsorption",
+    "diabetes insipidus"
+   ],
+   "question": "Assertion (A): Deficiency of antidiuretic hormone causes an increase in urination.\nReason (R): Antidiuretic hormone acts on the kidney to reabsorb water from the kidney tubules.",
+   "options": {
+    "a": "(A) is true and (R) is false.",
+    "b": "(A) is false and (R) is true.",
+    "c": "Both (A) and (R) are true.",
+    "d": "Both (A) and (R) are false."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Both (A) and (R) are true.. ADH promotes water reabsorption; deficiency means more water is lost as urine.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Telophase spindle disappearance",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "telophase events"
+   ],
+   "question": "A phase of cell division where the spindle fibres disappear is:",
+   "options": {
+    "a": "Telophase",
+    "b": "Prophase",
+    "c": "Metaphase",
+    "d": "Anaphase"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Telophase. In telophase the nuclear membrane and nucleolus reappear and spindle fibres disappear.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Meninges, myelin, neurotransmitter",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 3,
+   "concepts": [
+    "meninges vs myelin sheath",
+    "acetylcholine at synapse"
+   ],
+   "question": "Assertion (A): Arachnoid layer helps in speeding up the transmission of nerve impulses along the axons.\nReason (R): Axon endings at the synapse secrete acetylene.",
+   "options": {
+    "a": "(A) is true and (R) is false.",
+    "b": "(A) is false and (R) is true.",
+    "c": "Both (A) and (R) are true.",
+    "d": "Both (A) and (R) are false."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Both (A) and (R) are false.. (A) false: arachnoid is a meninx; the myelin sheath speeds up impulses. (R) false: the neurotransmitter is acetylcholine.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Pollution",
+   "topic": "Thermal pollution",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "thermal pollution"
+   ],
+   "question": "Many nuclear power plants are constructed near water sources. They use water for cooling their machinery and release it back into the water stream. Identify the kind of pollution caused.",
+   "options": {
+    "a": "Radiation pollution",
+    "b": "Water pollution",
+    "c": "Industrial pollution",
+    "d": "Thermal pollution"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Thermal pollution. Release of heated water raises the temperature of the water body: thermal pollution.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Rods and rhodopsin night vision",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "rods and rhodopsin in night vision"
+   ],
+   "question": "Owls are nocturnal animals. They are active at night and hunt small animals for food. Owls have large eyes and can see well at night. This is due to:",
+   "options": {
+    "a": "Cones and Rhodopsin",
+    "b": "Rods and Iodopsin",
+    "c": "Rods and Rhodopsin",
+    "d": "Cones and Iodopsin"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Rods and Rhodopsin. Rods with rhodopsin give vision in dim light.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Chemical Coordination in Plants",
+   "topic": "Tropisms and stimuli",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "tropisms and their stimuli",
+    "table matching"
+   ],
+   "question": "Sunil tried to match the tropic movements in plants with the stimulus they respond to. The tabulation is given below:\nP: Thigmotropism - Touch\nQ: Geotropism - Water\nR: Chemotropism - Chemicals\nS: Phototropism - Gravity\nIdentify the correct pair:",
+   "options": {
+    "a": "P and R",
+    "b": "Q and S",
+    "c": "R and S",
+    "d": "P and R"
+   },
+   "is_objective": true,
+   "correct_option": "a,d",
+   "answer_items": null,
+   "solution": "(a) P and R. Thigmotropism-touch (P) and chemotropism-chemicals (R) are the correct pairs. The paper prints options (a) and (d) identically, so both are marked correct.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Exophthalmic goitre cause",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "goitre types",
+    "thyroxine hyper/hyposecretion"
+   ],
+   "question": "Observe the following picture, identify the defect and the cause of the defect.",
+   "options": {
+    "a": "Simple goitre, under secretion of thyroxine.",
+    "b": "Ex-ophthalmic goitre, over secretion of thyroxine.",
+    "c": "Simple goitre, over secretion of thyroxine.",
+    "d": "Ex-ophthalmic goitre, under secretion of thyroxine."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Ex-ophthalmic goitre, over secretion of thyroxine. Exophthalmic goitre (Graves' disease) is caused by hypersecretion of thyroid hormone, with bulging eyes.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Picture of a person with an enlarged neck (thyroid) and bulging eyes (exophthalmos).",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2025/p7.jpg"
+  },
+  {
+   "q_label": "2(i)(a)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Graafian follicle",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Graafian follicle"
+   ],
+   "question": "Name the following: The fully developed part of the ovary containing a mature ovum.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The fully developed part of the ovary containing a mature ovum.",
+     "accepted": [
+      "Graafian follicle",
+      "Graffian follicle"
+     ]
+    }
+   ],
+   "solution": "Graafian follicle",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(i)(b)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transpiration",
+   "topic": "Cuticle",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "cuticle and transpiration"
+   ],
+   "question": "Name the following: A waxy layer on the upper epidermis of leaves meant to reduce transpiration.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "A waxy layer on the upper epidermis of leaves meant to reduce transpiration.",
+     "accepted": [
+      "Cuticle"
+     ]
+    }
+   ],
+   "solution": "Cuticle",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(i)(c)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Stapes ossicle",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "stapes and oval window"
+   ],
+   "question": "Name the following: The ear ossicle which opens into the oval window of cochlea.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The ear ossicle which opens into the oval window of cochlea.",
+     "accepted": [
+      "Stapes",
+      "stirrup"
+     ]
+    }
+   ],
+   "solution": "Stapes",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(i)(d)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Photosynthesis",
+   "topic": "Start of food chains",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "photosynthesis as the start of food chains"
+   ],
+   "question": "Name the following: The physiological process which is the starting point of all food chains.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The physiological process which is the starting point of all food chains.",
+     "accepted": [
+      "Photosynthesis"
+     ]
+    }
+   ],
+   "solution": "Photosynthesis",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(i)(e)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Human Evolution",
+   "topic": "Industrial melanism peppered moth",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "industrial melanism, peppered moth"
+   ],
+   "question": "Name the following: An insect which is a classic example of natural selection due to industrial melanism.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "An insect which is a classic example of natural selection due to industrial melanism.",
+     "accepted": [
+      "Biston betularia",
+      "peppered moth"
+     ]
+    }
+   ],
+   "solution": "Biston betularia (peppered moth)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(ii)(a)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Heart membrane pericardium",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "pericardium"
+   ],
+   "question": "Given below is the diagram of a human heart. The heart is enclosed by a membrane called (a) __________. The ventricles give rise to two large blood vessels called (b) __________ and (c) __________. The flaps of the cuspid valves are kept in position by (d) __________. (e) __________ arteries supply oxygenated blood to the walls of the heart.\nFill in blank (a).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The heart is enclosed by a membrane called ____",
+     "accepted": [
+      "pericardium"
+     ]
+    }
+   ],
+   "solution": "pericardium",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(ii)(b)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Vessels from ventricles: aorta",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "aorta from left ventricle"
+   ],
+   "question": "Given below is the diagram of a human heart. The heart is enclosed by a membrane called (a) __________. The ventricles give rise to two large blood vessels called (b) __________ and (c) __________. The flaps of the cuspid valves are kept in position by (d) __________. (e) __________ arteries supply oxygenated blood to the walls of the heart.\nFill in blank (b).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The ventricles give rise to two large blood vessels called ____ (first)",
+     "accepted": [
+      "aorta"
+     ]
+    }
+   ],
+   "solution": "aorta",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(ii)(c)",
+   "q_order": 22,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Vessels from ventricles: pulmonary",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "pulmonary artery from right ventricle"
+   ],
+   "question": "Given below is the diagram of a human heart. The heart is enclosed by a membrane called (a) __________. The ventricles give rise to two large blood vessels called (b) __________ and (c) __________. The flaps of the cuspid valves are kept in position by (d) __________. (e) __________ arteries supply oxygenated blood to the walls of the heart.\nFill in blank (c).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The ventricles give rise to aorta and ____ (second)",
+     "accepted": [
+      "pulmonary trunk",
+      "pulmonary artery"
+     ]
+    }
+   ],
+   "solution": "pulmonary trunk or pulmonary artery",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(ii)(d)",
+   "q_order": 23,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Chordae tendineae",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "chordae tendineae"
+   ],
+   "question": "Given below is the diagram of a human heart. The heart is enclosed by a membrane called (a) __________. The ventricles give rise to two large blood vessels called (b) __________ and (c) __________. The flaps of the cuspid valves are kept in position by (d) __________. (e) __________ arteries supply oxygenated blood to the walls of the heart.\nFill in blank (d).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The flaps of the cuspid valves are kept in position by ____",
+     "accepted": [
+      "chordae tendineae"
+     ]
+    }
+   ],
+   "solution": "chordae tendineae",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(ii)(e)",
+   "q_order": 24,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Coronary arteries",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "coronary arteries"
+   ],
+   "question": "Given below is the diagram of a human heart. The heart is enclosed by a membrane called (a) __________. The ventricles give rise to two large blood vessels called (b) __________ and (c) __________. The flaps of the cuspid valves are kept in position by (d) __________. (e) __________ arteries supply oxygenated blood to the walls of the heart.\nFill in blank (e).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "____ arteries supply oxygenated blood to the walls of the heart",
+     "accepted": [
+      "coronary",
+      "coronary arteries"
+     ]
+    }
+   ],
+   "solution": "coronary",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iii)(a)",
+   "q_order": 25,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "other",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Photosynthesis",
+   "topic": "Leaf layers sequence",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "leaf tissue layers order"
+   ],
+   "question": "Arrange the terms in the correct order, writing them in a logical sequence beginning with the underlined term: Palisade cells, Cuticle, Upper epidermis, Spongy cells (begin with Cuticle).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Correct sequence",
+     "accepted": [
+      "Cuticle, Upper epidermis, Palisade cells, Spongy cells",
+      "Cuticle -> Upper epidermis -> Palisade cells -> Spongy cells"
+     ]
+    }
+   ],
+   "solution": "Cuticle, Upper epidermis, Palisade cells, Spongy cells",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iii)(b)",
+   "q_order": 26,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "other",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Hepatic portal circulation sequence",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "hepatic portal system pathway"
+   ],
+   "question": "Arrange the terms in the correct order, writing them in a logical sequence beginning with the underlined term: Hepatic portal vein, Stomach, Hepatic vein, Liver (begin with Stomach).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Correct sequence",
+     "accepted": [
+      "Stomach, Hepatic portal vein, Liver, Hepatic vein",
+      "Stomach -> Hepatic portal vein -> Liver -> Hepatic vein"
+     ]
+    }
+   ],
+   "solution": "Stomach, Hepatic portal vein, Liver, Hepatic vein",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iii)(c)",
+   "q_order": 27,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "other",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Nerve impulse path in neuron",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "impulse path through a neuron and synapse"
+   ],
+   "question": "Arrange the terms in the correct order, writing them in a logical sequence beginning with the underlined term: Cyton, Dendrites, Synaptic cleft, Axon endings (begin with Dendrites).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Correct sequence",
+     "accepted": [
+      "Dendrites, Cyton, Axon endings, Synaptic cleft",
+      "Dendrites -> Cyton -> Axon endings -> Synaptic cleft"
+     ]
+    }
+   ],
+   "solution": "Dendrites, Cyton, Axon endings, Synaptic cleft",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iii)(d)",
+   "q_order": 28,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "other",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Insulin feedback sequence",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "insulin feedback for blood sugar"
+   ],
+   "question": "Arrange the terms in the correct order, writing them in a logical sequence beginning with the underlined term: Insulin release, High blood sugar, Lowers blood sugar, Stimulates glucose uptake from blood (begin with High blood sugar).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Correct sequence",
+     "accepted": [
+      "High blood sugar, Insulin release, Stimulates glucose uptake from blood, Lowers blood sugar",
+      "High blood sugar -> Insulin release -> Stimulates glucose uptake from blood -> Lowers blood sugar"
+     ]
+    }
+   ],
+   "solution": "High blood sugar, Insulin release, Stimulates glucose uptake from blood, Lowers blood sugar",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iii)(e)",
+   "q_order": 29,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "other",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Sperm pathway sequence",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "sperm path in testis and ducts"
+   ],
+   "question": "Arrange the terms in the correct order, writing them in a logical sequence beginning with the underlined term: Sperm duct, Seminiferous tubule, Epididymis, Efferent ducts (begin with Seminiferous tubule).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Correct sequence",
+     "accepted": [
+      "Seminiferous tubules, Efferent ducts, Epididymis, Sperm duct",
+      "Seminiferous tubules -> Efferent ducts -> Epididymis -> Sperm duct"
+     ]
+    }
+   ],
+   "solution": "Seminiferous tubules, Efferent ducts, Epididymis, Sperm duct",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iv)(a)",
+   "q_order": 30,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Inguinal canal",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "inguinal canal"
+   ],
+   "question": "Read the explanation and name the structure: The canal through which the testes descend down into the scrotum just before the birth of a male baby.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The canal through which the testes descend down into the scrotum just before the birth of a male baby.",
+     "accepted": [
+      "Inguinal canal"
+     ]
+    }
+   ],
+   "solution": "Inguinal canal",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iv)(b)",
+   "q_order": 31,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Medulla oblongata function",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "medulla oblongata functions"
+   ],
+   "question": "Read the explanation and name the structure: The part of the brain that regulates the peristaltic movement of the alimentary canal.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The part of the brain that regulates the peristaltic movement of the alimentary canal.",
+     "accepted": [
+      "Medulla oblongata",
+      "medulla"
+     ]
+    }
+   ],
+   "solution": "Medulla (oblongata), part of hind brain",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iv)(c)",
+   "q_order": 32,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Pinna",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "pinna"
+   ],
+   "question": "Read the explanation and name the structure: A structure that collects the soundwaves and conducts them through the external auditory canal.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "A structure that collects the soundwaves and conducts them through the external auditory canal.",
+     "accepted": [
+      "Pinna",
+      "auricle"
+     ]
+    }
+   ],
+   "solution": "Pinna",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iv)(d)",
+   "q_order": 33,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Centromere",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "centromere"
+   ],
+   "question": "Read the explanation and name the structure: The point of attachment of two chromatids of a chromosome.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The point of attachment of two chromatids of a chromosome.",
+     "accepted": [
+      "Centromere"
+     ]
+    }
+   ],
+   "solution": "Centromere",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iv)(e)",
+   "q_order": 34,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transpiration",
+   "topic": "Guard cells",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "guard cells"
+   ],
+   "question": "Read the explanation and name the structure: Regulation of the opening and closing of stomata.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Regulation of the opening and closing of stomata.",
+     "accepted": [
+      "Guard cells"
+     ]
+    }
+   ],
+   "solution": "Guard cells",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(v)(a)",
+   "q_order": 35,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Pituitary function matching",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "identify pituitary from body diagram",
+    "gland functions"
+   ],
+   "question": "Given an outline of the human body showing the important endocrine glands, match the gland marked (a) with its correct function. Functions: 1. Prepares the body to face stress. 2. Secretes tropic hormones. 3. Secretes oestrogens. 4. Maintains blood sugar level. 5. Regulates basal metabolism. 6. Secretes testosterone. (Example: (f) - 6. Secretes testosterone.)",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Function of gland (a) in the outline",
+     "accepted": [
+      "2",
+      "Secretes tropic hormones",
+      "pituitary"
+     ]
+    }
+   ],
+   "solution": "(a) pituitary - 2. Secretes tropic hormones",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Outline of the human body with endocrine glands marked (a) to (f): (a) pituitary, (b) thyroid, (c) adrenal, (d) pancreas, (e) ovary, (f) testis.",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2025/p9.jpg"
+  },
+  {
+   "q_label": "2(v)(b)",
+   "q_order": 36,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Thyroid function matching",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "identify thyroid from body diagram",
+    "basal metabolism"
+   ],
+   "question": "Given an outline of the human body showing the important endocrine glands, match the gland marked (b) with its correct function. Functions: 1. Prepares the body to face stress. 2. Secretes tropic hormones. 3. Secretes oestrogens. 4. Maintains blood sugar level. 5. Regulates basal metabolism. 6. Secretes testosterone. (Example: (f) - 6. Secretes testosterone.)",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Function of gland (b) in the outline",
+     "accepted": [
+      "5",
+      "Regulates basal metabolism",
+      "thyroid"
+     ]
+    }
+   ],
+   "solution": "(b) thyroid - 5. Regulates basal metabolism",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Outline of the human body with endocrine glands marked (a) to (f): (a) pituitary, (b) thyroid, (c) adrenal, (d) pancreas, (e) ovary, (f) testis.",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2025/p9.jpg"
+  },
+  {
+   "q_label": "2(v)(c)",
+   "q_order": 37,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Adrenal function matching",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "identify adrenal gland from body diagram",
+    "emergency hormone"
+   ],
+   "question": "Given an outline of the human body showing the important endocrine glands, match the gland marked (c) with its correct function. Functions: 1. Prepares the body to face stress. 2. Secretes tropic hormones. 3. Secretes oestrogens. 4. Maintains blood sugar level. 5. Regulates basal metabolism. 6. Secretes testosterone. (Example: (f) - 6. Secretes testosterone.)",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Function of gland (c) in the outline",
+     "accepted": [
+      "1",
+      "Prepares the body to face stress",
+      "adrenal"
+     ]
+    }
+   ],
+   "solution": "(c) adrenal - 1. Prepares the body to face stress",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Outline of the human body with endocrine glands marked (a) to (f): (a) pituitary, (b) thyroid, (c) adrenal, (d) pancreas, (e) ovary, (f) testis.",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2025/p9.jpg"
+  },
+  {
+   "q_label": "2(v)(d)",
+   "q_order": 38,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Pancreas function matching",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "identify pancreas from body diagram",
+    "blood sugar regulation"
+   ],
+   "question": "Given an outline of the human body showing the important endocrine glands, match the gland marked (d) with its correct function. Functions: 1. Prepares the body to face stress. 2. Secretes tropic hormones. 3. Secretes oestrogens. 4. Maintains blood sugar level. 5. Regulates basal metabolism. 6. Secretes testosterone. (Example: (f) - 6. Secretes testosterone.)",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Function of gland (d) in the outline",
+     "accepted": [
+      "4",
+      "Maintains blood sugar level",
+      "pancreas"
+     ]
+    }
+   ],
+   "solution": "(d) pancreas - 4. Maintains blood sugar level",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Outline of the human body with endocrine glands marked (a) to (f): (a) pituitary, (b) thyroid, (c) adrenal, (d) pancreas, (e) ovary, (f) testis.",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2025/p9.jpg"
+  },
+  {
+   "q_label": "2(v)(e)",
+   "q_order": 39,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Ovary function matching",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "identify ovary from body diagram",
+    "oestrogen"
+   ],
+   "question": "Given an outline of the human body showing the important endocrine glands, match the gland marked (e) with its correct function. Functions: 1. Prepares the body to face stress. 2. Secretes tropic hormones. 3. Secretes oestrogens. 4. Maintains blood sugar level. 5. Regulates basal metabolism. 6. Secretes testosterone. (Example: (f) - 6. Secretes testosterone.)",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Function of gland (e) in the outline",
+     "accepted": [
+      "3",
+      "Secretes oestrogens",
+      "ovary"
+     ]
+    }
+   ],
+   "solution": "(e) ovary - 3. Secretes oestrogens",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Outline of the human body with endocrine glands marked (a) to (f): (a) pituitary, (b) thyroid, (c) adrenal, (d) pancreas, (e) ovary, (f) testis.",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2025/p9.jpg"
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 40,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Photosynthesis",
+   "topic": "Overall photosynthesis equation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "photosynthesis equation"
+   ],
+   "question": "Write the overall chemical equation for photosynthesis.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "6CO2 + 12H2O -> (sunlight, chlorophyll) C6H12O6 + 6O2 + 6H2O",
+   "marking_points": [
+    {
+     "point": "Correct equation with reactants and products (sunlight/chlorophyll conditions)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 41,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Chemical Coordination in Plants",
+   "topic": "Gibberellin and parthenocarpy",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "gibberellin use",
+    "parthenocarpy"
+   ],
+   "question": "Ramesh is a farmer who has a vineyard and cultivates grapes. To improve the shape of the grapes and make them elongated he sprays a particular phytohormone at the time of fruiting.\n(a) Name the phytohormone that Ramesh sprays on the plant at the time of fruiting.\n(b) These grapes are said to be seedless. What is the technical term for the formation of such fruits?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Gibberellin (promotes cell elongation). (b) Parthenocarpy (fruit development without fertilisation, giving seedless fruits).",
+   "marking_points": [
+    {
+     "point": "(a) Gibberellin",
+     "marks": 1
+    },
+    {
+     "point": "(b) Parthenocarpy",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 42,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "DNA base pairing",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "base pairing A-T and G-C"
+   ],
+   "question": "Mention the two pairs of nitrogenous bases that are present in a DNA strand and pair with each other by hydrogen bonds.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Adenine pairs with Thymine (A=T, two hydrogen bonds); Guanine pairs with Cytosine (G≡C, three hydrogen bonds).",
+   "marking_points": [
+    {
+     "point": "Adenine - Thymine",
+     "marks": 1
+    },
+    {
+     "point": "Guanine - Cytosine",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 43,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Airport living disadvantages",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "noise pollution effects"
+   ],
+   "question": "State any two disadvantages of living close to an airport.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) Noise pollution from continuous take-offs and landings, causing stress, sleep disturbance and hearing problems. (2) Air pollution from aircraft emissions, leading to respiratory problems and poor air quality.",
+   "marking_points": [
+    {
+     "point": "Noise pollution (stress, sleep disturbance, hearing problems)",
+     "marks": 1
+    },
+    {
+     "point": "Air pollution from aircraft emissions (respiratory problems)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(v)",
+   "q_order": 44,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Animal cell metaphase diagram",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "metaphase diagram of animal cell"
+   ],
+   "question": "Draw a neat, labelled diagram of an animal cell showing metaphase with four chromosomes.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Diagram: animal cell in metaphase of mitosis; four chromosomes (each of two chromatids joined at a centromere) lined up at the equator, attached by spindle fibres to the two centrioles at opposite poles; no nuclear membrane or nucleolus; cell membrane and cytoplasm shown.",
+   "marking_points": [
+    {
+     "point": "Cell outline with four chromosomes arranged at the equatorial plate, nuclear membrane absent",
+     "marks": 1
+    },
+    {
+     "point": "Spindle fibres attached to centromeres and centrioles at the two poles",
+     "marks": 1
+    },
+    {
+     "point": "Correct labels: chromosome/chromatids, centromere, spindle fibre, centriole, cell membrane, cytoplasm",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 45,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Watson-Crick DNA structure",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "double helix DNA model"
+   ],
+   "question": "What is the structure of DNA as proposed by Watson and Crick?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Double helix: two intertwined antiparallel strands, sugar-phosphate backbone on the outside and nitrogenous bases paired on the inside, like a twisted ladder.",
+   "marking_points": [
+    {
+     "point": "Double helix / twisted ladder with two antiparallel strands, sugar-phosphate backbone outside and paired bases inside",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 46,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Functions of white blood cells",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "phagocytes",
+    "lymphocytes and antibodies"
+   ],
+   "question": "Name the white blood cells that:\n(a) show phagocytosis\n(b) produce antibodies",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Neutrophils, monocytes (macrophages). (b) Lymphocytes.",
+   "marking_points": [
+    {
+     "point": "(a) Neutrophils / monocytes / macrophages",
+     "marks": 1
+    },
+    {
+     "point": "(b) Lymphocytes",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 47,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Completing a food chain",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "completing a food chain from a diagram"
+   ],
+   "question": "Complete the food chain by mentioning the names of the organisms in (c) and (d): (a) -> (b) -> (c) -> (d) (pictures of organisms given for (a) and (b)).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(c) snake; (d) eagle.",
+   "marking_points": [
+    {
+     "point": "(c) snake",
+     "marks": 1
+    },
+    {
+     "point": "(d) eagle",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Four-step food chain of pictures labelled (a), (b), (c), (d); (a) and (b) are shown as pictures (probably grass/plant and an herbivore such as a frog/insect/rodent); (c) and (d) are blank.",
+   "page": 11,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2025/p11.jpg"
+  },
+  {
+   "q_label": "4(iv)",
+   "q_order": 48,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Effects of acid rain",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "effects of acid rain"
+   ],
+   "question": "State any two harmful effects of acid rain.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) Increases soil acidity and destroys forests and crops. (2) Corrodes fences, buildings, monuments, bridges and statues.",
+   "marking_points": [
+    {
+     "point": "Increases soil acidity / destroys forests and crops",
+     "marks": 1
+    },
+    {
+     "point": "Corrodes buildings, monuments, bridges, statues",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "4(v)",
+   "q_order": 49,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Transpiration",
+   "topic": "Water absorption, ascent of sap, transpiration",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "water absorption",
+    "ascent of sap",
+    "transpiration"
+   ],
+   "question": "Given below is a picture of a tree. Mention the scientific phenomena occurring in the parts labelled (a), (b) and (c).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Absorption of water and minerals by the roots. (b) Ascent of sap: upward transport of water and minerals through the stem to the leaves. (c) Transpiration: loss of water vapour from aerial parts such as leaves.",
+   "marking_points": [
+    {
+     "point": "(a) Absorption of water and minerals by roots",
+     "marks": 1
+    },
+    {
+     "point": "(b) Ascent of sap",
+     "marks": 1
+    },
+    {
+     "point": "(c) Transpiration",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Picture of a tree with (a) pointing to the roots, (b) to the stem, (c) to the leaves/aerial parts.",
+   "page": 11,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2025/p11.jpg"
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 50,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Excretory System",
+   "topic": "Micturition",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "micturition"
+   ],
+   "question": "What is Micturition? Explain.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Micturition (urination) is the process of expelling urine from the urinary bladder through the urethra to the outside of the body. It is regulated by the nervous system and smooth muscles in the bladder and urethra.",
+   "marking_points": [
+    {
+     "point": "Expulsion of urine from the bladder through the urethra, controlled by nerves and smooth muscles",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 51,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Biomedical waste",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "biomedical waste"
+   ],
+   "question": "What are biomedical wastes? Give an example.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any solid or liquid waste generated during diagnosis, treatment or immunisation of humans or animals. Examples: used needles, syringes, cotton swabs, body organs, blood, tissues.",
+   "marking_points": [
+    {
+     "point": "Definition: waste from diagnosis, treatment or immunisation of humans/animals",
+     "marks": 1
+    },
+    {
+     "point": "One example (needles, syringes, cotton swabs etc.)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 52,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Reproductive System",
+   "topic": "Urethra versus uterus",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "urethra vs uterus functions"
+   ],
+   "question": "Differentiate between the functions of Urethra and Uterus.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Urethra: tube that expels urine from the urinary bladder to the outside (also carries semen in males); part of excretory system (and reproductive system in males). Uterus: pear-shaped organ of the female reproductive system where the fertilised egg implants and the foetus develops.",
+   "marking_points": [
+    {
+     "point": "Urethra: expels urine (and semen in males)",
+     "marks": 1
+    },
+    {
+     "point": "Uterus: implantation of fertilised egg and development of foetus",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(iv)",
+   "q_order": 53,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Semicircular canals, dynamic balance",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "semicircular canals",
+    "dynamic balance"
+   ],
+   "question": "Rachna is an expert gymnast on the balance beam. She has been vigorously practising for the Olympic Games. Lately, she has been experiencing dizziness and losing her balance during the practise sessions.\n(a) Which part of the membranous labyrinth is responsible for maintaining the body balance on the beam?\n(b) Which type of balance is maintained by the structure mentioned in (a)?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Semicircular canals. (b) Dynamic balance.",
+   "marking_points": [
+    {
+     "point": "(a) Semicircular canals",
+     "marks": 1
+    },
+    {
+     "point": "(b) Dynamic balance",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(v)",
+   "q_order": 54,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Photosynthesis",
+   "topic": "Oxygen release experiment diagram",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Hydrilla experiment, oxygen evolution"
+   ],
+   "question": "Draw a neat, labelled diagram to show that oxygen is released during photosynthesis.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Diagram of the experiment: a beaker of water containing a Hydrilla plant (with a pinch of sodium bicarbonate) covered by an inverted funnel; an inverted water-filled test tube over the funnel stem collects the gas bubbles (oxygen); kept in sunlight. Labels: beaker, water, Hydrilla, funnel, test tube, oxygen bubbles/gas collected, sunlight.",
+   "marking_points": [
+    {
+     "point": "Correct set-up: Hydrilla in water under inverted funnel with inverted test tube over stem",
+     "marks": 1
+    },
+    {
+     "point": "Oxygen gas collecting in the test tube; sunlight shown",
+     "marks": 1
+    },
+    {
+     "point": "Correct labels (beaker, water, Hydrilla, funnel, test tube, oxygen)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 55,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Transpiration",
+   "topic": "Hydathodes location",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "hydathodes and guttation"
+   ],
+   "question": "Where are Hydathodes located?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Hydathodes are pores in the leaf epidermis at the tips or margins of leaves; guttation (loss of water in liquid form) occurs through them.",
+   "marking_points": [
+    {
+     "point": "At the tips/margins of leaves (in the epidermis)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 56,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Human Evolution",
+   "topic": "Vestigial organs",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "vestigial organs, wisdom teeth"
+   ],
+   "question": "What are Vestigial organs? Give one example of a vestigial structure in the human mouth.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Vestigial organs are structures functional in an organism's ancestors that have lost their original function and now serve little or no purpose. Example in the human mouth: wisdom teeth (third molars).",
+   "marking_points": [
+    {
+     "point": "Definition of vestigial organs",
+     "marks": 1
+    },
+    {
+     "point": "Example: wisdom teeth",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 57,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Eustachian tube infection spread",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "Eustachian tube connects throat and middle ear"
+   ],
+   "question": "Ahmed had a severe throat infection. After a few days he developed an earache too. What could be the reason for the pain in his ears? Explain.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The infection spread from the throat to the middle ear through the Eustachian tube, which connects the middle ear to the back of the throat. Swelling or blockage of the tube lets fluid build up in the middle ear, causing pressure and pain.",
+   "marking_points": [
+    {
+     "point": "Infection spreads through the Eustachian tube linking throat and middle ear",
+     "marks": 1
+    },
+    {
+     "point": "Swelling/blockage causes fluid build-up, pressure and pain",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(iv)",
+   "q_order": 58,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Cataract of eye lens",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "cataract and lens opacity"
+   ],
+   "question": "Mr. Sharma is a 76-year-old man. His vision was gradually becoming blurred. He consulted an eye doctor and it was diagnosed as cataract. (Pictures of a healthy eye and a cataract eye given.)\n(a) Which part of the eye does cataract affect?\n(b) Why does the vision become blurred?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) The lens. (b) The lens becomes cloudy/opaque, so light cannot pass through clearly, giving a blurred image on the retina.",
+   "marking_points": [
+    {
+     "point": "(a) Lens",
+     "marks": 1
+    },
+    {
+     "point": "(b) Lens becomes opaque/cloudy so light is not clearly focused on the retina",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(v)",
+   "q_order": 59,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Absorption by Roots",
+   "topic": "Plasmolysed cell labelling",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "plasmolysis diagram labelling"
+   ],
+   "question": "Given below is the diagram of a plasmolysed cortical cell of a root. Copy the diagram and label the following parts: (a) Cytoplasm (b) Hypertonic solution (c) Plasma membrane.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Labelled diagram: cell wall intact; the protoplast has shrunk away from the wall; (a) cytoplasm inside the shrunken protoplast; (b) hypertonic solution in the space between the cell wall and the shrunken plasma membrane; (c) plasma membrane enclosing the shrunken cytoplasm.",
+   "marking_points": [
+    {
+     "point": "Correct copy of plasmolysed cell (shrunken protoplast away from cell wall)",
+     "marks": 1
+    },
+    {
+     "point": "(a) Cytoplasm and (c) plasma membrane correctly labelled",
+     "marks": 1
+    },
+    {
+     "point": "(b) Hypertonic solution labelled in the space between wall and protoplast",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Diagram of a plasmolysed root cortical cell: cell wall, shrunken protoplast with cytoplasm, vacuole and nucleus, gap between wall and protoplast; label lines for (a), (b), (c).",
+   "page": 13,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2025/p13.jpg"
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 60,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Genetics",
+   "topic": "Allele definition",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "allele definition"
+   ],
+   "question": "Define the term Allele.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Alleles are alternate forms of a gene that are responsible for the expression of a trait of a character.",
+   "marking_points": [
+    {
+     "point": "Alternate forms of a gene controlling the same trait",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 61,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Human Population",
+   "topic": "Death rate and resource pressure",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "causes of falling death rate",
+    "resource pressure from population growth"
+   ],
+   "question": "In the last century, the human population has increased tremendously. Death rate has reduced and life expectancy has increased. This rapid growth has placed significant pressure on resources. Global cooperation is needed for environmental preservation.\n(a) Mention any one reason for reduction in the death rate.\n(b) Name any one resource that is under pressure due to population explosion.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Improvement in medical science and technology, with better treatment and prevention of diseases. (b) Freshwater (accept other resources such as food, land, fuel, energy).",
+   "marking_points": [
+    {
+     "point": "(a) Improved medical care / disease prevention (or similar valid reason)",
+     "marks": 1
+    },
+    {
+     "point": "(b) A resource under pressure, e.g. freshwater",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 62,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Reproductive System",
+   "topic": "Functions of amniotic fluid",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "amniotic fluid functions"
+   ],
+   "question": "Mention any two functions of amniotic fluid.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) Acts as a shock absorber, protecting the foetus from injury and keeping a constant temperature around it. (2) Allows free foetal movement, essential for development of bones and muscles.",
+   "marking_points": [
+    {
+     "point": "Shock absorber / protection / constant temperature",
+     "marks": 1
+    },
+    {
+     "point": "Allows free movement of foetus for bone and muscle development",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(iv)",
+   "q_order": 63,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "CFC and CNG abbreviations",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "CFC and CNG full forms"
+   ],
+   "question": "Expand the following abbreviations:\n(a) CFC\n(b) CNG",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Chlorofluorocarbon. (b) Compressed Natural Gas.",
+   "marking_points": [
+    {
+     "point": "(a) Chlorofluorocarbon",
+     "marks": 1
+    },
+    {
+     "point": "(b) Compressed Natural Gas",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(v)",
+   "q_order": 64,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Brain, meninges, sympathetic system",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "brain and meninges",
+    "sympathetic nervous system and adrenaline"
+   ],
+   "question": "Vineet's day begins with a cup of piping hot coffee. Caffeine is a stimulant present in coffee which increases the circulation of Adrenaline in the body. Vineet feels refreshed, alert and focussed.\n(a) Name the organ that is stimulated by caffeine which makes Vineet alert and focussed.\n(b) Give the collective term for the protective membranes of the organ mentioned in (a).\n(c) Which part of the autonomic nervous system increases the secretion of Adrenaline?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Brain. (b) Meninges (dura mater, arachnoid mater, pia mater). (c) Sympathetic nervous system.",
+   "marking_points": [
+    {
+     "point": "(a) Brain",
+     "marks": 1
+    },
+    {
+     "point": "(b) Meninges",
+     "marks": 1
+    },
+    {
+     "point": "(c) Sympathetic nervous system",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 65,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Excretory System",
+   "topic": "Excretion definition",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "excretion definition"
+   ],
+   "question": "Explain the term Excretion.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Excretion is the elimination of metabolic wastes from the body, an essential life process. In vertebrates it is carried out by the lungs (CO2), kidneys (urine) and skin (sweat).",
+   "marking_points": [
+    {
+     "point": "Elimination of metabolic wastes, with organs/examples of excretion",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 66,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Excretory System",
+   "topic": "Nephron versus neuron",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "nephron vs neuron"
+   ],
+   "question": "State the difference between Nephron and Neuron.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Nephron: functional unit of the kidney; filters blood of nitrogenous wastes and forms urine. Neuron: functional unit of the nervous system; transmits nerve impulses between neurons, muscles or glands.",
+   "marking_points": [
+    {
+     "point": "Nephron: functional unit of kidney that filters blood and forms urine",
+     "marks": 1
+    },
+    {
+     "point": "Neuron: functional unit of nervous system that transmits impulses",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 67,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Swachh Bharat objectives",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Swachh Bharat objectives"
+   ],
+   "question": "Mention any two objectives of Swachh Bharat Abhiyan.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) To eliminate open defecation by building individual and public toilets even in remote areas. (2) To make villages, cities and towns clean by removing waste from streets, roads, parks, gardens, houses etc.",
+   "marking_points": [
+    {
+     "point": "Eliminate open defecation by building toilets",
+     "marks": 1
+    },
+    {
+     "point": "Clean villages/cities/towns by removing wastes",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(iv)",
+   "q_order": 68,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Human Evolution",
+   "topic": "Cro-Magnon man features",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Cro-Magnon features"
+   ],
+   "question": "Give any two characteristic features of a Cro-Magnon man.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) Large skull, rounded forehead, a distinct chin and a nose. (2) Cranial capacity about 1600 cc.",
+   "marking_points": [
+    {
+     "point": "Large skull / rounded forehead / distinct chin and nose",
+     "marks": 1
+    },
+    {
+     "point": "Cranial capacity about 1600 cc",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(v)(a)",
+   "q_order": 69,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Genetics",
+   "topic": "F1 phenotype of dihybrid cross",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "dihybrid cross F1 phenotype",
+    "dominance"
+   ],
+   "question": "A farmer cultivates a unique species of tomato plants. The two traits selected for breeding were: colour of the fruits and height of the plants. The farmer initially crosses a homozygous tall plant bearing red fruits (TTRR) with a dwarf plant bearing yellow fruits (ttrr) and the genotype of all the offsprings of the F1 generation was TtRr. Next, he crosses two F1 generation plants (TtRr).\n(a) Explain the phenotype of the offsprings of the F1 generation obtained from the initial cross.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "All F1 plants are tall with red fruits, because tallness and red colour are dominant traits expressed in the heterozygous (TtRr) F1.",
+   "marking_points": [
+    {
+     "point": "All tall with red fruits, since tall and red are dominant (plants are heterozygous TtRr)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(v)(b)",
+   "q_order": 70,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Genetics",
+   "topic": "F2 dihybrid phenotypic ratio",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "9:3:3:1 dihybrid ratio"
+   ],
+   "question": "A farmer cultivates a unique species of tomato plants. The two traits selected for breeding were: colour of the fruits and height of the plants. The farmer initially crosses a homozygous tall plant bearing red fruits (TTRR) with a dwarf plant bearing yellow fruits (ttrr) and the genotype of all the offsprings of the F1 generation was TtRr. Next, he crosses two F1 generation plants (TtRr).\n(b) Mention the phenotypic ratio of the F2 generation offsprings.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "9:3:3:1 - 9 tall red : 3 tall yellow : 3 dwarf red : 1 dwarf yellow.",
+   "marking_points": [
+    {
+     "point": "9:3:3:1 (with phenotypes)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(v)(c)",
+   "q_order": 71,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Genetics",
+   "topic": "Law of independent assortment",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "law of independent assortment"
+   ],
+   "question": "A farmer cultivates a unique species of tomato plants. The two traits selected for breeding were: colour of the fruits and height of the plants. The farmer initially crosses a homozygous tall plant bearing red fruits (TTRR) with a dwarf plant bearing yellow fruits (ttrr) and the genotype of all the offsprings of the F1 generation was TtRr. Next, he crosses two F1 generation plants (TtRr).\n(c) State Mendel's Law of Independent Assortment.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "In a dihybrid cross, the alleles of the genes of two characters separate at the time of gamete formation and then recombine independently to give new combinations.",
+   "marking_points": [
+    {
+     "point": "Alleles of two characters assort independently during gamete formation and recombine in new combinations",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  }
+ ]
+}

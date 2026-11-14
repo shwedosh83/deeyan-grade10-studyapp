@@ -1,0 +1,1239 @@
+{
+ "paper_id": "biology_2022s2",
+ "subject": "biology",
+ "year": 2022,
+ "sem": 2,
+ "label": "2022 Sem 2",
+ "max_marks": 40,
+ "duration_minutes": 90,
+ "reading_minutes": 0,
+ "instructions": "Attempt all questions from Section A and any three questions from Section B. The marks intended for questions are given in brackets [ ].",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 10,
+   "rule": "Attempt all questions from this Section.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 30,
+   "rule": "Attempt any three questions from this Section.",
+   "compulsory": false,
+   "attempt_n": 3,
+   "out_of": 5
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Mineral element in haemoglobin",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "iron in haemoglobin"
+   ],
+   "question": "The mineral element in haemoglobin is:",
+   "options": {
+    "a": "Manganese",
+    "b": "Iron",
+    "c": "Sodium",
+    "d": "Calcium"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Iron",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Number of cranial nerves",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "12 pairs of cranial nerves"
+   ],
+   "question": "The number of cranial nerves in humans are:",
+   "options": {
+    "a": "12",
+    "b": "31 pairs",
+    "c": "31",
+    "d": "12 pairs"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 12 pairs",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Gigantism and acromegaly cause",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "growth hormone hypersecretion: gigantism and acromegaly"
+   ],
+   "question": "Gigantism and Acromegaly are due to:",
+   "options": {
+    "a": "Hypersecretion of Growth hormone",
+    "b": "Hypersecretion of Thyroxine",
+    "c": "Hyposecretion of Growth hormone",
+    "d": "Hyposecretion of Thyroxine"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Hypersecretion of Growth hormone",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Pericardium covering",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "pericardium covers heart"
+   ],
+   "question": "Pericardium covers the:",
+   "options": {
+    "a": "Heart",
+    "b": "Brain",
+    "c": "Spinal cord",
+    "d": "Eyeball"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Heart",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Opening in centre of iris",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "pupil in iris"
+   ],
+   "question": "The circular opening in the centre of iris is the:",
+   "options": {
+    "a": "Lens",
+    "b": "Cornea",
+    "c": "Sclera",
+    "d": "Pupil"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Pupil",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Vessel carrying oxygenated blood",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "pulmonary vein carries oxygenated blood"
+   ],
+   "question": "The blood vessel that carries oxygenated blood is:",
+   "options": {
+    "a": "Pulmonary artery",
+    "b": "Pulmonary vein",
+    "c": "Renal vein",
+    "d": "Hepatic vein"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Pulmonary vein",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Location of Organ of Corti",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "organ of Corti in cochlea"
+   ],
+   "question": "Organ of Corti is present inside the:",
+   "options": {
+    "a": "Cochlea",
+    "b": "Semicircular canals",
+    "c": "Sacculus",
+    "d": "Utriculus"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Cochlea",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Temporary urine storage structure",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "urinary bladder stores urine"
+   ],
+   "question": "The structure that stores urine temporarily is:",
+   "options": {
+    "a": "Ureter",
+    "b": "Urethra",
+    "c": "Urinary bladder",
+    "d": "Kidneys"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Urinary bladder",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Location of Islets of Langerhans",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Islets of Langerhans in pancreas"
+   ],
+   "question": "Islets of Langerhans are located in:",
+   "options": {
+    "a": "Liver",
+    "b": "Pituitary gland",
+    "c": "Spleen",
+    "d": "Pancreas"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Pancreas",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Main nitrogenous waste",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "urea as main nitrogenous waste"
+   ],
+   "question": "The main nitrogenous waste formed in the human body is:",
+   "options": {
+    "a": "Uric acid",
+    "b": "Urea",
+    "c": "Ammonia",
+    "d": "Creatinine"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Urea",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "2(i)",
+   "q_order": 10,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Endocrine System",
+   "topic": "Causes of simple goitre in hilly regions",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "iodine deficiency and simple goitre",
+    "TSH feedback and thyroid enlargement"
+   ],
+   "question": "Simple goitre is usually seen in people living in the hilly regions. Give two reasons for the statement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Correct answer: (a) The soil and water of hilly regions are deficient in iodine, so people there get insufficient iodine in their diet. (b) Without iodine the thyroid cannot make enough thyroxine; low thyroxine removes the negative feedback on the pituitary, which secretes excess TSH, making the thyroid gland enlarge (simple goitre). Printed key: (a) 'Increased ATP demand triggers the negative feedback regulation of thyroid hormone secretion' (not accurate); (b) insufficient iodine in the soil of hilly areas also causes goitre. Accept either wording of the iodine-deficiency reason.",
+   "marking_points": [
+    {
+     "point": "Soil/water/food of hilly regions is deficient in iodine (insufficient dietary iodine)",
+     "marks": 1
+    },
+    {
+     "point": "Lack of iodine -> less thyroxine -> excess TSH/negative feedback loss -> thyroid gland enlarges (goitre)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 11,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Types of blood circulation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "pulmonary and systemic circulation"
+   ],
+   "question": "What are the two types of blood circulation in humans?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "First type of blood circulation",
+     "accepted": [
+      "pulmonary circulation",
+      "systemic circulation"
+     ]
+    },
+    {
+     "prompt": "Second type of blood circulation",
+     "accepted": [
+      "systemic circulation",
+      "pulmonary circulation"
+     ]
+    }
+   ],
+   "solution": "Pulmonary circulation and systemic circulation.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 12,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Excretory System",
+   "topic": "Steps of urine formation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "ultrafiltration, selective reabsorption, tubular secretion"
+   ],
+   "question": "Mention the three major steps involved in the production of urine.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Step 1 of urine formation",
+     "accepted": [
+      "glomerular filtration",
+      "ultrafiltration",
+      "filtration"
+     ]
+    },
+    {
+     "prompt": "Step 2 of urine formation",
+     "accepted": [
+      "reabsorption",
+      "selective reabsorption",
+      "tubular reabsorption"
+     ]
+    },
+    {
+     "prompt": "Step 3 of urine formation",
+     "accepted": [
+      "secretion",
+      "tubular secretion"
+     ]
+    }
+   ],
+   "solution": "Glomerular filtration (ultrafiltration), selective reabsorption, and tubular secretion.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 13,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Neuron diagram",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "structure of a neuron"
+   ],
+   "question": "Draw a neat diagram of a Neuron and label any two parts.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Neat diagram of a neuron showing cell body (cyton/soma) with nucleus and dendrites, axon, myelin sheath, node of Ranvier, axon terminals (any two labelled correctly). The printed key shows the diagram only.",
+   "marking_points": [
+    {
+     "point": "Neat, correct diagram of a neuron",
+     "marks": 1
+    },
+    {
+     "point": "First part correctly labelled (e.g. cyton/cell body, dendrites, axon, nucleus, myelin sheath, node of Ranvier, axon terminal)",
+     "marks": 1
+    },
+    {
+     "point": "Second part correctly labelled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 14,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Endocrine System",
+   "topic": "Adrenal virilism and cause",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "adrenal virilism from excess adrenal androgens"
+   ],
+   "question": "What is Adrenal Virilism? What causes this condition?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Adrenal virilism is a condition in which a female develops male secondary sexual characteristics (beard, moustache, deepening and hoarsening of voice). It is caused by excess production of androgens from the adrenal cortex in females.",
+   "marking_points": [
+    {
+     "point": "Definition: females develop male secondary sexual characters (beard, moustache, deep voice)",
+     "marks": 1
+    },
+    {
+     "point": "Cause: excess secretion of androgens by adrenal cortex",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 15,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Retina and image formation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "retina and image formation at the yellow spot (fovea)"
+   ],
+   "question": "Which is the light sensitive layer of the eyeball? Where exactly is the image formed on this layer?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The retina is the light-sensitive layer (has photoreceptors rods and cones). The image is formed on the yellow spot (macula lutea/fovea centralis) of the retina. Printed key says 'Image is formed in front of retina', which is factually incorrect for a normal eye; accept yellow spot / fovea / macula.",
+   "marking_points": [
+    {
+     "point": "Retina",
+     "marks": 1
+    },
+    {
+     "point": "Image formed on the yellow spot (fovea centralis/macula lutea) of the retina",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 16,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Hypermetropia defect and correction",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "hypermetropia identification from ray diagram",
+    "convex lens correction"
+   ],
+   "question": "Study the diagram given below and answer the questions that follow: (a) Identify the defect of the eye by mentioning the technical term. (b) Mention one reason for this defect. (c) Name the type of lens used to correct this defect.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Hypermetropia (hyperopia, long-sightedness). (b) Eyeball is too short, or the lens cannot become round (convex) enough, so the image forms behind the retina. (c) Convex lens.",
+   "marking_points": [
+    {
+     "point": "Hypermetropia / hyperopia / long-sightedness",
+     "marks": 1
+    },
+    {
+     "point": "Reason: eyeball too short or eye lens too flat/weak (cannot converge enough)",
+     "marks": 1
+    },
+    {
+     "point": "Convex lens",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Diagram of an eye with a defect of vision (long-sightedness: image focused behind the retina), as per the printed solution.",
+   "page": 2
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 17,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Ear ossicles",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "ear ossicles: malleus, incus, stapes"
+   ],
+   "question": "Give the biological terms for the three tiny bones present in the middle ear.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Ear ossicle 1",
+     "accepted": [
+      "malleus",
+      "hammer"
+     ]
+    },
+    {
+     "prompt": "Ear ossicle 2",
+     "accepted": [
+      "incus",
+      "anvil"
+     ]
+    },
+    {
+     "prompt": "Ear ossicle 3",
+     "accepted": [
+      "stapes",
+      "stirrup"
+     ]
+    }
+   ],
+   "solution": "Ear ossicles: malleus (hammer), incus (anvil), stapes (stirrup).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 18,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Endocrine System",
+   "topic": "Thyroxine gland and function",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "thyroid gland and thyroxine function"
+   ],
+   "question": "Name the endocrine gland that secretes Thyroxine. Give any one function of Thyroxine.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Thyroid gland. Function: plays vital roles in heart and muscle function, brain development, digestion, maintenance of bones (regulates metabolism/BMR).",
+   "marking_points": [
+    {
+     "point": "Thyroid gland",
+     "marks": 1
+    },
+    {
+     "point": "Any one function (regulates metabolism/BMR, growth, brain development etc.)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 19,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Endocrine System",
+   "topic": "ACTH full form and gland",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "ACTH full form and pituitary source"
+   ],
+   "question": "Give the full form of the abbreviation ACTH. Which gland secretes this hormone?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Full form of ACTH",
+     "accepted": [
+      "adrenocorticotropic hormone",
+      "adrenocorticotrophic hormone",
+      "adreno corticotropic hormone"
+     ]
+    },
+    {
+     "prompt": "Gland that secretes ACTH",
+     "accepted": [
+      "pituitary",
+      "pituitary gland",
+      "anterior pituitary",
+      "hypophysis"
+     ]
+    }
+   ],
+   "solution": "Adrenocorticotropic Hormone; secreted by the (anterior) pituitary gland.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 20,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Synapse; cytons and axons in cerebrum",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "synapse definition",
+    "grey and white matter in cerebrum"
+   ],
+   "question": "Define the term Synapse. How are Cytons and Axons of neurons placed in the Cerebrum?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Synapse is the site of transmission of nerve impulses between two neurons, or between a neuron and an effector (gland/muscle cell). In the cerebrum the cytons (cell bodies) lie in the outer layer (cortex, grey matter), while the axons (nerve fibres) lie in the inner portion (white matter).",
+   "marking_points": [
+    {
+     "point": "Synapse: junction/site of transmission of nerve impulse between two neurons (or neuron and effector)",
+     "marks": 1
+    },
+    {
+     "point": "Cytons are in the outer layer (cortex) - grey matter",
+     "marks": 1
+    },
+    {
+     "point": "Axons are in the inner portion - white matter",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(iv)",
+   "q_order": 21,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Meninges of brain",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "meninges: dura, arachnoid, pia mater"
+   ],
+   "question": "Name the three membranous coverings of the human brain.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Meninx 1",
+     "accepted": [
+      "dura mater",
+      "dura"
+     ]
+    },
+    {
+     "prompt": "Meninx 2",
+     "accepted": [
+      "arachnoid mater",
+      "arachnoid"
+     ]
+    },
+    {
+     "prompt": "Meninx 3",
+     "accepted": [
+      "pia mater",
+      "pia"
+     ]
+    }
+   ],
+   "solution": "Meninges: dura mater (outer), arachnoid mater (middle), pia mater (inner). Printed key lists arachnoid as inner and pia as middle, which is the wrong order; accept the three names in any order.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 22,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Sensory nerves of ear and eye",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "auditory nerve and optic nerve"
+   ],
+   "question": "Name the nerve that transmits impulses to the brain from: (a) Ear (b) Eye",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Ear",
+     "accepted": [
+      "auditory nerve",
+      "auditory",
+      "vestibulocochlear nerve",
+      "8th cranial nerve"
+     ]
+    },
+    {
+     "prompt": "Eye",
+     "accepted": [
+      "optic nerve",
+      "optic",
+      "2nd cranial nerve"
+     ]
+    }
+   ],
+   "solution": "(a) Auditory nerve (b) Optic nerve",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 23,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Mature RBC lacking nucleus",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "RBC adaptation: no nucleus or mitochondria, more haemoglobin",
+    "anaerobic respiration in RBC"
+   ],
+   "question": "A mature mammalian erythrocyte lacks nucleus and mitochondria but is efficient in its functioning. Explain by giving suitable reasons.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Lack of nucleus and mitochondria makes room for more haemoglobin and hence carries more oxygen. It also gives the cell its biconcave shape, which increases surface area for efficient diffusion of gases. (Mitochondria absent so the RBC does not consume the oxygen it carries; young RBCs have a nucleus.)",
+   "marking_points": [
+    {
+     "point": "More space for haemoglobin, so more oxygen carried",
+     "marks": 1
+    },
+    {
+     "point": "Biconcave shape / larger surface area for efficient diffusion of gases",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 24,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Human brain diagram labelling",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "labelled diagram of human brain",
+    "cerebrum function"
+   ],
+   "question": "The diagram given below is that of a human brain, with parts numbered 1, 2 and 3. Answer the questions that follow: (a) Label the parts numbered 2 and 3. (b) State any one function of the part numbered 1.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) 2 - Cerebellum; 3 - Medulla oblongata. (b) Part 1 is the cerebrum; it initiates and coordinates voluntary movement, and is the seat of intelligence, memory, thinking, will power; (printed key: initiates and coordinates movement and regulates body temperature).",
+   "marking_points": [
+    {
+     "point": "2 - Cerebellum",
+     "marks": 1
+    },
+    {
+     "point": "3 - Medulla oblongata",
+     "marks": 1
+    },
+    {
+     "point": "Any one function of cerebrum (voluntary movement, intelligence, memory, thinking, etc.)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Side view of the human brain with three parts numbered: 1 = cerebrum, 2 = cerebellum, 3 = medulla oblongata.",
+   "page": 3
+  },
+  {
+   "q_label": "5(iv)",
+   "q_order": 25,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Reflex action and types",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "reflex action definition",
+    "simple and conditioned reflexes"
+   ],
+   "question": "What is a reflex action? Name the two types of reflexes.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Reflex action is a rapid, automatic response to a stimulus, not under voluntary control of the brain. Two types: natural (unconditioned/simple) reflexes and conditioned (acquired) reflexes.",
+   "marking_points": [
+    {
+     "point": "Reflex action: rapid, automatic, involuntary response to a stimulus",
+     "marks": 1
+    },
+    {
+     "point": "Natural/unconditioned (simple) reflex",
+     "marks": 1
+    },
+    {
+     "point": "Conditioned/acquired reflex",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 26,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Pulmonary semilunar valve",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "pulmonary semilunar valve location",
+    "valve closure during ventricular diastole"
+   ],
+   "question": "Give the exact location of Pulmonary semilunar valve. When does it close?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "It is located at the opening of the right ventricle into the pulmonary artery. It closes during ventricular diastole (when the ventricle relaxes), preventing backflow of blood into the ventricle.",
+   "marking_points": [
+    {
+     "point": "Location: at the opening of right ventricle into pulmonary artery",
+     "marks": 1
+    },
+    {
+     "point": "Closes at ventricular diastole (relaxation)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 27,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Endocrine System",
+   "topic": "Hormones in diabetes types",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "insulin deficiency",
+    "ADH deficiency"
+   ],
+   "question": "Name the hormones whose deficiency causes: (a) Diabetes mellitus (b) Diabetes insipidus",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Diabetes mellitus",
+     "accepted": [
+      "insulin"
+     ]
+    },
+    {
+     "prompt": "Diabetes insipidus",
+     "accepted": [
+      "vasopressin",
+      "ADH",
+      "antidiuretic hormone"
+     ]
+    }
+   ],
+   "solution": "(a) Insulin (b) Vasopressin (ADH)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 28,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Excretory System",
+   "topic": "Kidney longitudinal section diagram",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "longitudinal section of kidney"
+   ],
+   "question": "Draw a neat diagram of a longitudinal section of a human kidney and label Renal Cortex and Renal Medulla on the diagram.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Neat L.S. of kidney (bean-shaped) showing outer renal cortex and inner renal medulla (pyramids), with renal pelvis, ureter, renal artery/vein. The printed key shows the diagram only.",
+   "marking_points": [
+    {
+     "point": "Neat, correct L.S. diagram of human kidney",
+     "marks": 1
+    },
+    {
+     "point": "Renal cortex correctly labelled",
+     "marks": 1
+    },
+    {
+     "point": "Renal medulla correctly labelled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "6(iv)",
+   "q_order": 29,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Functions of blood cells",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "functions of lymphocytes, platelets and neutrophils"
+   ],
+   "question": "Mention one function for each of the following: (a) Lymphocytes (b) Thrombocytes (c) Neutrophils",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Lymphocytes: immune response, antibody production, killing virus-infected and tumour cells. (b) Thrombocytes: help blood clotting to stop bleeding and heal wounds. (c) Neutrophils: phagocytosis - ingest and destroy bacteria and fungi.",
+   "marking_points": [
+    {
+     "point": "Lymphocytes: antibody production / immune response",
+     "marks": 1
+    },
+    {
+     "point": "Thrombocytes: blood clotting",
+     "marks": 1
+    },
+    {
+     "point": "Neutrophils: phagocytosis of pathogens",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  }
+ ]
+}

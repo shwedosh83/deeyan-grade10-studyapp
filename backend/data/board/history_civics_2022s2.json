@@ -1,0 +1,1214 @@
+{
+ "paper_id": "history_civics_2022s2",
+ "subject": "history_civics",
+ "year": 2022,
+ "sem": 2,
+ "label": "2022 Sem 2",
+ "max_marks": 40,
+ "duration_minutes": 90,
+ "reading_minutes": 0,
+ "instructions": "Attempt all questions from Part I (compulsory). In Part II, attempt three questions in total: one out of two from Section A and two out of three from Section B.",
+ "sections": [
+  {
+   "name": "Part I",
+   "total_marks": 10,
+   "rule": "Answer all the questions",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Part II Section A",
+   "total_marks": 10,
+   "rule": "Attempt any one question from this Section",
+   "compulsory": false,
+   "attempt_n": 1,
+   "out_of": 2
+  },
+  {
+   "name": "Part II Section B",
+   "total_marks": 20,
+   "rule": "Attempt any two questions from this Section",
+   "compulsory": false,
+   "attempt_n": 2,
+   "out_of": 3
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "High Court judge retirement age",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "High Court judge retirement age"
+   ],
+   "question": "The High Court Judge can remain in office till he/she attains the age of",
+   "options": {
+    "a": "60 years",
+    "b": "65 years",
+    "c": "62 years",
+    "d": "55 years"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 62 years",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Lok Adalat features",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Lok Adalat features"
+   ],
+   "question": "Which of the following statements does NOT apply to the Lok Adalat?",
+   "options": {
+    "a": "It reduces the burden on High Courts",
+    "b": "Works on the spirit of Compromise",
+    "c": "The cases take a long time to get resolved",
+    "d": "It involves very less expenses"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) The cases take a long time to get resolved",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "President and Vice President",
+   "topic": "Vice-President eligibility age",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Vice-President eligibility age"
+   ],
+   "question": "A person should have completed the age of .................. to be eligible for election as Vice-President.",
+   "options": {
+    "a": "21 years",
+    "b": "30 years",
+    "c": "35 years",
+    "d": "25 years"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 35 years",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "President and Vice President",
+   "topic": "National Emergency declaration",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "National Emergency grounds Article 352"
+   ],
+   "question": "The President can declare a National/General Emergency when...................",
+   "options": {
+    "a": "There is a threat to the security of the country",
+    "b": "There is financial instability in the country",
+    "c": "The Governor gives a report recommending Emergency",
+    "d": "The Election Commission recommends its proclamation"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) There is a threat to the security of the country",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Sessions Court case type",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Sessions Court jurisdiction"
+   ],
+   "question": "The Sessions Court deals with....................... cases.",
+   "options": {
+    "a": "Civil",
+    "b": "Criminal",
+    "c": "Constitutional",
+    "d": "Revenue"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Criminal",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The United Nations",
+   "topic": "Security Council permanent members",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Permanent members of Security Council"
+   ],
+   "question": "Which of the following countries is NOT a permanent member of the Security Council?",
+   "options": {
+    "a": "France",
+    "b": "China",
+    "c": "Germany",
+    "d": "Britain"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Germany",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First World War",
+   "topic": "Triple Alliance members",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Triple Alliance members"
+   ],
+   "question": "The signatory countries of the Triple Alliance were.........................",
+   "options": {
+    "a": "Germany, France, Italy",
+    "b": "France, Britain, Russia",
+    "c": "Germany, Italy, Austria-Hungary",
+    "d": "Britain, Russia, Italy"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Germany, Italy, Austria-Hungary",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The United Nations",
+   "topic": "UNESCO full form",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "UNESCO full form"
+   ],
+   "question": "The full form of UNESCO is",
+   "options": {
+    "a": "United Nations Educational, Scientific and Cultural Organisation",
+    "b": "United Nations Economic, Scientific and Cultural Organisation",
+    "c": "United Nations Educational, Social and Cultural Organisation",
+    "d": "United Nations Educational, Scientific and Commercial Organisation"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) United Nations Educational, Scientific and Cultural Organisation",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The United Nations",
+   "topic": "Non-permanent members of Security Council",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Security Council non-permanent members"
+   ],
+   "question": "The Security Council consists of ......... non-permanent members",
+   "options": {
+    "a": "Fifteen",
+    "b": "Ten",
+    "c": "Five",
+    "d": "Six"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Ten",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Non Aligned Movement",
+   "topic": "Meaning of Non-Alignment",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Meaning of non-alignment"
+   ],
+   "question": "The term Non-Alignment means",
+   "options": {
+    "a": "not to form any new alliance",
+    "b": "not to align with any of the power blocs",
+    "c": "not to participate in the world affairs",
+    "d": "to be part of military alliances"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) not to align with any of the power blocs",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "2(i)",
+   "q_order": 10,
+   "q_main": 2,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 1 of 2 questions in Section A",
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "President's discretion appointing PM",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "President's discretion in hung Lok Sabha",
+    "Council of Ministers appointed on PM's advice"
+   ],
+   "question": "The Prime Minister and his Council of Ministers formulate and implement the policies which govern the country. In this context, answer the following question:\nUnder what circumstances can the President use his discretion to appoint the Prime Minister? On whose advice does he appoint the Council of Ministers?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "When no single party secures an absolute majority in the Lok Sabha, the President may have some option (discretion) in appointing the Prime Minister. (Also: he appoints a PM in case of the death of an existing Prime Minister.) He appoints the Council of Ministers on the advice of the Prime Minister.",
+   "marking_points": [
+    {
+     "point": "President uses discretion when no single party secures an absolute majority in the Lok Sabha (or on death of an existing PM)",
+     "marks": 1
+    },
+    {
+     "point": "Council of Ministers appointed on the advice of the Prime Minister",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 11,
+   "q_main": 2,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 1 of 2 questions in Section A",
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "Collective responsibility of ministers",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Collective responsibility of ministers"
+   ],
+   "question": "The Prime Minister and his Council of Ministers formulate and implement the policies which govern the country. In this context, answer the following question:\nWhat is meant by the term Collective Responsibility of Ministers?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Council of Ministers is collectively responsible to the Parliament and has to resign if it loses the confidence of the Lok Sabha. Decisions taken in Cabinet meetings apply equally to all Ministers; all Ministers jointly share responsibility for the government's policies and performance.",
+   "marking_points": [
+    {
+     "point": "Council of Ministers is collectively responsible to Parliament / must resign if it loses the confidence of the Lok Sabha",
+     "marks": 1
+    },
+    {
+     "point": "All ministers jointly share responsibility for government policies; Cabinet decisions bind all ministers",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 12,
+   "q_main": 2,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 1 of 2 questions in Section A",
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "Categories of Council of Ministers",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Categories of Council of Ministers"
+   ],
+   "question": "The Prime Minister and his Council of Ministers formulate and implement the policies which govern the country. In this context, answer the following question:\nName the three categories of the Council of Ministers.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Cabinet Ministers (b) Ministers of State (c) Deputy Ministers",
+   "marking_points": [
+    {
+     "point": "Cabinet Ministers",
+     "marks": 1
+    },
+    {
+     "point": "Ministers of State",
+     "marks": 1
+    },
+    {
+     "point": "Deputy Ministers",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 13,
+   "q_main": 2,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 1 of 2 questions in Section A",
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "PM's powers regarding President",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "PM's powers in relation to President"
+   ],
+   "question": "The Prime Minister and his Council of Ministers formulate and implement the policies which govern the country. In this context, answer the following question:\nMention any three powers of the Prime Minister with reference to the President.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: (a) All authority vested in the President is exercised by the Prime Minister. (b) On the advice of the PM the President summons and prorogues Parliament and dissolves the Lok Sabha. (c) The President appoints the Council of Ministers on the advice of the PM. (d) The PM acts as the link between the President and the Council of Ministers.",
+   "marking_points": [
+    {
+     "point": "Any one valid power of PM with reference to the President (e.g. President acts on PM's advice in summoning/proroguing Parliament, dissolving Lok Sabha)",
+     "marks": 1
+    },
+    {
+     "point": "Any second valid power (e.g. President appoints Council of Ministers on PM's advice)",
+     "marks": 1
+    },
+    {
+     "point": "Any third valid power (e.g. PM is the link between the President and Council of Ministers; PM exercises the authority vested in the President)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 14,
+   "q_main": 3,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 1 of 2 questions in Section A",
+   "chapter": "The Supreme Court",
+   "topic": "Judge's tenure and removal",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Supreme Court judge tenure",
+    "Removal by impeachment"
+   ],
+   "question": "The Supreme Court is at the apex of the entire system of judiciary. In this context, answer the following question:\nWhat is the term of the Supreme Court judge? Name the procedure through which the judge can be removed.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A judge of the Supreme Court holds office until he attains the age of 65 years. He can be removed through the process of impeachment.",
+   "marking_points": [
+    {
+     "point": "Holds office until the age of 65 years",
+     "marks": 1
+    },
+    {
+     "point": "Removed by impeachment",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 15,
+   "q_main": 3,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 1 of 2 questions in Section A",
+   "chapter": "The Supreme Court",
+   "topic": "Meaning of Judicial Review",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Judicial review"
+   ],
+   "question": "The Supreme Court is at the apex of the entire system of judiciary. In this context, answer the following question:\nWhat is meant by Judicial Review?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Supreme Court has the power to review laws passed by the Union or State Legislature and can declare a law 'ultra vires' or null and void if it is against the spirit of the Constitution.",
+   "marking_points": [
+    {
+     "point": "Power of the Supreme Court to review laws passed by Union or State legislatures",
+     "marks": 1
+    },
+    {
+     "point": "Can declare a law ultra vires/null and void if against the Constitution",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 16,
+   "q_main": 3,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 1 of 2 questions in Section A",
+   "chapter": "The Supreme Court",
+   "topic": "Original jurisdiction of Supreme Court",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Original jurisdiction of Supreme Court"
+   ],
+   "question": "The Supreme Court is at the apex of the entire system of judiciary. In this context, answer the following question:\nExplain the term Original Jurisdiction of the Supreme Court. Mention any two kinds of cases which come under this jurisdiction.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Original Jurisdiction means the power to hear and determine a dispute in the first instance, i.e. cases which cannot be moved by any other court. Any two: (a) Centre-State or Inter-State disputes (b) Protection of Fundamental Rights (c) Transfer of cases from lower courts (d) Interpretation of the Constitution.",
+   "marking_points": [
+    {
+     "point": "Original jurisdiction: power to hear and determine a dispute in the first instance",
+     "marks": 1
+    },
+    {
+     "point": "First valid kind of case",
+     "marks": 1
+    },
+    {
+     "point": "Second valid kind of case",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 17,
+   "q_main": 3,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 1 of 2 questions in Section A",
+   "chapter": "The Supreme Court",
+   "topic": "Writs issued by Supreme Court",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Writs issued by Supreme Court"
+   ],
+   "question": "The Supreme Court is at the apex of the entire system of judiciary. In this context, answer the following question:\nName any three writs which can be issued by the Supreme Court.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: Habeas Corpus, Mandamus, Writ of Prohibition, Writ of Certiorari, Quo-warranto.",
+   "marking_points": [
+    {
+     "point": "First writ",
+     "marks": 1
+    },
+    {
+     "point": "Second writ",
+     "marks": 1
+    },
+    {
+     "point": "Third writ",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 18,
+   "q_main": 4,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section B",
+   "chapter": "The First World War",
+   "topic": "Triple Entente signatories",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Triple Entente members"
+   ],
+   "question": "The First World War had a devastating effect on the world and caused unprecedented destruction. With reference to the First World War, answer the following question:\nName the signatory countries of the Triple Entente.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "France, Russia and England (Britain).",
+   "marking_points": [
+    {
+     "point": "France",
+     "marks": 0.5
+    },
+    {
+     "point": "Russia",
+     "marks": 0.5
+    },
+    {
+     "point": "England/Britain",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 19,
+   "q_main": 4,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section B",
+   "chapter": "The First World War",
+   "topic": "Meaning of Imperialism",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Imperialism definition"
+   ],
+   "question": "The First World War had a devastating effect on the world and caused unprecedented destruction. With reference to the First World War, answer the following question:\nWhat is meant by the term Imperialism?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A system by which a powerful nation used to establish its control over another country, either by political pressure, infiltration and annexation or by outright wars. Once conquered, this country was claimed as a colony.",
+   "marking_points": [
+    {
+     "point": "Powerful nation establishes control over another country",
+     "marks": 1
+    },
+    {
+     "point": "By political pressure, infiltration, annexation or war; the country becomes a colony",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 20,
+   "q_main": 4,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section B",
+   "chapter": "The First World War",
+   "topic": "Immediate cause: Sarajevo crisis",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Sarajevo assassination as immediate cause of WWI"
+   ],
+   "question": "The First World War had a devastating effect on the world and caused unprecedented destruction. With reference to the First World War, answer the following question:\nExplain the immediate cause of the First World War.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sarajevo Crisis (immediate cause): (a) Archduke Francis Ferdinand, heir to the throne of Austria-Hungary, was assassinated at Sarajevo. (b) The assassination was organized by a secret society called 'Black Hand' or Union of Death formed by extremists of Serbia. (c) Their main aim was to unite all Serbians into a single Serbian state. (d) Austria served an ultimatum on Serbia on July 23. (e) Serbia accepted most demands except those that would have led to loss of her sovereignty. (f) Austria declared war on Serbia on July 28, 1914.",
+   "marking_points": [
+    {
+     "point": "Assassination of Archduke Francis Ferdinand at Sarajevo",
+     "marks": 0.5
+    },
+    {
+     "point": "Organized by the Black Hand / Union of Death, Serbian extremists",
+     "marks": 0.5
+    },
+    {
+     "point": "Aim: unite all Serbians into a single Serbian state",
+     "marks": 0.5
+    },
+    {
+     "point": "Austria served an ultimatum on Serbia on July 23",
+     "marks": 0.5
+    },
+    {
+     "point": "Serbia accepted most demands except those threatening her sovereignty",
+     "marks": 0.5
+    },
+    {
+     "point": "Austria declared war on Serbia on July 28, 1914",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(iv)",
+   "q_order": 21,
+   "q_main": 4,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section B",
+   "chapter": "The First World War",
+   "topic": "Treaty of Versailles reparation, military terms",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "War reparation 6.6 billion pounds/33 billion dollars",
+    "Military clauses of Treaty of Versailles"
+   ],
+   "question": "The First World War had a devastating effect on the world and caused unprecedented destruction. With reference to the First World War, answer the following question:\nWhat was the amount of war reparation that Germany had to pay the allies? Mention any two terms of the Treaty of Versailles which affected the German military.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Germany had to pay for the loss and damages suffered by the Allies; reparation was fixed at 33 billion dollars. Any two military terms: (a) German army restricted to 100,000 men (b) General Staff eliminated (c) manufacture of submarines, armoured cars, tanks and fighter planes prohibited (d) only limited warships with 24,000 men allowed.",
+   "marking_points": [
+    {
+     "point": "Reparation: 33 billion dollars",
+     "marks": 1
+    },
+    {
+     "point": "First military term",
+     "marks": 1
+    },
+    {
+     "point": "Second military term",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 22,
+   "q_main": 5,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section B",
+   "chapter": "Rise of Dictatorships",
+   "topic": "Identify Hitler and Nazism",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Hitler identification",
+    "Nazism"
+   ],
+   "question": "Look at the picture given and answer the questions that follow:\nIdentify the leader in the picture. What was the name given to the form of dictatorship practiced by him?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Adolf Hitler - Nazi Party / Nazism",
+   "marking_points": [
+    {
+     "point": "Leader: Adolf Hitler",
+     "marks": 1
+    },
+    {
+     "point": "Form of dictatorship: Nazism (Nazi Party)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "A picture of a dictator (the leader to be identified; the answer indicates Adolf Hitler). The picture is not reproduced in the text.",
+   "page": 3
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 23,
+   "q_main": 5,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section B",
+   "chapter": "Rise of Dictatorships",
+   "topic": "Common ideologies of dictators",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Common ideologies of Nazism and Fascism"
+   ],
+   "question": "Look at the picture given and answer the questions that follow:\nState any two similar ideologies of the dictators.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Ideologies of Nazism and Fascism, any two: (a) faith in totalitarian rule (b) despise democratic political systems (c) the state is supreme and can suppress fundamental rights and freedom of individuals (d) One-Party and One Leader (e) aggressive nationalism and imperialism (f) war as an instrument for furthering national interest (g) intensely nationalistic, anti-communist, anti-democratic rule.",
+   "marking_points": [
+    {
+     "point": "First valid ideology",
+     "marks": 1
+    },
+    {
+     "point": "Second valid ideology",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 24,
+   "q_main": 5,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section B",
+   "chapter": "The Second World War",
+   "topic": "Immediate cause: invasion of Poland",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Invasion of Poland as immediate cause of WWII",
+    "Danzig Corridor"
+   ],
+   "question": "Look at the picture given and answer the questions that follow:\nWhat was the immediate cause of the Second World War? Mention any two reasons for it.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Immediate cause: Hitler's invasion of Poland on September 1, 1939. Any two reasons: (a) By the Treaty of Versailles Germany was divided into two parts to give a land route (Danzig/Polish Corridor) to Poland; Germany wanted to regain lost territories. (b) The city was mainly inhabited by Germans, and by occupying the Danzig Corridor Germany could connect with East Prussia. (c) Germany signed a Non-Aggression Pact with Russia in August 1939; Poland was accused of atrocities against Germans living there. (d) On September 1, 1939, German armies marched into Poland.",
+   "marking_points": [
+    {
+     "point": "Immediate cause: Hitler's invasion of Poland (1 September 1939)",
+     "marks": 1
+    },
+    {
+     "point": "First valid reason",
+     "marks": 1
+    },
+    {
+     "point": "Second valid reason",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(iv)",
+   "q_order": 25,
+   "q_main": 5,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section B",
+   "chapter": "The Second World War",
+   "topic": "Japanese invasion of China",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Japanese invasion of Manchuria/China",
+    "League of Nations failure and appeasement"
+   ],
+   "question": "Look at the picture given and answer the questions that follow:\nExplain how the Japanese invasion of China became a cause for the Second World War.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Japan's ambitions rose after the First World War; it intervened in Manchuria and, despite the League's opposition, occupied it and set up a government there. (b) Japan started an undeclared war against China in 1931. (c) China appealed to the League of Nations to declare sanctions against Japan. (d) Britain and France, leading League members, paid no attention. (e) Japan left the League of Nations and joined the Berlin-Rome-Tokyo axis. (f) Britain and France followed appeasement, so war became inevitable.",
+   "marking_points": [
+    {
+     "point": "Japan occupied Manchuria despite League opposition and set up a government",
+     "marks": 0.5
+    },
+    {
+     "point": "Undeclared war on China in 1931",
+     "marks": 0.5
+    },
+    {
+     "point": "China appealed to the League for sanctions against Japan",
+     "marks": 0.5
+    },
+    {
+     "point": "Britain and France paid no attention",
+     "marks": 0.5
+    },
+    {
+     "point": "Japan left the League and joined the Berlin-Rome-Tokyo axis",
+     "marks": 0.5
+    },
+    {
+     "point": "Policy of appeasement made war inevitable",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 26,
+   "q_main": 6,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "Objectives of UNO",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Objectives of UNO"
+   ],
+   "question": "With reference to the United Nations Organisation, answer the following question:\nState any two objectives of the United Nations Organisation.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (a) to maintain international peace and security (b) to solve international problems of social, economic, cultural and humanitarian character (c) to promote respect for human rights (d) to employ international machinery for the promotion and advancement of all people.",
+   "marking_points": [
+    {
+     "point": "First valid objective",
+     "marks": 1
+    },
+    {
+     "point": "Second valid objective",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 27,
+   "q_main": 6,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "ICJ judges and term",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "ICJ composition and term of judges"
+   ],
+   "question": "With reference to the United Nations Organisation, answer the following question:\nHow many judges is the International Court of Justice composed of? What is their term?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "It consists of 15 judges elected by the General Assembly and the Security Council for a term of 9 years.",
+   "marking_points": [
+    {
+     "point": "15 judges",
+     "marks": 1
+    },
+    {
+     "point": "Term of 9 years",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 28,
+   "q_main": 6,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "Functions of General Assembly",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Functions of General Assembly"
+   ],
+   "question": "With reference to the United Nations Organisation, answer the following question:\nMention any three functions of the General Assembly.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: (a) consider and make recommendations on principles of cooperation in maintaining international peace and security (b) discuss any question relating to international peace and security (c) discuss and make recommendations on any question within the scope of the Charter or affecting powers and functions of any UN organ (d) initiate studies and make recommendations to promote international political, social and economic cooperation (e) make recommendations for peaceful settlement of disputes (f) receive and consider reports from the Security Council and other organs (g) elect the non-permanent members of the Security Council and the Trusteeship Council, and elect the judges of the ICJ.",
+   "marking_points": [
+    {
+     "point": "First valid function",
+     "marks": 1
+    },
+    {
+     "point": "Second valid function",
+     "marks": 1
+    },
+    {
+     "point": "Third valid function",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "6(iv)",
+   "q_order": 29,
+   "q_main": 6,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "WHO full form and functions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "WHO full form and functions"
+   ],
+   "question": "With reference to the United Nations Organisation, answer the following question:\nWhat is the full form of WHO? Mention any two of its functions.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "World Health Organisation. Any two functions: (a) helps countries improve health systems by building infrastructure, manpower, institutions (b) gives important drugs for medical care (c) promotes research to cure and prevent diseases (d) works towards safe drinking water and adequate waste disposal (e) organizes conferences, seminars and training for health personnel (f) fights diseases and prevents their spread (g) defines standards for strength and purity of medicines including biological products (h) publishes health journals such as the Bulletin of the World Health Organisation.",
+   "marking_points": [
+    {
+     "point": "Full form: World Health Organisation",
+     "marks": 1
+    },
+    {
+     "point": "First valid function",
+     "marks": 1
+    },
+    {
+     "point": "Second valid function",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  }
+ ]
+}

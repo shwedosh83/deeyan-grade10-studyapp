@@ -1,0 +1,2137 @@
+{
+ "paper_id": "chemistry_2022s2",
+ "subject": "chemistry",
+ "year": 2022,
+ "sem": 2,
+ "label": "2022 Sem 2",
+ "max_marks": 40,
+ "duration_minutes": 90,
+ "reading_minutes": 10,
+ "instructions": "All questions are compulsory in Section A. In Section B, attempt any three questions. The intended marks are given in brackets [].",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 10,
+   "rule": "Attempt all questions",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 30,
+   "rule": "Attempt any three questions from this section",
+   "compulsory": false,
+   "attempt_n": 3,
+   "out_of": 5
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Metallurgy",
+   "topic": "Ore of aluminium",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "ore of aluminium - bauxite vs cryolite"
+   ],
+   "question": "The ore of Aluminium is:",
+   "options": {
+    "a": "Calamine",
+    "b": "Haematite",
+    "c": "Magnetite",
+    "d": "Cryolite"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Cryolite (as printed in the paper's key; strictly bauxite is the chief ore of aluminium, but cryolite is the only aluminium-containing option)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Hydrogen Chloride",
+   "topic": "HCl collection, solubility",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "HCl high solubility in water"
+   ],
+   "question": "Hydrogen chloride gas is not collected over water, as:",
+   "options": {
+    "a": "It is highly soluble in water.",
+    "b": "It is less soluble in water.",
+    "c": "It is lighter than air.",
+    "d": "It is heavier than air."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) It is highly soluble in water.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Ammonia",
+   "topic": "Nature of aqueous ammonia",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "aqueous ammonia is weakly basic"
+   ],
+   "question": "An aqueous solution of ammonia is:",
+   "options": {
+    "a": "Neutral",
+    "b": "Acidic",
+    "c": "Basic",
+    "d": "Amphoteric"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Basic",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sulphuric Acid",
+   "topic": "Least volatile acid",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "volatility of acids - conc. H2SO4 non-volatile"
+   ],
+   "question": "The acid which is least volatile is:",
+   "options": {
+    "a": "Hydrochloric acid",
+    "b": "Nitric acid",
+    "c": "Dilute sulphuric acid",
+    "d": "Concentrated sulphuric acid"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Concentrated sulphuric acid",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nitric Acid",
+   "topic": "Bisulphite with dilute HNO3",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "dilute HNO3 with bisulphite liberates SO2",
+    "acid-salt reaction"
+   ],
+   "question": "The gas formed, when calcium bisulphite reacts with dilute HNO3:",
+   "options": {
+    "a": "Sulphur trioxide",
+    "b": "Hydrogen",
+    "c": "Sulphur dioxide",
+    "d": "Hydrogen sulphide"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Sulphur dioxide",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Organic Chemistry",
+   "topic": "IUPAC name of formic acid",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "IUPAC name of formic acid"
+   ],
+   "question": "The IUPAC name of formic acid:",
+   "options": {
+    "a": "Propanoic acid",
+    "b": "Methanoic acid",
+    "c": "Ethanoic acid",
+    "d": "Butanoic acid"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Methanoic acid",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Hydrogen Chloride",
+   "topic": "Metallic oxide reacting with HCl",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "basic oxide + acid gives salt and water"
+   ],
+   "question": "The metallic oxide which when reacts with HCl forms salt and water:",
+   "options": {
+    "a": "Carbon monoxide",
+    "b": "Nitrous oxide",
+    "c": "Ammonium hydroxide",
+    "d": "Sodium oxide"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Sodium oxide: a metallic oxide that reacts with HCl to give salt and water (Na2O + 2HCl -> 2NaCl + H2O). (The printed key shows (c) ammonium hydroxide, which is not an oxide: a printing error.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sulphuric Acid",
+   "topic": "V2O5 catalyst in Contact process",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "V2O5 catalyst in Contact process"
+   ],
+   "question": "Vanadium pentoxide is used as a catalyst in the preparation of:",
+   "options": {
+    "a": "Nitrogen gas",
+    "b": "Nitrogen dioxide gas",
+    "c": "Sulphur trioxide gas",
+    "d": "Carbon dioxide gas"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Sulphur trioxide gas",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Organic Chemistry",
+   "topic": "Catalyst for hydrogenation of ethene",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "catalytic hydrogenation with nickel"
+   ],
+   "question": "The catalyst used for the conversion of ethene to ethane:",
+   "options": {
+    "a": "Iron",
+    "b": "Nickel",
+    "c": "Cobalt",
+    "d": "Molybdenum"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Nickel",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Metallurgy",
+   "topic": "Fusion point lowering in Hall-Heroult",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Hall-Heroult process - fluorspar lowers fusion point"
+   ],
+   "question": "Substance which helps to lower the fusion point of the mixture in Hall Heroult Process:",
+   "options": {
+    "a": "Coke",
+    "b": "Concentrated sodium hydroxide",
+    "c": "Fluorspar",
+    "d": "Concentrated potassium hydroxide"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Fluorspar",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "2(i)(a)",
+   "q_order": 10,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Definition of isomerism",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "definition of isomerism"
+   ],
+   "question": "Define: Isomerism",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Isomerism: substances having the same molecular formula but different structural formulae (and hence different physical and chemical properties) are called isomers; the phenomenon is isomerism.",
+   "marking_points": [
+    {
+     "point": "Same molecular formula but different structural formulae (different properties)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "2(i)(b)",
+   "q_order": 11,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Metallurgy",
+   "topic": "Definition of ores",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "definition of ore"
+   ],
+   "question": "Define: Ores",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Ores: naturally occurring minerals from which a metal can be extracted profitably (having a high concentration of the metal).",
+   "marking_points": [
+    {
+     "point": "Naturally occurring mineral from which the metal can be extracted economically/with high metal content",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "2(ii)(a)",
+   "q_order": 12,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Catenation property of carbon",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "catenation"
+   ],
+   "question": "Name the property by which carbon links with itself to form a long chain.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Property by which carbon links with itself to form long chains",
+     "accepted": [
+      "catenation"
+     ]
+    }
+   ],
+   "solution": "Catenation",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "2(ii)(b)",
+   "q_order": 13,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Alkynes general formula",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "alkyne general formula"
+   ],
+   "question": "Name the unsaturated hydrocarbons having general formula CnH2n-2.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Unsaturated hydrocarbons with general formula CnH2n-2",
+     "accepted": [
+      "alkynes",
+      "alkyne"
+     ]
+    }
+   ],
+   "solution": "Alkynes",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "2(iii)(a)",
+   "q_order": 14,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Structure of pentanal",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "structure of aldehyde, pentanal"
+   ],
+   "question": "Draw the structural diagram of pentanal.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Pentanal: CH3-CH2-CH2-CH2-CHO (5-carbon chain, aldehyde group -CHO at C1; every C-H bond shown in the full structural diagram).",
+   "marking_points": [
+    {
+     "point": "Correct 5-carbon chain with terminal -CHO (C=O and H on C1), all bonds shown",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "2(iii)(b)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Structure of propanol",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "structure of propanol"
+   ],
+   "question": "Draw the structural diagram of propanol.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Propanol: CH3-CH2-CH2-OH (propan-1-ol; propan-2-ol also acceptable), all bonds shown.",
+   "marking_points": [
+    {
+     "point": "Correct 3-carbon chain with -OH group, all bonds shown",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "2(iii)(c)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Structure of 2-butene",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "structure of 2-butene"
+   ],
+   "question": "Draw the structural diagram of 2-butene.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "2-Butene: CH3-CH=CH-CH3 (double bond between C2 and C3), all bonds shown.",
+   "marking_points": [
+    {
+     "point": "Correct 4-carbon chain with double bond between C2 and C3, all bonds shown",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "2(iv)(a)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Addition of chlorine to ethene",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "addition of halogen to ethene"
+   ],
+   "question": "Complete and balance: H2C = CH2 + Cl2 ->",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "CH2=CH2 + Cl2 -> CH2Cl-CH2Cl (1,2-dichloroethane)",
+   "marking_points": [
+    {
+     "point": "Correct balanced equation with product CH2Cl-CH2Cl",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(iv)(b)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Combustion of ethane",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "complete combustion of ethane, balancing"
+   ],
+   "question": "Complete and balance: C2H6 + O2 (excess) ->",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "2C2H6 + 7O2 -> 4CO2 + 6H2O",
+   "marking_points": [
+    {
+     "point": "Correct balanced equation: 2C2H6 + 7O2 -> 4CO2 + 6H2O",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(iv)(c)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Combustion of methane",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "complete combustion of methane"
+   ],
+   "question": "Complete and balance: CH4 + O2 (excess) ->",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "CH4 + 2O2 -> CO2 + 2H2O",
+   "marking_points": [
+    {
+     "point": "Correct balanced equation: CH4 + 2O2 -> CO2 + 2H2O",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(i)(a)",
+   "q_order": 20,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Ammonia",
+   "topic": "Excess ammonia with chlorine product",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "excess NH3 with Cl2 gives NH4Cl"
+   ],
+   "question": "State a compound formed when excess ammonia gas reacts with chlorine.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Printed key: nitrogen trichloride (NCl3) with HCl, NH3 + Cl2 -> NCl3 + 3HCl. Chemically, with excess ammonia the products are ammonium chloride and nitrogen (8NH3 + 3Cl2 -> 6NH4Cl + N2); NCl3 forms with excess chlorine. Accept ammonium chloride (NH4Cl)/nitrogen or the printed nitrogen trichloride (NCl3).",
+   "marking_points": [
+    {
+     "point": "Ammonium chloride (NH4Cl) / nitrogen, or printed answer nitrogen trichloride (NCl3)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(i)(b)",
+   "q_order": 21,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Sulphuric Acid",
+   "topic": "Substance added to water, Contact process",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Contact process - oleum diluted with water"
+   ],
+   "question": "State a substance added to water, to manufacture sulphuric acid in Contact process.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Oleum (H2S2O7, fuming sulphuric acid): SO3 is absorbed in conc. H2SO4 to form oleum, which is then diluted with water to give sulphuric acid. (Catalyst used in the process is vanadium pentoxide.)",
+   "marking_points": [
+    {
+     "point": "Oleum (H2S2O7), added to water",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(ii)(a)",
+   "q_order": 22,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Analytical Chemistry",
+   "topic": "Identify gas turning lime water milky",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "CO2 test with lime water vs SO2 with dichromate"
+   ],
+   "question": "Identify the gas P: a compound reacts with an acid to form gas P which has no effect on acidified K2Cr2O7 solution but turns lime water milky.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "P is carbon dioxide (CO2), formed when a metal carbonate or bicarbonate reacts with an acid.",
+   "marking_points": [
+    {
+     "point": "Carbon dioxide (CO2)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(ii)(b)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Nitric Acid",
+   "topic": "Coloured gas from nitrate heating",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "thermal decomposition of nitrates - NO2"
+   ],
+   "question": "Identify the gas Q: a metallic nitrate on heating gives oxygen gas along with a coloured gas Q.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Q is nitrogen dioxide (NO2), a reddish-brown gas.",
+   "marking_points": [
+    {
+     "point": "Nitrogen dioxide (NO2)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(iii)(a)",
+   "q_order": 24,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Ammonia",
+   "topic": "Catalytic oxidation of ammonia",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "catalytic oxidation of ammonia - Ostwald"
+   ],
+   "question": "State the observation: Dry ammonia gas reacts with oxygen in the presence of a catalyst.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Ammonia is oxidised in presence of platinum catalyst to nitric oxide and water vapour (heat evolved): 4NH3 + 5O2 -> 4NO + 6H2O. Nitric oxide turns reddish-brown on contact with air.",
+   "marking_points": [
+    {
+     "point": "Nitric oxide (NO) and water vapour (steam) form in presence of platinum catalyst",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(iii)(b)",
+   "q_order": 25,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Ammonia",
+   "topic": "Ammonia with chlorine observation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "ammonia with chlorine - dense white fumes of NH4Cl"
+   ],
+   "question": "State the observation: Excess ammonia gas reacts with chlorine.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Printed key: a vigorous reaction producing nitrogen trichloride and hydrochloric acid, NH3 + Cl2 -> NCl3 + 3HCl. Chemically, excess ammonia gives dense white fumes of ammonium chloride (and nitrogen gas): 8NH3 + 3Cl2 -> 6NH4Cl + N2. Accept either.",
+   "marking_points": [
+    {
+     "point": "Dense white fumes of ammonium chloride (nitrogen evolved); or printed: vigorous reaction forming NCl3 and HCl",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(iii)(c)",
+   "q_order": 26,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Nitric Acid",
+   "topic": "Carbon with hot conc. HNO3",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "nitric acid as oxidising agent - brown NO2"
+   ],
+   "question": "State the observation: Carbon reacts with hot concentrated nitric acid.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Brown fumes of nitrogen dioxide are evolved along with carbon dioxide gas and water: C + 4HNO3 -> CO2 + 2H2O + 4NO2",
+   "marking_points": [
+    {
+     "point": "Reddish-brown fumes of NO2 evolved (with CO2 and water)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(iv)(a)",
+   "q_order": 27,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Sulphuric Acid",
+   "topic": "Dehydration of cane sugar",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "dehydrating property of conc. H2SO4"
+   ],
+   "question": "Write the balanced equation: Carbon from cane sugar and concentrated sulphuric acid.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "C12H22O11 + conc. H2SO4 -> 12C + 11H2O (conc. H2SO4 dehydrates sugar to black sugar charcoal; printed key also shows SO2 formed by oxidation of carbon).",
+   "marking_points": [
+    {
+     "point": "C12H22O11 -> 12C + 11H2O with conc. H2SO4",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(iv)(b)",
+   "q_order": 28,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Nitric Acid",
+   "topic": "Ferric nitrate preparation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "neutralisation, balancing ferric nitrate"
+   ],
+   "question": "Write the balanced equation: Ferric nitrate from ferric hydroxide and nitric acid.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Fe(OH)3 + 3HNO3 -> Fe(NO3)3 + 3H2O",
+   "marking_points": [
+    {
+     "point": "Fe(OH)3 + 3HNO3 -> Fe(NO3)3 + 3H2O",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(iv)(c)",
+   "q_order": 29,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Ammonia",
+   "topic": "Ammonium sulphate preparation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "neutralisation, ammonium sulphate"
+   ],
+   "question": "Write the balanced equation: Ammonium sulphate from ammonium hydroxide and sulphuric acid.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "2NH4OH + H2SO4 -> (NH4)2SO4 + 2H2O (printed key shows the unbalanced NH4OH + H2SO4 -> (NH4)2SO4 + H2O).",
+   "marking_points": [
+    {
+     "point": "Balanced equation 2NH4OH + H2SO4 -> (NH4)2SO4 + 2H2O",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(i)(a)",
+   "q_order": 30,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Metallurgy",
+   "topic": "Bauxite concentration using alkali",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Baeyer's process - bauxite dissolves in NaOH, amphoteric alumina"
+   ],
+   "question": "State the relevant reason: Concentrated alkali is used for the concentration of bauxite ore.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Bauxite (alumina) dissolves in hot concentrated sodium hydroxide solution (forming sodium aluminate) while impurities (iron oxide, silica etc.) remain insoluble and are filtered out. This process is called leaching (Baeyer's process).",
+   "marking_points": [
+    {
+     "point": "Alumina dissolves in hot conc. NaOH (as sodium aluminate) while impurities are insoluble and are filtered off",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(i)(b)",
+   "q_order": 31,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Metallurgy",
+   "topic": "Electrolytic reduction of alumina",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "reduction of alumina by electrolysis - reactive metal"
+   ],
+   "question": "State the relevant reason: Fused alumina is reduced to aluminium by electrolysis.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Alumina is highly stable, so it cannot be reduced by chemical reducing agents like carbon; aluminium is a strong reducing metal, so electrolytic reduction is used. Al is obtained at the cathode, oxygen at the anode. Ionisation: Al2O3 -> 2Al3+ + 3O2-.",
+   "marking_points": [
+    {
+     "point": "Alumina is very stable / aluminium is highly reactive so cannot be reduced by chemical reducing agents; electrolysis is needed",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(ii)(a)",
+   "q_order": 32,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Metallurgy",
+   "topic": "Use of magnalium",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "uses of Magnalium"
+   ],
+   "question": "State one use of the alloy Magnalium.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Magnalium (Al + Mg) is light and strong; used in making light instruments, balance beams and aircraft/scientific instrument parts. (Part marked out of syllabus; no printed answer in the key.)",
+   "marking_points": [
+    {
+     "point": "One correct use, e.g. making light instruments, balance beams, aircraft parts",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(ii)(b)",
+   "q_order": 33,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Metallurgy",
+   "topic": "Use of duralumin",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "uses of Duralumin"
+   ],
+   "question": "State one use of the alloy Duralumin.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Duralumin (aluminium and copper with Mg, Mn): used in making parts for aircraft, trucks, rivets, etc.",
+   "marking_points": [
+    {
+     "point": "One correct use: aircraft parts / trucks / rivets / utensils",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(iii)(a)",
+   "q_order": 34,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Ammonia",
+   "topic": "Lab preparation reactants",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "lab preparation of ammonia - NH4Cl + Ca(OH)2"
+   ],
+   "question": "Complete the table which refers to the laboratory preparation of ammonia gas. Table columns: Laboratory preparation | Reactants used | Products formed | Drying agent | Method of collection. Row: Ammonia gas | (a) ........... | Calcium chloride + water + ammonia | (b) ........... | (c) ...........\nPart (a): Reactants used.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Reactants used (lab preparation of ammonia)",
+     "accepted": [
+      "ammonium chloride and calcium hydroxide",
+      "NH4Cl and Ca(OH)2",
+      "ammonium chloride + slaked lime",
+      "ammonium chloride and calcium hydroxide (slaked lime)"
+     ]
+    }
+   ],
+   "solution": "Ammonium chloride (NH4Cl) and calcium hydroxide (Ca(OH)2): 2NH4Cl + Ca(OH)2 -> CaCl2 + 2H2O + 2NH3",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(iii)(b)",
+   "q_order": 35,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Ammonia",
+   "topic": "Drying agent for ammonia",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "drying agent for ammonia - quicklime"
+   ],
+   "question": "Complete the table which refers to the laboratory preparation of ammonia gas. Table columns: Laboratory preparation | Reactants used | Products formed | Drying agent | Method of collection. Row: Ammonia gas | (a) ........... | Calcium chloride + water + ammonia | (b) ........... | (c) ...........\nPart (b): Drying agent.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Drying agent for ammonia",
+     "accepted": [
+      "calcium oxide",
+      "CaO",
+      "quicklime"
+     ]
+    }
+   ],
+   "solution": "Calcium oxide (CaO, quicklime)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(iii)(c)",
+   "q_order": 36,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Ammonia",
+   "topic": "Collection method for ammonia",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "downward displacement of air for ammonia"
+   ],
+   "question": "Complete the table which refers to the laboratory preparation of ammonia gas. Table columns: Laboratory preparation | Reactants used | Products formed | Drying agent | Method of collection. Row: Ammonia gas | (a) ........... | Calcium chloride + water + ammonia | (b) ........... | (c) ...........\nPart (c): Method of collection.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Method of collection of ammonia",
+     "accepted": [
+      "downward displacement of air",
+      "upward delivery",
+      "downward displacement"
+     ]
+    }
+   ],
+   "solution": "Downward displacement of air (upward delivery), as ammonia is lighter than air and highly soluble in water.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "4(iv)(a)",
+   "q_order": 37,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Metallurgy",
+   "topic": "Hall-Heroult process",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Hall-Heroult process"
+   ],
+   "question": "Identify the term: The process used to purify alumina by electrolytic reduction.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Process to purify alumina by electrolytic reduction",
+     "accepted": [
+      "Hall-Heroult process",
+      "Hall Heroult process",
+      "Hall's process",
+      "Hoope's process",
+      "Hoopes process"
+     ]
+    }
+   ],
+   "solution": "Hall-Heroult process (printed key also mentions Hoope's process).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "4(iv)(b)",
+   "q_order": 38,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Hydrogen Chloride",
+   "topic": "Fountain experiment",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "fountain experiment"
+   ],
+   "question": "Identify the term: The experiment used to demonstrate the high solubility of HCl gas.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Experiment demonstrating high solubility of HCl gas",
+     "accepted": [
+      "fountain experiment",
+      "fountain"
+     ]
+    }
+   ],
+   "solution": "Fountain experiment",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "4(iv)(c)",
+   "q_order": 39,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Sulphuric Acid",
+   "topic": "Dibasic nature of H2SO4",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "dibasic nature of sulphuric acid"
+   ],
+   "question": "Identify the term: The chemical property of sulphuric acid to form two types of salts with an alkali.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Property of H2SO4 to form two types of salts with an alkali",
+     "accepted": [
+      "dibasic",
+      "dibasic nature",
+      "dibasicity",
+      "dibasic acid"
+     ]
+    }
+   ],
+   "solution": "Dibasic nature (dibasic acid: forms normal salts and acid salts)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(i)(a)",
+   "q_order": 40,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Hydrogen Chloride",
+   "topic": "MnO2 with conc. HCl",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "lab preparation of chlorine from MnO2 + HCl"
+   ],
+   "question": "Write the balanced chemical equation: Action of heat on manganese dioxide and concentrated hydrochloric acid.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "MnO2 + 4HCl -> MnCl2 + 2H2O + Cl2 (on heating)",
+   "marking_points": [
+    {
+     "point": "MnO2 + 4HCl -> MnCl2 + 2H2O + Cl2 correctly balanced",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(i)(b)",
+   "q_order": 41,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Hydrogen Chloride",
+   "topic": "Zinc with dilute HCl",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Zn with dilute HCl"
+   ],
+   "question": "Write the balanced chemical equation: Zinc reacts with dilute hydrochloric acid to form zinc chloride.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Zn + 2HCl -> ZnCl2 + H2",
+   "marking_points": [
+    {
+     "point": "Zn + 2HCl -> ZnCl2 + H2 correctly balanced",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(ii)(a)",
+   "q_order": 42,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Metallurgy",
+   "topic": "Anode material in alumina electrolysis",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "graphite anode in electrolysis of alumina"
+   ],
+   "question": "Select the right answer from the brackets and complete the statement: In electrolysis of fused Alumina, the anode is made of (a) ..................... [gas carbon/graphite]",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Anode material in electrolysis of fused alumina",
+     "accepted": [
+      "graphite"
+     ]
+    }
+   ],
+   "solution": "graphite",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(ii)(b)",
+   "q_order": 43,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Metallurgy",
+   "topic": "Cathode product in alumina electrolysis",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "aluminium collected at cathode"
+   ],
+   "question": "Select the right answer from the brackets and complete the statement: In electrolysis of fused Alumina, the product formed at cathode is (b) ..................... [oxygen/aluminium]",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Product formed at the cathode",
+     "accepted": [
+      "aluminium",
+      "aluminum",
+      "Al"
+     ]
+    }
+   ],
+   "solution": "aluminium (cathode: 4Al3+ + 12e- -> 4Al)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(iii)(a)",
+   "q_order": 44,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "IUPAC naming of ethene",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "IUPAC name of ethene"
+   ],
+   "question": "Give the IUPAC name for the following structure (full structural diagram): two carbon atoms joined by a double bond, each carbon bonded to two hydrogen atoms (H2C=CH2).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Ethene",
+   "marking_points": [
+    {
+     "point": "Ethene",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(iii)(b)",
+   "q_order": 45,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "IUPAC naming of propanal",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "IUPAC naming of aldehydes - propanal"
+   ],
+   "question": "Give the IUPAC name for the following structural diagram: a three-carbon chain H-C-C-C-H (all hydrogens shown) with an oxygen (C=O, aldehyde group) on the end carbon.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Propanal (printed as propanaldehyde)",
+   "marking_points": [
+    {
+     "point": "Propanal",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Full structural diagram of a 3-carbon chain with a C=O group; the answer given is the aldehyde propanal.",
+   "page": 3
+  },
+  {
+   "q_label": "5(iii)(c)",
+   "q_order": 46,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "IUPAC naming of branched alkane",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "IUPAC naming of branched alkanes - longest chain"
+   ],
+   "question": "Give the IUPAC name for the following structural diagram: a five-carbon straight chain (H-C-C-C-C-C-H, all hydrogens shown) with a methyl group (CH3) attached to the third (middle) carbon.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "3-methylpentane",
+   "marking_points": [
+    {
+     "point": "3-methylpentane",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Full structural diagram of a 5-carbon chain with a -CH3 branch on the middle carbon.",
+   "page": 3
+  },
+  {
+   "q_label": "5(iv)(a)",
+   "q_order": 47,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B (part is out of syllabus)",
+   "chapter": "Analytical Chemistry",
+   "topic": "Brown ring test ion",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Brown Ring Test for nitrate ion"
+   ],
+   "question": "Study the diagram which shows the Brown Ring Test. Which ion is determined by the Brown Ring Test?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Nitrate ion (NO3-). (Out of syllabus; not in printed key.)",
+   "marking_points": [
+    {
+     "point": "Nitrate ion (NO3-)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Diagram of the Brown Ring Test: a test tube containing the salt solution with freshly prepared iron(II) sulphate, with a reagent Z added slowly down the side of the tube forming a brown ring at the junction of the liquids.",
+   "page": 3
+  },
+  {
+   "q_label": "5(iv)(b)",
+   "q_order": 48,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B (part is out of syllabus)",
+   "chapter": "Analytical Chemistry",
+   "topic": "Fresh FeSO4 in brown ring test",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "freshly prepared FeSO4 - avoids oxidation to Fe3+"
+   ],
+   "question": "Study the diagram which shows the Brown Ring Test. Why is freshly prepared iron(II) sulphate used in the test?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Iron(II) sulphate is easily oxidised by air to iron(III) sulphate, so it must be freshly prepared; Fe2+ is needed to reduce nitrate to nitric oxide. (Out of syllabus; not in printed key.)",
+   "marking_points": [
+    {
+     "point": "Fe2+ oxidises to Fe3+ in air on standing, so fresh solution is needed",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Diagram of the Brown Ring Test: a test tube containing the salt solution with freshly prepared iron(II) sulphate, with a reagent Z added slowly down the side of the tube forming a brown ring at the junction of the liquids.",
+   "page": 3
+  },
+  {
+   "q_label": "5(iv)(c)",
+   "q_order": 49,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B (part is out of syllabus)",
+   "chapter": "Analytical Chemistry",
+   "topic": "Identify substance Z",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Brown Ring Test - conc. H2SO4 layer / complex"
+   ],
+   "question": "Study the diagram which shows the Brown Ring Test. Name the substance Z.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Not given in the printed key (out of syllabus); Z is the reagent/layer labelled in the diagram, most likely concentrated sulphuric acid.",
+   "marking_points": [
+    {
+     "point": "Correct name of Z as labelled in diagram (concentrated sulphuric acid)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Diagram of the Brown Ring Test: a test tube containing the salt solution with freshly prepared iron(II) sulphate, with a reagent Z added slowly down the side of the tube forming a brown ring at the junction of the liquids.",
+   "page": 3
+  },
+  {
+   "q_label": "6(i)(a)",
+   "q_order": 50,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Analytical Chemistry",
+   "topic": "Sulphite vs sulphate test",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "sulphite gives SO2 with dilute acid"
+   ],
+   "question": "Distinguish between sodium sulphite solution and sodium sulphate solution using dilute H2SO4.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sodium sulphite with dil. H2SO4 gives effervescence of colourless gas SO2 with suffocating smell, which turns acidified potassium dichromate paper green: Na2SO3 + H2SO4 -> Na2SO4 + H2O + SO2. Sodium sulphate gives no reaction (no gas).",
+   "marking_points": [
+    {
+     "point": "Sodium sulphite: effervescence of SO2 (choking smell, turns acidified K2Cr2O7 green)",
+     "marks": 0.5
+    },
+    {
+     "point": "Sodium sulphate: no reaction / no gas evolved",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "6(i)(b)",
+   "q_order": 51,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Analytical Chemistry",
+   "topic": "Lead vs zinc salt with NH4OH",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Pb2+ vs Zn2+ with excess NH4OH"
+   ],
+   "question": "Distinguish between lead salt solution and zinc salt solution using NH4OH solution in excess.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Lead salt: white precipitate of Pb(OH)2 which is insoluble in excess NH4OH. Zinc salt: white (gelatinous) precipitate of Zn(OH)2 which dissolves in excess NH4OH giving a colourless solution. (Printed key says zinc gives a gelatinous white precipitate; the precipitate is soluble in excess, which is the distinguishing feature.)",
+   "marking_points": [
+    {
+     "point": "Lead salt: white precipitate insoluble in excess NH4OH",
+     "marks": 0.5
+    },
+    {
+     "point": "Zinc salt: white precipitate soluble in excess NH4OH",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "6(ii)(a)",
+   "q_order": 52,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Metallurgy",
+   "topic": "Minerals definition",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "definition of mineral"
+   ],
+   "question": "Give one word: The compounds of various metals found in nature with earthly impurities.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Compounds of metals found in nature with earthly impurities",
+     "accepted": [
+      "minerals",
+      "mineral"
+     ]
+    }
+   ],
+   "solution": "Minerals",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "6(ii)(b)",
+   "q_order": 53,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Metallurgy",
+   "topic": "Alloy definition",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "definition of alloy"
+   ],
+   "question": "Give one word: A homogeneous mixture of two or more metals or a metal and a non-metal in specific ratios.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Homogeneous mixture of metals or metal and non-metal",
+     "accepted": [
+      "alloy",
+      "alloys"
+     ]
+    }
+   ],
+   "solution": "Alloys",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "6(iii)(a)",
+   "q_order": 54,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Nitric Acid",
+   "topic": "Sulphur with conc. HNO3",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "sulphur oxidised by conc. HNO3 to H2SO4"
+   ],
+   "question": "Identify the acid: The acid formed when sulphur reacts with concentrated nitric acid.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sulphuric acid (H2SO4): S + 6HNO3 -> H2SO4 + 6NO2 + 2H2O",
+   "marking_points": [
+    {
+     "point": "Sulphuric acid (H2SO4)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "6(iii)(b)",
+   "q_order": 55,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Analytical Chemistry",
+   "topic": "Acid giving lead precipitate",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "HCl with lead nitrate gives PbCl2 soluble on heating"
+   ],
+   "question": "Identify the acid: An acid, which on adding to lead nitrate solution produces a white precipitate which is soluble on heating.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Correct answer: hydrochloric acid (HCl): Pb(NO3)2 + 2HCl -> PbCl2 + 2HNO3; white PbCl2 is soluble on heating. The printed key says sulphuric acid (PbSO4 white precipitate); accept either.",
+   "marking_points": [
+    {
+     "point": "Hydrochloric acid (HCl); printed key sulphuric acid also accepted",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "6(iii)(c)",
+   "q_order": 56,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Nitric Acid",
+   "topic": "Lab preparation of nitric acid",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "lab preparation of HNO3 from KNO3 + conc. H2SO4"
+   ],
+   "question": "Identify the acid: The acid formed when potassium nitrate reacts with a least volatile acid.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Nitric acid (HNO3): KNO3 + H2SO4 -> HNO3 + KHSO4",
+   "marking_points": [
+    {
+     "point": "Nitric acid (HNO3)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "6(iv)(1)",
+   "q_order": 57,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Functional group of aldehyde",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "aldehyde functional group"
+   ],
+   "question": "Match column A with column B. Column A (Name): 1. Aldehyde, 2. Carboxylic acids, 3. Alcohol. Column B (Functional group): (a) -OH, (b) -CHO, (c) -COOH. Match: 1. Aldehyde",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Aldehyde",
+     "accepted": [
+      "b",
+      "-CHO",
+      "CHO"
+     ]
+    }
+   ],
+   "solution": "(b) -CHO",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "6(iv)(2)",
+   "q_order": 58,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Functional group of carboxylic acid",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "carboxylic acid functional group"
+   ],
+   "question": "Match column A with column B. Column A (Name): 1. Aldehyde, 2. Carboxylic acids, 3. Alcohol. Column B (Functional group): (a) -OH, (b) -CHO, (c) -COOH. Match: 2. Carboxylic acids",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Carboxylic acids",
+     "accepted": [
+      "c",
+      "-COOH",
+      "COOH"
+     ]
+    }
+   ],
+   "solution": "(c) -COOH",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "6(iv)(3)",
+   "q_order": 59,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Functional group of alcohol",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "alcohol functional group"
+   ],
+   "question": "Match column A with column B. Column A (Name): 1. Aldehyde, 2. Carboxylic acids, 3. Alcohol. Column B (Functional group): (a) -OH, (b) -CHO, (c) -COOH. Match: 3. Alcohol",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Alcohol",
+     "accepted": [
+      "a",
+      "-OH",
+      "OH"
+     ]
+    }
+   ],
+   "solution": "(a) -OH",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  }
+ ]
+}

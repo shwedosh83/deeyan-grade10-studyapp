@@ -1,0 +1,1901 @@
+{
+ "paper_id": "history_civics_2023",
+ "subject": "history_civics",
+ "year": 2023,
+ "sem": null,
+ "label": "2023",
+ "max_marks": 80,
+ "duration_minutes": 180,
+ "reading_minutes": 15,
+ "instructions": "Attempt all questions from Part I (compulsory). Five questions are to be attempted from Part II: two out of three from Section A and three out of five from Section B.",
+ "sections": [
+  {
+   "name": "Part I",
+   "total_marks": 30,
+   "rule": "Attempt all questions from this Part",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section A",
+   "total_marks": 20,
+   "rule": "Attempt any two questions from this Section",
+   "compulsory": false,
+   "attempt_n": 2,
+   "out_of": 3
+  },
+  {
+   "name": "Section B",
+   "total_marks": 30,
+   "rule": "Attempt any three questions from this Section",
+   "compulsory": false,
+   "attempt_n": 3,
+   "out_of": 5
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "President and Vice President",
+   "topic": "Ordinance approval period",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Ordinance-making power Article 123 six weeks"
+   ],
+   "question": "An ordinance has to be approved by the Parliament within ____________ weeks.",
+   "options": {
+    "a": "Two",
+    "b": "Three",
+    "c": "Six",
+    "d": "Eight"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Six. An ordinance passed by the President when Parliament is not in session must be approved within six weeks.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "Junior ministers category",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Categories of ministers: Deputy Ministers"
+   ],
+   "question": "The junior category of ministers who assist senior ministers:",
+   "options": {
+    "a": "Cabinet Ministers",
+    "b": "Ministers of State",
+    "c": "Deputy Ministers",
+    "d": "Council of Ministers"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Ministers of State. Ministers of State are junior ministers who assist cabinet ministers.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Adjournment motion",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Adjournment motion vs no-confidence/censure motion"
+   ],
+   "question": "A major natural calamity has taken place and the opposition wants the house to lay aside all other business and take up this matter of urgent importance. Which motion should the house move to allow this?",
+   "options": {
+    "a": "Adjournment Motion",
+    "b": "No-confidence Motion",
+    "c": "Confidence Motion",
+    "d": "Censure Motion"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Adjournment Motion. Adjournment motion draws attention to matters of urgent public importance needing immediate discussion.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Supreme Court",
+   "topic": "Revisory jurisdiction",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Supreme Court revisory jurisdiction"
+   ],
+   "question": "When the Supreme Court reviews any judgement made by it to remove an error, it falls under ____ jurisdiction.",
+   "options": {
+    "a": "Advisory",
+    "b": "Revisory",
+    "c": "Original",
+    "d": "Appellate"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Revisory. The Supreme Court can review its own decisions under its revisory jurisdiction.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "President and Vice President",
+   "topic": "Power to summon Parliament",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "President summons Parliament"
+   ],
+   "question": "The ______________ has the power to summon the Houses of Parliament.",
+   "options": {
+    "a": "Speaker",
+    "b": "President",
+    "c": "Vice President",
+    "d": "Chief Justice of India"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) President. The President summons both Houses of Parliament.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Sessions Court case type",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Analogy: Sessions Court criminal jurisdiction vs District Court civil"
+   ],
+   "question": "Court of District Judge : Civil Cases :: Sessions Court : ___________ Cases",
+   "options": {
+    "a": "Advisory",
+    "b": "Criminal",
+    "c": "Constitutional",
+    "d": "Appellate"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Criminal. The Sessions Court handles criminal cases; civil cases go to the District Judge's court.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Muslim League formation year",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Muslim League formation 1906"
+   ],
+   "question": "Formation of Congress: 1885 :: Formation of Muslim League: ___________",
+   "options": {
+    "a": "1905",
+    "b": "1906",
+    "c": "1907",
+    "d": "1908"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 1906. The Muslim League was formed in Dhaka in 1906.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Partition of Bengal proposer",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Partition of Bengal Lord Curzon"
+   ],
+   "question": "The plan of Partition of Bengal was proposed by ____________ .",
+   "options": {
+    "a": "Lord Canning",
+    "b": "Lord Dalhousie",
+    "c": "Lord Curzon",
+    "d": "Lord Ripon"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Lord Curzon. Lord Curzon formulated the partition plan to weaken the nationalist movement (divide and rule).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Simon Commission protest",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Simon Commission all-white membership"
+   ],
+   "question": "People protested against the _______________ because it had seven British members and no Indian representation.",
+   "options": {
+    "a": "Simon Commission",
+    "b": "Lucknow Pact",
+    "c": "Ilbert Bill",
+    "d": "Cabinet Mission"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Simon Commission. The Simon Commission was an all-white commission.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Assertive Nationalists' objective",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Assertive nationalists objective: Swaraj"
+   ],
+   "question": "The main objective of the Assertive Nationalists was ____________ .",
+   "options": {
+    "a": "Constitutional agitation",
+    "b": "Peaceful protests",
+    "c": "Purna Swaraj",
+    "d": "Self-government under British Rule"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Purna Swaraj. Assertive Nationalists aimed at Purna Swaraj.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "First Phase of Indian National Movement",
+   "topic": "Early Nationalist leader",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Early nationalist leaders (Gokhale vs Extremists)"
+   ],
+   "question": "Identify the Early Nationalist leader.",
+   "options": {
+    "a": "Gopal Krishna Gokhale",
+    "b": "Bipin Chandra Pal",
+    "c": "Jyotiba Phule",
+    "d": "Bal Gangadhar Tilak"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Gopal Krishna Gokhale. G.K. Gokhale was an Early Nationalist leader (Gandhi's political guru).",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "A portrait picture of a leader to be identified (the leader shown is Gopal Krishna Gokhale).",
+   "page": 3,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/history_civics_2023/p3.jpg"
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Lucknow Pact parties",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Lucknow Pact 1916 Congress-League"
+   ],
+   "question": "The Lucknow Pact was signed between _______________ .",
+   "options": {
+    "a": "The British and the Congress",
+    "b": "The Congress and the Muslim League",
+    "c": "The Early and the Assertive Nationalists",
+    "d": "The Muslim League and the British"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) The Congress and the Muslim League. The Lucknow Pact of 1916 was between the Congress and the Muslim League.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Cause of Quit India",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Causes of Quit India: failure of Cripps Mission"
+   ],
+   "question": "_______________ was one of the causes of the Quit India Movement.",
+   "options": {
+    "a": "Failure of the Second Round Table Conference",
+    "b": "Rowlatt Act",
+    "c": "Mountbatten Plan",
+    "d": "Failure of the Cripps Mission"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Failure of the Cripps Mission. Congress rejected the Cripps plan and launched Quit India in August 1942.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The United Nations",
+   "topic": "Number of ICJ judges",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Composition of ICJ 15 judges"
+   ],
+   "question": "The International Court of Justice has ________ judges.",
+   "options": {
+    "a": "5",
+    "b": "10",
+    "c": "12",
+    "d": "15"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 15. The ICJ has fifteen judges of different nationalities.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Non Aligned Movement",
+   "topic": "NAM architect",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Architects of NAM: Nasser, Nehru, Tito"
+   ],
+   "question": "Which of these leaders was an architect of the Non-Aligned Movement?",
+   "options": {
+    "a": "Joseph Stalin",
+    "b": "Abdel Nasser",
+    "c": "Winston Churchill",
+    "d": "Franklin Roosevelt"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Abdel Nasser. Nasser of Egypt, with Nehru and Tito, was an architect of NAM.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xvi)",
+   "q_order": 15,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First World War",
+   "topic": "Immediate cause of WWI",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Sarajevo crisis immediate cause of WWI"
+   ],
+   "question": "The immediate cause of the First World War was _____________ .",
+   "options": {
+    "a": "Imperialism",
+    "b": "Alliance System",
+    "c": "Sarajevo Crisis",
+    "d": "Arms Race"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Sarajevo Crisis. The assassination of Archduke Franz Ferdinand at Sarajevo led Austria to declare war on Serbia.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(i)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Supreme Court",
+   "topic": "Independence of judiciary",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Independence of judiciary: separation, tenure, security of service"
+   ],
+   "question": "Mention any two ways in which the Constitution ensures the independence of the Judiciary from the Executive.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Fixed tenure and service conditions. (b) No discussion of judges' decisions in the legislature/courtroom except during impeachment proceedings.",
+   "marking_points": [
+    {
+     "point": "Fixed tenure and service conditions",
+     "marks": 1.0
+    },
+    {
+     "point": "Judges' decisions cannot be discussed except during impeachment proceedings (or any other valid way)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "Cabinet legislative powers",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Legislative powers of Cabinet"
+   ],
+   "question": "State any two legislative powers of the Cabinet.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Cabinet ministers introduce all kinds of bills in Parliament and their bills get priority over private members' bills. (b) It prepares the draft of constitutional amendment bills and gets ordinances issued by the President in special circumstances.",
+   "marking_points": [
+    {
+     "point": "Introduces all kinds of bills, which get priority",
+     "marks": 1.0
+    },
+    {
+     "point": "Prepares constitutional amendment bills / gets ordinances issued by the President",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Lord Lytton's repressive policies",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Lytton's repressive policies: Vernacular Press Act, Arms Act"
+   ],
+   "question": "Mention any two repressive policies of Lord Lytton.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Vernacular Press Act of 1878, censoring vernacular newspapers that published matter objectionable to the British Government. (b) Reduction of the maximum permissible age for Indians to appear in the Civil Services.",
+   "marking_points": [
+    {
+     "point": "Vernacular Press Act 1878 (censorship of vernacular newspapers)",
+     "marks": 1.0
+    },
+    {
+     "point": "Reduced maximum age limit for Indians in the Civil Services",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Independence and Partition of India",
+   "topic": "Congress accepting Mountbatten Plan",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Mountbatten Plan acceptance reasons by Congress"
+   ],
+   "question": "Give two reasons for the acceptance of the Mountbatten Plan by the Congress.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) It accepted the demand that the new constitution be framed entirely by the Constituent Assembly. (b) Congress realised that partition and creation of Pakistan was inevitable, so accepted the division.",
+   "marking_points": [
+    {
+     "point": "Constitution to be framed entirely by the Constituent Assembly",
+     "marks": 1.0
+    },
+    {
+     "point": "Congress realised partition and creation of Pakistan was inevitable",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(v)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Muslim League objectives",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Objectives of Muslim League"
+   ],
+   "question": "State any two objectives of the Muslim League.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) To represent the interests of Muslims at the national level and become their sole representative party. (b) To work with the British to secure Muslim interests in education, administration and politics.",
+   "marking_points": [
+    {
+     "point": "Represent Muslim interests at national level / sole representative party of Muslims",
+     "marks": 1.0
+    },
+    {
+     "point": "Work with the British to secure Muslim interests in education, administration and politics",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(vi)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First World War",
+   "topic": "Treaty of Versailles clauses",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Treaty of Versailles clauses"
+   ],
+   "question": "Mention any two clauses of the Treaty of Versailles.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Germany had to pay a huge war indemnity to the Allies and many of its areas were put under Allied control. (b) Restrictions were imposed on Germany's military strength.",
+   "marking_points": [
+    {
+     "point": "Huge war indemnity and loss of territories/areas to the Allies",
+     "marks": 1.0
+    },
+    {
+     "point": "Restrictions on German military strength",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(vii)",
+   "q_order": 22,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First World War",
+   "topic": "Pre-WWI European alliances",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Triple Alliance and Triple Entente"
+   ],
+   "question": "Name the two alliances formed in Europe before the beginning of the First World War.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Triple Alliance: Germany, Austria-Hungary and Italy. (b) Triple Entente: Great Britain, France and Russia.",
+   "marking_points": [
+    {
+     "point": "Triple Alliance (Germany, Austria-Hungary, Italy)",
+     "marks": 1.0
+    },
+    {
+     "point": "Triple Entente (Britain, France, Russia)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Union Legislature",
+   "topic": "Lok Sabha membership qualifications",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Lok Sabha membership qualifications"
+   ],
+   "question": "The Union Legislature comprises the President and the two Houses of the Parliament. With reference to the Parliament, answer the following questions:\n(i) Mr. Raj wants to be a member of the Lok Sabha. Mention any three qualifications required to contest elections for the Lok Sabha.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "He/she should: (a) be a citizen of India; (b) not be less than 25 years of age; (c) not be a proclaimed criminal; (d) not hold any office of profit under the Government of India; (e) have his/her name in the electoral rolls in any part of the country. (Any three)",
+   "marking_points": [
+    {
+     "point": "Citizen of India",
+     "marks": 1.0
+    },
+    {
+     "point": "Not less than 25 years of age",
+     "marks": 1.0
+    },
+    {
+     "point": "Not a proclaimed criminal / no office of profit / name in electoral rolls (any other valid qualification)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 24,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Union Legislature",
+   "topic": "Parliament legislative powers",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Legislative powers of Parliament: Union, Concurrent, State lists"
+   ],
+   "question": "The Union Legislature comprises the President and the two Houses of the Parliament. With reference to the Parliament, answer the following questions:\n(ii) Mention any three legislative powers of the Union Parliament.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Exclusive power to make laws on the 97 subjects of the Union List (defence, foreign policy, currency etc.). On the Concurrent List (47 subjects) it legislates along with State Assemblies; in case of conflict the Union law prevails. It can legislate on State List subjects: (a) in an emergency, (b) if the Rajya Sabha passes a resolution that a State List subject has assumed special importance, (c) when two or more States request Parliament to legislate.",
+   "marking_points": [
+    {
+     "point": "Exclusive laws on Union List subjects",
+     "marks": 1.0
+    },
+    {
+     "point": "Laws on Concurrent List; Union law prevails in conflict",
+     "marks": 1.0
+    },
+    {
+     "point": "Laws on State List subjects in emergency / on Rajya Sabha resolution / at request of States",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 25,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Union Legislature",
+   "topic": "Parliament's control over Executive",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Parliamentary control over Executive: question hour, no-confidence motion"
+   ],
+   "question": "The Union Legislature comprises the President and the two Houses of the Parliament. With reference to the Parliament, answer the following questions:\n(iii) The Parliament controls the Executive. Mention any four ways in which it exercises its control.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Interpellation: Question Hour, Calling Attention Notices, Half-an-Hour discussion to seek information on government policies and performance; Question Hour (first hour of sitting) is most important. (b) Vote of No-Confidence: government can be voted out; whole Ministry must resign. (c) Adjournment Motion: aimed at censuring acts of omission and commission of Ministers. (d) Constitutional Amendment Bills must be passed by both Houses with a special majority.",
+   "marking_points": [
+    {
+     "point": "Interpellation (Question Hour, Calling Attention, Half-an-Hour discussion)",
+     "marks": 1.0
+    },
+    {
+     "point": "Vote of No-Confidence",
+     "marks": 1.0
+    },
+    {
+     "point": "Adjournment Motion",
+     "marks": 1.0
+    },
+    {
+     "point": "Constitutional Amendment Bills need both Houses with special majority (or any other valid way)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 26,
+   "q_main": 4,
+   "section": "Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "President and Vice President",
+   "topic": "Types of emergencies",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "National, State, Financial emergencies"
+   ],
+   "question": "The President is the head of the State and exercises his / her powers on the advice of the Prime Minister and the Council of Ministers. With reference to this, answer the following questions:\n(i) What are the three types of emergencies that can be proclaimed by the President?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) National Emergency (Art. 352): security threatened by war, external aggression or armed rebellion; approved by Parliament within one month by special majority, lasts six months. (b) President's Rule (Art. 356): on Governor's report of breakdown of constitutional machinery in a state; ratified by Parliament within 2 months, lasts 6 months. (c) Financial Emergency (Art. 360): financial stability or credibility threatened; President may reduce salaries and allowances, give directions to States on funds and ask for Money Bills.",
+   "marking_points": [
+    {
+     "point": "National Emergency (Article 352)",
+     "marks": 1.0
+    },
+    {
+     "point": "President's Rule in a state (Article 356)",
+     "marks": 1.0
+    },
+    {
+     "point": "Financial Emergency (Article 360)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 27,
+   "q_main": 4,
+   "section": "Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "President and Vice President",
+   "topic": "President's legislative powers",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Legislative powers of President: summon, assent, ordinance"
+   ],
+   "question": "The President is the head of the State and exercises his / her powers on the advice of the Prime Minister and the Council of Ministers. With reference to this, answer the following questions:\n(ii) Mention any three legislative powers of the President.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Summons, prorogues Parliament, dissolves the Lok Sabha, calls a joint session. (b) Addresses the joint session after general elections and the first session each year, outlining policies. (c) A bill becomes an Act after the President's assent. (d) For an ordinary bill he can assent, withhold assent, or return it (must assent if passed again). (e) Money Bills are introduced with his prior consent. (f) Promulgates ordinances under Article 123 during recess of Parliament. (Any three)",
+   "marking_points": [
+    {
+     "point": "Summons/prorogues Parliament, dissolves Lok Sabha, joint session; addresses Parliament",
+     "marks": 1.0
+    },
+    {
+     "point": "Assent to bills (can assent, withhold or return)",
+     "marks": 1.0
+    },
+    {
+     "point": "Prior consent for Money Bills / promulgates ordinances (Art. 123) (any valid power)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 28,
+   "q_main": 4,
+   "section": "Section A",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "President and Vice President",
+   "topic": "Indirect election and Electoral College",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Reasons for indirect election of President",
+    "Electoral College composition"
+   ],
+   "question": "The President is the head of the State and exercises his / her powers on the advice of the Prime Minister and the Council of Ministers. With reference to this, answer the following questions:\n(iii) Give any two reasons to justify the need for indirect election of the President. What is the composition of the Electoral College which elects the President?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Reasons: (a) President is only a nominal head in a parliamentary system; direct election would be an anomaly and create imbalance between President and Prime Minister, who has real authority. (b) Including MLAs makes the President representative of the whole nation and gives States a voice. (c) Protects the President from becoming a nominee of the ruling party; saves time, money and energy. Electoral College: elected members of both Houses of Parliament (Lok Sabha and Rajya Sabha) and elected members of the Vidhan Sabhas of States including Delhi (NCT) and Puducherry, by proportional representation with Single Transferable Vote and secret ballot.",
+   "marking_points": [
+    {
+     "point": "Reason 1 for indirect election (e.g. President is nominal head; direct election would unbalance powers with PM)",
+     "marks": 1
+    },
+    {
+     "point": "Reason 2 (e.g. saves time, money and energy; representative of whole nation)",
+     "marks": 1
+    },
+    {
+     "point": "Elected members of both Houses of Parliament",
+     "marks": 1
+    },
+    {
+     "point": "Elected members of State Legislative Assemblies including Delhi and Puducherry",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 29,
+   "q_main": 5,
+   "section": "Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "High Court judges appointment, qualifications",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Appointment of High Court judges",
+    "Qualifications of HC judge"
+   ],
+   "question": "The Constitution of India provides for a High Court for each State. With reference to the High Courts and Subordinate Courts, answer the following questions:\n(i) Who appoints the judges of the High Court? Mention any two qualifications required for a person to be appointed as a judge of a High Court.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The President appoints (Chief Justice in consultation with the Chief Justice of India and the Governor; other judges after also consulting the Chief Justice of the High Court). Qualifications: (a) citizen of India; (b) not above 62 years of age; (c) held a judicial office in Indian territory for at least 10 years. (Any two)",
+   "marking_points": [
+    {
+     "point": "The President appoints High Court judges",
+     "marks": 1
+    },
+    {
+     "point": "Any one qualification (e.g. citizen of India)",
+     "marks": 1
+    },
+    {
+     "point": "Any second qualification (e.g. held judicial office for at least 10 years / not above 62)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 30,
+   "q_main": 5,
+   "section": "Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "High Court original jurisdiction",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "High Court original jurisdiction"
+   ],
+   "question": "The Constitution of India provides for a High Court for each State. With reference to the High Courts and Subordinate Courts, answer the following questions:\n(ii) Mention any three cases that come under the Original Jurisdiction of the High Court.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Original jurisdiction covers cases heard directly by the High Court in the first instance: (a) writs for enforcement of Fundamental Rights; (b) marriage, divorce, wills, contempt of court etc.; (c) state revenue and its collection; (d) enforcement of fundamental rights of citizens; (e) admiralty matters. (Any three)",
+   "marking_points": [
+    {
+     "point": "Writs for enforcement of Fundamental Rights",
+     "marks": 1.0
+    },
+    {
+     "point": "Marriage, divorce, wills, contempt of court",
+     "marks": 1.0
+    },
+    {
+     "point": "State revenue / admiralty matters (any other valid case)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 31,
+   "q_main": 5,
+   "section": "Section A",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Lok Adalats and advantages",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Lok Adalat definition and advantages"
+   ],
+   "question": "The Constitution of India provides for a High Court for each State. With reference to the High Courts and Subordinate Courts, answer the following questions:\n(iii) What are Lok Adalats? Mention any three advantages of the Lok Adalats.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Lok Adalats are 'People's Courts' set up on Justice P.N. Bhagwati's recommendation under the Legal Services Authorities Act, 1987, giving aid and justice to those who cannot engage lawyers or bear expenses, settling cases (even before they go to court) informally through negotiation and compromise. Advantages: (a) work in spirit of compromise, giving satisfaction to both parties; (b) fast and inexpensive justice, application on plain paper; (c) reduce workload of other courts.",
+   "marking_points": [
+    {
+     "point": "Meaning: People's Courts under Legal Services Authorities Act 1987 settling cases by compromise",
+     "marks": 1
+    },
+    {
+     "point": "Advantage 1: compromise, satisfaction of both parties",
+     "marks": 1
+    },
+    {
+     "point": "Advantage 2: fast and inexpensive justice",
+     "marks": 1
+    },
+    {
+     "point": "Advantage 3: reduce workload of other courts",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 32,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First War of Independence 1857",
+   "topic": "British expansion policies",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Doctrine of Lapse, Subsidiary Alliance, annexation policies"
+   ],
+   "question": "The Indian Nationalists described the Great Uprising of 1857 as the First War of Independence. With reference to this, answer the following questions:\n(i) Mention any three policies used by the British to expand their political power in India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Lord Dalhousie's policy of annexation including the Doctrine of Lapse (Satara, Jhansi, Nagpur, Sambalpur annexed). (b) Subsidiary Alliance, bringing administration of many states under British control. (c) General Enlistment Act 1856, allowing recruitment of Indians for service in the British Indian army.",
+   "marking_points": [
+    {
+     "point": "Doctrine of Lapse / Dalhousie's annexation",
+     "marks": 1.0
+    },
+    {
+     "point": "Subsidiary Alliance",
+     "marks": 1.0
+    },
+    {
+     "point": "General Enlistment Act 1856",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 33,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First War of Independence 1857",
+   "topic": "Military causes of 1857",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Military causes of 1857 revolt"
+   ],
+   "question": "The Indian Nationalists described the Great Uprising of 1857 as the First War of Independence. With reference to this, answer the following questions:\n(ii) The Revolt of 1857 is also known as the Sepoy Mutiny. Mention any three military causes which led to the uprising.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) Unequal treatment and meagre pay of Indian soldiers. (2) Indians could rise only up to Subedar. (3) General Service Enlistment Act 1856: overseas duty against religious beliefs. (4) Numerical superiority of Indian soldiers. (5) British defeat in the First Afghan War (1838-42). (Any three)",
+   "marking_points": [
+    {
+     "point": "Unequal pay/treatment of Indian soldiers",
+     "marks": 1.0
+    },
+    {
+     "point": "Indians could rise only up to Subedar",
+     "marks": 1.0
+    },
+    {
+     "point": "General Service Enlistment Act / numerical strength / First Afghan War defeat (any other valid cause)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 34,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First War of Independence 1857",
+   "topic": "Economic causes of Revolt",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Economic causes of 1857: decline of handicrafts, land revenue"
+   ],
+   "question": "The Indian Nationalists described the Great Uprising of 1857 as the First War of Independence. With reference to this, answer the following questions:\n(iii) Mention any four economic causes of the Revolt.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Exploitation of Indian resources for British industry; raw material exported, finished goods imported, ruining Indian industries. (b) Decline of handicrafts: heavy export duties on Indian goods, free import of British goods, cheap machine-made cloth shut down looms. (c) Unemployment as people moved to cities. (d) Peasants forced to pay tax in cash, pushed to moneylenders, tax collected even in famines.",
+   "marking_points": [
+    {
+     "point": "Exploitation of Indian resources / ruin of industries",
+     "marks": 1.0
+    },
+    {
+     "point": "Decline of handicrafts due to heavy duties and cheap British cloth",
+     "marks": 1.0
+    },
+    {
+     "point": "Unemployment",
+     "marks": 1.0
+    },
+    {
+     "point": "Cash taxes pushed peasants to moneylenders; tax even in famines",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 35,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Dandi March picture",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 1,
+   "concepts": [
+    "Dandi March identification",
+    "Civil Disobedience Movement launch"
+   ],
+   "question": "Look at the picture given below and answer the following questions:\n(i) Name the march being led by Gandhiji in the given picture. Which movement did this march launch?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Dandi March (Salt March), from Sabarmati Ashram to Dandi to break the salt law. It launched the Civil Disobedience Movement.",
+   "marking_points": [
+    {
+     "point": "Dandi March / Salt March",
+     "marks": 1
+    },
+    {
+     "point": "Civil Disobedience Movement",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Picture of Mahatma Gandhi leading a march with followers (the Dandi / Salt March).",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/history_civics_2023/p7.jpg"
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 36,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Non-Cooperation causes and suspension",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Causes of Non-Cooperation Movement",
+    "Chauri Chaura incident"
+   ],
+   "question": "What were the three causes of the Non-Cooperation Movement? Name the incident which led to the suspension of this movement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Causes: (a) Jallianwala Bagh Massacre; (b) Rowlatt Act; (c) Khilafat Movement. In February 1922 Gandhi called off the movement after the Chauri-Chaura incident.",
+   "marking_points": [
+    {
+     "point": "Jallianwala Bagh Massacre",
+     "marks": 1
+    },
+    {
+     "point": "Rowlatt Act",
+     "marks": 1
+    },
+    {
+     "point": "Khilafat Movement",
+     "marks": 1
+    },
+    {
+     "point": "Chauri-Chaura incident",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 37,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Gandhi-Irwin Pact conditions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Gandhi-Irwin Pact conditions"
+   ],
+   "question": "Mahatma Gandhi and Lord Irwin signed a pact in 1931. Mention any two conditions that the Congress agreed to and two conditions that the British Government agreed to according to this pact.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "British (Irwin) agreed to: (a) manufacture of salt by people near the seashore; (b) release of political prisoners not charged with violence; (c) return of confiscated properties of Congressmen; (d) peaceful picketing of liquor shops; (e) roll back repressive ordinances. Congress agreed to: (a) suspend the Civil Disobedience Movement; (b) participate in the Second Round Table Conference.",
+   "marking_points": [
+    {
+     "point": "British condition 1 (any valid)",
+     "marks": 1
+    },
+    {
+     "point": "British condition 2 (any valid)",
+     "marks": 1
+    },
+    {
+     "point": "Congress: suspend Civil Disobedience Movement",
+     "marks": 1
+    },
+    {
+     "point": "Congress: participate in Second Round Table Conference",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 38,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Forward Bloc and The INA",
+   "topic": "Forward Bloc objectives",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Objectives of Forward Bloc"
+   ],
+   "question": "The heroism of the Indians was revealed by the courage of Subash Chandra Bose and the Indian National Army. With reference to this, answer the following questions:\n(i) Mention any three objectives of the Forward Bloc.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Liberation and rebuilding of India on socialist lines with support of workers, peasants, youth and other organisations. (b) To bring all radical elements of the Congress into the Forward Bloc. (c) Complete independence of India and carrying on the anti-imperialist struggle until the goal was achieved.",
+   "marking_points": [
+    {
+     "point": "Liberation and rebuilding of India on socialist lines",
+     "marks": 1.0
+    },
+    {
+     "point": "Unite all radical elements of Congress",
+     "marks": 1.0
+    },
+    {
+     "point": "Complete independence / anti-imperialist struggle",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 39,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Forward Bloc and The INA",
+   "topic": "Subhas Bose's contributions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Subhas Chandra Bose's contributions"
+   ],
+   "question": "The heroism of the Indians was revealed by the courage of Subash Chandra Bose and the Indian National Army. With reference to this, answer the following questions:\n(ii) Mention any three contributions of Subash Chandra Bose.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Organised student and youth associations to strengthen the nationalist movement. (b) Organised left-wing socialist parties under the Forward Bloc in 1939. (c) Became leader of the radical wing and an idol of the youth. (d) Got German and Japanese support against British rule. (e) Reorganised the INA and urged soldiers to march to Delhi. (Any three)",
+   "marking_points": [
+    {
+     "point": "Organised student and youth associations",
+     "marks": 1.0
+    },
+    {
+     "point": "Formed Forward Bloc in 1939 / leader of radical wing",
+     "marks": 1.0
+    },
+    {
+     "point": "Sought German and Japanese support / reorganised INA (any other valid contribution)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 40,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Forward Bloc and The INA",
+   "topic": "INA founder and objectives",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "INA founder Mohan Singh",
+    "INA objectives"
+   ],
+   "question": "The heroism of the Indians was revealed by the courage of Subash Chandra Bose and the Indian National Army. With reference to this, answer the following questions:\n(iii) Who was the founder of the Indian National Army? Mention any three of its objectives.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Founder: Mohan Singh. Objectives: (a) organise an armed revolution and fight the British Army with modern arms; (b) use Indians living in East Asia to confront the British; (c) organise a Provisional Government to free India; (d) total mobilisation of Indian manpower and money for a Total War; (e) motto 'Unity, Faith, Sacrifice'; (f) train people for armed struggle inside and outside the country. (Any three)",
+   "marking_points": [
+    {
+     "point": "Founder: Mohan Singh",
+     "marks": 1
+    },
+    {
+     "point": "Objective 1",
+     "marks": 1
+    },
+    {
+     "point": "Objective 2",
+     "marks": 1
+    },
+    {
+     "point": "Objective 3",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "9(i)",
+   "q_order": 41,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Rise of Dictatorships",
+   "topic": "Fascism and Nazism similarities",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Similarities between Fascism and Nazism"
+   ],
+   "question": "The world wars marked a turning point in the history of the world. With reference to this period, answer the following questions:\n(i) Mention any three similarities between the ideologies of Fascism and Nazism.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Both believed in confrontational nationalism and imperialism. (b) Both had faith in dictatorial rule and hated democracy. (c) Both supported one-party and one-man rule.",
+   "marking_points": [
+    {
+     "point": "Confrontational nationalism and imperialism",
+     "marks": 1.0
+    },
+    {
+     "point": "Dictatorial rule and hatred of democracy",
+     "marks": 1.0
+    },
+    {
+     "point": "One-party, one-man rule",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "9(ii)",
+   "q_order": 42,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Second World War",
+   "topic": "Consequences of WWII",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Consequences of WWII: Cold War, superpowers"
+   ],
+   "question": "The world wars marked a turning point in the history of the world. With reference to this period, answer the following questions:\n(ii) State the three consequences of the Second World War.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Immense suffering and destruction; millions dead and wounded. (b) Allies defeated the Nazi and Fascist dictators. (c) Germany occupied and divided into four zones; West Germany (Britain, France, USA) and East Germany (Russia). (d) Cold War started; world divided into capitalist bloc led by America and communist bloc led by Russia. (e) Status of France and England lowered; Russia and America emerged as superpowers. (Any three)",
+   "marking_points": [
+    {
+     "point": "Consequence 1 (e.g. destruction and loss of life)",
+     "marks": 1.0
+    },
+    {
+     "point": "Consequence 2 (e.g. division of Germany / defeat of dictators)",
+     "marks": 1.0
+    },
+    {
+     "point": "Consequence 3 (e.g. Cold War / emergence of superpowers)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "9(iii)",
+   "q_order": 43,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Second World War",
+   "topic": "Causes of WWII",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Causes of WWII: Versailles, appeasement, aggression"
+   ],
+   "question": "The world wars marked a turning point in the history of the world. With reference to this period, answer the following questions:\n(iii) Mention any four causes of the Second World War.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Harsh and humiliating Treaty of Versailles, violated by Hitler. (b) French occupation of the Ruhr industrial zone. (c) Colonial expansion by Italy (Ethiopia), Japan (Manchuria), Germany (Austria, Sudetenland, Czechoslovakia). (d) Policy of Appeasement by Britain and France.",
+   "marking_points": [
+    {
+     "point": "Harsh Treaty of Versailles",
+     "marks": 1.0
+    },
+    {
+     "point": "French occupation of the Ruhr",
+     "marks": 1.0
+    },
+    {
+     "point": "Aggressive colonial expansion by Italy, Japan, Germany",
+     "marks": 1.0
+    },
+    {
+     "point": "Policy of appeasement",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "10(i)",
+   "q_order": 44,
+   "q_main": 10,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "Security Council composition and term",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Security Council composition and term"
+   ],
+   "question": "The United Nations Organisation aims to maintain international peace. With reference to its organs and agencies, answer the following:\n(i) What is the composition of the Security Council? What is the term of the non-permanent members?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "It has 15 members: five permanent (Russia, USA, UK, China, France) and ten non-permanent members elected by the General Assembly for two years. All permanent members have veto power (a negative vote; abstention is not a veto). Each member has one vote. Term of non-permanent members: two years.",
+   "marking_points": [
+    {
+     "point": "15 members in all",
+     "marks": 1
+    },
+    {
+     "point": "Five permanent members (Russia, USA, UK, China, France) with veto power",
+     "marks": 1
+    },
+    {
+     "point": "Ten non-permanent members elected by the General Assembly",
+     "marks": 1
+    },
+    {
+     "point": "Term of non-permanent members: two years",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "10(ii)",
+   "q_order": 45,
+   "q_main": 10,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "General Assembly functions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Functions of General Assembly"
+   ],
+   "question": "The United Nations Organisation aims to maintain international peace. With reference to its organs and agencies, answer the following:\n(ii) Mention any three functions of the General Assembly.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Admission of new members; (b) consider and approve the UN budget; (c) determine funds contributed by members; (d) recommend peaceful settlement of international disputes; (e) promote international cooperation; (f) elect ten non-permanent members of the Security Council; (g) receive and evaluate reports of the Security Council and other organs. (Any three)",
+   "marking_points": [
+    {
+     "point": "Function 1",
+     "marks": 1.0
+    },
+    {
+     "point": "Function 2",
+     "marks": 1.0
+    },
+    {
+     "point": "Function 3",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "10(iii)",
+   "q_order": 46,
+   "q_main": 10,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "UNESCO full form and functions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "UNESCO full form and functions"
+   ],
+   "question": "The United Nations Organisation aims to maintain international peace. With reference to its organs and agencies, answer the following:\n(iii) Give the full form of UNESCO. Mention any three of its functions.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "United Nations Educational, Scientific and Cultural Organisation. Functions: promotes peace and security through collaboration in education, science, culture and communication; in education it eliminates illiteracy, advises on textbooks, syllabi and teacher training, sets up library systems, gives fellowships; in science it promotes research and organises conferences of scientists. (Any three)",
+   "marking_points": [
+    {
+     "point": "Full form: United Nations Educational, Scientific and Cultural Organisation",
+     "marks": 1
+    },
+    {
+     "point": "Function 1",
+     "marks": 1
+    },
+    {
+     "point": "Function 2",
+     "marks": 1
+    },
+    {
+     "point": "Function 3",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  }
+ ]
+}

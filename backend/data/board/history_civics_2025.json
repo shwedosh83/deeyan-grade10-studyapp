@@ -1,0 +1,1902 @@
+{
+ "paper_id": "history_civics_2025",
+ "subject": "history_civics",
+ "year": 2025,
+ "sem": null,
+ "label": "2025",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Attempt all questions from Part I (compulsory). In Part II, attempt five questions in total: two out of three from Section A and three out of five from Section B.",
+ "sections": [
+  {
+   "name": "Part I",
+   "total_marks": 30,
+   "rule": "Attempt all questions from this Part",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Part II Section A",
+   "total_marks": 20,
+   "rule": "Attempt any two questions from this Section",
+   "compulsory": false,
+   "attempt_n": 2,
+   "out_of": 3
+  },
+  {
+   "name": "Part II Section B",
+   "total_marks": 30,
+   "rule": "Attempt any three questions from this Section",
+   "compulsory": false,
+   "attempt_n": 3,
+   "out_of": 5
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "Collective responsibility of Council of Ministers",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "collective responsibility of Council of Ministers to Lok Sabha"
+   ],
+   "question": "The Council of Ministers is collectively responsible to the _____________.",
+   "options": {
+    "a": "Lok Sabha",
+    "b": "President",
+    "c": "Rajya Sabha",
+    "d": "Prime Minister"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Lok Sabha. The Council of Ministers is collectively responsible to the Lok Sabha and remains in office as long as it enjoys the confidence of the majority of the Lok Sabha (Article 75(3)).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Rajya Sabha membership eligibility",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "Rajya Sabha membership qualifications and disqualifications",
+    "age limit 30 years"
+   ],
+   "question": "Given below are details of a few Indian Citizens.\nPerson | Age (In years) | Description\nW | 25 | Is a famous journalist\nX | 45 | Is an industrialist\nY | 35 | Has declared insolvency\nZ | 50 | Has taken citizenship of another country\nSelect the one who is eligible to be a member of the Rajya Sabha.",
+   "options": {
+    "a": "X",
+    "b": "W",
+    "c": "Y",
+    "d": "Z"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) X. A Rajya Sabha member must be an Indian citizen, at least 30 years old, not an insolvent, and not hold an office of profit. W is under 30, Y is insolvent, Z is no longer an Indian citizen.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Supreme Court",
+   "topic": "Judicial review analogy",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "judicial review of laws by Supreme Court",
+    "analogy with advisory jurisdiction"
+   ],
+   "question": "With reference to the Supreme Court of India, complete the following:\nAdvisory Jurisdiction: Advice the President :: Judicial Review: ______________.",
+   "options": {
+    "a": "Review its own judgements.",
+    "b": "Review the judgements of the High Court.",
+    "c": "Review the laws passed by the Parliament.",
+    "d": "Review the administration of the Government."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Review the laws passed by the Parliament. The Supreme Court can declare laws null and void if found unconstitutional.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Speaker's power to maintain discipline",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Speaker's power to maintain order and adjourn the House"
+   ],
+   "question": "Observe the given picture. In case of a similar unruly situation in the Lok Sabha, choose the action that may be taken by the Speaker.",
+   "options": {
+    "a": "adjourn the house for lack of quorum.",
+    "b": "dissolve the Lok Sabha.",
+    "c": "adjourn the house for lack of discipline.",
+    "d": "disqualify the members under Anti-defection law."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) adjourn the house for lack of discipline. It is the Speaker's duty to maintain order and discipline in the House.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "A picture of an unruly, disorderly scene in the Lok Sabha (members protesting/shouting in the House).",
+   "page": 3,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/history_civics_2025/p3.jpg"
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Adjournment Motion",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Adjournment Motion for urgent public importance"
+   ],
+   "question": "If an Adjournment Motion is passed in the Lok Sabha _______________.",
+   "options": {
+    "a": "the Lok Sabha will be dissolved.",
+    "b": "the House will discuss a matter of urgent public importance.",
+    "c": "the President ends the session.",
+    "d": "the Government will fall."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) the House will discuss a matter of urgent public importance. It interrupts the normal business of the House.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "President and Vice President",
+   "topic": "National emergency",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "National Emergency Article 352"
+   ],
+   "question": "Which emergency will be declared by the President if the security of the Nation is under threat?",
+   "options": {
+    "a": "General Emergency",
+    "b": "Financial Emergency",
+    "c": "Constitutional Emergency",
+    "d": "President's Rule"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) General Emergency (National Emergency, Article 352), declared when the security of the nation is threatened by war, external aggression or armed rebellion.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Partition of Bengal 1905",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "Partition of Bengal 1905 and divide and rule"
+   ],
+   "question": "Read the statements given below and select the option that shows the correct relationship between (A) and (R).\nAssertion (A): Lord Curzon partitioned Bengal in 1905.\nReason (R): The Nationalists felt that the British wanted to divide the Hindus and the Muslims.",
+   "options": {
+    "a": "(A) is true and (R) is false.",
+    "b": "(R) is true but (A) is false.",
+    "c": "Both (A) and (R) are independent of each other.",
+    "d": "(R) is the reason for (A)."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) (R) is the reason for (A). The partition aimed to create disunity between Hindus and Muslims and weaken the nationalist movement.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First War of Independence 1857",
+   "topic": "Subsidiary Alliance",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Subsidiary Alliance by Lord Wellesley"
+   ],
+   "question": "Read the description and identify the person.\nHe introduced the Subsidiary Alliance to expand the British control over India.",
+   "options": {
+    "a": "Lord Dalhousie",
+    "b": "Lord Canning",
+    "c": "Lord Wellesley",
+    "d": "Lord Curzon"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Lord Wellesley, who started the Subsidiary Alliance in 1798.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Assertive Nationalist leaders",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Lal Bal Pal Assertive Nationalists vs Moderate Dadabhai Naoroji"
+   ],
+   "question": "Identify the odd one out of the following Assertive Nationalists Leaders.",
+   "options": {
+    "a": "Bipin Chandra Pal",
+    "b": "Lala Lajpat Rai",
+    "c": "Dadabhai Naoroji",
+    "d": "Bal Gangadhar Tilak"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Dadabhai Naoroji (a Moderate/Early Nationalist; Lal-Bal-Pal were the Assertive Nationalists).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Social reformer Jyotiba Phule",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Jyotiba Phule and girls' education"
+   ],
+   "question": "Who among the following is MOST associated with this picture?",
+   "options": {
+    "a": "Jyotiba Phule",
+    "b": "Raja Ram Mohan Roy",
+    "c": "Swami Dayanand Saraswati",
+    "d": "Aurobindo Ghosh"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Jyotiba Phule, who with Savitribai Phule established the first school for girls in Pune in 1848.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "A picture related to girls' education / a girls' school (associated with Jyotiba and Savitribai Phule).",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/history_civics_2025/p5.jpg"
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Forward Bloc and The INA",
+   "topic": "Contributions of Subhash Chandra Bose",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Subhash Bose: INA Supreme Commander and Forward Bloc founder"
+   ],
+   "question": "Identify the contributions of Subhash Chandra Bose:\nP. Was the Supreme Commander of INA\nQ. Signed the Lucknow Pact\nR. Led the Quit India Movement\nS. Founded the Forward Bloc",
+   "options": {
+    "a": "P and Q",
+    "b": "Q and R",
+    "c": "P and S",
+    "d": "R and S"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) P and S. Bose was Supreme Commander of the INA and founded the Forward Bloc.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Swadeshi method",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Swadeshi as method of Assertive Nationalists"
+   ],
+   "question": "The market of a small industrial town X has been dominated by many products of foreign companies. The local residents decide to save the Indian industries by helping them increase their sales. Which method of the Assertive Nationalists must they follow to become self-reliant?",
+   "options": {
+    "a": "Passive Resistance",
+    "b": "National Education",
+    "c": "Swadeshi",
+    "d": "Revivalism"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Swadeshi, meaning of one's own country; use of indigenous goods is encouraged.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The United Nations",
+   "topic": "Objectives of the UN",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "objectives of the United Nations"
+   ],
+   "question": "Which of the following is NOT an objective of the United Nations Organisation?",
+   "options": {
+    "a": "Disarm",
+    "b": "Disengage",
+    "c": "Decolonise",
+    "d": "Develop"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Disengage. Disengagement is contrary to the UN's objective of collaboration and resolving conflicts.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The United Nations",
+   "topic": "UNESCO heritage preservation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "UNESCO and heritage sites"
+   ],
+   "question": "Which agency of the United Nations Organisation is associated with this picture?",
+   "options": {
+    "a": "UNESCO",
+    "b": "UNICEF",
+    "c": "WHO",
+    "d": "ILO"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) UNESCO, which preserves and protects heritage sites worldwide.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "A picture of a world heritage site (monument), related to heritage preservation.",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/history_civics_2025/p7.jpg"
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Rise of Dictatorships",
+   "topic": "Causes of rise of dictatorship",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "economic crisis as cause of dictatorship"
+   ],
+   "question": "Which of the following is a common cause for the rise of dictatorship?",
+   "options": {
+    "a": "Faith in Democracy",
+    "b": "Economic Crisis",
+    "c": "Freedom of Press",
+    "d": "Political Stability"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Economic Crisis. Financial instability leads citizens to seek strong leadership even at the expense of democracy.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xvi)",
+   "q_order": 15,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First World War",
+   "topic": "Sarajevo crisis as cause",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Sarajevo crisis as immediate cause of First World War"
+   ],
+   "question": "Which of the following causes of the First World War is connected to this headline?",
+   "options": {
+    "a": "Imperialism",
+    "b": "Aggressive Nationalism",
+    "c": "Armament Race",
+    "d": "Sarajevo Crisis"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Sarajevo Crisis: the assassination of Archduke Franz Ferdinand at Sarajevo on 28 June 1914, the immediate cause of World War I.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "A newspaper headline picture about the assassination of Archduke Franz Ferdinand at Sarajevo.",
+   "page": 8,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/history_civics_2025/p8.jpg"
+  },
+  {
+   "q_label": "2(i)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "PM's powers regarding Cabinet",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "powers of Prime Minister over Cabinet"
+   ],
+   "question": "Mention any two powers of the Prime Minister with reference to the Cabinet.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (a) The PM is the head of the Council of Ministers. (b) Appoints and removes ministers, calls meetings of the Cabinet, allots portfolios, co-ordinates all departments and presides over Cabinet meetings. (c) Chief coordinator between ministries on policy issues. (d) Can ask a minister to resign or advise the President to dismiss them in case of difference of opinion. (e) Resignation of the PM implies resignation of the whole Cabinet.",
+   "marking_points": [
+    {
+     "point": "First valid power of the PM with reference to the Cabinet",
+     "marks": 1
+    },
+    {
+     "point": "Second valid power of the PM with reference to the Cabinet",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "First Phase of Indian National Movement",
+   "topic": "Methods of Early Nationalists",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "methods of Early Nationalists: petitions, memorandums"
+   ],
+   "question": "Imagine you are an Early Nationalist leader. Mention any two methods you would follow to fight against the British.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: held meetings; made speeches; used the press, newspapers and journals; criticised government policies; sent memorandums; sent petitions to government officials and the British Parliament; petitions, prayers and protests through constitutional methods; peaceful propaganda; constitutional means; discussions; processions; passed resolutions; united public opinion; sent deputations and delegations; distributed leaflets and pamphlets.",
+   "marking_points": [
+    {
+     "point": "First valid method of Early Nationalists",
+     "marks": 1
+    },
+    {
+     "point": "Second valid method of Early Nationalists",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Formation of Muslim League",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "factors behind formation of Muslim League"
+   ],
+   "question": "Mention any two factors that led to the formation of the Muslim League.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) The adoption of the Policy of Divide and Rule by the British. (b) The Partition of Bengal which created a communal rift between Hindus and Muslims.",
+   "marking_points": [
+    {
+     "point": "Policy of Divide and Rule by the British",
+     "marks": 1
+    },
+    {
+     "point": "Partition of Bengal creating a communal rift between Hindus and Muslims",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Forward Bloc and The INA",
+   "topic": "Objectives of Forward Bloc",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "objectives of the Forward Bloc"
+   ],
+   "question": "Mention any two objectives of the Forward Bloc.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) To bring all radical elements of the Congress Party together in the newly founded Forward Bloc. (b) It stood for complete independence of India and carried on the anti-imperialist struggle till the goal was achieved.",
+   "marking_points": [
+    {
+     "point": "Bring all radical elements of Congress together",
+     "marks": 1
+    },
+    {
+     "point": "Complete independence / anti-imperialist struggle until goal achieved",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(v)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First World War",
+   "topic": "Treaty of Versailles military restrictions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Treaty of Versailles military clauses on Germany"
+   ],
+   "question": "Mention any two ways in which the Treaty of Versailles affected the German Military Force.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) The German Army was restricted to 1,00,000 soldiers and the Navy limited to 15,000 men and 36 ships. (b) The Air Force and submarines of the German Navy were banned.",
+   "marking_points": [
+    {
+     "point": "Army limited to 1,00,000 soldiers / Navy limited to 15,000 men and 36 ships",
+     "marks": 1
+    },
+    {
+     "point": "Air force and submarines banned",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(vi)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Non Aligned Movement",
+   "topic": "Meaning of Non-Alignment",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "meaning of Non-Alignment"
+   ],
+   "question": "What is meant by the term Non-Alignment?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Non-Alignment means not being under the influence of any superpower blocs. (b) NAM stands for peace, cooperation and staying away from the Cold War. (c) NAM believes in acting on the merit of the incident rather than following the dictates of any power. (Any two points)",
+   "marking_points": [
+    {
+     "point": "Valid point explaining Non-Alignment (e.g. not under influence of any superpower bloc)",
+     "marks": 1
+    },
+    {
+     "point": "Second valid point (e.g. peace, cooperation, staying away from Cold War; acting on merit)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(vii)",
+   "q_order": 22,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "comprehension",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Supreme Court",
+   "topic": "Independence of the Judiciary",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "independence of judiciary: security of tenure and salary"
+   ],
+   "question": "When a judicial system is correctly calibrated, the law is applied by judges fearlessly, without favour or fear and with respect. That is why judicial security of tenure is so fundamental. It is also why judges must be properly paid without any interference from the Executive or Legislature.\n—(The Need for Independent Judiciary) UNODC\n\nFrom the passage, deduce and mention any two ways in which the Constitution ensures the independence of the Judiciary.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (a) Judges are appointed by the President after consulting senior judges. (b) Salaries and perks cannot be changed to their disadvantage during office unless there is a Financial Emergency (security of tenure and proper pay). (c) Judges have complete freedom to announce decisions; Parliament cannot discuss judgements or conduct of a judge except on a motion to remove him. (d) Supreme Court can punish for contempt of Court. (e) Judges cannot practice in any Indian court after retirement.",
+   "marking_points": [
+    {
+     "point": "Security of tenure (judges' office protected / removal only by prescribed process)",
+     "marks": 1
+    },
+    {
+     "point": "Salaries and perks cannot be reduced to judges' disadvantage / free from Executive or Legislature interference",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Union Legislature",
+   "topic": "Parliament legislating on State List",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Parliament legislating on State List: Articles 249, 250, 252"
+   ],
+   "question": "The Parliament of India comprises the President and the two houses. With reference to the Indian Parliament, answer the following questions:\nMention any three circumstances under which the Parliament can make laws on subjects in the state list.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) National Interest (Article 249): if the Rajya Sabha passes a resolution by a two-thirds majority that a State List subject is of national importance. (b) During Emergencies (Article 250): when a national emergency is in force. (c) Agreement between States (Article 252): if two or more states request Parliament to legislate on a State List subject; the law applies only to those states.",
+   "marking_points": [
+    {
+     "point": "National interest: Rajya Sabha resolution by two-thirds majority (Art. 249)",
+     "marks": 1
+    },
+    {
+     "point": "During a national emergency (Art. 250)",
+     "marks": 1
+    },
+    {
+     "point": "When two or more states request Parliament to legislate (Art. 252)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 24,
+   "q_main": 3,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Union Legislature",
+   "topic": "Question Hour, Quorum, No-confidence",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Question Hour",
+    "quorum",
+    "no-confidence motion"
+   ],
+   "question": "The Parliament of India comprises the President and the two houses. With reference to the Indian Parliament, answer the following questions:\nExplain the following terms:\n(a) Question Hour\n(b) Quorum\n(c) No Confidence Motion",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Question Hour: the first hour of every working day of the House, during which members may ask questions of the Government on matters of public interest; types are Starred, Unstarred and Short Notice questions. (b) Quorum: the minimum number of members required to be present to conduct a sitting; fixed at 1/10th of the total membership of each House. (c) No-confidence Motion: a proposal expressing lack of confidence in the ministry, moved by the opposition and admitted when at least 50 members support it; if passed, the Government has to resign.",
+   "marking_points": [
+    {
+     "point": "Question Hour explained",
+     "marks": 1
+    },
+    {
+     "point": "Quorum explained (minimum members, 1/10th)",
+     "marks": 1
+    },
+    {
+     "point": "No Confidence Motion explained",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 25,
+   "q_main": 3,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Union Legislature",
+   "topic": "Lok Sabha term and superiority",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "extension of Lok Sabha term in emergency",
+    "Lok Sabha superiority over Rajya Sabha"
+   ],
+   "question": "The Parliament of India comprises the President and the two houses. With reference to the Indian Parliament, answer the following questions:\nWhen can the term of the Lok Sabha be extended? Mention any three powers of the Lok Sabha which show its superiority over the Rajya Sabha.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Term: fixed at 5 years; can be extended by Parliament one year at a time during a proclamation of emergency, not beyond six months after the emergency has ceased. Powers: (a) Council of Ministers is responsible to the Lok Sabha; no-confidence motion is exclusively a Lok Sabha power. (b) A Money Bill can only be introduced in the Lok Sabha; Rajya Sabha can only suggest changes and must return it within 14 days or it is deemed passed. (c) In an ordinary law, in case of conflict the view of the Lok Sabha prevails as it has more members.",
+   "marking_points": [
+    {
+     "point": "Term extended one year at a time during a national emergency",
+     "marks": 1
+    },
+    {
+     "point": "First power showing superiority of Lok Sabha",
+     "marks": 1
+    },
+    {
+     "point": "Second power showing superiority of Lok Sabha",
+     "marks": 1
+    },
+    {
+     "point": "Third power showing superiority of Lok Sabha",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 26,
+   "q_main": 4,
+   "section": "Part II Section A",
+   "type": "long",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "President and Vice President",
+   "topic": "Impeachment of the President",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "impeachment procedure of the President"
+   ],
+   "question": "The Executive Power of the country is vested in the President and Vice President. With reference to this answer the following questions:\nExplain the impeachment process through which the Parliament can remove the President from power.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The President can be impeached for violation of the Constitution. (a) Charges can be introduced in either House with 14 days' written notice to the President, signed by at least one-fourth of the total members of that House. (b) After 14 days, a resolution is moved and must be passed by not less than two-thirds of the total strength of the House. (c) It then goes to the other House, which investigates the charges; the President has the right to appear and be represented. If that House passes it by not less than two-thirds of its total membership, the President stands impeached and removed.",
+   "marking_points": [
+    {
+     "point": "Charges introduced in either House with 14 days' notice signed by one-fourth of members",
+     "marks": 1
+    },
+    {
+     "point": "Resolution passed by two-thirds of total strength of the House",
+     "marks": 1
+    },
+    {
+     "point": "Other House investigates and passes it by two-thirds majority; President removed",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 27,
+   "q_main": 4,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "President and Vice President",
+   "topic": "Vice President as RS Chairman",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Vice President as Chairman of Rajya Sabha"
+   ],
+   "question": "The Executive Power of the country is vested in the President and Vice President. With reference to this answer the following questions:\nMention any three powers of the Vice President in her/his role as the Chairman of the Rajya Sabha.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Ex-officio Chairman of the Rajya Sabha. (b) Performs similar functions in the Rajya Sabha as the Speaker in the Lok Sabha. (c) Has the casting vote in case of a tie. (d) Can suspend or take disciplinary action against disruptive members as per parliamentary rules. (Any three)",
+   "marking_points": [
+    {
+     "point": "First valid power of the Vice President as Chairman",
+     "marks": 1
+    },
+    {
+     "point": "Second valid power",
+     "marks": 1
+    },
+    {
+     "point": "Third valid power",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 28,
+   "q_main": 4,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "President and Vice President",
+   "topic": "Financial and executive powers of President",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "President's financial and executive powers"
+   ],
+   "question": "The Executive Power of the country is vested in the President and Vice President. With reference to this answer the following questions:\nWith reference to the powers of President, mention:\n(a) Any two Financial Powers\n(b) Any two Executive Powers",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Financial: Money Bills can be introduced in Parliament only with the President's recommendation; he can withdraw money from the Contingency Fund of India for unforeseen expenditure. (b) Executive: executive head of the country, all executive orders issued in his name; appoints the Prime Minister and, on the PM's advice, the Council of Ministers, Governors, Judges of the Supreme Court and High Courts, UPSC Chairman, CEC, CAG and Chiefs of Armed Forces; responsible for administration of Union Territories and Border Areas; can appoint an inter-state council.",
+   "marking_points": [
+    {
+     "point": "First financial power",
+     "marks": 1
+    },
+    {
+     "point": "Second financial power",
+     "marks": 1
+    },
+    {
+     "point": "First executive power",
+     "marks": 1
+    },
+    {
+     "point": "Second executive power",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 29,
+   "q_main": 5,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "High Court original jurisdiction",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "original jurisdiction of High Court"
+   ],
+   "question": "The High Courts of India are the highest courts of appeal in each state. With reference to the High Courts of India, answer the following questions:\nWhat is meant by the term Original Jurisdiction of the High Court? Mention any two cases which fall under this jurisdiction.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Original jurisdiction extends to cases that can be directly heard and decided by the High Court in the first instance without having been heard in lower courts. Cases: power to issue writs for enforcement of Fundamental Rights; marriage, divorce, wills, contempt of court; state revenue and its collection; enforcement of fundamental rights of citizens. (Any two)",
+   "marking_points": [
+    {
+     "point": "Meaning: cases heard directly by the High Court in the first instance without lower courts",
+     "marks": 1
+    },
+    {
+     "point": "First valid case under original jurisdiction",
+     "marks": 1
+    },
+    {
+     "point": "Second valid case under original jurisdiction",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 30,
+   "q_main": 5,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Lok Adalat; Sessions vs District Judge",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Lok Adalat advantages",
+    "Sessions Court vs District Judge court"
+   ],
+   "question": "The High Courts of India are the highest courts of appeal in each state. With reference to the High Courts of India, answer the following questions:\nMention any two advantages of the Lok Adalat. Mention any one difference between the Sessions Court and the Court of the District Judge.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Advantages (any two): speedy justice, reduces delay and saves time; affordable and economical; caters to weaker sections; settles disputes through compromise; reduces workload of other courts; awards are final and binding. Difference (any one): Sessions Court is the highest criminal court of the district and decides criminal cases; the Court of District Judge is the highest court of the district and decides civil cases.",
+   "marking_points": [
+    {
+     "point": "First advantage of Lok Adalat",
+     "marks": 1
+    },
+    {
+     "point": "Second advantage of Lok Adalat",
+     "marks": 0.5
+    },
+    {
+     "point": "One valid difference between Sessions Court and District Judge court",
+     "marks": 1.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 31,
+   "q_main": 5,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Revisory jurisdiction; Court of Record",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "High Court revisory jurisdiction",
+    "Court of Record"
+   ],
+   "question": "The High Courts of India are the highest courts of appeal in each state. With reference to the High Courts of India, answer the following questions:\nExplain the following with reference to the High Court:\n(a) Revisory Jurisdiction\n(b) Court of Record",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Revisory Jurisdiction: the High Court can withdraw cases from lower courts for its consideration; it may dispose of the case itself, give comments on the case, or return the case with a copy of its comments on the question of law. (b) Court of Record: like the Supreme Court, the High Court's decisions, judgments and proceedings are kept as a record for evidence and reference in future.",
+   "marking_points": [
+    {
+     "point": "Revisory: can withdraw cases from lower courts",
+     "marks": 1
+    },
+    {
+     "point": "Revisory: may dispose of the case / comment / return it with comments on law",
+     "marks": 1
+    },
+    {
+     "point": "Court of Record: judgments and proceedings kept as record",
+     "marks": 1
+    },
+    {
+     "point": "Court of Record: used as evidence and for future reference",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 32,
+   "q_main": 6,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First War of Independence 1857",
+   "topic": "Doctrine of Lapse",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Doctrine of Lapse by Dalhousie"
+   ],
+   "question": "The Revolt of 1857 was conscious beginning of the independence struggle against the British. With reference to this, answer the following questions:\nWhat was the Doctrine of Lapse? Who introduced it?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Doctrine of Lapse was an annexation policy introduced by Lord Dalhousie. Under it any princely state under the British East India Company would be automatically annexed if the ruler died without a male heir. States that fell victim include Jhansi, Sambalpur, Nagpur, Satara and others.",
+   "marking_points": [
+    {
+     "point": "Doctrine of Lapse: state annexed if ruler died without a male heir",
+     "marks": 2
+    },
+    {
+     "point": "Introduced by Lord Dalhousie",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 33,
+   "q_main": 6,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First War of Independence 1857",
+   "topic": "Socio-religious causes of 1857",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "socio-religious causes of Revolt of 1857"
+   ],
+   "question": "The Revolt of 1857 was conscious beginning of the independence struggle against the British. With reference to this, answer the following questions:\nThe British Government interfered in the social and religious matters of the Indians. Mention any three socio religious causes to justify this statement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Abolition of Sati, seen by orthodox Hindus as interference with religious customs. (b) Widow Remarriage Act 1856, frowned upon by orthodox Hindus. (c) Introduction of Western education, weakening the traditional system of education and causing resentment. (Any three)",
+   "marking_points": [
+    {
+     "point": "First valid socio-religious cause",
+     "marks": 1
+    },
+    {
+     "point": "Second valid socio-religious cause",
+     "marks": 1
+    },
+    {
+     "point": "Third valid socio-religious cause",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 34,
+   "q_main": 6,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First War of Independence 1857",
+   "topic": "Military causes of 1857 revolt",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "military causes of 1857: Enfield cartridges, General Service Enlistment Act"
+   ],
+   "question": "The Revolt of 1857 was conscious beginning of the independence struggle against the British. With reference to this, answer the following questions:\nMention any four military causes which led to this Revolt.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Indian and British soldiers were not treated equally; Indian soldiers' pay was too low. (b) Indian soldiers could rise only up to the rank of Subedar. (c) General Service Enlistment Act 1856: soldiers could be sent overseas, against religious beliefs. (d) Numerical strength of Indian soldiers was much higher than European soldiers. (e) Enfield rifle with cartridges greased with cow and pig fat offended Hindu and Muslim soldiers. (Any four)",
+   "marking_points": [
+    {
+     "point": "First military cause",
+     "marks": 1
+    },
+    {
+     "point": "Second military cause",
+     "marks": 1
+    },
+    {
+     "point": "Third military cause",
+     "marks": 1
+    },
+    {
+     "point": "Fourth military cause",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 35,
+   "q_main": 7,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Growth of Nationalism",
+   "topic": "Lord Lytton's repressive policies",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Lord Lytton's repressive policies: Vernacular Press Act, Arms Act"
+   ],
+   "question": "The oppresive British colonial rule led to the growth of nationalism in India. With reference to this, answer the following questions:\nThe repressive policies of Lord Lytton became a catalyst to the growth of nationalism. Mention any three of his repressive policies to justify this statement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Vernacular Press Act. (b) Indian Arms Act. (c) Reduced the maximum age for the ICS examination from 21 to 19 years. (d) Removed import duties on British goods, harming Indian industry. (e) Ilbert Bill controversy. (Any three)",
+   "marking_points": [
+    {
+     "point": "First repressive policy of Lord Lytton",
+     "marks": 1
+    },
+    {
+     "point": "Second repressive policy",
+     "marks": 1
+    },
+    {
+     "point": "Third repressive policy",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 36,
+   "q_main": 7,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Growth of Nationalism",
+   "topic": "Role of Press in nationalism",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "role of Press in nationalism"
+   ],
+   "question": "The oppresive British colonial rule led to the growth of nationalism in India. With reference to this, answer the following questions:\nMention any three ways in which the Press promoted nationalism.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Played an enormous role in fostering national unity and creating consciousness among Indians. (b) Nationalist leaders used newspapers to promote their ideas and reach the masses. (c) Both the vernacular and English press contributed greatly to the spread of nationalism. (d) Newspapers like Amrit Bazar Patrika and The Bengalee spread awareness and criticised oppressive laws and unfair treatment by the British. (Any three)",
+   "marking_points": [
+    {
+     "point": "First way the Press promoted nationalism",
+     "marks": 1
+    },
+    {
+     "point": "Second way",
+     "marks": 1
+    },
+    {
+     "point": "Third way",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 37,
+   "q_main": 7,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Growth of Nationalism",
+   "topic": "Second INC session and objectives",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "second INC session president Dadabhai Naoroji",
+    "objectives of Congress"
+   ],
+   "question": "The oppresive British colonial rule led to the growth of nationalism in India. With reference to this, answer the following questions:\nWho presided over the second session of the Indian National Congress? Mention any three objectives of the Congress.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The second session (Calcutta, 1886) was presided over by Dadabhai Naoroji. Objectives (any three): (a) evolution and consolidation of a feeling of national unity irrespective of caste, religion etc.; (b) making Indians politically aware; (c) presentation of popular demands before the Government; (d) training and organisation of public opinion in the country.",
+   "marking_points": [
+    {
+     "point": "Dadabhai Naoroji",
+     "marks": 1
+    },
+    {
+     "point": "First objective of the Congress",
+     "marks": 1
+    },
+    {
+     "point": "Second objective",
+     "marks": 1
+    },
+    {
+     "point": "Third objective",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 38,
+   "q_main": 8,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Jallianwala Bagh to Non-Cooperation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Jallianwala Bagh",
+    "Non-Cooperation Movement and Chauri Chaura"
+   ],
+   "question": "Look at the given picture and answer the questions that follow:\nTears of Blood: When 1,650 Bullets Changed India Forever\n—The Times of India, April 2019\n\nIdentify the above incident. Which Gandhian movement did it lead to? Which incident led to the suspension of that movement?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Jallianwala Bagh Massacre. It led to the Non-Cooperation Movement. The movement was suspended after the Chauri Chaura incident.",
+   "marking_points": [
+    {
+     "point": "Jallianwala Bagh Massacre",
+     "marks": 1
+    },
+    {
+     "point": "Non-Cooperation Movement",
+     "marks": 1
+    },
+    {
+     "point": "Chauri Chaura incident",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "A picture of the Jallianwala Bagh massacre with the Times of India headline 'Tears of Blood: When 1,650 Bullets Changed India Forever' (headline text given in the question).",
+   "page": 11,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/history_civics_2025/p11.jpg"
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 39,
+   "q_main": 8,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Rowlatt Act provisions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "provisions of Rowlatt Act"
+   ],
+   "question": "Look at the given picture and answer the questions that follow:\nTears of Blood: When 1,650 Bullets Changed India Forever\n—The Times of India, April 2019\n\nMention any three repressive provisions of the Rowlatt Act.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Restricted freedom of speech and freedom of the press. (b) Gave the British Government enormous powers to repress political activities and arrest and imprison people without trial if suspected of terrorism; severe restrictions on movement and suspension of civil rights. (c) Arrested individuals had no right of appeal, violating the principle of justice.",
+   "marking_points": [
+    {
+     "point": "Restricted freedom of speech and press",
+     "marks": 1
+    },
+    {
+     "point": "Arrest and imprisonment without trial / restrictions on movement / civil rights suspended",
+     "marks": 1
+    },
+    {
+     "point": "No right of appeal",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 40,
+   "q_main": 8,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Causes of Quit India and CDM",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "causes of Quit India Movement",
+    "causes of Civil Disobedience Movement"
+   ],
+   "question": "Look at the given picture and answer the questions that follow:\nTears of Blood: When 1,650 Bullets Changed India Forever\n—The Times of India, April 2019\n\nMention the following:\n(a) Any two causes of the Quit India Movement.\n(b) Any two causes of the Civil Disobedience Movement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Quit India (any two): failure of the Cripps Mission (1942); Muslim League's Lahore demand (1940) for a separate Pakistan intensifying Hindu-Muslim relations; Japanese army advancing towards India during the Second World War and the Congress leaders' feeling of helplessness. (b) Civil Disobedience (any two): Simon Commission; Declaration of Poorna Swaraj at the Lahore Session (1929); Nehru Report; Viceroy's declaration; Gandhi's eleven demands; Salt Satyagraha.",
+   "marking_points": [
+    {
+     "point": "First cause of Quit India Movement",
+     "marks": 1
+    },
+    {
+     "point": "Second cause of Quit India Movement",
+     "marks": 1
+    },
+    {
+     "point": "First cause of Civil Disobedience Movement",
+     "marks": 1
+    },
+    {
+     "point": "Second cause of Civil Disobedience Movement",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "9(i)",
+   "q_order": 41,
+   "q_main": 9,
+   "section": "Part II Section B",
+   "type": "comprehension",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Second World War",
+   "topic": "Japanese invasion of Manchuria",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "Japanese invasion of Manchuria",
+    "League's failure and aggression leading to WWII"
+   ],
+   "question": "Read the passage given and answer the following questions:\nIn an effort to secure resources for its expanding industries, Japan invaded the northern Chinese province of Manchuria. Although many Western nations protested the Japanese action, most members of the League of Nations, including Canada, opposed any form of military intervention to defend Chinese sovereignty. A League of Nations commission, headed by the British diplomat Lord Lytton, was dispatched to Manchuria to investigate.\n—Loyal Edmonton Regiment Museum\n\nHow did the incident being described above become a cause for the Second World War?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Japan was determined to dominate the Far East. (b) It occupied Manchuria and set up a government despite the League's opposition. (c) It started an undeclared war on China in 1931; China appealed to the League for sanctions. (d) Japan joined the Berlin-Rome Axis to form the Rome-Berlin-Tokyo Axis. (e) In 1933 Japan left the League and started occupying British and American properties in China. (f) Britain and France followed appeasement. (Any three)",
+   "marking_points": [
+    {
+     "point": "First valid point on how the Manchurian invasion led to WWII",
+     "marks": 1
+    },
+    {
+     "point": "Second valid point",
+     "marks": 1
+    },
+    {
+     "point": "Third valid point",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "9(ii)",
+   "q_order": 42,
+   "q_main": 9,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Second World War",
+   "topic": "Hitler's attack on Poland",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Hitler's attack on Poland: Danzig, Polish Corridor"
+   ],
+   "question": "Read the passage given and answer the following questions:\n(Passage on Japan's invasion of Manchuria, as above.)\n\nMention any three reasons for Hitler's attack on Poland.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Germany wanted to regain her lost territories. (b) The city of Danzig was inhabited mainly by Germans. (c) By capturing the Danzig Corridor, Germany could connect with East Prussia. (d) Germany signed a Non-Aggression Pact with Russia in August 1939. (Any three)",
+   "marking_points": [
+    {
+     "point": "First reason for Hitler's attack on Poland",
+     "marks": 1
+    },
+    {
+     "point": "Second reason",
+     "marks": 1
+    },
+    {
+     "point": "Third reason",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "9(iii)",
+   "q_order": 43,
+   "q_main": 9,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Second World War",
+   "topic": "Failure of the League of Nations",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "reasons for failure of the League of Nations"
+   ],
+   "question": "Read the passage given and answer the following questions:\n(Passage on Japan's invasion of Manchuria, as above.)\n\nMention any four reasons for the failure of the League of Nations.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) The US did not join the League. (b) Members were not interested in the principle of collective security. (c) The League was not strong enough to allay the threat of war. (d) Members defied or ignored the League, e.g. Japan seized Manchuria and Italy conquered Ethiopia. (e) Member states were unwilling to apply economic sanctions. (f) It failed to maintain international peace so European countries lost faith. (g) It failed to check the rise of dictatorships in Germany and Italy. (Any four)",
+   "marking_points": [
+    {
+     "point": "First reason for failure of the League",
+     "marks": 1
+    },
+    {
+     "point": "Second reason",
+     "marks": 1
+    },
+    {
+     "point": "Third reason",
+     "marks": 1
+    },
+    {
+     "point": "Fourth reason",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "10(i)",
+   "q_order": 44,
+   "q_main": 10,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "Composition of General Assembly",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "composition of UN General Assembly"
+   ],
+   "question": "The organs and the agencies of the United Nation Organisation work towards the development of the world. With reference to this answer the following questions:\nWhat is the composition of the General Assembly?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) All members of the UN are members of the General Assembly. (b) Each state has five representatives (but only one vote). (c) Each state has only one vote. (d) It is a kind of Parliament. (e) At the start of each session the Assembly elects a new President and 21 Vice-Presidents. (f) The Presidency rotates every year among five groups of states. (Any three)",
+   "marking_points": [
+    {
+     "point": "First valid point on composition",
+     "marks": 1
+    },
+    {
+     "point": "Second valid point",
+     "marks": 1
+    },
+    {
+     "point": "Third valid point",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "10(ii)",
+   "q_order": 45,
+   "q_main": 10,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "Functions of the ICJ",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "functions of the International Court of Justice"
+   ],
+   "question": "The organs and the agencies of the United Nation Organisation work towards the development of the world. With reference to this answer the following questions:\nMention any three functions of the International Court of Justice.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Advisory opinion on legal matters to organs and special agencies of the UN. (b) Decides disputes between member states when referred. (c) Disputes concerning interpretation of international law. (d) Compensation for breach of international law and treaties/agreements. (e) Certification of international law. (f) Suggests methods for peaceful settlement of disputes. (Any three)",
+   "marking_points": [
+    {
+     "point": "First function of the ICJ",
+     "marks": 1
+    },
+    {
+     "point": "Second function",
+     "marks": 1
+    },
+    {
+     "point": "Third function",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "10(iii)",
+   "q_order": 46,
+   "q_main": 10,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "UNICEF full form and functions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "UNICEF full form and functions"
+   ],
+   "question": "The organs and the agencies of the United Nation Organisation work towards the development of the world. With reference to this answer the following questions:\nGive the full form of UNICEF. Mention any three of its functions.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "UNICEF: United Nations International Children's Emergency Fund. Functions (any three): (1) providing protective food like milk, meat and fish to children; (2) looking after interests of women and pregnant mothers; (3) funds for training of health and sanitation workers, nutritionists and creche workers; (4) immunisation against preventable diseases; (5) support to programmes to suppress traffic in women and children and prevent crimes by children; (6) instant help to women and children in natural disasters, epidemics or war; (7) supplying paper to publish text books and literature for children.",
+   "marking_points": [
+    {
+     "point": "Full form: United Nations International Children's Emergency Fund",
+     "marks": 1
+    },
+    {
+     "point": "First function of UNICEF",
+     "marks": 1
+    },
+    {
+     "point": "Second function",
+     "marks": 1
+    },
+    {
+     "point": "Third function",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  }
+ ]
+}

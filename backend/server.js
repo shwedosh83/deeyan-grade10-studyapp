@@ -8,7 +8,7 @@ const app = express();
 const isProd = process.env.NODE_ENV === 'production';
 
 app.use(cors({ origin: ['http://localhost:5173', 'http://localhost:4173', 'http://localhost:5175'] }));
-app.use(express.json());
+app.use(express.json({ limit: '6mb' }));   // scanned answer pages are sent as base64 images
 
 // Serve built frontend in production
 if (isProd) {
@@ -19,6 +19,14 @@ if (isProd) {
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 // POST /api/explain — Claude explains a question answer
+// Board-paper practice: reuse the exact Vercel handlers (ESM) so local dev matches production
+for (const name of ['boardPapers', 'boardGrade', 'boardScan']) {
+  app.post(`/api/${name}`, async (req, res) => {
+    try { const mod = await import(`../api/${name}.js`); return mod.default(req, res); }
+    catch (e) { console.error(name, e); return res.status(500).json({ error: e.message }); }
+  });
+}
+
 app.post('/api/explain', async (req, res) => {
   const { question, options, correctAnswer, userAnswer, skill, questionType, evaluationResult, evaluationFeedback } = req.body;
 

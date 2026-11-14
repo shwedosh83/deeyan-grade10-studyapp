@@ -1,0 +1,2041 @@
+{
+ "paper_id": "biology_2024",
+ "subject": "biology",
+ "year": 2024,
+ "sem": null,
+ "label": "2024",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Section A is compulsory. Attempt any four questions from Section B.",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 40,
+   "rule": "Attempt any four questions from this Section.",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Point joining sister chromatids",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "centromere joining sister chromatids"
+   ],
+   "question": "Duplicated chromosomes are joined at a point termed:",
+   "options": {
+    "a": "Centrosome",
+    "b": "Centromere",
+    "c": "Centriole",
+    "d": "Chromatid"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Centromere",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Photosynthesis",
+   "topic": "ADP to ATP conversion",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "photophosphorylation"
+   ],
+   "question": "The process of conversion of ADP to ATP during photosynthesis is called:",
+   "options": {
+    "a": "Photolysis",
+    "b": "Phagocytosis",
+    "c": "Photophosphorylation",
+    "d": "Polymerisation"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Photophosphorylation",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transpiration",
+   "topic": "Water loss from leaf margins",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "guttation via hydathodes"
+   ],
+   "question": "The process in which water is lost from the margins of strawberry leaves is:",
+   "options": {
+    "a": "Osmosis",
+    "b": "Imbibition",
+    "c": "Diffusion",
+    "d": "Guttation"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Guttation",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Hormone affecting urination",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "ADH/vasopressin and urine volume"
+   ],
+   "question": "The hormone that affects urination is:",
+   "options": {
+    "a": "Adrenaline",
+    "b": "Vasopressin",
+    "c": "Oestrogen",
+    "d": "Thyroxine"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Vasopressin",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transpiration",
+   "topic": "Ions opening stomata",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "potassium ions and stomatal opening"
+   ],
+   "question": "Which one of the following helps in the opening of stomata:",
+   "options": {
+    "a": "Cobalt ions",
+    "b": "Potassium ions",
+    "c": "Magnesium ions",
+    "d": "Aluminium ions"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Potassium ions",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Genetics",
+   "topic": "Sex determination Y chromosome",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "sex determination XY"
+   ],
+   "question": "A zygote which has Y chromosome inherited from the father will develop into a:",
+   "options": {
+    "a": "Will depend on the chromosome inherited from the mother",
+    "b": "Girl",
+    "c": "Either boy or a girl",
+    "d": "Boy"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Boy",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Ear ossicle to inner ear",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "stapes transmits vibrations to oval window"
+   ],
+   "question": "The ear ossicle that transports sound vibrations to the inner ear:",
+   "options": {
+    "a": "Stapes",
+    "b": "Malleus",
+    "c": "Incus",
+    "d": "Cochlea"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Stapes",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "First aid for heart attack",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "first aid for heart attack",
+    "selecting the correct combination of actions"
+   ],
+   "question": "If a person has a heart attack, what must be done immediately?\nP. Loosen his/her clothing\nQ. Make him/her lie down in an airy room\nR. Rush him/her to the hospital\nS. Engage him/her in a conversation",
+   "options": {
+    "a": "P and Q",
+    "b": "P and S",
+    "c": "R and S",
+    "d": "P, Q and R"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) P, Q and R",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Eye accommodation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "accommodation by ciliary muscles"
+   ],
+   "question": "Adjusting the focal length of the eye lens to view objects at different distances is done by:",
+   "options": {
+    "a": "Cornea",
+    "b": "Iris",
+    "c": "Ciliary muscles",
+    "d": "Sclera"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Ciliary muscles",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Genetics",
+   "topic": "Examples of genetic disorders",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "genetic vs infectious disorders",
+    "haemophilia, albinism, colour blindness"
+   ],
+   "question": "Four friends P, Q, R and S were discussing the examples of genetic disorders. The examples they quoted were as follows:\nP. Colour blindness and malaria\nQ. Albinism and cholera\nR. Haemophilia and colour blindness\nS. Haemophilia and albinism\nWho gave the correct examples?",
+   "options": {
+    "a": "P and Q",
+    "b": "R and S",
+    "c": "P and R",
+    "d": "Q and S"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) R and S",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Condition for osmosis",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "osmosis requires selectively permeable membrane"
+   ],
+   "question": "Osmosis takes place when there is:",
+   "options": {
+    "a": "A freely permeable membrane",
+    "b": "A cell wall",
+    "c": "A selectively permeable membrane",
+    "d": "An impermeable membrane"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) A selectively permeable membrane",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Chromosome number in gametes",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "haploid gametes by meiosis"
+   ],
+   "question": "A male gorilla has 48 chromosomes in each of its body cells. How many chromosomes will each of the sperms have?",
+   "options": {
+    "a": "24",
+    "b": "48",
+    "c": "12",
+    "d": "16"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 24",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Sympathetic nervous system",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "sympathetic nervous system functions"
+   ],
+   "question": "Assertion (A): Sympathetic nervous system prepares the body for violent action against abnormal conditions.\nReason (R): Sympathetic nervous system accelerates heartbeat.\nWhich of the following is correct?",
+   "options": {
+    "a": "Both A and R are True",
+    "b": "A is True, R is False",
+    "c": "A is False but R is True",
+    "d": "Both A and R are False"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both A and R are True",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Human Population",
+   "topic": "Definition of birth rate",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "definition of birth rate"
+   ],
+   "question": "Birth rate is the number of live births per thousand persons in:",
+   "options": {
+    "a": "1 year",
+    "b": "2 years",
+    "c": "10 years",
+    "d": "20 years"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 1 year",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Human Evolution",
+   "topic": "Industrial melanism organism",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "industrial melanism in peppered moth"
+   ],
+   "question": "Industrial melanism was observed in:",
+   "options": {
+    "a": "Mice",
+    "b": "Peppered moth",
+    "c": "House flies",
+    "d": "Crow"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Peppered moth",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(i)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Name the following terms (mixed chapters)",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "(a) root hairs: Absorption by Roots",
+    "(b) astigmatism: Nervous System and Sense Organs",
+    "(c) chemotropism: Chemical Coordination in Plants",
+    "(d) urea: The Excretory System",
+    "(e) implantation: The Reproductive System"
+   ],
+   "question": "Name the following:\n(a) Unicellular outgrowths from the epidermis of roots.\n(b) A defect in our eyes, in which some parts of the object are in focus while the other parts are blurred.\n(c) The tropic movement of plant parts in response to chemicals.\n(d) The main nitrogenous waste formed in the body.\n(e) The process of attachment of fertilised ovum to the wall of uterus.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Unicellular outgrowths from the epidermis of roots",
+     "accepted": [
+      "root hairs",
+      "root hair"
+     ]
+    },
+    {
+     "prompt": "Eye defect with some parts in focus and others blurred",
+     "accepted": [
+      "astigmatism"
+     ]
+    },
+    {
+     "prompt": "Tropic movement in response to chemicals",
+     "accepted": [
+      "chemotropism"
+     ]
+    },
+    {
+     "prompt": "Main nitrogenous waste formed in the body",
+     "accepted": [
+      "urea"
+     ]
+    },
+    {
+     "prompt": "Attachment of fertilised ovum to the uterine wall",
+     "accepted": [
+      "implantation"
+     ]
+    }
+   ],
+   "solution": "(a) Root hairs (b) Astigmatism (c) Chemotropism (d) Urea (e) Implantation",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "other",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Arrange terms in logical sequence (mixed chapters)",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "(a) human evolution sequence: Human Evolution",
+    "(b) path of light in eye: Nervous System and Sense Organs",
+    "(c) reflex arc: Nervous System and Sense Organs",
+    "(d) nephron: The Excretory System",
+    "(e) ascent of sap: Transpiration"
+   ],
+   "question": "Arrange and rewrite the terms in each group in the correct order to be in a logical sequence beginning with the term that is underlined:\n(a) Australopithecus, Cro-Magnon, Homo erectus, Neanderthal man. (begin with Australopithecus)\n(b) Pupil, Aqueous humour, Retina, Vitreous humour. (begin with Aqueous humour)\n(c) Effector, Receptor, Motor neuron, Sensory neuron. (begin with Receptor)\n(d) Loop of Henle, Distal convoluted tubule, Bowman's Capsule, Proximal convoluted tubule. (begin with Bowman's Capsule)\n(e) Water vapour, Soil water, Leaves, Ascent of Sap. (begin with Soil water)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Australopithecus, Homo erectus, Neanderthal man, Cro-Magnon\n(b) Aqueous humour, Pupil, Vitreous humour, Retina\n(c) Receptor, Sensory neuron, Motor neuron, Effector\n(d) Bowman's Capsule, Proximal convoluted tubule, Loop of Henle, Distal convoluted tubule\n(e) Soil water, Ascent of Sap, Leaves, Water vapour",
+   "marking_points": [
+    {
+     "point": "(a) Australopithecus, Homo erectus, Neanderthal man, Cro-Magnon",
+     "marks": 1
+    },
+    {
+     "point": "(b) Aqueous humour, Pupil, Vitreous humour, Retina",
+     "marks": 1
+    },
+    {
+     "point": "(c) Receptor, Sensory neuron, Motor neuron, Effector",
+     "marks": 1
+    },
+    {
+     "point": "(d) Bowman's Capsule, Proximal convoluted tubule, Loop of Henle, Distal convoluted tubule",
+     "marks": 1
+    },
+    {
+     "point": "(e) Soil water, Ascent of Sap, Leaves, Water vapour",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Photosynthesis",
+   "topic": "Experiment: CO2 necessary for photosynthesis",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "CO2 necessary for photosynthesis experiment",
+    "destarching",
+    "KOH absorbs CO2",
+    "starch test with iodine"
+   ],
+   "question": "Study the diagram given below and fill in the blanks with suitable words:\nIn order to prove that carbon dioxide is necessary for (a) _____ a potted plant is placed in dark for 48 hours to (b) ______ the leaves. A part of a leaf is inserted into a conical flask containing potassium hydroxide solution. This is to absorb (c) _____ from the flask. The plant is then placed in sunlight for a few hours. The experimental leaf is tested for starch. The part of the leaf that was inside the conical flask turns (d) ______, whereas the part of the leaf outside turns (e) ________ in colour.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(a) CO2 is necessary for ____",
+     "accepted": [
+      "photosynthesis"
+     ]
+    },
+    {
+     "prompt": "(b) placed in dark 48 hours to ____ the leaves",
+     "accepted": [
+      "destarch",
+      "destarching",
+      "remove starch from"
+     ]
+    },
+    {
+     "prompt": "(c) KOH absorbs ____",
+     "accepted": [
+      "carbon dioxide",
+      "CO2"
+     ]
+    },
+    {
+     "prompt": "(d) part inside flask turns ____",
+     "accepted": [
+      "brown",
+      "yellowish brown",
+      "reddish brown"
+     ]
+    },
+    {
+     "prompt": "(e) part outside turns ____ in colour",
+     "accepted": [
+      "blue-black",
+      "blue black",
+      "bluish black",
+      "dark blue"
+     ]
+    }
+   ],
+   "solution": "(a) Photosynthesis (b) Destarch (c) Carbon dioxide (d) Brown (e) Blue-black",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Experimental set-up (moist cotton/potted plant) with part of a leaf inserted into a conical flask containing potassium hydroxide solution (CO2 necessity experiment).",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2024/p6.jpg"
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "other",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Odd one out and category (mixed chapters)",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "(a) clotting factors: The Circulatory System",
+    "(b) lymphatic organs: The Circulatory System",
+    "(c) WBC types: The Circulatory System",
+    "(d) biodegradable waste: Pollution",
+    "(e) arteries: The Circulatory System"
+   ],
+   "question": "Choose the odd one out from the following terms and name the category to which the others belong:\n(a) Prothrombin, Thrombin, Fibrinogen, Albumin\n(b) Tonsils, Glomerulus, Spleen, Lymph nodes\n(c) Neutrophils, Basophils, Monocytes, Eosinophils\n(d) Leaves, Styrofoam, Grass, Cow Dung\n(e) Pulmonary artery, Renal artery, Coronary artery, Hepatic artery",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Odd one: Albumin; others are clotting factors.\n(b) Odd one: Glomerulus; others are parts of the lymphatic system.\n(c) Odd one: Monocytes; others are granulocytes.\n(d) Odd one: Styrofoam; others are biodegradable waste.\n(e) Odd one: Pulmonary artery; others carry oxygenated blood.",
+   "marking_points": [
+    {
+     "point": "(a) Odd one Albumin",
+     "marks": 0.5
+    },
+    {
+     "point": "(a) Category: clotting factors",
+     "marks": 0.5
+    },
+    {
+     "point": "(b) Odd one Glomerulus",
+     "marks": 0.5
+    },
+    {
+     "point": "(b) Category: parts of lymphatic system",
+     "marks": 0.5
+    },
+    {
+     "point": "(c) Odd one Monocytes",
+     "marks": 0.5
+    },
+    {
+     "point": "(c) Category: granulocytes",
+     "marks": 0.5
+    },
+    {
+     "point": "(d) Odd one Styrofoam",
+     "marks": 0.5
+    },
+    {
+     "point": "(d) Category: biodegradable waste",
+     "marks": 0.5
+    },
+    {
+     "point": "(e) Odd one Pulmonary artery",
+     "marks": 0.5
+    },
+    {
+     "point": "(e) Category: arteries carrying oxygenated blood",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(v)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Matching biological terms (mixed chapters)",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "(a) Leydig cells: The Reproductive System",
+    "(b) stoma: Transpiration",
+    "(c) ova (haploid): The Reproductive System",
+    "(d) cranial nerves: Nervous System and Sense Organs",
+    "(e) cretinism: The Endocrine System"
+   ],
+   "question": "Match the items given in Column I with most appropriate ones in Column II and rewrite the correct matching pairs:\nColumn I: (a) Leydig Cells (b) Stoma (c) Ova (d) Cranial nerve (e) Cretinism\nColumn II: 1. Lack of thyroxine in children 2. 12 pairs 3. Testosterone 4. Diffusion of respiratory gases 5. Haploid cells 6. 31 pairs 7. Diploid cells",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Leydig Cells",
+     "accepted": [
+      "3",
+      "Testosterone"
+     ]
+    },
+    {
+     "prompt": "Stoma",
+     "accepted": [
+      "4",
+      "Diffusion of respiratory gases"
+     ]
+    },
+    {
+     "prompt": "Ova",
+     "accepted": [
+      "5",
+      "Haploid cells"
+     ]
+    },
+    {
+     "prompt": "Cranial nerve",
+     "accepted": [
+      "2",
+      "12 pairs"
+     ]
+    },
+    {
+     "prompt": "Cretinism",
+     "accepted": [
+      "1",
+      "Lack of thyroxine in children"
+     ]
+    }
+   ],
+   "solution": "(a) Leydig cells - 3 Testosterone\n(b) Stoma - 4 Diffusion of respiratory gases\n(c) Ova - 5 Haploid cells\n(d) Cranial nerve - 2 12 pairs\n(e) Cretinism - 1 Lack of thyroxine in children",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 20,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Photosynthesis",
+   "topic": "Expansion of NADP",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "NADP full form"
+   ],
+   "question": "Expand the abbreviation - NADP.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Nicotinamide Adenine Dinucleotide Phosphate.",
+   "marking_points": [
+    {
+     "point": "Nicotinamide Adenine Dinucleotide Phosphate",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 21,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Absorption by Roots",
+   "topic": "Root adaptations for water absorption",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "root hair adaptations"
+   ],
+   "question": "Mention two adaptations in roots for absorption of water from the soil.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Adaptations of root hairs: (a) large surface area in contact with the soil particles; (b) very thin, semi-permeable cell membrane; (c) high concentration of cell sap. (Any two)",
+   "marking_points": [
+    {
+     "point": "Any one adaptation, e.g. large surface area in contact with soil particles",
+     "marks": 1
+    },
+    {
+     "point": "Any second adaptation, e.g. thin semi-permeable membrane / high concentration of cell sap",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 22,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Excretory System",
+   "topic": "Afferent vs efferent arteriole",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "afferent vs efferent arteriole diameter"
+   ],
+   "question": "Differentiate between Afferent arteriole and Efferent arteriole (diameter).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Afferent arteriole: larger diameter; carries blood from the renal artery to the glomerulus. Efferent arteriole: smaller diameter; carries blood away from the glomerulus.",
+   "marking_points": [
+    {
+     "point": "Afferent arteriole has larger diameter (carries blood to the glomerulus)",
+     "marks": 1
+    },
+    {
+     "point": "Efferent arteriole has smaller diameter (carries blood from the glomerulus)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Examples of water pollutants",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "water pollutants"
+   ],
+   "question": "Give two examples of water pollutants.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Industrial chemicals and agricultural runoff (also accepted: sewage, detergents, pesticides, oil spills).",
+   "marking_points": [
+    {
+     "point": "First example, e.g. industrial chemicals/effluents",
+     "marks": 1
+    },
+    {
+     "point": "Second example, e.g. agricultural runoff/fertilisers/pesticides",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(v)",
+   "q_order": 24,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Chemical Coordination in Plants",
+   "topic": "Thigmotropism in pea tendril",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "thigmotropism",
+    "tendril"
+   ],
+   "question": "Ali has some pea plants in his garden which need a support to grow as seen in the picture given below:\n(a) Name the phenomenon depicted by the shoot in the given figure.\n(b) Define the above phenomenon.\n(c) Write the name of the part marked X.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Thigmotropism\n(b) The movement of plant parts in response to stimuli caused by contact with a foreign body is called thigmotropism.\n(c) Stem tendril",
+   "marking_points": [
+    {
+     "point": "(a) Thigmotropism",
+     "marks": 1
+    },
+    {
+     "point": "(b) Movement of plant parts in response to contact/touch stimulus",
+     "marks": 1
+    },
+    {
+     "point": "(c) Stem tendril",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Picture of a pea plant shoot with a tendril (marked X) coiling around a support.",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2024/p7.jpg"
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 25,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Reproductive System",
+   "topic": "Female surgical contraception",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "tubectomy"
+   ],
+   "question": "Give the biological term for the surgical method of contraception in human females.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Tubectomy / tubal ligation",
+   "marking_points": [
+    {
+     "point": "Tubectomy / tubal ligation",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 26,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Harmful effects of acid rain",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "effects of acid rain"
+   ],
+   "question": "State two harmful effects of acid rain on the environment.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Corrodes buildings and metal structures; (b) causes respiratory diseases like asthma; (c) acidifies lakes and rivers, harming aquatic life. (Any two)",
+   "marking_points": [
+    {
+     "point": "First harmful effect",
+     "marks": 1
+    },
+    {
+     "point": "Second harmful effect",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 27,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Transpiration",
+   "topic": "Advantages of transpiration",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "advantages of transpiration"
+   ],
+   "question": "Mention two advantages of transpiration.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Cools the plant: evaporation of water from leaves takes up heat and lowers the plant's temperature. (b) Creates a suction force (transpiration pull) that draws water and nutrients from the soil into the roots.",
+   "marking_points": [
+    {
+     "point": "Cooling / temperature regulation of plant",
+     "marks": 1
+    },
+    {
+     "point": "Suction force draws water and minerals up from the roots",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "4(iv)",
+   "q_order": 28,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Swachh Bharat Abhiyan objectives",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Swachh Bharat objectives"
+   ],
+   "question": "Write any two objectives of Swachh Bharat Abhiyan.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) To clean roads, streets and buildings in cities and towns; (b) to eliminate open defecation; (c) to build and monitor the use of latrines; (d) to manage solid and liquid waste. (Any two)",
+   "marking_points": [
+    {
+     "point": "First objective",
+     "marks": 1
+    },
+    {
+     "point": "Second objective",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "4(v)",
+   "q_order": 29,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Brain parts and sense organ in sport",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "cerebrum functions",
+    "cerebellum coordination",
+    "eye depth perception"
+   ],
+   "question": "Mohan is fond of playing basketball. His concentration is on shooting the ball into the opponent's basket as given in the picture.\n(a) Which part of the brain helps Mohan to concentrate in putting the ball into the basket?\n(b) Name the sense organ that helps to gauge the distance between the ball and the basket.\n(c) Name the part of the brain that co-ordinates all the voluntary muscles of his body.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Cerebral cortex (cerebrum), involved in motor planning, attention and decision-making.\n(b) Eyes\n(c) Cerebellum",
+   "marking_points": [
+    {
+     "point": "(a) Cerebral cortex / cerebrum",
+     "marks": 1
+    },
+    {
+     "point": "(b) Eyes",
+     "marks": 1
+    },
+    {
+     "point": "(c) Cerebellum",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 30,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Mixed nerve",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "mixed nerve"
+   ],
+   "question": "Name the type of nerve which has the fibres of both sensory and motor neurons.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Mixed nerve",
+   "marking_points": [
+    {
+     "point": "Mixed nerve",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 31,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Human Evolution",
+   "topic": "Body hair: Australopithecus vs modern man",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Australopithecus vs modern man body hair"
+   ],
+   "question": "Differentiate between Australopithecus and Modern man based on body hair.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Australopithecus had body hair covering much of its body. Modern man has relatively sparse body hair (hair mainly on limbs, etc.).",
+   "marking_points": [
+    {
+     "point": "Australopithecus: body covered with hair",
+     "marks": 1
+    },
+    {
+     "point": "Modern man: sparse body hair",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 32,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Human Population",
+   "topic": "Reasons for high birth rate",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "causes of high birth rate in India"
+   ],
+   "question": "\"Birth rate in India is very high.\" Mention two reasons in support of the statement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Illiteracy; children seen as a gift of God; sign of prosperity; high infant mortality; more helping hands for family income; non-acceptance of family planning methods; desire for a male child; lack of recreation. (Any two)",
+   "marking_points": [
+    {
+     "point": "First reason",
+     "marks": 1
+    },
+    {
+     "point": "Second reason",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(iv)",
+   "q_order": 33,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Location of pericardium, bicuspid valve",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "pericardium",
+    "bicuspid valve location"
+   ],
+   "question": "Give the exact location of:\n(a) Pericardium\n(b) Bicuspid valve",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Pericardium: covers / around the heart.\n(b) Bicuspid valve: between the left atrium and the left ventricle.",
+   "marking_points": [
+    {
+     "point": "(a) Covers/surrounds the heart",
+     "marks": 1
+    },
+    {
+     "point": "(b) Between left atrium and left ventricle",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5(v)",
+   "q_order": 34,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Genetics",
+   "topic": "Monohybrid cross seed shape",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "monohybrid cross interpretation",
+    "3:1 ratio",
+    "law of dominance"
+   ],
+   "question": "Given below is a schematic representation of the inheritance of the shape of seeds of garden pea. Answer the questions that follow:\n(a) Which is the dominant and recessive allele of the trait?\n(b) What does the ratio 3:1 in the F2 generation represent?\n(c) State Mendel's Law of Dominance.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Dominant allele: R (round seeds); recessive allele: r (wrinkled seeds).\n(b) In F2, 3:1 means 3 individuals show the dominant phenotype (1 RR + 2 Rr) for every 1 showing the recessive phenotype (rr).\n(c) Law of Dominance: in a pair of contrasting characters only one expresses itself while the other remains suppressed.",
+   "marking_points": [
+    {
+     "point": "(a) Dominant allele (round, R) and recessive allele (wrinkled, r)",
+     "marks": 1
+    },
+    {
+     "point": "(b) 3:1 = phenotypic ratio: 3 dominant : 1 recessive",
+     "marks": 1
+    },
+    {
+     "point": "(c) Law of Dominance: only one of a pair of contrasting characters expresses, the other is suppressed",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Schematic cross of garden pea: parents with round and wrinkled seeds, F1 generation, and F2 generation showing a 3:1 ratio.",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2024/p9.jpg"
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 35,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Definition of diapedesis",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "diapedesis"
+   ],
+   "question": "Define the term - Diapedesis.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Diapedesis is the process by which white blood cells squeeze out through the walls of capillaries to reach the site of infection.",
+   "marking_points": [
+    {
+     "point": "WBCs squeeze out through capillary walls to reach site of infection",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 36,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Endocrine System",
+   "topic": "Diabetes mellitus vs insipidus",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "diabetes mellitus vs insipidus",
+    "pancreas vs pituitary"
+   ],
+   "question": "Distinguish between diabetes mellitus and diabetes insipidus (endocrine gland concerned).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Diabetes mellitus - pancreas. Diabetes insipidus - pituitary gland.",
+   "marking_points": [
+    {
+     "point": "Diabetes mellitus: pancreas",
+     "marks": 1
+    },
+    {
+     "point": "Diabetes insipidus: pituitary gland",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 37,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Danger of carbon monoxide",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "carboxyhaemoglobin formation"
+   ],
+   "question": "Carbon monoxide is dangerous when inhaled in excess. Comment on the statement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Carbon monoxide easily combines with haemoglobin to form carboxyhaemoglobin, which cuts off the supply of oxygen to tissues.",
+   "marking_points": [
+    {
+     "point": "CO combines with haemoglobin forming carboxyhaemoglobin",
+     "marks": 1
+    },
+    {
+     "point": "Cuts off / reduces oxygen supply to tissues",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "6(iv)",
+   "q_order": 38,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Reproductive System",
+   "topic": "Ovary diagram: ovulation, corpus luteum",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "ovary section",
+    "ovulation",
+    "corpus luteum"
+   ],
+   "question": "The diagram given below shows a section of the human ovary.\n(a) Name the process for the release of the part labelled 1.\n(b) Write the name of the structure marked 2.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Ovulation (release of a mature egg/ovum from the ovarian follicle into the fallopian tube).\n(b) Corpus luteum.",
+   "marking_points": [
+    {
+     "point": "(a) Ovulation",
+     "marks": 1
+    },
+    {
+     "point": "(b) Corpus luteum",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Section of a human ovary showing follicle stages; part 1 is the released ovum/egg from a mature follicle, structure 2 is the corpus luteum.",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2024/p9.jpg"
+  },
+  {
+   "q_label": "6(v)",
+   "q_order": 39,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Cell",
+   "topic": "Labelled diagram of chloroplast",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "chloroplast structure diagram"
+   ],
+   "question": "Draw a neat, labelled diagram of a chloroplast.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Diagram of a chloroplast showing a double-membrane envelope (outer and inner membrane), stroma, grana (stacks of thylakoids/discs) and stroma lamellae connecting grana.",
+   "marking_points": [
+    {
+     "point": "Neat, correct overall diagram of a chloroplast",
+     "marks": 1
+    },
+    {
+     "point": "Any two correct labels (e.g. outer membrane, inner membrane)",
+     "marks": 1
+    },
+    {
+     "point": "Any further two correct labels (e.g. stroma, granum/thylakoid, stroma lamella)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 40,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Endocrine System",
+   "topic": "Definition of hormone",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "definition of hormone"
+   ],
+   "question": "Define the term hormone.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A hormone is a chemical messenger produced by glands or specialised cells, circulating in body fluids to regulate physiological processes.",
+   "marking_points": [
+    {
+     "point": "Chemical messenger/substance secreted by endocrine glands",
+     "marks": 0.5
+    },
+    {
+     "point": "Carried by blood/body fluids to regulate body processes",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 41,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Ear parts for equilibrium",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "utricle/saccule static equilibrium",
+    "semicircular canals dynamic equilibrium"
+   ],
+   "question": "Which parts of the ear are responsible for:\n(a) Static equilibrium?\n(b) Dynamic equilibrium?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Utricle and saccule (of the vestibule in the inner ear).\n(b) Semicircular canals.",
+   "marking_points": [
+    {
+     "point": "(a) Utricle and saccule",
+     "marks": 1
+    },
+    {
+     "point": "(b) Semicircular canals",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 42,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Artery vs vein structure",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "artery vs vein structure"
+   ],
+   "question": "Mention two structural differences between an artery and a vein.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Artery: thicker walls; no valves. Vein: thinner walls; valves present to prevent backflow of blood.",
+   "marking_points": [
+    {
+     "point": "Thickness of walls: artery thick, vein thin",
+     "marks": 1
+    },
+    {
+     "point": "Valves: absent in artery, present in vein",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "7(iv)",
+   "q_order": 43,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Absorption by Roots",
+   "topic": "Limitations of Ganong's potometer",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "limitations of Ganong's potometer"
+   ],
+   "question": "Write any two limitations of using a Ganong's Potometer to demonstrate the uptake of water.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Introducing the air bubble in the capillary tube is difficult. (b) Changes in outside air temperature affect the position of the bubble. (c) The leafy shoot may not remain fresh for a long time. (Any two)",
+   "marking_points": [
+    {
+     "point": "First limitation",
+     "marks": 1
+    },
+    {
+     "point": "Second limitation",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "7(v)",
+   "q_order": 44,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Myopia defect and correction",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "myopia",
+    "concave lens correction"
+   ],
+   "question": "A teacher drew the diagram of heart on the blackboard and told the students to copy it in their notebooks. Mahesh couldn't see the diagram clearly as it appeared blurred to him.\n(a) Name the defect of the eye Mahesh is suffering from.\n(b) Where is the image formed in this defect?\n(c) Mahesh consults an eye doctor and is prescribed suitable lenses to correct the defect. Which type of lens do his spectacles have?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Myopia (short-sightedness / nearsightedness).\n(b) In front of the retina.\n(c) Concave lens.",
+   "marking_points": [
+    {
+     "point": "(a) Myopia",
+     "marks": 1
+    },
+    {
+     "point": "(b) Image formed in front of the retina",
+     "marks": 1
+    },
+    {
+     "point": "(c) Concave lens",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 45,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Excretory System",
+   "topic": "Definition of ultrafiltration",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "ultrafiltration in glomerulus"
+   ],
+   "question": "Define the term ultrafiltration.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Ultrafiltration is the filtration of blood in the glomerulus during which small molecules (water, urea, glucose, amino acids, etc.) pass into the renal tubule (Bowman's capsule) while large molecules remain in the blood, carried away by the efferent arteriole.",
+   "marking_points": [
+    {
+     "point": "Filtration of blood in the glomerulus under pressure; small substances enter the renal tubule, large molecules retained",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 46,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Endocrine System",
+   "topic": "Minerals for clotting, thyroxine (mixed chapters)",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "(a) calcium for clotting: The Circulatory System",
+    "(b) iodine for thyroxine: The Endocrine System"
+   ],
+   "question": "Name the mineral elements required for:\n(a) Clotting of blood\n(b) Synthesis of thyroxine",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Calcium (b) Iodine",
+   "marking_points": [
+    {
+     "point": "(a) Calcium",
+     "marks": 1
+    },
+    {
+     "point": "(b) Iodine",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 47,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Effects of noise pollution",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "effects of noise pollution"
+   ],
+   "question": "Mention two harmful effects of noise pollution.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Damage to the ear drum; nervous irritability; disturbs sleep. (Any two)",
+   "marking_points": [
+    {
+     "point": "First effect",
+     "marks": 1
+    },
+    {
+     "point": "Second effect",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "8(iv)",
+   "q_order": 48,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Efficiency of anucleate RBCs",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "RBC adaptations",
+    "biconcave shape",
+    "no mitochondria so no oxygen consumption"
+   ],
+   "question": "Why are RBCs efficient in their functions though they lack nucleus and mitochondria?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Lack of nucleus makes the cells biconcave, increasing the surface area to volume ratio for absorbing more oxygen. Lack of mitochondria means the red cells cannot use oxygen for themselves, so all the oxygen absorbed in the lungs is delivered to the tissues unconsumed.",
+   "marking_points": [
+    {
+     "point": "No nucleus: biconcave shape, larger surface area/volume ratio, more oxygen absorbed (also more space for haemoglobin)",
+     "marks": 1
+    },
+    {
+     "point": "No mitochondria: RBCs do not consume the oxygen, so all of it is delivered to tissues",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "8(v)",
+   "q_order": 49,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Identify mitosis stage anaphase",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "identifying anaphase from diagram",
+    "chromosome counting"
+   ],
+   "question": "The diagram given below represents a stage in mitosis.\n(a) Identify the stage given above.\n(b) Give one reason to support your answer in (a).\n(c) Mention the number of chromosomes given in the diagram.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Anaphase\n(b) Chromatids are being pulled towards opposite poles.\n(c) Four chromosomes.",
+   "marking_points": [
+    {
+     "point": "(a) Anaphase",
+     "marks": 1
+    },
+    {
+     "point": "(b) Chromatids/chromosomes being pulled to opposite poles",
+     "marks": 1
+    },
+    {
+     "point": "(c) Four",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Cell in mitosis with chromatids separating and moving toward opposite poles of the cell (four chromosomes shown).",
+   "page": 11,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/biology_2024/p11.jpg"
+  }
+ ]
+}

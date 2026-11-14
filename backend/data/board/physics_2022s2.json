@@ -1,0 +1,1727 @@
+{
+ "paper_id": "physics_2022s2",
+ "subject": "physics",
+ "year": 2022,
+ "sem": 2,
+ "label": "2022 Sem 2",
+ "max_marks": 40,
+ "duration_minutes": 90,
+ "reading_minutes": 15,
+ "instructions": "Attempt all questions from Section A and any three questions from Section B.",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 10,
+   "rule": "Attempt all questions",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 30,
+   "rule": "Attempt any three questions",
+   "compulsory": false,
+   "attempt_n": 3,
+   "out_of": 5
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Free vibrations definition",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "free vibrations definition"
+   ],
+   "question": "Free vibrations are",
+   "options": {
+    "a": "the vibrations under the influence of a periodic force.",
+    "b": "the vibrations with larger amplitude.",
+    "c": "the vibrations when the frequency continuously decreases.",
+    "d": "the vibrations with a constant frequency and constant amplitude."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) the vibrations with a constant frequency and constant amplitude.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Pitch and frequency of waves",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "pitch and frequency from waveform"
+   ],
+   "question": "The diagram below shows four sound waves. Which sound has the highest pitch?",
+   "options": {
+    "a": "Wave A",
+    "b": "Wave B",
+    "c": "Wave C",
+    "d": "Wave D"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Wave B (highest frequency, hence highest pitch)",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Displacement-time graphs of four sound waves A, B, C, D; wave B has the most cycles per unit time (highest frequency).",
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "V-I graph for ohmic resistors",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "V-I graph for ohmic conductor"
+   ],
+   "question": "The graph plotted for potential difference (V) against current (I) for ohmic resistors is",
+   "options": {
+    "a": "A curve passing through the origin.",
+    "b": "A straight line not passing through origin.",
+    "c": "A straight line passing through the origin.",
+    "d": "A circle centred at the origin."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) A straight line passing through the origin.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Main switch in household wiring",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "main switch in live and neutral wires"
+   ],
+   "question": "A main switch in the main distribution board is present in",
+   "options": {
+    "a": "a live wire",
+    "b": "a neutral wire",
+    "c": "a live as well as neutral wire",
+    "d": "an earth wire"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) a live as well as neutral wire",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Magnetic effect of current deflection",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "Oersted effect and direction of deflection",
+    "right-hand rule for wire above needle"
+   ],
+   "question": "A conductor AB is kept along north south direction of the earth above a magnetic needle as shown below. When the key K is closed then",
+   "options": {
+    "a": "the needle will not show any deflection.",
+    "b": "the needle will deflect towards east.",
+    "c": "the needle will turn in the opposite direction i.e., towards south.",
+    "d": "the needle will deflect towards west."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) the needle will deflect towards east.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Conductor AB along N-S above a magnetic needle, connected to a battery (+/-) through key K; compass directions N, S, E, W marked, A at one end and B at the other.",
+   "page": 1
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Electromagnet condition",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "electromagnet requires current"
+   ],
+   "question": "A coil wound around a piece of soft iron can become an electromagnetic only when",
+   "options": {
+    "a": "the circuit is open.",
+    "b": "a magnetic compass is present in the vicinity.",
+    "c": "a galvanometer is connected to the circuit.",
+    "d": "a current flows in the circuit."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) a current flows in the circuit.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Specific heat capacity of water",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "specific heat capacity calculation and unit conversion"
+   ],
+   "question": "If water absorbs 4000 joule heat to increase the temperature of 1 kg water through 1°C then the specific heat capacity of water is",
+   "options": {
+    "a": "4 Jkg–1 °C–1",
+    "b": "400 Jg–1 °C–1",
+    "c": "4 Jg–1 °C–1",
+    "d": "4.2 Jg–1 °C–1"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 4 Jg–1 °C–1",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Water as coolant, high specific heat",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "high specific heat of water as coolant"
+   ],
+   "question": "Water is used in car radiators because",
+   "options": {
+    "a": "it is a good conductor of heat.",
+    "b": "it conducts heat faster as compared to the other substances and cools the engine quickly.",
+    "c": "its specific heat capacity is very low.",
+    "d": "its specific heat capacity is very high so it can cool the engine without a greater increase in its own temperature."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) its specific heat capacity is very high so it can cool the engine without a greater increase in its own temperature.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Heaviest nuclear radiation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "properties of alpha radiation"
+   ],
+   "question": "The heaviest nuclear radiation is",
+   "options": {
+    "a": "x-radiation",
+    "b": "alpha-radiation",
+    "c": "gamma-radiation",
+    "d": "beta-radiation"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) alpha-radiation (helium nucleus)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Carbon dating",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "carbon dating"
+   ],
+   "question": "To study the age of excavated material of archaeological significance we study the rate of decay of an isotope of",
+   "options": {
+    "a": "Uranium",
+    "b": "Cobalt",
+    "c": "Carbon",
+    "d": "Chlorine"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Carbon (carbon dating)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(i)(a)",
+   "q_order": 10,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Solenoid and compass deflection",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "compass deflection shows current in solenoid"
+   ],
+   "question": "The diagram below shows a magnetic compass kept closer to a coil AB wound around a hollow cylindrical cardboard (coil connected to a battery through switch S1; compass directions N, S, E, W marked).\n(a) After studying the circuit and the magnetic compass carefully, state whether the switch S1 is open or closed.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Switch S1 open or closed",
+     "accepted": [
+      "closed",
+      "S1 is closed",
+      "switch is closed"
+     ]
+    }
+   ],
+   "solution": "The switch S1 is closed.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Coil AB wound on a hollow cardboard cylinder, connected to a battery (+/-) via switch S1, with a magnetic compass placed near end A; the compass needle is shown deflected.",
+   "page": 3
+  },
+  {
+   "q_label": "2(i)(b)",
+   "q_order": 11,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Solenoid and compass deflection",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "magnetic effect of current"
+   ],
+   "question": "The diagram below shows a magnetic compass kept closer to a coil AB wound around a hollow cylindrical cardboard (coil connected to a battery through switch S1; compass directions N, S, E, W marked).\n(b) How did you arrive at the conclusion in (a)?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "There is a deflection in the magnetic compass, so it is concluded that the switch S1 is closed and current is flowing through the coil.",
+   "marking_points": [
+    {
+     "point": "Compass shows deflection",
+     "marks": 0.5
+    },
+    {
+     "point": "Hence current flows through the coil / switch is closed",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Coil AB wound on a hollow cardboard cylinder, connected to a battery (+/-) via switch S1, with a magnetic compass placed near end A; the compass needle is shown deflected.",
+   "page": 3
+  },
+  {
+   "q_label": "2(i)(c)",
+   "q_order": 12,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Solenoid polarity detection",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "compass to detect magnetic field or polarity of solenoid"
+   ],
+   "question": "The diagram below shows a magnetic compass kept closer to a coil AB wound around a hollow cylindrical cardboard (coil connected to a battery through switch S1; compass directions N, S, E, W marked).\n(c) What is the purpose of placing the magnetic compass in the above setup?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The purpose of placing the magnetic compass is to determine the polarity developed at the A end of the solenoid.",
+   "marking_points": [
+    {
+     "point": "Compass is used to detect/determine the polarity (magnetic field direction) of the solenoid at end A",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Coil AB wound on a hollow cardboard cylinder, connected to a battery (+/-) via switch S1, with a magnetic compass placed near end A; the compass needle is shown deflected.",
+   "page": 3
+  },
+  {
+   "q_label": "2(ii)(a)",
+   "q_order": 13,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Copper as calorimeter material",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "copper as calorimeter material"
+   ],
+   "question": "(a) Give an important reason for copper to be used as a material for a calorimeter.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Copper is a good conductor of heat and has low specific heat capacity, so it reaches the equilibrium temperature quickly by absorbing a small amount of heat.",
+   "marking_points": [
+    {
+     "point": "Copper is a good conductor of heat",
+     "marks": 0.5
+    },
+    {
+     "point": "Low specific heat capacity, absorbs little heat / reaches equilibrium quickly",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(ii)(b)",
+   "q_order": 14,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Thermal capacity of water",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "thermal capacity = m×c",
+    "unit conversion g to kg"
+   ],
+   "question": "(b) Calculate the thermal capacity of 40 g of water.\n[Specific heat capacity of water = 4200 JKg–1 °C–1]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Thermal capacity = mass x specific heat capacity = (40/1000) x 4200 = 168 J °C–1",
+   "marking_points": [
+    {
+     "point": "Formula: thermal capacity = m x c",
+     "marks": 0.5
+    },
+    {
+     "point": "Conversion of 40 g to 0.04 kg and substitution",
+     "marks": 1
+    },
+    {
+     "point": "Answer 168 J/°C with unit",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iii)(a)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Equivalent resistance series-parallel",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "series-parallel combination of resistors"
+   ],
+   "question": "In the above circuit diagram (a 2 ohm resistor in series with a parallel combination of 12 ohm and 8 ohm resistors; current I1 = 0.4 A flows through the 12 ohm resistor, I2 through the 8 ohm resistor, I is the total current), calculate:\n(a) the external resistance of the circuit",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "12 and 8 in parallel: (12 x 8)/(12+8) = 4.8 ohm; in series with 2 ohm: total = 2 + 4.8 = 6.8 ohm",
+   "marking_points": [
+    {
+     "point": "Parallel combination 4.8 ohm, then added to 2 ohm, total 6.8 ohm",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Circuit: 2 ohm resistor in series with a parallel combination of 12 ohm and 8 ohm resistors; current I enters, I1 = 0.4 A flows through the 12 ohm resistor and I2 flows through the 8 ohm resistor.",
+   "page": 3
+  },
+  {
+   "q_label": "2(iii)(b)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Current division in parallel",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "parallel branches have equal potential difference"
+   ],
+   "question": "In the above circuit diagram (a 2 ohm resistor in series with a parallel combination of 12 ohm and 8 ohm resistors; current I1 = 0.4 A flows through the 12 ohm resistor, I2 through the 8 ohm resistor, I is the total current), calculate:\n(b) the current I2",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "P.d. across 12 ohm = p.d. across 8 ohm: 12 x 0.4 = 8 x I2, so I2 = 0.6 A",
+   "marking_points": [
+    {
+     "point": "Equal p.d. in parallel: 12 x 0.4 = 8 x I2, giving 0.6 A",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Circuit: 2 ohm resistor in series with a parallel combination of 12 ohm and 8 ohm resistors; current I enters, I1 = 0.4 A flows through the 12 ohm resistor and I2 flows through the 8 ohm resistor.",
+   "page": 3
+  },
+  {
+   "q_label": "2(iii)(c)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Total current in circuit",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "current division in parallel circuit"
+   ],
+   "question": "In the above circuit diagram (a 2 ohm resistor in series with a parallel combination of 12 ohm and 8 ohm resistors; current I1 = 0.4 A flows through the 12 ohm resistor, I2 through the 8 ohm resistor, I is the total current), calculate:\n(c) the current I",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "I = I1 + I2 = 0.4 + 0.6 = 1 A",
+   "marking_points": [
+    {
+     "point": "I = I1 + I2 = 1 A",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Circuit: 2 ohm resistor in series with a parallel combination of 12 ohm and 8 ohm resistors; current I enters, I1 = 0.4 A flows through the 12 ohm resistor and I2 flows through the 8 ohm resistor.",
+   "page": 3
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 18,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "match",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Colour coding of three-pin socket",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "colour coding of three-pin socket terminals"
+   ],
+   "question": "Three wires with proper colour coding are connected to the three terminals of a three-pin socket. Match the colour of the wire with the proper terminals A, B and C of the socket.\n(a) Brown\n(b) Green\n(c) Light blue",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Brown wire connects to",
+     "accepted": [
+      "live",
+      "line",
+      "live terminal",
+      "line terminal"
+     ]
+    },
+    {
+     "prompt": "Green wire connects to",
+     "accepted": [
+      "earth",
+      "earth terminal",
+      "ground"
+     ]
+    },
+    {
+     "prompt": "Light blue wire connects to",
+     "accepted": [
+      "neutral",
+      "neutral terminal"
+     ]
+    }
+   ],
+   "solution": "Brown wire: live (line) terminal. Light blue wire: neutral terminal (B). Green wire: earth terminal. (Printed key: 'C is line... B is neutral... C is earth'; the terminal letters for live/earth are inconsistent in the print, but the colour-function matching is clear.)",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Front view of a three-pin socket with three terminals labelled A, B and C (earth pin at the top, live and neutral at the bottom in the standard layout).",
+   "page": 3
+  },
+  {
+   "q_label": "3(ii)(a)",
+   "q_order": 19,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Latent heat of melting hailstones",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "latent heat of fusion absorbed by melting ice"
+   ],
+   "question": "(a) Why does it become colder after a hailstorm than during or before the hailstorm?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "After a hailstorm, the ice absorbs the heat energy (latent heat) needed for melting from the environment, thus lowering the temperature of the surroundings.",
+   "marking_points": [
+    {
+     "point": "Ice melts / hailstones melt after the storm",
+     "marks": 0.5
+    },
+    {
+     "point": "Absorb latent heat from surroundings, lowering temperature",
+     "marks": 1.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(ii)(b)",
+   "q_order": 20,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Heat absorbed depends on mass",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "heat absorbed depends on mass, specific heat and temperature rise"
+   ],
+   "question": "(b) 'If two bodies have the same specific heat capacities, then they will always absorb the same amount of heat if their temperature increases by the same amount.' State whether the given statement is true or false.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "True or false",
+     "accepted": [
+      "false",
+      "False",
+      "not true",
+      "no"
+     ]
+    }
+   ],
+   "solution": "False. The amount of heat absorbed depends on the mass of the body also; if the masses differ, they absorb different amounts of heat.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 21,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Calorimetry specific heat of metal",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "calorimetry principle of mixtures",
+    "calorimeter heat capacity included"
+   ],
+   "question": "A metal piece of mass 420 g present at 80°C is dropped in 80g of water present at 20°C in a calorimeter of mass 84g. If the final temperature of the mixture is 30°C, then calculate the specific heat capacity of the metal piece.\n[Specific heat capacity of water = 4.2 Jkg–1 °C–1, Specific heat capacity of the calorimeter = 200 Jkg–1 °C–1]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Heat lost by metal = 420 x S x 50 = 21000 S J. Heat gained by water = 80 x 4.2 x 10 = 3360 J. Heat gained by calorimeter = 84 x 0.2 x 10 = 168 J. Heat lost = heat gained: 21000 S = 3360 + 168, so S = 0.168 J g-1 °C-1 (= 168 J kg-1 °C-1). (The printed water value is 4.2 J g-1 °C-1, i.e. 4200 J kg-1 °C-1; the question prints it as Jkg-1.)",
+   "marking_points": [
+    {
+     "point": "Principle: heat lost by metal = heat gained by water + calorimeter",
+     "marks": 1
+    },
+    {
+     "point": "Heat lost by metal 420 x S x 50; gained by water 80 x 4.2 x 10 and calorimeter 84 x 0.2 x 10",
+     "marks": 1.5
+    },
+    {
+     "point": "Equation 21000 S = 3528",
+     "marks": 0.5
+    },
+    {
+     "point": "S = 0.168 J g-1 °C-1 with unit",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(i)(a)",
+   "q_order": 22,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Quality/timbre of sound",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "quality or timbre of sound"
+   ],
+   "question": "Rohit playing a flute and Anita playing a piano emit sounds of same pitch and loudness.\n(a) Name one characteristic that is different for waves from the two different instruments.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Characteristic that differs",
+     "accepted": [
+      "quality",
+      "timbre",
+      "tone quality",
+      "waveform"
+     ]
+    }
+   ],
+   "solution": "Quality (timbre).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(i)(b)",
+   "q_order": 23,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Loudness and amplitude ratio",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "loudness proportional to amplitude squared"
+   ],
+   "question": "Rohit playing a flute and Anita playing a piano emit sounds of same pitch and loudness.\n(b) If now the loudness of the sound from flute becomes four times that of the sound from piano, then write the value of the ratio AF : AP (AF – amplitude of sound wave from flute, AP – amplitude of sound wave from piano)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Loudness is proportional to (amplitude)^2, so LF/LP = AF^2/AP^2 = 4/1, hence AF : AP = 2 : 1.",
+   "marking_points": [
+    {
+     "point": "Loudness proportional to amplitude squared, 4/1 = AF^2/AP^2",
+     "marks": 0.5
+    },
+    {
+     "point": "AF : AP = 2 : 1",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(i)(c)",
+   "q_order": 24,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Definition of pitch",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "definition of pitch"
+   ],
+   "question": "Rohit playing a flute and Anita playing a piano emit sounds of same pitch and loudness.\n(c) Define 'Pitch' of a sound.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Pitch is the sensation (characteristic) of sound by which a note is judged shrill (high) or flat (low); it depends on frequency. High pitch corresponds to high frequency and low pitch to low frequency.",
+   "marking_points": [
+    {
+     "point": "Pitch is the characteristic/sensation of a sound distinguishing shrill from flat",
+     "marks": 0.5
+    },
+    {
+     "point": "Depends on frequency (higher frequency = higher pitch)",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(ii)(a)",
+   "q_order": 25,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Force on current-carrying conductor factors",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "force on conductor depends on current and field strength"
+   ],
+   "question": "(a) Name two factors on which the force experienced by a conductor carrying current, placed in a magnetic field, depends. Also, state how these factors affect the force.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Factors: strength of the magnetic field and strength of the current flowing. Force is directly proportional to the strength of the magnetic field; force is directly proportional to the strength of the current.",
+   "marking_points": [
+    {
+     "point": "Factor 1: magnetic field strength, force directly proportional",
+     "marks": 1
+    },
+    {
+     "point": "Factor 2: current strength, force directly proportional",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(ii)(b)",
+   "q_order": 26,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Fleming's left-hand rule",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Fleming's left-hand rule"
+   ],
+   "question": "(b) With the help of which rule you can determine the direction of force acting on a current carrying conductor placed in a magnetic field?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Rule for direction of force on a current-carrying conductor",
+     "accepted": [
+      "Fleming's left hand rule",
+      "Fleming left hand rule",
+      "left hand rule"
+     ]
+    }
+   ],
+   "solution": "Fleming's left-hand rule: with thumb, first finger and second finger of the left hand mutually perpendicular, the thumb gives the direction of force, the first finger the direction of the magnetic field and the second finger the direction of current.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(iii)(a)",
+   "q_order": 27,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Definition of nuclear energy",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "definition of nuclear energy"
+   ],
+   "question": "(a) What is nuclear energy?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Nuclear energy is energy released from the nucleus of atoms (made of protons and neutrons), produced by fission (a nucleus splitting into parts) or fusion (nuclei fusing together).",
+   "marking_points": [
+    {
+     "point": "Energy released from the nucleus of an atom, by fission or fusion",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(iii)(b)",
+   "q_order": 28,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Beta emission identification",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "beta decay increases atomic number by 1"
+   ],
+   "question": "(b) After emission of a nuclear radiation, the atomic number of the daughter nucleus increases by 1. Identify the nuclear radiation.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Radiation emitted",
+     "accepted": [
+      "beta",
+      "beta radiation",
+      "beta particle",
+      "β",
+      "beta decay"
+     ]
+    }
+   ],
+   "solution": "Beta radiation.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(iii)(c)",
+   "q_order": 29,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Beta decay nuclear equation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "writing beta decay nuclear equation"
+   ],
+   "question": "(c) Write a nuclear reaction indicating the nuclear change mentioned in (b).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Z X^A -> Z+1 Y^A + (-1) e^0 (beta particle); mass number A unchanged, atomic number increases from Z to Z+1.",
+   "marking_points": [
+    {
+     "point": "Correct parent and daughter with mass number A unchanged, atomic number Z to Z+1",
+     "marks": 0.5
+    },
+    {
+     "point": "Beta particle -1e0 shown on the product side",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(iii)(d)",
+   "q_order": 30,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Isobars",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "isobars"
+   ],
+   "question": "(d) What is the special name given to the parent and daughter nucleus when this radiation is emitted?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Special name for parent and daughter",
+     "accepted": [
+      "isobars",
+      "isobar"
+     ]
+    }
+   ],
+   "solution": "Isobars (same mass number, different atomic numbers).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5(i)(a)",
+   "q_order": 31,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Current from power rating",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "I = P/V for rated appliance"
+   ],
+   "question": "An appliance rated 440 W, 220V is connected across 220V supply.\n(a) Calculate the maximum current that the appliance can draw.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "I = P/V = 440/220 = 2 A",
+   "marking_points": [
+    {
+     "point": "Formula I = P/V",
+     "marks": 0.5
+    },
+    {
+     "point": "Answer 2 A with unit",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5(i)(b)",
+   "q_order": 32,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Resistance from power rating",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "R = V²/P or P/I²"
+   ],
+   "question": "An appliance rated 440 W, 220V is connected across 220V supply.\n(b) Calculate the resistance of the appliance.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "R = P/I^2 = 440/2^2 = 110 ohm",
+   "marking_points": [
+    {
+     "point": "Formula R = P/I^2 (or V/I)",
+     "marks": 1
+    },
+    {
+     "point": "Substitution",
+     "marks": 0.5
+    },
+    {
+     "point": "Answer 110 ohm with unit",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5(ii)(a)",
+   "q_order": 33,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Resonance tuning fork frequency",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "resonance identifies matching frequency"
+   ],
+   "question": "The diagram below shows a vibrating tuning fork E mounted on a sound box X. When the vibrating tuning forks A, B, C and D (frequencies 225 Hz, 320 Hz, 384 Hz and 512 Hz respectively) are placed on the sound box Y one by one, it is observed that a louder sound is produced when the tuning fork B is placed on Y.\n(a) What is the frequency of tuning fork E?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Frequency of tuning fork E",
+     "accepted": [
+      "320 Hz",
+      "320",
+      "320Hz"
+     ]
+    }
+   ],
+   "solution": "320 Hz",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Vibrating tuning fork E mounted on a sound box X; tuning forks A, B, C, D of frequencies 225 Hz, 320 Hz, 384 Hz, 512 Hz respectively are placed one by one on sound box Y.",
+   "page": 5
+  },
+  {
+   "q_label": "5(ii)(b)",
+   "q_order": 34,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Resonance explanation",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "resonance and forced vibrations"
+   ],
+   "question": "The diagram below shows a vibrating tuning fork E mounted on a sound box X. When the vibrating tuning forks A, B, C and D (frequencies 225 Hz, 320 Hz, 384 Hz and 512 Hz respectively) are placed on the sound box Y one by one, it is observed that a louder sound is produced when the tuning fork B is placed on Y.\n(b) Why does B produce a louder sound?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "B produces a louder sound because its frequency matches the frequency of E, so resonance occurs.",
+   "marking_points": [
+    {
+     "point": "Frequency of B equals frequency of E (natural frequency matches)",
+     "marks": 1
+    },
+    {
+     "point": "Resonance occurs, giving large amplitude / louder sound",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Vibrating tuning fork E mounted on a sound box X; tuning forks A, B, C, D of frequencies 225 Hz, 320 Hz, 384 Hz, 512 Hz respectively are placed one by one on sound box Y.",
+   "page": 5
+  },
+  {
+   "q_label": "5(iii)(a)",
+   "q_order": 35,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "other",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Heating curve melting/boiling points",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "reading melting and boiling points from heating curve"
+   ],
+   "question": "(a) From the graph of heating curve given below state the melting point and boiling point of the substance.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Melting point is 40°C and boiling point is 100°C.",
+   "marking_points": [
+    {
+     "point": "Melting point 40°C",
+     "marks": 1
+    },
+    {
+     "point": "Boiling point 100°C",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Heating curve: temperature (°C, axis marked 40, 80, 120, 160, 200) against time (s), starting at (0, 20); has two flat portions, the first at 40°C (melting) and the second at 100°C (boiling).",
+   "page": 5
+  },
+  {
+   "q_label": "5(iii)(b)",
+   "q_order": 36,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Alpha decay of uranium",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "balancing alpha decay equation"
+   ],
+   "question": "(b) Complete the rewrite of the following nuclear reaction by filling in the blanks.\n92U235 -> [ ] Th [ ] + 2He4   (i.e. 235U -> __ 90Th __ + 4 2He, with the blanks being the missing atomic/mass numbers)",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Mass number of Th",
+     "accepted": [
+      "231",
+      "Th-231"
+     ]
+    },
+    {
+     "prompt": "Atomic number of U (i.e. 92) / full equation",
+     "accepted": [
+      "92",
+      "92U235 -> 90Th231 + 2He4"
+     ]
+    }
+   ],
+   "solution": "92U235 -> 90Th231 + 2He4",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(i)(a)",
+   "q_order": 37,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Damped vibration identification",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "damped vibration from displacement-time graph"
+   ],
+   "question": "Study the figure (displacement x in metres against time t in seconds, showing an oscillation whose amplitude decreases with time) and answer the following:\n(a) What type of vibration does the above figure represent?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Type of vibration",
+     "accepted": [
+      "damped",
+      "damped vibration",
+      "damped vibrations"
+     ]
+    }
+   ],
+   "solution": "Damped vibration.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Displacement x (m) against time t (s) graph (x from -1 to 1 m, t from 0.5 to 2 s) of an oscillation whose amplitude gradually decreases with time.",
+   "page": 5
+  },
+  {
+   "q_label": "6(i)(b)",
+   "q_order": 38,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Cause of damping",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "energy loss due to friction in damped vibration"
+   ],
+   "question": "Study the figure (displacement against time, amplitude decreasing with time) and answer:\n(b) State one reason for which the amplitude of the vibration decreases with time.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Loss of energy due to friction (resistance of air/medium).",
+   "marking_points": [
+    {
+     "point": "Energy is lost due to friction / air resistance / damping",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Displacement x (m) against time t (s) graph (x from -1 to 1 m, t from 0.5 to 2 s) of an oscillation whose amplitude gradually decreases with time.",
+   "page": 5
+  },
+  {
+   "q_label": "6(i)(c)",
+   "q_order": 39,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Natural vibration example",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "example of natural vibration"
+   ],
+   "question": "(c) Write an example of natural vibrations.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Example of natural vibration",
+     "accepted": [
+      "oscillating pendulum",
+      "simple pendulum",
+      "pendulum",
+      "vibrating tuning fork",
+      "swing"
+     ]
+    }
+   ],
+   "solution": "An oscillating pendulum.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(ii)(a)",
+   "q_order": 40,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Speed of radiations",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "gamma rays travel at speed of light"
+   ],
+   "question": "A certain beam of alpha particles, beta particles and gamma radiations travel through a region of electric field produced between two oppositely charged parallel plates A(+) and B(–).\n(a) Which of the above three has the maximum speed?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Fastest of the three",
+     "accepted": [
+      "gamma",
+      "gamma radiation",
+      "gamma rays",
+      "γ"
+     ]
+    }
+   ],
+   "solution": "Gamma radiation (speed equal to the speed of light in vacuum).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(ii)(b)",
+   "q_order": 41,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Deflection of radiations",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "deflection of beta vs alpha in electric field"
+   ],
+   "question": "A certain beam of alpha particles, beta particles and gamma radiations travel through a region of electric field produced between two oppositely charged parallel plates A(+) and B(–).\n(b) Which one deviates the most from its original path?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Deviates the most",
+     "accepted": [
+      "beta",
+      "beta particles",
+      "beta particle",
+      "β"
+     ]
+    }
+   ],
+   "solution": "Beta particles.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(ii)(c)",
+   "q_order": 42,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Gamma uncharged radiation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "gamma rays uncharged, undeflected"
+   ],
+   "question": "A certain beam of alpha particles, beta particles and gamma radiations travel through a region of electric field produced between two oppositely charged parallel plates A(+) and B(–).\n(c) Which one does not deviate at all when passing through a region of electric or magnetic field?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Does not deviate",
+     "accepted": [
+      "gamma",
+      "gamma radiation",
+      "gamma rays",
+      "γ"
+     ]
+    }
+   ],
+   "solution": "Gamma radiation, since it is made of uncharged photons.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(iii)(a)",
+   "q_order": 43,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Resistance of stretched wire",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "resistance on stretching wire (R ∝ l²)"
+   ],
+   "question": "If a wire of resistance 2 ohm gets stretched to thrice its original length:\n(a) Calculate the new resistance of the wire.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "R = rho l/A. New length 3l, so new area A/3 (volume constant). R' = rho(3l)/(A/3) = 9R = 9 x 2 = 18 ohm.",
+   "marking_points": [
+    {
+     "point": "Length becomes 3l and area becomes A/3",
+     "marks": 1
+    },
+    {
+     "point": "R' = 9R = 18 ohm with unit",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(iii)(b)",
+   "q_order": 44,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Specific resistance unchanged",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "specific resistance depends on material only"
+   ],
+   "question": "If a wire of resistance 2 ohm gets stretched to thrice its original length:\n(b) What happens to the specific resistance of the wire?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Specific resistance remains the same since it does not depend on the dimensions of the wire; it depends on the material (and temperature).",
+   "marking_points": [
+    {
+     "point": "Remains unchanged",
+     "marks": 1
+    },
+    {
+     "point": "Reason: depends on material, not dimensions",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  }
+ ]
+}
