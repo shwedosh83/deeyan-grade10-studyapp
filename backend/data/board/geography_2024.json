@@ -314,13 +314,14 @@
     {
      "prompt": "Compass direction of Khara (4097) from Karja (3994)",
      "accepted": [
-      "north-west",
-      "northwest",
-      "NW"
+      "north-east",
+      "northeast",
+      "NE",
+      "north east"
      ]
     }
    ],
-   "solution": "North-west.",
+   "solution": "North-east. Khara (easting 40, northing 97) lies one grid square east and three squares north of Karja (easting 39, northing 94).",
    "marking_points": [],
    "needs_figure": true,
    "figure_desc": "Survey of India toposheet extract G43S7 (scale 2 cm = 1 km; grid squares 1 km x 1 km)",
@@ -350,7 +351,7 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "10 northings and 26 eastings (as printed). Distance between consecutive northing and easting lines is 2 cm on the map; as per the scale 2 cm = 1 km, each grid square = 1 km2. Therefore (10 x 25) sq. km = 250 sq. km. (Printed working says 26 eastings but multiplies by 25; the official final answer is 250 km2.)",
+   "solution": "The region south of Northing 94 spans 25 easting squares (26 easting lines) and 10 northing squares. With the scale 2 cm = 1 km each grid square is 1 sq km, so area = 25 x 10 = 250 sq. km.",
    "marking_points": [
     {
      "point": "Counts the number of northings (10) and eastings; each grid square = 1 km x 1 km (2 cm = 1 km)",
@@ -760,9 +761,9 @@
     "d": "Drip irrigation"
    },
    "is_objective": true,
-   "correct_option": "d",
+   "correct_option": "c",
    "answer_items": null,
-   "solution": "(d) Drip irrigation, as given in the printed key (it is described as the simplest and cheapest to operate because it saves water). Note: well irrigation is also very cheap to develop, so this question is debatable.",
+   "solution": "(c) Well. A well can be dug easily with simple implements and very little capital, making it the cheapest means of irrigation to develop; drip irrigation, by contrast, has a high initial installation cost (as this paper's own solution to 7(ii)(b) notes).",
    "marking_points": [],
    "needs_figure": false,
    "figure_desc": null,
@@ -1596,14 +1597,14 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "Tropical monsoon forest is used for lumbering and produces timber for buildings, railway tracks, furniture etc.",
+   "solution": "1. They yield valuable timber (sal, teak, shisham) used for building, railway sleepers and furniture, supporting the lumbering industry. 2. They supply other commercial products such as fuel wood, lac, gum, resin and tendu leaves, and provide employment and revenue through forest-based industries.",
    "marking_points": [
     {
-     "point": "Source of timber for lumbering",
+     "point": "Source of valuable timber for the lumbering industry (buildings, sleepers, furniture)",
      "marks": 1
     },
     {
-     "point": "Timber used for buildings, railway tracks, furniture etc. (or another valid economic use)",
+     "point": "Other forest products (fuel wood, lac, gum, resin, tendu leaves) giving employment and revenue",
      "marks": 1
     }
    ],

@@ -294,7 +294,7 @@
    "is_objective": true,
    "correct_option": "b",
    "answer_items": null,
-   "solution": "(b) 60°. Ray passes undeviated at AB, is totally reflected at AC (incidence 60°), then leaves BC normally; total deviation 30°+30° = 60°.",
+   "solution": "(b) 60°. The ray enters face AB undeviated (normal incidence), strikes face AC at 60° (> critical angle) and is totally reflected, producing a deviation of 180° − 2×60° = 60°; it then leaves face BC normally with no further deviation, so the total deviation is 60°.",
    "marking_points": [],
    "needs_figure": false,
    "figure_desc": null,
@@ -1236,7 +1236,7 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "(a) Object AB at 2F1: one ray parallel to the principal axis refracts through F2; another ray through the optical centre goes undeviated; they meet at 2F2 on the other side, forming a real, inverted image A'B' of the same size as the object. (b) The size of the image remains unchanged, since magnification (v/u = hi/ho) does not depend on the focal length; the object is still at 2F of the new lens.",
+   "solution": "(a) Object AB at 2F₁: one ray parallel to the principal axis refracts through F₂; another ray through the optical centre goes undeviated; they meet at 2F₂, forming a real, inverted image of the same size as the object.\n(b) The size of the image increases. The object's position is unchanged (u = 2f₁), which is less than 2f₂ for the new lens of greater focal length, so the object now lies between F and 2F (or even within F) of the new lens, and in every case the image formed is magnified compared with the earlier same-size image.",
    "marking_points": [
     {
      "point": "(a) Lens with F1, 2F1, F2, 2F2 marked, object at 2F1",
@@ -1251,7 +1251,7 @@
      "marks": 1
     },
     {
-     "point": "(b) Size unchanged (object still at 2F of new lens)",
+     "point": "(b) Size of image increases — object (at fixed distance 2f₁) now lies between F and 2F of the new lens, giving a magnified image",
      "marks": 1
     }
    ],

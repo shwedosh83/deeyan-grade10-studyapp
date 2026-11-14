@@ -3176,7 +3176,8 @@
     {
      "prompt": "Formula of compound of A and B",
      "accepted": [
-      "CaO"
+      "CaO",
+      "AB"
      ]
     }
    ],
@@ -3213,7 +3214,9 @@
      "prompt": "Formula of compound of D and C",
      "accepted": [
       "CCl4",
-      "CCl 4"
+      "CCl 4",
+      "DC4",
+      "DC 4"
      ]
     }
    ],

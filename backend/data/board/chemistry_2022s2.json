@@ -1974,10 +1974,10 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "Correct answer: hydrochloric acid (HCl): Pb(NO3)2 + 2HCl -> PbCl2 + 2HNO3; white PbCl2 is soluble on heating. The printed key says sulphuric acid (PbSO4 white precipitate); accept either.",
+   "solution": "Hydrochloric acid (HCl): Pb(NO3)2 + 2HCl -> PbCl2 + 2HNO3; the white precipitate of PbCl2 dissolves on heating. (The printed key says sulphuric acid, but PbSO4 is insoluble even on heating, so it does not satisfy the question; HCl is the only correct answer.)",
    "marking_points": [
     {
-     "point": "Hydrochloric acid (HCl); printed key sulphuric acid also accepted",
+     "point": "Hydrochloric acid (HCl) — PbCl2 is the white precipitate soluble on heating",
      "marks": 1
     }
    ],

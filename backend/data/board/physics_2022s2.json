@@ -217,7 +217,7 @@
    "concepts": [
     "electromagnet requires current"
    ],
-   "question": "A coil wound around a piece of soft iron can become an electromagnetic only when",
+   "question": "A coil wound around a piece of soft iron can become an electromagnet only when",
    "options": {
     "a": "the circuit is open.",
     "b": "a magnetic compass is present in the vicinity.",
@@ -710,7 +710,7 @@
      ]
     }
    ],
-   "solution": "Brown wire: live (line) terminal. Light blue wire: neutral terminal (B). Green wire: earth terminal. (Printed key: 'C is line... B is neutral... C is earth'; the terminal letters for live/earth are inconsistent in the print, but the colour-function matching is clear.)",
+   "solution": "Brown wire → live (line) terminal. Light blue wire → neutral terminal. Green wire → earth terminal. (In the standard three-pin socket figure the top larger pin is earth and the two lower pins are live and neutral; match A, B, C accordingly from the figure.)",
    "marking_points": [],
    "needs_figure": true,
    "figure_desc": "Front view of a three-pin socket with three terminals labelled A, B and C (earth pin at the top, live and neutral at the bottom in the standard layout).",
@@ -812,12 +812,12 @@
     "calorimetry principle of mixtures",
     "calorimeter heat capacity included"
    ],
-   "question": "A metal piece of mass 420 g present at 80°C is dropped in 80g of water present at 20°C in a calorimeter of mass 84g. If the final temperature of the mixture is 30°C, then calculate the specific heat capacity of the metal piece.\n[Specific heat capacity of water = 4.2 Jkg–1 °C–1, Specific heat capacity of the calorimeter = 200 Jkg–1 °C–1]",
+   "question": "A metal piece of mass 420 g present at 80°C is dropped in 80g of water present at 20°C in a calorimeter of mass 84g. If the final temperature of the mixture is 30°C, then calculate the specific heat capacity of the metal piece.\n[Specific heat capacity of water = 4.2 J g⁻¹ °C⁻¹ (= 4200 J kg⁻¹ °C⁻¹), Specific heat capacity of the calorimeter = 200 J kg⁻¹ °C⁻¹ (= 0.2 J g⁻¹ °C⁻¹)]",
    "options": {},
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "Heat lost by metal = 420 x S x 50 = 21000 S J. Heat gained by water = 80 x 4.2 x 10 = 3360 J. Heat gained by calorimeter = 84 x 0.2 x 10 = 168 J. Heat lost = heat gained: 21000 S = 3360 + 168, so S = 0.168 J g-1 °C-1 (= 168 J kg-1 °C-1). (The printed water value is 4.2 J g-1 °C-1, i.e. 4200 J kg-1 °C-1; the question prints it as Jkg-1.)",
+   "solution": "Heat lost by metal = 420 x S x 50 = 21000 S J. Heat gained by water = 80 x 4.2 x 10 = 3360 J. Heat gained by calorimeter = 84 x 0.2 x 10 = 168 J. Heat lost = heat gained: 21000 S = 3360 + 168 = 3528, so S = 0.168 J g⁻¹ °C⁻¹ (= 168 J kg⁻¹ °C⁻¹).",
    "marking_points": [
     {
      "point": "Principle: heat lost by metal = heat gained by water + calorimeter",
@@ -1398,16 +1398,16 @@
    "correct_option": null,
    "answer_items": [
     {
-     "prompt": "Mass number of Th",
+     "prompt": "Atomic number of Th",
      "accepted": [
-      "231",
-      "Th-231"
+      "90"
      ]
     },
     {
-     "prompt": "Atomic number of U (i.e. 92) / full equation",
+     "prompt": "Mass number of Th",
      "accepted": [
-      "92",
+      "231",
+      "Th-231",
       "92U235 -> 90Th231 + 2He4"
      ]
     }
