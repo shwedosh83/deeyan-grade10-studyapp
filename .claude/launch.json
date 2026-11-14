@@ -2,10 +2,14 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "favicon-preview",
-      "runtimeExecutable": "npx",
-      "runtimeArgs": ["serve", "-p", "4444", "frontend/public"],
-      "port": 4444
+      "name": "frontend",
+      "runtimeExecutable": "/usr/local/bin/node",
+      "runtimeArgs": [
+        "/Users/shwetadoshi/Documents/ClaudeCodeExperiments/deeyan-bio/frontend/node_modules/.bin/vite",
+        "--port",
+        "5173"
+      ],
+      "port": 5173
     }
   ]
 }

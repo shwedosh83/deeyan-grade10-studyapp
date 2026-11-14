@@ -33,10 +33,28 @@ export default async function handler(req, res) {
 
     // 2. Get all sessions
     const { data: sessions } = await admin.from('sessions')
-      .select('user_id, subject, total_questions, correct_answers, created_at')
-      .order('created_at', { ascending: false });
+      .select('id, user_id, subject, total_questions, correct_answers, started_at')
+      .order('started_at', { ascending: false });
 
-    // 3. Get all skill scores
+    // 3. Get session_answers joined with session user_id (real question activity)
+    const { data: sessionAnswers } = await admin.from('session_answers')
+      .select('session_id, is_correct');
+
+    // Build session_id → user_id + subject map
+    const sessionMeta = {};
+    (sessions || []).forEach(s => { sessionMeta[s.id] = { user_id: s.user_id, subject: s.subject }; });
+
+    // Count real answers per user
+    const answerCounts = {};  // user_id → { total, correct }
+    (sessionAnswers || []).forEach(a => {
+      const meta = sessionMeta[a.session_id];
+      if (!meta) return;
+      if (!answerCounts[meta.user_id]) answerCounts[meta.user_id] = { total: 0, correct: 0 };
+      answerCounts[meta.user_id].total += 1;
+      if (a.is_correct) answerCounts[meta.user_id].correct += 1;
+    });
+
+    // 4. Get all skill scores
     const { data: skills } = await admin.from('skill_scores')
       .select('user_id, subject, skill, total_attempts, correct_attempts');
 
@@ -56,26 +74,32 @@ export default async function handler(req, res) {
       };
     });
 
-    // Aggregate sessions
+    // Aggregate sessions (for subject breakdown + last studied)
     (sessions || []).forEach(s => {
       const u = userMap[s.user_id];
       if (!u) return;
       if (!u.subjects[s.subject]) u.subjects[s.subject] = { questions: 0, correct: 0, sessions: 0, lastStudied: null };
-      u.subjects[s.subject].questions += s.total_questions || 0;
-      u.subjects[s.subject].correct += s.correct_answers || 0;
       u.subjects[s.subject].sessions += 1;
-      if (!u.subjects[s.subject].lastStudied || s.created_at > u.subjects[s.subject].lastStudied) {
-        u.subjects[s.subject].lastStudied = s.created_at;
+      if (!u.subjects[s.subject].lastStudied || s.started_at > u.subjects[s.subject].lastStudied) {
+        u.subjects[s.subject].lastStudied = s.started_at;
       }
-      u.totalQuestions += s.total_questions || 0;
-      u.totalCorrect += s.correct_answers || 0;
     });
 
-    // Aggregate skills
+    // Apply real answer counts from session_answers
+    Object.entries(answerCounts).forEach(([userId, counts]) => {
+      const u = userMap[userId];
+      if (!u) return;
+      u.totalQuestions = counts.total;
+      u.totalCorrect = counts.correct;
+    });
+
+    // Aggregate skills — also tally subject-level question counts
     (skills || []).forEach(s => {
       const u = userMap[s.user_id];
       if (!u) return;
       if (!u.subjects[s.subject]) u.subjects[s.subject] = { questions: 0, correct: 0, sessions: 0, lastStudied: null };
+      u.subjects[s.subject].questions += s.total_attempts || 0;
+      u.subjects[s.subject].correct   += s.correct_attempts || 0;
       if (!u.subjects[s.subject].skills) u.subjects[s.subject].skills = [];
       u.subjects[s.subject].skills.push({
         skill: s.skill,

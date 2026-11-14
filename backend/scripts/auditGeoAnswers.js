@@ -79,7 +79,7 @@ async function run() {
 
   if (error) { console.error(error.message); return; }
   console.log(`Auditing ${questions.length} Geography short/long answer questions`);
-  console.log('Rule: PDF is baseline. Only fix factually wrong or too-brief answers.\n');
+  console.log('Rule: PDF is baseline. Fix factually wrong answers for all types. Enrich ONLY 4-mark long_answer questions.\n');
 
   let keptA = 0, fixedB = 0, enrichedC = 0, errors = 0;
 
@@ -98,13 +98,17 @@ async function run() {
           return;
         }
 
+        // For short_answer (2 marks): only check for B (wrong). Never enrich — brevity is correct.
+        // For long_answer (4 marks): check for B (wrong) AND C (too brief).
+        const checkType = marks === 4 ? 'full' : 'wrong_only';
         const verdict = await checkAnswer(q.question, q.answer, marks);
 
         if (verdict === 'B') {
           const fixed = await fixAnswer(q.question, q.answer, 'B', q.chapter_name, marks);
           await supabase.from('questions').update({ answer: fixed }).eq('id', q.id);
           fixedB++;
-        } else if (verdict === 'C') {
+        } else if (verdict === 'C' && checkType === 'full') {
+          // Only enrich 4-mark long_answer questions
           const enriched = await fixAnswer(q.question, q.answer, 'C', q.chapter_name, marks);
           await supabase.from('questions').update({ answer: enriched }).eq('id', q.id);
           enrichedC++;

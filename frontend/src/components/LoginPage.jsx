@@ -1,8 +1,22 @@
+import { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import Logo from './Logo';
 
 export default function LoginPage() {
   const { signInWithGoogle } = useAuth();
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  async function handleGoogleLogin() {
+    setError(null);
+    setLoading(true);
+    try {
+      await signInWithGoogle();
+    } catch (err) {
+      setError(err.message || 'Login failed. Please try again.');
+      setLoading(false);
+    }
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
@@ -12,9 +26,17 @@ export default function LoginPage() {
         </div>
         <p className="text-sm text-gray-500 mb-8">Grade 10 · ICSE · Practice Hub</p>
 
+        {error && (
+          <div className="mb-4 text-xs text-red-600 bg-red-50 rounded-lg px-4 py-3 text-left">
+            <p className="font-semibold mb-1">Login error:</p>
+            <p>{error}</p>
+          </div>
+        )}
+
         <button
-          onClick={signInWithGoogle}
-          className="w-full flex items-center justify-center gap-3 px-5 py-3 rounded-xl border border-gray-200 bg-white hover:bg-gray-50 text-sm font-semibold text-gray-700 shadow-sm transition-all hover:shadow"
+          onClick={handleGoogleLogin}
+          disabled={loading}
+          className="w-full flex items-center justify-center gap-3 px-5 py-3 rounded-xl border border-gray-200 bg-white hover:bg-gray-50 text-sm font-semibold text-gray-700 shadow-sm transition-all hover:shadow disabled:opacity-60 disabled:cursor-not-allowed"
         >
           {/* Google G logo */}
           <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +47,7 @@ export default function LoginPage() {
               <path d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 0 0 .957 4.958L3.964 7.29C4.672 5.163 6.656 3.58 9 3.58z" fill="#EA4335"/>
             </g>
           </svg>
-          Continue with Google
+          {loading ? 'Redirecting...' : 'Continue with Google'}
         </button>
 
         <p className="mt-6 text-xs text-gray-400">

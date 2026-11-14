@@ -6,11 +6,51 @@ import { useAuth } from '../context/AuthContext';
 
 const QUESTION_COUNTS = [5, 10, 15, 20, 30];
 
+// Normalise MCQ answer to a single lowercase letter (a/b/c/d).
+// Handles stored values like 'c', 'C', '(C)', 'c)', '(C) its geometric centre...'
+function correctMCQLetter(answer) {
+  if (!answer) return null;
+  const t = answer.trim();
+  if (/^[a-d]$/i.test(t)) return t.toLowerCase();
+  const m = t.match(/\b([A-Da-d])\b/);
+  return m ? m[1].toLowerCase() : null;
+}
+
+// Get option text for a key regardless of whether keys are upper or lower case.
+function optionText(options, key) {
+  if (!options || !key) return '';
+  return options[key] ?? options[key.toUpperCase()] ?? options[key.toLowerCase()] ?? '';
+}
+
+const TYPE_LABELS = {
+  mcq: 'MCQ',
+  short_answer: 'Short Answer',
+  long_answer: 'Long Answer',
+  numerical: 'Numerical',
+};
+
+// The questions table has no `marks` column yet, so infer from type
+// (mirrors the fallback the backend evaluator uses) unless a question
+// carries an explicit marks value.
+function questionMarks(q) {
+  if (q.marks) return q.marks;
+  if (q.type === 'mcq') return 1;
+  if (q.type === 'long_answer') return 4;
+  return 2; // short_answer, numerical
+}
+
 const QUESTION_TYPES = [
-  { value: null,            label: 'Mixed' },
-  { value: 'mcq',          label: 'MCQ' },
-  { value: 'short_answer', label: 'Short Answer' },
-  { value: 'long_answer',  label: 'Long Answer' },
+  { value: null,            label: 'Mixed',        subjects: null },
+  { value: 'mcq',          label: 'MCQ',           subjects: null },
+  { value: 'short_answer', label: 'Short Answer',  subjects: null },
+  { value: 'long_answer',  label: 'Long Answer',   subjects: null },
+  { value: 'numerical',    label: 'Numericals',    subjects: ['physics', 'chemistry'] },
+];
+
+const QUESTION_SOURCES = [
+  { value: null,      label: 'All Sources',   subjects: null },
+  { value: 'prelim',  label: 'Prelim Papers', subjects: ['geography'] },
+  { value: 'board',   label: 'Unsolved board papers', subjects: ['biology', 'history_civics', 'chemistry', 'geography', 'physics'] },
 ];
 
 export default function Quiz() {
@@ -23,6 +63,7 @@ export default function Quiz() {
   const [phase, setPhase] = useState('setup');
   const [quizSize, setQuizSize] = useState(10);
   const [questionType, setQuestionType] = useState(null);
+  const [sourceFilter, setSourceFilter] = useState(null);
   const [selectedChapters, setSelectedChapters] = useState(
     preselectedChapter ? new Set([preselectedChapter]) : new Set()
   );
@@ -51,17 +92,52 @@ export default function Quiz() {
   const [hint, setHint] = useState(null);
   const [loadingHint, setLoadingHint] = useState(false);
 
+  // Per-question state cache for Prev/Next navigation
+  const [questionStates, setQuestionStates] = useState({});
+
+  // Chapter progress for continue-mode UX
+  const [singleChapterProgress, setSingleChapterProgress] = useState(null);
+  const [allChapterProgress, setAllChapterProgress] = useState([]);
+
   // Load chapters dynamically when subject changes
   useEffect(() => {
     setSelectedChapters(preselectedChapter ? new Set([preselectedChapter]) : new Set());
+    setSourceFilter(null);
+    setQuestionType(null);
+    setError(null);
     setPhase('setup');
     supabase
       .rpc('get_chapters_for_subject', { p_subject: subject.id })
       .then(({ data }) => {
         if (!data) return;
-        setAllChapters(data.map(c => ({ id: c.chapter_id, name: c.chapter_name })));
+        setAllChapters(
+          data
+            .filter(c => c.chapter_name !== 'Prelim Papers')
+            .map(c => ({ id: c.chapter_id, name: c.chapter_name }))
+        );
       });
   }, [subject]);
+
+  // Fetch chapter progress whenever a single chapter is selected
+  useEffect(() => {
+    if (selectedChapters.size !== 1 || !user?.id) {
+      setSingleChapterProgress(null);
+      return;
+    }
+    const chapterId = [...selectedChapters][0];
+    fetch('/api/chapterProgress', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId: user.id, subject: subject.id }),
+    })
+      .then(r => r.json())
+      .then(({ progress }) => {
+        setAllChapterProgress(progress || []);
+        const found = (progress || []).find(p => p.chapter_id === chapterId);
+        setSingleChapterProgress(found || null);
+      })
+      .catch(() => setSingleChapterProgress(null));
+  }, [selectedChapters, subject, user?.id]);
 
   // Voice input
   const [isListening, setIsListening] = useState(false);
@@ -91,6 +167,7 @@ export default function Quiz() {
   }
 
   function toggleChapter(id) {
+    setError(null);
     setSelectedChapters(prev => {
       const next = new Set(prev);
       if (next.has(id)) next.delete(id);
@@ -100,10 +177,17 @@ export default function Quiz() {
   }
 
   function toggleAllChapters() {
+    setError(null);
     setSelectedChapters(prev => prev.size === allChapters.length ? new Set() : new Set(allChapters.map(c => c.id)));
   }
 
   async function startQuiz() {
+    // Compute continue mode here too (outside setup screen scope)
+    const _isSingle = selectedChapters.size === 1;
+    const _complete = _isSingle && singleChapterProgress?.completion_pct >= 100;
+    const _continueMode = _isSingle && singleChapterProgress && !_complete;
+    const effectiveQuizSize = _continueMode ? 10 : quizSize;
+
     setPhase('loading');
     setError(null);
 
@@ -133,35 +217,23 @@ export default function Quiz() {
 
     let allQuestions = [];
 
-    if (chaptersToQuery[0] === null) {
-      // All chapters: single call
-      const { data: qs, error: qErr } = await supabase.rpc('get_random_questions', {
-        p_subject: subject.id,
-        p_chapter_id: null,
-        p_type: questionType,
-        p_limit: quizSize,
+    // All question fetching goes through /api/questions which applies
+    // spaced repetition: unseen first → wrong → correct (oldest)
+    {
+      const res = await fetch('/api/questions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          subject: subject.id,
+          source: sourceFilter,
+          chapters: chaptersToQuery[0] !== null ? chaptersToQuery : [],
+          questionType,
+          limit: effectiveQuizSize,
+          userId: user?.id || null,
+        }),
       });
-      if (!qErr && qs) allQuestions = qs;
-    } else {
-      // Multiple chapters: distribute questions evenly
-      const perChapter = Math.ceil(quizSize / chaptersToQuery.length);
-      const fetches = await Promise.all(
-        chaptersToQuery.map(cid =>
-          supabase.rpc('get_random_questions', {
-            p_subject: subject.id,
-            p_chapter_id: cid,
-            p_type: questionType,
-            p_limit: perChapter,
-          })
-        )
-      );
-      for (const { data } of fetches) {
-        if (data) allQuestions.push(...data);
-      }
-      // Shuffle combined questions
-      allQuestions = allQuestions
-        .sort(() => Math.random() - 0.5)
-        .slice(0, quizSize);
+      const json = await res.json();
+      allQuestions = json.questions || [];
     }
 
     if (allQuestions.length === 0) {
@@ -175,6 +247,27 @@ export default function Quiz() {
     setResults([]);
     resetAnswerState();
     setPhase('running');
+  }
+
+  function saveCurrentState(index) {
+    setQuestionStates(prev => ({
+      ...prev,
+      [index]: { selectedAnswer, typedAnswer, evaluation, isAnswered, explanation, hint },
+    }));
+  }
+
+  function restoreState(index) {
+    const saved = questionStates[index];
+    if (saved) {
+      setSelectedAnswer(saved.selectedAnswer);
+      setTypedAnswer(saved.typedAnswer);
+      setEvaluation(saved.evaluation);
+      setIsAnswered(saved.isAnswered);
+      setExplanation(saved.explanation);
+      setHint(saved.hint);
+    } else {
+      resetAnswerState();
+    }
   }
 
   function resetAnswerState() {
@@ -209,7 +302,7 @@ export default function Quiz() {
   async function handleMCQAnswer(answer) {
     if (isAnswered) return;
     const q = questions[currentIndex];
-    const isCorrect = answer === q.answer;
+    const isCorrect = answer === correctMCQLetter(q.answer);
     setSelectedAnswer(answer);
     setIsAnswered(true);
     await recordAnswer(q, answer, isCorrect);
@@ -230,8 +323,10 @@ export default function Quiz() {
           studentAnswer: typedAnswer,
           skill: q.skill,
           type: q.type,
-          marks: q.marks || (q.type === 'long_answer' ? 4 : 2),
+          marks: questionMarks(q),
           subject: subject.id,
+          chapterId: q.chapter_id,
+          chapterName: q.chapter_name,
         }),
       });
       const data = await res.json();
@@ -309,6 +404,7 @@ export default function Quiz() {
   }
 
   async function nextQuestion() {
+    saveCurrentState(currentIndex);
     const next = currentIndex + 1;
     if (next >= questions.length) {
       const correct = results.filter((r) => r.isCorrect).length;
@@ -321,14 +417,30 @@ export default function Quiz() {
       setPhase('results');
     } else {
       setCurrentIndex(next);
-      resetAnswerState();
+      restoreState(next);
     }
+  }
+
+  function previousQuestion() {
+    if (currentIndex === 0) return;
+    saveCurrentState(currentIndex);
+    const prev = currentIndex - 1;
+    setCurrentIndex(prev);
+    restoreState(prev);
   }
 
   // ── Setup screen ───────────────────────────────────────────
   if (phase === 'setup') {
     const allSelected = selectedChapters.size === allChapters.length;
     const noneSelected = selectedChapters.size === 0;
+
+    // Chapter progress / continue mode
+    const isSingleChapter = selectedChapters.size === 1;
+    const chapterComplete = isSingleChapter && singleChapterProgress?.completion_pct >= 100;
+    const remaining = isSingleChapter && singleChapterProgress
+      ? Math.max(0, singleChapterProgress.total_questions - singleChapterProgress.answered_questions)
+      : null;
+    const isContinueMode = isSingleChapter && singleChapterProgress && !chapterComplete;
 
     return (
       <div className="max-w-2xl mx-auto space-y-6">
@@ -339,10 +451,10 @@ export default function Quiz() {
           <div>
             <p className="text-sm font-medium text-gray-700 mb-2">Question Type</p>
             <div className="flex gap-2">
-              {QUESTION_TYPES.map((t) => (
+              {QUESTION_TYPES.filter(t => t.subjects === null || t.subjects.includes(subject.id)).map((t) => (
                 <button
                   key={String(t.value)}
-                  onClick={() => setQuestionType(t.value)}
+                  onClick={() => { setError(null); setQuestionType(t.value); }}
                   className={`flex-1 py-2 rounded-lg text-sm font-medium border-2 transition-colors ${
                     questionType === t.value
                       ? 'border-barca-navy bg-barca-navy-light text-barca-navy'
@@ -355,21 +467,81 @@ export default function Quiz() {
             </div>
           </div>
 
-          {/* Number of questions */}
+          {/* Number of questions — replaced with chapter progress in continue mode */}
+          {isContinueMode ? (
+            <div className="bg-amber-50 border border-amber-200 rounded-xl px-4 py-3.5 space-y-1">
+              <p className="text-sm font-semibold text-amber-800">
+                📖 Continue Chapter — {remaining} question{remaining !== 1 ? 's' : ''} remaining
+              </p>
+              <div className="h-1.5 bg-amber-200 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-amber-500 rounded-full"
+                  style={{ width: `${singleChapterProgress.completion_pct}%` }}
+                />
+              </div>
+              <p className="text-xs text-amber-600">
+                {singleChapterProgress.answered_questions}/{singleChapterProgress.total_questions} done · You'll get 10 at a time from unseen questions
+              </p>
+            </div>
+          ) : chapterComplete ? (
+            <div className="bg-emerald-50 border border-emerald-200 rounded-xl px-4 py-3.5 space-y-2">
+              <p className="text-sm font-semibold text-emerald-700">
+                ✓ Chapter complete! Practice again?
+              </p>
+              <div className="flex gap-2">
+                {QUESTION_COUNTS.map((n) => (
+                  <button
+                    key={n}
+                    onClick={() => setQuizSize(n)}
+                    className={`flex-1 py-1.5 rounded-lg text-sm font-medium border-2 transition-colors ${
+                      quizSize === n
+                        ? 'border-emerald-600 bg-emerald-100 text-emerald-800'
+                        : 'border-gray-200 text-gray-500 hover:border-gray-300'
+                    }`}
+                  >
+                    {n}
+                  </button>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <div>
+              <p className="text-sm font-medium text-gray-700 mb-2">Number of Questions</p>
+              <div className="flex gap-2">
+                {QUESTION_COUNTS.map((n) => (
+                  <button
+                    key={n}
+                    onClick={() => setQuizSize(n)}
+                    className={`flex-1 py-2 rounded-lg text-sm font-medium border-2 transition-colors ${
+                      quizSize === n
+                        ? 'border-barca-navy bg-barca-navy-light text-barca-navy'
+                        : 'border-gray-200 text-gray-500 hover:border-gray-300'
+                    }`}
+                  >
+                    {n}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Source filter */}
           <div>
-            <p className="text-sm font-medium text-gray-700 mb-2">Number of Questions</p>
-            <div className="flex gap-2">
-              {QUESTION_COUNTS.map((n) => (
+            <p className="text-sm font-medium text-gray-700 mb-2">Source</p>
+            <div className="flex gap-2 flex-wrap">
+              {QUESTION_SOURCES
+                .filter(s => s.subjects === null || s.subjects.includes(subject.id))
+                .map((s) => (
                 <button
-                  key={n}
-                  onClick={() => setQuizSize(n)}
+                  key={String(s.value)}
+                  onClick={() => setSourceFilter(s.value)}
                   className={`flex-1 py-2 rounded-lg text-sm font-medium border-2 transition-colors ${
-                    quizSize === n
+                    sourceFilter === s.value
                       ? 'border-barca-navy bg-barca-navy-light text-barca-navy'
                       : 'border-gray-200 text-gray-500 hover:border-gray-300'
                   }`}
                 >
-                  {n}
+                  {s.label}
                 </button>
               ))}
             </div>
@@ -424,7 +596,9 @@ export default function Quiz() {
             onClick={startQuiz}
             className="w-full bg-barca-navy hover:bg-barca-navy-dark text-white font-semibold py-3 rounded-lg transition-colors"
           >
-            Start — {quizSize} Questions
+            {isContinueMode
+              ? `Continue — 10 Questions`
+              : `Start — ${quizSize} Questions`}
           </button>
         </div>
       </div>
@@ -441,13 +615,26 @@ export default function Quiz() {
   }
 
   if (phase === 'results') {
-    return <Results results={results} chapterName={chapterName} subject={subject} onRestart={() => setPhase('setup')} onHome={() => navigate('/')} />;
+    return (
+      <Results
+        results={results}
+        chapterName={chapterName}
+        subject={subject}
+        onRestart={() => setPhase('setup')}
+        onHome={() => navigate(`/${subject.id}`)}
+        userId={user?.id}
+        selectedChapterId={selectedChapters.size === 1 ? [...selectedChapters][0] : null}
+        preQuizProgress={singleChapterProgress}
+        allChapters={allChapters}
+      />
+    );
   }
 
   const q = questions[currentIndex];
   const progress = (currentIndex / questions.length) * 100;
   const isMCQ = q.type === 'mcq';
   const isAIGenerated = q.year_tag === 'AI Generated';
+  const correctLetter = correctMCQLetter(q.answer);
 
   return (
     <div className="space-y-4">
@@ -459,7 +646,7 @@ export default function Quiz() {
         </div>
         <div className="flex items-center gap-3">
           <span className={`text-xs px-2 py-1 rounded-full font-medium ${isMCQ ? 'bg-blue-50 text-blue-600' : 'bg-purple-50 text-purple-600'}`}>
-            {isMCQ ? 'MCQ' : 'Short Answer'}
+            {TYPE_LABELS[q.type] || 'Short Answer'}
           </span>
           <span className="text-sm text-barca-gold font-semibold tabular-nums">
             {results.filter((r) => r.isCorrect).length} correct
@@ -476,6 +663,9 @@ export default function Quiz() {
       <div className="bg-white rounded-xl border border-gray-200 p-6 space-y-5">
         <div>
           <div className="flex items-center gap-2 mb-2 flex-wrap">
+            <span className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full font-semibold">
+              {questionMarks(q)} mark{questionMarks(q) !== 1 ? 's' : ''}
+            </span>
             {q.year_tag && !isAIGenerated && (
               <span className="text-xs bg-barca-gold-light text-amber-700 px-2 py-0.5 rounded-full font-medium">
                 {q.year_tag}
@@ -507,7 +697,7 @@ export default function Quiz() {
             {['a', 'b', 'c', 'd'].map((key) => {
               let style = 'border-gray-200 bg-gray-50 hover:bg-gray-100 hover:border-gray-300 text-gray-700 cursor-pointer';
               if (isAnswered) {
-                if (key === q.answer) style = 'border-emerald-400 bg-emerald-50 text-emerald-800 font-semibold cursor-default';
+                if (key === correctLetter) style = 'border-emerald-400 bg-emerald-50 text-emerald-800 font-semibold cursor-default';
                 else if (key === selectedAnswer) style = 'border-red-400 bg-red-50 text-red-700 cursor-default';
                 else style = 'border-gray-200 bg-white text-gray-400 cursor-default';
               }
@@ -518,7 +708,7 @@ export default function Quiz() {
                   className={`w-full text-left px-4 py-3 rounded-lg border-2 transition-all text-sm flex items-start gap-3 ${style}`}
                 >
                   <span className="font-bold uppercase shrink-0">{key})</span>
-                  <span>{q.options[key]}</span>
+                  <span>{optionText(q.options, key)}</span>
                 </button>
               );
             })}
@@ -593,16 +783,33 @@ export default function Quiz() {
           </div>
         )}
 
+        {/* Always-visible Prev / Next navigation */}
+        <div className="flex gap-2 pt-2">
+          <button
+            onClick={previousQuestion}
+            disabled={currentIndex === 0}
+            className="flex-none px-4 bg-gray-100 hover:bg-gray-200 disabled:opacity-30 disabled:cursor-not-allowed text-gray-700 font-semibold py-2.5 rounded-lg transition-colors flex items-center gap-1.5 text-sm"
+          >
+            ← Prev
+          </button>
+          <button
+            onClick={nextQuestion}
+            className="flex-1 bg-barca-navy hover:bg-barca-navy-dark text-white font-semibold py-2.5 rounded-lg transition-colors"
+          >
+            {currentIndex + 1 >= questions.length ? 'See Results' : 'Next →'}
+          </button>
+        </div>
+
         {/* Post-answer feedback */}
         {isAnswered && (
           <div className="space-y-3 pt-1 border-t border-gray-100">
 
             {/* MCQ result */}
             {isMCQ && (
-              <p className={`text-sm font-semibold ${selectedAnswer === q.answer ? 'text-emerald-600' : 'text-red-500'}`}>
-                {selectedAnswer === q.answer
+              <p className={`text-sm font-semibold ${selectedAnswer === correctLetter ? 'text-emerald-600' : 'text-red-500'}`}>
+                {selectedAnswer === correctLetter
                   ? 'Correct!'
-                  : `Wrong — correct answer: ${q.answer.toUpperCase()}) ${q.options[q.answer]}`}
+                  : `Wrong — correct answer: ${correctLetter?.toUpperCase()}) ${optionText(q.options, correctLetter)}`}
               </p>
             )}
 
@@ -615,21 +822,61 @@ export default function Quiz() {
 
             {/* Short answer evaluation */}
             {!isMCQ && evaluation && evaluation.result !== 'unavailable' && (
-              <div className={`rounded-lg p-4 text-sm space-y-2 ${
+              <div className={`rounded-lg p-4 text-sm space-y-3 ${
                 evaluation.result === 'correct' ? 'bg-emerald-50 border border-emerald-200' :
                 evaluation.result === 'partial' ? 'bg-amber-50 border border-amber-200' :
                 'bg-red-50 border border-red-200'
               }`}>
-                <p className={`font-semibold ${
-                  evaluation.result === 'correct' ? 'text-emerald-700' :
-                  evaluation.result === 'partial' ? 'text-amber-700' :
-                  'text-red-700'
-                }`}>
-                  {evaluation.result === 'correct' ? 'Correct!' :
-                   evaluation.result === 'partial' ? 'Partially Correct' :
-                   evaluation.result === 'incorrect' ? 'Incorrect' : 'Self-marked'}
-                </p>
+                <div className="flex items-center justify-between gap-3">
+                  <p className={`font-semibold ${
+                    evaluation.result === 'correct' ? 'text-emerald-700' :
+                    evaluation.result === 'partial' ? 'text-amber-700' :
+                    'text-red-700'
+                  }`}>
+                    {evaluation.result === 'correct' ? 'Correct!' :
+                     evaluation.result === 'partial' ? 'Partially Correct' :
+                     evaluation.result === 'incorrect' ? 'Incorrect' : 'Self-marked'}
+                  </p>
+                  {typeof evaluation.percentCovered === 'number' && (
+                    <span className={`text-xs font-semibold tabular-nums shrink-0 ${
+                      evaluation.result === 'correct' ? 'text-emerald-700' :
+                      evaluation.result === 'partial' ? 'text-amber-700' :
+                      'text-red-700'
+                    }`}>
+                      {evaluation.percentCovered}% covered
+                    </span>
+                  )}
+                </div>
+
+                {typeof evaluation.percentCovered === 'number' && (
+                  <div className="h-1.5 bg-white/70 rounded-full overflow-hidden">
+                    <div
+                      className={`h-full rounded-full transition-all duration-300 ${
+                        evaluation.result === 'correct' ? 'bg-emerald-500' :
+                        evaluation.result === 'partial' ? 'bg-amber-500' :
+                        'bg-red-500'
+                      }`}
+                      style={{ width: `${evaluation.percentCovered}%` }}
+                    />
+                  </div>
+                )}
+
                 <p className="text-gray-700">{evaluation.feedback}</p>
+
+                {Array.isArray(evaluation.missingPoints) && evaluation.missingPoints.length > 0 && (
+                  <div>
+                    <p className="text-xs text-gray-500 font-medium mb-1">Still missing:</p>
+                    <ul className="space-y-1">
+                      {evaluation.missingPoints.map((point, i) => (
+                        <li key={i} className="text-xs text-gray-700 flex items-start gap-1.5">
+                          <span className="text-gray-400 shrink-0">＋</span>
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+
                 <div className="pt-1">
                   <p className="text-xs text-gray-500 font-medium mb-1">Model Answer:</p>
                   <p className="text-gray-600 text-xs">{q.answer}</p>
@@ -655,6 +902,18 @@ export default function Quiz() {
               </div>
             )}
 
+            {/* ICSE Board Tips */}
+            {q.board_tips && (
+              <div className="bg-amber-50 border border-amber-300 rounded-lg p-4 space-y-1.5">
+                <p className="text-xs font-semibold text-amber-800 flex items-center gap-1.5">
+                  📋 ICSE Board Tips
+                </p>
+                <div className="text-xs text-amber-900 leading-relaxed whitespace-pre-line">
+                  {q.board_tips}
+                </div>
+              </div>
+            )}
+
             {/* Explain button (AI deep explanation) */}
             {!explanation && (
               <button
@@ -672,12 +931,6 @@ export default function Quiz() {
               </div>
             )}
 
-            <button
-              onClick={nextQuestion}
-              className="w-full bg-barca-navy hover:bg-barca-navy-dark text-white font-semibold py-2.5 rounded-lg transition-colors"
-            >
-              {currentIndex + 1 >= questions.length ? 'See Results' : 'Next Question'}
-            </button>
           </div>
         )}
       </div>
@@ -685,7 +938,8 @@ export default function Quiz() {
   );
 }
 
-function Results({ results, chapterName, subject, onRestart, onHome }) {
+function Results({ results, chapterName, subject, onRestart, onHome, userId, selectedChapterId, preQuizProgress, allChapters }) {
+  const navigate = useNavigate();
   const correct = results.filter((r) => r.isCorrect).length;
   const total = results.length;
   const pct = Math.round((correct / total) * 100);
@@ -696,6 +950,36 @@ function Results({ results, chapterName, subject, onRestart, onHome }) {
 
   const [debrief, setDebrief] = useState(null);
   const [loadingDebrief, setLoadingDebrief] = useState(true);
+  const [postQuizProgress, setPostQuizProgress] = useState(null);
+  const [allPostProgress, setAllPostProgress] = useState([]);
+
+  // Fetch updated progress after quiz to detect chapter completion
+  useEffect(() => {
+    if (!selectedChapterId || !userId || !subject?.id) return;
+    fetch('/api/chapterProgress', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId, subject: subject.id }),
+    })
+      .then(r => r.json())
+      .then(({ progress }) => {
+        setAllPostProgress(progress || []);
+        const found = (progress || []).find(p => p.chapter_id === selectedChapterId);
+        setPostQuizProgress(found || null);
+      })
+      .catch(() => {});
+  }, []);
+
+  const justCompleted =
+    postQuizProgress?.completion_pct >= 100 &&
+    (preQuizProgress?.completion_pct ?? 0) < 100;
+
+  const nextChapter = justCompleted
+    ? (allChapters || []).find(ch =>
+        ch.id !== selectedChapterId &&
+        ((allPostProgress.find(p => p.chapter_id === ch.id)?.completion_pct) ?? 0) < 100
+      )
+    : null;
 
   useEffect(() => {
     async function fetchDebrief() {
@@ -720,6 +1004,28 @@ function Results({ results, chapterName, subject, onRestart, onHome }) {
 
   return (
     <div className="space-y-6">
+
+      {/* Chapter completion celebration */}
+      {justCompleted && (
+        <div className="bg-emerald-50 border-2 border-emerald-300 rounded-2xl p-6 text-center space-y-3">
+          <p className="text-4xl">🎉</p>
+          <p className="font-bold text-emerald-800 text-xl">Chapter Complete!</p>
+          <p className="text-sm text-emerald-700">
+            You've answered all {postQuizProgress.total_questions} questions in <strong>{chapterName}</strong>
+          </p>
+          {nextChapter ? (
+            <button
+              onClick={() => navigate(`/${subject.id}/chapters?chapter=${nextChapter.id}`)}
+              className="mt-1 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-5 py-2.5 rounded-xl transition-colors text-sm"
+            >
+              Next up: {nextChapter.name} →
+            </button>
+          ) : (
+            <p className="text-xs text-emerald-600 font-medium">You've completed all chapters! 🏆</p>
+          )}
+        </div>
+      )}
+
       <div className="bg-white rounded-xl border border-gray-200 p-8 text-center">
         <p className={`text-5xl font-bold ${grade.color}`}>{pct}%</p>
         <p className="text-lg font-semibold text-gray-700 mt-1">{grade.label}</p>
