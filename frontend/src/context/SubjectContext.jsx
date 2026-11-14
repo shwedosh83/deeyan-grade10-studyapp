@@ -7,6 +7,7 @@ export const SUBJECTS = [
   { id: 'chemistry',           label: 'Chemistry',        emoji: '⚗️' },
   { id: 'geography',           label: 'Geography',        emoji: '🗺️' },
   { id: 'physics',             label: 'Physics',          emoji: '⚡' },
+  { id: 'maths',               label: 'Maths',            emoji: '📐' },
   { id: 'english_literature',  label: 'English Lit',      emoji: '📚' },
 ];
 

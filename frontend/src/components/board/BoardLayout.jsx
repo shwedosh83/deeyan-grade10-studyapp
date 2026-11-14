@@ -1,14 +1,15 @@
 import { NavLink, Outlet } from 'react-router-dom';
 import { useSubject } from '../../context/SubjectContext';
+import { BOARD_MODES_WITHOUT_APPLIED } from '../../lib/board';
 
-// Board papers tab: switch between the three practice modes.
+// Board papers tab: switch between the practice modes.
 export default function BoardLayout() {
   const { subject } = useSubject();
   const base = `/${subject.id}/board`;
   const modes = [
     { to: base, label: 'Timed paper', end: true },
     { to: `${base}/sprint`, label: 'Sprint round' },
-    { to: `${base}/applied`, label: 'Applied questions' },
+    ...(BOARD_MODES_WITHOUT_APPLIED.includes(subject.id) ? [] : [{ to: `${base}/applied`, label: 'Applied questions' }]),
   ];
   return (
     <div className="space-y-5">

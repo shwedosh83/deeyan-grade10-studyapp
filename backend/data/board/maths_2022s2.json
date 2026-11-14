@@ -1,0 +1,1246 @@
+{
+ "paper_id": "maths_2022s2",
+ "subject": "maths",
+ "year": 2022,
+ "sem": 2,
+ "label": "2022 Sem 2",
+ "max_marks": 40,
+ "duration_minutes": 90,
+ "reading_minutes": 15,
+ "instructions": "Attempt all questions from Section A and any three questions from Section B. The marks intended for questions are given in brackets [ ]. Mathematical tables are provided. Maximum marks 40; time allowed: one hour and a half.",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 10,
+   "rule": "Attempt all questions from this Section.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 30,
+   "rule": "Attempt any three questions from this Section.",
+   "compulsory": false,
+   "attempt_n": 3,
+   "out_of": 5
+  }
+ ],
+ "notes": [
+  "Semester-format paper: printed time allowance 'One hours and a half' (90 minutes), maximum marks 40 — NOT the standard 80-mark 40+40 layout.",
+  "Section A is a single question (Q1) of ten 1-mark MCQs [10]. Section B has five questions Q2–Q6, each 10 marks (subparts 2+2+3+3); attempt any three (3 × 10 = 30).",
+  "Q3(iii): the solved book prints a correction note — the original board paper gave ∠APB = 40°, which should be 30° for the question to be solvable; this extraction uses 30°/60° as the paper and solution use.",
+  "Scaffold cross-check: all 10 MCQ answer keys and all Section B final answers agree with the scaffold; no disagreements. Scaffold's note that the printed solution to 2(ii) has a garbled intermediate step confirmed; final answer a = 4 is consistent either way."
+ ],
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Probability",
+   "topic": "Probability with a die",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 1,
+   "concepts": [
+    "probability of an event with a die"
+   ],
+   "question": "The probability of getting a number divisible by 3 in throwing a dice is:",
+   "options": {
+    "a": "1/6",
+    "b": "1/3",
+    "c": "1/2",
+    "d": "2/3"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": [],
+   "solution": "All possible outcomes of a dice = {1, 2, 3, 4, 5, 6}, so n(E) = 6. Favourable outcomes (divisible by 3) = {3, 6}, so n(F) = 2. P = n(F)/n(E) = 2/6 = 1/3. Option (b).",
+   "marking_points": [
+    {
+     "point": "Identify favourable outcomes {3,6} and compute 2/6 = 1/3",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mensuration",
+   "topic": "Height of cone from volume and base area",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 1,
+   "concepts": [
+    "volume of cone = 1/3 × base area × height"
+   ],
+   "question": "The volume of a conical tent is 462 m³ and the area of the base is 154 m². The height of the cone is:",
+   "options": {
+    "a": "15 m",
+    "b": "12 m",
+    "c": "9 m",
+    "d": "24 m"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": [],
+   "solution": "Volume of cone = (1/3) × area of base × height. So 462 = (1/3) × 154 × h ⇒ h = (462 × 3)/154 = 9 m. Option (c).",
+   "marking_points": [
+    {
+     "point": "Use V = (1/3) × base area × h and solve h = 9 m",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Statistics",
+   "topic": "Median class from cumulative frequency",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "median class via cumulative frequency"
+   ],
+   "question": "The median class for the given distribution is:\nClass Interval: 0-10, 10-20, 20-30, 30-40\nFrequency: 2, 4, 3, 5",
+   "options": {
+    "a": "0-10",
+    "b": "10-20",
+    "c": "20-30",
+    "d": "30-40"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": [],
+   "solution": "Cumulative frequencies: 2, 6, 9, 14. N = 14 ⇒ N/2 = 7. The cumulative frequency just greater than 7 is 9, which lies in class 20-30. So the median class is 20-30. Option (c).",
+   "marking_points": [
+    {
+     "point": "Build cf column, N/2 = 7, cf just above 7 is 9 → median class 20-30",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Equation of a Straight Line",
+   "topic": "Slopes of perpendicular lines",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "product of slopes of perpendicular lines is −1"
+   ],
+   "question": "If two lines are perpendicular to one another then the relation between their slopes m₁ and m₂ is:",
+   "options": {
+    "a": "m₁ = m₂",
+    "b": "m₁ = 1/m₂",
+    "c": "m₁ = −m₂",
+    "d": "m₁ × m₂ = −1"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": [],
+   "solution": "If two lines having slopes m₁ and m₂ are perpendicular to one another, then m₁ × m₂ = −1. Option (d).",
+   "marking_points": [
+    {
+     "point": "State m₁ × m₂ = −1 for perpendicular lines",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heights and Distances",
+   "topic": "Angle of elevation of a lighthouse",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 1,
+   "concepts": [
+    "tan θ = perpendicular/base",
+    "tan 45° = 1"
+   ],
+   "question": "A lighthouse is 80 m high. The angle of elevation of its top from a point 80 m away from its foot along the same horizontal line is:",
+   "options": {
+    "a": "60°",
+    "b": "45°",
+    "c": "30°",
+    "d": "90°"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": [],
+   "solution": "Height of lighthouse = 80 m, distance of point from its foot = 80 m. tan θ = Perpendicular/Base = AB/BC = 80/80 = 1 = tan 45°, so θ = 45°. Option (b).",
+   "marking_points": [
+    {
+     "point": "tan θ = 80/80 = 1 ⇒ θ = 45°",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Statistics",
+   "topic": "Definition of modal class",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "modal class = class with highest frequency"
+   ],
+   "question": "The modal class of a given distribution always corresponds to the:",
+   "options": {
+    "a": "interval with highest frequency",
+    "b": "interval with lowest frequency",
+    "c": "the first interval",
+    "d": "the last interval"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": [],
+   "solution": "The modal class is the class interval with the highest frequency. Option (a).",
+   "marking_points": [
+    {
+     "point": "Identify modal class as the interval with highest frequency",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Reflection",
+   "topic": "Reflection in the X-axis",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 1,
+   "concepts": [
+    "reflection in x-axis: (x, y) → (x, −y)"
+   ],
+   "question": "The coordinates of the point P(−3, 5) on reflecting on the X axis are:",
+   "options": {
+    "a": "(3, 5)",
+    "b": "(−3, −5)",
+    "c": "(3, −5)",
+    "d": "(−3, 5)"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": [],
+   "solution": "On reflection in the X-axis the sign of the y-coordinate inverts and the x-coordinate stays the same. P(−3, 5) in quadrant II reflects to (−3, −5) in quadrant III. Option (b).",
+   "marking_points": [
+    {
+     "point": "Apply (x, y) → (x, −y): (−3, 5) → (−3, −5)",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Circles",
+   "topic": "Opposite angles of a cyclic quadrilateral",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "opposite angles of cyclic quadrilateral are supplementary"
+   ],
+   "question": "ABCD is a cyclic quadrilateral. If ∠BAD = (2x+5)° and ∠BCD = (x + 10)° then x is equal to:",
+   "options": {
+    "a": "65°",
+    "b": "45°",
+    "c": "55°",
+    "d": "5°"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": [],
+   "solution": "In a cyclic quadrilateral opposite angles are supplementary: ∠BAD + ∠BCD = 180°. So (2x + 5)° + (x + 10)° = 180° ⇒ (3x + 15)° = 180° ⇒ 3x = 165° ⇒ x = 55°. Option (c).",
+   "marking_points": [
+    {
+     "point": "Set (2x+5) + (x+10) = 180 and solve x = 55°",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Section and Midpoint Formula",
+   "topic": "Centroid of a triangle",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "centroid formula ((x1+x2+x3)/3, (y1+y2+y3)/3)"
+   ],
+   "question": "A(1, 4), B(4, 1) and C(x, 4) are the vertices of ΔABC. If the centroid of the triangle is G(4, 3) then x is equal to:",
+   "options": {
+    "a": "2",
+    "b": "1",
+    "c": "7",
+    "d": "4"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": [],
+   "solution": "Centroid = ((x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3) = ((1+4+x)/3, (4+1+4)/3) = ((5+x)/3, 3). Given centroid is (4, 3), so 4 = (5+x)/3 ⇒ 12 = 5 + x ⇒ x = 7. Option (c).",
+   "marking_points": [
+    {
+     "point": "Equate (5+x)/3 = 4 and solve x = 7",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mensuration",
+   "topic": "Curved surface area of a cylinder (roller)",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "CSA of cylinder = 2πrh"
+   ],
+   "question": "The radius of a roller 100 cm long is 14 cm. The curved surface area of the roller is: (Take π = 22/7)",
+   "options": {
+    "a": "13200 cm²",
+    "b": "15400 cm²",
+    "c": "4400 cm²",
+    "d": "8800 cm²"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": [],
+   "solution": "Radius of roller = 14 cm, height (length) = 100 cm. CSA of roller (cylinder) = 2πrh = 2 × (22/7) × 14 × 100 = 8800 cm². Option (d).",
+   "marking_points": [
+    {
+     "point": "CSA = 2πrh = 2 × 22/7 × 14 × 100 = 8800 cm²",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "2(i)",
+   "q_order": 10,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "proof",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Trigonometry",
+   "topic": "Proving a trigonometric identity",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "sin²θ + cos²θ = 1",
+    "secθ = 1/cosθ"
+   ],
+   "question": "Prove that 1/(1+sin θ) + 1/(1−sin θ) = 2 sec²θ",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "L.H.S. = 1/(1+sin θ) + 1/(1−sin θ) = [(1−sin θ) + (1+sin θ)] / [(1+sin θ)(1−sin θ)] = 2/(1−sin²θ) = 2/cos²θ (since sin²θ + cos²θ = 1) = 2 sec²θ (since 1/cos θ = sec θ) = R.H.S. Hence proved.",
+   "marking_points": [
+    {
+     "point": "Combine the two fractions over (1+sinθ)(1−sinθ) to get 2/(1−sin²θ)",
+     "weight": 1
+    },
+    {
+     "point": "Use 1−sin²θ = cos²θ and conclude 2 sec²θ",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 11,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Equation of a Straight Line",
+   "topic": "Collinearity of three points",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "collinearity via area of triangle = 0"
+   ],
+   "question": "Find 'a' if A (2a + 2, 3), B (7, 4) and C (2a + 5, 2) are collinear.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "When three points are collinear, x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂) = 0. Here x₁ = 2a+2, x₂ = 7, x₃ = 2a+5 and y₁ = 3, y₂ = 4, y₃ = 2. So (2a+2)(4−2) + 7(2−3) + (2a+5)(3−4) = 0 ⇒ 2(2a+2) − 7 − (2a+5) = 0 ⇒ 4a + 4 − 7 − 2a − 5 = 0 ⇒ 2a − 8 = 0 ⇒ a = 4.",
+   "marking_points": [
+    {
+     "point": "Set the collinearity (zero-area) condition with the given coordinates",
+     "weight": 1
+    },
+    {
+     "point": "Simplify to 2a − 8 = 0 and get a = 4",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 12,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Statistics",
+   "topic": "Mean of grouped data (direct method)",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "mean = Σfx/Σf with class marks"
+   ],
+   "question": "Calculate the mean of the following frequency distribution:\nClass Interval: 5-15, 15-25, 25-35, 35-45, 45-55\nFrequency: 2, 6, 4, 8, 4",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Class marks x: 10, 20, 30, 40, 50; frequencies f: 2, 6, 4, 8, 4. f×x: 20, 120, 120, 320, 200. Σf = 24, Σfx = 780. Mean (x̄) = Σfx/Σf = 780/24 = 32.5.",
+   "marking_points": [
+    {
+     "point": "Compute class marks and the f×x column",
+     "weight": 1
+    },
+    {
+     "point": "Σf = 24, Σfx = 780",
+     "weight": 1
+    },
+    {
+     "point": "Mean = 780/24 = 32.5",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 13,
+   "q_main": 2,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Circles",
+   "topic": "Tangents from external point; angle at centre",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "angle between tangents and angle at centre are supplementary",
+    "angle at centre = 2 × angle at circumference (reflex for major arc)"
+   ],
+   "question": "In the given figure O is the centre of the circle. PQ and PR are tangents and ∠QPR = 70°. Calculate: (a) ∠QOR (b) ∠QSR",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "(a) PQOR is a quadrilateral (with right angles at Q and R where the tangents meet the radii), so ∠QPR + ∠QOR = 180° (supplementary). 70° + ∠QOR = 180° ⇒ ∠QOR = 110°. (b) Reflex ∠QOR = 360° − 110° = 250°. ∠QSR = 1/2 × reflex ∠QOR (the angle subtended by an arc at the centre is double the angle subtended on the remaining part of the circle) = 1/2 × 250° = 125°.",
+   "marking_points": [
+    {
+     "point": "∠QPR + ∠QOR = 180° ⇒ ∠QOR = 110°",
+     "weight": 1
+    },
+    {
+     "point": "Reflex ∠QOR = 360° − 110° = 250°",
+     "weight": 1
+    },
+    {
+     "point": "∠QSR = 1/2 × 250° = 125°",
+     "weight": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Circle with centre O; tangents PQ and PR drawn from external point P with ∠QPR = 70°; S is a point on the minor arc QR (on the P-side of the circle), so ∠QSR subtends the major arc.",
+   "page": 3,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/maths/maths_2022s2_2_iv.png"
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 14,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Probability",
+   "topic": "Probability of drawing a red ball",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 1,
+   "concepts": [
+    "P = favourable/total"
+   ],
+   "question": "A bag contains 5 white, 2 red and 3 black balls. A ball is drawn at random. What is the probability that the ball drawn is a red ball?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "No. of white balls = 5, red = 2, black = 3. Total balls = 5 + 2 + 3 = 10. P(red) = favourable/total = 2/10 = 1/5.",
+   "marking_points": [
+    {
+     "point": "Total number of balls = 10",
+     "weight": 1
+    },
+    {
+     "point": "P(red) = 2/10 = 1/5",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 15,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Mensuration",
+   "topic": "Recasting a cone into small cylinders",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "conservation of volume on melting",
+    "volume of cone and cylinder"
+   ],
+   "question": "A solid cone of radius 5 cm and height 9 cm is melted and made into small cylinders of radius of 0.5 cm and height 1.5 cm. Find the number of cylinders so formed.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Cone: R = 5 cm, H = 9 cm. Cylinder: r = 0.5 cm, h = 1.5 cm. No. of cylinders = Volume of cone / Volume of cylinder = [(1/3)πR²H] / [πr²h] = [(1/3) × 5² × 9] / [(0.5)² × 1.5] = (25 × 3)/(0.25 × 1.5) = 75/0.375 = 200.",
+   "marking_points": [
+    {
+     "point": "Set number = volume of cone ÷ volume of one cylinder",
+     "weight": 1
+    },
+    {
+     "point": "Substitute and compute 200 cylinders",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 16,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Heights and Distances",
+   "topic": "Two lamp posts on either side of a road",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "tan 30° = 1/√3, tan 60° = √3",
+    "angle of elevation"
+   ],
+   "question": "Two lamp posts AB and CD each of height 100 m are on either side of the road. P is a point on the road between the two lamp posts. The angles of elevation of the top of the lamp posts from the point P are 60° and 30°. Find the distances PB and PD.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Heights AB = CD = 100 m; ∠APB = 30°, ∠CPD = 60°. In ΔAPB: tan 30° = AB/BP = 100/BP ⇒ 1/√3 = 100/BP ⇒ BP = 100√3 = 100 × 1.732 = 173.2 m. In ΔCPD: tan 60° = CD/PD = 100/PD ⇒ √3 = 100/PD ⇒ PD = 100/√3 = 100√3/3 = 173.2/3 = 57.73 m. (The solved paper notes a correction: the original board paper printed ∠APB = 40°, which should be 30° to solve.)",
+   "marking_points": [
+    {
+     "point": "Set up tan 30° = 100/BP in ΔAPB",
+     "weight": 1
+    },
+    {
+     "point": "BP = 100√3 = 173.2 m",
+     "weight": 1
+    },
+    {
+     "point": "tan 60° = 100/PD ⇒ PD = 100/√3 = 57.73 m",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 17,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "graph",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Statistics",
+   "topic": "Histogram and mode graphically",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "drawing a histogram",
+    "mode from histogram"
+   ],
+   "question": "Marks obtained by 100 students in an examination are given below.\nMarks: 0-10, 10-20, 20-30, 30-40, 40-50, 50-60\nNo. of students: 5, 15, 20, 28, 20, 12\nDraw a histogram for the given data using a graph paper and find the mode. Take 2 cm = 10 marks along one axis and 2 cm = 10 students along the other axis.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Draw the histogram with the given scale (x-axis: 2 cm = 10 marks, y-axis: 2 cm = 10 students) with bar heights 5, 15, 20, 28, 20, 12. To find the mode: (i) identify the rectangle with highest frequency (modal class 30–40); (ii) join the top corners of the modal rectangle to the immediate next corners of the adjacent rectangles; (iii) from the intersection point A of these joining lines drop a perpendicular to the x-axis; the foot P gives the mode. Mode = 35 marks.",
+   "marking_points": [
+    {
+     "point": "Histogram drawn correctly to the given scale",
+     "weight": 1
+    },
+    {
+     "point": "Modal class 30-40 identified and corner-joining construction shown",
+     "weight": 1
+    },
+    {
+     "point": "Mode read off = 35 marks",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 18,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Section and Midpoint Formula",
+   "topic": "Internal division by section formula",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "section formula for internal division"
+   ],
+   "question": "Find a point P which divides internally the line segment joining the points A (−3, 9) and B (1, −3) in the ratio 1 : 3.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "By the section formula, P(x, y) = ((m·x₂ + n·x₁)/(m+n), (m·y₂ + n·y₁)/(m+n)) with ratio 1:3: P = ((1×1 + 3×(−3))/(1+3), (1×(−3) + 3×9)/(1+3)) = (−8/4, 24/4) = (−2, 6).",
+   "marking_points": [
+    {
+     "point": "Apply the section formula with ratio 1:3",
+     "weight": 1
+    },
+    {
+     "point": "P = (−2, 6)",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 19,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Probability",
+   "topic": "Probability from letters of a word",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 1,
+   "concepts": [
+    "complementary counting of vowels and consonants"
+   ],
+   "question": "A letter of the word 'SECONDARY' is selected at random. What is the probability that the letter selected is not a vowel?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "The word SECONDARY has 9 letters: 3 vowels (E, O, A) and 6 consonants. P(not a vowel) = P(consonant) = 6/9 = 2/3.",
+   "marking_points": [
+    {
+     "point": "Count 9 letters with 3 vowels and 6 consonants",
+     "weight": 1
+    },
+    {
+     "point": "P(not a vowel) = 6/9 = 2/3",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 20,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "graph",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Reflection",
+   "topic": "Plotting points and reflection in the Y-axis",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "reflection in y-axis: (x, y) → (−x, y)",
+    "plotting on graph paper"
+   ],
+   "question": "Use a graph paper for this question. Take 2 cm = 1 unit along both the axes.\n(a) Plot the points A (0, 4), B (2, 2), C (5, 2) and D (4, 0). E (0, 0) is the origin.\n(b) Reflect B, C, D on the Y-axis and name them as B', C' and D' respectively.\n(c) Join the points ABCDD'C'B' and A in order and give a geometrical name to the closed figure.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "(a) Plot A(0, 4), B(2, 2), C(5, 2), D(4, 0) with E(0, 0) as origin. (b) Reflecting in the Y-axis: B'(−2, 2), C'(−5, 2), D'(−4, 0). (c) On joining ABCDD'C'B'A, the shape obtained is not a proper geometrical shape, but a collection (combination) of a quadrilateral and a triangle.",
+   "marking_points": [
+    {
+     "point": "Points plotted correctly to scale",
+     "weight": 1
+    },
+    {
+     "point": "Reflected points B'(−2,2), C'(−5,2), D'(−4,0)",
+     "weight": 1
+    },
+    {
+     "point": "Figure joined and named (combination of a quadrilateral and a triangle)",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(iv)",
+   "q_order": 21,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Mensuration",
+   "topic": "Volume of cylinder minus two cones",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "volume of composite solid",
+    "volume of cylinder and cone"
+   ],
+   "question": "A solid wooden cylinder is of radius 6 cm and height 16 cm. Two cones each of radius 2 cm and height 6 cm are drilled out of the cylinder. Find the volume of the remaining solid. (Take π = 22/7)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Cylinder: R = 6 cm, H = 16 cm. Volume = πR²H = (22/7) × 6² × 16 = 12672/7 cm³. Cone: r = 2 cm, h = 6 cm. Volume = (1/3)πr²h = (1/3) × (22/7) × 2² × 6 = 176/7 cm³. Remaining volume = volume of cylinder − 2 × volume of a cone = 12672/7 − 2 × 176/7 = (12672 − 352)/7 = 12320/7 = 1760 cm³.",
+   "marking_points": [
+    {
+     "point": "Volume of cylinder = 12672/7 cm³",
+     "weight": 1
+    },
+    {
+     "point": "Volume of each cone = 176/7 cm³",
+     "weight": 1
+    },
+    {
+     "point": "Remaining volume = 12320/7 = 1760 cm³",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 22,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Circles",
+   "topic": "Chords intersecting externally",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "EA × EB = EC × ED for chords intersecting externally"
+   ],
+   "question": "Two chords AB and CD of a circle intersect externally at E. If EC = 2 cm, EA = 3 cm and AB = 5 cm, find the length of CD.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "When two chords intersect externally, EA × EB = EC × ED, i.e. EA × (EA + AB) = EC × (EC + CD). So 3 × (3 + 5) = 2 × (2 + CD) ⇒ 24 = 4 + 2CD ⇒ 2CD = 20 ⇒ CD = 10 cm.",
+   "marking_points": [
+    {
+     "point": "Apply EA × EB = EC × ED with EB = EA + AB = 8",
+     "weight": 1
+    },
+    {
+     "point": "Solve 24 = 4 + 2CD ⇒ CD = 10 cm",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 23,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Equation of a Straight Line",
+   "topic": "Slope and equation of a perpendicular line",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "slope from two points",
+    "perpendicular slopes",
+    "point-slope form"
+   ],
+   "question": "Line AB is perpendicular to CD. Coordinates of B, C and D are respectively (4, 0), (0, −1) and (4, 3). Find: (a) Slope of CD (b) Equation of AB",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "(a) Slope of CD = (y₂−y₁)/(x₂−x₁) = (−1−3)/(0−4) = −4/−4 = 1. (b) AB ⊥ CD, so slope of AB = −1/(slope of CD) = −1/1 = −1. Equation of AB through B(4, 0): y − y₁ = m(x − x₁) ⇒ y − 0 = −1(x − 4) ⇒ y = −x + 4 ⇒ x + y = 4.",
+   "marking_points": [
+    {
+     "point": "Slope of CD = 1",
+     "weight": 1
+    },
+    {
+     "point": "Slope of AB = −1 and equation x + y = 4",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 24,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "proof",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Trigonometry",
+   "topic": "Proving a trigonometric identity",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "expansion of (1±sinθ)²",
+    "sec²θ and tan²θ in terms of cosθ"
+   ],
+   "question": "Prove that: [(1+sin θ)² + (1−sin θ)²] / (2cos²θ) = sec²θ + tan²θ",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "L.H.S. = [(1+sin θ)² + (1−sin θ)²] / (2cos²θ) = [1 + sin²θ + 2sin θ + 1 + sin²θ − 2sin θ] / (2cos²θ) = (2 + 2sin²θ)/(2cos²θ) = (1 + sin²θ)/cos²θ = 1/cos²θ + sin²θ/cos²θ = sec²θ + tan²θ = R.H.S. Hence proved.",
+   "marking_points": [
+    {
+     "point": "Expand both squares; cross terms cancel to give 2 + 2sin²θ",
+     "weight": 1
+    },
+    {
+     "point": "Simplify to (1 + sin²θ)/cos²θ",
+     "weight": 1
+    },
+    {
+     "point": "Split into sec²θ + tan²θ",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(iv)",
+   "q_order": 25,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Statistics",
+   "topic": "Missing frequency from a given mean",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "mean = Σfx/Σf",
+    "solving for unknown frequency"
+   ],
+   "question": "The mean of the following distribution is 50. Find the unknown frequency.\nClass Interval: 0-20, 20-40, 40-60, 60-80, 80-100\nFrequency: 6, f, 8, 12, 8",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Class marks x: 10, 30, 50, 70, 90. f×x: 60, 30f, 400, 840, 720. Σf = 34 + f, Σfx = 2020 + 30f. Mean = Σfx/Σf ⇒ 50 = (2020 + 30f)/(34 + f) ⇒ 1700 + 50f = 2020 + 30f ⇒ 50f − 30f = 2020 − 1700 ⇒ 20f = 320 ⇒ f = 16.",
+   "marking_points": [
+    {
+     "point": "Table of class marks and f×x; Σf = 34+f, Σfx = 2020+30f",
+     "weight": 1
+    },
+    {
+     "point": "Set 50 = (2020+30f)/(34+f)",
+     "weight": 1
+    },
+    {
+     "point": "Solve 20f = 320 ⇒ f = 16",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 26,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "proof",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Trigonometry",
+   "topic": "Proving a trigonometric identity",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "sec²θ − tan²θ = 1",
+    "factorisation a²−b² = (a+b)(a−b)"
+   ],
+   "question": "Prove that: 1 + tan²θ/(1 + sec θ) = sec θ",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "L.H.S. = 1 + tan²θ/(1 + sec θ) = 1 + (sec²θ − 1)/(1 + sec θ) (since sec²θ − tan²θ = 1) = 1 + (sec θ + 1)(sec θ − 1)/(1 + sec θ) = 1 + sec θ − 1 = sec θ = R.H.S. Hence proved.",
+   "marking_points": [
+    {
+     "point": "Replace tan²θ with sec²θ − 1 and factorise",
+     "weight": 1
+    },
+    {
+     "point": "Cancel (1 + sec θ) and conclude sec θ",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 27,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Circles",
+   "topic": "Angles in the same segment; angle in a semicircle",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "angles in the same segment are equal",
+    "angle in a semicircle is 90°",
+    "angle sum of a triangle"
+   ],
+   "question": "In the given figure A, B, C and D are points on the circle with centre O. Given ∠ABC = 62°. Find: (a) ∠ADC (b) ∠CAB",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "(a) ∠ADC = ∠ABC = 62° (angles in the same segment are equal). (b) In ΔABC: ∠ABC = 62° and ∠ACB = 90° (angle in a semicircle is a right angle, since AB is a diameter through O). By the angle sum property, ∠ABC + ∠ACB + ∠CAB = 180° ⇒ 62° + 90° + ∠CAB = 180° ⇒ ∠CAB = 180° − 152° = 28°.",
+   "marking_points": [
+    {
+     "point": "∠ADC = 62° (angles in the same segment)",
+     "weight": 1
+    },
+    {
+     "point": "∠ACB = 90° (semicircle) and ∠CAB = 28° by angle sum",
+     "weight": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Circle with centre O; points D, A, B, C on the circle; chords drawn so that AB passes through the centre (diameter) and ∠ABC = 62° is marked at B; D lies on the same segment as B relative to chord AC.",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/maths/maths_2022s2_6_ii.png"
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 28,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Equation of a Straight Line",
+   "topic": "Parallel line through intersection of two lines",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "solving simultaneous linear equations",
+    "parallel lines have equal slopes"
+   ],
+   "question": "Find the equation of a line parallel to the line 2x + y − 7 = 0 and passing through the intersection of the lines x + y − 4 = 0 and 2x − y = 8.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Solve x + y = 4 and 2x − y = 8: adding gives 3x = 12 ⇒ x = 4, y = 0; intersection point (4, 0). A line parallel to 2x + y − 7 = 0 has the form 2x + y = λ. Passing through (4, 0): 2×4 + 0 = λ ⇒ λ = 8. Required equation: 2x + y = 8, i.e. 2x + y − 8 = 0.",
+   "marking_points": [
+    {
+     "point": "Intersection of the two lines is (4, 0)",
+     "weight": 1
+    },
+    {
+     "point": "Parallel line taken as 2x + y = λ",
+     "weight": 1
+    },
+    {
+     "point": "λ = 8, equation 2x + y − 8 = 0",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(iv)",
+   "q_order": 29,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "graph",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "Attempt any three of Q2–Q6",
+   "chapter": "Statistics",
+   "topic": "Ogive and median",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "less-than ogive from cumulative frequency",
+    "median from ogive at N/2"
+   ],
+   "question": "Marks obtained by 40 students in an examination are given below.\nMarks: 10-20, 20-30, 30-40, 40-50, 50-60, 60-70\nNo. of students: 3, 8, 14, 9, 4, 2\nUsing graph paper draw an ogive and estimate the median marks. Take 2 cm = 10 marks along one axis and 2 cm = 5 students along the other axis.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Cumulative frequency table (marks less than / cf): 20/3, 30/11, 40/25, 50/34, 60/38, 70/40. (Assume a class 0-10 with zero frequency before the first class.) Plot the points (10, 0), (20, 3), (30, 11), (40, 25), (50, 34), (60, 38), (70, 40) on graph paper to the given scale and draw a smooth curve (ogive) through them. N/2 = 40/2 = 20: locate 20 on the y-axis (point P), draw a line parallel to the x-axis cutting the curve at Q, and from Q drop a line parallel to the y-axis meeting the x-axis at M. The coordinate of M is 37.5. Hence the median is 37.5 marks.",
+   "marking_points": [
+    {
+     "point": "Cumulative frequency table 3, 11, 25, 34, 38, 40",
+     "weight": 1
+    },
+    {
+     "point": "Points plotted and smooth ogive drawn to scale",
+     "weight": 1
+    },
+    {
+     "point": "Median read at N/2 = 20 as 37.5 marks",
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  }
+ ]
+}

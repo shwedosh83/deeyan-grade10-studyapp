@@ -1,7 +1,7 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import { useSubject } from '../context/SubjectContext';
 import { useAuth } from '../context/AuthContext';
-import { SUBJECTS_WITH_BOARD } from '../lib/board';
+import { SUBJECTS_WITH_BOARD, BOARD_ONLY_SUBJECTS } from '../lib/board';
 import Logo from './Logo';
 
 const TAB_SEGMENTS = ['chapters', 'board', 'skills', 'weekly'];
@@ -21,6 +21,7 @@ export default function Sidebar() {
   const currentTab = onSubject && TAB_SEGMENTS.includes(parts[1]) ? parts[1] : '';
   const target = (s) => {
     if (!currentTab || (currentTab === 'board' && !SUBJECTS_WITH_BOARD.includes(s.id))) return `/${s.id}`;
+    if (currentTab !== 'board' && BOARD_ONLY_SUBJECTS.includes(s.id)) return `/${s.id}`;   // maths has only the Board tab
     return `/${s.id}/${currentTab}`;
   };
 

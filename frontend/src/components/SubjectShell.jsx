@@ -1,6 +1,6 @@
 import { NavLink, Navigate, Outlet, useParams, useLocation } from 'react-router-dom';
 import { SUBJECTS } from '../context/SubjectContext';
-import { SUBJECTS_WITH_BOARD } from '../lib/board';
+import { SUBJECTS_WITH_BOARD, BOARD_ONLY_SUBJECTS } from '../lib/board';
 
 // Everything inside a subject: header + tabs, then the page.
 export default function SubjectShell() {
@@ -9,7 +9,12 @@ export default function SubjectShell() {
   const subject = SUBJECTS.find(s => s.id === subjectId);
   if (!subject) return <Navigate to="/" replace />;
 
-  const tabs = [
+  const boardOnly = BOARD_ONLY_SUBJECTS.includes(subject.id);
+  if (boardOnly && pathname === `/${subject.id}`) return <Navigate to={`/${subject.id}/board`} replace />;
+
+  const tabs = boardOnly ? [
+    { to: 'board', label: 'Board papers' },
+  ] : [
     { to: '', label: 'Practice', end: true, also: 'chapters' },
     ...(SUBJECTS_WITH_BOARD.includes(subject.id) ? [{ to: 'board', label: 'Board papers' }] : []),
     { to: 'skills', label: 'Skills' },

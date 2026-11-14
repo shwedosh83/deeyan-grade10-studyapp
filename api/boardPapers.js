@@ -3,7 +3,7 @@ import { admin, PUBLIC_Q_COLS, stripItems } from './_boardLib.js';
 // POST { action, ... }
 //   list    { subject }                          -> papers that have solutions, with question counts
 //   paper   { paperId }                          -> paper + questions WITHOUT solutions (timed mode)
-//   sprint  { subject, count }                    -> random objective questions WITH the answer (instant feedback); figure questions only if their page image exists
+//   sprint  { subject, count, chapter }           -> random objective questions WITH the answer (instant feedback); figure questions only if their page image exists; count 0 = just the chapter list
 //   applied { subject, kinds[], chapter, count, userId } -> applied questions WITHOUT solutions, unseen first
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
@@ -30,13 +30,22 @@ export default async function handler(req, res) {
     }
 
     if (action === 'sprint') {
-      const { subject, count = 15 } = req.body;
-      const { data, error } = await admin.from('board_questions')
+      const { subject, count = 15, chapter = null } = req.body;
+      let query = admin.from('board_questions')
         .select(PUBLIC_Q_COLS + ',correct_option,solution,answer_items')
         .eq('subject', subject).eq('is_objective', true).or('needs_figure.eq.false,figure_url.not.is.null').limit(3000);   // figure questions only when the page image exists
+      if (chapter) query = query.eq('chapter', chapter);
+      const { data, error } = await query;
       if (error) throw error;
+      let chapters;
+      if (chapter) {
+        const { data: all } = await admin.from('board_questions').select('chapter').eq('subject', subject).eq('is_objective', true).limit(3000);
+        chapters = [...new Set((all || []).map(x => x.chapter).filter(Boolean))].sort();
+      } else {
+        chapters = [...new Set((data || []).map(x => x.chapter).filter(Boolean))].sort();
+      }
       const pool = (data || []).sort(() => Math.random() - 0.5).slice(0, Math.min(count, 100));
-      return res.json({ questions: pool, pool_size: (data || []).length });
+      return res.json({ questions: pool, pool_size: (data || []).length, chapters });
     }
 
     if (action === 'applied') {

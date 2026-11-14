@@ -12,7 +12,17 @@ export async function boardApi(name, body) {
   return json;
 }
 
-export const SUBJECTS_WITH_BOARD = ['biology', 'chemistry', 'physics', 'geography', 'history_civics'];
+export const SUBJECTS_WITH_BOARD = ['biology', 'chemistry', 'physics', 'geography', 'history_civics', 'maths'];
+
+// Maths is solved on paper: no Applied mode, only timed uploads and Sprint.
+export const BOARD_MODES_WITHOUT_APPLIED = ['maths'];
+
+// Subjects that only have board papers in the app (no chapter quizzes/skills yet):
+// they open straight on the Board tab and hide the empty tabs.
+export const BOARD_ONLY_SUBJECTS = ['maths'];
+
+// One-tap symbols for typing maths answers.
+export const MATH_KEYS = ['√', '²', '³', 'π', '÷', '×', '±'];
 
 export function fmtTime(sec) {
   const s = Math.max(0, Math.round(sec));

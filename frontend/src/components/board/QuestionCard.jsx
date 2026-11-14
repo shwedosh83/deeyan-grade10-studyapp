@@ -1,4 +1,21 @@
-import { fmtMarks, getItems, isMCQ, parseItems, correctKeys, KIND_LABELS } from '../../lib/board';
+import { useRef } from 'react';
+import { fmtMarks, getItems, isMCQ, parseItems, correctKeys, KIND_LABELS, MATH_KEYS } from '../../lib/board';
+
+// One-tap symbol buttons for typing maths answers (√, ², ³, …).
+// onMouseDown preventDefault keeps the focus (and caret) in the input being edited.
+function MathStrip({ onInsert }) {
+  return (
+    <div className="flex gap-1.5 flex-wrap items-center">
+      <span className="text-xs text-gray-400 mr-1">Insert:</span>
+      {MATH_KEYS.map(k => (
+        <button key={k} type="button" tabIndex={-1} onMouseDown={e => e.preventDefault()} onClick={() => onInsert(k)}
+          className="w-9 h-8 rounded-lg border border-gray-200 bg-gray-50 hover:bg-gray-100 active:bg-gray-200 text-gray-700 text-base leading-none">
+          {k}
+        </button>
+      ))}
+    </div>
+  );
+}
 
 // One question row: badges, figure, text, and the right input (options / blanks / written answer).
 // `reveal` (Sprint) = { itemFlags?: boolean[] } to colour the options / blanks after checking.
@@ -6,6 +23,21 @@ export default function QuestionCard({ q, value, onChange = () => {}, disabled =
   const items = getItems(q);
   const mcq = isMCQ(q);
   const keys = reveal ? correctKeys(q) : [];
+
+  // Math strip: insert a symbol at the caret of the input last focused (blank i, or the textarea).
+  const inputRefs = useRef({});
+  const activeKey = useRef(null);
+  const showStrip = q.subject === 'maths' && !questionOnly && !disabled && !mcq;
+  function insertSym(sym) {
+    const key = activeKey.current ?? (items.length ? 0 : 'text');
+    const el = inputRefs.current[key];
+    if (!el) return;
+    const start = el.selectionStart ?? el.value.length, end = el.selectionEnd ?? start;
+    const next = el.value.slice(0, start) + sym + el.value.slice(end);
+    if (key === 'text') onChange(next);
+    else { const vals = parseItems(value, items.length); vals[key] = next; onChange(JSON.stringify(vals)); }
+    requestAnimationFrame(() => { el.focus(); try { el.setSelectionRange(start + sym.length, start + sym.length); } catch { /* number inputs */ } });
+  }
 
   return (
     <div className={`bg-white rounded-xl border border-gray-200 ${compact ? 'p-4' : 'p-5'} space-y-3`}>
@@ -66,6 +98,7 @@ export default function QuestionCard({ q, value, onChange = () => {}, disabled =
         </div>
       )}
 
+      {showStrip && items.length > 0 && <MathStrip onInsert={insertSym} />}
       {!questionOnly && items.length > 0 && (
         <div className="space-y-2">
           {items.map((it, i) => {
@@ -76,6 +109,7 @@ export default function QuestionCard({ q, value, onChange = () => {}, disabled =
                 <label className="text-sm text-gray-600 flex-1 min-w-[10rem]">{it.prompt}</label>
                 <input
                   value={vals[i]} disabled={disabled}
+                  ref={el => { inputRefs.current[i] = el; }} onFocus={() => { activeKey.current = i; }}
                   onChange={e => { const next = [...vals]; next[i] = e.target.value; onChange(JSON.stringify(next)); }}
                   className={`border-2 rounded-lg px-3 py-1.5 text-sm w-56 focus:outline-none focus:border-barca-navy ${
                     flag === true ? 'border-emerald-400 bg-emerald-50' : flag === false ? 'border-red-400 bg-red-50' : 'border-gray-200'}`}
@@ -89,9 +123,11 @@ export default function QuestionCard({ q, value, onChange = () => {}, disabled =
         </div>
       )}
 
+      {showStrip && items.length === 0 && <MathStrip onInsert={insertSym} />}
       {!questionOnly && !mcq && items.length === 0 && (
         <textarea
           value={value || ''} disabled={disabled} onChange={e => onChange(e.target.value)}
+          ref={el => { inputRefs.current.text = el; }} onFocus={() => { activeKey.current = 'text'; }}
           rows={Math.min(12, Math.max(3, Math.round(Number(q.marks) * 1.5)))}
           placeholder={q.type === 'program' ? 'Write your program here…' : q.type === 'map_work' ? 'Describe where you would mark/shade it (you will self-mark these)…' : 'Write your answer here…'}
           className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-700 focus:outline-none focus:border-barca-navy resize-y disabled:bg-gray-50 font-[inherit]"
