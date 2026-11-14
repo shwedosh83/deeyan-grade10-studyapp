@@ -19,10 +19,15 @@ export default function WeeklySummary() {
   const [weekStats, setWeekStats] = useState(null);
   const [error, setError] = useState(null);
 
-  useEffect(() => { loadData(); }, [subject]);
+  useEffect(() => {
+    setSummary(null);
+    setError(null);
+    loadData();
+  }, [subject.id]);
 
   async function loadData() {
     setLoading(true);
+    setWeekStats(null);
     const [summaryRes, skillsRes, sessionsRes] = await Promise.all([
       supabase.from('weekly_summaries').select('*').eq('subject', subject.id).eq('week_start', weekStart).maybeSingle(),
       supabase.from('skill_scores').select('*').eq('subject', subject.id).order('correct_attempts'),
@@ -58,13 +63,14 @@ export default function WeeklySummary() {
           weekStart,
           totalQuestions: weekStats.total,
           correctAnswers: weekStats.correct,
+          subject: subject.id,
         }),
       });
       const data = await res.json();
       if (data.error) throw new Error(data.error);
       await supabase
         .from('weekly_summaries')
-        .upsert({ subject: 'biology', week_start: weekStart, summary_text: data.summary }, { onConflict: 'subject,week_start' });
+        .upsert({ subject: subject.id, week_start: weekStart, summary_text: data.summary }, { onConflict: 'subject,week_start' });
       setSummary(data.summary);
     } catch (err) {
       setError(err.message || 'Failed to generate summary. Is the backend running?');

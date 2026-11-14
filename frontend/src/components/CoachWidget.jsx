@@ -53,9 +53,9 @@ export default function CoachWidget({ subject, weakSkills, totalDone }) {
   // Navigate to quiz pre-selecting the weakest chapter
   function handleCoachPick() {
     if (weakSkills.length > 0) {
-      navigate('/quiz?coach=1');
+      navigate(`/${subject.id}/chapters?coach=1`);
     } else {
-      navigate('/quiz');
+      navigate(`/${subject.id}/chapters`);
     }
   }
 

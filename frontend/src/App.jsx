@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import HomeDashboard from './components/HomeDashboard';
 import Dashboard from './components/Dashboard';
@@ -7,7 +7,12 @@ import SkillTracker from './components/SkillTracker';
 import WeeklySummary from './components/WeeklySummary';
 import LoginPage from './components/LoginPage';
 import AdminPage from './components/AdminPage';
-import { SubjectProvider } from './context/SubjectContext';
+import BoardLayout from './components/board/BoardLayout';
+import SubjectShell from './components/SubjectShell';
+import BoardPaper from './components/board/BoardPaper';
+import BoardSprint from './components/board/BoardSprint';
+import BoardApplied from './components/board/BoardApplied';
+import { SubjectProvider, useSubject } from './context/SubjectContext';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { isConfigured } from './lib/supabase';
 
@@ -42,25 +47,57 @@ function AppShell() {
   if (!user) return <LoginPage />;
 
   return (
-    <SubjectProvider>
-      <BrowserRouter>
+    <BrowserRouter>
+      <SubjectProvider>
         <div className="flex min-h-screen bg-gray-50">
           <Sidebar />
           <main className="flex-1 min-w-0 px-8 py-8">
             <Routes>
-              <Route path="/" element={<HomeDashboard />} />
-              <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/quiz" element={<Quiz />} />
-              <Route path="/skills" element={<SkillTracker />} />
-              <Route path="/summary" element={<WeeklySummary />} />
+              <Route path="/" element={<OpenLastSubject />} />
+              <Route path="/home" element={<HomeDashboard />} />
               <Route path="/admin" element={<AdminPage />} />
-              <Route path="*" element={<Navigate to="/" />} />
+
+              {/* old addresses keep working */}
+              <Route path="/dashboard" element={<Legacy to="" />} />
+              <Route path="/quiz" element={<Legacy to="chapters" />} />
+              <Route path="/skills" element={<Legacy to="skills" />} />
+              <Route path="/summary" element={<Legacy to="weekly" />} />
+              <Route path="/board" element={<Legacy to="board" />} />
+              <Route path="/board/paper" element={<Legacy to="board" />} />
+              <Route path="/board/sprint" element={<Legacy to="board/sprint" />} />
+              <Route path="/board/applied" element={<Legacy to="board/applied" />} />
+
+              <Route path="/:subjectId" element={<SubjectShell />}>
+                <Route index element={<Dashboard />} />
+                <Route path="chapters" element={<Quiz />} />
+                <Route path="board" element={<BoardLayout />}>
+                  <Route index element={<BoardPaper />} />
+                  <Route path="sprint" element={<BoardSprint />} />
+                  <Route path="applied" element={<BoardApplied />} />
+                </Route>
+                <Route path="skills" element={<SkillTracker />} />
+                <Route path="weekly" element={<WeeklySummary />} />
+              </Route>
+              <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </main>
         </div>
-      </BrowserRouter>
-    </SubjectProvider>
+      </SubjectProvider>
+    </BrowserRouter>
   );
+}
+
+// Opening the app goes straight into the last subject studied.
+function OpenLastSubject() {
+  const { subject } = useSubject();
+  return <Navigate to={`/${subject.id}`} replace />;
+}
+
+// Old address (/quiz, /board ...) -> same page under the current subject.
+function Legacy({ to }) {
+  const { subject } = useSubject();
+  const { search } = useLocation();
+  return <Navigate to={`/${subject.id}${to ? '/' + to : ''}${search}`} replace />;
 }
 
 export default function App() {

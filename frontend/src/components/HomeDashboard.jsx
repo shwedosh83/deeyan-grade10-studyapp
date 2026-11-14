@@ -10,6 +10,7 @@ const SUBJECT_COLORS = {
   history_civics: { bg: 'bg-amber-50',    border: 'border-amber-200',   accent: 'text-amber-700',   bar: 'bg-amber-500',   btn: 'bg-amber-600 hover:bg-amber-700' },
   chemistry:      { bg: 'bg-blue-50',     border: 'border-blue-200',    accent: 'text-blue-700',    bar: 'bg-blue-500',    btn: 'bg-blue-600 hover:bg-blue-700' },
   geography:      { bg: 'bg-purple-50',   border: 'border-purple-200',  accent: 'text-purple-700',  bar: 'bg-purple-500',  btn: 'bg-purple-600 hover:bg-purple-700' },
+  physics:        { bg: 'bg-orange-50',   border: 'border-orange-200',  accent: 'text-orange-700',  bar: 'bg-orange-500',  btn: 'bg-orange-600 hover:bg-orange-700' },
 };
 
 export default function HomeDashboard() {
@@ -73,8 +74,7 @@ export default function HomeDashboard() {
   }, []);
 
   function goToSubject(s) {
-    setSubject(s);
-    navigate('/dashboard');
+    navigate(`/${s.id}`);
   }
 
   const activeSubjects = SUBJECTS.filter(s => subjectStats[s.id]?.total > 0).length;

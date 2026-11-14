@@ -124,7 +124,7 @@ export default function SkillTracker() {
         <div className="bg-white rounded-xl border border-gray-200 p-8 text-center">
           <p className="text-gray-500 mb-4">No data yet. Complete a quiz to see your skill breakdown.</p>
           <button
-            onClick={() => navigate('/quiz')}
+            onClick={() => navigate(`/${subject.id}/chapters`)}
             className="bg-barca-navy hover:bg-barca-navy-dark text-white font-semibold px-6 py-2 rounded-lg transition-colors"
           >
             Start Quiz
@@ -137,7 +137,7 @@ export default function SkillTracker() {
             chapter={chapter}
             skills={skills}
             subject={subject}
-            onPractice={(chId) => navigate(`/quiz?chapter=${chId}`)}
+            onPractice={(chId) => navigate(`/${subject.id}/chapters?chapter=${chId}`)}
             onReset={load}
           />
         ))

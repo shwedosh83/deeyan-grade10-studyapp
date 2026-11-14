@@ -34,6 +34,23 @@ const CHEMISTRY_SKILLS = [
   'Diagrams & Experiments',
 ];
 
+const PHYSICS_SKILLS = [
+  'Force: Turning Forces and Uniform Circular Motion',
+  'Light',
+  'Heat',
+  'Electricity and Magnetism',
+];
+
+const GEOGRAPHY_SKILLS = [
+  'Location and Physical Features',
+  'Climate and Monsoon',
+  'Natural Vegetation',
+  'Mineral Resources',
+  'Energy Resources',
+  'Agriculture and Crops',
+  'Manufacturing Industries',
+];
+
 // Short display labels for the radar axes
 const SHORT_LABELS = {
   'Cell Biology': 'Cell Biology',
@@ -61,18 +78,31 @@ const SHORT_LABELS = {
   'Metallurgy': 'Metallurgy',
   'Study of Compounds': 'Compounds',
   'Organic Chemistry': 'Organic',
-  'Diagrams & Experiments': 'Diagrams',
+  'Force: Turning Forces and Uniform Circular Motion': 'Force & Circular',
+  'Electricity and Magnetism': 'Electricity & Magn.',
+  'Location and Physical Features': 'Location',
+  'Climate and Monsoon': 'Climate',
+  'Natural Vegetation': 'Vegetation',
+  'Mineral Resources': 'Minerals',
+  'Energy Resources': 'Energy',
+  'Agriculture and Crops': 'Agriculture',
+  'Manufacturing Industries': 'Industries',
 };
 
-export function getSkillsForSubject(subjectId) {
+export function getSkillsForSubject(subjectId, skillScores = []) {
   if (subjectId === 'biology') return BIOLOGY_SKILLS;
   if (subjectId === 'chemistry') return CHEMISTRY_SKILLS;
-  return HC_SKILLS;
+  if (subjectId === 'history_civics') return HC_SKILLS;
+  if (subjectId === 'physics') return PHYSICS_SKILLS;
+  if (subjectId === 'geography') return GEOGRAPHY_SKILLS;
+  // Any other subject: use the skills it actually has data for
+  return [...new Set(skillScores.map(r => r.skill))];
 }
 
 export default function SkillRadar({ skillScores, subjectId }) {
-  const skills = getSkillsForSubject(subjectId);
+  const skills = getSkillsForSubject(subjectId, skillScores);
   const N = skills.length;
+  if (N < 3) return null; // a radar needs at least 3 axes
   const SIZE = 340;
   const CX = SIZE / 2;
   const CY = SIZE / 2;
