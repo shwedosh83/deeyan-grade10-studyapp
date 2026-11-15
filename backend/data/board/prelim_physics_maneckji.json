@@ -1,0 +1,1953 @@
+{
+ "paper_id": "prelim_physics_maneckji",
+ "subject": "physics",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · Maneckji Cooper",
+ "source": "prelim",
+ "school": "Maneckji Cooper Education Trust School, Juhu",
+ "exam_label": "Pre-preliminary Examination 2025-2026",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Answers to be written on separate paper; first 15 minutes for reading. Attempt all questions from Section A and any four questions from Section B. All working, including rough work, must be clearly shown. Intended marks are given in brackets [ ].",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 40,
+   "rule": "Attempt any four questions from this Section.",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Resistivity of alloys with temperature",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "constantan resistivity nearly independent of temperature"
+   ],
+   "question": "An alloy constantan has resistivity 5 × 10⁻⁷ Ωm at 25°C. If the temperature of this alloy is increased to 50°C then its resistivity will be:",
+   "options": {
+    "a": "2.5 × 10⁻⁷ Ωm",
+    "b": "5 × 10⁻⁷ Ωm",
+    "c": "10 × 10⁻⁷ Ωm",
+    "d": "10.5 × 10⁻⁷ Ωm"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 5 × 10⁻⁷ Ωm. The resistivity of alloys like constantan changes negligibly with temperature.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "V-I graph slope",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Ohm's law",
+    "slope of V-I graph = R"
+   ],
+   "question": "The graph between voltage and current for a conductor is a straight line. The slope of the graph represents:",
+   "options": {
+    "a": "Resistivity",
+    "b": "Electric potential",
+    "c": "Resistance",
+    "d": "Conductance"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Resistance. For a V (y-axis) vs I (x-axis) graph, slope = V/I = R.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Energy conversion in a simple pendulum",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "KE maximum at mean position",
+    "PE maximum at extreme"
+   ],
+   "question": "The diagram shows a pendulum of mass 120 g. A and C are extreme positions and B is the mean position (lowest point); D is a point between B and C; h is the height of C above B. The bob has the velocity 7.5 m/s at B. (g = 10 N/kg)\n(1) Which of the following statements is correct?",
+   "options": {
+    "a": "At A, the bob has only KE.",
+    "b": "At D, the bob will have more PE and less KE.",
+    "c": "At B, the bob will have only PE.",
+    "d": "At B, the bob will have maximum KE."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) At B, the bob will have maximum KE. B is the mean (lowest) position, where speed is maximum.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Conservation of mechanical energy in a pendulum",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "mgh = ½mv²",
+    "h = v²/2g"
+   ],
+   "question": "The diagram shows a pendulum of mass 120 g. A and C are extreme positions and B is the mean position (lowest point); D is a point between B and C; h is the height of C above B. The bob has the velocity 7.5 m/s at B. (g = 10 N/kg)\n(2) The height h is:",
+   "options": {
+    "a": "2.81 cm",
+    "b": "281 m",
+    "c": "2.81 m",
+    "d": "0.281 m"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 2.81 m. h = v²/2g = (7.5)²/(2 × 10) = 56.25/20 = 2.81 m.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Efficiency of a machine",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "efficiency = output/input"
+   ],
+   "question": "A machine is said to be efficient, if:",
+   "options": {
+    "a": "It produces more energy than it consumes.",
+    "b": "It has low input energy.",
+    "c": "It converts all input energy into useful work.",
+    "d": "It works fast."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) It converts all input energy into useful work. Efficiency = useful work output / energy input; the closer to 100%, the more efficient.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Free fall and conservation of mechanical energy",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "conservation of mechanical energy",
+    "PE converts to KE in free fall"
+   ],
+   "question": "Assertion [A]: The total mechanical energy of a freely falling body is constant.\nReason [R]: Kinetic energy is converted to potential energy as the body falls.",
+   "options": {
+    "a": "Both A and R are true and R is the correct explanation of A.",
+    "b": "Both A and R are true and R is not the correct explanation of A.",
+    "c": "A is true but R is false.",
+    "d": "A is false but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) A is true but R is false. Mechanical energy is conserved, but during the fall potential energy is converted into kinetic energy, not the reverse.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Wavelength change on refraction",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "frequency unchanged",
+    "λ₂ = λ₁/n"
+   ],
+   "question": "The wavelength of light in the medium A is 600 nm. The wave enters medium B of refractive index 1.2 with respect to medium A. The wavelength in B is:",
+   "options": {
+    "a": "500 nm",
+    "b": "300 nm",
+    "c": "1200 nm",
+    "d": "Incomplete information"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 500 nm. Frequency is unchanged, so λ_B = λ_A / ₐn_B = 600/1.2 = 500 nm.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Switch in neutral wire",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 3,
+   "concepts": [
+    "switch should be in live wire",
+    "neutral at zero potential"
+   ],
+   "question": "Assertion [A]: A switch will serve the purpose of making and breaking the circuit when connected to the neutral wire.\nReason [R]: Neutral wire is at zero potential.",
+   "options": {
+    "a": "Both A and R are true and R is the correct reason for A.",
+    "b": "Both A and R are true but R is not the correct reason for A.",
+    "c": "A is true, R is false.",
+    "d": "Both A and R are false."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Both A and R are true but R is not the correct reason for A. A switch in the neutral wire still makes and breaks the circuit (though it is unsafe, as the appliance stays connected to live); this has nothing to do with the neutral wire being at zero potential.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Principle of moments with metre scale",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "principle of moments",
+    "weight acts at centre of gravity"
+   ],
+   "question": "If the centre of gravity of a metre scale of mass 120 g lies at 45 cm mark, then which one of the following shows the balanced position of the scale? (In each option the fulcrum is at the 60 cm mark and a weight hangs at the 100 cm mark.)",
+   "options": {
+    "a": "Fulcrum at 60 cm, 40 gf at 100 cm",
+    "b": "Fulcrum at 60 cm, 45 gf at 100 cm",
+    "c": "Fulcrum at 60 cm, 80 gf at 100 cm",
+    "d": "Fulcrum at 60 cm, 30 gf at 100 cm"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 45 gf at the 100 cm mark. Anticlockwise moment of scale's weight = 120 × (60 − 45) = 1800 gf cm; clockwise moment = W × (100 − 60) = 40W, so W = 45 gf.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Loudness and amplitude",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "loudness ∝ amplitude²",
+    "loudness independent of frequency"
+   ],
+   "question": "If the frequency of a tuning fork is doubled and its amplitude is halved, the loudness will:",
+   "options": {
+    "a": "Remain same.",
+    "b": "Become four times.",
+    "c": "Become one-fourth.",
+    "d": "Become one-half."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Become one-fourth. Loudness ∝ (amplitude)²; frequency affects pitch, not loudness. (1/2)² = 1/4.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Ice-water mixture: incomplete melting",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "principle of calorimetry",
+    "latent heat of fusion"
+   ],
+   "question": "A student mixes ice at 0°C with water at 30°C in a calorimeter and notices that some ice remains even after final temperature stabilizes. It indicates:",
+   "options": {
+    "a": "Water was cold.",
+    "b": "Heat supplied was not enough.",
+    "c": "Ice has higher SHC than water.",
+    "d": "Calorimeter was leaking."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Heat supplied was not enough. The heat given by the water and calorimeter in cooling to 0°C was less than the latent heat needed to melt all the ice.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Deviation and colour",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "deviation = i − r",
+    "refractive index greatest for violet end"
+   ],
+   "question": "If red, blue and yellow colour light rays are allowed to enter the same glass block at the same angle of incidence, then for which colour, the value of ∠i − ∠r will be greater?",
+   "options": {
+    "a": "Green",
+    "b": "Red",
+    "c": "Yellow",
+    "d": "Blue"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Blue. Glass has the highest refractive index for blue (of the three), so r is smallest and the deviation (i − r) is greatest.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Hazards of gamma radiation",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "penetrating power of gamma rays"
+   ],
+   "question": "Gamma radiation is dangerous even though its emission doesn't change atomic number or mass as:",
+   "options": {
+    "a": "It is radioactive.",
+    "b": "It creates heavy isotopes.",
+    "c": "It is highly ionising.",
+    "d": "It can penetrate deep into tissues."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) It can penetrate deep into tissues. Gamma rays have the highest penetrating power and damage internal organs/cells.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Group displacement in beta decay",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "beta decay increases Z by 1"
+   ],
+   "question": "The emission which can move the element to the right and down side in the periodic table is:",
+   "options": {
+    "a": "Alpha emission",
+    "b": "Beta emission",
+    "c": "Gamma emission",
+    "d": "Neutron emission"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Beta emission. In β-decay a neutron changes to a proton, so atomic number increases by 1 and the element moves one place to the right in the periodic table.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Dispersion by a convex lens",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "focal length depends on colour",
+    "violet focuses closer"
+   ],
+   "question": "If a lens has power +5 D, what happens when a red and a violet light ray pass through it?",
+   "options": {
+    "a": "Both converge at same point.",
+    "b": "Red light converges closer.",
+    "c": "Violet light converges closer.",
+    "d": "Both diverge."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Violet light converges closer. +5 D is a convex lens; its refractive index is greater for violet, so violet is bent more and focuses closer to the lens than red.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(a)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Kinetic energy and momentum",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "K = p²/2m"
+   ],
+   "question": "The kinetic energy of the body depends on ______ (momentum/displacement).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The kinetic energy of the body depends on ______ (momentum/displacement).",
+     "accepted": [
+      "momentum"
+     ]
+    }
+   ],
+   "solution": "momentum (K = p²/2m)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(b)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Sign convention for moments",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Sign convention for moments"
+   ],
+   "question": "The moment of couple which is taken as negative is ______ (clockwise/anticlockwise).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The moment of couple which is taken as negative is ______ (clockwise/anticlockwise).",
+     "accepted": [
+      "clockwise"
+     ]
+    }
+   ],
+   "solution": "clockwise",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(c)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Specific heat capacity and coolants",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Specific heat capacity and coolants"
+   ],
+   "question": "SHC of A is 3.5 J kg⁻¹K⁻¹ and SHC of B is 0.35 J kg⁻¹K⁻¹. The better coolant is ______ (A/B).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "SHC of A is 3.5 J kg⁻¹K⁻¹ and SHC of B is 0.35 J kg⁻¹K⁻¹. The better coolant is ______ (A/B).",
+     "accepted": [
+      "A"
+     ]
+    }
+   ],
+   "solution": "A (higher specific heat capacity absorbs more heat per degree rise)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(d)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Three-pin socket connections",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Three-pin socket connections"
+   ],
+   "question": "The hole in the right side of the socket is for connection to the ______ wire. (live/earth/neutral)",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The hole in the right side of the socket is for connection to the ______ wire. (live/earth/neutral)",
+     "accepted": [
+      "live"
+     ]
+    }
+   ],
+   "solution": "live",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(e)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Nuclear fission",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Nuclear fission"
+   ],
+   "question": "In a nuclear reactor, the fission reaction is initiated by bombardment with ______. (a proton/a neutron/an alpha particle)",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "In a nuclear reactor, the fission reaction is initiated by bombardment with ______. (a proton/a neutron/an alpha particle)",
+     "accepted": [
+      "a neutron",
+      "neutron",
+      "slow neutron"
+     ]
+    }
+   ],
+   "solution": "a neutron (slow neutron)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(f)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "VR of block and tackle",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "VR of block and tackle"
+   ],
+   "question": "A Block and Tackle system with 4 pulleys with effort not applied in the convenient direction will have VR = ______ (4/5).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "A Block and Tackle system with 4 pulleys with effort not applied in the convenient direction will have VR = ______ (4/5).",
+     "accepted": [
+      "5"
+     ]
+    }
+   ],
+   "solution": "5 (effort applied upward, so VR = n + 1 = 5)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "diagram",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Changes in Z and N on alpha and beta decay",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "beta decay: Z+1, N−1",
+    "alpha decay: Z−2, N−2"
+   ],
+   "question": "The below given graph shows the relation between the number of protons (X axis) and the number of neutrons (Y axis) for the radioactive element Z (not actual symbol) in the periodic table. Z is plotted at 92 protons, 146 neutrons (x-axis 80 to 95, y-axis 140 to 150).\n(a) Use graph paper to plot:\n(i) The daughter element (label it with W) after the emission of beta radiation by Z.\n(ii) The new position of daughter element (label it as H), if W undergoes alpha emission.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Z: protons 92, neutrons 146. (i) β-emission: a neutron changes into a proton, so W has 93 protons and 145 neutrons — plot W at (93, 145). (ii) α-emission from W removes 2 protons and 2 neutrons, so H has 91 protons and 143 neutrons — plot H at (91, 143).",
+   "marking_points": [
+    {
+     "point": "W plotted at (93 protons, 145 neutrons)",
+     "marks": 1
+    },
+    {
+     "point": "H plotted at (91 protons, 143 neutrons)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Grid with protons (80-95) on x-axis and neutrons (140-150) on y-axis, with element Z plotted at about (92, 146).",
+   "page": 4,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_maneckji/p4.jpg"
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 22,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Energy conversions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "energy transformation"
+   ],
+   "question": "State the energy conversion in the following:\n(a) Bio gas formation\n(b) Solar cell",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Bio gas formation: chemical energy stored in biomass (organic waste) is converted into chemical energy of the biogas fuel (by anaerobic decomposition).\n(b) Solar cell: light (solar) energy → electrical energy.",
+   "marking_points": [
+    {
+     "point": "(a) Chemical energy of biomass → chemical energy of biogas",
+     "marks": 1
+    },
+    {
+     "point": "(b) Light energy → electrical energy",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Shift of centre of gravity",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "centre of gravity shifts towards added mass",
+    "removal of mass shifts CG away"
+   ],
+   "question": "ABCDEF is a regular hexagon with its centre of gravity at O. What will be the most probable position (R, S, T, U, V or O) of the new centre of gravity:\n(a) If a small metal washer is glued at point E?\n(b) If the hexagon is cut along the line PQ? (of the remaining part ABCDQPF)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) U — the added mass at E shifts the CG from O along OE towards E.\n(b) S — removing the triangular part PEQ near E shifts the CG of the remaining part away from E, i.e. upward along EB to S.",
+   "marking_points": [
+    {
+     "point": "(a) U",
+     "marks": 1
+    },
+    {
+     "point": "(b) S",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Regular hexagon ABCDEF (B at top, E at bottom) with centre O; points R (near A), S (above O on BE), V (right of O), T (lower left), U (below O on OE); line PQ cuts off the bottom vertex E.",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_maneckji/p5.jpg"
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 24,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Power of lens and thickness",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "more curvature → more power",
+    "P = 1/f"
+   ],
+   "question": "Few lenses, made of the same material, are taken as shown below (four biconvex lenses P, Q, R, S of equal height; P is the thinnest, Q the thickest, R and S of intermediate thickness).\n(a) Which lens has the maximum power?\n(b) Which one has the longest focal length?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Q — it is the thickest (most curved) lens, so it has the shortest focal length and maximum power.\n(b) P — it is the thinnest (least curved), so it has least power and the longest focal length.",
+   "marking_points": [
+    {
+     "point": "(a) Q (thickest)",
+     "marks": 1
+    },
+    {
+     "point": "(b) P (thinnest)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Four biconvex lenses P, Q, R, S of the same height drawn side by side; P is thinnest and Q is thickest.",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_maneckji/p5.jpg"
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 25,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Quality of sound and loudness-amplitude relation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "quality/timbre",
+    "loudness ∝ A²"
+   ],
+   "question": "Anshu is playing a flute and Priti is playing a piano for Cascade, at same loudness and pitch.\n(a) Name the characteristic that is different for both the instruments.\n(b) If, now the loudness of flute increases to four times than before, then compare the amplitudes of the flute and the piano.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Quality (timbre) — due to different waveforms.\n(b) Loudness ∝ A²; 4 times loudness ⇒ amplitude doubles. Amplitude of flute : piano = 2 : 1.",
+   "marking_points": [
+    {
+     "point": "(a) Quality / timbre",
+     "marks": 1
+    },
+    {
+     "point": "(b) Loudness ∝ A², so A_flute : A_piano = 2 : 1",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 26,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Temperature rise and specific heat capacity",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "Q = mcΔT",
+    "ΔT ∝ 1/(mc)"
+   ],
+   "question": "The two metals A and B have their specific heat capacities in the ratio 2:3. If they are supplied same amount of heat, then:\n(a) Which metal piece will show a greater rise in temperature, if their masses are the same?\n(b) Calculate the ratio in which their temperature rise, if the mass ratio of A to B is 3:5?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) A — for same Q and m, ΔT ∝ 1/c, and A has the lower specific heat capacity.\n(b) Q = m_A c_A ΔT_A = m_B c_B ΔT_B ⇒ ΔT_A/ΔT_B = (m_B c_B)/(m_A c_A) = (5 × 3)/(3 × 2) = 15/6 = 5/2. Ratio = 5 : 2.",
+   "marking_points": [
+    {
+     "point": "(a) A",
+     "marks": 1
+    },
+    {
+     "point": "(b) ΔT_A : ΔT_B = (5×3)/(3×2) = 5 : 2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(v)",
+   "q_order": 27,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Total internal reflection in a right-angled prism",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "critical angle",
+    "total internal reflection",
+    "speed of light in glass vs air"
+   ],
+   "question": "The diagram shows the path of a light ray through a right-angled prism ABC of critical angle 42° (∠A = 30°, ∠B = 90°). Ray PQ enters face CB normally at Q, travels parallel to AB and strikes AC at R, is reflected along RS to face AB, and emerges into air along ST.\n(a) What is the angle of incidence at the surface AC and AB?\n(b) Speed of ray RS is greater than ST. True or False?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) At AC: the ray travels parallel to AB, so it makes 30° with AC; angle of incidence = 90° − 30° = 60° (> 42°, so total internal reflection). The reflected ray RS then makes 30° with the horizontal and meets the vertical face AB with angle of incidence = 30° (< 42°, so it refracts out along ST).\n(b) False — RS is inside glass (denser), where light travels slower than in air (ST).",
+   "marking_points": [
+    {
+     "point": "(a) Angle of incidence at AC = 60°",
+     "marks": 1
+    },
+    {
+     "point": "(a) Angle of incidence at AB = 30°",
+     "marks": 1
+    },
+    {
+     "point": "(b) False (light is slower in glass)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Right-angled prism with ∠A = 30° at the top and right angle at B; ray PQ enters base CB normally, hits AC at R, reflects to S on AB and emerges as ST.",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_maneckji/p6.jpg"
+  },
+  {
+   "q_label": "3(vi)",
+   "q_order": 28,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Cooling curve interpretation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "cooling curve plateaus = change of state",
+    "boiling and freezing points"
+   ],
+   "question": "The figure shows the cooling curve (temperature °C vs time) for a substance Z: part A falls from 180°C to 140°C; part B is flat at 140°C; part C falls from 140°C to 60°C; part D is flat at about 60°C; part E falls below 60°C.\n(a) State the temperature at which Z freezes.\n(b) What does the part B show?\n(c) Mention the temperature range in which the substance is in its liquid state?\n(d) What is the boiling point of the substance Z?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) 60°C (second plateau D: liquid → solid).\n(b) Part B shows change of state from vapour (gas) to liquid, i.e. condensation at constant temperature 140°C while latent heat is released.\n(c) Between 140°C and 60°C (part C).\n(d) 140°C.",
+   "marking_points": [
+    {
+     "point": "(a) 60°C",
+     "marks": 1
+    },
+    {
+     "point": "(b) Condensation (gas → liquid) at constant temperature",
+     "marks": 1
+    },
+    {
+     "point": "(c) 140°C to 60°C",
+     "marks": 1
+    },
+    {
+     "point": "(d) 140°C",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Cooling curve of Z: falls 180→140°C (A), plateau at 140°C (B), falls to 60°C (C), plateau at 60°C (D), then falls (E).",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_maneckji/p6.jpg"
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 29,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Moment of force about a pivot (roller over a kerb)",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 4,
+   "concepts": [
+    "moment = F × perpendicular distance",
+    "choice of pivot"
+   ],
+   "question": "A roller with the diameter of 0.4 m is raised over a pavement AB by applying forces F1 and F2 as shown (the roller of centre O rests against the edge A of the pavement, A being level with O; F2 acts horizontally at the top of the roller and F1 acts vertically upward at the leftmost point of the roller). If F1 = F2 = 20 N, calculate and compare the torques produced by both the forces. (Assuming that both the forces can singularly raise the roller.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The roller turns about the edge A of the pavement (radius r = 0.2 m, A level with O).\nF2 (horizontal, at top): perpendicular distance from A = r = 0.2 m ⇒ τ₂ = 20 × 0.2 = 4 N m.\nF1 (vertical, at leftmost point): perpendicular distance from A = 2r = 0.4 m ⇒ τ₁ = 20 × 0.4 = 8 N m.\nτ₁ : τ₂ = 8 : 4 = 2 : 1 — F1 produces twice the torque of F2.",
+   "marking_points": [
+    {
+     "point": "τ(F2) = 20 × 0.2 = 4 N m",
+     "marks": 1
+    },
+    {
+     "point": "τ(F1) = 20 × 0.4 = 8 N m",
+     "marks": 1
+    },
+    {
+     "point": "Ratio τ1 : τ2 = 2 : 1",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Roller of centre O resting against a pavement edge A level with O (B beyond A); F2 horizontal at the top of the roller, F1 vertically upward at its leftmost point.",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_maneckji/p7.jpg"
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 30,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Resonance and natural frequency vs length",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "resonance",
+    "natural frequency decreases with length"
+   ],
+   "question": "The diagram shows four plastic balls fitted on wires on a wooden box (wire lengths: D longest, then B, then C, A shortest). Suraj shakes the box forward & backward periodically. He observes that all the balls also start vibrating but one ball vibrates vigorously.\n(a) Why does one ball vibrate vigorously?\n(b) If all the balls are vibrating with their natural frequency, then arrange the frequencies of all the four balls in increasing order.\n(c) Give reason for answer (b).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Resonance — the natural frequency of that ball (wire) equals the frequency of the periodic force applied by shaking the box, so it vibrates with maximum amplitude.\n(b) D < B < C < A.\n(c) The natural frequency of vibration decreases as the length of the vibrating wire increases; D has the longest wire and A the shortest.",
+   "marking_points": [
+    {
+     "point": "(a) Resonance: its natural frequency equals the frequency of shaking",
+     "marks": 1
+    },
+    {
+     "point": "(b) D < B < C < A",
+     "marks": 1
+    },
+    {
+     "point": "(c) Longer wire ⇒ lower natural frequency",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Wooden box with four balls A, B, C, D on vertical wires; D's wire is longest, then B, then C, A shortest.",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_maneckji/p7.jpg"
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 31,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Work, Power and Energy",
+   "topic": "Energy loss due to friction in pendulum",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "PE = mgh",
+    "KE = ½mv²",
+    "energy loss = PE − KE"
+   ],
+   "question": "Two students are conducting an experiment with identical 100 g mass simple pendulums, each raising the bob 5 m above the mean position. The graphs show the relationship between the distance from the mean position and velocities: for student 1 the maximum velocity at the mean position is 10 m/s; for student 2 it is 8 m/s. [g = 10 m/s²]\nUsing calculations, show which student's experiment saved on the energy lost due to friction.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "PE at extreme = mgh = 0.1 × 10 × 5 = 5 J (same for both).\nStudent 1: KE at mean = ½ × 0.1 × 10² = 5 J ⇒ energy lost = 5 − 5 = 0 J.\nStudent 2: KE at mean = ½ × 0.1 × 8² = 3.2 J ⇒ energy lost = 5 − 3.2 = 1.8 J.\nStudent 1's experiment saved on the energy lost due to friction (no loss).",
+   "marking_points": [
+    {
+     "point": "PE = mgh = 5 J",
+     "marks": 1
+    },
+    {
+     "point": "KE (student 1) = 5 J",
+     "marks": 1
+    },
+    {
+     "point": "KE (student 2) = 3.2 J, loss 1.8 J",
+     "marks": 1
+    },
+    {
+     "point": "Conclusion: student 1",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 32,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Mass of ice to cool water and calorimeter",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 4,
+   "concepts": [
+    "heat lost = heat gained",
+    "latent heat of fusion"
+   ],
+   "question": "250 g of water at 30°C is present in a copper calorimeter of mass 50 g. Calculate the mass of ice required to bring down the temperature of calorimeter and its contents to 5°C.\nSpecific latent heat of fusion of ice = 336 × 10³ J kg⁻¹\nSpecific heat capacity of copper vessel = 400 J kg⁻¹ K⁻¹\nSpecific heat capacity of water = 4200 J kg⁻¹ K⁻¹",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Heat lost by water = 0.25 × 4200 × (30 − 5) = 26250 J.\nHeat lost by calorimeter = 0.05 × 400 × 25 = 500 J. Total heat lost = 26750 J.\nHeat gained by ice (at 0°C) of mass m = m × 336000 + m × 4200 × (5 − 0) = 357000 m.\n357000 m = 26750 ⇒ m = 0.0749 kg ≈ 74.9 g (≈ 75 g).",
+   "marking_points": [
+    {
+     "point": "Heat lost by water and calorimeter = 26250 + 500 = 26750 J",
+     "marks": 1
+    },
+    {
+     "point": "Heat gained by ice = m(336000 + 21000) = 357000m",
+     "marks": 1
+    },
+    {
+     "point": "m ≈ 0.075 kg (74.9 g)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 33,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Successive alpha and beta decay equations",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "beta decay: A same, Z+1",
+    "alpha decay: A−4, Z−2",
+    "gamma: no change"
+   ],
+   "question": "A radioactive nucleus undergoes a series of radiations and emits one beta, one alpha and gamma rays from ᶻX1ᴬ (atomic number Z, mass number A) to form X3 with atomic number 70 and mass number 172. Show these changes in separate equations and find the value of Z and A.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "β-emission: ᴬ_Z X1 → ᴬ_(Z+1) X2 + ⁰₋₁e\nα-emission: ᴬ_(Z+1) X2 → ᴬ⁻⁴_(Z−1) X3 + ⁴₂He\nγ-emission: ¹⁷²₇₀X3* → ¹⁷²₇₀X3 + γ (no change in A or Z)\nZ − 1 = 70 ⇒ Z = 71; A − 4 = 172 ⇒ A = 176.",
+   "marking_points": [
+    {
+     "point": "Beta equation (Z+1, A unchanged)",
+     "marks": 1
+    },
+    {
+     "point": "Alpha and gamma equations",
+     "marks": 1
+    },
+    {
+     "point": "Z = 71, A = 176",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 34,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Parallel combinations with switches",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 4,
+   "concepts": [
+    "resistors in parallel",
+    "current division"
+   ],
+   "question": "Circuit: a 24 V battery is connected across points a and b. Between a and b there are three parallel branches: (1) a 6 Ω resistor with switch S1; (2) 2 Ω and 10 Ω in series with switch S2; (3) a 4 Ω resistor with switch S3.\nWhich one of the switches S1, S2 or S3 should be opened so that:\n(a) The total resistance is equal to 4 Ω.\n(b) The total resistance is equal to 3 Ω.\n(c) The current through the 4 Ω resistor is 3/5 of the new (with only 2 switches closed) current.\nIt is mandatory to show all the working.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Branches: 6 Ω (S1), 12 Ω (S2: 2 + 10), 4 Ω (S3).\n(a) Open S3: 6 ∥ 12 = (6 × 12)/18 = 4 Ω.\n(b) Open S1: 12 ∥ 4 = 48/16 = 3 Ω.\n(c) Current in 4 Ω = 24/4 = 6 A whenever S3 is closed. Open S1: total current = 24/3 = 8 A, 6/8 = 3/4 ✗. Open S2: R = 6 ∥ 4 = 2.4 Ω, total current = 24/2.4 = 10 A, 6/10 = 3/5 ✓. So open S2.",
+   "marking_points": [
+    {
+     "point": "(a) Open S3: 6∥12 = 4 Ω",
+     "marks": 1
+    },
+    {
+     "point": "(b) Open S1: 12∥4 = 3 Ω",
+     "marks": 1
+    },
+    {
+     "point": "(c) I(4 Ω) = 6 A; with S2 open R = 2.4 Ω, I = 10 A",
+     "marks": 1
+    },
+    {
+     "point": "(c) 6/10 = 3/5, so open S2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 35,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Convex lens image and object at focus",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "P = 1/f",
+    "lens formula",
+    "object at F gives image at infinity"
+   ],
+   "question": "A lens of power +5 D has an object placed at a distance of 50 cm in front of the lens.\n(a) State the nature of the image formed.\n(b) What is the distance, in exact measurement, towards or away from the lens, the object should move so that the image is not seen.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "f = 1/P = 1/5 m = 20 cm (convex lens). Object at 50 cm is beyond 2F (40 cm).\n(a) Image is real, inverted and diminished (formed between F and 2F on the other side; 1/v = 1/20 − 1/50 ⇒ v = 33.3 cm).\n(b) The image is not formed (formed at infinity) when the object is at the focus, 20 cm from the lens. So the object must move 50 − 20 = 30 cm towards the lens.",
+   "marking_points": [
+    {
+     "point": "f = 20 cm",
+     "marks": 0.5
+    },
+    {
+     "point": "(a) Real, inverted, diminished",
+     "marks": 1
+    },
+    {
+     "point": "(b) Object must be at F (image at infinity)",
+     "marks": 0.5
+    },
+    {
+     "point": "(b) Move 30 cm towards the lens",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 36,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Principle of moments in a crane",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "clockwise vs anticlockwise moments",
+    "1 kgf = 10 N"
+   ],
+   "question": "Study the diagram (a crane: a load of 8000 kgf hangs at 25 m from the tower on one side; a 40,000 N force acts at 10 m on the other side, where the worker stands).\n(a) In the diagram, is the worker trying to raise or lower the load?\n(b) Justify your answer to (a) with the calculations.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Taking g = 10 N/kg, load = 8000 kgf = 80,000 N.\nMoment of load = 80,000 × 25 = 2,000,000 N m (2 × 10⁶ N m).\nMoment of the 40,000 N force = 40,000 × 10 = 400,000 N m (4 × 10⁵ N m).\n(a) The moment due to the load is greater, so the load side turns down — the worker is lowering the load.\n(b) Since 2 × 10⁶ N m > 4 × 10⁵ N m, the arm does not balance in favour of raising; the load descends (is lowered).",
+   "marking_points": [
+    {
+     "point": "Load moment = 80000 × 25 = 2 × 10⁶ N m",
+     "marks": 1
+    },
+    {
+     "point": "Other moment = 40000 × 10 = 4 × 10⁵ N m",
+     "marks": 1
+    },
+    {
+     "point": "Load moment greater ⇒ load is lowered",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Tower crane with arm 25 m on the load side (a vehicle labelled load, 8000 kgf) and 10 m on the other side with a 40,000 N weight and workers.",
+   "page": 8,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_maneckji/p8.jpg"
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 37,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Concave lens ray diagram",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "concave lens diverges parallel ray from F",
+    "virtual erect diminished image"
+   ],
+   "question": "The diagram shows an object PQ kept in front of a lens (beyond 2F). The path of one ray is shown: a ray from P parallel to the principal axis diverges away from the axis after passing through the lens.\n(a) Identify and name the lens.\n(b) State one use of this kind of image formation.\n(c) Redraw and complete the diagram to show the formation of image.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Concave (diverging) lens — the parallel ray diverges after refraction, appearing to come from the focus on the object side.\n(b) Used in a door peephole / to correct myopia (wide field of view with a diminished image).\n(c) Diagram: extend the refracted ray backwards (dotted) to pass through F on the object side; draw a second ray from P through the optical centre undeviated. The dotted line and this ray meet between F and the lens, giving image P'Q' — virtual, erect, diminished, on the same side as the object.",
+   "marking_points": [
+    {
+     "point": "(a) Concave lens",
+     "marks": 1
+    },
+    {
+     "point": "(b) Correct use (peephole / myopia correction)",
+     "marks": 1
+    },
+    {
+     "point": "(c) Ray through optical centre and backward extension of refracted ray to F",
+     "marks": 1
+    },
+    {
+     "point": "(c) Virtual, erect, diminished image between F and lens",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Object PQ beyond 2F of a lens; a ray from P parallel to the axis bends upward away from the axis after the lens.",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_maneckji/p9.jpg"
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 38,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Minimum deviation in a prism",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "A + δm = 2i",
+    "deviation increases with prism angle"
+   ],
+   "question": "In a prism of angle 60° the angle of minimum deviation for yellow light is 30°.\n(a) What is the angle of incidence for this situation?\n(b) How will the angle of deviation change, if the angle of prism increases?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) At minimum deviation, i = e and A + δm = i + e = 2i ⇒ 60° + 30° = 2i ⇒ i = 45°.\n(b) The angle of deviation increases as the angle of the prism increases.",
+   "marking_points": [
+    {
+     "point": "A + δm = 2i",
+     "marks": 1
+    },
+    {
+     "point": "i = 45°",
+     "marks": 1
+    },
+    {
+     "point": "(b) Deviation increases",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 39,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Centre of gravity of a composite rod",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 4,
+   "concepts": [
+    "principle of moments",
+    "centre of gravity"
+   ],
+   "question": "A metre rod is half made of copper and half made of iron. If the mass of the copper part is 900 g and the mass of iron is 800 g, then calculate the position at which the rod can remain in equilibrium. Drawing the figure is necessary.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Copper part (0–50 cm): 900 gf acting at its centre, 25 cm mark. Iron part (50–100 cm): 800 gf at 75 cm mark.\nLet the rod balance at x cm from the copper end. Moments about x: 900 (x − 25) = 800 (75 − x) ⇒ 900x − 22500 = 60000 − 800x ⇒ 1700x = 82500 ⇒ x = 48.5 cm.\nThe rod balances at the 48.5 cm mark (1.5 cm from the centre, on the copper side). Figure: metre rod with fulcrum at 48.5 cm, 900 gf downward at 25 cm and 800 gf downward at 75 cm.",
+   "marking_points": [
+    {
+     "point": "Figure with weights at 25 cm and 75 cm and fulcrum",
+     "marks": 1
+    },
+    {
+     "point": "900(x − 25) = 800(75 − x)",
+     "marks": 1
+    },
+    {
+     "point": "x ≈ 48.5 cm from copper end",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 40,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Block and tackle: VR, MA and efficiency",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "VR = number of strands",
+    "MA = η × VR"
+   ],
+   "question": "The diagram shows a Block & Tackle system (upper fixed block with 3 pulleys, lower movable block with 2 pulleys, load hung from the lower block).\n(a) Copy and redraw a completely labelled diagram showing the correct connections of the tackle, direction of forces involved to obtain the maximum VR and convenient direction.\n(b) Calculate the MA of this system if its efficiency is 80%.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Tie one end of the string to the hook of the lower (movable) block; pass it alternately over the pulleys of the upper block and under those of the lower block; the free end comes off the last pulley of the upper block with effort E applied downward. Label: upper fixed block, lower movable block, load L (downward), effort E (downward), tension T in each of the 5 segments supporting the lower block (upward).\n(b) Number of strands supporting the lower block = 5 ⇒ VR = 5. MA = η × VR = 0.8 × 5 = 4.",
+   "marking_points": [
+    {
+     "point": "Correct threading (string tied to lower block, effort downward)",
+     "marks": 1
+    },
+    {
+     "point": "Labels: load, effort, tensions, blocks",
+     "marks": 1
+    },
+    {
+     "point": "VR = 5",
+     "marks": 1
+    },
+    {
+     "point": "MA = 0.8 × 5 = 4",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Block and tackle: upper fixed block with three pulleys attached to a support and lower movable block with two pulleys carrying the load (string not drawn).",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_maneckji/p9.jpg"
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 41,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Dual control switches",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "two-way switch wiring",
+    "switch in live wire"
+   ],
+   "question": "The diagram shows a bulb connected by dual control (two-way) switches in two circuits A and B. In A the two traveller wires join top-to-top and bottom-to-bottom (left lever on the top contact, right lever on the bottom contact). In B the traveller wires are crossed (left lever on the top contact, right lever on the bottom contact). In both, the bulb is joined to N, the common terminal of one switch goes to the bulb and the other switch's common terminal goes to L.\n(a) Which switch can successfully turn the bulbs ON and OFF? (Circuit A or circuit B or both?)\n(b) At present, which bulb is glowing?\n(c) If L and N are swapped in the circuit of your answer to the above question, will the circuit work?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Both — in each circuit the two travellers connect the two-way switches, so either switch can turn the bulb on or off (crossing the travellers only changes which lever positions give ON).\n(b) Bulb B — its levers connect through the crossed traveller (top-left to bottom-right), completing the circuit; in A the levers are on different travellers, so the circuit is broken.\n(c) Yes, the bulb will still turn ON and OFF, but it is unsafe: the switches would then be in the neutral wire and the bulb would remain connected to the live wire even when switched off.",
+   "marking_points": [
+    {
+     "point": "(a) Both A and B",
+     "marks": 1
+    },
+    {
+     "point": "(b) Bulb in circuit B",
+     "marks": 1
+    },
+    {
+     "point": "(c) Works but unsafe — switch in neutral, bulb stays live",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Two dual-control (two-way) switch circuits A and B, each with a bulb between N and the switches; A has parallel traveller wires, B has crossed traveller wires.",
+   "page": 10,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_maneckji/p10.jpg"
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 42,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Internal resistance and current division",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "I = E/(R + r)",
+    "current division in parallel"
+   ],
+   "question": "A cell of emf 1.5 V and internal resistance 1 Ω is connected to a 2 Ω resistor in series with a parallel combination of 6 Ω and 3 Ω.\nCalculate the current through:\n(a) 2 Ω resistor.\n(b) 6 Ω resistor.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "6 ∥ 3 = 18/9 = 2 Ω. Total resistance = 2 + 2 + 1 (internal) = 5 Ω.\n(a) I = E/(R + r) = 1.5/5 = 0.3 A through the 2 Ω resistor.\n(b) p.d. across parallel part = 0.3 × 2 = 0.6 V ⇒ current in 6 Ω = 0.6/6 = 0.1 A.",
+   "marking_points": [
+    {
+     "point": "Total resistance = 5 Ω",
+     "marks": 1
+    },
+    {
+     "point": "(a) 0.3 A",
+     "marks": 1
+    },
+    {
+     "point": "(b) 0.1 A",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 43,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Ray path and deviation through a right-angled prism",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 5,
+   "concepts": [
+    "total internal reflection",
+    "critical angle grazing emergence",
+    "angle of deviation"
+   ],
+   "question": "The figure shows a glass prism ABC of critical angle 42° (∠A = 48°, ∠B = 90°, so ∠C = 42°). A ray QP is incident normally on face AC at P (near A).\n(a) Redraw the diagram and complete the path of the light ray PQ till it emerges out of the prism.\n(b) Also, calculate the net angle of deviation of the ray PQ when it emerges from the prism.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) The ray enters AC normally and goes undeviated. Since it is perpendicular to AC and AC makes 42° with BC, the ray makes 48° with BC, i.e. meets face AB at an angle of incidence of 48° > 42° ⇒ total internal reflection at AB. The reflected ray travels towards BC and meets it at an angle of incidence of 90° − 48° = 42° = critical angle, so it emerges grazing along the surface BC (angle of refraction 90°).\n(b) The incident ray travels at 48° below the horizontal towards AB; the final ray travels along BC towards C. Net deviation = 180° − 48° = 132°.",
+   "marking_points": [
+    {
+     "point": "Undeviated entry at AC",
+     "marks": 0.5
+    },
+    {
+     "point": "TIR at AB (i = 48° > 42°)",
+     "marks": 1
+    },
+    {
+     "point": "At BC i = 42° = C, ray grazes along BC",
+     "marks": 1
+    },
+    {
+     "point": "Correct diagram with arrows and normals",
+     "marks": 0.5
+    },
+    {
+     "point": "(b) Net deviation = 132°",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Right-angled prism ABC with ∠A = 48° and right angle at B; ray QP incident normally on hypotenuse AC at P near A.",
+   "page": 10,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_maneckji/p10.jpg"
+  },
+  {
+   "q_label": "9(i)",
+   "q_order": 44,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Critical angle from ray geometry",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "total internal reflection",
+    "critical angle",
+    "effect of temperature on refractive index"
+   ],
+   "question": "ABC is a glass block whose two sides, AB and BC, are at right angles to each other (AD is a curved face). A ray of light is incident on the surface AB from inside, as shown, and suffers total internal reflection before falling on the surface BC. Finally, the light ray emerges out along the surface BC. The angle between the reflected ray (inside the block) and the face BC (measured towards C) is marked 132°.\n(a) What is the angle of incidence at the surface AB?\n(b) What is the critical angle for the glass block BC?\n(c) What would happen to the critical angle, if the glass block is heated?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) The reflected ray makes 180° − 132° = 48° with BC (and with the normal to AB), so the angle of incidence at AB = 48°.\n(b) At BC the angle of incidence = 90° − 48° = 42°; since the ray emerges grazing along BC, the critical angle = 42°.\n(c) On heating, the refractive index of glass decreases slightly, so the critical angle increases.",
+   "marking_points": [
+    {
+     "point": "(a) 48°",
+     "marks": 1
+    },
+    {
+     "point": "(b) 42°",
+     "marks": 1
+    },
+    {
+     "point": "(c) Critical angle increases",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Glass block with face AB on top, BC vertical on the right and curved face AD; a ray totally reflects at AB, strikes BC with 132° marked, and emerges along BC.",
+   "page": 11,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_maneckji/p11.jpg"
+  },
+  {
+   "q_label": "9(ii)",
+   "q_order": 45,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Infrared radiation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "infrared",
+    "rock-salt prism",
+    "electromagnetic spectrum order"
+   ],
+   "question": "Answer the following:\n(a) Name the invisible radiations which are studied using rock-salt?\n(b) State one use of these radiations.\n(c) Name one radiation having the wavelength longer than the wavelength of these radiations.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Infrared radiations.\n(b) Used in remote controls of TV / night-vision photography / therapy for muscular pain.\n(c) Microwaves (or radio waves).",
+   "marking_points": [
+    {
+     "point": "(a) Infrared",
+     "marks": 1
+    },
+    {
+     "point": "(b) Valid use",
+     "marks": 1
+    },
+    {
+     "point": "(c) Microwaves / radio waves",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "9(iii)",
+   "q_order": 46,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Non-uniform rod and principle of moments",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 4,
+   "concepts": [
+    "principle of moments",
+    "centre of gravity of non-uniform rod"
+   ],
+   "question": "A metal rod of length 80 cm is balanced at 35 cm from the end A with 100 gf force weights suspended from the two ends (A at 0 cm and B at 80 cm); the centre of the rod is at 40 cm.\n(a) If this rod is cut at the centre C then compare the weight of AC to the weight of BC.\n(b) Give a reason for your answer in (a).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Weight of AC is greater than weight of BC.\n(b) About the fulcrum (35 cm), the moment of the 100 gf at B (100 × 45) exceeds that at A (100 × 35). For balance, the rod's own weight must give an anticlockwise moment, so its centre of gravity lies on the A side of the fulcrum (left of 35 cm, not at 40 cm). Hence the rod is non-uniform with more mass in part AC.",
+   "marking_points": [
+    {
+     "point": "(a) AC heavier than BC",
+     "marks": 1
+    },
+    {
+     "point": "(b) Moments of end weights unequal; CG on A side of fulcrum",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "9(iii)(c)",
+   "q_order": 47,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Work, Power and Energy",
+   "topic": "Gravitational PE of load lifted by pulley",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "PE = mgh"
+   ],
+   "question": "A block and tackle system of pulleys has velocity ratio 4. Calculate the potential energy of the load which has the weight of 100 kgf, lifted by this pulley system to a height of 5 m. [g = 10 m/s²]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "PE = mgh = 100 × 10 × 5 = 5000 J (independent of the VR of the pulley system).",
+   "marking_points": [
+    {
+     "point": "PE = mgh",
+     "marks": 1
+    },
+    {
+     "point": "= 5000 J",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  }
+ ]
+}

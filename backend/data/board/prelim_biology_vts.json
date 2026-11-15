@@ -1,0 +1,2643 @@
+{
+ "paper_id": "prelim_biology_vts",
+ "subject": "biology",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · Villa Theresa",
+ "source": "prelim",
+ "school": "Villa Theresa High School",
+ "exam_label": "Preliminary Examination 2025-26",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Section A is compulsory. Attempt any four questions from Section B. The intended marks for questions or parts of questions are given in brackets [].",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 40,
+   "rule": "Attempt any four questions from this Section",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Genetics",
+   "topic": "Dominant and recessive alleles",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Dominant and recessive alleles"
+   ],
+   "question": "In a family, both parents have brown eyes, but their child has blue eyes. A geneticist explains that eye colour is determined by dominant and recessive alleles. According to you the blue eye colour allele is:",
+   "options": {
+    "a": "Dominant",
+    "b": "Recessive",
+    "c": "Codominance",
+    "d": "Lethal allele"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Recessive. Both brown-eyed parents are heterozygous carriers; the trait hidden in them appears in the child only in the homozygous recessive condition.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Pollution",
+   "topic": "Smog and particulate matter",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "Smog and particulate matter"
+   ],
+   "question": "Delhi experienced heavy smog during winter. People complained of difficulty in breathing, burning eyes, and reduced visibility. Doctors advised children and elderly people to stay indoors. The reduced visibility during smog is caused by:",
+   "options": {
+    "a": "Suspended particulate matter",
+    "b": "Falling leaves",
+    "c": "Rainfall",
+    "d": "Sunlight reflection"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Suspended particulate matter. Fine suspended particles (with fog) scatter light and reduce visibility.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Blood clotting",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 3,
+   "concepts": [
+    "Blood clotting"
+   ],
+   "question": "Assertion (A): Thrombin converts fibrinogen to fibrin.\nReason (R): Calcium ions are necessary for thrombin to function.",
+   "options": {
+    "a": "(A) is true and (R) is false.",
+    "b": "(A) is false and (R) is true.",
+    "c": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+    "d": "Both (A) and (R) are true and (R) is not the correct explanation of (A)."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) (A) is true and (R) is false.. Thrombin does convert soluble fibrinogen into insoluble fibrin. Calcium ions are needed (with thrombokinase) for converting prothrombin INTO thrombin, not for thrombin's own action, so R as stated is incorrect. (Some keys may accept (d) if R is read loosely as 'calcium is needed for thrombin formation'.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Human Population",
+   "topic": "Causes of high birth rate",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "Causes of high birth rate"
+   ],
+   "question": "India's population crossed 1 billion in the year 2000 and continues to grow. The government promotes small family norms and awareness about family planning methods. Still in some regions the birth rate remains high. One major reason for high birth rate in certain regions is:",
+   "options": {
+    "a": "High cost of living",
+    "b": "More employment opportunities",
+    "c": "High literacy rate",
+    "d": "Lack of awareness about family planning"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Lack of awareness about family planning. Illiteracy and lack of awareness about contraception keep birth rates high.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Corpus callosum",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Corpus callosum"
+   ],
+   "question": "The diagram given below shows a black shaded region known as corpus callosum. The function is to ____:",
+   "options": {
+    "a": "Controls involuntary actions",
+    "b": "Think logically",
+    "c": "Transfer information from one cerebral hemisphere to the other",
+    "d": "Transfer information from one cerebellum hemisphere to the other"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Transfer information from one cerebral hemisphere to the other. The corpus callosum is a band of nerve fibres connecting the two cerebral hemispheres.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Urine output and season",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "Urine output and season"
+   ],
+   "question": "Assertion (A): There is less urination in winter than in summer.\nReason (R): In summer, sweating is more, so less water is given out in the form of urine.",
+   "options": {
+    "a": "(A) is true and (R) is false.",
+    "b": "(A) is false and (R) is true.",
+    "c": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+    "d": "Both (A) and (R) are true and (R) is not the correct explanation of (A)."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) (A) is false and (R) is true.. Urination is MORE in winter (little sweating, so excess water leaves as urine); hence A is false. R is true: heavy sweating in summer reduces urine volume.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Adrenaline - emergency hormone",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "Adrenaline - emergency hormone"
+   ],
+   "question": "During an accident, Aman felt a sudden rush of energy. His heartbeat increased, breathing became faster, and he felt more alert. This is due to the release of:",
+   "options": {
+    "a": "Adrenaline",
+    "b": "Oxytocin",
+    "c": "Antidiuretic hormone",
+    "d": "Insulin"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Adrenaline. Adrenaline (fight-or-flight hormone from adrenal medulla) raises heart rate, breathing rate and alertness.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Chemical Coordination in Plants",
+   "topic": "Apical dominance",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Apical dominance"
+   ],
+   "question": "Cutting the tip of a plant allows lateral buds to grow because:",
+   "options": {
+    "a": "Transpiration increases",
+    "b": "Gibberellins are produced",
+    "c": "Cytokinins decrease",
+    "d": "Auxin concentration decreases"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Auxin concentration decreases. Auxin from the apical bud suppresses lateral buds (apical dominance); removing the tip lowers auxin so lateral buds grow.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transpiration",
+   "topic": "Significance of transpiration",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Significance of transpiration"
+   ],
+   "question": "During day time, a large tree loses a significant amount of water through its leaves by the process of transpiration. This water loss is necessary to:",
+   "options": {
+    "a": "Store water in leaves only.",
+    "b": "Increase root length only.",
+    "c": "Accelerate flowering only.",
+    "d": "Cool the plant and transport nutrients."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Cool the plant and transport nutrients.. Transpiration cools the leaves and creates the pull that carries water and minerals up the plant.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Genetics",
+   "topic": "Variation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Variation"
+   ],
+   "question": "The small differences in traits among individuals of the same species are called:",
+   "options": {
+    "a": "Mitosis",
+    "b": "Variation",
+    "c": "Transpiration",
+    "d": "Evaporation"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Variation. Differences among individuals of a species are variations.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Cell cycle phases at root tip",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Cell cycle phases at root tip"
+   ],
+   "question": "A young root tip is examined under the microscope. Cells near the tip show active division with visible chromosomes. Cells farther away from the tip are larger but not dividing instead show active growth. The actively dividing region at the root tip corresponds to which phase of the cell cycle?",
+   "options": {
+    "a": "G2 Phase",
+    "b": "G1 Phase",
+    "c": "M - Phase",
+    "d": "S - Phase"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) M - Phase. Visible chromosomes and active division occur in the M (mitotic) phase.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Parts of the eye",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Parts of the eye"
+   ],
+   "question": "Veera tried to match the parts of an eye with its correct explanation as given in the table below:\nP - Optic nerve : The nerve which leaves the eye ball\nQ - Sclera : The white portion of the eye ball\nR - Retina : It is sensitive to light consisting of the rods and cones\nS - Choroid : It is richly supplied with blood vessels for providing nourishment to the eye\nIdentify the correct sequence:",
+   "options": {
+    "a": "P, Q, R, S",
+    "b": "R, P, S, Q",
+    "c": "Q, S, R, P",
+    "d": "R, P, Q, S"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) P, Q, R, S. Every part is already matched correctly with its explanation, in the order P, Q, R, S.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Pollution",
+   "topic": "Effects of noise pollution",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "Effects of noise pollution"
+   ],
+   "question": "Arnav sat to study for his exam but was unable to focus as there was too much noise around him. He felt disturbed and wished for a quiet place to learn. Every time he tried to read a page, the noise distracted him and he had to start again. Arnav felt frustrated because he wanted to prepare well for his exam but the noisy environment would not let him focus. Associate yourself with Arnav's plight and identify how would this impact you.",
+   "options": {
+    "a": "Interrupts concentration, disturbs peace of mind, stress",
+    "b": "Stress, difficulty in remembering information, increases concentration",
+    "c": "Difficulty in remembering information, increases efficiency of work, stress",
+    "d": "Increases efficiency of work, disturbs peace of mind, interrupts concentration"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Interrupts concentration, disturbs peace of mind, stress. Noise reduces concentration and causes mental disturbance and stress; it never increases concentration or efficiency.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Photosynthesis",
+   "topic": "Chlorophyll composition",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Chlorophyll composition"
+   ],
+   "question": "The pigment chlorophyll is a highly complex substance composed of carbon, hydrogen, oxygen, nitrogen and:",
+   "options": {
+    "a": "Iodine",
+    "b": "Magnesium",
+    "c": "Calcium",
+    "d": "Phosphorus"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Magnesium. Magnesium is the central atom of the chlorophyll molecule.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Path of ovum",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Path of ovum"
+   ],
+   "question": "The movement of ovum takes place across the female reproductive system in a specific pathway. Identify the correct sequence of its movement.",
+   "options": {
+    "a": "Ovum, Ovary, Uterus, Fallopian tube",
+    "b": "Ovum, Fallopian tube, Ovary, Uterus",
+    "c": "Ovary, Fallopian tube, Ovum, Uterus",
+    "d": "Ovary, Ovum, Fallopian tube, Uterus"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Ovary, Ovum, Fallopian tube, Uterus. The ovum is released from the ovary, enters the Fallopian tube and then reaches the uterus.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(a)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Metaphase",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Metaphase"
+   ],
+   "question": "Give the biological/technical terms for the following: The phase of mitosis in which the chromosomes line up in one plane at the equator.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Give the biological/technical terms for the following: The phase of mitosis in which the chromosomes line up in one plane at the equator.",
+     "accepted": [
+      "Metaphase"
+     ]
+    }
+   ],
+   "solution": "Metaphase",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(b)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Pollution",
+   "topic": "Pollutant",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Pollutant"
+   ],
+   "question": "Give the biological/technical terms for the following: The term used for any constituent which causes pollution.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Give the biological/technical terms for the following: The term used for any constituent which causes pollution.",
+     "accepted": [
+      "Pollutant",
+      "Pollutants"
+     ]
+    }
+   ],
+   "solution": "Pollutant",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(c)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Somatic cells",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Somatic cells"
+   ],
+   "question": "Give the biological/technical terms for the following: The cells where mitosis occur.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Give the biological/technical terms for the following: The cells where mitosis occur.",
+     "accepted": [
+      "Somatic cells",
+      "Body cells",
+      "Somatic cell"
+     ]
+    }
+   ],
+   "solution": "Somatic cells",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(d)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transpiration",
+   "topic": "Lenticels",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Lenticels"
+   ],
+   "question": "Give the biological/technical terms for the following: An opening on the surface of the barks of older stems.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Give the biological/technical terms for the following: An opening on the surface of the barks of older stems.",
+     "accepted": [
+      "Lenticel",
+      "Lenticels"
+     ]
+    }
+   ],
+   "solution": "Lenticel",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(e)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Oxytocin",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Oxytocin"
+   ],
+   "question": "Give the biological/technical terms for the following: The hormone which stimulates milk ejection in females.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Give the biological/technical terms for the following: The hormone which stimulates milk ejection in females.",
+     "accepted": [
+      "Oxytocin"
+     ]
+    }
+   ],
+   "solution": "Oxytocin",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)(a)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Urine formation in nephron",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "ultrafiltration",
+    "nephron parts"
+   ],
+   "question": "Given below is the diagram of a Nephron. Read the information below and fill in the blanks:\nNephron is a structural and functional unit of a kidney. The production of urine occurs here in three major steps. It cleanses our blood by removing waste and extra water, while retaining the things our body needs. The clean blood is circulated back into our body, and the waste becomes urine.\nThe process of ultrafiltration takes place in the (a) ______ (Bowman's capsule / Glomerulus) of the nephron. The fluid formed as a result is called (b) ______ (glomerular filtrate / Urine) which enters into the (c) ______ (Distal convoluted tubule / Proximal convoluted tubule). The fluid after reabsorption and (d) ______ (Tubular secretion / Micturition) enters into the (e) ______ (Malpighian capsule / Collecting duct).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Ultrafiltration takes place in the ____",
+     "accepted": [
+      "Glomerulus"
+     ]
+    }
+   ],
+   "solution": "Glomerulus",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)(b)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Urine formation in nephron",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "ultrafiltration",
+    "nephron parts"
+   ],
+   "question": "Given below is the diagram of a Nephron. Read the information below and fill in the blanks:\nNephron is a structural and functional unit of a kidney. The production of urine occurs here in three major steps. It cleanses our blood by removing waste and extra water, while retaining the things our body needs. The clean blood is circulated back into our body, and the waste becomes urine.\nThe process of ultrafiltration takes place in the (a) ______ (Bowman's capsule / Glomerulus) of the nephron. The fluid formed as a result is called (b) ______ (glomerular filtrate / Urine) which enters into the (c) ______ (Distal convoluted tubule / Proximal convoluted tubule). The fluid after reabsorption and (d) ______ (Tubular secretion / Micturition) enters into the (e) ______ (Malpighian capsule / Collecting duct).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The fluid formed is called ____",
+     "accepted": [
+      "Glomerular filtrate"
+     ]
+    }
+   ],
+   "solution": "Glomerular filtrate",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)(c)",
+   "q_order": 22,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Urine formation in nephron",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "ultrafiltration",
+    "nephron parts"
+   ],
+   "question": "Given below is the diagram of a Nephron. Read the information below and fill in the blanks:\nNephron is a structural and functional unit of a kidney. The production of urine occurs here in three major steps. It cleanses our blood by removing waste and extra water, while retaining the things our body needs. The clean blood is circulated back into our body, and the waste becomes urine.\nThe process of ultrafiltration takes place in the (a) ______ (Bowman's capsule / Glomerulus) of the nephron. The fluid formed as a result is called (b) ______ (glomerular filtrate / Urine) which enters into the (c) ______ (Distal convoluted tubule / Proximal convoluted tubule). The fluid after reabsorption and (d) ______ (Tubular secretion / Micturition) enters into the (e) ______ (Malpighian capsule / Collecting duct).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The filtrate enters into the ____",
+     "accepted": [
+      "Proximal convoluted tubule",
+      "PCT"
+     ]
+    }
+   ],
+   "solution": "Proximal convoluted tubule",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)(d)",
+   "q_order": 23,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Urine formation in nephron",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "ultrafiltration",
+    "nephron parts"
+   ],
+   "question": "Given below is the diagram of a Nephron. Read the information below and fill in the blanks:\nNephron is a structural and functional unit of a kidney. The production of urine occurs here in three major steps. It cleanses our blood by removing waste and extra water, while retaining the things our body needs. The clean blood is circulated back into our body, and the waste becomes urine.\nThe process of ultrafiltration takes place in the (a) ______ (Bowman's capsule / Glomerulus) of the nephron. The fluid formed as a result is called (b) ______ (glomerular filtrate / Urine) which enters into the (c) ______ (Distal convoluted tubule / Proximal convoluted tubule). The fluid after reabsorption and (d) ______ (Tubular secretion / Micturition) enters into the (e) ______ (Malpighian capsule / Collecting duct).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The fluid after reabsorption and ____",
+     "accepted": [
+      "Tubular secretion"
+     ]
+    }
+   ],
+   "solution": "Tubular secretion",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)(e)",
+   "q_order": 24,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Urine formation in nephron",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "ultrafiltration",
+    "nephron parts"
+   ],
+   "question": "Given below is the diagram of a Nephron. Read the information below and fill in the blanks:\nNephron is a structural and functional unit of a kidney. The production of urine occurs here in three major steps. It cleanses our blood by removing waste and extra water, while retaining the things our body needs. The clean blood is circulated back into our body, and the waste becomes urine.\nThe process of ultrafiltration takes place in the (a) ______ (Bowman's capsule / Glomerulus) of the nephron. The fluid formed as a result is called (b) ______ (glomerular filtrate / Urine) which enters into the (c) ______ (Distal convoluted tubule / Proximal convoluted tubule). The fluid after reabsorption and (d) ______ (Tubular secretion / Micturition) enters into the (e) ______ (Malpighian capsule / Collecting duct).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "... enters into the ____",
+     "accepted": [
+      "Collecting duct"
+     ]
+    }
+   ],
+   "solution": "Collecting duct",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iii)(a)",
+   "q_order": 25,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Granulocytes",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Granulocytes"
+   ],
+   "question": "Choose the odd term from the following set of terms and mention the category to which the remaining three belong: Eosinophils, Monocytes, Neutrophils, Basophils",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Odd term",
+     "accepted": [
+      "Monocytes"
+     ]
+    },
+    {
+     "prompt": "Category of the remaining three",
+     "accepted": [
+      "Granulocytes",
+      "Granular leucocytes",
+      "granular WBCs"
+     ]
+    }
+   ],
+   "solution": "Odd term: Monocytes. Category of the rest: Granulocytes.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iii)(b)",
+   "q_order": 26,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Nitrogenous wastes in urine",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Nitrogenous wastes in urine"
+   ],
+   "question": "Choose the odd term from the following set of terms and mention the category to which the remaining three belong: Urea, Creatinine, Ammonia, Uric acid",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Odd term",
+     "accepted": [
+      "Ammonia"
+     ]
+    },
+    {
+     "prompt": "Category of the remaining three",
+     "accepted": [
+      "Nitrogenous wastes present in human urine",
+      "Nitrogenous wastes",
+      "constituents of human urine"
+     ]
+    }
+   ],
+   "solution": "Odd term: Ammonia. Category of the rest: Nitrogenous wastes present in human urine.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iii)(c)",
+   "q_order": 27,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Parts of forebrain",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Parts of forebrain"
+   ],
+   "question": "Choose the odd term from the following set of terms and mention the category to which the remaining three belong: Pons, Cerebrum, Thalamus, Hypothalamus",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Odd term",
+     "accepted": [
+      "Pons"
+     ]
+    },
+    {
+     "prompt": "Category of the remaining three",
+     "accepted": [
+      "Parts of the forebrain",
+      "forebrain",
+      "prosencephalon"
+     ]
+    }
+   ],
+   "solution": "Odd term: Pons. Category of the rest: Parts of the forebrain.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iii)(d)",
+   "q_order": 28,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Parts of the eye",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Parts of the eye"
+   ],
+   "question": "Choose the odd term from the following set of terms and mention the category to which the remaining three belong: Conjunctiva, Yellow spot, Blind spot, Oval window",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Odd term",
+     "accepted": [
+      "Oval window"
+     ]
+    },
+    {
+     "prompt": "Category of the remaining three",
+     "accepted": [
+      "Parts of the eye",
+      "eye"
+     ]
+    }
+   ],
+   "solution": "Odd term: Oval window. Category of the rest: Parts of the eye.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iii)(e)",
+   "q_order": 29,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Anterior pituitary hormones",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Anterior pituitary hormones"
+   ],
+   "question": "Choose the odd term from the following set of terms and mention the category to which the remaining three belong: Oxytocin, Growth hormone, Prolactin, Follicle stimulating hormone",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Odd term",
+     "accepted": [
+      "Oxytocin"
+     ]
+    },
+    {
+     "prompt": "Category of the remaining three",
+     "accepted": [
+      "Hormones of the anterior pituitary",
+      "anterior pituitary hormones",
+      "adenohypophysis hormones"
+     ]
+    }
+   ],
+   "solution": "Odd term: Oxytocin. Category of the rest: Hormones of the anterior pituitary.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iv)(a)",
+   "q_order": 30,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Pregnancy and foetal structures",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "placenta",
+    "pregnancy"
+   ],
+   "question": "Ritu is in the third month of pregnancy. Her doctor tells her that the placenta is now well formed and is supplying nutrition to the developing foetus. She also explains to Ritu the biological terms for various parts of the female reproductive system. Help Ritu understand the same. \n(a) Name the organ that helps in exchange of nutrients and waste between the mother and foetus.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Name the organ that helps in exchange of nutrients and waste between the mother and foetus.",
+     "accepted": [
+      "Placenta"
+     ]
+    }
+   ],
+   "solution": "Placenta",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(iv)(b)",
+   "q_order": 31,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Pregnancy and foetal structures",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "placenta",
+    "pregnancy"
+   ],
+   "question": "Ritu is in the third month of pregnancy. Her doctor tells her that the placenta is now well formed and is supplying nutrition to the developing foetus. She also explains to Ritu the biological terms for various parts of the female reproductive system. Help Ritu understand the same. \n(b) Which structure containing blood vessels connects the mother and foetus and allows passage of oxygen?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Which structure containing blood vessels connects the mother and foetus and allows passage of oxygen?",
+     "accepted": [
+      "Umbilical cord"
+     ]
+    }
+   ],
+   "solution": "Umbilical cord",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(iv)(c)",
+   "q_order": 32,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Pregnancy and foetal structures",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "placenta",
+    "pregnancy"
+   ],
+   "question": "Ritu is in the third month of pregnancy. Her doctor tells her that the placenta is now well formed and is supplying nutrition to the developing foetus. She also explains to Ritu the biological terms for various parts of the female reproductive system. Help Ritu understand the same. \n(c) Which part of the female reproductive system does the implantation of the embryo occur?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Which part of the female reproductive system does the implantation of the embryo occur?",
+     "accepted": [
+      "Uterus",
+      "Endometrium",
+      "uterine wall"
+     ]
+    }
+   ],
+   "solution": "Uterus",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(iv)(d)",
+   "q_order": 33,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Pregnancy and foetal structures",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "placenta",
+    "pregnancy"
+   ],
+   "question": "Ritu is in the third month of pregnancy. Her doctor tells her that the placenta is now well formed and is supplying nutrition to the developing foetus. She also explains to Ritu the biological terms for various parts of the female reproductive system. Help Ritu understand the same. \n(d) Which hormone maintains the thickened uterine lining during pregnancy?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Which hormone maintains the thickened uterine lining during pregnancy?",
+     "accepted": [
+      "Progesterone"
+     ]
+    }
+   ],
+   "solution": "Progesterone",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(iv)(e)",
+   "q_order": 34,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Pregnancy and foetal structures",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "placenta",
+    "pregnancy"
+   ],
+   "question": "Ritu is in the third month of pregnancy. Her doctor tells her that the placenta is now well formed and is supplying nutrition to the developing foetus. She also explains to Ritu the biological terms for various parts of the female reproductive system. Help Ritu understand the same. \n(e) Name the fluid that restricts foetus movement.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Name the fluid that restricts foetus movement.",
+     "accepted": [
+      "Amniotic fluid"
+     ]
+    }
+   ],
+   "solution": "Amniotic fluid",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(v)(a)",
+   "q_order": 35,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Structure and function of ear",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Structure and function of ear"
+   ],
+   "question": "Study the diagram given below and match the structure marked (a) to (e) with their correct functions. Example: Middle ear - (f).\nStructures labelled in the diagram of the human ear: Middle ear, Semicircular canals, Vestibule, Cochlea, Ear drum, Eustachian tube.\nFunctions: (a) Hearing (b) Dynamic balance (c) Sets the three ossicles into vibration (d) Static balance (e) Equalizes air pressure on either side of ear drum (f) Amplifies sound vibrations.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Function of Semicircular canals",
+     "accepted": [
+      "(b)",
+      "b",
+      "Dynamic balance"
+     ]
+    }
+   ],
+   "solution": "Semicircular canals - (b) Dynamic balance",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(v)(b)",
+   "q_order": 36,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Structure and function of ear",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Structure and function of ear"
+   ],
+   "question": "Study the diagram given below and match the structure marked (a) to (e) with their correct functions. Example: Middle ear - (f).\nStructures labelled in the diagram of the human ear: Middle ear, Semicircular canals, Vestibule, Cochlea, Ear drum, Eustachian tube.\nFunctions: (a) Hearing (b) Dynamic balance (c) Sets the three ossicles into vibration (d) Static balance (e) Equalizes air pressure on either side of ear drum (f) Amplifies sound vibrations.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Function of Vestibule",
+     "accepted": [
+      "(d)",
+      "d",
+      "Static balance"
+     ]
+    }
+   ],
+   "solution": "Vestibule - (d) Static balance",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(v)(c)",
+   "q_order": 37,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Structure and function of ear",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Structure and function of ear"
+   ],
+   "question": "Study the diagram given below and match the structure marked (a) to (e) with their correct functions. Example: Middle ear - (f).\nStructures labelled in the diagram of the human ear: Middle ear, Semicircular canals, Vestibule, Cochlea, Ear drum, Eustachian tube.\nFunctions: (a) Hearing (b) Dynamic balance (c) Sets the three ossicles into vibration (d) Static balance (e) Equalizes air pressure on either side of ear drum (f) Amplifies sound vibrations.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Function of Cochlea",
+     "accepted": [
+      "(a)",
+      "a",
+      "Hearing"
+     ]
+    }
+   ],
+   "solution": "Cochlea - (a) Hearing",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(v)(d)",
+   "q_order": 38,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Structure and function of ear",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Structure and function of ear"
+   ],
+   "question": "Study the diagram given below and match the structure marked (a) to (e) with their correct functions. Example: Middle ear - (f).\nStructures labelled in the diagram of the human ear: Middle ear, Semicircular canals, Vestibule, Cochlea, Ear drum, Eustachian tube.\nFunctions: (a) Hearing (b) Dynamic balance (c) Sets the three ossicles into vibration (d) Static balance (e) Equalizes air pressure on either side of ear drum (f) Amplifies sound vibrations.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Function of Ear drum",
+     "accepted": [
+      "(c)",
+      "c",
+      "Sets the three ossicles into vibration"
+     ]
+    }
+   ],
+   "solution": "Ear drum - (c) Sets the three ossicles into vibration",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(v)(e)",
+   "q_order": 39,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Structure and function of ear",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Structure and function of ear"
+   ],
+   "question": "Study the diagram given below and match the structure marked (a) to (e) with their correct functions. Example: Middle ear - (f).\nStructures labelled in the diagram of the human ear: Middle ear, Semicircular canals, Vestibule, Cochlea, Ear drum, Eustachian tube.\nFunctions: (a) Hearing (b) Dynamic balance (c) Sets the three ossicles into vibration (d) Static balance (e) Equalizes air pressure on either side of ear drum (f) Amplifies sound vibrations.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Function of Eustachian tube",
+     "accepted": [
+      "(e)",
+      "e",
+      "Equalizes air pressure on either side of ear drum"
+     ]
+    }
+   ],
+   "solution": "Eustachian tube - (e) Equalizes air pressure on either side of ear drum",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 40,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Human Population",
+   "topic": "Mortality",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Mortality"
+   ],
+   "question": "Explain the term Mortality.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Mortality (death rate) is the number of deaths per 1000 individuals of a population per year.",
+   "marking_points": [
+    {
+     "point": "Deaths per 1000 people per year",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 41,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Endocrine System",
+   "topic": "Nervous vs hormonal coordination",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Nervous vs hormonal coordination"
+   ],
+   "question": "In what form are the substances secreted during nervous and hormonal coordination respectively.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Nervous coordination: neurotransmitters (chemical messengers, e.g. acetylcholine) released at synapses, with the message carried as electrical impulses. Hormonal coordination: hormones secreted directly into the blood by endocrine glands.",
+   "marking_points": [
+    {
+     "point": "Nervous - neurotransmitters / electrochemical impulses",
+     "marks": 1
+    },
+    {
+     "point": "Hormonal - hormones into blood",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 42,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Functions of cerebrum and cerebellum",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Functions of cerebrum and cerebellum"
+   ],
+   "question": "Aaryan is performing an experiment in the school laboratory. In spite of keeping all the chemicals around, he has forgotten one important chemical to be used.\n(a) Which part of the brain will help Aryan to remember and recollect the chemical needed?\n(b) Name the part of brain that helps him coordinate his movements while handling the fragile glass apparatus while performing the experiment.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Cerebrum (seat of memory, intelligence and reasoning). (b) Cerebellum (coordinates and balances voluntary muscular movements).",
+   "marking_points": [
+    {
+     "point": "(a) Cerebrum",
+     "marks": 1
+    },
+    {
+     "point": "(b) Cerebellum",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 43,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Photosynthesis",
+   "topic": "Sites of light and dark reactions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Sites of light and dark reactions"
+   ],
+   "question": "State the location where the light and dark phase of photosynthesis take place.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Light phase (photochemical): in the grana (thylakoids) of the chloroplast. Dark phase (biosynthetic / Calvin cycle): in the stroma of the chloroplast.",
+   "marking_points": [
+    {
+     "point": "Light phase - grana/thylakoids",
+     "marks": 1
+    },
+    {
+     "point": "Dark phase - stroma",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(v)",
+   "q_order": 44,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Photosynthesis",
+   "topic": "Chloroplast structure",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Chloroplast structure"
+   ],
+   "question": "Draw a neat labelled diagram of a chloroplast.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Draw an oval chloroplast with a double outer envelope (outer and inner membrane), stacks of thylakoids forming grana, stroma lamellae (intergranal lamellae/frets) connecting grana, and the stroma (matrix); optionally DNA, ribosomes and starch grains. Label at least: outer membrane, inner membrane, granum, thylakoid, stroma lamella, stroma.",
+   "marking_points": [
+    {
+     "point": "Correct neat diagram with double membrane and grana stacks",
+     "marks": 1
+    },
+    {
+     "point": "Any four correct labels (0.5 each)",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 45,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Genetics",
+   "topic": "Mutation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Mutation"
+   ],
+   "question": "What is Mutation?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A mutation is a sudden heritable change in the genetic material (gene or chromosome) of an organism.",
+   "marking_points": [
+    {
+     "point": "Sudden heritable change in gene/DNA/chromosome",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 46,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Chemical Coordination in Plants",
+   "topic": "Geotropism vs chemotropism",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Geotropism vs chemotropism"
+   ],
+   "question": "Differentiate between Geotropism and Chemotropism with reference to the stimulus associated with each movement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Geotropism: growth movement of a plant part in response to gravity (stimulus = gravity). Chemotropism: growth movement in response to a chemical (stimulus = chemicals, e.g. growth of pollen tube towards ovule).",
+   "marking_points": [
+    {
+     "point": "Geotropism - gravity",
+     "marks": 1
+    },
+    {
+     "point": "Chemotropism - chemicals",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 47,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Systole and diastole",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Systole and diastole"
+   ],
+   "question": "Give the technical term for the contraction and the expansion phase of the heart respectively.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Contraction phase: Systole. Expansion (relaxation) phase: Diastole.",
+   "marking_points": [
+    {
+     "point": "Systole",
+     "marks": 1
+    },
+    {
+     "point": "Diastole",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(iv)",
+   "q_order": 48,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Human Population",
+   "topic": "Effects of population explosion",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Effects of population explosion"
+   ],
+   "question": "Name the two natural resources under pressure due to population explosion.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: land/forests, water (fresh water), food, fossil fuels/energy, minerals. E.g. water and land (forests).",
+   "marking_points": [
+    {
+     "point": "Resource 1 (e.g. water)",
+     "marks": 1
+    },
+    {
+     "point": "Resource 2 (e.g. land/forests/food)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(v)",
+   "q_order": 49,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Endocrine System",
+   "topic": "Goitre",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Goitre"
+   ],
+   "question": "A woman from a rural, mountainous region visits a clinic with a visibly swollen neck. Her diet mostly consists of rice and vegetables grown locally. She rarely eats seafood or salt. She complains of fatigue and difficulty concentrating.\n(a) Identify the above condition.\n(b) Name the hormone associated with this problem.\n(c) Give the cause of such a symptom.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Simple (endemic) goitre. (b) Thyroxine (thyroid hormone). (c) Deficiency of iodine in the diet (no iodised salt/seafood) - the thyroid cannot make enough thyroxine, so TSH stimulates the gland to enlarge, causing the swollen neck.",
+   "marking_points": [
+    {
+     "point": "(a) Simple/endemic goitre",
+     "marks": 1
+    },
+    {
+     "point": "(b) Thyroxine",
+     "marks": 1
+    },
+    {
+     "point": "(c) Iodine deficiency in diet causing thyroid enlargement",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 50,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Reproductive System",
+   "topic": "Semen",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Semen"
+   ],
+   "question": "What is semen?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Semen is the milky fluid ejaculated by the male, consisting of sperms suspended in secretions of the seminal vesicles, prostate gland and Cowper's glands.",
+   "marking_points": [
+    {
+     "point": "Sperms + secretions of accessory glands",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 51,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Transpiration",
+   "topic": "Ascent of sap",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Ascent of sap"
+   ],
+   "question": "Mention any two forces contributing to the ascent of sap.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: transpiration pull; root pressure; cohesion and adhesion of water molecules; capillarity.",
+   "marking_points": [
+    {
+     "point": "Force 1 (e.g. transpiration pull)",
+     "marks": 1
+    },
+    {
+     "point": "Force 2 (e.g. root pressure/cohesion-adhesion)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 52,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Sequences: meninges and urinary path",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Sequences: meninges and urinary path"
+   ],
+   "question": "Arrange the following in the proper sequence:\n(a) Brain, Arachnoid, Dura mater, Pia mater\n(b) Urethra, Ureter, Kidney, Urinary bladder",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Brain - Pia mater - Arachnoid - Dura mater (or reverse: Dura mater - Arachnoid - Pia mater - Brain). (b) Kidney - Ureter - Urinary bladder - Urethra.",
+   "marking_points": [
+    {
+     "point": "(a) correct order of meninges",
+     "marks": 1
+    },
+    {
+     "point": "(b) Kidney-Ureter-Bladder-Urethra",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(iv)",
+   "q_order": 53,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Light and dark adaptation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Light and dark adaptation"
+   ],
+   "question": "Mention the state of the pupil during the light and dark adaptation of an eye.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Light adaptation (bright light): pupil constricts (becomes small). Dark adaptation (dim light): pupil dilates (becomes large).",
+   "marking_points": [
+    {
+     "point": "Light - pupil constricts",
+     "marks": 1
+    },
+    {
+     "point": "Dark - pupil dilates",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(v)",
+   "q_order": 54,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Absorption by Roots",
+   "topic": "Exosmosis and plasmolysis",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "Exosmosis and plasmolysis"
+   ],
+   "question": "Mr. Shyam and his friend add excess fertilizer to the small plants growing in their garden. Without any knowledge about gardening, they thought more fertilizer would let the plant grow faster.\n(a) Which type of solution will the soil become with the use of excessive fertilizer?\n(b) What will be the state of the roots in the soil as mentioned in (a)?\n(c) How can the roots be brought back to normal state from the condition mentioned in (b)?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Hypertonic solution. (b) Water leaves root cells by exosmosis, the cells become plasmolysed (flaccid) and the plant wilts. (c) By watering the soil heavily (making it hypotonic) so water re-enters cells by endosmosis - deplasmolysis.",
+   "marking_points": [
+    {
+     "point": "(a) Hypertonic",
+     "marks": 1
+    },
+    {
+     "point": "(b) Plasmolysed by exosmosis",
+     "marks": 1
+    },
+    {
+     "point": "(c) Add water -> deplasmolysis",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 55,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Genetics",
+   "topic": "Law of dominance",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Law of dominance"
+   ],
+   "question": "State Mendel's law of dominance.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "When two homozygous individuals with contrasting characters are crossed, only one character (dominant) expresses itself in the F1 generation while the other (recessive) remains hidden.",
+   "marking_points": [
+    {
+     "point": "Statement of law of dominance",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 56,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Photosynthesis",
+   "topic": "Factors affecting photosynthesis",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Factors affecting photosynthesis"
+   ],
+   "question": "State the rate of photosynthesis in plants when there is:\n(a) Rise in temperature.\n(b) Reduced absorption of water from the soil.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Rate increases with rise in temperature up to an optimum (about 25-35 °C); beyond that it falls as enzymes are denatured. (b) Rate decreases - water shortage causes stomata to close (less CO2 entry) and less water for photolysis.",
+   "marking_points": [
+    {
+     "point": "(a) increases up to optimum then decreases",
+     "marks": 1
+    },
+    {
+     "point": "(b) decreases",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 57,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Photosynthesis",
+   "topic": "Abbreviations",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Abbreviations"
+   ],
+   "question": "Expand the following abbreviations:\n(a) NADP\n(b) IAA",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) NADP: Nicotinamide adenine dinucleotide phosphate. (b) IAA: Indole-3-acetic acid.",
+   "marking_points": [
+    {
+     "point": "NADP",
+     "marks": 1
+    },
+    {
+     "point": "IAA",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(iv)",
+   "q_order": 58,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Coronary artery",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Coronary artery"
+   ],
+   "question": "Which blood vessel supplies oxygenated blood to the walls of the heart? Where is this blood vessel arising from?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Coronary artery; it arises from the base of the aorta (aortic arch just above the left ventricle).",
+   "marking_points": [
+    {
+     "point": "Coronary artery",
+     "marks": 1
+    },
+    {
+     "point": "Arises from aorta",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(v)",
+   "q_order": 59,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Myopia",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Myopia"
+   ],
+   "question": "Shreeja finds difficulty in observing the school board from a distance as she sits on the last bench. She visits an ophthalmologist. She understands everything the doctor explains because she has learned those concepts in class. The doctor suggests she wear suitable spectacles to correct her defect. (Diagram shows parallel rays passing through a concave lens before the eye and focusing on the retina.)\n(a) What defect she is suffering from?\n(b) Which type of lens is used to correct the defect mentioned in (a)?\n(c) What could be one of the reasons for such a defect?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Myopia (short-sightedness). (b) Concave (diverging) lens. (c) Eyeball elongated (too long from front to back) or lens too convex/thick, so image forms in front of the retina.",
+   "marking_points": [
+    {
+     "point": "(a) Myopia",
+     "marks": 1
+    },
+    {
+     "point": "(b) Concave lens",
+     "marks": 1
+    },
+    {
+     "point": "(c) Elongated eyeball / lens too curved",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 60,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Double circulation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Double circulation"
+   ],
+   "question": "Explain the term Double circulation.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Blood passes through the heart twice in one complete cycle - once through the pulmonary circuit (heart-lungs-heart) and once through the systemic circuit (heart-body-heart).",
+   "marking_points": [
+    {
+     "point": "Blood passes twice through heart: pulmonary + systemic",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 61,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Reproductive System",
+   "topic": "Ovary vs testis",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Ovary vs testis"
+   ],
+   "question": "Distinguish between ovary and testis based on the processes occurring within it.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Ovary: oogenesis - produces ova (and secretes oestrogen/progesterone). Testis: spermatogenesis - produces sperms (and secretes testosterone).",
+   "marking_points": [
+    {
+     "point": "Ovary - oogenesis/ova",
+     "marks": 1
+    },
+    {
+     "point": "Testis - spermatogenesis/sperms",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 62,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Transpiration",
+   "topic": "Xerophytic adaptation in cacti",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Xerophytic adaptation in cacti"
+   ],
+   "question": "A region is facing increasing desertification. Local farmers notice that native plants like cacti and acacia survive while other crops fail. They are planning to plant trees to prevent soil erosion and improve the ecosystem.\n(a) State the characteristic adaptation in cacti to survive.\n(b) What is the purpose of such modification?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Leaves are modified into spines (and the stem is green, fleshy and has a thick cuticle with sunken stomata). (b) To reduce the surface area for transpiration and thus conserve water (stem stores water and carries out photosynthesis).",
+   "marking_points": [
+    {
+     "point": "(a) Leaves modified into spines",
+     "marks": 1
+    },
+    {
+     "point": "(b) Reduce transpiration / water loss",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "7(iv)",
+   "q_order": 63,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Grey and white matter",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Grey and white matter"
+   ],
+   "question": "Mention the parts of the neuron present in the gray matter and the white matter of the cerebrum.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Grey matter (outer cortex of cerebrum): cell bodies (cytons) and dendrites of neurons. White matter (inner): myelinated axons (nerve fibres).",
+   "marking_points": [
+    {
+     "point": "Grey - cell bodies/cytons",
+     "marks": 1
+    },
+    {
+     "point": "White - myelinated axons",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "7(v)",
+   "q_order": 64,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Reproductive System",
+   "topic": "Structure of sperm",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Structure of sperm"
+   ],
+   "question": "Draw a neat labelled diagram of a human sperm cell.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Draw a sperm with head, middle piece and tail. Labels: acrosome (at tip), nucleus (in head), neck/centrioles, middle piece with mitochondria (spiral), tail.",
+   "marking_points": [
+    {
+     "point": "Correct diagram with head, middle piece, tail",
+     "marks": 1
+    },
+    {
+     "point": "Any four correct labels (0.5 each)",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 65,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Reproductive System",
+   "topic": "Hormonal contraception",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Hormonal contraception"
+   ],
+   "question": "How does the hormonal method of contraception work?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Oral contraceptive pills (synthetic oestrogen and progesterone) inhibit ovulation (block FSH/LH release), so no ovum is released and fertilisation cannot occur.",
+   "marking_points": [
+    {
+     "point": "Prevents ovulation",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 66,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Human Evolution",
+   "topic": "Homo habilis features",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Homo habilis features"
+   ],
+   "question": "Mention two body features of Homo Habilis.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: cranial capacity about 650-800 cc; height about 1.2-1.5 m (short); erect posture and bipedal; jaws and teeth smaller than earlier forms; hands capable of making stone tools.",
+   "marking_points": [
+    {
+     "point": "Feature 1 (e.g. cranial capacity ~700 cc)",
+     "marks": 1
+    },
+    {
+     "point": "Feature 2 (e.g. erect bipedal, ~1.2-1.5 m)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 67,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Genetics",
+   "topic": "Sex-linked inheritance",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Sex-linked inheritance"
+   ],
+   "question": "Colour blindness is more common in men than in women. Explain Why?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Colour blindness is caused by a recessive gene on the X chromosome. Men (XY) have only one X, so a single defective allele makes them colour blind. Women (XX) need the recessive allele on both X chromosomes; with one normal X they are only carriers.",
+   "marking_points": [
+    {
+     "point": "X-linked recessive gene",
+     "marks": 1
+    },
+    {
+     "point": "Male has one X so one allele expresses; female needs two (carrier otherwise)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(iv)",
+   "q_order": 68,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Endocrine System",
+   "topic": "Insulin injected not oral",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Insulin injected not oral"
+   ],
+   "question": "Insulin is injected into the body of a highly diabetic patient and it is not given orally. Give a suitable reason.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Insulin is a protein hormone; if taken orally it would be digested by proteolytic enzymes (pepsin, trypsin) in the alimentary canal and become ineffective. Injection delivers it directly into the blood.",
+   "marking_points": [
+    {
+     "point": "Insulin is a protein",
+     "marks": 1
+    },
+    {
+     "point": "Would be digested by enzymes if taken orally",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(v)",
+   "q_order": 69,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Knee-jerk reflex",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Knee-jerk reflex"
+   ],
+   "question": "Kunal is a football player. He injured his lower back in a game. When the doctor taps his patellar tendon, he quickly moves his leg in response.\n(a) Name this process.\n(b) What is the pathway of the above process?\n(c) Which parts of the central nervous system is responsible for such an action?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Knee-jerk reflex (a simple spinal reflex action). (b) Reflex arc: Receptor (in tendon/muscle) -> Sensory neuron -> Spinal cord (relay/interneuron) -> Motor neuron -> Effector (thigh muscle, which contracts and jerks the leg). (c) Spinal cord.",
+   "marking_points": [
+    {
+     "point": "(a) Knee-jerk / reflex action",
+     "marks": 1
+    },
+    {
+     "point": "(b) Receptor-sensory neuron-spinal cord-motor neuron-effector",
+     "marks": 1
+    },
+    {
+     "point": "(c) Spinal cord",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  }
+ ]
+}

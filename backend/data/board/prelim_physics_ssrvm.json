@@ -1,0 +1,1934 @@
+{
+ "paper_id": "prelim_physics_ssrvm",
+ "subject": "physics",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · Sri Sri RVM",
+ "source": "prelim",
+ "school": "Sri Sri Ravishankar Vidya Mandir, Mulund",
+ "exam_label": "First Preliminary Examination (2025-26)",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Answers to be written on the paper provided separately. First 15 minutes for reading. The paper is divided into two Sections: attempt all questions from Section A and any four questions from Section B. Intended marks are given in brackets [ ]. In Question 1 write the correct answer only.",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 40,
+   "rule": "Attempt any four questions from this section.",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Mechanical energy with air friction",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "conservation of mechanical energy",
+    "energy loss to air friction"
+   ],
+   "question": "Assertion(A): When an apple of mass 'm' falls from a tree of height 'h', the kinetic energy will be less than 'mgh' on reaching the ground.\nReason(R): The conservation of mechanical energy is strictly valid only in the absence of friction due to air.",
+   "options": {
+    "a": "Both assertion and reason are true.",
+    "b": "Both assertion and reason are false.",
+    "c": "Assertion is false but reason is true.",
+    "d": "Assertion is true but reason is false."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both assertion and reason are true. Part of the potential energy mgh is used against air friction, so KE on reaching the ground is less than mgh; mechanical energy is conserved only when there is no air friction.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Properties of levers and pulleys",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "classes of levers",
+    "single fixed pulley"
+   ],
+   "question": "Pick the correct statement among the following.",
+   "options": {
+    "a": "The effort is applied between the fulcrum and the load in class II levers.",
+    "b": "The single fixed pulley helps us to multiply force.",
+    "c": "The M.A. of class II levers is more than one.",
+    "d": "Sugar tongs are an example of class II levers."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) The M.A. of class II levers is more than one, since the effort arm is always longer than the load arm. (In class II the load, not the effort, is between fulcrum and effort; a single fixed pulley only changes direction; sugar tongs are class III.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Weight of half-metre scale by moments",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "principle of moments",
+    "C.G. of uniform scale"
+   ],
+   "question": "Find the weight of the given half meter scale.\n(Figure: a uniform half-metre scale pivoted at the 15 cm mark, with a weight of 35 gf hanging at its 0 cm end; the scale is balanced.)",
+   "options": {
+    "a": "52.5 gf",
+    "b": "52.8 gf",
+    "c": "56.2 gf",
+    "d": "58.4 gf"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 52.5 gf. C.G. of the half-metre scale is at 25 cm. Moments about the 15 cm pivot: 35 × 15 = W × (25 − 15) → W = 525/10 = 52.5 gf.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Work done when no displacement along force",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "work done when force ⟂ displacement"
+   ],
+   "question": "If a parrot flies at a height of 300 m above sea level by applying a force of 10 N. Then, what is the work done by the parrot?",
+   "options": {
+    "a": "zero",
+    "b": "3000 J",
+    "c": "negative",
+    "d": "30000 J"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) zero. The parrot flies horizontally at a constant height; its upward force (balancing its weight) is perpendicular to the horizontal displacement, so W = Fs cos 90° = 0.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Path of ray through rectangular glass slab",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "refraction through glass slab",
+    "lateral displacement"
+   ],
+   "question": "The path of a ray of light coming from air and passing through a rectangular glass slab is traced by four students as shown in the figure - (i), (ii), (iii) and (iv). Which one of them is correct?",
+   "options": {
+    "a": "(ii)",
+    "b": "(iv)",
+    "c": "(i)",
+    "d": "(iv)"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) (ii). The ray bends towards the normal on entering the glass and away from the normal on leaving it, so the emergent ray is parallel to the incident ray but laterally displaced — as in (ii).",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Four rectangular glass slabs (i)-(iv) each with a ray traced through it: (i) straight undeviated, (ii) bends towards normal inside and emerges parallel to incident ray, (iii) bends only on emerging, (iv) bends on entry and continues without bending at exit.",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_ssrvm/p2.jpg"
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Meaning of power of a lens",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "power of lens"
+   ],
+   "question": "What does the power of a lens measure?",
+   "options": {
+    "a": "Divergence",
+    "b": "Deviation of ray of light",
+    "c": "Both (a) and (b)",
+    "d": "Critical angle"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Deviation of ray of light. The power of a lens is a measure of the deviating (converging or diverging) ability of the lens on the rays refracted through it; P = 1/f.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "V-I graph and choice of heating element",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "slope of V-I graph = R",
+    "heating element high resistivity"
+   ],
+   "question": "The graph of voltage v/s current for 4 different materials is shown below. Which of these four materials would be used for making the coil of a toaster?",
+   "options": {
+    "a": "Q",
+    "b": "S",
+    "c": "P",
+    "d": "R"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) P. Slope of the V–I graph gives resistance; P has the steepest slope and hence the highest resistance (resistivity), which suits a heating element.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Voltage (y-axis) vs current (x-axis) graph with four straight lines from the origin labelled P (steepest), Q, R, S (least steep).",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_ssrvm/p2.jpg"
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Ratio of specific heat capacities",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "Q = mcΔT"
+   ],
+   "question": "Two blocks P and Q of different metals having their masses in the ratio 3 : 2 are given the same amount of heat. Their temperature rises by the same amount. Find the ratio of their specific heat capacities.",
+   "options": {
+    "a": "√3 : √2",
+    "b": "9 : 4",
+    "c": "2 : 3",
+    "d": "3 : 2"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 2 : 3. Q = mcΔT with same Q and ΔT gives c ∝ 1/m, so cP : cQ = 2 : 3.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Heat capacity and specific heat calculation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "heat capacity = Q/ΔT",
+    "specific heat = Q/(mΔT)"
+   ],
+   "question": "m = 10 g, quantity of heat supplied = 1200 J, rise in temperature = 20 °C\nStatement A: The heat capacity of the substance is 60 J g⁻¹.\nStatement B: The specific heat capacity of the substance is 1.2 J g⁻¹K⁻¹.",
+   "options": {
+    "a": "Only statement A is correct",
+    "b": "Only statement B is correct",
+    "c": "Both statements A and B are correct",
+    "d": "Both statements A and B are incorrect."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Only statement A is correct. Heat capacity = Q/ΔT = 1200/20 = 60 J K⁻¹ (the unit is misprinted as J g⁻¹ in the paper). Specific heat capacity = Q/(mΔT) = 1200/(10 × 20) = 6 J g⁻¹K⁻¹, not 1.2, so B is incorrect.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Deflection of radiations in magnetic field",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "deflection of α, β, γ"
+   ],
+   "question": "Which of the following radiations suffer maximum deflection in a magnetic field?",
+   "options": {
+    "a": "Alpha radiations",
+    "b": "Beta radiations",
+    "c": "Gamma radiations",
+    "d": "X -radiations"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Beta radiations. Beta particles are very light charged particles, so they are deflected the most; alpha are heavy (less deflection) and gamma/X-rays are uncharged (no deflection).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Focal length from power",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "P = 1/f"
+   ],
+   "question": "What will be the focal length and the nature of the lens if the power is +2.0 D?",
+   "options": {
+    "a": "50 cm, convex",
+    "b": "-50 m, concave",
+    "c": "-50 m, concave",
+    "d": "50 m, convex"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 50 cm, convex. f = 1/P = 1/2 m = 0.5 m = 50 cm; positive power means a converging (convex) lens.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Wavelength from frequency",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "c = fλ"
+   ],
+   "question": "What is the wavelength in nm if the frequency of violet light is 7.5 × 10¹⁴ Hz?",
+   "options": {
+    "a": "7500 nm",
+    "b": "4000 nm",
+    "c": "400 nm",
+    "d": "750 nm"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 400 nm. λ = c/f = 3 × 10⁸ / 7.5 × 10¹⁴ = 4 × 10⁻⁷ m = 400 nm.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Consequences of high specific heat of water",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "high specific heat of water",
+    "latent heat vs specific heat"
+   ],
+   "question": "From the given below applications, select the natural phenomena and consequences of high specific heat capacity of water\n(i) Hot water bottles are used as fomentation.\n(ii) Farmers fill their fields with water to protect the crops from frost.\n(iii) Snow on mountains does not melt all at once.\n(iv) When ice in a frozen lake starts melting, its surrounding becomes very cold.",
+   "options": {
+    "a": "Both (i) and (iii)",
+    "b": "Only (iv)",
+    "c": "Both (i) and (ii)",
+    "d": "Only (i)"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Both (i) and (ii). Hot water bottles and flooding fields against frost use the high specific heat capacity of water; (iii) and (iv) are due to the high specific latent heat of fusion of ice.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Lamps in a circuit with two switches",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "series and parallel circuits with switches"
+   ],
+   "question": "The diagram below shows an electric circuit. Which lamps light when switch S1 is closed and S2 is open?\n(Circuit: 6 V supply; switch S1 in the main line; after S1 the circuit has lamps L1 and L2 in series in one branch, and a parallel branch containing switch S2 in series with lamp L3.)",
+   "options": {
+    "a": "L1 only",
+    "b": "L3 only",
+    "c": "L1 and L2 only",
+    "d": "L1, L2 and L3"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) L1 and L2 only. With S1 closed, current flows through the L1–L2 branch; the L3 branch is broken because S2 is open.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Factors increasing resistance",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "R = ρl/A",
+    "resistance vs temperature"
+   ],
+   "question": "How the two factors should be changed in order to increase the resistance of a wire in a circuit?\n(Size of wire / Temperature of wire)",
+   "options": {
+    "a": "Size: longer; Temperature: lower",
+    "b": "Size: shorter; Temperature: lower",
+    "c": "Size: thicker; Temperature: higher",
+    "d": "Size: thinner; Temperature: higher"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) thinner, higher. R = ρl/A: a thinner wire (smaller A) has more resistance, and for a metal resistance increases with temperature.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(i)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Levers in the human body",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "class II lever",
+    "class III lever in human body"
+   ],
+   "question": "Match the columns by choosing the body part and corresponding mechanical lever of the same class.\nHuman body part: i. Raising a load by forearm; ii. Lifting body weight on your toes\nMechanical lever: (a) Nut cracker; (b) Knife; (c) Physical balance",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Raising a load by forearm",
+     "accepted": [
+      "(b) Knife",
+      "Knife",
+      "b"
+     ]
+    },
+    {
+     "prompt": "Lifting body weight on your toes",
+     "accepted": [
+      "(a) Nut cracker",
+      "Nut cracker",
+      "Nutcracker",
+      "a"
+     ]
+    }
+   ],
+   "solution": "i – (b) Knife (both class III: effort between fulcrum and load). ii – (a) Nut cracker (both class II: load between fulcrum and effort).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Ice cools better than water at 0 °C",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "latent heat of fusion of ice"
+   ],
+   "question": "Soft drinks are more effectively cooled by ice cubes than by water at 0 °C. Explain.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Ice at 0 °C first absorbs a large amount of latent heat (336 J per gram) from the drink to melt into water at 0 °C, without any rise in its own temperature; only after that does it absorb heat as water. Water at 0 °C can absorb only its sensible heat. Hence ice extracts much more heat and cools the drink more effectively.",
+   "marking_points": [
+    {
+     "point": "Ice absorbs latent heat of fusion (336 J/g) while melting",
+     "marks": 1
+    },
+    {
+     "point": "Hence absorbs more heat than water at 0 °C, cooling better",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Sound box: forced vibrations/resonance",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "forced vibrations",
+    "resonance"
+   ],
+   "question": "All stringed musical instruments are provided with a large and hollow sound box. What kind of sound is heard from this sound box and why?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A loud sound is heard. The vibrating strings cause forced vibrations of the sound box and the large mass of air inside it; the air in the box resonates (its natural frequency matches), so a large area/volume of air vibrates and the sound becomes louder (greater amplitude).",
+   "marking_points": [
+    {
+     "point": "Loud sound (increased loudness)",
+     "marks": 1
+    },
+    {
+     "point": "Forced vibrations/resonance of the air in the box; larger vibrating area",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "diagram",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Convex lens image same size as object",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "convex lens image at 2F"
+   ],
+   "question": "A convex lens forms an image of an object equal to the size of the object. Draw the diagram to illustrate this situation.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Draw a convex lens with principal axis, F₁, F₂, 2F₁, 2F₂ marked. Object AB at 2F₁. Ray from B parallel to the axis refracts through F₂; ray from B through optical centre O goes undeviated. They meet at B' below the axis at 2F₂. Image A'B' at 2F₂: real, inverted and of the same size as the object.",
+   "marking_points": [
+    {
+     "point": "Object at 2F and two correct rays with arrows",
+     "marks": 1
+    },
+    {
+     "point": "Real, inverted, same-size image at 2F on the other side, labelled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(v)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Equivalent resistance of a network",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 4,
+   "concepts": [
+    "series-parallel combination"
+   ],
+   "question": "Calculate the resistance between terminals P and Q.\n(Network: a rectangle with P at the bottom-left corner and Q at the top-right corner. Left side 3 Ω, top side 2 Ω, right side 3 Ω, bottom side 2 Ω, and a 1 Ω resistor along the diagonal directly joining P and Q.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Between P and Q there are three parallel paths: left 3 Ω + top 2 Ω = 5 Ω; bottom 2 Ω + right 3 Ω = 5 Ω; diagonal 1 Ω.\n1/R = 1/5 + 1/5 + 1/1 = 7/5 → R = 5/7 Ω ≈ 0.71 Ω.",
+   "marking_points": [
+    {
+     "point": "Identifying three parallel paths of 5 Ω, 5 Ω and 1 Ω",
+     "marks": 1
+    },
+    {
+     "point": "R = 5/7 Ω ≈ 0.71 Ω",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(vi)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Ultraviolet radiation and quartz prism",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "ultraviolet radiation"
+   ],
+   "question": "(a) Name the invisible radiations which are studied using the quartz prism.\n(b) State one use of the radiation mentioned by you in (a).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Ultraviolet radiation (glass absorbs UV; quartz transmits it).\n(b) Used to sterilise surgical instruments / purify water / detect forged documents / produce vitamin D.",
+   "marking_points": [
+    {
+     "point": "(a) Ultraviolet radiation",
+     "marks": 1
+    },
+    {
+     "point": "(b) Any one correct use",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(vii)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Useful power and electric power via efficiency",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "P = W/t",
+    "efficiency"
+   ],
+   "question": "A machine is used to lift a 100 kg stone to a vertical height 20 m in 80 s. Find the useful power of the machine. If the efficiency of the machine is 75%, find the electric power of the machine. (g = 10 m s⁻²)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Useful work = mgh = 100 × 10 × 20 = 20000 J. Useful power = 20000/80 = 250 W.\nEfficiency = output power/input power → input (electric) power = 250/0.75 = 333.3 W.",
+   "marking_points": [
+    {
+     "point": "Work = mgh = 20000 J",
+     "marks": 1
+    },
+    {
+     "point": "Useful power = 250 W",
+     "marks": 1
+    },
+    {
+     "point": "Electric power = 333.3 W",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 22,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Hazard of interchanged live and neutral",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "switch and fuse in live wire"
+   ],
+   "question": "Mr. Das calls an electrician to fix a power outage. The electrician interchanges the live and neutral wires in the socket. The appliances still work. What hazards could Mr. Das and his family face in this situation even though the circuit is complete?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The switch and fuse are then in the neutral wire. Even when the switch is off (or the fuse blows), the appliance remains connected to the live wire, so touching it while repairing/cleaning can give a severe electric shock. Also, in case of a short circuit/overload the fuse in the neutral line will not cut off the live supply, risking fire.",
+   "marking_points": [
+    {
+     "point": "Switch/fuse come in neutral line, so appliance stays live even when switched off",
+     "marks": 1
+    },
+    {
+     "point": "Risk of electric shock / fuse fails to protect against short circuit or fire",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Lateral displacement and refractive index",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "lateral displacement depends on RI"
+   ],
+   "question": "Raj performed an experiment using two glass slabs A and B of equal thickness but having different refractive indices. Which glass slab will produce a greater lateral displacement of the light ray and why?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The slab with the higher refractive index produces greater lateral displacement. For the same thickness and angle of incidence, a higher refractive index bends the ray more towards the normal inside the slab, so the emergent ray is shifted more.",
+   "marking_points": [
+    {
+     "point": "Slab with greater refractive index",
+     "marks": 1
+    },
+    {
+     "point": "Reason: more bending towards normal → greater lateral shift (same thickness)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 24,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Resistance and resistivity comparison",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "R = ρl/A",
+    "resistivity"
+   ],
+   "question": "Two copper wires A and B are of the same thickness and are at the room temperature. If the length of A is twice the length of B, then (a) Compare their resistances and (b) their resistivity.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) R ∝ l for the same material and thickness, so RA : RB = 2 : 1.\n(b) Resistivity depends only on the material and temperature, so ρA : ρB = 1 : 1.",
+   "marking_points": [
+    {
+     "point": "(a) RA : RB = 2 : 1",
+     "marks": 1
+    },
+    {
+     "point": "(b) Resistivities equal (1 : 1)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 25,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Heat energy from electric heater",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "electrical energy = VIt"
+   ],
+   "question": "An electric heater draws 5 A of current for 10 minutes when connected to 230 V power supply. Find the heat energy supplied.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "H = VIt = 230 × 5 × (10 × 60) = 690000 J = 6.9 × 10⁵ J.",
+   "marking_points": [
+    {
+     "point": "H = VIt with t = 600 s",
+     "marks": 1
+    },
+    {
+     "point": "6.9 × 10⁵ J",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(v)",
+   "q_order": 26,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Circumstances of electric shock",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "earthing",
+    "electric shock"
+   ],
+   "question": "An electric gadget can give an electric shock to its user under certain circumstances. Mention any of these two circumstances.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1. When the live wire touches the metallic body of the gadget due to faulty/worn-out insulation and the body is not earthed.\n2. When the switch is connected in the neutral wire, or the gadget is handled with wet hands/while standing on a wet floor.",
+   "marking_points": [
+    {
+     "point": "Live wire touching unearthed metal body (faulty insulation)",
+     "marks": 1
+    },
+    {
+     "point": "Switch in neutral / wet hands etc.",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 27,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Total internal reflection in a right-angled prism",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "total internal reflection",
+    "critical angle"
+   ],
+   "question": "The critical angle of the material of the given prism below is 42°. Copy and complete the path of the incident ray till the light ray emerges out.\n(Figure: a right-angled prism with angles 30° at the top, 60° at the bottom-left and 90° at the bottom-right; a ray enters normally (vertically upward) through the horizontal base.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The ray enters the base normally and goes straight up undeviated to the slanting face (hypotenuse). There the angle of incidence is 60°, which is greater than the critical angle 42°, so the ray is totally internally reflected. The reflected ray travels towards the vertical face, making an angle of incidence of 30° (< 42°) with its normal, so it refracts out into air bending away from the normal (angle of refraction ≈ 48°, since μ = 1/sin 42° ≈ 1.5 and sin r = 1.5 × sin 30° ≈ 0.75).",
+   "marking_points": [
+    {
+     "point": "Ray passes undeviated through base",
+     "marks": 0.5
+    },
+    {
+     "point": "i = 60° at hypotenuse, > 42°, total internal reflection drawn",
+     "marks": 1.5
+    },
+    {
+     "point": "Emerges from vertical face with i = 30°, bending away from normal",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Right-angled prism (30° top, 60° bottom-left, 90° bottom-right) with a ray incident normally on the base from below.",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_ssrvm/p5.jpg"
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 28,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Convex lens as magnifier: v and f",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "magnification",
+    "lens formula"
+   ],
+   "question": "A convex lens forms an image 16 cm long of an object 4 cm long kept at a distance 6 cm from the lens. The object and the image are on the same side of the lens.\n(a) What is the nature of the image?\n(b) Find the position of the image and (c) the focal length of the lens.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Virtual, erect and magnified (same side as object).\n(b) m = I/O = +16/4 = +4 = v/u; u = −6 cm → v = −24 cm, i.e. 24 cm from the lens on the same side as the object.\n(c) 1/f = 1/v − 1/u = 1/(−24) − 1/(−6) = −1/24 + 4/24 = 3/24 → f = +8 cm.",
+   "marking_points": [
+    {
+     "point": "(a) Virtual, erect, magnified",
+     "marks": 1
+    },
+    {
+     "point": "(b) m = +4, v = −24 cm",
+     "marks": 1
+    },
+    {
+     "point": "(c) Lens formula applied",
+     "marks": 1
+    },
+    {
+     "point": "f = 8 cm",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 29,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "MCB and fuse rating",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "MCB",
+    "fuse rating"
+   ],
+   "question": "(a) Which electrical component protects the electric circuit in case of excess current and which can also be used as a switch?\n(b) Name the wire to which this electrical component is connected in an electric circuit.\n(c) In relation to current rating what kind of fuse wire is used in the appliances like bulb.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Miniature Circuit Breaker (MCB).\n(b) The live wire.\n(c) A fuse wire of low current rating (thin wire, e.g. 5 A rating for the lighting circuit), slightly above the normal current drawn by the bulb.",
+   "marking_points": [
+    {
+     "point": "(a) MCB",
+     "marks": 1
+    },
+    {
+     "point": "(b) Live wire",
+     "marks": 1
+    },
+    {
+     "point": "(c) Low current rating fuse",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 30,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Circuit with internal resistance",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "parallel resistors",
+    "emf and internal resistance"
+   ],
+   "question": "The diagram below shows three resistors connected across a cell of e.m.f. 1.8 V and internal resistance r. Calculate:\n(a) Current through 3 Ω resistor\n(b) The internal resistance r.\n(Circuit: 3 Ω and 1.5 Ω resistors in parallel, this combination in series with a 4 Ω resistor, a key and the cell (1.8 V, r); current in the main circuit is 0.3 A.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Parallel combination: 1/Rp = 1/3 + 1/1.5 = 1 → Rp = 1 Ω. External resistance = 1 + 4 = 5 Ω.\n(a) P.d. across the parallel part = 0.3 × 1 = 0.3 V; current through 3 Ω = 0.3/3 = 0.1 A.\n(b) ε = I(R + r): 1.8 = 0.3(5 + r) → 5 + r = 6 → r = 1 Ω.",
+   "marking_points": [
+    {
+     "point": "Rp = 1 Ω, external R = 5 Ω",
+     "marks": 1
+    },
+    {
+     "point": "Current through 3 Ω = 0.1 A",
+     "marks": 1
+    },
+    {
+     "point": "ε = I(R + r) applied",
+     "marks": 1
+    },
+    {
+     "point": "r = 1 Ω",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(ii)(a)",
+   "q_order": 31,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Energy equivalent of 1 amu",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Energy equivalent of 1 amu"
+   ],
+   "question": "One atomic mass unit (a.m.u.) is equivalent to energy of ____. [931 eV / 931 MeV / 1 MeV]",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "One atomic mass unit (a.m.u.) is equivalent to energy of ____. [931 eV / 931 MeV / 1 MeV]",
+     "accepted": [
+      "931 MeV",
+      "931MeV"
+     ]
+    }
+   ],
+   "solution": "931 MeV",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(ii)(b)",
+   "q_order": 32,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Lens from magnification",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Lens from magnification"
+   ],
+   "question": "The magnification produced by a lens is +0.8. The lens is ____ [concave / convex].",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The magnification produced by a lens is +0.8. The lens is ____ [concave / convex].",
+     "accepted": [
+      "concave",
+      "concave lens"
+     ]
+    }
+   ],
+   "solution": "concave (positive magnification less than 1 means a virtual, erect, diminished image, formed only by a concave lens)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(ii)(c)",
+   "q_order": 33,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "EMF and terminal voltage on open circuit",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "EMF and terminal voltage on open circuit"
+   ],
+   "question": "E.M.F. of a cell is ____ (greater than / equal to / smaller than) the terminal voltage when cell is not in use.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "E.M.F. of a cell is ____ (greater than / equal to / smaller than) the terminal voltage when cell is not in use.",
+     "accepted": [
+      "equal to",
+      "equal"
+     ]
+    }
+   ],
+   "solution": "equal to (no current flows, so there is no voltage drop across the internal resistance)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 34,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Centre of gravity and stability of a block tower",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "centre of gravity",
+    "stability"
+   ],
+   "question": "In the given diagram a man is making a tower of wooden blocks by keeping one block over other.\n(a) How is the man able to make this balance of all blocks?\n(b) Define the concept used in making the balance of all blocks.\n(c) Is there any role of mass and shape in making the balance of these wooden blocks?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) He places the blocks so that the vertical line through the combined centre of gravity of the blocks above any level always falls within the base of support below; then the tower stays balanced.\n(b) Centre of gravity: the point through which the entire weight of a body acts, whatever its orientation.\n(c) Yes. The position of the centre of gravity depends on the distribution of mass and on the shape of the body, so both affect the balance.",
+   "marking_points": [
+    {
+     "point": "(a) Keeps C.G. vertically over the base of support",
+     "marks": 1
+    },
+    {
+     "point": "(b) Definition of centre of gravity",
+     "marks": 1
+    },
+    {
+     "point": "(c) Yes – C.G. depends on mass distribution and shape",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Photo of a hand building a Jenga-like tower of wooden blocks, with blocks offset from one another.",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_ssrvm/p6.jpg"
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 35,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Magnifying glass: thickness and focal length",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "magnifying glass",
+    "focal length and thickness"
+   ],
+   "question": "Read the case given below and answer the questions that follow:\nRaju's uncle asked Raju to bring a magnifying glass to read the newspaper. Raju brings three glasses of different thickness and Raju's uncle picks up the thickest glass.\n(a) What kind of lens is the magnifying glass?\n(b) Why did Raju's uncle select the thickest glass?\n(c) Name the method that Raju will use to find the focal length of the lens?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Convex (converging) lens.\n(b) The thickest lens has the shortest focal length (greatest power), so it gives the greatest magnification.\n(c) The distant object method: focus the image of a distant object (e.g. a far-off tree/sun) on a screen; the distance between the lens and the screen is the focal length.",
+   "marking_points": [
+    {
+     "point": "(a) Convex lens",
+     "marks": 1
+    },
+    {
+     "point": "(b) Thicker lens → shorter focal length → more magnification",
+     "marks": 1
+    },
+    {
+     "point": "(c) Distant object method",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 36,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Resonance in pendulum-like wires of different lengths",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "resonance",
+    "natural frequency and length"
+   ],
+   "question": "The adjacent diagram shows four solid plastic balls with wires fitted on a wooden base. A person shakes the wooden base to and fro (forward and backward) periodically. It is observed that even the balls start vibrating. It is also observed that all balls vibrate, but only one ball vibrates vigorously.\n(a) Why only one ball vibrates vigorously? (only 1 sentence)\n(b) If fA, fB, fC and fD are the natural frequencies of vibration of the wires, then arrange them in the increasing order of their frequencies and give reasons for the same.\n(Figure: four vertical wires on a wooden base with balls at their tops; heights in decreasing order D > A > C > B.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) The ball whose natural frequency equals the frequency of shaking of the base is in resonance, so it vibrates with maximum amplitude.\n(b) fD < fA < fC < fB. The natural frequency of a wire decreases as its length increases; D is the longest and B the shortest.",
+   "marking_points": [
+    {
+     "point": "(a) Resonance – natural frequency equals frequency of shaking",
+     "marks": 1
+    },
+    {
+     "point": "(b) fD < fA < fC < fB",
+     "marks": 1
+    },
+    {
+     "point": "(b) Reason: longer wire → lower natural frequency",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Four vertical wires A, B, C, D with plastic balls on top fixed to a wooden base; D tallest, then A, then C, B shortest.",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_ssrvm/p6.jpg"
+  },
+  {
+   "q_label": "6(iv)",
+   "q_order": 37,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Balancing a metre scale with multiple weights",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "principle of moments",
+    "moment of force factors"
+   ],
+   "question": "(a) A uniform meter scale of weight 50 gf is balanced at 60 cm mark, when a weight of 15 gf is suspended at its 10 cm mark. Where must a weight of 100 gf be suspended to balance the metre scale?\n(b) State one factor that depends on moment of force.\n[Printed as 6(iv); the paper has no 6(iii).]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Fulcrum at 60 cm. Anticlockwise moments: weight of scale at 50 cm = 50 × 10 = 500 gf cm; 15 gf at 10 cm = 15 × 50 = 750 gf cm; total = 1250 gf cm.\nClockwise moment: 100 × d = 1250 → d = 12.5 cm on the right of the fulcrum → 100 gf at the 72.5 cm mark.\n(b) Moment of force depends on (i) the magnitude of the force and (ii) the perpendicular distance of the line of action of the force from the pivot.",
+   "marking_points": [
+    {
+     "point": "Weight of scale acts at 50 cm; anticlockwise moments 1250 gf cm",
+     "marks": 1
+    },
+    {
+     "point": "Principle of moments 100 × d = 1250",
+     "marks": 1
+    },
+    {
+     "point": "Position 72.5 cm mark",
+     "marks": 1
+    },
+    {
+     "point": "(b) Magnitude of force / perpendicular distance from pivot",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 38,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Work, Power and Energy",
+   "topic": "Energy-height graph of falling body",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "conservation of mechanical energy",
+    "KE-PE graph"
+   ],
+   "question": "Study the given below graph, answer the following questions:\n(Graph: energy (y-axis) vs height above the ground (x-axis). Line C is horizontal; line A rises from the origin; line B falls from the top-left to zero at the right; A and B cross at point O.)\n(a) What is indicated by graph line B?\n(b) What correlation do you find between lines A and B?\n(c) What conclusion can be drawn from point O?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Line B shows the kinetic energy of the body, which decreases as the height above the ground increases.\n(b) A (potential energy) increases with height exactly as B (kinetic energy) decreases, so their sum (line C, total mechanical energy) remains constant — conservation of mechanical energy.\n(c) At O, kinetic energy = potential energy = half the total mechanical energy; this happens at half the maximum height.",
+   "marking_points": [
+    {
+     "point": "(a) Kinetic energy",
+     "marks": 1
+    },
+    {
+     "point": "(b) PE increases as KE decreases; sum constant (C)",
+     "marks": 1
+    },
+    {
+     "point": "(c) At O, KE = PE = half of total energy (mid-height)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Energy vs height-above-ground graph: horizontal line C (total energy), rising line A (PE) and falling line B (KE) crossing at point O.",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_ssrvm/p7.jpg"
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 39,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Mixture of ice and liquid: final temperature",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "principle of calorimetry",
+    "latent heat of fusion"
+   ],
+   "question": "50 g of ice at 0 °C is added to 300 g of a liquid at 30 °C. What will be the final temperature of the mixture when all the ice has melted? The specific heat capacity of the liquid is 2.65 J g⁻¹ °C⁻¹ while that of water is 4.2 J g⁻¹ °C⁻¹, specific latent heat of fusion of ice = 336 J g⁻¹.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Let final temperature be T.\nHeat gained by ice = 50 × 336 + 50 × 4.2 × T = 16800 + 210T.\nHeat lost by liquid = 300 × 2.65 × (30 − T) = 795(30 − T) = 23850 − 795T.\nHeat gained = heat lost: 16800 + 210T = 23850 − 795T → 1005T = 7050 → T ≈ 7.0 °C.",
+   "marking_points": [
+    {
+     "point": "Heat gained by ice (melting + warming) = 16800 + 210T",
+     "marks": 1
+    },
+    {
+     "point": "Heat lost by liquid = 795(30 − T)",
+     "marks": 1
+    },
+    {
+     "point": "Principle of calorimetry equation",
+     "marks": 1
+    },
+    {
+     "point": "T ≈ 7 °C",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 40,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Burning paper with a convex lens",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "convex lens converges parallel rays",
+    "burning glass"
+   ],
+   "question": "(a) Is it possible for Rohan to burn a piece of paper using a convex lens in day light without using a matchbox or any direct flame?\n(b) Draw a diagram to support your answer.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Yes. A convex lens converges the parallel rays of sunlight (including heat/infrared rays) to its focus; the concentrated energy raises the temperature of the paper placed at the focus until it burns.\n(b) Diagram: parallel rays from the sun falling on a convex lens, converging after refraction to the principal focus F where the paper is kept; label lens, sun rays, F and paper.",
+   "marking_points": [
+    {
+     "point": "(a) Yes",
+     "marks": 0.5
+    },
+    {
+     "point": "(a) Reason: lens converges sun's rays/heat at focus",
+     "marks": 1
+    },
+    {
+     "point": "(b) Diagram: parallel rays converging to F on paper, labelled",
+     "marks": 1.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 41,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Class III lever: increasing M.A.",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "class III lever",
+    "M.A. = effort arm/load arm"
+   ],
+   "question": "Observe the figure and answer the questions that follow:\n(Figure: a lever with fulcrum F at the left end, effort E applied upward at point A in the middle, and load L hanging at the right end B; the effort arm FA is shorter than the load arm FB.)\n(a) How is it possible to increase the M.A. of the given lever.\n(b) Which one out of forceps or crowbar belongs to the class of lever shown in the above figure?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) This is a class III lever (M.A. < 1). M.A. can be increased by increasing the effort arm, i.e. applying the effort farther from the fulcrum, closer to the load (or by shifting the load closer to the fulcrum).\n(b) Forceps.",
+   "marking_points": [
+    {
+     "point": "(a) Increase effort arm / move effort closer to load",
+     "marks": 1
+    },
+    {
+     "point": "(b) Forceps",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Lever with fulcrum F at one end, effort E upward at middle point A, load L at far end B; effort arm and load arm marked.",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_ssrvm/p7.jpg"
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 42,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Infrared radiation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "infrared radiation",
+    "electromagnetic spectrum"
+   ],
+   "question": "A mercury thermometer when placed in a radiation X, shows a rapid increase in temperature.\n(a) Name the radiation X.\n(b) Write the approximate wavelength of the radiation mentioned above in part (a).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Infrared radiation.\n(b) About 8000 Å (0.8 µm) to 1 mm, i.e. roughly 10⁻⁶ m to 10⁻³ m.",
+   "marking_points": [
+    {
+     "point": "(a) Infrared",
+     "marks": 1
+    },
+    {
+     "point": "(b) 0.8 µm – 1 mm",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 43,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Echo between two cliffs",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "echo",
+    "v = 2d/t"
+   ],
+   "question": "A man stands between two cliffs such that he is at a distance of 133.6 m from nearer cliff. He fires a gun and hears first echo after 0.8 s and second echo after 1.8 s. Calculate (a) speed of the sound (b) distance between the two cliffs.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) 2d₁ = v t₁ → v = 2 × 133.6/0.8 = 334 m/s.\n(b) Distance of farther cliff d₂ = v t₂/2 = 334 × 1.8/2 = 300.6 m. Distance between cliffs = 133.6 + 300.6 = 434.2 m.",
+   "marking_points": [
+    {
+     "point": "v = 2d/t",
+     "marks": 1
+    },
+    {
+     "point": "v = 334 m/s",
+     "marks": 1
+    },
+    {
+     "point": "d₂ = 300.6 m",
+     "marks": 1
+    },
+    {
+     "point": "Distance between cliffs = 434.2 m",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "8(iv)",
+   "q_order": 44,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Wavelength of light in glass",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "refractive index and wavelength"
+   ],
+   "question": "A ray of light of wavelength 5400 Å suffers refraction from air to glass. Taking aμg = 3/2, find the wavelength of light in glass.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Frequency is unchanged, so μ = λair/λglass → λglass = 5400/1.5 = 3600 Å.",
+   "marking_points": [
+    {
+     "point": "μ = λa/λg",
+     "marks": 1
+    },
+    {
+     "point": "λg = 3600 Å",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "9(i)",
+   "q_order": 45,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Fissionability of uranium isotopes; alpha decay equation",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "nuclear fission of U-235",
+    "alpha decay equation"
+   ],
+   "question": "The ore of uranium found in nature contains ²³⁸₉₂U and ²³⁵₉₂U. Although both the isotopes are fissionable, it is found out experimentally that one of the isotopes is more easily fissionable.\n(a) Name the isotope of uranium which is easily fissionable.\n(b) Give a reason for your answer.\n(c) Write a nuclear reaction when uranium 238 emits an alpha particle to form a Thorium (Th) nucleus.\n[The paper prints the second isotope as ²³⁵₉₀U, a misprint for ²³⁵₉₂U.]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Uranium-235 (²³⁵₉₂U).\n(b) U-235 can be split by slow (thermal) neutrons; it has an odd number of neutrons (143), so absorbing a neutron releases enough energy to cause fission, whereas U-238 needs fast, high-energy neutrons (and usually captures slow ones without fission).\n(c) ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He (+ energy).",
+   "marking_points": [
+    {
+     "point": "(a) U-235",
+     "marks": 1
+    },
+    {
+     "point": "(b) Fissionable by slow neutrons (U-238 needs fast neutrons)",
+     "marks": 1
+    },
+    {
+     "point": "(c) Correct products ²³⁴₉₀Th + ⁴₂He",
+     "marks": 1
+    },
+    {
+     "point": "(c) Balanced mass and atomic numbers",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "9(ii)",
+   "q_order": 46,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Fission vs fusion",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "nuclear fission",
+    "nuclear fusion"
+   ],
+   "question": "Write two differences between nuclear fission and fusion.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1. Fission: a heavy nucleus splits into two lighter nuclei; fusion: two light nuclei combine to form a heavier nucleus.\n2. Fission can take place at ordinary temperature by neutron bombardment and produces radioactive waste; fusion requires very high temperature (~10⁷ K) and pressure and produces little/no radioactive waste.",
+   "marking_points": [
+    {
+     "point": "Splitting heavy nucleus vs combining light nuclei",
+     "marks": 1
+    },
+    {
+     "point": "Conditions or radioactive waste difference",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "9(iii)",
+   "q_order": 47,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Work, Power and Energy",
+   "topic": "Maximum height with and without air friction",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "kinetic energy",
+    "conservation of energy with friction"
+   ],
+   "question": "A body of mass 2 kg is thrown vertically upwards with an initial velocity of 50 m s⁻¹. Calculate (a) the initial kinetic energy imparted to the body, (b) the maximum height reached if friction due to air is neglected and (c) the maximum height reached if 25% of the initial energy is lost against air friction.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) KE = ½mv² = ½ × 2 × 50² = 2500 J.\n(b) mgh = KE → h = 2500/(2 × 10) = 125 m (taking g = 10 m s⁻²; with g = 9.8 m s⁻², h ≈ 127.6 m).\n(c) Energy available = 75% of 2500 = 1875 J → h = 1875/(2 × 10) = 93.75 m (≈ 95.7 m with g = 9.8).",
+   "marking_points": [
+    {
+     "point": "(a) KE = 2500 J",
+     "marks": 1
+    },
+    {
+     "point": "(b) mgh = KE",
+     "marks": 0.5
+    },
+    {
+     "point": "(b) h = 125 m",
+     "marks": 0.5
+    },
+    {
+     "point": "(c) Energy left = 1875 J",
+     "marks": 1
+    },
+    {
+     "point": "(c) h = 93.75 m",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  }
+ ]
+}

@@ -1,0 +1,2246 @@
+{
+ "paper_id": "prelim_geography_universal",
+ "subject": "geography",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · Universal",
+ "source": "prelim",
+ "school": "Universal High School",
+ "exam_label": "Prelim 2",
+ "max_marks": 70.0,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Part I (30 marks) is compulsory - attempt all questions. Attempt any five questions from Part II (50 marks). Survey of India Map Sheet G43S10 supplied; the outline map of India, after marking, must be fastened to the answer booklet. Use arrows in map work to avoid overcrowding. Answer sub-sections in serial order. Q1 (toposheet map reading) is omitted: the school paper was shared without its Survey of India map extract.",
+ "sections": [
+  {
+   "name": "Part I",
+   "total_marks": 20.0,
+   "rule": "Attempt all questions from this Part",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Part II",
+   "total_marks": 50,
+   "rule": "Attempt any five questions from this Part (Q4-Q12)",
+   "compulsory": false,
+   "attempt_n": 5,
+   "out_of": 9
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "2(i)",
+   "q_order": 0,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "River Kosi",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "River Kosi"
+   ],
+   "question": "On the outline map of India provided: Mark and label the River Kosi.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Kosi rises in Nepal/Tibet and flows south through north Bihar to join the Ganga near Kursela (east of Bhagalpur). Draw it in north Bihar and label 'R. Kosi'.",
+   "marking_points": [
+    {
+     "point": "Correct location marked and labelled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Outline map of India (not reproduced) on which the student marks the feature",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p2.jpg"
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 1,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Northern Circars",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Northern Circars"
+   ],
+   "question": "On the outline map of India provided: Mark and label the Northern Circars.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Northern Circars is the northern part of the Eastern Coastal Plain, between the Mahanadi and Krishna deltas (coastal Odisha-Andhra Pradesh). Shade this coastal strip and label it.",
+   "marking_points": [
+    {
+     "point": "Correct location marked and labelled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Outline map of India (not reproduced) on which the student marks the feature",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p2.jpg"
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 2,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Nilgiri Hills",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Nilgiri Hills"
+   ],
+   "question": "On the outline map of India provided: Mark and label the Mountains also known as Blue Mountains.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Nilgiri Hills (Blue Mountains), at the junction of the Western and Eastern Ghats in Tamil Nadu (around Ooty). Mark with hill symbol and label 'Nilgiris'.",
+   "marking_points": [
+    {
+     "point": "Correct location marked and labelled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Outline map of India (not reproduced) on which the student marks the feature",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p2.jpg"
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 3,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Jharia coalfield",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Jharia coalfield"
+   ],
+   "question": "On the outline map of India provided: Mark and label the coal field at Jharia.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Jharia coalfield is in the Damodar valley near Dhanbad, Jharkhand. Mark with a dot/symbol and label 'Jharia'.",
+   "marking_points": [
+    {
+     "point": "Correct location marked and labelled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Outline map of India (not reproduced) on which the student marks the feature",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p2.jpg"
+  },
+  {
+   "q_label": "2(v)",
+   "q_order": 4,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Andaman Sea",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Andaman Sea"
+   ],
+   "question": "On the outline map of India provided: Mark and label Andaman Sea.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Andaman Sea lies east of the Andaman and Nicobar Islands, between them and Myanmar/Thailand. Label the water body there.",
+   "marking_points": [
+    {
+     "point": "Correct location marked and labelled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Outline map of India (not reproduced) on which the student marks the feature",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p2.jpg"
+  },
+  {
+   "q_label": "2(vi)",
+   "q_order": 5,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Nathu La pass",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Nathu La pass"
+   ],
+   "question": "On the outline map of India provided: Mark and label the Nathu La Pass.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Nathu La is on the Sikkim-Tibet (India-China) border, east of Gangtok. Mark on the north-eastern border of Sikkim and label.",
+   "marking_points": [
+    {
+     "point": "Correct location marked and labelled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Outline map of India (not reproduced) on which the student marks the feature",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p2.jpg"
+  },
+  {
+   "q_label": "2(vii)",
+   "q_order": 6,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Laterite soil in North-East",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Laterite soil in North-East"
+   ],
+   "question": "On the outline map of India provided: Mark and label area in North East India with Laterite Soil.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Laterite soil in the North-East occurs on the Meghalaya plateau (Garo-Khasi-Jaintia hills) and parts of Assam hills. Shade the Meghalaya region and label 'Laterite soil'.",
+   "marking_points": [
+    {
+     "point": "Correct location marked and labelled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Outline map of India (not reproduced) on which the student marks the feature",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p2.jpg"
+  },
+  {
+   "q_label": "2(viii)",
+   "q_order": 7,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Chandigarh",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Chandigarh"
+   ],
+   "question": "On the outline map of India provided: Mark and label the city in Northern India which is the most well planned city with grid like structure.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Chandigarh (planned by Le Corbusier with a sector grid), the joint capital of Punjab and Haryana. Mark with a dot and label.",
+   "marking_points": [
+    {
+     "point": "Correct location marked and labelled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Outline map of India (not reproduced) on which the student marks the feature",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p2.jpg"
+  },
+  {
+   "q_label": "2(ix)",
+   "q_order": 8,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Highest peak in India",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Highest peak in India"
+   ],
+   "question": "On the outline map of India provided: Mark and label the highest peak in India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Mt K2 (Godwin Austen, 8611 m) in the Karakoram (Ladakh, Indian-claimed territory) is generally given as the highest peak of India in ICSE texts; Kanchenjunga (8586 m, Sikkim) is the highest peak within Indian-administered territory. Mark the peak with a triangle and label (either accepted).",
+   "marking_points": [
+    {
+     "point": "Correct location marked and labelled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Outline map of India (not reproduced) on which the student marks the feature",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p2.jpg"
+  },
+  {
+   "q_label": "2(x)",
+   "q_order": 9,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Sparsely populated state of North India",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Sparsely populated state of North India"
+   ],
+   "question": "On the outline map of India provided: Mark and label the state which has sparse population in North India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Ladakh / Jammu & Kashmir high-altitude region (also accepted: Himachal Pradesh) - cold, mountainous, rugged terrain gives very low population density. Shade and label.",
+   "marking_points": [
+    {
+     "point": "Correct location marked and labelled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Outline map of India (not reproduced) on which the student marks the feature",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p2.jpg"
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 10,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Climate",
+   "topic": "Chennai and south-west monsoon",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 3,
+   "concepts": [
+    "rain shadow",
+    "Coromandel coast rainfall"
+   ],
+   "question": "Assertion (A): Chennai receives less rainfall during the south-west monsoon.\nReason (R): Chennai lies on the leeward side of the Western Ghats.",
+   "options": {
+    "a": "Both A and R are true and R is the correct explanation for A",
+    "b": "Both A and R are true but R does not explain A",
+    "c": "A is true but R is false",
+    "d": "A is false but R is true"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both A and R are true and R is the correct explanation for A. Chennai lies in the rain-shadow (leeward) side of the Western Ghats for the Arabian Sea branch, and the Bay of Bengal branch blows parallel to the coast, so it gets little SW monsoon rain.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 11,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Soil Resources",
+   "topic": "Black soil for cotton",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "black soil",
+    "moisture retention"
+   ],
+   "question": "________ soil is ideal for cotton cultivation due to its moisture retaining capacity.",
+   "options": {
+    "a": "Laterite",
+    "b": "Alluvial",
+    "c": "Black",
+    "d": "Red"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Black. Black (regur) soil is clayey and retains moisture for long, ideal for cotton.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 12,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Natural Vegetation",
+   "topic": "Identifying vegetation from a picture",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "tropical evergreen forest"
+   ],
+   "question": "Identify the type of natural vegetation shown in the picture given below:",
+   "options": {
+    "a": "Tropical Evergreen Forest",
+    "b": "Tropical Desert Forest",
+    "c": "Littoral Forest",
+    "d": "Tropical Deciduous Forest"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Tropical Evergreen Forest. The picture shows a dense, dark, multi-storeyed forest with thick undergrowth where little sunlight reaches the ground.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Photograph of a dense, dark forest interior with thick undergrowth",
+   "page": 3,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p3.jpg"
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 13,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Water Resources",
+   "topic": "Dams and rivers",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "multipurpose projects"
+   ],
+   "question": "Match the dam with the river it is built on:\nColumn A (Dams): 1. Bhakra Nangal  2. Hirakud  3. Nagarjuna Sagar  4. Mettur\nColumn B (Rivers): A. Mahanadi  B. Sutlej  C. Krishna  D. Kaveri",
+   "options": {
+    "a": "1-B, 2-A, 3-C, 4-D",
+    "b": "1-A, 2-C, 3-B, 4-D",
+    "c": "1-C, 2-B, 3-D, 4-A",
+    "d": "1-D, 2-A, 3-C, 4-B"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 1-B, 2-A, 3-C, 4-D. Bhakra Nangal - Sutlej; Hirakud - Mahanadi; Nagarjuna Sagar - Krishna; Mettur - Kaveri.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(v)",
+   "q_order": 14,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mineral Resources",
+   "topic": "Bauxite ore",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "bauxite",
+    "aluminium"
+   ],
+   "question": "Bauxite is the ore from which ______ is extracted.",
+   "options": {
+    "a": "Iron",
+    "b": "Copper",
+    "c": "Aluminium",
+    "d": "Manganese"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Aluminium. Bauxite is the chief ore of aluminium.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(vi)",
+   "q_order": 15,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Agriculture",
+   "topic": "Type of farming",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "commercial farming",
+    "Green Revolution inputs"
+   ],
+   "question": "Ravi is a farmer in Punjab. He uses High Yielding Variety (HYV) seeds, chemical fertilisers and irrigates his fields using tube wells. Which type of farming is practised by Ravi?",
+   "options": {
+    "a": "Subsistence Farming",
+    "b": "Mixed Farming",
+    "c": "Commercial Farming",
+    "d": "Plantation Farming"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Commercial Farming. Use of HYV seeds, fertilisers and tube-well irrigation to produce surplus for sale is (intensive) commercial farming.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(vii)",
+   "q_order": 16,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Manufacturing Industries",
+   "topic": "Raw-material-oriented industry",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "location of industry",
+    "weight-losing raw material"
+   ],
+   "question": "Which of the following industries is most likely to be located near a source of raw materials due to the high cost of transporting the bulky input?",
+   "options": {
+    "a": "Cotton Textile Industry",
+    "b": "Electronics Industry",
+    "c": "Iron and Steel Industry",
+    "d": "Software Industry"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Iron and Steel Industry. It uses heavy, weight-losing raw materials (iron ore, coal, limestone), so it is located near them.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(viii)",
+   "q_order": 17,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transport",
+   "topic": "Border Roads Organisation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Border Roads Organisation"
+   ],
+   "question": "Which of these is not a function of Border Roads Organisation?",
+   "options": {
+    "a": "Construction of roads in high-altitude areas",
+    "b": "Maintenance of roads in border areas",
+    "c": "Connecting metro cities through expressways",
+    "d": "Supporting defence operations with road networks"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Connecting metro cities through expressways. Expressways between metros are built by NHAI, not BRO, which builds and maintains strategic roads in border/high-altitude areas.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(ix)",
+   "q_order": 18,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Waste Management",
+   "topic": "Segregation of waste",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "segregation at source"
+   ],
+   "question": "Assertion (A): Segregating waste at source improves recycling efficiency.\nReason (R): Mixing biodegradable and non-biodegradable waste helps in composting.",
+   "options": {
+    "a": "Both A and R are true and R is the correct explanation for A",
+    "b": "Both A and R are true but R does not explain A",
+    "c": "A is true but R is false",
+    "d": "A is false but R is true"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) A is true but R is false. Segregation keeps recyclables clean; mixing non-biodegradable waste with wet waste actually hinders composting.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(x)",
+   "q_order": 19,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Waste Management",
+   "topic": "Vermicomposting",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "vermicomposting",
+    "soil fertility"
+   ],
+   "question": "Study the image given below and identify the method of waste disposal and its benefit to soil health.\n[Diagram: a covered bin with holes for air, bedding material, active area of garbage & worms, worm castings (compost), worm tea collection, storage bin, tap for tea, brick support.]",
+   "options": {
+    "a": "Incineration - Reduces waste volume",
+    "b": "Vermicomposting - Improves soil fertility",
+    "c": "Landfilling - Prevents air pollution",
+    "d": "Recycling - Reduced energy use"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Vermicomposting - Improves soil fertility. Worms convert organic waste into nutrient-rich worm castings.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Labelled diagram of a vermicomposting bin (worms, bedding, worm castings, worm tea tap)",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p5.jpg"
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 20,
+   "q_main": 4,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Climate",
+   "topic": "SW monsoon vs NE/retreating monsoon",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "Arabian Sea branch",
+    "north-east monsoon",
+    "retreating monsoon"
+   ],
+   "question": "Riya, a student in Rajasthan, notices that her hometown receives rainfall mainly in July and August due to winds coming from the Arabian Sea. Her cousin Arjun, who lives in Tamil Nadu, gets rainfall mostly in October and November.\n(a) Identify the name of the winds responsible for rainfall in each region.\n(b) Why does Tamil Nadu receive rainfall in October and November, even though the monsoon seems to be retreating?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Rajasthan: Arabian Sea branch of the South-West monsoon. Tamil Nadu: North-East monsoon / retreating (North-East) monsoon winds. (b) The retreating monsoon winds blowing from the north-east cross the Bay of Bengal, pick up moisture and strike the Coromandel (Tamil Nadu) coast, causing rain (aided by cyclonic depressions) in October-November.",
+   "marking_points": [
+    {
+     "point": "Rajasthan: SW monsoon (Arabian Sea branch)",
+     "marks": 0.5
+    },
+    {
+     "point": "Tamil Nadu: NE / retreating monsoon",
+     "marks": 0.5
+    },
+    {
+     "point": "Retreating NE winds pick up moisture over Bay of Bengal and give rain to TN coast",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 21,
+   "q_main": 4,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Climate",
+   "topic": "Loo",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "loo",
+    "hot dry season"
+   ],
+   "question": "At Lucknow, during the month of May, the hot dry season is characterised by a local wind, which increases the temperature for the city and keeps all the people mostly indoors during the afternoon.\n(a) What type of local wind is discussed?\n(b) How is it responsible for the given climatic condition prevailing in the above mentioned city?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Loo - a hot, dry, dusty local wind of the northern plains. (b) The Loo blows from the west/north-west (from the Thar desert) in the afternoons of May-June; it is very hot (45 deg C or more) and dry, raising temperatures sharply and can cause heat-stroke, so people stay indoors.",
+   "marking_points": [
+    {
+     "point": "Loo",
+     "marks": 1
+    },
+    {
+     "point": "Hot dry westerly wind from Thar desert raises afternoon temperature (heat-stroke)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 22,
+   "q_main": 4,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Climate",
+   "topic": "Reasons: western disturbances, windward side, continentality",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "western disturbances",
+    "windward vs leeward",
+    "desert diurnal range"
+   ],
+   "question": "Give geographical reasons for each of the following:\n(a) The Northwestern part of India experiences sudden rainfall in winter.\n(b) Mangalore receives more rainfall than Pune during the South - West Monsoon season.\n(c) The Thar desert experiences very high temperature during the day but low temperatures at night.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Western disturbances (temperate cyclones) originating over the Mediterranean Sea move eastward in winter and bring light rainfall to north-west India. (b) Mangalore lies on the windward side of the Western Ghats and gets heavy orographic rain, while Pune lies on the leeward (rain-shadow) side. (c) Sandy soil and clear, cloudless skies: sand heats up quickly by day and loses heat rapidly at night by radiation, so diurnal range is large.",
+   "marking_points": [
+    {
+     "point": "Western disturbances from Mediterranean",
+     "marks": 1
+    },
+    {
+     "point": "Mangalore windward, Pune leeward/rain shadow",
+     "marks": 1
+    },
+    {
+     "point": "Sand heats and cools fast; clear skies, no moisture",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(iv)",
+   "q_order": 23,
+   "q_main": 4,
+   "section": "Part II",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Climate",
+   "topic": "Climate data of station X",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "annual range of temperature",
+    "total rainfall",
+    "maritime influence"
+   ],
+   "question": "Study the climatic data of station X given below and answer the questions that follow:\nMonth: Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec\nTemp (deg C): 24.1 25.0 26.3 28.7 30.5 28.2 27.6 27.5 27.8 27.2 26.4 25.0\nRainfall (cms): 0.1 0.2 0.4 1.1 2.3 45.5 32.0 36.2 28.0 15.3 1.2 0.5\n(a) Calculate the annual range of temperature.\n(b) Calculate the total annual rainfall for Station X.\n(c) Is Station X in the coastal area or in the interior of the country? State the reason for the same.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Annual range = highest - lowest = 30.5 - 24.1 = 6.4 deg C. (b) Total rainfall = 0.1+0.2+0.4+1.1+2.3+45.5+32.0+36.2+28.0+15.3+1.2+0.5 = 162.8 cm. (c) Coastal area: the annual range of temperature is low (6.4 deg C), showing the moderating (maritime) influence of the sea; heavy SW-monsoon rain also suggests a west-coast station (like Mumbai).",
+   "marking_points": [
+    {
+     "point": "Annual range 6.4 deg C",
+     "marks": 1
+    },
+    {
+     "point": "Total rainfall 162.8 cm",
+     "marks": 1
+    },
+    {
+     "point": "Coastal, because low annual range (moderating influence of sea)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 24,
+   "q_main": 5,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Soil Resources",
+   "topic": "Bhangar and khadar",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "bhangar",
+    "khadar"
+   ],
+   "question": "Nathu, a farmer in Bihar, does not get good yields as the soil he tills is coarse and has fair proportion of kankars. Motilal on the other hand has field closer to the river and gets better yields.\n(a) Identify the two types of soil being discussed in the above passage.\n(b) Give a possible reason why Motilal benefits from having his field along the river banks.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Nathu: Bhangar (old alluvium, coarse with kankar nodules). Motilal: Khadar (new alluvium). (b) Khadar is renewed every year by fresh silt deposited by river floods, so it is fine-grained and very fertile; water for irrigation is also easily available.",
+   "marking_points": [
+    {
+     "point": "Bhangar",
+     "marks": 0.5
+    },
+    {
+     "point": "Khadar",
+     "marks": 0.5
+    },
+    {
+     "point": "Fresh fertile silt deposited annually by floods",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 25,
+   "q_main": 5,
+   "section": "Part II",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Soil Resources",
+   "topic": "Leaching and terrace farming",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "leaching",
+    "terracing"
+   ],
+   "question": "State the geographic term for each of the following processes:\n(a) The process by which soluble minerals dissolve in rainwater and percolate to the bottom, leaving the topsoil infertile.\n(b) The method of protecting soil on slopes by constructing step-like structures.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Soluble minerals dissolve in rainwater and percolate down, leaving topsoil infertile",
+     "accepted": [
+      "Leaching"
+     ]
+    },
+    {
+     "prompt": "Protecting soil on slopes by step-like structures",
+     "accepted": [
+      "Terracing",
+      "Terrace farming",
+      "Terrace cultivation",
+      "Terrace"
+     ]
+    }
+   ],
+   "solution": "(a) Leaching. (b) Terrace farming / terracing.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 26,
+   "q_main": 5,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Soil Resources",
+   "topic": "Reasons: conservation, laterite, black soil",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "soil conservation",
+    "laterite formation",
+    "self-ploughing black soil"
+   ],
+   "question": "Give geographical reasons for each of the following:\n(a) Soil conservation is the need of the hour.\n(b) Laterite soil is rich in iron and aluminium.\n(c) Black soil is suitable for cultivation with minimum tillage.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Soil takes hundreds of years to form but is being rapidly lost by erosion, deforestation, overgrazing and faulty farming; it supports agriculture and food security for a huge population, so it must be conserved. (b) Under heavy rainfall and high temperature, silica and lime are leached away, leaving behind oxides of iron and aluminium in the topsoil. (c) Black soil swells when wet and shrinks and develops deep cracks when dry, allowing air to enter - it 'self-ploughs', so little tillage is needed.",
+   "marking_points": [
+    {
+     "point": "Soil formation slow, erosion rapid; food security",
+     "marks": 1
+    },
+    {
+     "point": "Leaching removes silica/lime leaving iron & aluminium oxides",
+     "marks": 1
+    },
+    {
+     "point": "Self-ploughing: swells and cracks, aerating soil",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "5(iv)",
+   "q_order": 27,
+   "q_main": 5,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Soil Resources",
+   "topic": "Human causes of soil erosion and contour ploughing",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "deforestation",
+    "overgrazing",
+    "contour ploughing"
+   ],
+   "question": "(a) Mention and explain two causes for soil erosion by Humans.\n(b) Mention how contour ploughing can help mitigate soil erosion.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Deforestation: removal of trees exposes soil, roots no longer bind it, so rain and wind wash/blow it away. Overgrazing: animals remove the grass cover and loosen soil with their hooves, making it easily eroded. (Also: faulty farming like ploughing up and down slopes, shifting cultivation, mining/construction.) (b) Ploughing along the contour lines across the slope creates furrows that act as barriers, slowing the run-off of water and trapping soil.",
+   "marking_points": [
+    {
+     "point": "Cause 1 named and explained",
+     "marks": 1
+    },
+    {
+     "point": "Cause 2 named and explained",
+     "marks": 1
+    },
+    {
+     "point": "Contour furrows across slope slow run-off and trap soil",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 28,
+   "q_main": 6,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Natural Vegetation",
+   "topic": "Biodiversity loss and afforestation",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "biodiversity loss",
+    "Green India Mission"
+   ],
+   "question": "\"India is one of the 17 mega-diverse countries in the world but continues to face threats to its biodiversity due to rapid urbanisation and industrial growth.\" Source: Ministry of Environment, Forest and Climate Change, 2023\n(a) State any two causes of the loss of biodiversity in India.\n(b) Name a government initiative aimed at increasing the forest cover in India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Any two: deforestation/habitat destruction for urbanisation, industries and agriculture; pollution; poaching and illegal trade; mining and large dams; invasive species. (b) National Mission for a Green India (Green India Mission) / Social forestry / National Afforestation Programme / Van Mahotsav.",
+   "marking_points": [
+    {
+     "point": "Cause 1",
+     "marks": 0.5
+    },
+    {
+     "point": "Cause 2",
+     "marks": 0.5
+    },
+    {
+     "point": "Government initiative named",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 29,
+   "q_main": 6,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Natural Vegetation",
+   "topic": "Tropical deciduous forest and desert vegetation",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "teak and sal",
+    "xerophytes"
+   ],
+   "question": "(a) Why is the Tropical Deciduous Forest commercially the most important forest belt of India?\n(b) Why are long and deep roots a typical characteristic of Desert Vegetation?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) They cover a large area and yield valuable hardwood timber such as teak, sal, sandalwood, shisham; the trees grow in pure stands and are easily accessible, so commercial exploitation is easy. (b) Water is scarce in deserts; long, deep roots reach the underground water table to absorb moisture.",
+   "marking_points": [
+    {
+     "point": "Valuable timber (teak/sal), accessible, pure stands",
+     "marks": 1
+    },
+    {
+     "point": "Roots reach deep water in arid areas",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 30,
+   "q_main": 6,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Natural Vegetation",
+   "topic": "Reasons: stunted desert trees, forest cover, leaf shedding",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "xerophytic adaptations",
+    "afforestation",
+    "deciduous leaf fall"
+   ],
+   "question": "Give the geographical reason for the following:\n(a) The trees in the Tropical Desert Vegetation have stunted growth.\n(b) There has been a gradual increase in forest cover in India in recent times.\n(c) The trees in Monsoon Deciduous Vegetation shed their leaves for about 6 - 8 weeks during March and April.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Very low rainfall (below 50 cm), high temperatures and poor sandy soil do not allow the trees to grow tall. (b) Government afforestation and social forestry programmes, Joint Forest Management, plantations and stricter forest conservation laws. (c) To conserve moisture: in the dry hot season (before the monsoon) there is little water, so trees shed leaves to reduce loss of water by transpiration.",
+   "marking_points": [
+    {
+     "point": "Scanty rainfall / poor soil",
+     "marks": 1
+    },
+    {
+     "point": "Afforestation and conservation programmes",
+     "marks": 1
+    },
+    {
+     "point": "Reduce transpiration during dry season",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "6(iv)",
+   "q_order": 31,
+   "q_main": 6,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Natural Vegetation",
+   "topic": "Montane forests",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "montane forests",
+    "deodar/pine uses"
+   ],
+   "question": "(a) State two characteristic features of montane forests found in the Himalayan region.\n(b) Give an example of a tree found in montane forests and mention one of its economic uses.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Vegetation changes with altitude (wet temperate broad-leaved oak/chestnut at lower levels, conifers higher up, alpine grasses near snowline); coniferous trees are tall, cone-shaped with needle-like leaves and sloping branches so snow slides off; softwood, occur in pure stands. (b) Deodar - durable timber for construction and railway sleepers (or Pine - resin, turpentine; Spruce/Fir - paper and pulp).",
+   "marking_points": [
+    {
+     "point": "Feature 1",
+     "marks": 1
+    },
+    {
+     "point": "Feature 2",
+     "marks": 1
+    },
+    {
+     "point": "Tree example with economic use",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 32,
+   "q_main": 7,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Water Resources",
+   "topic": "Water scarcity and hill irrigation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "water scarcity",
+    "kuhl / sprinkler irrigation"
+   ],
+   "question": "Aditi, a student from Gujarat, learns that despite being close to rivers like Narmada and Tapi, her state still suffers from water scarcity during summers. Her cousin Rohan from Himachal Pradesh says his area has abundant water but poor irrigation.\n(a) State one reason why Gujarat may face water scarcity.\n(b) Mention one method suitable for irrigating hilly regions like Himachal Pradesh.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Low and erratic rainfall in much of Gujarat (Kutch, Saurashtra) with high evaporation, and over-exploitation of groundwater / uneven distribution of river water. (b) Kuhls (channels diverting stream water) / sprinkler or drip irrigation / terrace-wise channel irrigation.",
+   "marking_points": [
+    {
+     "point": "Reason for scarcity",
+     "marks": 1
+    },
+    {
+     "point": "Hill irrigation method (kuhls/sprinkler/drip)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 33,
+   "q_main": 7,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Water Resources",
+   "topic": "Rainwater harvesting",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "rainwater harvesting"
+   ],
+   "question": "With reference to rainwater harvesting:\n(a) Define Rainwater harvesting.\n(b) Mention two advantages of this method in urban areas.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Rainwater harvesting is the technique of collecting and storing rainwater (from rooftops/surfaces) for later use or recharging groundwater. (b) Recharges groundwater and raises the water table; reduces urban flooding/water-logging and storm-water run-off; reduces dependence on municipal supply.",
+   "marking_points": [
+    {
+     "point": "Definition",
+     "marks": 1
+    },
+    {
+     "point": "Advantage 1",
+     "marks": 0.5
+    },
+    {
+     "point": "Advantage 2",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 34,
+   "q_main": 7,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Water Resources",
+   "topic": "Tank, canal and tubewell irrigation",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "tank irrigation",
+    "canal irrigation",
+    "tubewell cost"
+   ],
+   "question": "Give geographical reason for the following:\n(a) Tank irrigation is not common in Northern India.\n(b) Canal irrigation is important in Punjab.\n(c) All farmers do not use tubewell irrigation even if the geographical condition is favourable.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Northern plains have perennial snow-fed rivers for canals and a high water table for wells, and the porous alluvial soil lets water seep away, so tanks are not needed or practical. (b) Punjab has perennial rivers (Sutlej, Beas, Ravi), level plains and soft alluvium that make digging canals easy. (c) Tubewells are costly to install and need regular electricity/diesel; small and poor farmers cannot afford them (and overuse lowers the water table).",
+   "marking_points": [
+    {
+     "point": "Perennial rivers/high water table; porous soil",
+     "marks": 1
+    },
+    {
+     "point": "Perennial rivers, flat land, soft soil",
+     "marks": 1
+    },
+    {
+     "point": "High cost and power requirement",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "7(iv)",
+   "q_order": 35,
+   "q_main": 7,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Water Resources",
+   "topic": "Stepwells",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "stepwell (baoli)",
+    "traditional water conservation"
+   ],
+   "question": "Observe the picture given below and answer the questions that follow:\n(a) Identify the water conservation method shown in the picture given above.\n(b) State two benefits of this method in arid regions.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Stepwell (baoli / vav), a traditional water-harvesting structure of Rajasthan and Gujarat. (b) Stores rainwater and groundwater for use in the long dry season; recharges groundwater; water stays cooler with less evaporation; steps give access to water even when the level falls.",
+   "marking_points": [
+    {
+     "point": "Stepwell / baoli",
+     "marks": 1
+    },
+    {
+     "point": "Benefit 1",
+     "marks": 1
+    },
+    {
+     "point": "Benefit 2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Photograph of a geometric stepped tank (stepwell / baoli)",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p9.jpg"
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 36,
+   "q_main": 8,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Energy Resources",
+   "topic": "Biogas in rural India",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "biogas",
+    "farm benefits"
+   ],
+   "question": "There is ample potential of setting up biogas plants in India. The National Bioenergy Programme has been recommended by the concerned Ministry, for implementation in two phases. The spread of biogas technology is a boon for Indian farmers with its direct and guaranteed benefits. (https://biogas.mnre.gov.in)\n(a) Do you think generation of biogas can be achieved in every household of rural India?\n(b) Mention one way in which generation of this form of energy proves to be a boon for Indian farmers.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Not in every household: a biogas plant needs a regular supply of cattle dung (several animals), space and initial investment, which poor/landless households may lack; community biogas plants are a solution. (b) The slurry left after gas production is a rich organic manure; it also provides cheap cooking fuel and saves firewood/dung cakes.",
+   "marking_points": [
+    {
+     "point": "No, with reason (needs cattle dung, space, cost)",
+     "marks": 1
+    },
+    {
+     "point": "Benefit: manure / cheap fuel",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 37,
+   "q_main": 8,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Mineral Resources",
+   "topic": "Minerals of Jharkhand; wind and solar vs coal",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "ferrous and non-ferrous minerals",
+    "renewable energy advantages"
+   ],
+   "question": "Ramesh is a mining engineer working in Jharkhand. He explains that his region is rich in coal and iron ore, which support nearby industries. His friend from Rajasthan complains that their area lacks such resources but has wind and solar energy potential.\n(a) Identify one ferrous and one non ferrous mineral mined in Jharkhand.\n(b) Mention two advantages of using wind and solar energy over coal.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Ferrous: iron ore (or manganese). Non-ferrous: copper (Singhbhum) / bauxite. (b) They are renewable/inexhaustible and pollution-free (no greenhouse gas or smoke); low running cost once installed.",
+   "marking_points": [
+    {
+     "point": "Ferrous mineral",
+     "marks": 0.5
+    },
+    {
+     "point": "Non-ferrous mineral",
+     "marks": 0.5
+    },
+    {
+     "point": "Advantage 1",
+     "marks": 0.5
+    },
+    {
+     "point": "Advantage 2",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 38,
+   "q_main": 8,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Energy Resources",
+   "topic": "Refineries, fossil fuel, copper",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "refinery location",
+    "fossil fuel",
+    "copper conductivity"
+   ],
+   "question": "Give geographical reasons for the following:\n(a) Petroleum refineries are located near oil fields or ports.\n(b) Coal is called a fossil fuel.\n(c) Copper is used in electrical wiring.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Crude oil is bulky; refineries near oil fields reduce transport cost, and those at ports can process imported crude directly (and export products). (b) Coal is formed from remains of plants buried under the earth millions of years ago and transformed by heat and pressure. (c) Copper is an excellent conductor of electricity and is malleable and ductile, so it can be drawn into wires.",
+   "marking_points": [
+    {
+     "point": "Near raw material / imported crude at ports",
+     "marks": 1
+    },
+    {
+     "point": "Formed from ancient buried plant remains",
+     "marks": 1
+    },
+    {
+     "point": "Good conductor, ductile",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "8(iv)",
+   "q_order": 39,
+   "q_main": 8,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Energy Resources",
+   "topic": "Wind energy",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "wind energy"
+   ],
+   "question": "Observe the figure and answer the following questions:\n(a) Identify the type of energy generated.\n(b) State why this type of energy is cheaper in the long run.\n(c) State one advantage of using this energy for farmers.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Wind energy (wind farm). (b) Wind is free and renewable; after the initial installation cost, running and maintenance costs are very low and no fuel is needed. (c) Provides cheap electricity in rural areas for pumping groundwater / running farm machinery; farmers can also earn by leasing land for turbines while still farming it.",
+   "marking_points": [
+    {
+     "point": "Wind energy",
+     "marks": 1
+    },
+    {
+     "point": "No fuel cost, low running cost",
+     "marks": 1
+    },
+    {
+     "point": "Advantage for farmers",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Photograph of a wind farm with many wind turbines",
+   "page": 10,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p10.jpg"
+  },
+  {
+   "q_label": "9(i)",
+   "q_order": 40,
+   "q_main": 9,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Agriculture",
+   "topic": "Jute climatic conditions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "jute"
+   ],
+   "question": "State any two favourable climatic conditions required for the cultivation of jute in India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Hot and humid climate with temperature 24 deg C to 35 deg C; heavy rainfall of 150-250 cm (with high relative humidity, 80-90 percent).",
+   "marking_points": [
+    {
+     "point": "Temperature 24-35 deg C, hot humid",
+     "marks": 1
+    },
+    {
+     "point": "Rainfall 150-250 cm",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "9(ii)",
+   "q_order": 41,
+   "q_main": 9,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Agriculture",
+   "topic": "Shifting cultivation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "jhumming"
+   ],
+   "question": "With reference to shifting cultivation in India, answer the following:\n(a) Name one region in India where it is mainly practised.\n(b) State one environmental disadvantage of this type of farming.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) North-eastern hill states (Assam, Meghalaya, Mizoram, Nagaland - 'jhum'), also parts of Odisha, Chhattisgarh, MP. (b) Deforestation leading to soil erosion and loss of soil fertility / biodiversity.",
+   "marking_points": [
+    {
+     "point": "Region",
+     "marks": 1
+    },
+    {
+     "point": "Disadvantage",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "9(iii)",
+   "q_order": 42,
+   "q_main": 9,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Agriculture",
+   "topic": "Pulses rotation, tea on slopes, intensive rice",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "nitrogen fixation",
+    "tea drainage",
+    "intensive farming"
+   ],
+   "question": "Give a geographical reason for each of the following:\n(a) Pulses are grown as rotational crops.\n(b) Tea plantations are found on the hill slopes.\n(c) Rice cultivation is intensive in West Bengal.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Pulses are leguminous; their root nodules fix atmospheric nitrogen and restore soil fertility. (b) Tea needs heavy rainfall but no stagnant water at its roots; hill slopes provide good drainage. (c) Dense population and small landholdings, so maximum output is obtained from small plots with high labour input; fertile alluvium and heavy rainfall allow 2-3 crops a year.",
+   "marking_points": [
+    {
+     "point": "Nitrogen fixation",
+     "marks": 1
+    },
+    {
+     "point": "Well-drained slopes, no water-logging",
+     "marks": 1
+    },
+    {
+     "point": "Dense population, small holdings, 2-3 crops",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "9(iv)",
+   "q_order": 43,
+   "q_main": 9,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Agriculture",
+   "topic": "Modern vs traditional farming",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "HYV seeds",
+    "drip irrigation"
+   ],
+   "question": "Aryan is a progressive farmer who uses High Yielding Variety (HYV) seeds and drip irrigation on his farm in Gujarat, while his neighbour uses traditional farming methods.\n(a) Mention any two benefits Aryan gets from using modern farming techniques.\n(b) State one disadvantage of using traditional farming methods.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Higher yield per hectare from HYV seeds; drip irrigation saves water (important in dry Gujarat) and fertiliser and gives more income. (b) Low productivity (dependence on monsoon, old seeds and implements) so output is low and the farmer remains at subsistence level.",
+   "marking_points": [
+    {
+     "point": "Benefit 1",
+     "marks": 1
+    },
+    {
+     "point": "Benefit 2",
+     "marks": 1
+    },
+    {
+     "point": "Disadvantage of traditional methods",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "10(i)",
+   "q_order": 44,
+   "q_main": 10,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Manufacturing Industries",
+   "topic": "Location factors",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "location of industry"
+   ],
+   "question": "State any two geographical features favourable for setting an industry.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: availability of raw material nearby; source of power; water supply; favourable climate; flat land; good transport and nearness to market/ports.",
+   "marking_points": [
+    {
+     "point": "Factor 1",
+     "marks": 1
+    },
+    {
+     "point": "Factor 2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "10(ii)",
+   "q_order": 45,
+   "q_main": 10,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Manufacturing Industries",
+   "topic": "Problems of silk weavers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "silk industry problems"
+   ],
+   "question": "Mysore is known for its soft, lustrous and durable silk. Murali is a silk weaver in Mysore. He does not want his children to follow his footsteps. Give two reasons for it?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Low wages and irregular income for handloom weavers; competition from cheaper power-loom/synthetic and Chinese silk; high cost of raw silk, laborious work and exploitation by middlemen.",
+   "marking_points": [
+    {
+     "point": "Reason 1",
+     "marks": 1
+    },
+    {
+     "point": "Reason 2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "10(iii)",
+   "q_order": 46,
+   "q_main": 10,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Manufacturing Industries",
+   "topic": "Sugar shift, Cottonopolis, galvanising",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "sugar industry shift to south",
+    "Mumbai cotton textiles",
+    "galvanisation"
+   ],
+   "question": "Give a geographical reason for each of the following:\n(a) Uttar Pradesh has been relegated to second place in terms of sugar production.\n(b) Mumbai is known as the 'Cottonopolis of India.'\n(c) Steel products need to be galvanised.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Maharashtra (peninsular India) has higher sucrose content and yield per hectare of sugarcane, longer crushing season due to the tropical climate, and well-run cooperative mills, so production has shifted south. (b) Mumbai has the largest number of cotton textile mills, with a humid climate, port facilities for import of machinery and export, nearness to the black-soil cotton belt, capital and labour. (c) Steel rusts on exposure to moisture and air; coating with zinc (galvanising) protects it from corrosion.",
+   "marking_points": [
+    {
+     "point": "Higher sucrose/yield and longer crushing season in south",
+     "marks": 1
+    },
+    {
+     "point": "Concentration of mills + reasons",
+     "marks": 1
+    },
+    {
+     "point": "Zinc coating prevents rusting",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "10(iv)",
+   "q_order": 47,
+   "q_main": 10,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Manufacturing Industries",
+   "topic": "Cement in MP vs IT industry",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "cement industry",
+    "footloose industry"
+   ],
+   "question": "Rajiv works in a cement factory in Madhya Pradesh. He says the factory has good access to limestone quarries, skilled labour and a large market nearby. His sister Rani is employed in an IT company in Bengaluru.\n(a) Give one reason why the cement industry is doing well in Madhya Pradesh.\n(b) Mention one key difference between the two types of industries in which Rajiv and Rani work.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Abundant limestone (the main, bulky raw material) is available close by, with coal/power and a large market. (b) Cement is a heavy, raw-material-based (agro/mineral based, large-scale) manufacturing industry tied to raw material; IT is a knowledge-based, light, footloose service industry that depends on skilled manpower and does not need bulky raw materials.",
+   "marking_points": [
+    {
+     "point": "Limestone availability",
+     "marks": 1
+    },
+    {
+     "point": "Heavy, raw-material-oriented manufacturing",
+     "marks": 1
+    },
+    {
+     "point": "IT is knowledge-based/footloose, no bulky raw material",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "11(i)",
+   "q_order": 48,
+   "q_main": 11,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Transport",
+   "topic": "National Highways",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 1,
+   "concepts": [
+    "NHAI"
+   ],
+   "question": "The image given below is that of National Highway. Observe the picture and answer the questions that follow:\n(a) Which authority is responsible for construction and maintenance of National Highways in India?\n(b) Mention one major advantage of this type of road for long distance trade.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) National Highways Authority of India (NHAI), under the Ministry of Road Transport and Highways (Central Government). (b) Wide multi-lane roads allow fast, uninterrupted, door-to-door movement of goods between distant states and ports, reducing time and cost.",
+   "marking_points": [
+    {
+     "point": "NHAI / Central Government",
+     "marks": 1
+    },
+    {
+     "point": "Advantage",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "11(ii)",
+   "q_order": 49,
+   "q_main": 11,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Transport",
+   "topic": "Choice of transport mode",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "road transport",
+    "air transport in difficult terrain"
+   ],
+   "question": "Riya has to send perishable goods from Delhi to a nearby town within a day. Her father, who is in the army, has been posted to a remote Himalayan station and prefers using a helicopter.\n(a) Suggest the most suitable mode of transport for Riya and give one reason for the same.\n(b) Mention the advantage of using air transport in difficult terrain.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Road transport - it is quick and cheapest for short distances and gives door-to-door delivery, so perishables reach fresh. (b) Air transport can reach remote, inaccessible mountainous areas where roads/railways are difficult to build, quickly - useful for defence, supplies and rescue.",
+   "marking_points": [
+    {
+     "point": "Road transport with reason",
+     "marks": 1
+    },
+    {
+     "point": "Air reaches inaccessible areas quickly",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "11(iii)",
+   "q_order": 50,
+   "q_main": 11,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Transport",
+   "topic": "Waterways, Golden Quadrilateral, small airports",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "inland waterways",
+    "Golden Quadrilateral",
+    "UDAN regional airports"
+   ],
+   "question": "Give a geographical reason for each of the following:\n(a) Inland waterways are not well developed in India.\n(b) The Golden Quadrilateral is important for India's economy.\n(c) At present times, airports are being established even in smaller towns of India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Most rivers are seasonal with fluctuating water levels, silting, waterfalls/rapids in peninsular rivers and diversion of water for irrigation; competition from roads and railways. (b) It links the four metros (Delhi, Mumbai, Chennai, Kolkata) with high-speed highways, speeding up movement of goods and people and boosting trade and industry. (c) To improve regional connectivity (UDAN scheme), promote tourism and trade and make air travel affordable for smaller cities.",
+   "marking_points": [
+    {
+     "point": "Seasonal rivers, silting etc.",
+     "marks": 1
+    },
+    {
+     "point": "Links four metros, boosts trade",
+     "marks": 1
+    },
+    {
+     "point": "Regional connectivity / UDAN, tourism",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "11(iv)",
+   "q_order": 51,
+   "q_main": 11,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Transport",
+   "topic": "Railways",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "railways advantages",
+    "public sector"
+   ],
+   "question": "(a) Mention two advantages of railways as a mode of transport in India.\n(b) State one reason why railways is a public sector undertaking in India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Cheap and convenient for carrying bulky goods and large numbers of passengers over long distances; promotes national integration and industry, employs a large workforce. (b) It requires huge capital investment and is of strategic/national importance, serving public welfare (including uneconomic routes) rather than profit.",
+   "marking_points": [
+    {
+     "point": "Advantage 1",
+     "marks": 1
+    },
+    {
+     "point": "Advantage 2",
+     "marks": 1
+    },
+    {
+     "point": "Public sector reason",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "12(i)",
+   "q_order": 52,
+   "q_main": 12,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Waste Management",
+   "topic": "Segregation of waste",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "segregation"
+   ],
+   "question": "Mention two reasons why segregation of waste is essential before disposal.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Segregation allows biodegradable waste to be composted and recyclable materials (plastic, metal, paper, glass) to be recovered; it reduces the amount going to landfills and prevents hazardous waste from contaminating other waste, soil and water.",
+   "marking_points": [
+    {
+     "point": "Reason 1",
+     "marks": 1
+    },
+    {
+     "point": "Reason 2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "12(ii)",
+   "q_order": 53,
+   "q_main": 12,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Waste Management",
+   "topic": "E-waste",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "e-waste hazards"
+   ],
+   "question": "Study the image given below and answer the questions that follow:\n(a) Identify the type of waste shown in the image.\n(b) Mention one environmental hazard caused by such waste.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) E-waste (electronic waste) - discarded computers, keyboards, wires, circuit boards. (b) Toxic heavy metals like lead, mercury and cadmium leach into soil and groundwater; burning releases toxic fumes causing air pollution.",
+   "marking_points": [
+    {
+     "point": "E-waste",
+     "marks": 1
+    },
+    {
+     "point": "Hazard",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Photograph of a heap of discarded computers, keyboards and tangled wires",
+   "page": 12,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_universal/p12.jpg"
+  },
+  {
+   "q_label": "12(iii)",
+   "q_order": 54,
+   "q_main": 12,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Waste Management",
+   "topic": "Plastic waste in school",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "plastic pollution",
+    "reduce and reuse"
+   ],
+   "question": "A school cafeteria uses plastic plates and cutlery, which are discarded daily, increasing the non-biodegradable waste on campus.\n(a) Identify one long term impact of this practice on the environment.\n(b) Suggest two alternatives the school can adopt to reduce such waste.\n(c) How can awareness among students be increased to reduce non-biodegradable waste in schools?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Plastic does not decompose; it accumulates in landfills for hundreds of years, chokes drains and pollutes soil and water (microplastics harm animals). (b) Use reusable steel plates/cutlery or biodegradable areca-leaf/bagasse plates; ask students to bring their own tiffins and bottles. (c) Awareness campaigns, eco-clubs, posters, 'plastic-free day' drives and segregation competitions.",
+   "marking_points": [
+    {
+     "point": "Long-term impact",
+     "marks": 1
+    },
+    {
+     "point": "Two alternatives",
+     "marks": 1
+    },
+    {
+     "point": "Awareness measure",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "12(iv)",
+   "q_order": 55,
+   "q_main": 12,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Waste Management",
+   "topic": "Hazardous waste fire at Kochi",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "segregation",
+    "hazardous waste",
+    "composting"
+   ],
+   "question": "Fire broke out at the Kochi city waste treatment plant. Thick clouds of toxic smoke engulfed the city. The waste at the plant also contained plastic and biomedical wastes, both of which on combustion are extremely harmful for the general health of people. -Economic Times\n(a) Which method of waste management would have helped in reducing hazards in the above case?\n(b) Mention one measure in which you can adopt in cities to reduce hazardous waste.\n(c) State one way in which domestic waste can be made useful.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Segregation of waste at source (keeping plastic and biomedical waste separate), with biomedical waste treated in proper incinerators/autoclaves instead of being dumped. (b) Separate collection and safe disposal of hazardous/e-waste and biomedical waste; reduce use of plastics; follow the 3 Rs. (c) Composting/vermicomposting of kitchen waste to make manure, or producing biogas.",
+   "marking_points": [
+    {
+     "point": "Segregation at source",
+     "marks": 1
+    },
+    {
+     "point": "Measure to reduce hazardous waste",
+     "marks": 1
+    },
+    {
+     "point": "Composting / biogas",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 13
+  }
+ ]
+}

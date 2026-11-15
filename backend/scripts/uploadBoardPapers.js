@@ -21,6 +21,7 @@ function paperRow(p) {
     id: p.paper_id, subject: p.subject, year: p.year, sem: p.sem, label: p.label,
     max_marks: p.max_marks, duration_minutes: p.duration_minutes, reading_minutes: p.reading_minutes,
     instructions: p.instructions, sections: p.sections, has_solutions: p.has_solutions,
+    source: p.source || 'board', school: p.school || null, exam_label: p.exam_label || null,
   };
 }
 
@@ -33,6 +34,7 @@ function questionRow(p, q) {
     question: q.question, options: q.options || {}, is_objective: !!q.is_objective, correct_option: q.correct_option, answer_items: q.answer_items || null,
     solution: q.solution, marking_points: q.marking_points || [],
     needs_figure: !!q.needs_figure, figure_desc: q.figure_desc || null, figure_page: q.page || null, figure_url: q.figure_url || null,
+    source: p.source || 'board', school: p.school || null,
   };
 }
 

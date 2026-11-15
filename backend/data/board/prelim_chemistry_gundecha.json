@@ -1,0 +1,1805 @@
+{
+ "paper_id": "prelim_chemistry_gundecha",
+ "subject": "chemistry",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · Gundecha",
+ "source": "prelim",
+ "school": "Gundecha Education Academy, Kandivali (E)",
+ "exam_label": "First Preliminary Examination",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Answers to be written on the separate paper. First 15 minutes are for reading the paper only. Section A is compulsory. Attempt any four questions from Section B. Intended marks are given in brackets [ ].",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 40,
+   "rule": "Attempt any four questions from this Section",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Metallurgy",
+   "topic": "Reduction of metal oxides",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Reduction of metal oxides"
+   ],
+   "question": "The metal whose oxide can be reduced by common reducing agent:",
+   "options": {
+    "a": "Copper",
+    "b": "Sodium",
+    "c": "Aluminium",
+    "d": "Potassium"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Copper. Oxides of metals low in the activity series (like CuO) are reduced by C, CO or H2; oxides of Na, K, Al need electrolytic reduction.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Organic Chemistry",
+   "topic": "Saturated hydrocarbon general formula",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Saturated hydrocarbon general formula"
+   ],
+   "question": "The molecular formula that represents saturated hydrocarbon is:",
+   "options": {
+    "a": "C4H8",
+    "b": "C5H12",
+    "c": "C4H6",
+    "d": "C5H10"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) C5H12. Saturated hydrocarbons (alkanes) follow CnH2n+2; C5H12 fits.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Periodic Properties and Variations",
+   "topic": "Reactivity trend in Group 1",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "Reactivity trend in Group 1"
+   ],
+   "question": "Assertion (A): The tendency of losing electrons increases down the Group.\nReason (R): The most reactive metal is placed on the top of Group 1.",
+   "options": {
+    "a": "Both A and R are individually true and R is the correct explanation of A",
+    "b": "Both A and R are individually true but R is not the correct explanation of A",
+    "c": "A is true but R is false",
+    "d": "A is false but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) A is true but R is false. Atomic size increases down the group so electrons are lost more easily (A true); the most reactive metal is at the bottom of Group 1, not the top (R false).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Analytical Chemistry",
+   "topic": "Distinguishing Pb2+ and Zn2+ salts",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "Distinguishing Pb2+ and Zn2+ salts"
+   ],
+   "question": "Aqueous lead (II) nitrate can be distinguished from aqueous zinc nitrate by adding any of the following solutions in excess except:",
+   "options": {
+    "a": "aqueous potassium chloride",
+    "b": "aqueous sodium sulphate",
+    "c": "dilute sulphuric acid",
+    "d": "sodium hydroxide solution."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) sodium hydroxide solution.. Both Pb(OH)2 and Zn(OH)2 are white precipitates that dissolve in excess NaOH, so NaOH cannot distinguish them; KCl, Na2SO4 and dil. H2SO4 give a white precipitate (PbCl2 / PbSO4) only with lead nitrate.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Study of Acids, Bases and Salts",
+   "topic": "Amphoteric oxides",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Amphoteric oxides"
+   ],
+   "question": "Identify from the following the metal oxide which can react with an acid as well as an alkali.",
+   "options": {
+    "a": "Silver oxide",
+    "b": "Calcium oxide",
+    "c": "Copper(II) oxide",
+    "d": "Aluminium oxide"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Aluminium oxide. Al2O3 is amphoteric.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Study of Acids, Bases and Salts",
+   "topic": "Reactions producing water",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Reactions producing water"
+   ],
+   "question": "Four reactions are shown below in the diagram: 1. calcium carbonate heated in a dish over a burner; 2. zinc added to dilute hydrochloric acid in a flask; 3. ethanol burning in a spirit lamp; 4. magnesium carbonate added to dilute sulphuric acid in a flask.\nWhich reactions produce water?",
+   "options": {
+    "a": "1 and 2",
+    "b": "1 and 3",
+    "c": "3 and 4",
+    "d": "2 and 3"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 3 and 4. Burning ethanol gives CO2 + H2O; MgCO3 + H2SO4 -> MgSO4 + H2O + CO2. Heating CaCO3 gives CaO + CO2 and Zn + HCl gives ZnCl2 + H2 - no water.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Organic Chemistry",
+   "topic": "Isomers of butene",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "Isomers of butene"
+   ],
+   "question": "The structures of four hydrocarbons are shown below. How many isomers of butene are shown in the structures?\nStructure 1: CH3-CH(CH3)-CH3 (drawn as H3C-C(H)(CH3)-CH3)\nStructure 2: CH3-C(=CH2)-CH3 (C=CH2 with two CH3 groups)\nStructure 3: CH3-CH2-CH=CH2\nStructure 4: H3C-C(CH3)=CH2",
+   "options": {
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 2. Structure 1 is 2-methylpropane (C4H10, an alkane). Structures 2 and 4 are the same compound, 2-methylpropene, and structure 3 is but-1-ene. So two different isomers of butene (C4H8) are shown. (If the key counts drawings with formula C4H8, it would give 3.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Ammonia",
+   "topic": "Preparation of nitrogen",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Preparation of nitrogen"
+   ],
+   "question": "Nitrogen gas can be obtained by heating:",
+   "options": {
+    "a": "ammonium nitrate",
+    "b": "ammonium nitrite",
+    "c": "magnesium nitride",
+    "d": "ammonium chloride"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) ammonium nitrite. NH4NO2 -> N2 + 2H2O on heating; ammonium nitrate gives N2O.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electrolysis",
+   "topic": "Electrolysis of CuSO4 with copper electrodes",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Electrolysis of CuSO4 with copper electrodes"
+   ],
+   "question": "Aqueous copper (II) sulphate is electrolysed using copper electrodes. Which statement about the electrolysis is not correct?",
+   "options": {
+    "a": "An oxidation reaction occurs at the positive electrode.",
+    "b": "The current is carried through the electrolyte by ions",
+    "c": "The positive electrode loses mass",
+    "d": "The number of copper (II) ions in the electrolyte decreases."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) The number of copper (II) ions in the electrolyte decreases.. The copper anode dissolves (Cu -> Cu2+ + 2e-) at the same rate as Cu2+ is deposited at the cathode, so the Cu2+ concentration stays constant.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Periodic Properties and Variations",
+   "topic": "Electronic configuration and ion formation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Electronic configuration and ion formation"
+   ],
+   "question": "The electronic configuration of X is 2,8,6. It gains 'Y' electrons into its valence shell to attain the nearest noble gas electronic configuration and gets converted to an ion Z. X, Y and Z, respectively are:",
+   "options": {
+    "a": "Sodium, one, electropositive",
+    "b": "Beryllium, two, electronegative",
+    "c": "Sulphur, six, electronegative",
+    "d": "Sulphur, two, electronegative"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Sulphur, two, electronegative. 2,8,6 is sulphur (Z = 16); it gains 2 electrons to form S2- (argon configuration), an electronegative ion.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Organic Chemistry",
+   "topic": "Hydrogenation of ethene",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Hydrogenation of ethene"
+   ],
+   "question": "The formation of ethane from ethene is a:",
+   "options": {
+    "a": "Dehydration reaction",
+    "b": "Decarboxylation reaction",
+    "c": "hydrogenation reaction",
+    "d": "Addition reaction"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) hydrogenation reaction. C2H4 + H2 -(Ni, 300 C)-> C2H6 is hydrogenation (which is itself an addition reaction, so (d) is also acceptable).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electrolysis",
+   "topic": "Products at anode in electrolysis of chlorides",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "Products at anode in electrolysis of chlorides"
+   ],
+   "question": "Three aqueous solutions, L, M and N, are electrolysed using inert electrodes. L is concentrated hydrochloric acid. M is concentrated aqueous sodium chloride. N is dilute aqueous sodium chloride. Which solutions produce a pale yellow-green gas at the anode?",
+   "options": {
+    "a": "L and M",
+    "b": "L only",
+    "c": "M and N",
+    "d": "N only"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) L and M. Concentrated chloride solutions discharge Cl- (chlorine at anode); dilute NaCl discharges OH- giving oxygen.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Organic Chemistry",
+   "topic": "Esterification",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "Esterification"
+   ],
+   "question": "Assertion (A): Carboxylic acid reacts with alcohol in the presence of concentrated H2SO4 to produce a fruity smell.\nReason (R): It is due to the formation of alcohol.",
+   "options": {
+    "a": "Both A and R are individually true and R is the correct explanation of A",
+    "b": "Both A and R are individually true but R is not the correct explanation of A",
+    "c": "A is true but R is false",
+    "d": "A is false but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) A is true but R is false. The fruity smell is due to the ester formed (esterification), not alcohol.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Ammonia",
+   "topic": "Haber process equilibrium factors",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Haber process equilibrium factors"
+   ],
+   "question": "Ammonia is produced industrially from nitrogen and hydrogen: N2 + 3H2 <=> 2NH3. The forward reaction is exothermic. Which change would not alter the yield of ammonia?",
+   "options": {
+    "a": "Adding a catalyst",
+    "b": "Decreasing the pressure",
+    "c": "Decreasing the temperature",
+    "d": "Removing some ammonia during the reaction."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Adding a catalyst. A catalyst only increases the rate at which equilibrium is reached; it does not shift the equilibrium/yield.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mole Concept and Stoichiometry",
+   "topic": "Molar volume at STP",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "Molar volume at STP"
+   ],
+   "question": "Which of the following would occupy 22.4 L at S.T.P.?\n(i) 32 g of oxygen\n(ii) 2 moles of hydrogen gas\n(iii) 6.023 x 10^23 molecules of ammonia",
+   "options": {
+    "a": "(i) and (ii)",
+    "b": "(i) and (iii)",
+    "c": "(ii) and (iii)",
+    "d": "(i), (ii) and (iii)"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) (i) and (iii). 32 g O2 = 1 mol and 6.023 x 10^23 molecules = 1 mol, each occupying 22.4 L; 2 mol H2 occupies 44.8 L.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "diagram",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Organic Chemistry",
+   "topic": "Structural formulae and IUPAC names",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "structural formulae",
+    "IUPAC nomenclature"
+   ],
+   "question": "(a) Draw the structural diagram for the following compounds:\n(a) Propanoic acid  (b) Pentan-2-ol  (c) 2,2-dibromobutane\n(b) Give the IUPAC name of the following organic compounds:\n(A) H-C(H)(H)-C(=O)-H  [a CH3 group attached to a CHO group]\n(B) H2C=CH-CH(CH3)-CH3  [four-carbon chain with a C=C between C1 and C2 and a CH3 branch on C3]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) (a) Propanoic acid: CH3-CH2-COOH, drawn H3C-CH2-C(=O)-O-H with all bonds shown.\n(b) Pentan-2-ol: CH3-CH(OH)-CH2-CH2-CH3, -OH on the second carbon of a five-carbon chain.\n(c) 2,2-dibromobutane: CH3-CBr2-CH2-CH3, both Br atoms on carbon 2.\n(b) (A) Ethanal (CH3CHO)\n(B) 3-methylbut-1-ene",
+   "marking_points": [
+    {
+     "point": "Propanoic acid structure",
+     "marks": 1
+    },
+    {
+     "point": "Pentan-2-ol structure",
+     "marks": 1
+    },
+    {
+     "point": "2,2-dibromobutane structure",
+     "marks": 1
+    },
+    {
+     "point": "(A) Ethanal",
+     "marks": 1
+    },
+    {
+     "point": "(B) 3-methylbut-1-ene",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Chemical Bonding",
+   "topic": "Mixed matching",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "electron affinity of noble gases",
+    "non-polar covalent",
+    "Ostwald catalyst"
+   ],
+   "question": "Match the following column A with column B:\nColumn A: 1. Neon; 2. Methane; 3. Ostwald's process; 4. Esterification; 5. Ammonia gas in water\nColumn B: a) ammonium ion; b) zero electron affinity; c) Non-polar; d) Platinum; e) ethanol",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "1. Neon",
+     "accepted": [
+      "b",
+      "zero electron affinity"
+     ]
+    },
+    {
+     "prompt": "2. Methane",
+     "accepted": [
+      "c",
+      "non-polar"
+     ]
+    },
+    {
+     "prompt": "3. Ostwald's process",
+     "accepted": [
+      "d",
+      "platinum",
+      "Pt"
+     ]
+    },
+    {
+     "prompt": "4. Esterification",
+     "accepted": [
+      "e",
+      "ethanol"
+     ]
+    },
+    {
+     "prompt": "5. Ammonia gas in water",
+     "accepted": [
+      "a",
+      "ammonium ion",
+      "NH4+"
+     ]
+    }
+   ],
+   "solution": "1-b (Neon: zero electron affinity, stable octet); 2-c (Methane: non-polar covalent molecule); 3-d (Ostwald's process: platinum catalyst); 4-e (Esterification: ethanol reacts with an acid); 5-a (Ammonia in water: NH3 + H2O -> NH4+ + OH-).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Ammonia",
+   "topic": "Properties of ammonia",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "NH3 basic nature",
+    "NH3 as reducing agent",
+    "NH3 with Cl2"
+   ],
+   "question": "The question is related to the gas X. Fill in the blanks:\n(a) An aqueous solution of gas X turns red litmus blue, so it must contain ______ (hydrogen / hydroxyl) ions.\n(b) When the above solution is added in excess to copper sulphate solution, it turns to ______ (deep blue / pale blue) solution.\n(c) Gas X is also a good ______ (oxidizing / reducing) agent, which in excess reacts with a greenish-yellow gas to form dense white fumes of ______ (hydrogen chloride / ammonium chloride).\n(d) The gas X ______ (oxidises / reduces) copper oxide to copper.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(a) aqueous solution contains ______ ions",
+     "accepted": [
+      "hydroxyl",
+      "OH-",
+      "hydroxide"
+     ]
+    },
+    {
+     "prompt": "(b) excess solution with CuSO4 turns ______",
+     "accepted": [
+      "deep blue",
+      "inky blue"
+     ]
+    },
+    {
+     "prompt": "(c) good ______ agent",
+     "accepted": [
+      "reducing"
+     ]
+    },
+    {
+     "prompt": "(c) dense white fumes of ______",
+     "accepted": [
+      "ammonium chloride",
+      "NH4Cl"
+     ]
+    },
+    {
+     "prompt": "(d) gas X ______ copper oxide to copper",
+     "accepted": [
+      "reduces"
+     ]
+    }
+   ],
+   "solution": "X is ammonia.\n(a) hydroxyl\n(b) deep blue (tetraamminecopper(II) sulphate)\n(c) reducing; ammonium chloride (8NH3 + 3Cl2 -> 6NH4Cl + N2)\n(d) reduces (2NH3 + 3CuO -> 3Cu + 3H2O + N2)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Organic Chemistry",
+   "topic": "Identify the term",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "spurious alcohol",
+    "alloys",
+    "catenation"
+   ],
+   "question": "Identify the following:\n(a) Undistilled alcohol containing a large amount of methanol.\n(b) A homogeneous mixture of two or more metals or metals and non-metals.\n(c) That part of an organic compound which defines the structure and properties of that organic compound is called.\n(d) The alloy of lead and tin used in electrical circuits.\n(e) The tendency of an element to form chains of identical atoms.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Undistilled alcohol with a large amount of methanol",
+     "accepted": [
+      "spurious alcohol"
+     ]
+    },
+    {
+     "prompt": "Homogeneous mixture of metals or metals and non-metals",
+     "accepted": [
+      "alloy"
+     ]
+    },
+    {
+     "prompt": "Part of an organic compound defining its properties",
+     "accepted": [
+      "functional group"
+     ]
+    },
+    {
+     "prompt": "Alloy of lead and tin used in electrical circuits",
+     "accepted": [
+      "solder"
+     ]
+    },
+    {
+     "prompt": "Tendency of an element to form chains of identical atoms",
+     "accepted": [
+      "catenation"
+     ]
+    }
+   ],
+   "solution": "(a) Spurious alcohol\n(b) Alloy\n(c) Functional group\n(d) Solder\n(e) Catenation",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(v)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "diagram",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Hydrogen Chloride",
+   "topic": "Laboratory preparation of HCl",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "lab prep of HCl",
+    "collection by upward displacement",
+    "drying agents"
+   ],
+   "question": "The diagram shows an apparatus for the laboratory preparation of hydrogen chloride (round-bottom flask with reactant B at the bottom, thistle funnel A, delivery tube leading into a gas jar where hydrogen chloride gas is collected by upward displacement of air).\n(i) Identify A and B.\n(ii) Write the equation for the reaction.\n(iii) Write the test of the gas produced.\n(iv) What does the method of collection tell you about the density of hydrogen chloride gas?\n(v) Why is this gas not dried with calcium oxide?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) A = concentrated sulphuric acid (added through the thistle funnel); B = sodium chloride (rock salt).\n(ii) NaCl + H2SO4 (conc.) -(below 200 C)-> NaHSO4 + HCl\n(iii) A glass rod dipped in ammonia solution held at the mouth of the jar gives dense white fumes of NH4Cl (or: the gas gives a curdy white precipitate with silver nitrate solution).\n(iv) It is collected by upward displacement of air, so HCl is heavier (denser) than air.\n(v) CaO is basic and reacts with acidic HCl: CaO + 2HCl -> CaCl2 + H2O.",
+   "marking_points": [
+    {
+     "point": "A conc. H2SO4, B NaCl",
+     "marks": 1
+    },
+    {
+     "point": "Balanced equation",
+     "marks": 1
+    },
+    {
+     "point": "Test with ammonia / AgNO3",
+     "marks": 1
+    },
+    {
+     "point": "Heavier than air",
+     "marks": 1
+    },
+    {
+     "point": "CaO is basic, reacts with HCl",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Lab apparatus for HCl: round-bottom flask with substance B, thistle funnel labelled A, delivery tube into an upright gas jar labelled 'Hydrogen chloride gas'.",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_chemistry_gundecha/p5.jpg"
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 20,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Sulphuric Acid",
+   "topic": "Properties of sulphuric acid",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Properties of sulphuric acid"
+   ],
+   "question": "Which property of sulphuric acid is exhibited in each of the following cases:\n(a) In the preparation of HCl gas when it reacts with sodium chloride.\n(b) When concentrated sulphuric acid reacts with copper to produce sulphur dioxide gas.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(a) NaCl + H2SO4 -> HCl",
+     "accepted": [
+      "non-volatile acid",
+      "non-volatile nature",
+      "less volatile acid"
+     ]
+    },
+    {
+     "prompt": "(b) Cu + conc. H2SO4 -> SO2",
+     "accepted": [
+      "oxidising agent",
+      "oxidizing agent",
+      "oxidising property"
+     ]
+    }
+   ],
+   "solution": "(a) Non-volatile nature (a non-volatile acid displaces the more volatile HCl).\n(b) Oxidising agent (Cu + 2H2SO4 -> CuSO4 + SO2 + 2H2O).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 21,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nitric Acid",
+   "topic": "Oxidation of sulphur by nitric acid",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "Oxidation of sulphur by nitric acid"
+   ],
+   "question": "Identify the reactants and write the balanced equation for the following: Concentrated nitric acid reacts with element Q to give sulphuric acid, water and reddish brown gas.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Q is sulphur; reactants: sulphur and concentrated nitric acid.\nS + 6HNO3 (conc.) -> H2SO4 + 6NO2 + 2H2O",
+   "marking_points": [
+    {
+     "point": "Q = sulphur",
+     "marks": 1
+    },
+    {
+     "point": "Balanced equation S + 6HNO3 -> H2SO4 + 6NO2 + 2H2O",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 22,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Analytical Chemistry",
+   "topic": "Observations",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Observations"
+   ],
+   "question": "State one relevant observation for each of the following:\n(a) To the lead nitrate solution, initially few drops of sodium hydroxide solution is added and then added in excess.\n(b) Reaction of ammonia in excess of chlorine.\n(c) Reaction of concentrated hydrochloric acid with manganese dioxide.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) A chalky white precipitate of Pb(OH)2 forms, which dissolves in excess NaOH to give a clear colourless solution (sodium plumbite).\n(b) A yellow, explosive, oily liquid (nitrogen trichloride, NCl3) is formed; the greenish-yellow colour of chlorine fades.\n(c) A greenish-yellow gas (chlorine) with a pungent smell is evolved; the black MnO2 dissolves.",
+   "marking_points": [
+    {
+     "point": "White ppt soluble in excess NaOH",
+     "marks": 1
+    },
+    {
+     "point": "Yellow explosive oily liquid NCl3",
+     "marks": 1
+    },
+    {
+     "point": "Greenish-yellow chlorine gas evolved",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Complete equations",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "decarboxylation",
+    "conc. HNO3 oxidises carbon",
+    "nitride hydrolysis"
+   ],
+   "question": "Complete the following reactions with necessary conditions:\n(a) CH3CH2COONa + NaOH -(Heat, CaO)->\n(b) C + HNO3 (conc.) ->\n(c) AlN + H2O ->",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) CH3CH2COONa + NaOH -(CaO, heat)-> C2H6 + Na2CO3\n(b) C + 4HNO3 (conc.) -> CO2 + 4NO2 + 2H2O\n(c) AlN + 3H2O -> Al(OH)3 + NH3",
+   "marking_points": [
+    {
+     "point": "C2H6 + Na2CO3",
+     "marks": 1
+    },
+    {
+     "point": "CO2 + 4NO2 + 2H2O balanced",
+     "marks": 1
+    },
+    {
+     "point": "Al(OH)3 + NH3 balanced",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 24,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Ammonia",
+   "topic": "Ammonia flowchart",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "Ammonia flowchart"
+   ],
+   "question": "Study the flowchart given and give balanced equations to represent the reactions A, B and C:\nMg3N2 --A--> NH3; NH3 --B--> NH4Cl; NH4Cl --C--> NH3",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A: Mg3N2 + 6H2O -> 3Mg(OH)2 + 2NH3\nB: NH3 + HCl -> NH4Cl\nC: 2NH4Cl + Ca(OH)2 -(heat)-> CaCl2 + 2H2O + 2NH3 (or NH4Cl <=> NH3 + HCl on heating)",
+   "marking_points": [
+    {
+     "point": "A balanced",
+     "marks": 1
+    },
+    {
+     "point": "B balanced",
+     "marks": 1
+    },
+    {
+     "point": "C balanced",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 25,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Mole Concept and Stoichiometry",
+   "topic": "Empirical and molecular formula",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "Empirical and molecular formula"
+   ],
+   "question": "An organic compound X contains carbon, hydrogen and oxygen only. The percentage of carbon and hydrogen are 47.4% and 10.5% respectively. The relative molecular mass of 'X' is 76. Find the empirical and molecular formula of X. (Atomic mass: C = 12, H = 1, O = 16)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "O% = 100 - 47.4 - 10.5 = 42.1%\nC: 47.4/12 = 3.95; H: 10.5/1 = 10.5; O: 42.1/16 = 2.63\nDivide by 2.63: C 1.5, H 4, O 1 -> multiply by 2: C 3, H 8, O 2\nEmpirical formula = C3H8O2; EF mass = 36 + 8 + 32 = 76\nn = 76/76 = 1, so molecular formula = C3H8O2.",
+   "marking_points": [
+    {
+     "point": "Moles/relative ratio of C, H, O",
+     "marks": 1
+    },
+    {
+     "point": "Empirical formula C3H8O2",
+     "marks": 1
+    },
+    {
+     "point": "Molecular formula C3H8O2 (n = 1)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 26,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Definitions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Definitions"
+   ],
+   "question": "Define the following terms:\n(a) Isomerism\n(b) Homologous series",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Isomerism: the phenomenon in which compounds have the same molecular formula but different structural formulae (and properties).\n(b) Homologous series: a group of organic compounds with the same functional group and general formula, similar chemical properties, in which successive members differ by a CH2 group.",
+   "marking_points": [
+    {
+     "point": "Isomerism definition",
+     "marks": 1
+    },
+    {
+     "point": "Homologous series definition",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(iv)",
+   "q_order": 27,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Analytical Chemistry",
+   "topic": "Identifying anions",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Identifying anions"
+   ],
+   "question": "Identify the anion in the following:\n(a) Compound Z which on reacting with concentrated sulphuric acid gives a gas which forms a curdy white precipitate with silver nitrate solution.\n(b) The solution of compound J on reacting with freshly prepared ferrous sulphate solution followed by the addition of few drops of concentrated sulphuric acid results in the formation of brown ring at the junction of the two liquids.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(a) anion in Z",
+     "accepted": [
+      "chloride",
+      "Cl-",
+      "chloride ion"
+     ]
+    },
+    {
+     "prompt": "(b) anion in J",
+     "accepted": [
+      "nitrate",
+      "NO3-",
+      "nitrate ion"
+     ]
+    }
+   ],
+   "solution": "(a) Chloride ion (Cl-); HCl gas gives a curdy white ppt of AgCl.\n(b) Nitrate ion (NO3-); brown ring test.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 28,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Balanced equations",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Balanced equations"
+   ],
+   "question": "Give balanced chemical equation for each of the following:\n(a) Reaction of ammonia with dilute sulphuric acid.\n(b) Reaction of 1,2-dibromoethane with alcoholic potassium hydroxide.\n(c) Reduction of lead monoxide with ammonia.\n(d) Reaction of sodium with ethanol.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) 2NH3 + H2SO4 -> (NH4)2SO4\n(b) CH2Br-CH2Br + 2KOH (alc.) -> C2H2 + 2KBr + 2H2O\n(c) 3PbO + 2NH3 -> 3Pb + 3H2O + N2\n(d) 2C2H5OH + 2Na -> 2C2H5ONa + H2",
+   "marking_points": [
+    {
+     "point": "(a) balanced",
+     "marks": 1
+    },
+    {
+     "point": "(b) balanced",
+     "marks": 1
+    },
+    {
+     "point": "(c) balanced",
+     "marks": 1
+    },
+    {
+     "point": "(d) balanced",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 29,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Chemical Bonding",
+   "topic": "Conductivity of ionic and covalent compounds",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Conductivity of ionic and covalent compounds"
+   ],
+   "question": "Justify the following statements:\n(a) Ionic compounds conduct electricity in molten state or aqueous state.\n(b) Non-polar covalent compounds do not conduct electricity in aqueous solution.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) In the molten or aqueous state the strong electrostatic forces are overcome and the ions become free to move, so they carry current.\n(b) Non-polar covalent compounds consist of molecules and do not ionise in water, so there are no free ions to conduct electricity.",
+   "marking_points": [
+    {
+     "point": "Ions free to move in molten/aqueous state",
+     "marks": 1
+    },
+    {
+     "point": "Non-polar covalent: molecules, no ions",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 30,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Metallurgy",
+   "topic": "Extraction of zinc from zinc blende",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "froth flotation for sulphide ores",
+    "roasting vs calcination"
+   ],
+   "question": "A student was asked to draw the flowchart for the extraction of zinc from zinc blende based on the principles of metallurgy. What he drew is given below. 2 steps out of the 5 were incorrect. Identify and correct them.\nFlowchart: Zinc blende (ZnS) (ore) -> (1) Pulverisation -> (2) Leaching (concentration of the ore) -> (3) Calcination (oxidation of the ore) -> (4) Chemical reduction (using coke) -> (5) Refining (by electrolysis) -> Pure zinc",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Incorrect step (2): Leaching is wrong. Zinc blende is a sulphide ore, so it is concentrated by froth flotation.\nIncorrect step (3): Calcination is wrong. A sulphide ore is converted to the oxide by roasting (heating in excess air): 2ZnS + 3O2 -> 2ZnO + 2SO2.\nSteps 1, 4 (ZnO + C -> Zn + CO) and 5 are correct.",
+   "marking_points": [
+    {
+     "point": "Identifies step 2 (leaching) as wrong",
+     "marks": 1
+    },
+    {
+     "point": "Corrects it to froth flotation",
+     "marks": 1
+    },
+    {
+     "point": "Identifies step 3 (calcination) as wrong",
+     "marks": 1
+    },
+    {
+     "point": "Corrects it to roasting",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 31,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Analytical Chemistry",
+   "topic": "Sulphite test with barium nitrate",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "Sulphite test with barium nitrate"
+   ],
+   "question": "A student prepared a potassium sulphite solution in the lab and added few drops of barium nitrate solution to it. He observed a white precipitate being formed in the test tube. On addition of dilute hydrochloric acid to the white precipitate and mixing it, he observed that the precipitate disappeared.\n(a) Name the white precipitate.\n(b) Write a balanced chemical equation for the reaction between dilute hydrochloric acid and the white precipitate.\n(c) Name the gas evolved in the above reaction.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Barium sulphite (BaSO3)\n(b) BaSO3 + 2HCl -> BaCl2 + H2O + SO2\n(c) Sulphur dioxide (SO2)",
+   "marking_points": [
+    {
+     "point": "Barium sulphite",
+     "marks": 1
+    },
+    {
+     "point": "Balanced equation",
+     "marks": 1
+    },
+    {
+     "point": "Sulphur dioxide",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 32,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Chemical Bonding",
+   "topic": "Bond type and formula from electronic configuration",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "Bond type and formula from electronic configuration"
+   ],
+   "question": "The following table shows the electronic configuration of the elements W, X, Y, Z. [Note: the table of electronic configurations is not printed in the source paper.]\n(a) What type of bond is formed between: (i) W and X  (ii) Y and Z\n(c) What is the formula of the compound formed between: (i) W and X  (ii) W and X",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The configuration table is missing from the printed paper, so the answer depends on it. Method: a metal (1-3 valence electrons) with a non-metal (5-7 valence electrons) forms an ionic (electrovalent) bond; two non-metals form a covalent bond. Formula: cross the valencies. For example, if W = 2,8,1 (valency 1) and X = 2,7 (valency 1), the bond is ionic and the formula is WX; if Y = 2,4 and Z = 1 (H), the bond is covalent and the formula is YZ4.",
+   "marking_points": [
+    {
+     "point": "Bond type W-X",
+     "marks": 1
+    },
+    {
+     "point": "Bond type Y-Z",
+     "marks": 1
+    },
+    {
+     "point": "Formula (i)",
+     "marks": 1
+    },
+    {
+     "point": "Formula (ii)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(iii)(a)",
+   "q_order": 33,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Metallurgy",
+   "topic": "Duralumin uses",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Duralumin uses"
+   ],
+   "question": "For construction work the alloy of aluminium i.e. Duralumin is used rather than pure aluminium. Give two valid reasons.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1. Duralumin is much stronger and harder than pure aluminium (pure Al is soft).\n2. It is light and resists corrosion, so it gives strength without adding much weight.",
+   "marking_points": [
+    {
+     "point": "Stronger/harder than pure Al",
+     "marks": 1
+    },
+    {
+     "point": "Light and corrosion resistant",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(iii)(b)",
+   "q_order": 34,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Chemical Bonding",
+   "topic": "Electron dot structure of MgCl2",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Electron dot structure of MgCl2"
+   ],
+   "question": "Draw the dot and cross structure of an ionic compound formed when magnesium reacts with dilute hydrochloric acid.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Mg + 2HCl -> MgCl2 + H2. MgCl2: Mg (2,8,2) transfers one electron to each of two Cl atoms (2,8,7), giving [Mg]2+ and two [:Cl:]- ions each with 8 electrons (7 dots + 1 cross) shown in brackets with charges.",
+   "marking_points": [
+    {
+     "point": "Correct dot-cross diagram of MgCl2 with charges",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 35,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Study of Acids, Bases and Salts",
+   "topic": "Classification of oxides",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Classification of oxides"
+   ],
+   "question": "Given below is a diagram showing the placement of five different oxides in two overlapping circles: the left circle (basic oxides) contains Na2O and Fe2O3; the overlapping region X contains ZnO; the right circle (acidic oxides) contains CuO and SO2.\n(a) Name the type of oxide represented in region X in the diagram.\n(b) Identify the oxide which has been incorrectly placed in the above diagram.\n(c) Name the oxide from the above diagram which will form an alkali when dissolved in water.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Type of oxide in region X",
+     "accepted": [
+      "amphoteric",
+      "amphoteric oxide"
+     ]
+    },
+    {
+     "prompt": "Incorrectly placed oxide",
+     "accepted": [
+      "CuO",
+      "copper(II) oxide",
+      "copper oxide"
+     ]
+    },
+    {
+     "prompt": "Oxide forming an alkali",
+     "accepted": [
+      "Na2O",
+      "sodium oxide"
+     ]
+    }
+   ],
+   "solution": "(a) Amphoteric oxide\n(b) CuO - it is a basic oxide and has been placed among acidic oxides.\n(c) Na2O (Na2O + H2O -> 2NaOH)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 36,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "fill_blank",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Alkenes",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Alkenes"
+   ],
+   "question": "Alkenes are a homologous series of (i) ______ (saturated / unsaturated) hydrocarbons characterized by the general formula (ii) ______ (CnH2n+2 / CnH2n). Alkenes undergo (iii) ______ (addition / substitution) reactions and also undergo (iv) ______ (hydrogenation / dehydrogenation) to form alkanes.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(i)",
+     "accepted": [
+      "unsaturated"
+     ]
+    },
+    {
+     "prompt": "(ii)",
+     "accepted": [
+      "CnH2n"
+     ]
+    },
+    {
+     "prompt": "(iii)",
+     "accepted": [
+      "addition"
+     ]
+    },
+    {
+     "prompt": "(iv)",
+     "accepted": [
+      "hydrogenation"
+     ]
+    }
+   ],
+   "solution": "(i) unsaturated (ii) CnH2n (iii) addition (iv) hydrogenation",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 37,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Study of Acids, Bases and Salts",
+   "topic": "Choose from the box",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Choose from the box"
+   ],
+   "question": "Choose the compound from the box that fits the descriptions from (a) to (c). Box: SO2, PbO, CO, K2SO4, H2SO4, CH3COOH, NaHSO4, KCl\n(a) An acid present in vinegar.\n(b) An oxide which dissolves in water forming an acid.\n(c) A salt formed by the incomplete neutralization of an acid by a base.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Acid present in vinegar",
+     "accepted": [
+      "CH3COOH",
+      "acetic acid",
+      "ethanoic acid"
+     ]
+    },
+    {
+     "prompt": "Oxide dissolving in water forming an acid",
+     "accepted": [
+      "SO2",
+      "sulphur dioxide"
+     ]
+    },
+    {
+     "prompt": "Salt formed by incomplete neutralisation",
+     "accepted": [
+      "NaHSO4",
+      "sodium hydrogen sulphate",
+      "sodium bisulphate"
+     ]
+    }
+   ],
+   "solution": "(a) CH3COOH (b) SO2 (c) NaHSO4",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 38,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Mole Concept and Stoichiometry",
+   "topic": "Molar volume at RTP",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "Molar volume at RTP"
+   ],
+   "question": "1 mole of CO2 occupies 24 dm3 at room temperature and pressure. Calculate the following:\n(a) The mass of 6 litres of CO2.\n(b) The volume occupied by 60 g of CO2. [Atomic weight: C = 12, O = 16]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Molar mass of CO2 = 44 g.\n(a) 6 L = 6/24 = 0.25 mol; mass = 0.25 x 44 = 11 g\n(b) 60 g = 60/44 = 1.364 mol; volume = 1.364 x 24 = 32.73 dm3 (about 32.7 L)",
+   "marking_points": [
+    {
+     "point": "Mass = 11 g",
+     "marks": 1
+    },
+    {
+     "point": "Volume = 32.7 dm3",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 39,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electrolysis",
+   "topic": "Definitions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Definitions"
+   ],
+   "question": "Define:\n(a) Electrolyte\n(b) Catenation",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Electrolyte: a compound which, in the molten state or in aqueous solution, conducts electricity and is decomposed by it (due to free ions).\n(b) Catenation: the property of an element (especially carbon) of forming long chains or rings by bonding with atoms of the same element.",
+   "marking_points": [
+    {
+     "point": "Electrolyte definition",
+     "marks": 1
+    },
+    {
+     "point": "Catenation definition",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 40,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Study of Acids, Bases and Salts",
+   "topic": "Methods of preparation of salts",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Methods of preparation of salts"
+   ],
+   "question": "Name the most appropriate method of preparation of the following salts:\n(a) Copper carbonate\n(b) Sodium sulphate\n(c) Ferric chloride",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Copper carbonate",
+     "accepted": [
+      "precipitation",
+      "double decomposition"
+     ]
+    },
+    {
+     "prompt": "Sodium sulphate",
+     "accepted": [
+      "neutralisation",
+      "titration",
+      "neutralization"
+     ]
+    },
+    {
+     "prompt": "Ferric chloride",
+     "accepted": [
+      "direct combination",
+      "synthesis",
+      "direct synthesis"
+     ]
+    }
+   ],
+   "solution": "(a) Precipitation (double decomposition), e.g. CuSO4 + Na2CO3 -> CuCO3 + Na2SO4\n(b) Neutralisation by titration (2NaOH + H2SO4 -> Na2SO4 + 2H2O)\n(c) Direct combination (synthesis): 2Fe + 3Cl2 -> 2FeCl3",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "8(iv)",
+   "q_order": 41,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Organic reactions",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Organic reactions"
+   ],
+   "question": "Complete and balance the following equations:\n(a) C2H5Br + KOH (alcoholic) ->\n(b) C2H5OH -(conc. H2SO4, 170 C)->\n(c) CH4 + Cl2 ->",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) C2H5Br + KOH (alc.) -> C2H4 + KBr + H2O\n(b) C2H5OH -(conc. H2SO4, 170 C)-> C2H4 + H2O\n(c) CH4 + Cl2 -(diffused sunlight)-> CH3Cl + HCl",
+   "marking_points": [
+    {
+     "point": "(a) C2H4 + KBr + H2O",
+     "marks": 1
+    },
+    {
+     "point": "(b) C2H4 + H2O",
+     "marks": 1
+    },
+    {
+     "point": "(c) CH3Cl + HCl",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  }
+ ]
+}

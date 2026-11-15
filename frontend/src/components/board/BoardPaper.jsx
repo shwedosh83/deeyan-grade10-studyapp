@@ -116,7 +116,7 @@ export default function BoardPaper() {
   function overLimitNotes() {
     const notes = [];
     for (const sec of sections) {
-      const def = (paper.sections || []).find(x => sec.name.startsWith(x.name) || x.name.startsWith(sec.name));
+      const def = sectionOf(paper, { section: sec.name });
       if (!def?.attempt_n) continue;
       const choice = sec.mains.filter(m => m.rows[0].mandatory === 'choice');
       const attempted = choice.filter(m => m.rows.some(r => hasAnswer(r, answers[r.id]))).length;
@@ -210,15 +210,25 @@ export default function BoardPaper() {
         </div>
       )}
       {loading ? <p className="text-sm text-gray-400">Loading papers…</p> : papers.length === 0 ? <Empty text="No papers uploaded for this subject yet." /> : (
-        <div className="grid sm:grid-cols-2 gap-3">
-          {papers.map(p => (
-            <button key={p.id} onClick={() => openPaper(p)} className="text-left bg-white rounded-xl border-2 border-gray-200 hover:border-barca-navy p-4 transition-colors">
-              <p className="font-bold text-gray-900">{subject.label} {p.label}</p>
-              <p className="text-xs text-gray-500 mt-1">{p.max_marks} marks · {p.duration_minutes >= 60 ? `${p.duration_minutes / 60} hr` : `${p.duration_minutes} min`} · {p.question_count} questions</p>
-              {p.sem && <p className="text-xs text-amber-600 mt-1">2022 split-exam paper (Semester {p.sem})</p>}
-            </button>
-          ))}
-        </div>
+        [['board', 'Board papers'], ['prelim', 'School prelim papers (2025-26)']].map(([src, heading]) => {
+          const group = papers.filter(p => (p.source || 'board') === src);
+          if (!group.length) return null;
+          return (
+            <div key={src} className="space-y-2">
+              {papers.some(p => (p.source || 'board') === 'prelim') && <p className="text-sm font-semibold text-gray-700">{heading}</p>}
+              <div className="grid sm:grid-cols-2 gap-3">
+                {group.map(p => (
+                  <button key={p.id} onClick={() => openPaper(p)} className="text-left bg-white rounded-xl border-2 border-gray-200 hover:border-barca-navy p-4 transition-colors">
+                    <p className="font-bold text-gray-900">{p.source === 'prelim' ? p.school : `${subject.label} ${p.label}`}</p>
+                    {p.source === 'prelim' && <p className="text-xs text-barca-navy font-medium mt-0.5">{p.exam_label || 'Prelim'} · school prelim</p>}
+                    <p className="text-xs text-gray-500 mt-1">{p.max_marks} marks · {p.duration_minutes >= 60 ? `${p.duration_minutes / 60} hr` : `${p.duration_minutes} min`} · {p.question_count} questions</p>
+                    {p.sem && <p className="text-xs text-amber-600 mt-1">2022 split-exam paper (Semester {p.sem})</p>}
+                  </button>
+                ))}
+              </div>
+            </div>
+          );
+        })
       )}
       <RecentAttempts />
     </div>

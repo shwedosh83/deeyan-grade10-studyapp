@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSubject } from '../../context/SubjectContext';
 import { useAuth } from '../../context/AuthContext';
-import { boardApi, fmtMarks, hasAnswer, KIND_LABELS, SUBJECTS_WITH_BOARD } from '../../lib/board';
+import { boardApi, fmtMarks, hasAnswer, KIND_LABELS, paperTag, SOURCE_LABELS, SUBJECTS_WITH_BOARD } from '../../lib/board';
 import QuestionCard from './QuestionCard';
 
 const KINDS = ['numerical', 'data_diagram', 'reasoning', 'case', 'program', 'map'];
@@ -15,6 +15,7 @@ export default function BoardApplied() {
   const [phase, setPhase] = useState('setup'); // setup | loading | running | done
   const [kinds, setKinds] = useState([]);
   const [chapter, setChapter] = useState('');
+  const [source, setSource] = useState('');  // '' = board + prelims, 'board', 'prelim'
   const [count, setCount] = useState(10);
   const [chapters, setChapters] = useState([]);
   const [info, setInfo] = useState(null);
@@ -30,7 +31,7 @@ export default function BoardApplied() {
   const hasBoard = SUBJECTS_WITH_BOARD.includes(subject.id);
 
   useEffect(() => {
-    setPhase('setup'); setKinds([]); setChapter(''); setInfo(null); setError(null);
+    setPhase('setup'); setKinds([]); setChapter(''); setSource(''); setInfo(null); setError(null);
     if (!hasBoard) return;
     boardApi('boardPapers', { action: 'applied', subject: subject.id, count: 1, userId: user?.id || null })
       .then(d => { setChapters(d.chapters || []); setInfo(d); }).catch(() => {});
@@ -39,7 +40,7 @@ export default function BoardApplied() {
   async function start() {
     setPhase('loading'); setError(null);
     try {
-      const d = await boardApi('boardPapers', { action: 'applied', subject: subject.id, kinds, chapter: chapter || null, count, userId: user?.id || null });
+      const d = await boardApi('boardPapers', { action: 'applied', subject: subject.id, kinds, chapter: chapter || null, count, userId: user?.id || null, source: source || null });
       if (!d.questions?.length) { setError('No applied questions match those filters.'); setPhase('setup'); return; }
       setQuestions(d.questions); setIdx(0); setAnswer(''); setFb(null); setLog([]); setPhase('running');
     } catch (e) { setError(e.message); setPhase('setup'); }
@@ -82,6 +83,14 @@ export default function BoardApplied() {
     <div className="max-w-xl space-y-5">
       <p className="text-sm text-gray-500">Board-paper questions that test using ideas in new situations — case studies, numericals, data and diagram reading — drawn from all {subject.label} papers. Marked against the official solution with the exact points you missed.{info ? ` ${info.pool_size} to practise (${info.unseen} not yet tried).` : ''}</p>
       <div className="bg-white rounded-xl border border-gray-200 p-5 space-y-4">
+        {(info?.sources || []).length > 1 && (
+          <div>
+            <p className="text-sm font-medium text-gray-700 mb-2">Which papers?</p>
+            <div className="flex flex-wrap gap-2">{['', 'board', 'prelim'].map(s => (
+              <button key={s || 'all'} onClick={() => setSource(s)} className={`px-3 py-1.5 rounded-full text-sm border-2 ${source === s ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500'}`}>{SOURCE_LABELS[s]}</button>
+            ))}</div>
+          </div>
+        )}
         <div>
           <p className="text-sm font-medium text-gray-700 mb-2">Type of question <span className="text-gray-400 font-normal">(none selected = all)</span></p>
           <div className="flex flex-wrap gap-2">{availableKinds.map(k => (
@@ -124,7 +133,7 @@ export default function BoardApplied() {
   return (
     <div className="max-w-2xl space-y-4">
       <div className="flex items-center justify-between"><p className="font-semibold text-gray-700">Question {idx + 1} of {questions.length}</p>
-        <span className="text-xs text-gray-400">{q.paper_id.replace(/^[a-z_]+?_(\d{4}.*)$/, '$1').toUpperCase()} board paper</span></div>
+        <span className="text-xs text-gray-400">{paperTag(q)}</span></div>
       <QuestionCard q={q} value={answer} onChange={setAnswer} disabled={!!fb} />
       {error && <p className="text-sm text-red-500 bg-red-50 rounded-lg px-3 py-2">{error}</p>}
       {!fb && <button onClick={submit} disabled={busy || !hasAnswer(q, answer)} className="w-full bg-barca-navy hover:bg-barca-navy-dark disabled:bg-gray-300 text-white font-semibold py-2.5 rounded-lg">{busy ? 'Marking…' : 'Submit answer'}</button>}

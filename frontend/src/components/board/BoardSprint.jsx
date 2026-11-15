@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSubject } from '../../context/SubjectContext';
 import { useAuth } from '../../context/AuthContext';
-import { boardApi, checkObjective, fmtTime, getItems, hasAnswer, isMCQ, SUBJECTS_WITH_BOARD } from '../../lib/board';
+import { boardApi, checkObjective, fmtTime, getItems, hasAnswer, isMCQ, paperTag, SOURCE_LABELS, SUBJECTS_WITH_BOARD } from '../../lib/board';
 import QuestionCard from './QuestionCard';
 import BoardResults from './BoardResults';
 
@@ -17,6 +17,8 @@ export default function BoardSprint() {
   const [count, setCount] = useState(15);
   const [chapter, setChapter] = useState('');   // '' = all chapters
   const [chapters, setChapters] = useState([]);
+  const [source, setSource] = useState('');     // '' = board + prelims, 'board', 'prelim'
+  const [sources, setSources] = useState([]);   // sources that exist in this subject's pool
   const [questions, setQuestions] = useState([]);
   const [poolSize, setPoolSize] = useState(null);
   const [idx, setIdx] = useState(0);
@@ -32,23 +34,23 @@ export default function BoardSprint() {
   const hasBoard = SUBJECTS_WITH_BOARD.includes(subject.id);
   const qMap = useMemo(() => Object.fromEntries(questions.map(q => [q.id, q])), [questions]);
 
-  useEffect(() => { setPhase('setup'); setResult(null); setError(null); setChapter(''); setChapters([]); }, [subject.id]);
+  useEffect(() => { setPhase('setup'); setResult(null); setError(null); setChapter(''); setChapters([]); setSource(''); setSources([]); }, [subject.id]);
 
-  // Chapter list for the setup screen (count 0 = metadata only).
+  // Chapter + source lists for the setup screen (count 0 = metadata only).
   useEffect(() => {
     if (!hasBoard) return;
     let on = true;
-    boardApi('boardPapers', { action: 'sprint', subject: subject.id, count: 0 })
-      .then(d => { if (on) setChapters(d.chapters || []); })
+    boardApi('boardPapers', { action: 'sprint', subject: subject.id, count: 0, source: source || null })
+      .then(d => { if (!on) return; setChapters(d.chapters || []); if (!source) setSources(d.sources || []); })
       .catch(() => {});
     return () => { on = false; };
-  }, [subject.id, hasBoard]);
+  }, [subject.id, hasBoard, source]);
   useEffect(() => { const t = setInterval(() => setNow(Date.now()), 500); return () => clearInterval(t); }, []);
 
   async function start() {
     setPhase('loading'); setError(null);
     try {
-      const d = await boardApi('boardPapers', { action: 'sprint', subject: subject.id, count: Number(count), chapter: chapter || null });
+      const d = await boardApi('boardPapers', { action: 'sprint', subject: subject.id, count: Number(count), chapter: chapter || null, source: source || null });
       if (!d.questions?.length) { setError(chapter ? `No objective questions for ${chapter} yet.` : 'No objective questions for this subject yet.'); setPhase('setup'); return; }
       setQuestions(d.questions); setPoolSize(d.pool_size); setIdx(0); setAnswers({}); setChecked({}); finishing.current = false;
       const t = Date.now(); setStartedAt(t); setDeadline(t + d.questions.length * SECONDS_PER_Q * 1000);
@@ -89,6 +91,20 @@ export default function BoardSprint() {
     <div className="max-w-xl space-y-5">
       <p className="text-sm text-gray-500">Quick-fire objectives from real {subject.label} board papers: MCQs, assertion–reason, match the column, fill in the blanks, name the term. {SECONDS_PER_Q} seconds each, marked instantly.</p>
       <div className="bg-white rounded-xl border border-gray-200 p-5 space-y-3">
+        {sources.length > 1 && (
+          <div className="space-y-2">
+            <p className="text-sm font-medium text-gray-700">Which papers?</p>
+            <div className="flex gap-1.5 flex-wrap">
+              {['', 'board', 'prelim'].map(s => (
+                <button key={s || 'all'} type="button" onClick={() => { setSource(s); setChapter(''); }}
+                  className={`px-3 py-1 rounded-full text-xs font-medium border ${source === s ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500 hover:text-gray-700'}`}>
+                  {SOURCE_LABELS[s]}
+                </button>
+              ))}
+            </div>
+            {source === 'prelim' && <p className="text-xs text-gray-400">Objective questions from the top board-aligned school prelim papers (2025-26), each tagged with its school.</p>}
+          </div>
+        )}
         {chapters.length > 1 && (
           <div className="space-y-2">
             <p className="text-sm font-medium text-gray-700">Which chapter?</p>
@@ -147,7 +163,7 @@ export default function BoardSprint() {
         </div>
       </div>
       <div className="h-2 bg-gray-100 rounded-full overflow-hidden"><div className="h-full bg-barca-navy transition-all" style={{ width: `${(idx / questions.length) * 100}%` }} /></div>
-      <p className="text-xs text-gray-400">{q.paper_id.replace(/^[a-z_]+?_(\d{4}.*)$/, '$1').toUpperCase()} board paper</p>
+      <p className="text-xs text-gray-400">{paperTag(q)}</p>
 
       <QuestionCard q={q} value={answers[q.id] || ''} compact
         onChange={v => (isMCQ(q) ? pickOption(q, v) : setAnswers(a => ({ ...a, [q.id]: v })))}

@@ -30,29 +30,34 @@ export default async function handler(req, res) {
     }
 
     if (action === 'sprint') {
-      const { subject, count = 15, chapter = null } = req.body;
+      const { subject, count = 15, chapter = null, source = null } = req.body;   // source: 'board' | 'prelim' | null = both
       let query = admin.from('board_questions')
         .select(PUBLIC_Q_COLS + ',correct_option,solution,answer_items')
         .eq('subject', subject).eq('is_objective', true).or('needs_figure.eq.false,figure_url.not.is.null').limit(3000);   // figure questions only when the page image exists
       if (chapter) query = query.eq('chapter', chapter);
+      if (source) query = query.eq('source', source);
       const { data, error } = await query;
       if (error) throw error;
       let chapters;
       if (chapter) {
-        const { data: all } = await admin.from('board_questions').select('chapter').eq('subject', subject).eq('is_objective', true).limit(3000);
+        let allQ = admin.from('board_questions').select('chapter').eq('subject', subject).eq('is_objective', true).limit(3000);
+        if (source) allQ = allQ.eq('source', source);
+        const { data: all } = await allQ;
         chapters = [...new Set((all || []).map(x => x.chapter).filter(Boolean))].sort();
       } else {
         chapters = [...new Set((data || []).map(x => x.chapter).filter(Boolean))].sort();
       }
+      const sources = [...new Set((data || []).map(x => x.source).filter(Boolean))].sort();
       const pool = (data || []).sort(() => Math.random() - 0.5).slice(0, Math.min(count, 100));
-      return res.json({ questions: pool, pool_size: (data || []).length, chapters });
+      return res.json({ questions: pool, pool_size: (data || []).length, chapters, sources });
     }
 
     if (action === 'applied') {
-      const { subject, kinds = [], chapter = null, count = 10, userId = null } = req.body;
+      const { subject, kinds = [], chapter = null, count = 10, userId = null, source = null } = req.body;   // source: 'board' | 'prelim' | null = both
       let q = admin.from('board_questions').select(PUBLIC_Q_COLS + ',answer_items').eq('subject', subject).eq('applied', true).eq('is_objective', false).not('solution', 'is', null);
       if (kinds.length) q = q.in('applied_kind', kinds);
       if (chapter) q = q.eq('chapter', chapter);
+      if (source) q = q.eq('source', source);
       const { data: pool, error } = await q.limit(3000);
       if (error) throw error;
       let seen = new Set();
@@ -68,7 +73,8 @@ export default async function handler(req, res) {
       const picked = [...shuffled.filter(x => !seen.has(x.id)), ...shuffled.filter(x => seen.has(x.id))].slice(0, Math.min(count, 30)).map(stripItems);
       const chapters = [...new Set((pool || []).map(x => x.chapter).filter(Boolean))].sort();
       const poolKinds = [...new Set((pool || []).map(x => x.applied_kind).filter(Boolean))];
-      return res.json({ questions: picked, pool_size: (pool || []).length, unseen: (pool || []).filter(x => !seen.has(x.id)).length, chapters, kinds: poolKinds });
+      const sources = [...new Set((pool || []).map(x => x.source).filter(Boolean))].sort();
+      return res.json({ questions: picked, pool_size: (pool || []).length, unseen: (pool || []).filter(x => !seen.has(x.id)).length, chapters, kinds: poolKinds, sources });
     }
 
     return res.status(400).json({ error: 'unknown action' });

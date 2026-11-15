@@ -1,0 +1,1938 @@
+{
+ "paper_id": "prelim_history_civics_euro",
+ "subject": "history_civics",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · EuroSchool",
+ "source": "prelim",
+ "school": "EuroSchool",
+ "exam_label": "Prelim 1",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Attempt all questions from Part I (compulsory). A total of five questions are to be attempted from Part II: two out of three from Section A and three out of five from Section B. Intended marks are given in brackets [].",
+ "sections": [
+  {
+   "name": "Part I",
+   "total_marks": 30,
+   "rule": "Attempt all questions from this Part",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Part II Section A",
+   "total_marks": 20,
+   "rule": "Attempt any two questions from this Section",
+   "compulsory": false,
+   "attempt_n": 2,
+   "out_of": 3
+  },
+  {
+   "name": "Part II Section B",
+   "total_marks": 30,
+   "rule": "Attempt any three questions from this Section",
+   "compulsory": false,
+   "attempt_n": 3,
+   "out_of": 5
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Powers and functions of the Speaker",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "functions of the Speaker",
+    "Question Hour"
+   ],
+   "question": "Identify the FALSE statement about the role and functions of the Speaker:",
+   "options": {
+    "a": "The Speaker regulates the admission of visitors to the galleries of the house.",
+    "b": "The Speaker decides whether a bill is a money bill or not.",
+    "c": "The Speaker can suspend a member for disorderly conduct",
+    "d": "The Speaker answers all questions during Question Hour"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) The Speaker answers all questions during Question Hour. This is false: during Question Hour ministers answer the questions; the Speaker only regulates the proceedings and decides admissibility of questions.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Federal features: division of powers",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "federalism",
+    "division of powers"
+   ],
+   "question": "Assertion (A): In a federal system, the State Governments derive their powers directly from the Central Government.\nReason (R): In a federal system, powers are divided between the Centre and the States by the Constitution.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A",
+    "b": "Both A and R are true, but R is not the correct explanation of A",
+    "c": "A is true, but R is false",
+    "d": "A is false, but R is true"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) A is false, but R is true. In a federation both the Centre and the States derive their powers from the Constitution (Union, State and Concurrent Lists), not from each other.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "President and Vice President",
+   "topic": "Judicial powers of the President",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "judicial powers of the President"
+   ],
+   "question": "The President appoints Dr. D.Y. Chandrachud as the 50th Chief Justice of India. What power is the President exercising?",
+   "options": {
+    "a": "Legislative power",
+    "b": "Executive power",
+    "c": "Judicial power",
+    "d": "Emergency power"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Judicial power. In the ICSE syllabus, appointment of the Chief Justice and judges of the Supreme Court and High Courts is listed among the President's judicial powers (along with the power of pardon).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Writ jurisdiction of the High Court",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 1,
+   "concepts": [
+    "writs",
+    "writ jurisdiction of High Court"
+   ],
+   "question": "What does this image illustrate? [Image: an open suitcase labelled 'HIGH COURT POWERS' containing icons labelled Habeas Corpus, Mandamus, Prohibition, Certiorari and Quo-Warranto.]",
+   "options": {
+    "a": "High Court's power to conduct trials",
+    "b": "High Court's power to enforce Fundamental Rights",
+    "c": "High Court's power to appoint judges",
+    "d": "High Court's power to advise the President"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) High Court's power to enforce Fundamental Rights. The five writs (Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo-Warranto) are issued by the High Court under Article 226 to enforce Fundamental Rights.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Courts and their roles",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "District Court",
+    "Sessions Court",
+    "Lok Adalat"
+   ],
+   "question": "Match the following:\nColumn A: 1. District Judge  2. Sessions Judge  3. High Court  4. Lok Adalat\nColumn B: (a) Alternative dispute resolution  (b) Criminal cases at district level  (c) Civil cases at district level  (d) Highest court in the state",
+   "options": {
+    "a": "1-(a) 2-(b) 3-(d) 4-(c)",
+    "b": "1-(a) 2-(b) 3-(c) 4-(d)",
+    "c": "1-(c) 2-(d) 3-(b) 4-(a)",
+    "d": "1-(c) 2-(b) 3-(d) 4-(a)"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 1-(c), 2-(b), 3-(d), 4-(a). The District Judge hears civil cases, the Sessions Judge criminal cases at district level, the High Court is the highest court in the state and the Lok Adalat provides alternative dispute resolution.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "President and Vice President",
+   "topic": "Qualifications of the Vice-President",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "qualifications of Vice-President",
+    "office of profit"
+   ],
+   "question": "Mr. Singh was not found eligible for the election as the Vice President of India, even though he had the qualifications of being a citizen of India and not being a member of the Parliament and State Legislature. On what grounds was he disqualified?",
+   "options": {
+    "a": "For being above the age of 35",
+    "b": "For being qualified as a member of the Council of States",
+    "c": "For holding any office of profit under the Centre or state government",
+    "d": "For being qualified for election as a member of the Lok Sabha"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) For holding any office of profit under the Centre or state government. A Vice-President must be at least 35 and qualified for election to the Rajya Sabha; holding an office of profit disqualifies a candidate.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First War of Independence 1857",
+   "topic": "Causes of the Revolt of 1857",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "military causes of 1857"
+   ],
+   "question": "Doctrine of Lapse : Political Cause :: Lower Salaries : _______",
+   "options": {
+    "a": "Economic Cause",
+    "b": "Military Cause",
+    "c": "Social Cause",
+    "d": "Administrative Cause"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Military Cause. Low salaries and poor prospects of promotion of Indian sepoys compared with British soldiers were military grievances behind the revolt.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First War of Independence 1857",
+   "topic": "Methods of British expansion",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Doctrine of Lapse",
+    "annexation of Awadh",
+    "Subsidiary Alliance"
+   ],
+   "question": "Which of the following expansion methods with their examples is INCORRECT:",
+   "options": {
+    "a": "Outright wars - Mysore, Punjab",
+    "b": "Doctrine of Lapse - Jhansi, Nagpur",
+    "c": "Subsidiary Alliance - Hyderabad, Mysore",
+    "d": "Pretext of Misrule - Jhansi, Nagpur"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Pretext of Misrule - Jhansi, Nagpur. Jhansi and Nagpur were annexed under the Doctrine of Lapse; the pretext of misrule was used to annex Awadh (1856).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Satyashodhak Samaj",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Satyashodhak Samaj",
+    "Jyotiba Phule"
+   ],
+   "question": "Jyotiba Phule established the Satyashodhak Samaj to:",
+   "options": {
+    "a": "Promote education in Sanskrit.",
+    "b": "Encourage the traditional gurukul education system.",
+    "c": "Social justice and equality for lower castes.",
+    "d": "Promote education for upper caste Hindus only."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Social justice and equality for lower castes. Phule founded the Satyashodhak Samaj (1873) to free the lower castes from Brahmanical domination and secure social equality.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Economic exploitation: decline of Indian industries",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "economic exploitation",
+    "decline of handicrafts"
+   ],
+   "question": "The decline of Indian textile industry during British rule occurred MOST LIKELY due to:",
+   "options": {
+    "a": "Competition from cheaply available British manufactured goods.",
+    "b": "Lack of adequate supply of raw materials in India.",
+    "c": "Promotion of Western education among educated Indians.",
+    "d": "Expansion of Indian trade to other Asian countries."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Competition from cheaply available British manufactured goods. Machine-made British cloth entered India almost duty-free while Indian goods faced heavy duties in Britain, ruining Indian handloom weavers.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Rowlatt Act",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Rowlatt Act"
+   ],
+   "question": "The Rowlatt Act of 1919 was opposed by Indians because it:",
+   "options": {
+    "a": "Imposed heavy taxes on common goods and services.",
+    "b": "Allowed imprisonment without trial and conviction.",
+    "c": "Banned the use of Indian languages in legal courts.",
+    "d": "Restricted trade and business activities."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Allowed imprisonment without trial and conviction. The Rowlatt Act empowered the government to arrest and detain anyone on suspicion without trial, which Indians called the 'Black Act'.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Background of the Quit India Movement",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "Cripps Mission",
+    "Quit India Resolution"
+   ],
+   "question": "Arrange the following events in chronological order:\n1. The Quit India Resolution was passed\n2. Cripps Mission arrived in India\n3. Fall of Burma to Japan\n4. Congress leaders arrested",
+   "options": {
+    "a": "2, 3, 1, 4",
+    "b": "3, 2, 1, 4",
+    "c": "1, 2, 3, 4",
+    "d": "2, 1, 3, 4"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 3, 2, 1, 4. Japan overran Burma (Rangoon fell in March 1942), the Cripps Mission arrived in March 1942, the Quit India Resolution was passed on 8 August 1942, and Congress leaders were arrested early on 9 August 1942.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The United Nations",
+   "topic": "Security Council vs General Assembly",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "functions of Security Council",
+    "General Assembly"
+   ],
+   "question": "Assertion (A): The General Assembly can use military force to maintain peace.\nReason (R): Only the Security Council has the authority to authorise military action.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A",
+    "b": "Both A and R are true, but R is not the correct explanation of A",
+    "c": "A is true, but R is false",
+    "d": "A is false, but R is true"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) A is false, but R is true. The General Assembly can only discuss and recommend; the Security Council alone can take enforcement action, including the use of military force.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Rise of Dictatorships",
+   "topic": "Common features of Fascism and Nazism",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "features of Fascism",
+    "features of Nazism"
+   ],
+   "question": "Compare the following features and identify which applies to BOTH Fascism and Nazism:\ni. The state is supreme and can suppress fundamental rights\nii. Belief in international peace and equality\niii. Emphasis on extreme nationalism\niv. Opposition to democracy and communism",
+   "options": {
+    "a": "i and iii only",
+    "b": "ii, iii and iv only",
+    "c": "i, iii and iv only",
+    "d": "i only"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) i, iii and iv only. Both ideologies glorified the totalitarian state, aggressive nationalism and opposed democracy and communism; neither believed in international peace and equality.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Non Aligned Movement",
+   "topic": "Panchsheel",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Panchsheel"
+   ],
+   "question": "Identify the ODD one out regarding Panchsheel principles:",
+   "options": {
+    "a": "Mutual respect for territorial integrity.",
+    "b": "Non-aggression.",
+    "c": "Right to form military alliances.",
+    "d": "Peaceful coexistence"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Right to form military alliances. Panchsheel's five principles are mutual respect for territorial integrity and sovereignty, non-aggression, non-interference in internal affairs, equality and mutual benefit, and peaceful coexistence; joining military alliances goes against non-alignment.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "1(xvi)",
+   "q_order": 15,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The United Nations",
+   "topic": "WHO and UNICEF functions",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "WHO functions",
+    "UNICEF functions"
+   ],
+   "question": "Which of the following functions is COMMON to both WHO and UNICEF?",
+   "options": {
+    "a": "Providing educational materials",
+    "b": "Improving health and nutrition levels",
+    "c": "Preserving cultural heritage",
+    "d": "Promoting tourism"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Improving health and nutrition levels. WHO works to raise health standards worldwide and UNICEF provides nutrition, immunisation and health care to children and mothers.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Revisory jurisdiction of the High Court",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "revisory jurisdiction",
+    "appellate jurisdiction"
+   ],
+   "question": "Analyse why Revisory Jurisdiction is necessary even when Appellate Jurisdiction exists.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Appeal is not available in every case (e.g. small or petty cases where no appeal lies). Under its revisory jurisdiction the High Court can call for the records of any case decided by a subordinate court, even where no appeal is made, to check whether the lower court has exceeded its jurisdiction, failed to exercise it, or acted illegally or with material irregularity. Thus it ensures that justice is done and mistakes are corrected even where the appellate route is not available or not used.",
+   "marking_points": [
+    {
+     "point": "Appeal does not lie / is not filed in every case, so a remedy is needed beyond appeal",
+     "marks": 1
+    },
+    {
+     "point": "High Court can call for records of a subordinate court's case and correct illegality, excess or failure of jurisdiction, ensuring justice",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "President and Vice President",
+   "topic": "Common qualifications of President and Vice-President",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "qualifications of President",
+    "qualifications of Vice-President"
+   ],
+   "question": "State two common qualifications required for both the President and Vice-President.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (1) must be a citizen of India; (2) must have completed 35 years of age; (3) must not hold any office of profit under the Union, State or any local authority; (4) must not be a member of either House of Parliament or a State Legislature (if elected, the seat is vacated). [President must be qualified for election to the Lok Sabha; Vice-President to the Rajya Sabha.]",
+   "marking_points": [
+    {
+     "point": "First common qualification (e.g. citizen of India)",
+     "marks": 1
+    },
+    {
+     "point": "Second common qualification (e.g. at least 35 years of age / no office of profit)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Role of the press in rise of nationalism",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "role of the press",
+    "rise of nationalism"
+   ],
+   "question": "Analyze how the Indian Press contributed to the awakening of national consciousness among Indians during the 19th century.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (1) Newspapers such as The Hindu, Amrita Bazar Patrika, Kesari, The Bengalee and Mahratta exposed and criticised the unjust and exploitative policies of the British government. (2) They spread ideas of liberty, democracy, self-government and patriotism among the people. (3) They carried news of happenings in different parts of the country, creating a sense of unity among Indians. (4) They provided a platform for exchange of political views and helped organise public opinion and political movements.",
+   "marking_points": [
+    {
+     "point": "Criticised/exposed British policies",
+     "marks": 1
+    },
+    {
+     "point": "Spread ideas of liberty/self-rule and created unity by sharing news across India",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Simon Commission to Poorna Swaraj",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "Simon Commission",
+    "Lahore Session 1929"
+   ],
+   "question": "What was the connection between the Simon Commission and the Poorna Swaraj declaration?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The all-white Simon Commission (1927) with no Indian member was boycotted all over India ('Simon Go Back'). In response Indians drafted the Nehru Report (1928) demanding Dominion Status, but the British ignored it. This, together with the growing anger after the Simon boycott, led the Congress at its Lahore Session (December 1929), under Jawaharlal Nehru, to declare Poorna Swaraj (complete independence) as its goal; 26 January 1930 was celebrated as Independence Day.",
+   "marking_points": [
+    {
+     "point": "Simon Commission (all-white) boycotted; led to Nehru Report demanding Dominion Status which was ignored",
+     "marks": 1
+    },
+    {
+     "point": "This resulted in Lahore Session 1929 declaring Poorna Swaraj as the goal",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(v)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Forward Bloc and The INA",
+   "topic": "Rani of Jhansi Regiment",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "INA",
+    "Rani of Jhansi Regiment"
+   ],
+   "question": "\"They Became Soldiers For...Their Own Liberty\": Women Joined Subhas Chandra Bose's Rani of Jhansi Regiment - Caravanmagazine, 26th Dec 2016.\nWho led this regiment, and what was the significance of forming this within the INA?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Rani of Jhansi Regiment was led by Captain Lakshmi Swaminathan (later Lakshmi Sahgal). Significance: it was an all-women fighting unit, showing that women were equal partners in the armed struggle for freedom; it inspired women to come forward and gave the INA a truly national character.",
+   "marking_points": [
+    {
+     "point": "Led by Captain Lakshmi Swaminathan (Sahgal)",
+     "marks": 1
+    },
+    {
+     "point": "Significance: women participated as equals in the armed freedom struggle / inspired women",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(vi)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Rise of Dictatorships",
+   "topic": "Causes of rise of Fascism in Italy",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "rise of Fascism"
+   ],
+   "question": "State any two causes for the rise of Fascism in Italy.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (1) Dissatisfaction with the Treaty of Versailles - Italy did not get the territories promised to her. (2) Economic crisis after the war - unemployment, inflation, shortage of food, strikes. (3) Weak and unstable government unable to deal with the crisis. (4) Fear of the rising threat of communism among industrialists and landlords. (5) Lack of a democratic tradition. (6) Mussolini's leadership and the appeal of Fascism promising a strong government.",
+   "marking_points": [
+    {
+     "point": "First cause",
+     "marks": 1
+    },
+    {
+     "point": "Second cause",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(vii)",
+   "q_order": 22,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Second World War",
+   "topic": "Emergence of superpowers / Cold War",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "consequences of World War II",
+    "Cold War"
+   ],
+   "question": "Which two superpowers emerged after World War II and became rivals during the Cold War period?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The United States of America (USA) and the Union of Soviet Socialist Republics (USSR / Soviet Union).",
+   "marking_points": [
+    {
+     "point": "USA",
+     "marks": 1
+    },
+    {
+     "point": "USSR (Soviet Union)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Part II Section A",
+   "type": "long",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Union Legislature",
+   "topic": "Constitutional amendment procedure",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "amendment of the Constitution",
+    "special majority"
+   ],
+   "question": "The Indian Parliament exercises various powers to ensure effective governance and accountability. With reference to this, answer the following questions:\nDescribe the procedure for the amendment of the Constitution by Parliament.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Parliament can amend the Constitution in three ways: (1) Some provisions (e.g. formation of new States, alteration of boundaries) can be amended by a simple majority of members present and voting in both Houses. (2) Most provisions (e.g. Fundamental Rights, Directive Principles) require a special majority - a majority of the total membership of each House and two-thirds of the members present and voting. (3) Provisions affecting the federal structure (e.g. election of the President, representation of States in Parliament, powers of the Supreme Court and High Courts) need the special majority of Parliament plus ratification by at least half of the State Legislatures. An amendment bill can be introduced in either House and requires the assent of the President, who cannot withhold it.",
+   "marking_points": [
+    {
+     "point": "Simple majority for certain provisions",
+     "marks": 1
+    },
+    {
+     "point": "Special majority (majority of total membership + 2/3 present and voting) for most provisions",
+     "marks": 1
+    },
+    {
+     "point": "Special majority plus ratification by half the State Legislatures for federal provisions",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 24,
+   "q_main": 3,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Union Legislature",
+   "topic": "Exclusive powers of the Lok Sabha",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "powers of Lok Sabha",
+    "Money Bill",
+    "no-confidence motion"
+   ],
+   "question": "The Indian Parliament exercises various powers to ensure effective governance and accountability. With reference to this, answer the following questions:\nIn what ways does the Lok Sabha enjoy powers that the Rajya Sabha does not?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: (1) A Money Bill can be introduced only in the Lok Sabha; the Rajya Sabha can only delay it for 14 days and its recommendations need not be accepted. (2) The Council of Ministers is collectively responsible only to the Lok Sabha, which alone can pass a no-confidence motion and remove the ministry. (3) The Speaker of the Lok Sabha decides whether a bill is a Money Bill. (4) In a joint sitting to resolve a deadlock over an ordinary bill, the Lok Sabha prevails because of its larger numbers, and the Speaker presides. (5) Final control over the Budget/demands for grants rests with the Lok Sabha.",
+   "marking_points": [
+    {
+     "point": "First exclusive power (e.g. Money Bills originate only in Lok Sabha)",
+     "marks": 1
+    },
+    {
+     "point": "Second (e.g. ministry responsible only to Lok Sabha / no-confidence motion)",
+     "marks": 1
+    },
+    {
+     "point": "Third (e.g. joint sitting advantage / Speaker certifies Money Bill)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 25,
+   "q_main": 3,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Union Legislature",
+   "topic": "Nominated members and composition of Rajya Sabha",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "nominated members of Rajya Sabha",
+    "composition of Rajya Sabha"
+   ],
+   "question": "The Indian Parliament exercises various powers to ensure effective governance and accountability. With reference to this, answer the following questions:\n\"PM Congratulates Meenakshi Jain: Former Delhi University professor with 30+ years of teaching. Authored the NCERT Medieval History textbook on being nominated to the Rajya Sabha.\" - The official website of the Prime Minister's Office in India on 13th July 2025\n(a) Who nominated Meenakshi Jain to the Rajya Sabha, and for what field is she recognized? (2)\n(b) Explain the composition of the Rajya Sabha in terms of elected and nominated members. (2)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) She was nominated by the President of India (on the advice of the Council of Ministers headed by the PM). She is recognised for her contribution to education/history (literature, scholarship) - the President nominates 12 persons with special knowledge or practical experience in literature, science, art and social service. (b) The Rajya Sabha can have a maximum of 250 members: up to 238 elected representatives of the States and Union Territories, and 12 nominated by the President. The elected members are chosen indirectly by the elected members of the State Legislative Assemblies according to proportional representation by single transferable vote. (Present strength: 245 - 233 elected and 12 nominated.)",
+   "marking_points": [
+    {
+     "point": "Nominated by the President",
+     "marks": 1
+    },
+    {
+     "point": "Recognised for education/history (literature, art, science, social service field)",
+     "marks": 1
+    },
+    {
+     "point": "Maximum 250: 238 elected by elected MLAs via proportional representation (single transferable vote)",
+     "marks": 1
+    },
+    {
+     "point": "12 nominated by the President",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 26,
+   "q_main": 4,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "Individual responsibility of ministers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "individual responsibility",
+    "collective responsibility"
+   ],
+   "question": "The Council of Ministers, headed by the Prime Minister, is the most powerful institution in the Indian polity. In reference to this, answer the following questions:\n\"Congress demands Health Minister's resignation over handling of COVID situation\" - National Herald, 29th April 2025\nThis demand from the opposition party will it be a principle of collective or individual responsibility of the Council of Ministers. Justify your answer stating any two reasons.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "It is the principle of INDIVIDUAL responsibility. Reasons: (1) The demand targets one particular minister for the working of his own department (Health); each minister is individually responsible for the administration of the department under him. (2) A minister holds office during the pleasure of the President, and on the advice of the Prime Minister an individual minister can be asked to resign or be dismissed for inefficiency or a fault of his department, without the whole Council of Ministers resigning. (Collective responsibility, by contrast, would apply to a no-confidence motion against the entire ministry for a government policy.)",
+   "marking_points": [
+    {
+     "point": "Identifies individual responsibility",
+     "marks": 1
+    },
+    {
+     "point": "Reason 1: minister answerable for his own department",
+     "marks": 1
+    },
+    {
+     "point": "Reason 2: holds office during pleasure of President / can be removed on PM's advice without the whole ministry falling",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 27,
+   "q_main": 4,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "Categories of ministers",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Cabinet Ministers",
+    "Ministers of State",
+    "Deputy Ministers"
+   ],
+   "question": "The Council of Ministers, headed by the Prime Minister, is the most powerful institution in the Indian polity. In reference to this, answer the following questions:\nDescribe the three categories of ministers that form the Council of Ministers.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) Cabinet Ministers - senior ministers holding important portfolios (e.g. Home, Defence, Finance, External Affairs); they form the Cabinet, attend its meetings and take policy decisions. (2) Ministers of State - may hold independent charge of a smaller ministry or assist a Cabinet Minister; they attend Cabinet meetings only when invited. (3) Deputy Ministers - assist Cabinet Ministers or Ministers of State in their work (answering questions in Parliament, piloting bills); they do not hold independent charge and do not attend Cabinet meetings.",
+   "marking_points": [
+    {
+     "point": "Cabinet Ministers with description",
+     "marks": 1
+    },
+    {
+     "point": "Ministers of State with description",
+     "marks": 1
+    },
+    {
+     "point": "Deputy Ministers with description",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 28,
+   "q_main": 4,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "PM's powers over the Cabinet",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "powers of the Prime Minister",
+    "allocation of portfolios"
+   ],
+   "question": "The Council of Ministers, headed by the Prime Minister, is the most powerful institution in the Indian polity. In reference to this, answer the following questions:\n[Picture: the Prime Minister presiding at a round table over a meeting of ministers holding the portfolios Finance, Defence, Railways and External Affairs.]\n(a) What does this picture depict?\n(b) Explain any three powers that the Prime Minister has over them.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) It depicts a Cabinet meeting presided over by the Prime Minister / the Prime Minister allocating portfolios (Finance, Defence, Railways, External Affairs) to ministers of the Council of Ministers. (b) Any three: (1) The PM selects the ministers; the President appoints them on his advice. (2) The PM allocates portfolios and can reshuffle them. (3) The PM presides over Cabinet meetings and decides the agenda. (4) The PM coordinates the work of different ministries and settles disputes between them. (5) The PM can ask a minister to resign or advise the President to dismiss him. (6) The PM's resignation means the resignation of the entire Council of Ministers.",
+   "marking_points": [
+    {
+     "point": "(a) Cabinet meeting / PM allocating portfolios to ministers",
+     "marks": 1
+    },
+    {
+     "point": "First power of PM over ministers",
+     "marks": 1
+    },
+    {
+     "point": "Second power",
+     "marks": 1
+    },
+    {
+     "point": "Third power",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 29,
+   "q_main": 5,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Supreme Court",
+   "topic": "Appointment and composition of the Supreme Court",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "appointment of judges",
+    "composition of Supreme Court"
+   ],
+   "question": "With reference to the Supreme Court of India being the supreme judicial authority and the highest court of the Republic of India, answer the following questions:\n[News clipping - The Hindu: 'CJI Gavai recommends J. Kant as the 53rd Chief Justice of India. Chief Justice Gavai is scheduled to retire on November 24.']\n(a) If J Kant has been recommended to be the Chief Justice what will be his current role in the Supreme Court?\n(b) Who appointed CJI Gavai?\n(c) What is the composition of the Supreme Court?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Justice Surya Kant is currently a judge (the senior-most puisne judge) of the Supreme Court. (b) CJI B.R. Gavai was appointed by the President of India. (c) The Supreme Court consists of the Chief Justice of India and not more than 33 other judges (34 in all); Parliament can change the number by law.",
+   "marking_points": [
+    {
+     "point": "(a) He is a judge (senior-most) of the Supreme Court",
+     "marks": 1
+    },
+    {
+     "point": "(b) The President of India",
+     "marks": 1
+    },
+    {
+     "point": "(c) Chief Justice + 33 other judges",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 30,
+   "q_main": 5,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Supreme Court",
+   "topic": "Appellate jurisdiction",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "appellate jurisdiction of Supreme Court"
+   ],
+   "question": "With reference to the Supreme Court of India being the supreme judicial authority and the highest court of the Republic of India, answer the following questions:\nMention the three types of cases in which the Supreme Court exercises Appellate Jurisdiction.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) Constitutional cases - appeal lies if the High Court certifies that the case involves a substantial question of law as to the interpretation of the Constitution. (2) Civil cases - if the High Court certifies that the case involves a substantial question of law of general importance that needs to be decided by the Supreme Court. (3) Criminal cases - e.g. where the High Court has on appeal reversed an acquittal and sentenced the accused to death, or certifies the case as fit for appeal.",
+   "marking_points": [
+    {
+     "point": "Constitutional cases",
+     "marks": 1
+    },
+    {
+     "point": "Civil cases",
+     "marks": 1
+    },
+    {
+     "point": "Criminal cases",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 31,
+   "q_main": 5,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Supreme Court",
+   "topic": "Judicial review",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "judicial review"
+   ],
+   "question": "With reference to the Supreme Court of India being the supreme judicial authority and the highest court of the Republic of India, answer the following questions:\n\"In August 1999, the Indian Supreme Court, in the landmark case of Dr. Preeti Srivastava v. State of M.P., ruled that merit must be the sole criterion for admission to postgraduate medical courses.\" - [Judgment Source] courtkutchehry.com\nIdentify which power of the Supreme Court was exercised in this case and explain the meaning of this power.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Power exercised: Judicial Review. Meaning: the Supreme Court can examine the constitutional validity of any law passed by the legislature or any order/action of the executive (Centre or State). If it finds the law or order inconsistent with the Constitution (e.g. violating Fundamental Rights), it can declare it null and void (ultra vires). Here the Court examined the State of Madhya Pradesh's admission criteria against the Constitution and struck down the lower standard. This power makes the Supreme Court the guardian of the Constitution and protector of Fundamental Rights. (Answers identifying the Court of Record power - its judgments become binding precedents for all courts - may receive partial credit.)",
+   "marking_points": [
+    {
+     "point": "Identifies Judicial Review",
+     "marks": 1
+    },
+    {
+     "point": "Examines constitutional validity of laws/executive orders of Centre and States",
+     "marks": 1
+    },
+    {
+     "point": "Can declare them null and void if they violate the Constitution",
+     "marks": 1
+    },
+    {
+     "point": "Makes the Court guardian of the Constitution / applied to the MP admission rule",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 32,
+   "q_main": 6,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First War of Independence 1857",
+   "topic": "Socio-religious causes of 1857",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "social causes of 1857",
+    "religious causes of 1857"
+   ],
+   "question": "The First War of Independence, 1857 was the result of accumulated grievances of different sections of Indian society against British rule. In this context answer the following:\nState three socio-religious factors that contributed to the outbreak of the revolt.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: (1) Interference in social customs - abolition of Sati, legalisation of widow remarriage (1856) - seen as attacks on religion. (2) Activities of Christian missionaries and fear of forced conversion. (3) Religious Disabilities Act, 1850 allowed a convert to inherit ancestral property. (4) Taxation of lands belonging to temples and mosques. (5) Racial discrimination - Indians treated as inferior. (6) Introduction of Western education, railways and telegraph viewed with suspicion as a means of destroying caste and religion.",
+   "marking_points": [
+    {
+     "point": "First socio-religious factor",
+     "marks": 1
+    },
+    {
+     "point": "Second factor",
+     "marks": 1
+    },
+    {
+     "point": "Third factor",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 33,
+   "q_main": 6,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First War of Independence 1857",
+   "topic": "Economic causes: impact on peasants",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "economic causes of 1857",
+    "land revenue systems"
+   ],
+   "question": "The First War of Independence, 1857 was the result of accumulated grievances of different sections of Indian society against British rule. In this context answer the following:\nExplain how British economic policies affected Indian peasants.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) Very high land revenue was fixed under the Permanent Settlement, Ryotwari and Mahalwari systems and had to be paid on time irrespective of harvest. (2) Failure to pay led to eviction from land and the peasants fell into the clutches of moneylenders, sinking into debt. (3) Commercialisation of agriculture / forced cultivation of cash crops like indigo, and no relief from the government during famines, left peasants impoverished.",
+   "marking_points": [
+    {
+     "point": "Heavy land revenue under the new land settlements",
+     "marks": 1
+    },
+    {
+     "point": "Eviction/indebtedness to moneylenders",
+     "marks": 1
+    },
+    {
+     "point": "Forced cash crops / no famine relief - impoverishment",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 34,
+   "q_main": 6,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First War of Independence 1857",
+   "topic": "Reorganisation of the army after 1857",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "consequences of 1857",
+    "army reorganisation"
+   ],
+   "question": "The First War of Independence, 1857 was the result of accumulated grievances of different sections of Indian society against British rule. In this context answer the following:\n\"The reorganization of the army after 1857 was designed to prevent Indian soldiers from uniting against British rule.\" Justify this statement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) The proportion of European soldiers was increased (1 European to 2 Indians in the Bengal Army, 2:5 in Bombay and Madras). (2) Key positions and the artillery were kept exclusively in European hands. (3) The policy of 'divide and rule' / 'balance and counterpoise' was followed - regiments were organised on the basis of caste, community and region so that soldiers would not unite. (4) More soldiers were recruited from 'martial races' such as Sikhs, Gurkhas and Pathans who had remained loyal, and Indian soldiers were kept away from newspapers and nationalist ideas.",
+   "marking_points": [
+    {
+     "point": "Increase in proportion of European soldiers",
+     "marks": 1
+    },
+    {
+     "point": "Artillery and key posts reserved for Europeans",
+     "marks": 1
+    },
+    {
+     "point": "Regiments organised on caste/community/region lines - divide and rule",
+     "marks": 1
+    },
+    {
+     "point": "Recruitment of loyal 'martial races' / isolation from nationalist ideas",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 35,
+   "q_main": 7,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "First Phase of Indian National Movement",
+   "topic": "Surendranath Banerjee",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "Surendranath Banerjee",
+    "Early Nationalists"
+   ],
+   "question": "The early 20th century saw a dramatic shift in India's freedom struggle. National unity was challenged. In this context, answer the questions that follow:\nIdentify the personality shown in the picture and mention any two of his contributions to the Indian freedom struggle.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The portrait (a bearded man with wavy hair) is of Surendranath Banerjee, an Early Nationalist (Moderate). Contributions (any two): (1) Founded the Indian Association (1876) and organised the Indian National Conference (1883). (2) Through his newspaper 'The Bengalee' he criticised British policies and spread nationalist ideas. (3) Led the agitation against the lowering of the maximum age for the ICS examination. (4) Led the movement against the Partition of Bengal (1905) and promoted Swadeshi. (5) Twice President of the Indian National Congress (1895, 1902); called 'Rashtraguru'. [Identification based on the printed portrait - verify against the figure.]",
+   "marking_points": [
+    {
+     "point": "Identifies Surendranath Banerjee",
+     "marks": 1
+    },
+    {
+     "point": "First contribution",
+     "marks": 1
+    },
+    {
+     "point": "Second contribution",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Black-and-white portrait photograph of a bearded nationalist leader to be identified.",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_history_civics_euro/p6.jpg"
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 36,
+   "q_main": 7,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Partition of Bengal 1905",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Partition of Bengal",
+    "divide and rule"
+   ],
+   "question": "The early 20th century saw a dramatic shift in India's freedom struggle. National unity was challenged. In this context, answer the questions that follow:\n[Cartoon: a British official in a sola topi cutting a map of Bengal with a pair of scissors into two parts labelled 'Muslim Majority' and 'Hindu Majority', while Indians protest with placards.]\nIdentify what is depicted in the given image that posed a challenge to the unity, and also state two of its causes.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "It depicts the Partition of Bengal (1905) by Lord Curzon. Causes (any two): (1) Official reason - Bengal was too large to be administered efficiently by a single Lieutenant-Governor. (2) Real reason - to weaken the strong nationalist movement in Bengal, the nerve centre of Indian nationalism. (3) To follow 'divide and rule' by creating a Muslim-majority province (East Bengal and Assam) and a Hindu-majority province, setting Hindus and Muslims against each other. (4) To reduce Bengalis to a minority in their own province.",
+   "marking_points": [
+    {
+     "point": "Identifies Partition of Bengal 1905",
+     "marks": 1
+    },
+    {
+     "point": "First cause",
+     "marks": 1
+    },
+    {
+     "point": "Second cause",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 37,
+   "q_main": 7,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Formation of the Muslim League",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Muslim League",
+    "Simla Deputation",
+    "divide and rule"
+   ],
+   "question": "The early 20th century saw a dramatic shift in India's freedom struggle. National unity was challenged. In this context, answer the questions that follow:\nState any four factors that led to the formation of the All India Muslim League in 1906.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any four: (1) British policy of 'divide and rule' - encouraging Muslims to stay away from the Congress. (2) The Partition of Bengal (1905), which created a Muslim-majority province and was supported by a section of Muslims. (3) Educational and economic backwardness of Muslims and the fear that they would be dominated by the Hindu majority. (4) Views of Sir Syed Ahmed Khan, who opposed the Congress and urged Muslims to remain loyal to the British. (5) Religious tinge of the Assertive nationalists (Shivaji and Ganapati festivals) which alienated some Muslims. (6) The Simla Deputation (1906) led by the Aga Khan to Lord Minto demanding separate electorates, which received a favourable response and led to the founding of the League at Dacca in December 1906.",
+   "marking_points": [
+    {
+     "point": "First factor",
+     "marks": 1
+    },
+    {
+     "point": "Second factor",
+     "marks": 1
+    },
+    {
+     "point": "Third factor",
+     "marks": 1
+    },
+    {
+     "point": "Fourth factor",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 38,
+   "q_main": 8,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Khilafat and Non-Cooperation",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "Khilafat Movement",
+    "Non-Cooperation Movement"
+   ],
+   "question": "From 1919 to 1948, Gandhiji dominated the Indian freedom struggle. This period came to be known as the Gandhian Era in India's freedom struggle. With reference to this answer the given questions.\nMahatma Gandhi said that the Congress's plea for Hindu-Muslim unity \"would be an empty phrase if the Hindus hold aloof from the Muslims when their vital interests are at stake.\"\nExplain the role of the Khilafat Movement in strengthening the Non-Cooperation Movement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) The Khilafat Movement (led by the Ali brothers, Maulana Azad, Hakim Ajmal Khan) protested against the harsh treatment of the Sultan of Turkey (the Khalifa) after the First World War; Gandhi supported it as a golden opportunity to unite Hindus and Muslims. (2) The Khilafat Committee adopted Gandhi's programme of non-cooperation, and the Congress merged the Khilafat issue with the Punjab wrongs and Swaraj, launching a joint Non-Cooperation Movement (1920). (3) As a result Muslims joined in large numbers, giving the movement a mass base and an unprecedented display of Hindu-Muslim unity, which greatly strengthened the struggle against the British.",
+   "marking_points": [
+    {
+     "point": "Gandhi supported Khilafat to forge Hindu-Muslim unity",
+     "marks": 1
+    },
+    {
+     "point": "Khilafat Committee adopted non-cooperation; issues merged into one movement",
+     "marks": 1
+    },
+    {
+     "point": "Large-scale Muslim participation gave NCM a mass base and unity",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 39,
+   "q_main": 8,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Independence and Partition of India",
+   "topic": "Cabinet Mission Plan",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Cabinet Mission Plan"
+   ],
+   "question": "From 1919 to 1948, Gandhiji dominated the Indian freedom struggle. This period came to be known as the Gandhian Era in India's freedom struggle. With reference to this answer the given questions.\nState any three clauses/recommendations of the Cabinet Mission Plan of 1946.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: (1) A Union of India comprising British India and the Princely States, dealing with foreign affairs, defence and communications. (2) The demand for a separate Pakistan was rejected. (3) Provinces were to be grouped into three sections - Group A (Hindu-majority provinces), Group B (Muslim-majority provinces in the north-west) and Group C (Bengal and Assam). (4) All residuary powers to vest in the provinces. (5) A Constituent Assembly of 389 members to be elected by the Provincial Legislative Assemblies (and nominees of Princely States) to frame the Constitution. (6) An Interim Government of Indian leaders, with the support of major parties, to be set up immediately.",
+   "marking_points": [
+    {
+     "point": "First clause",
+     "marks": 1
+    },
+    {
+     "point": "Second clause",
+     "marks": 1
+    },
+    {
+     "point": "Third clause",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 40,
+   "q_main": 8,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Independence and Partition of India",
+   "topic": "Indian Independence Act 1947",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "Indian Independence Act 1947",
+    "dominion status"
+   ],
+   "question": "From 1919 to 1948, Gandhiji dominated the Indian freedom struggle. This period came to be known as the Gandhian Era in India's freedom struggle. With reference to this answer the given questions.\n[Newspaper: The Statesman headline 'TWO DOMINIONS ARE BORN - Political Freedom For One-Fifth Of Human Race; Power Assumed By Indians'.]\nWith reference to the newspaper article, explain what is meant by \"Two Dominions\" and state the constitutional status given to these dominions under the Indian Independence Act of 1947.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "'Two Dominions' means that British India was partitioned and two independent dominions, India and Pakistan, came into existence on 15 August 1947. Constitutional status under the Act (any three): (1) Each dominion was fully independent and sovereign; British Government ceased to have any responsibility or control over them, and British paramountcy over the Princely States lapsed. (2) Each dominion would have a Governor-General appointed by the British Crown on the advice of the dominion's cabinet, acting as a constitutional head. (3) The Constituent Assembly of each dominion would act as its Legislature and was free to frame its own Constitution and repeal any British law, including the Independence Act. (4) Each dominion was free to remain in or leave the British Commonwealth.",
+   "marking_points": [
+    {
+     "point": "Two Dominions = India and Pakistan created on 15 August 1947 by partition",
+     "marks": 1
+    },
+    {
+     "point": "Fully sovereign/independent, British control and paramountcy ended",
+     "marks": 1
+    },
+    {
+     "point": "Governor-General as constitutional head appointed on advice of dominion cabinet",
+     "marks": 1
+    },
+    {
+     "point": "Constituent Assembly to act as legislature and frame constitution / free to leave Commonwealth",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "9(i)",
+   "q_order": 41,
+   "q_main": 9,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First World War",
+   "topic": "Beyond syllabus: League of Nations",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "League of Nations"
+   ],
+   "question": "With reference to the World War that had an unprecedented extent of its spread, impact and damage answer the following questions.\nNews Headline (1919) - The Times, London: \"A New Dawn for Peace: The League of Nations Promises to End All Wars.\"\nReferring to the headline above, explain the reason behind the creation of the League of Nations and its two key aims.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Reason: The unprecedented destruction of life and property in the First World War convinced world leaders (especially U.S. President Woodrow Wilson, whose Fourteen Points proposed it) that an international organisation was needed to prevent future wars; the League was created by the Paris Peace Settlement (Covenant part of the Treaty of Versailles). Aims (any two): (1) to maintain world peace through collective security and prevent war; (2) to settle international disputes by peaceful means such as arbitration; (3) to promote disarmament; (4) to promote international cooperation in economic, social and humanitarian matters.",
+   "marking_points": [
+    {
+     "point": "Reason: devastation of WWI / Wilson's proposal to prevent future wars",
+     "marks": 1
+    },
+    {
+     "point": "First aim",
+     "marks": 1
+    },
+    {
+     "point": "Second aim",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "9(ii)",
+   "q_order": 42,
+   "q_main": 9,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First World War",
+   "topic": "Alliance system",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "map",
+   "difficulty": 2,
+   "concepts": [
+    "Triple Alliance",
+    "Triple Entente",
+    "causes of WWI"
+   ],
+   "question": "With reference to the World War that had an unprecedented extent of its spread, impact and damage answer the following questions.\n[Map of Europe before 1914: Germany, Austria-Hungary and Italy shaded as one group; Britain, France and Russia labelled as the other.]\nName the two alliance systems shown in the map. How did it turn Europe into two hostile groups?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Triple Alliance (Germany, Austria-Hungary and Italy, 1882) and the Triple Entente (Britain, France and Russia, 1907). Europe was divided into two armed camps: each bloc distrusted the other and built up armaments, and since members were bound to help one another, any local dispute (like the assassination at Sarajevo) could draw all the major powers into a general war.",
+   "marking_points": [
+    {
+     "point": "Triple Alliance - Germany, Austria-Hungary, Italy",
+     "marks": 1
+    },
+    {
+     "point": "Triple Entente - Britain, France, Russia",
+     "marks": 1
+    },
+    {
+     "point": "Two rival armed camps with mutual suspicion; obligation to help allies turned a local conflict into a world war",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "9(iii)",
+   "q_order": 43,
+   "q_main": 9,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First World War",
+   "topic": "Big Three and Treaty of Versailles",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Paris Peace Conference",
+    "Treaty of Versailles"
+   ],
+   "question": "With reference to the World War that had an unprecedented extent of its spread, impact and damage answer the following questions.\nWho were the 'Big Three' leaders who dominated the Paris Peace Conference? Explain three economic consequences of the Treaty of Versailles on Germany.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Big Three: Woodrow Wilson (USA), David Lloyd George (Britain) and Georges Clemenceau (France). Economic consequences (any three): (1) Germany was held guilty for the war (War Guilt Clause) and made to pay huge reparations of 6,600 million pounds. (2) The coal mines of the Saar Valley were given to France for 15 years; Alsace-Lorraine with its iron ore went to France. (3) Germany lost all her colonies and about 13% of her territory, with valuable resources and industrial areas (e.g. part of Upper Silesia to Poland). (4) Germany had to surrender her merchant ships and supply coal and other goods, crippling her economy.",
+   "marking_points": [
+    {
+     "point": "Names the Big Three: Wilson, Lloyd George, Clemenceau",
+     "marks": 1
+    },
+    {
+     "point": "First economic consequence",
+     "marks": 1
+    },
+    {
+     "point": "Second",
+     "marks": 1
+    },
+    {
+     "point": "Third",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "10(i)",
+   "q_order": 44,
+   "q_main": 10,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "International Court of Justice",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "International Court of Justice"
+   ],
+   "question": "Besides its principal organs, the United Nations functions through several specialised agencies that work in close cooperation with member nations to achieve specific objectives such as improving living standards, promoting education, and maintaining global health. In this context answer the questions.\nHow the judges of the International Court of Justice elected and what is their term of office?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The ICJ has 15 judges, no two of whom can be from the same country. They are elected by the General Assembly and the Security Council voting separately; a candidate needs an absolute majority in both. They are elected for a term of 9 years and are eligible for re-election; one-third of the judges retire every three years.",
+   "marking_points": [
+    {
+     "point": "15 judges elected by the General Assembly and Security Council",
+     "marks": 1
+    },
+    {
+     "point": "Voting separately; absolute majority in both",
+     "marks": 1
+    },
+    {
+     "point": "Term of 9 years (one-third retire every 3 years; re-eligible)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "10(ii)",
+   "q_order": 45,
+   "q_main": 10,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "UN specialised agencies",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 1,
+   "concepts": [
+    "UNICEF",
+    "WHO",
+    "UNESCO"
+   ],
+   "question": "Besides its principal organs, the United Nations functions through several specialised agencies that work in close cooperation with member nations to achieve specific objectives such as improving living standards, promoting education, and maintaining global health. In this context answer the questions.\n[Cartoon: under a 'UN' banner, three hands labelled UNICEF (holding children), WHO (holding health workers) and UNESCO (holding books and students).]\nIdentify any three specialized agencies of the United Nations depicted in the cartoon and state what each stands for.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) UNICEF - United Nations International Children's Emergency Fund (now United Nations Children's Fund). (2) WHO - World Health Organisation. (3) UNESCO - United Nations Educational, Scientific and Cultural Organisation.",
+   "marking_points": [
+    {
+     "point": "UNICEF - United Nations International Children's Emergency Fund",
+     "marks": 1
+    },
+    {
+     "point": "WHO - World Health Organisation",
+     "marks": 1
+    },
+    {
+     "point": "UNESCO - United Nations Educational, Scientific and Cultural Organisation",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "10(iii)",
+   "q_order": 46,
+   "q_main": 10,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "Security Council: powers and composition",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Security Council",
+    "veto"
+   ],
+   "question": "Besides its principal organs, the United Nations functions through several specialised agencies that work in close cooperation with member nations to achieve specific objectives such as improving living standards, promoting education, and maintaining global health. In this context answer the questions.\nWhy the Security Council is considered the most powerful organ of the United Nations? Explain its composition.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Most powerful because: it has primary responsibility for maintaining international peace and security; its decisions are binding on all members; it can impose economic sanctions and authorise military action; its five permanent members have the veto power; it recommends admission of new members and the appointment of the Secretary-General and, with the General Assembly, elects the judges of the ICJ. Composition: 15 members - 5 permanent members (USA, UK, France, Russia and China) with veto power, and 10 non-permanent members elected by the General Assembly for two years (five retire every year; not eligible for immediate re-election).",
+   "marking_points": [
+    {
+     "point": "Primary responsibility for peace; decisions binding / can take military action and sanctions",
+     "marks": 1
+    },
+    {
+     "point": "Veto power of permanent members / other key powers",
+     "marks": 1
+    },
+    {
+     "point": "15 members: 5 permanent (USA, UK, France, Russia, China)",
+     "marks": 1
+    },
+    {
+     "point": "10 non-permanent elected by GA for 2 years",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  }
+ ]
+}

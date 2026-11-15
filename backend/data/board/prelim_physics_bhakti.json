@@ -1,0 +1,1936 @@
+{
+ "paper_id": "prelim_physics_bhakti",
+ "subject": "physics",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · Bhaktivedanta",
+ "source": "prelim",
+ "school": "Bhaktivedanta Swami Mission School",
+ "exam_label": "Pre-Preliminary Examination 2025-2026",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 10,
+ "instructions": "Answers to be written on separate paper; first 10 minutes for reading (as printed). Section A is compulsory. Attempt any four questions from Section B. Intended marks are given in brackets [ ].",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 40,
+   "rule": "Attempt any four questions from this Section.",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Apparent position due to refraction (observer in denser medium)",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "refraction from rarer to denser",
+    "apparent height"
+   ],
+   "question": "If a swimmer inside water looks at an aeroplane in the sky, then which one of the following conditions is fulfilled?",
+   "options": {
+    "a": "For the swimmer, the aeroplane will appear to be lower than it actually is.",
+    "b": "For the swimmer, the aeroplane will appear to be higher than it actually is.",
+    "c": "For the swimmer, the aeroplane will appear at its actual height",
+    "d": "For the pilot, the swimmer will appear to be at greater depth than it actually is."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) For the swimmer, the aeroplane will appear to be higher than it actually is. Light from air bends towards the normal on entering water, so the rays appear to come from a higher point.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Coolant with high specific heat capacity",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "high SHC liquid as coolant"
+   ],
+   "question": "Which of the following liquids is most suitable for radiators in cars?",
+   "options": {
+    "a": "Liquid P with specific heat capacity 4000 J kg⁻¹K⁻¹",
+    "b": "Liquid Q with specific heat capacity 2000 J kg⁻¹K⁻¹",
+    "c": "Liquid R with specific heat capacity 1500 J kg⁻¹K⁻¹",
+    "d": "Liquid S with specific heat capacity 2100 J kg⁻¹K⁻¹"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Liquid P with specific heat capacity 4000 J kg⁻¹K⁻¹ — highest SHC absorbs most heat per degree rise.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Shift of convergence point by a glass slab",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "refraction through glass slab",
+    "normal shift"
+   ],
+   "question": "A block of glass is pushed into the path of the light (between a convex lens and the point X where parallel rays converge after passing through the lens). Then the converging point X will",
+   "options": {
+    "a": "Move away from the slab",
+    "b": "Move towards the slab",
+    "c": "Not shift",
+    "d": "Move towards the left side of the lens"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Move away from the slab. Refraction through the glass block makes the converging rays meet farther from the lens (shifted away by about t(1 − 1/μ)).",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Parallel rays pass through a convex lens and converge at X; a glass block is being pushed up into the converging beam between the lens and X.",
+   "page": 1,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_bhakti/p1.jpg"
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Momentum comparison",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 1,
+   "concepts": [
+    "p = mv"
+   ],
+   "question": "A boy P has a mass of 20 kg and is moving with a velocity of 5 m s⁻¹. Another boy Q has a mass of 5 kg and is moving with a velocity of 20 m s⁻¹. Calculate the ratio of the momentum of P and Q.",
+   "options": {
+    "a": "2:1",
+    "b": "1:1",
+    "c": "1:2",
+    "d": "3:2"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 1:1. p_P = 20 × 5 = 100 kg m/s; p_Q = 5 × 20 = 100 kg m/s.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Beta decay changes",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "β decay: Z + 1, A unchanged"
+   ],
+   "question": "A radioactive nucleus is represented by ᴬ_Z X. It emits a β-particle and forms a different nucleus of element Y. Which of the following represents this new nucleus?",
+   "options": {
+    "a": "ᴬ_(Z−1) Y",
+    "b": "ᴬ⁻¹_Z Y",
+    "c": "ᴬ_(Z+1) Y",
+    "d": "ᴬ⁺¹_(Z−2) Y"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) ᴬ_(Z+1) Y. In β-decay the mass number is unchanged and the atomic number increases by 1.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Current and potential difference",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "current = rate of flow of charge",
+    "no current without potential difference"
+   ],
+   "question": "Assertion (A): The current is the rate of flow of charges.\nReason (R): Electric current will not flow between two charged bodies having same potential when connected.",
+   "options": {
+    "a": "Both A and R are true and R is the correct explanation of A.",
+    "b": "Both A and R are true but R is not the correct explanation of A",
+    "c": "Assertion is false but Reason is true",
+    "d": "Assertion is true but Reason is false"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Both A and R are true but R is not the correct explanation of A. A is the definition of current; R states that a potential difference is needed for current to flow — true but it does not explain the definition.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Work done in moving charge",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "W = QV"
+   ],
+   "question": "A battery of 10 V carries 20000 C of charge through a resistance of 20 Ω. The work done in 10 s is:",
+   "options": {
+    "a": "2 × 10³ J",
+    "b": "2 × 10⁵ J",
+    "c": "2 × 10⁴ J",
+    "d": "2 × 10² J"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 2 × 10⁵ J. W = QV = 20000 × 10 = 2 × 10⁵ J.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Change in gravitational PE",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "ΔPE = mgΔh"
+   ],
+   "question": "In the diagram a skier weighing 60 kg is standing at point A (75 m above the reference level). He moves from A to B (15 m above the reference level) and takes off for his jump at point B. The change in the potential energy of the skier between A and B is (g = 10 m s⁻²)",
+   "options": {
+    "a": "2.6 × 10⁴ J",
+    "b": "3.6 × 10⁴ J",
+    "c": "4.6 × 10⁴ J",
+    "d": "5.6 × 10⁴ J"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 3.6 × 10⁴ J. ΔPE = mgΔh = 60 × 10 × (75 − 15) = 36000 J.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Mass of steam to heat water",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "latent heat of vaporisation",
+    "heat lost = heat gained"
+   ],
+   "question": "The temperature of 100 g of water is to be raised from 10°C to 40°C by adding steam at 100°C to it. The amount of steam required will be ______ (Take latent heat of steam = 540 cal/g)",
+   "options": {
+    "a": "0.5 g",
+    "b": "5 g",
+    "c": "10 g",
+    "d": "50 g"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 5 g. Heat gained by water = 100 × 1 × 30 = 3000 cal. Heat given by m g steam = m(540 + 60) = 600m ⇒ m = 5 g.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Water in hot water bottles",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "high SHC of water"
+   ],
+   "question": "Water is used in hot water bottles because",
+   "options": {
+    "a": "its specific heat capacity is very high",
+    "b": "it is a good conductor of heat",
+    "c": "its specific heat capacity is very low",
+    "d": "it conducts heat faster as compared to other substances."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) its specific heat capacity is very high, so it gives out a large amount of heat slowly while cooling.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Ohmic conductor I-V graph",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "ohmic: straight line through origin"
+   ],
+   "question": "The V-I characteristics of four circuit elements are shown (I against V): (a) curve bending upward from origin; (b) straight line through the origin; (c) curve rising and flattening; (d) horizontal line (constant I). Which among the following characteristics is of ohmic conductor?",
+   "options": {
+    "a": "Curve bending upward (current rises faster than V)",
+    "b": "Straight line through the origin",
+    "c": "Curve that rises and then flattens",
+    "d": "Horizontal line (current constant)"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) — a straight line through the origin (I ∝ V).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Frequency of a stretched string",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "f = (1/2l)√(T/m)"
+   ],
+   "question": "Which of the following statement is CORRECT? The frequency of a stretched string is:",
+   "options": {
+    "a": "directly proportional to its length but inversely proportional to the tension of the wire.",
+    "b": "inversely proportional to its length but directly proportional to the tension of the wire.",
+    "c": "directly proportional to the square root of its length but inversely proportional to the tension of the wire.",
+    "d": "inversely proportional to its length but directly proportional to the square root of the tension of the wire."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) inversely proportional to its length but directly proportional to the square root of the tension of the wire (f = (1/2l)√(T/m)).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Heat in series vs parallel",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "H = V²t/R",
+    "series and parallel resistance"
+   ],
+   "question": "Two heaters of equal length are first connected in series and then in parallel with a battery. The ratio of heat produced in the two cases is:",
+   "options": {
+    "a": "2 : 1",
+    "b": "1 : 2",
+    "c": "4 : 1",
+    "d": "1 : 4"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 1 : 4. Identical heaters: R_series = 2R, R_parallel = R/2. H = V²t/R ⇒ H_s : H_p = (1/2R) : (2/R) = 1 : 4.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Shimmering near a fire",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "refraction through layers of varying density"
+   ],
+   "question": "The shimmering effect around a camp fire is due to:",
+   "options": {
+    "a": "Reflection of light",
+    "b": "Dispersion of light",
+    "c": "Scattering of light",
+    "d": "Refraction of light"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Refraction of light — through air layers of continuously changing density (refractive index).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Switch in neutral wire",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 3,
+   "concepts": [
+    "switch should be in live wire",
+    "neutral at zero potential"
+   ],
+   "question": "Assertion: A switch will serve the purpose of making and breaking a circuit when it is connected to the neutral wire.\nReason: Neutral wire is at zero potential.",
+   "options": {
+    "a": "Both Assertion and Reason are true, and the Reason is the correct explanation of the Assertion.",
+    "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of the Assertion",
+    "c": "Assertion is true, but the Reason is false.",
+    "d": "Both Assertion & Reason are false."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Both Assertion and Reason are true, but Reason is not the correct explanation of the Assertion. A switch in the neutral still opens/closes the circuit (though unsafe); this is not because the neutral is at zero potential.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(i)(a)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Kinetic energy of molecules on freezing",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Kinetic energy of molecules on freezing"
+   ],
+   "question": "Water freezes to form ice. The energy of the average kinetic energy of the molecules of water in such a process ______ [increases, does not affect as it is independent of these factors, decreases]",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Water freezes to form ice. The energy of the average kinetic energy of the molecules of water in such a process ______ [increases, does not affect as it is independent of these factors, decreases]",
+     "accepted": [
+      "decreases"
+     ]
+    }
+   ],
+   "solution": "decreases",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(b)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Colour code of live wire",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Colour code of live wire"
+   ],
+   "question": "The color code for insulation on the live wire is ______ [green, blue, brown]",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The color code for insulation on the live wire is ______ [green, blue, brown]",
+     "accepted": [
+      "brown"
+     ]
+    }
+   ],
+   "solution": "brown",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(c)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Minimum deviation in a prism",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Minimum deviation in a prism"
+   ],
+   "question": "A ray of light incident at an angle of 48° on a prism of refracting angle 60° suffers minimum deviation. The angle of minimum deviation (δ) is ______ [36°, 24°, 12°]",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "A ray of light incident at an angle of 48° on a prism of refracting angle 60° suffers minimum deviation. The angle of minimum deviation (δ) is ______ [36°, 24°, 12°]",
+     "accepted": [
+      "36°",
+      "36",
+      "36 degrees"
+     ]
+    }
+   ],
+   "solution": "36° (A + δm = 2i ⇒ δm = 96° − 60°)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(d)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Minimum distance for echo in water",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Minimum distance for echo in water"
+   ],
+   "question": "To hear an echo in water the minimum distance required is ______ [17m, 58m, 70m]",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "To hear an echo in water the minimum distance required is ______ [17m, 58m, 70m]",
+     "accepted": [
+      "70m",
+      "70 m",
+      "70"
+     ]
+    }
+   ],
+   "solution": "70 m (speed of sound in water ≈ 1400–1500 m/s; d = v × 0.1/2 ≈ 70 m)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(e)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Three-pin socket connections",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Three-pin socket connections"
+   ],
+   "question": "The hole in the left side of the socket is for connection to the ______ wire. [live, neutral, earth]",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The hole in the left side of the socket is for connection to the ______ wire. [live, neutral, earth]",
+     "accepted": [
+      "neutral"
+     ]
+    }
+   ],
+   "solution": "neutral",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(f)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Maximum height from KE",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Maximum height from KE"
+   ],
+   "question": "The maximum height attained by a body with velocity 4 m s⁻¹ having mass of 80 kg is ______ m. [0.08, 0.8, 80]",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The maximum height attained by a body with velocity 4 m s⁻¹ having mass of 80 kg is ______ m. [0.08, 0.8, 80]",
+     "accepted": [
+      "0.8",
+      "0.8 m"
+     ]
+    }
+   ],
+   "solution": "0.8 m (h = v²/2g = 16/20, independent of mass)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Temperature rise for liquids of different SHC",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Q = mcΔT",
+    "kerosene has lower SHC than water"
+   ],
+   "question": "The diagram shows two containers, A (water) and B (kerosene), each containing the same mass of liquid. Both are heated using identical burners for the same duration. A thermometer is placed in each container to measure their temperature rise.\n(a) State True or False: After the same duration of heating, the temperature of container B will be higher than that of container A.\n(b) Justify your answer for (a) with a suitable reason.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) True.\n(b) Both receive the same heat and have the same mass; ΔT = Q/(mc). Kerosene has a lower specific heat capacity (≈ 2100 J kg⁻¹K⁻¹) than water (4200 J kg⁻¹K⁻¹), so its temperature rises more.",
+   "marking_points": [
+    {
+     "point": "(a) True",
+     "marks": 1
+    },
+    {
+     "point": "(b) Kerosene has lower specific heat capacity ⇒ greater ΔT",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 22,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Free vs damped vibrations",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "free vibrations",
+    "damped vibrations"
+   ],
+   "question": "Give two points of differences between free vibrations and damped vibrations.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Free vibrations: amplitude remains constant with time; occur in the absence of resistive (frictional) forces, at the natural frequency.\nDamped vibrations: amplitude decreases gradually with time and the vibrations eventually stop; caused by frictional/resistive forces, frequency slightly less than natural frequency.",
+   "marking_points": [
+    {
+     "point": "Amplitude constant (free) vs decreasing (damped)",
+     "marks": 1
+    },
+    {
+     "point": "No resistive forces (free) vs resistive forces present (damped)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Speed of red and violet light in glass",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "refractive index depends on colour",
+    "dispersion"
+   ],
+   "question": "The figure shows two parallel rays A (red) and B (violet) incident from air on an air-glass boundary.\n(a) How do the speeds of these rays differ in glass?\n(b) Are the two refracted rays in glass parallel? Give a reason to your answer.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Red light travels faster in glass than violet light (glass has a smaller refractive index for red).\n(b) No. Since the refractive index of glass is different for red and violet, they bend by different amounts (violet more), so their angles of refraction differ and the refracted rays are not parallel.",
+   "marking_points": [
+    {
+     "point": "(a) Red faster than violet in glass",
+     "marks": 1
+    },
+    {
+     "point": "(b) No — different refractive indices ⇒ different angles of refraction",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 24,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Electrical energy from meter readings",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "energy (kWh) = power (kW) × time (h)"
+   ],
+   "question": "The image displays kilowatt-hour meter readings recorded at two distinct points in time: first reading 00856 kWh, second reading 01567 kWh. Assuming a continuously running 2000 W air conditioner as the sole electrical device in use, calculate the time interval in hours between these two meter readings.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Energy used = 1567 − 856 = 711 kWh. Power = 2 kW. Time = 711/2 = 355.5 h.",
+   "marking_points": [
+    {
+     "point": "Energy = 711 kWh",
+     "marks": 1
+    },
+    {
+     "point": "t = 711/2 = 355.5 h",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 25,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "diagram",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Total internal reflection in an equilateral prism",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "normal incidence",
+    "TIR at 60° > 42°"
+   ],
+   "question": "Copy the diagram given below and complete the path of the light ray till it emerges out of the prism. The critical angle of the glass is 42°. In your diagram, mark the angles wherever necessary. (Equilateral prism ABC with all angles 60°; ray PQ falls normally on face AB at Q, near B.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The ray enters AB normally at Q and goes undeviated (i = 0°). It meets the base BC at an angle of incidence of 60° > 42°, so it is totally internally reflected (angle of reflection 60°). The reflected ray then strikes face AC normally (i = 0°) and emerges undeviated. Mark: 90° at Q, 60° incidence and 60° reflection at BC, 90° at AC. (Net deviation = 60°.)",
+   "marking_points": [
+    {
+     "point": "Undeviated entry and TIR at BC with 60° marked",
+     "marks": 1
+    },
+    {
+     "point": "Emerges normally through AC (angles marked)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Equilateral prism ABC (60° angles) with ray PQ incident normally on face AB at Q near vertex B.",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_bhakti/p5.jpg"
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 26,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Energy conversion in braking",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "KE → heat in friction brakes",
+    "regenerative braking KE → electrical"
+   ],
+   "question": "Regenerative braking involves harnessing the energy that is typically lost when a car decelerates and brakes and instead using it to recharge the car's batteries. Unlike traditional braking systems that simply dissipate energy, regenerative braking allows some of that energy to be recycled.\n(a) What is the energy conversion process that results in the wastage of energy in a normal car during braking?\n(b) How does regenerative braking differ from normal braking in terms of energy conversion?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Kinetic energy of the car → heat energy (and some sound) due to friction between brake pads and wheels, which is lost to the surroundings.\n(b) In regenerative braking, kinetic energy is converted into electrical energy (by the motor acting as a generator), which is stored as chemical energy in the battery for reuse.",
+   "marking_points": [
+    {
+     "point": "(a) Kinetic → heat (and sound) via friction",
+     "marks": 1
+    },
+    {
+     "point": "(b) Kinetic → electrical → chemical energy stored in battery",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(v)",
+   "q_order": 27,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Centre of gravity of a composite rod",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "principle of moments",
+    "centre of gravity"
+   ],
+   "question": "A metre rod is half made of copper and half made of iron. If the mass of the copper part is 900 g and the mass of iron is 800 g, then calculate the position at which the rod can remain in equilibrium.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Copper (0–50 cm): 900 gf at 25 cm; iron (50–100 cm): 800 gf at 75 cm. Balance point x: 900(x − 25) = 800(75 − x) ⇒ 1700x = 82500 ⇒ x ≈ 48.5 cm from the copper end.",
+   "marking_points": [
+    {
+     "point": "900(x − 25) = 800(75 − x)",
+     "marks": 1
+    },
+    {
+     "point": "x ≈ 48.5 cm from copper end",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "3(vi)",
+   "q_order": 28,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Deflection of compass under a current-carrying wire",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "right-hand thumb rule",
+    "field direction above vs below conductor"
+   ],
+   "question": "The diagram shows a magnetic needle kept just below the conductor AB which is kept in North-South direction (B towards north, A towards south). A cell and key K are connected so that, when K is closed, current flows through the conductor from B to A (north to south).\na) In which direction will the needle be deflected if the key is closed?\nb) What will be the change in the deflection if the magnetic needle is taken just above the conductor AB?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "a) Current flows from B to A (north to south). By the right-hand thumb rule, the magnetic field below the wire points towards the east, so the north pole of the needle is deflected towards the east.\nb) Above the conductor the field is in the opposite direction, so the deflection reverses — the north pole is deflected towards the west.",
+   "marking_points": [
+    {
+     "point": "a) North pole deflects towards east",
+     "marks": 1
+    },
+    {
+     "point": "b) Deflection reverses (towards west)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Conductor AB in north-south direction connected to a cell and key K, with a magnetic needle on a stand just below it and a direction compass (N to the right).",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_bhakti/p6.jpg"
+  },
+  {
+   "q_label": "3(vii)",
+   "q_order": 29,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Cooling curve: SHC and latent heat",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "Q = Pt",
+    "Q = mcΔT",
+    "latent heat region"
+   ],
+   "question": "The diagram shows a cooling curve for 200 g of water. Heat is extracted at the rate of 100 J s⁻¹. The temperature falls from 80°C at A (t = 0) to 0°C at B (t = 640 s), then stays at 0°C until C (t = 1312 s). Answer the following questions:\n(a) Calculate the specific heat capacity of water.\n(b) Heat released in the region BC.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Heat released from A to B = 100 × 640 = 64000 J = mcΔT = 0.2 × c × 80 ⇒ c = 64000/16 = 4000 J kg⁻¹K⁻¹.\n(b) Heat released in BC = 100 × (1312 − 640) = 100 × 672 = 67200 J (latent heat of freezing).",
+   "marking_points": [
+    {
+     "point": "Heat AB = 64000 J",
+     "marks": 1
+    },
+    {
+     "point": "c = 4000 J kg⁻¹ K⁻¹",
+     "marks": 1
+    },
+    {
+     "point": "(b) 67200 J",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Cooling curve: 80°C at t = 0 (A) falling to 0°C at 640 s (B), flat at 0°C to 1312 s (C).",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_bhakti/p6.jpg"
+  },
+  {
+   "q_label": "4(a)",
+   "q_order": 30,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Convex lens with magnification 1",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "object at 2F",
+    "real inverted same-size image"
+   ],
+   "question": "Draw a ray diagram for a lens whose magnification is equal to 1. Name the lens.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Convex (converging) lens. Ray diagram: object AB placed at 2F on one side; a ray from B parallel to the axis refracts through F′; a ray from B through the optical centre goes undeviated; they meet at B′ at 2F′. The image A′B′ is at 2F′, real, inverted and of the same size (m = −1).",
+   "marking_points": [
+    {
+     "point": "Convex lens",
+     "marks": 1
+    },
+    {
+     "point": "Object at 2F with two correct rays",
+     "marks": 1
+    },
+    {
+     "point": "Image at 2F′, real, inverted, same size",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "4(b)",
+   "q_order": 31,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Ionising power, isotones and radioactivity",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "ionising power α > β > γ",
+    "isotones",
+    "n/p ratio and stability"
+   ],
+   "question": "(i) How do the ionizing power of α, β, γ radiation differ?\n(ii) What are isotones?\n(iii) Under which condition does the nucleus of an atom tend to be radioactive?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) Ionising power: α > β > γ (α is about 100 times β, β about 100 times γ).\n(ii) Isotones are nuclides of different elements having the same number of neutrons (different atomic and mass numbers), e.g. ¹⁴₆C and ¹⁶₈O (both have 8 neutrons).\n(iii) When the nucleus is unstable — its neutron-to-proton ratio is too high (more than about 1.5) or the nucleus is very heavy (atomic number above 82).",
+   "marking_points": [
+    {
+     "point": "(i) α > β > γ",
+     "marks": 1
+    },
+    {
+     "point": "(ii) Same number of neutrons, different Z",
+     "marks": 1
+    },
+    {
+     "point": "(iii) High n/p ratio / heavy nucleus (Z > 82) ⇒ unstable",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "4(c)",
+   "q_order": 32,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Normal shift through a glass block",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "refraction",
+    "shift increases with thickness and angle of incidence"
+   ],
+   "question": "The diagram shows that an observer (below a rectangular glass block of thickness Y) sees the image of an object O (above the block) at I; the displacement between O and I is marked X.\n(i) Name and define the phenomenon responsible for the image to be a different position for the observer.\n(ii) State the effect on X when:\nI. Y increases\nII. Angle of incidence increases",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) Refraction of light — the change in direction of light when it passes obliquely from one transparent medium to another, due to the change in its speed.\n(ii) I. X increases (shift is proportional to the thickness of the block).\nII. X increases (the shift/displacement increases with the angle of incidence).",
+   "marking_points": [
+    {
+     "point": "(i) Refraction",
+     "marks": 1
+    },
+    {
+     "point": "(i) Correct definition",
+     "marks": 1
+    },
+    {
+     "point": "(ii) I. X increases",
+     "marks": 1
+    },
+    {
+     "point": "(ii) II. X increases",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Object O above a rectangular glass block of thickness Y; ray from O refracts through the block to the observer below, who sees the image at I shifted by X towards the block.",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_bhakti/p7.jpg"
+  },
+  {
+   "q_label": "5(a)",
+   "q_order": 33,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Conditions at minimum deviation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "i = e",
+    "r1 = r2 = A/2",
+    "ray parallel to base"
+   ],
+   "question": "Give three conditions obtained in the minimum deviation position of an equilateral prism.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) Angle of incidence = angle of emergence (i = e).\n(2) Angles of refraction at the two faces are equal: r₁ = r₂ = A/2 = 30°.\n(3) The refracted ray inside the prism travels parallel to the base.",
+   "marking_points": [
+    {
+     "point": "i = e",
+     "marks": 1
+    },
+    {
+     "point": "r1 = r2 = 30°",
+     "marks": 1
+    },
+    {
+     "point": "Ray inside parallel to base",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "5(b)",
+   "q_order": 34,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Refraction of different colours through a glass slab",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "refractive index greatest for blue",
+    "lateral displacement",
+    "emergent ray parallel to incident"
+   ],
+   "question": "Consider the diagram in which three rays of different colours (red + green + blue) are incident on a rectangular glass slab at the same angle of incidence (at the same point).\n(i) Which ray deviates the most after refraction at the air-glass interface and why?\n(ii) Complete the ray diagram.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) Blue — glass has the highest refractive index for blue (blue travels slowest in glass), so it bends the most towards the normal.\n(ii) Diagram: at the top surface the light splits — blue closest to the normal, then green, red farthest from the normal. At the lower surface each ray bends away from the normal and emerges parallel to the original incident ray; the three emergent rays are parallel to each other but laterally displaced by different amounts (blue most).",
+   "marking_points": [
+    {
+     "point": "(i) Blue",
+     "marks": 1
+    },
+    {
+     "point": "(i) Highest refractive index / slowest in glass",
+     "marks": 1
+    },
+    {
+     "point": "(ii) Correct split inside and parallel emergent rays",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "5(c)",
+   "q_order": 35,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Sound",
+   "topic": "SONAR components",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "SONAR",
+    "ultrasound echo"
+   ],
+   "question": "The word SONAR stands for Sound Navigation and Ranging. It is an apparatus used to find the depth of sea or to locate under water things like fish and ice bergs. This apparatus is shown in the figure (ship with two devices under its hull; labels S at the left device, P on the ray going down to the object, R near the ray returning to the right device, Q at the underwater object).\nComplete the table, using the labels from the figure. The first label is done for you.\n(i) Transmitter — S\n(ii) Receiver — ?\n(iii) Ultrasound pulse — ?\n(iv) Echo — ?\n(v) Object — ?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(ii) Receiver — the right-hand device (label R side).\n(iii) Ultrasound pulse — P (sent down from the transmitter).\n(iv) Echo — R (the reflected wave returning from the object to the receiver).\n(v) Object — Q.\nNote: the figure has only P, R and Q left for four blanks; R lies beside both the returning ray and the receiver, so a key may accept R for receiver/echo.",
+   "marking_points": [
+    {
+     "point": "Receiver — R side device",
+     "marks": 1
+    },
+    {
+     "point": "Ultrasound pulse — P",
+     "marks": 1
+    },
+    {
+     "point": "Echo — R (reflected ray)",
+     "marks": 1
+    },
+    {
+     "point": "Object — Q",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Ship with SONAR transmitter (S) and receiver under the hull; ray P goes down to an underwater object Q and reflected ray near R returns to the receiver.",
+   "page": 8,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_bhakti/p8.jpg"
+  },
+  {
+   "q_label": "6(a)",
+   "q_order": 36,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Movable and fixed pulley combination",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "movable pulley VR = 2",
+    "MA = 2 ideal"
+   ],
+   "question": "Sachin and Anurag are performing an experiment to verify the principle of moments. Sachin took two pulleys and arranged them as shown: a string fixed to the support passes under movable pulley P₁ (carrying the weight w) and over fixed pulley P₂, ending at free end C where effort E is applied downward.\n(i) If the free end C of the string moves through a distance x, by what distance is the load w raised?\n(ii) What effort E has to be applied to C to just raise the load w = 20 kgf? Neglect the weight of the pulley P₁ and friction.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) The load is supported by 2 strands (VR = 2), so it rises by x/2.\n(ii) 2T = w ⇒ T = 20/2 = 10 kgf; E = T = 10 kgf (≈ 100 N).",
+   "marking_points": [
+    {
+     "point": "(i) x/2",
+     "marks": 1
+    },
+    {
+     "point": "(ii) 2T = w",
+     "marks": 1
+    },
+    {
+     "point": "(ii) E = 10 kgf",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "6(b)",
+   "q_order": 37,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Final temperature with ice in a liquid",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 4,
+   "concepts": [
+    "heat lost = heat gained",
+    "latent heat of fusion"
+   ],
+   "question": "25 g of ice at 0°C is added to 200 g of a liquid at 25°C. What will be the final temperature of the mixture when all the ice has melted? Specific heat capacity of the liquid is 2.65 J g⁻¹ °C⁻¹. (Take specific latent heat of fusion of ice = 336 J g⁻¹ and specific heat capacity of water = 4.2 J g⁻¹ °C⁻¹.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Let final temperature = T.\nHeat gained by ice = 25 × 336 + 25 × 4.2 × T = 8400 + 105T.\nHeat lost by liquid = 200 × 2.65 × (25 − T) = 13250 − 530T.\n8400 + 105T = 13250 − 530T ⇒ 635T = 4850 ⇒ T ≈ 7.6 °C.",
+   "marking_points": [
+    {
+     "point": "Heat gained by ice = 8400 + 105T",
+     "marks": 1
+    },
+    {
+     "point": "Heat lost by liquid = 530(25 − T)",
+     "marks": 1
+    },
+    {
+     "point": "T ≈ 7.6 °C",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "6(c)",
+   "q_order": 38,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work and power of a pump; KE and mass",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "W = mgh",
+    "P = W/t",
+    "KE ∝ m"
+   ],
+   "question": "(i) A water pump raises 50 L of water through a height of 25 m in 5 s. Calculate the work done and the power which the pump supplies. (Take g = 10 m s⁻², ρ = 1000 kg m⁻³)\n(ii) How is the kinetic energy of a moving cart affected, if its mass is doubled?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) Mass = 50 × 10⁻³ m³ × 1000 = 50 kg. W = mgh = 50 × 10 × 25 = 12500 J. P = W/t = 12500/5 = 2500 W (2.5 kW).\n(ii) KE = ½mv²; doubling the mass (same speed) doubles the kinetic energy.",
+   "marking_points": [
+    {
+     "point": "Mass = 50 kg; W = 12500 J",
+     "marks": 1
+    },
+    {
+     "point": "P = 2500 W",
+     "marks": 1
+    },
+    {
+     "point": "(ii) KE doubles",
+     "marks": 1
+    },
+    {
+     "point": "(ii) Reason: KE ∝ m",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "7(a)",
+   "q_order": 39,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Lens formula and image size",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "1/v − 1/u = 1/f",
+    "m = v/u"
+   ],
+   "question": "A 4 cm tall object is placed perpendicular to the principal axis of a convex lens of focal length 25 cm. The distance of the object from the lens is 40 cm. By calculation, determine:\n(i) the position and\n(ii) the size of the image formed.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "u = −40 cm, f = +25 cm. 1/v = 1/f + 1/u = 1/25 − 1/40 = 3/200 ⇒ v = +66.7 cm (real image on the other side of the lens).\nm = v/u = 66.7/(−40) = −1.67; image height = −1.67 × 4 = −6.67 cm, i.e. 6.67 cm tall, inverted.",
+   "marking_points": [
+    {
+     "point": "Lens formula substitution",
+     "marks": 1
+    },
+    {
+     "point": "(i) v = 66.7 cm on the other side",
+     "marks": 1
+    },
+    {
+     "point": "(ii) h′ = 6.67 cm, inverted",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "7(b)",
+   "q_order": 40,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Rattling of a vehicle — resonance",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "resonance",
+    "forced vibration"
+   ],
+   "question": "When a vehicle is driven at a particular speed, a rattling sound is heard. Explain briefly.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "At that particular speed, the frequency of the vibrations produced by the engine/wheels (forcing frequency) becomes equal to the natural frequency of some loose part of the vehicle's body. Resonance occurs, so that part vibrates with a large amplitude, producing a loud rattling sound. At other speeds the frequencies do not match and the rattling stops.",
+   "marking_points": [
+    {
+     "point": "Forced vibrations from engine at that speed",
+     "marks": 1
+    },
+    {
+     "point": "Frequency equals natural frequency of a loose part",
+     "marks": 1
+    },
+    {
+     "point": "Resonance ⇒ large amplitude rattle",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "7(c)",
+   "q_order": 41,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Ray in an equiangular prism at critical angle",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 5,
+   "concepts": [
+    "normal incidence",
+    "angle of incidence equal to critical angle ⇒ grazing emergence"
+   ],
+   "question": "The critical angle for glass of which the equiangular prism ABC is made, is 60°. A ray of light incident on the side AB of the prism is refracted along DE such that the angle it makes with the side AC is 150°. Also, ∠EDB = 90°. Draw the path of the incident ray on the side AB (which travels along DE) and also the path along which the ray DE travels from the point E onwards.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Since ∠EDB = 90°, DE is perpendicular to AB, so the incident ray must strike AB normally at D and pass undeviated along DE (draw it as a line perpendicular to AB, continuing into DE).\nAt E: ∠DEC = 150° ⇒ ∠AED = 30°, so the ray makes 30° with AC and the angle of incidence at AC = 90° − 30° = 60° = critical angle. Hence the ray emerges grazing along the surface AC, i.e. from E it travels along EC (angle of refraction 90°).",
+   "marking_points": [
+    {
+     "point": "Incident ray drawn normal to AB at D (undeviated)",
+     "marks": 1
+    },
+    {
+     "point": "Angle of incidence at AC = 60°",
+     "marks": 1
+    },
+    {
+     "point": "Equal to critical angle ⇒ refracted at 90°",
+     "marks": 1
+    },
+    {
+     "point": "Ray drawn grazing along AC from E",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Equilateral prism ABC; ray DE inside the prism is perpendicular to AB at D and meets AC at E, with 150° marked between DE and EC.",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_bhakti/p9.jpg"
+  },
+  {
+   "q_label": "8(a)",
+   "q_order": 42,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Power rating, energy and cost",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "R = V²/P",
+    "E = Pt",
+    "cost = units × rate"
+   ],
+   "question": "An electric heater is rated 2 kW, 220 V. Find:\n(i) Resistance of the heater.\n(ii) Energy consumed in 1 hour.\n(iii) Total cost if 1 unit costs Rs. 8.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) R = V²/P = 220²/2000 = 48400/2000 = 24.2 Ω.\n(ii) E = Pt = 2 kW × 1 h = 2 kWh (= 7.2 × 10⁶ J).\n(iii) Cost = 2 × 8 = Rs 16.",
+   "marking_points": [
+    {
+     "point": "(i) 24.2 Ω",
+     "marks": 1
+    },
+    {
+     "point": "(ii) 2 kWh",
+     "marks": 1
+    },
+    {
+     "point": "(iii) Rs 16",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "8(b)",
+   "q_order": 43,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Nature of beta particles; deflection of radiations",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "β = fast electrons",
+    "γ uncharged electromagnetic waves"
+   ],
+   "question": "(i) What is the nature of β particles when they are ejected from the nucleus of an atom.\n(ii) α and β particles are deflected in an electric or a magnetic field, but γ rays are not deflected in such a field. Give reason.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) β particles are fast-moving electrons (negatively charged), formed when a neutron in the nucleus changes into a proton.\n(ii) α particles (positively charged helium nuclei) and β particles (negatively charged electrons) carry charge, so they experience a force in electric and magnetic fields. γ rays are electromagnetic waves (photons) with no charge, so they are not deflected.",
+   "marking_points": [
+    {
+     "point": "(i) Fast-moving electrons (negative charge)",
+     "marks": 1
+    },
+    {
+     "point": "(ii) α and β are charged",
+     "marks": 1
+    },
+    {
+     "point": "(ii) γ rays are uncharged EM waves",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "8(c)",
+   "q_order": 44,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Series circuit with internal resistance",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "I = E/(R + r)",
+    "lost volts = Ir"
+   ],
+   "question": "In a house, two LED bulbs of resistance 4.0 Ω and 20 Ω are connected in series to a battery of emf E = 1.5 V and internal resistance r = 1.0 Ω. Rahul and Mehul are observing the circuit. They want to calculate current and voltage drop across the LED bulbs.\n(i) Calculate the current in the circuit.\n(ii) Calculate the potential difference across the 4 Ω LED bulb.\n(iii) Calculate the voltage drop across the battery when the current is flowing.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Total resistance = 4 + 20 + 1 = 25 Ω.\n(i) I = E/(R + r) = 1.5/25 = 0.06 A.\n(ii) V = IR = 0.06 × 4 = 0.24 V.\n(iii) Voltage drop inside the battery = Ir = 0.06 × 1 = 0.06 V (so terminal voltage = 1.5 − 0.06 = 1.44 V).",
+   "marking_points": [
+    {
+     "point": "Total R = 25 Ω",
+     "marks": 1
+    },
+    {
+     "point": "(i) 0.06 A",
+     "marks": 1
+    },
+    {
+     "point": "(ii) 0.24 V",
+     "marks": 1
+    },
+    {
+     "point": "(iii) Ir = 0.06 V (terminal voltage 1.44 V)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "9(a)",
+   "q_order": 45,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Partial melting of ice",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 4,
+   "concepts": [
+    "Q = mcΔT",
+    "latent heat of fusion",
+    "excess ice ⇒ final 0 °C"
+   ],
+   "question": "A vessel of negligible thermal capacity contains 5 kg of water at 50°C. If 5.0 kg of ice at 0°C is added to it, find:\n(i) heat energy imparted by water in fall of its temperature from 50°C to 0°C\n(ii) mass of ice melted\n(iii) final temperature of mixture.\n(Take specific heat capacity of water = 4200 J kg⁻¹ K⁻¹ and specific latent heat of fusion of ice = 336000 J kg⁻¹.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) Q = mcΔT = 5 × 4200 × 50 = 1,050,000 J (1.05 × 10⁶ J).\n(ii) Mass of ice melted = 1.05 × 10⁶ / 3.36 × 10⁵ = 3.125 kg.\n(iii) Since only 3.125 kg of the 5 kg ice melts, the final temperature of the mixture is 0°C.",
+   "marking_points": [
+    {
+     "point": "(i) 1.05 × 10⁶ J",
+     "marks": 1
+    },
+    {
+     "point": "(ii) 3.125 kg",
+     "marks": 1
+    },
+    {
+     "point": "(iii) 0°C",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "9(b)",
+   "q_order": 46,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Detection of infrared and ultraviolet; uses of UV",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "thermometer with blackened bulb",
+    "fluorescence / silver chloride"
+   ],
+   "question": "(i) Suggest one way in each case by which we can detect the presence of:\nI. infrared radiations\nII. ultraviolet radiations.\n(ii) Give one use of ultraviolet radiations.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) I. Infrared: a thermometer with a blackened bulb (or a thermopile) shows a rise in temperature when placed in the region.\nII. Ultraviolet: it causes fluorescence (e.g. a zinc sulphide screen/fluorescent paper glows) or turns silver chloride from white to violet/blacken a photographic plate.\n(ii) Use: sterilising water / killing germs in hospitals; detecting forged documents; producing vitamin D.",
+   "marking_points": [
+    {
+     "point": "(i) I. Thermometer with blackened bulb / thermopile",
+     "marks": 1
+    },
+    {
+     "point": "(i) II. Fluorescence / silver chloride turns violet",
+     "marks": 1
+    },
+    {
+     "point": "(ii) Valid use of UV",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "9(c)",
+   "q_order": 47,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Polarity of an electromagnet and soft iron core",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "clock rule / right-hand thumb rule",
+    "advantages of electromagnet",
+    "soft iron core"
+   ],
+   "question": "With respect to the given diagram (a coil wound on a soft iron rod AB connected to a cell and a key; the positive terminal of the cell is on the left, so current enters the coil at end A), answer the following questions.\n(i) What is the polarity of A?\n(ii) Give two advantages of electromagnet over permanent magnet.\n(iii) What is the use of soft iron core?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) A is the North pole — viewed from end A, the current in the coil flows anticlockwise (clock rule).\n(ii) (1) An electromagnet can be switched on/off (magnetism only while current flows); (2) its strength can be changed by changing the current or number of turns (and polarity can be reversed); it can also be made very strong.\n(iii) The soft iron core concentrates the magnetic field lines and greatly increases the strength of the electromagnet; being soft iron, it magnetises and demagnetises quickly.",
+   "marking_points": [
+    {
+     "point": "(i) A — North pole",
+     "marks": 1
+    },
+    {
+     "point": "(ii) Two valid advantages",
+     "marks": 2
+    },
+    {
+     "point": "(iii) Increases field strength; easily magnetised/demagnetised",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Coil wound on a soft iron cylinder with ends A (left) and B (right), connected to a cell (positive plate on the left) and a plug key.",
+   "page": 11,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_bhakti/p11.jpg"
+  }
+ ]
+}

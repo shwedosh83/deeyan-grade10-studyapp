@@ -1,4 +1,4 @@
-import { admin, gradeObjective, gradeItems, gradeSubjective, countedQuestionIds, mapPool } from './_boardLib.js';
+import { admin, gradeObjective, gradeItems, gradeSubjective, countedQuestionIds, mapPool, pickSection } from './_boardLib.js';
 
 // POST (default)  { userId, subject, mode, paperId?, inputMethod, secondsUsed, answers:[{questionId,text,scanReadText?}] }
 //   -> grades, saves the attempt, returns per-question marks + solutions + section totals
@@ -71,7 +71,7 @@ export default async function handler(req, res) {
       if (q.mandatory === 'compulsory') s.counted_max += Number(q.marks);
     }
     for (const sec of paper?.sections || []) {
-      const key = Object.keys(sections).find(k => k && (k.startsWith(sec.name) || sec.name.startsWith(k)));
+      const key = pickSection(Object.keys(sections), sec.name);
       if (key) sections[key].counted_max = Number(sec.total_marks);
     }
 

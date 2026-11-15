@@ -1,0 +1,2188 @@
+{
+ "paper_id": "prelim_geography_qms",
+ "subject": "geography",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · Queen Mary",
+ "source": "prelim",
+ "school": "Queen Mary School, Mumbai",
+ "exam_label": "Preliminary Examination 2025-2026",
+ "max_marks": 70.0,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Part I (Questions 1-3) compulsory. Attempt any five questions from Part II. Survey of India Map Sheet No. G43S10 supplied for Question 1; outline map of India for Question 2. For Question 3, write the correct answers only. Q1 (toposheet map reading) is omitted: the school paper was shared without its Survey of India map extract.",
+ "sections": [
+  {
+   "name": "Part I",
+   "total_marks": 20.0,
+   "rule": "Attempt all questions (Questions 1-3)",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Part II",
+   "total_marks": 50,
+   "rule": "Attempt any five questions from this part",
+   "compulsory": false,
+   "attempt_n": 5,
+   "out_of": 9
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "2(i)",
+   "q_order": 0,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Mumbai High",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "map",
+   "difficulty": 2,
+   "concepts": [
+    "mumbai high",
+    "energy"
+   ],
+   "question": "On the outline map of India provided:\n(i) Mark and label the most promising oil field in India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Mark Mumbai High in the Arabian Sea about 160 km west of Mumbai and label it.",
+   "marking_points": [
+    {
+     "point": "Correctly marked and labelled: Mumbai High",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "blank outline map of India",
+   "page": 1,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_qms/p1.jpg"
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 1,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "River port",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "map",
+   "difficulty": 2,
+   "concepts": [
+    "river port",
+    "ports"
+   ],
+   "question": "On the outline map of India provided:\n(ii) Mark using a dot and name a major river port of India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Mark a dot for Kolkata on the Hooghly river (West Bengal) and label 'Kolkata'.",
+   "marking_points": [
+    {
+     "point": "Correctly marked and labelled: Kolkata",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "blank outline map of India",
+   "page": 1,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_qms/p1.jpg"
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 2,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Deccan Plateau",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "map",
+   "difficulty": 2,
+   "concepts": [
+    "deccan plateau",
+    "relief"
+   ],
+   "question": "On the outline map of India provided:\n(iii) Shade and label the Deccan plateau of India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Shade the triangular plateau south of the Satpura-Vindhya ranges, between the Western and Eastern Ghats (Maharashtra, Karnataka, Telangana) and label 'Deccan Plateau'.",
+   "marking_points": [
+    {
+     "point": "Correctly marked and labelled: Deccan Plateau",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "blank outline map of India",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_qms/p2.jpg"
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 3,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Gulf of Mannar",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "map",
+   "difficulty": 2,
+   "concepts": [
+    "gulf of mannar",
+    "water bodies"
+   ],
+   "question": "On the outline map of India provided:\n(iv) Mark and label the Gulf of Manner.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Shade the sea between south-eastern Tamil Nadu and Sri Lanka, south of Palk Strait, and label 'Gulf of Mannar'.",
+   "marking_points": [
+    {
+     "point": "Correctly marked and labelled: Gulf of Mannar",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "blank outline map of India",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_qms/p2.jpg"
+  },
+  {
+   "q_label": "2(v)",
+   "q_order": 4,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "SW monsoon winds",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "map",
+   "difficulty": 2,
+   "concepts": [
+    "sw monsoon winds",
+    "climate"
+   ],
+   "question": "On the outline map of India provided:\n(v) Mark with arrows and name the wind which brings rainfall to the Malabar coast.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Draw arrows from the Arabian Sea blowing from south-west towards the Malabar (Kerala) coast and label 'South-West Monsoon (Arabian Sea branch)'.",
+   "marking_points": [
+    {
+     "point": "Correctly marked and labelled: SW monsoon - Arabian Sea branch",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "blank outline map of India",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_qms/p2.jpg"
+  },
+  {
+   "q_label": "2(vi)",
+   "q_order": 5,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Sparsely populated NE area",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "map",
+   "difficulty": 2,
+   "concepts": [
+    "sparsely populated ne area",
+    "population"
+   ],
+   "question": "On the outline map of India provided:\n(vi) Shade and label a sparsely populated area in North-eastern part of India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Shade Arunachal Pradesh and label 'Sparsely populated'.",
+   "marking_points": [
+    {
+     "point": "Correctly marked and labelled: Arunachal Pradesh",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "blank outline map of India",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_qms/p2.jpg"
+  },
+  {
+   "q_label": "2(vii)",
+   "q_order": 6,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Nilgiri hills",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "map",
+   "difficulty": 2,
+   "concepts": [
+    "nilgiri hills",
+    "relief"
+   ],
+   "question": "On the outline map of India provided:\n(vii) Mark and label the hills that are popularly called Blue Mountain.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Mark the Nilgiri Hills at the junction of the Western and Eastern Ghats (Tamil Nadu-Kerala-Karnataka) and label 'Nilgiris'.",
+   "marking_points": [
+    {
+     "point": "Correctly marked and labelled: Nilgiri Hills",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "blank outline map of India",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_qms/p2.jpg"
+  },
+  {
+   "q_label": "2(viii)",
+   "q_order": 7,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "River Narmada",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "map",
+   "difficulty": 2,
+   "concepts": [
+    "river narmada",
+    "rivers"
+   ],
+   "question": "On the outline map of India provided:\n(viii) Mark and name the longest river west flowing.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Draw River Narmada from Amarkantak flowing west between the Vindhyas and Satpuras into the Gulf of Khambhat; label 'Narmada'.",
+   "marking_points": [
+    {
+     "point": "Correctly marked and labelled: River Narmada",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "blank outline map of India",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_qms/p2.jpg"
+  },
+  {
+   "q_label": "2(ix)",
+   "q_order": 8,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Indian Standard Meridian",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "map",
+   "difficulty": 2,
+   "concepts": [
+    "indian standard meridian",
+    "longitude"
+   ],
+   "question": "On the outline map of India provided:\n(ix) Mark and label the Indian Standard Meridian.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Draw the 82½°E longitude passing near Mirzapur/Prayagraj (UP) from north to south and label 'Indian Standard Meridian 82°30'E'.",
+   "marking_points": [
+    {
+     "point": "Correctly marked and labelled: 82½°E line",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "blank outline map of India",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_qms/p2.jpg"
+  },
+  {
+   "q_label": "2(x)",
+   "q_order": 9,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "map_work",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Map of India (outline map work)",
+   "topic": "Northern Circars",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "map",
+   "difficulty": 2,
+   "concepts": [
+    "northern circars",
+    "coastal plains"
+   ],
+   "question": "On the outline map of India provided:\n(x) Mark and label the Northern Circars.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Shade the east coastal plain between the Mahanadi and Krishna deltas (Odisha-Andhra coast) and label 'Northern Circars'.",
+   "marking_points": [
+    {
+     "point": "Correctly marked and labelled: Northern Circars",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "blank outline map of India",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_qms/p2.jpg"
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 10,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Climate",
+   "topic": "Rainfall sources of Punjab and Haryana",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "rainfall sources of punjab and haryana"
+   ],
+   "question": "Choose the correct answers to the questions from the given options. (Do not copy the question, write the correct answers only.)\n(i) Which of the following is not a source of rainfall in Punjab and Haryana?",
+   "options": {
+    "a": "Arabian Sea branch of South West Monsoon",
+    "b": "Tropical cyclone",
+    "c": "Western Disturbances",
+    "d": "Bay of Bengal branch of South West Monsoon."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Tropical cyclone. Tropical cyclones affect coastal areas, not land-locked Punjab-Haryana, which gets rain from both monsoon branches and western disturbances.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 11,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mineral Resources",
+   "topic": "Copper deficiency",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "copper deficiency"
+   ],
+   "question": "Choose the correct answers to the questions from the given options. (Do not copy the question, write the correct answers only.)\n(ii) India is critically deficient in ____ and has to depend on exports [imports].",
+   "options": {
+    "a": "Manganese",
+    "b": "Copper",
+    "c": "Bauxite",
+    "d": "Iron ore"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Copper. India's copper reserves are small and it imports much of its requirement; it is rich in the other three.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 12,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Natural Vegetation",
+   "topic": "Analogy - species and forest type",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "analogy - species and forest type"
+   ],
+   "question": "Choose the correct answers to the questions from the given options. (Do not copy the question, write the correct answers only.)\n(iii) Find the option most similar to:\nTeak : Tropical Deciduous Forest",
+   "options": {
+    "a": "Mahogany: Furniture",
+    "b": "Stilted roots: Mangrove Vegetation",
+    "c": "Ebony: Tropical Rainforest",
+    "d": "Spines: Tropical Desert Vegetation."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Ebony: Tropical Rainforest. Tree species : forest type in which it grows - ebony grows in tropical rainforests just as teak grows in tropical deciduous forests.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 13,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Water Resources",
+   "topic": "Groundwater recharge",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "groundwater recharge"
+   ],
+   "question": "Choose the correct answers to the questions from the given options. (Do not copy the question, write the correct answers only.)\n(iv) Which of the following may be used for the recharging of underground water?",
+   "options": {
+    "a": "Planting of shelter belt",
+    "b": "Plugging of gullies and ravines",
+    "c": "Percolation pit",
+    "d": "Tube-well irrigation"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Percolation pit. Percolation pits allow rain water to seep into the ground and recharge aquifers.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(v)",
+   "q_order": 14,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mineral Resources",
+   "topic": "Coal by carbon content",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "coal by carbon content"
+   ],
+   "question": "Choose the correct answers to the questions from the given options. (Do not copy the question, write the correct answers only.)\n(v) Arrange the following in descending order according to their carbon content:",
+   "options": {
+    "a": "Anthracite, Bituminous, Peat, Lignite",
+    "b": "Bituminous, Lignite, Anthracite, Peat",
+    "c": "Anthracite, Bituminous, Lignite, Peat",
+    "d": "Anthracite, Lignite, Peat, Bituminous"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Anthracite, Bituminous, Lignite, Peat. Anthracite (80-95%) > Bituminous (60-80%) > Lignite (40-55%) > Peat (below 40%).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(vi)",
+   "q_order": 15,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Agriculture",
+   "topic": "Dependence on monsoon",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "dependence on monsoon"
+   ],
+   "question": "Choose the correct answers to the questions from the given options. (Do not copy the question, write the correct answers only.)\n(vi) Assertion (A): Agriculture in India is heavily dependent on monsoon rains.\nReason (R): Most Indian farmers practice rain-fed agriculture and lack access to irrigation facilities.",
+   "options": {
+    "a": "(A) is true but (R) is false.",
+    "b": "(A) is false but (R) is true.",
+    "c": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+    "d": "Both (A) and (R) are true and (R) is not the correct explanation of (A)."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Both (A) and (R) are true and (R) is the correct explanation of (A).. Since most farms are rain-fed without irrigation, agriculture depends on the monsoon.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(vii)",
+   "q_order": 16,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Agriculture",
+   "topic": "Ratooning",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "ratooning"
+   ],
+   "question": "Choose the correct answers to the questions from the given options. (Do not copy the question, write the correct answers only.)\n(vii) Which crop is associated with Ratooning?",
+   "options": {
+    "a": "Sugarcane",
+    "b": "Jute",
+    "c": "Rice",
+    "d": "Cotton"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Sugarcane. In sugarcane, new canes are raised from the stubble/cuttings of the previous crop - ratooning.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(viii)",
+   "q_order": 17,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Manufacturing Industries",
+   "topic": "Visakhapatnam steel plant",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "visakhapatnam steel plant"
+   ],
+   "question": "Choose the correct answers to the questions from the given options. (Do not copy the question, write the correct answers only.)\n(viii) Which steel plant amongst the following is the first shore based steel plant in India?",
+   "options": {
+    "a": "Bhilai",
+    "b": "Tata Steel",
+    "c": "Vishakhapatnam",
+    "d": "Rourkela"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Vishakhapatnam. Visakhapatnam (Rashtriya Ispat Nigam) is India's first shore-based integrated steel plant.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(ix)",
+   "q_order": 18,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transport",
+   "topic": "Road transport for perishables",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "road transport for perishables"
+   ],
+   "question": "Choose the correct answers to the questions from the given options. (Do not copy the question, write the correct answers only.)\n(ix) If you need to transport perishable goods over a short distance, which mode of transport will you use and why?",
+   "options": {
+    "a": "Air transport because it is the fastest.",
+    "b": "Road transport as it is economical.",
+    "c": "Rail transport as it is ecofriendly.",
+    "d": "Water transport as it can handle large amount of goods."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Road transport as it is economical.. For short distances road transport is the most economical and gives quick door-to-door delivery.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(x)",
+   "q_order": 19,
+   "q_main": 3,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Waste Management",
+   "topic": "Biomagnification",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "biomagnification"
+   ],
+   "question": "Choose the correct answers to the questions from the given options. (Do not copy the question, write the correct answers only.)\n(x) Name the phenomenon of concentrated toxic deposition at the higher tropic level.",
+   "options": {
+    "a": "Bio-accumulation",
+    "b": "Bio-magnification",
+    "c": "Eutrophication",
+    "d": "Bio-degradation"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Bio-magnification. Concentration of toxins increasing at each higher trophic level is biomagnification.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 20,
+   "q_main": 4,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Climate",
+   "topic": "Relief and climate",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "relief and climate",
+    "rain shadow"
+   ],
+   "question": "\"The climate in different parts of India is largely impacted by the relief features\".\nExplain the above statement with the help of two suitable examples.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1. The Himalayas act as a climatic barrier - they block the cold, dry Central Asian winds in winter, keeping north India warmer, and trap the SW monsoon winds, forcing them to shed rain over the northern plains. 2. The Western Ghats lie across the path of the Arabian Sea branch of the SW monsoon, so the windward west coast (e.g. Mangaluru) receives heavy orographic rain while the leeward Deccan (e.g. Pune) lies in the rain-shadow and receives little rain.",
+   "marking_points": [
+    {
+     "point": "Example 1 - Himalayas as climatic barrier",
+     "marks": 1
+    },
+    {
+     "point": "Example 2 - Western Ghats windward/leeward rainfall",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 21,
+   "q_main": 4,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Climate",
+   "topic": "Jet streams; El Nino",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "jet streams",
+    "El Nino"
+   ],
+   "question": "Write short notes on:\n(a) Jet streams\n(b) El-Nino Effect",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Jet streams are fast-moving, narrow belts of upper-air winds (9-12 km high). The westerly jet stream south of the Himalayas in winter brings western disturbances; its northward shift and the easterly jet over the peninsula in summer cause the sudden burst of the SW monsoon. (b) El Nino is the periodic warming of the eastern Pacific Ocean off Peru (every 2-7 years) which weakens the pressure gradient and the SW monsoon winds, often causing deficient monsoon rainfall/drought in India.",
+   "marking_points": [
+    {
+     "point": "(a) Jet streams - definition and effect on Indian climate",
+     "marks": 1
+    },
+    {
+     "point": "(b) El Nino - warm Pacific current weakens monsoon/drought",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 22,
+   "q_main": 4,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Climate",
+   "topic": "Reasons - climate",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "monsoon onset",
+    "maritime influence",
+    "winter monsoon"
+   ],
+   "question": "Give a reason for each of the following:\n(a) Kerala gets rainfall from the summer monsoons much before Uttar Pradesh.\n(b) Vishakhapatnam records a low annual range of temperature.\n(c) Winds are mostly offshore during the cold season.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Kerala lies at the southern tip of the west coast, the first land the SW monsoon (Arabian Sea branch) strikes around 1 June; the winds take about a month to advance to Uttar Pradesh in the interior. (b) Visakhapatnam is a coastal city; the moderating influence of the sea (land and sea breezes) keeps summers and winters mild, giving an equable climate. (c) In winter, high pressure develops over the cold land (NW India) and low pressure over the warmer seas, so winds blow from land to sea (NE trade/offshore winds).",
+   "marking_points": [
+    {
+     "point": "(a) Kerala first in path of SW monsoon; reaches UP later",
+     "marks": 1
+    },
+    {
+     "point": "(b) Coastal - moderating effect of sea",
+     "marks": 1
+    },
+    {
+     "point": "(c) High pressure over land, low over sea",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(iv)",
+   "q_order": 23,
+   "q_main": 4,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Climate",
+   "topic": "Climate data interpretation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "average temperature",
+    "NE monsoon"
+   ],
+   "question": "Study the climatic data of station X and answer the following questions:\nMonth: Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec\nTemp (°C): 25.0 25.5 26.3 27.1 30.0 36.2 36.0 35.9 30.3 28.4 27.0 24.6\nRainfall (cm): 24.5 23.1 15.0 2.4 0.1 11.0 9.3 7.2 4.0 9.4 14.5 20.4\n(a) Calculate the average temperature of station X for the summer season only.\n(b) Which is the driest month?\n(c) Name the wind that brings maximum rainfall to this station.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Summer (hot weather) season = March to May: (26.3 + 27.1 + 30.0) / 3 = 83.4 / 3 = 27.8°C. (If June is included as the hottest month: (26.3+27.1+30.0+36.2)/4 = 29.9°C.) (b) May (0.1 cm). (c) The North-East monsoon (retreating/winter monsoon) winds - the station gets maximum rain from November to February.",
+   "marking_points": [
+    {
+     "point": "(a) Summer months averaged correctly (27.8°C for Mar-May)",
+     "marks": 1
+    },
+    {
+     "point": "(b) May",
+     "marks": 1
+    },
+    {
+     "point": "(c) North-East (retreating) monsoon",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 24,
+   "q_main": 5,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Soil Resources",
+   "topic": "Khadar vs Bhangar",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "khadar",
+    "bhangar"
+   ],
+   "question": "Pawan and Akash have been friends since childhood. Both of them are farmers in a village near Prayagraj. They often compare their inputs so as to increase their yields. Pawan, whose farm is along the Ganges, gets better yields with lower inputs of fertilizer and irrigation than Akash whose fields are twenty kilometers away.\n(a) Identify the [soil] discussed in the above passage.\n(b) Which one of them is superior to the other? Why?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Alluvial soil - Pawan's farm is on Khadar (new alluvium near the river) and Akash's on Bhangar (old alluvium away from the river). (b) Khadar is superior - it is renewed every year by fresh silt deposited by floods, is fine-textured, rich in nutrients and moist, whereas Bhangar is older, coarser and contains kankar (calcareous nodules).",
+   "marking_points": [
+    {
+     "point": "(a) Alluvial soil - Khadar and Bhangar",
+     "marks": 1
+    },
+    {
+     "point": "(b) Khadar superior with reason",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 25,
+   "q_main": 5,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Soil Resources",
+   "topic": "Population pressure and erosion control",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "soil erosion",
+    "soil conservation"
+   ],
+   "question": "With reference to soil erosion in India, answer the following questions.\n(a) How does population pressure affect soil erosion?\n(b) Mention any two innovative agricultural techniques that can help to prevent soil erosion.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) A growing population needs more land, food, fuel and fodder - leading to deforestation, overgrazing and over-cultivation of marginal and sloping land, which expose the soil to erosion. (b) Contour ploughing and terrace farming (also strip cropping, shelter belts, crop rotation, mulching).",
+   "marking_points": [
+    {
+     "point": "(a) Deforestation/overgrazing/over-cultivation due to demand",
+     "marks": 1
+    },
+    {
+     "point": "(b) Two techniques",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 26,
+   "q_main": 5,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Soil Resources",
+   "topic": "Red soil",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "red soil",
+    "dry farming"
+   ],
+   "question": "With reference to Red Soil, answer the following:\n(a) How is it formed?\n(b) Why is it good for Dry Farming?\n(c) Name any two areas where it is found.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) It is formed by weathering of ancient crystalline and metamorphic rocks (granite, gneiss) under low to moderate rainfall; its red colour is due to iron oxides. (b) It is light, porous and friable, so it does not need much water/irrigation and crops like millets, pulses and groundnut can be grown with little rain. (c) Tamil Nadu and Karnataka (also eastern Andhra Pradesh, Odisha, Chhattisgarh, Jharkhand/Chota Nagpur).",
+   "marking_points": [
+    {
+     "point": "(a) Formation from weathering of crystalline rocks",
+     "marks": 1
+    },
+    {
+     "point": "(b) Light porous soil suits low-water crops",
+     "marks": 1
+    },
+    {
+     "point": "(c) Two areas",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(iv)",
+   "q_order": 27,
+   "q_main": 5,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Soil Resources",
+   "topic": "Reasons - soils",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "black soil",
+    "laterite soil",
+    "alluvial texture"
+   ],
+   "question": "Give a reason for the following statements:\n(a) Black Soil has self-ploughing property.\n(b) Laterite Soil is not suitable for cultivation.\n(c) Alluvial soil has varying texture.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) It swells when wet and shrinks when dry, developing deep cracks through which air enters and the soil turns over by itself. (b) Heavy leaching removes lime, silica and nutrients; it is poor in nitrogen, potash and humus, acidic and hardens on exposure. (c) It is deposited by rivers - coarse sand near the source/foothills, finer silt and clay in the plains and deltas; also new (khadar) and old (bhangar) alluvium differ.",
+   "marking_points": [
+    {
+     "point": "(a) Swelling-shrinking cracks aerate soil",
+     "marks": 1
+    },
+    {
+     "point": "(b) Leached, nutrient-poor, acidic",
+     "marks": 1
+    },
+    {
+     "point": "(c) Deposition of different particle sizes along river course",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 28,
+   "q_main": 6,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Natural Vegetation",
+   "topic": "Mangrove forests",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "mangroves"
+   ],
+   "question": "Mahesh went for an excursion with his friend and came across a marshy area with trees that had stilt like roots.\n(a) Which natural vegetation belt did he come across?\n(b) Name an area in India where this kind of vegetation is found.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Mangrove (tidal/littoral swamp) forests. (b) The Sundarbans in the Ganga-Brahmaputra delta, West Bengal (also Mahanadi, Godavari, Krishna deltas; Andaman and Nicobar Islands).",
+   "marking_points": [
+    {
+     "point": "(a) Mangrove / tidal forest",
+     "marks": 1
+    },
+    {
+     "point": "(b) Area e.g. Sundarbans",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 29,
+   "q_main": 6,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Natural Vegetation",
+   "topic": "Social forestry; desert roots",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "social forestry",
+    "xerophytes"
+   ],
+   "question": "(a) How does Social Forestry help to conserve forests?\n(b) Why are long and deep roots a typical characteristic of desert vegetation?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Social forestry raises trees on community/waste land, along roads, railways and canals to meet local needs of fuel, fodder and timber, reducing pressure on natural forests. (b) Rainfall is scanty and the water table is deep, so plants develop long, deep roots to reach underground water.",
+   "marking_points": [
+    {
+     "point": "(a) Meets local needs, reduces pressure on forests",
+     "marks": 1
+    },
+    {
+     "point": "(b) Reach deep groundwater in dry areas",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 30,
+   "q_main": 6,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Natural Vegetation",
+   "topic": "Forest conservation; agro vs traditional forestry",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "forest conservation",
+    "agro-forestry"
+   ],
+   "question": "Give two reasons why forest conservation is the need of the hour. If given a choice between agro-forestry and traditional forestry, which one will you choose? Why?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Reasons: 1. Forests maintain ecological balance and climate, absorb CO2 and help combat global warming. 2. They prevent soil erosion and floods, support biodiversity and provide livelihoods and raw materials. Choice: Agro-forestry - trees are grown along with crops on farm land, so it gives farmers additional income, fuel, fodder and fruit, improves soil fertility and reduces pressure on natural forests without taking land out of agriculture.",
+   "marking_points": [
+    {
+     "point": "Reason 1",
+     "marks": 1
+    },
+    {
+     "point": "Reason 2",
+     "marks": 1
+    },
+    {
+     "point": "Choice of agro-forestry with justification",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "6(iv)",
+   "q_order": 31,
+   "q_main": 6,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Natural Vegetation",
+   "topic": "Conservation methods",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "JFM",
+    "shifting cultivation",
+    "reafforestation"
+   ],
+   "question": "(a) Name a forest conservation method that involves the local community.\n(b) Which primitive system of agriculture had led to large scale destruction of forest in the past?\n(c) Name the process which involves planting two saplings for each tree that is felled.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Joint Forest Management (JFM) / social (community) forestry. (b) Shifting cultivation (jhumming / slash-and-burn). (c) Reafforestation (reforestation).",
+   "marking_points": [
+    {
+     "point": "(a) Joint Forest Management / social forestry",
+     "marks": 1
+    },
+    {
+     "point": "(b) Shifting cultivation (jhum)",
+     "marks": 1
+    },
+    {
+     "point": "(c) Reafforestation",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 32,
+   "q_main": 7,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Water Resources",
+   "topic": "Need for irrigation and rainfall pattern",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "need for irrigation",
+    "monsoon variability"
+   ],
+   "question": "The need for irrigation in India is to a large extent, influenced by the rainfall pattern of the country. Explain.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1. Rainfall is seasonal - about 75-90% falls in the four monsoon months, so crops in the long dry season (rabi) need irrigation. 2. Rainfall is uneven in distribution and erratic/uncertain - some regions (Rajasthan, Punjab, Deccan interior) get little rain, and the monsoon may arrive late or fail, so irrigation is needed to ensure assured crops.",
+   "marking_points": [
+    {
+     "point": "Seasonal concentration of rainfall",
+     "marks": 1
+    },
+    {
+     "point": "Uneven distribution / erratic, unreliable rainfall",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 33,
+   "q_main": 7,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Water Resources",
+   "topic": "Canal irrigation in Northern Plains",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "canal irrigation"
+   ],
+   "question": "Why is canal irrigation a more suitable method of irrigation in the northern plains of India?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1. The northern plains are flat with soft alluvial soil, so digging canals is easy and cheap. 2. The rivers are perennial (snow-fed from the Himalayas), so canals get water throughout the year.",
+   "marking_points": [
+    {
+     "point": "Flat land, soft soil - easy to dig",
+     "marks": 1
+    },
+    {
+     "point": "Perennial snow-fed rivers",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 34,
+   "q_main": 7,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Water Resources",
+   "topic": "Tube well irrigation",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "tube wells"
+   ],
+   "question": "(a) Name a state in India where tube wells are commonly used.\n(b) Give two geographical conditions that favour tube well irrigation in this state.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Uttar Pradesh (also Punjab, Haryana, Bihar). (b) 1. Soft alluvial soil in which boring is easy. 2. High water table with abundant groundwater recharged by perennial rivers; cheap electricity supply.",
+   "marking_points": [
+    {
+     "point": "(a) State e.g. Uttar Pradesh/Punjab",
+     "marks": 1
+    },
+    {
+     "point": "(b) Two conditions - soft soil, high water table, electricity",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(iv)",
+   "q_order": 35,
+   "q_main": 7,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Water Resources",
+   "topic": "Rooftop rainwater harvesting",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "rainwater harvesting",
+    "traditional water harvesting"
+   ],
+   "question": "Study the picture given below and answer the questions that follow:\n[Diagram: rain falls on the roof of a house (labelled 'Catchment Area'); water flows along a 'Drain Line' and down as 'Runoff' into a 'Storage Tank' which has a tap labelled 'Reuse'.]\n(a) Name the water conservation method shown in the picture.\n(b) Mention any two similar water harvesting practices followed in India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Rooftop rainwater harvesting. (b) Any two traditional practices: tankas/kunds (underground tanks) of Rajasthan, khadins and johads (Rajasthan), bamboo drip irrigation of Meghalaya, kuls/guls of Himachal, eris (tanks) of Tamil Nadu, surangams of Kerala/Karnataka.",
+   "marking_points": [
+    {
+     "point": "(a) Rooftop rainwater harvesting",
+     "marks": 1
+    },
+    {
+     "point": "(b) Two similar practices",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 36,
+   "q_main": 8,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Energy Resources",
+   "topic": "Biogas in rural India",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "biogas"
+   ],
+   "question": "There is ample potential of setting up biogas plants in India. The National Bio-energy Programme has been recommended by the concerned Ministry for implementation in two phases. The spread of biogas technology is a boon for Indian farmers with its direct and guaranteed benefits.\n(a) Why do you think generation of biogas can be achieved in every household of rural India?\n(b) Mention two ways in which generation of this form of energy proves to be a boon for Indian farmers.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Raw materials - cattle dung, crop residue and kitchen waste - are freely and abundantly available in every rural household (India has a huge cattle population), and a small gobar gas plant is simple and cheap to set up. (b) 1. Provides cheap, smokeless fuel for cooking and lighting, saving firewood and cow dung cakes. 2. The slurry left behind is rich organic manure which improves soil fertility and cuts fertiliser costs.",
+   "marking_points": [
+    {
+     "point": "(a) Abundant cattle dung/biomass, cheap simple plant",
+     "marks": 1
+    },
+    {
+     "point": "(b) Cheap clean fuel and manure",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 37,
+   "q_main": 8,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Energy Resources",
+   "topic": "Hirakud dam",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Hirakud dam"
+   ],
+   "question": "With reference to the picture given below, answer the following:\n[Picture: a large dam with many sluice gates, captioned 'HIRAKUD DAM - India's largest dam'.]\n(a) On which river is it based?\n(b) Name an Indian state benefited by the project.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) River Mahanadi. (b) Odisha.",
+   "marking_points": [
+    {
+     "point": "(a) Mahanadi",
+     "marks": 1
+    },
+    {
+     "point": "(b) Odisha",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 38,
+   "q_main": 8,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Mineral Resources",
+   "topic": "Copper and Chota Nagpur",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "copper",
+    "Chota Nagpur industrial region"
+   ],
+   "question": "(a) Why is copper an important household mineral?\n(b) Name two Indian states where copper is found.\n(c) How is distribution of mineral deposits responsible for the concentration of industries in the Chota nagpur Plateau?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Copper is a good conductor of heat and electricity, malleable and ductile - used for electric wiring, utensils and in alloys (brass, bronze) for household items. (b) Rajasthan (Khetri) and Jharkhand (Singhbhum) (also Madhya Pradesh - Malanjkhand). (c) The Chota Nagpur Plateau has rich deposits of coal, iron ore, manganese, limestone, mica and bauxite close to one another; this cheap, easy availability of heavy raw materials attracted iron and steel and heavy engineering industries (Jamshedpur, Bokaro, Durgapur, Ranchi).",
+   "marking_points": [
+    {
+     "point": "(a) Conductor/alloys - household use",
+     "marks": 1
+    },
+    {
+     "point": "(b) Two states",
+     "marks": 1
+    },
+    {
+     "point": "(c) Coal + iron ore etc. close together attract heavy industries",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(iv)",
+   "q_order": 39,
+   "q_main": 8,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Energy Resources",
+   "topic": "Solar energy",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "solar energy"
+   ],
+   "question": "[Picture of solar panels]\n(a) Identify the type of energy being harnessed in the above picture.\n(b) Mention why this form of energy is preferred over fossil fuels.\n(c) Why does India stand at an advantage in the production of this type of energy?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Solar energy. (b) It is renewable and inexhaustible, freely available and non-polluting (no greenhouse gas emission), unlike exhaustible, polluting fossil fuels. (c) India lies largely in the tropics and receives abundant sunshine for about 250-300 days a year, with vast open/desert land (e.g. Rajasthan, Gujarat) for solar parks.",
+   "marking_points": [
+    {
+     "point": "(a) Solar energy",
+     "marks": 1
+    },
+    {
+     "point": "(b) Renewable, non-polluting",
+     "marks": 1
+    },
+    {
+     "point": "(c) Tropical location, sunshine most of the year",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Photograph of rows of solar panels",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_qms/p7.jpg"
+  },
+  {
+   "q_label": "9(i)",
+   "q_order": 40,
+   "q_main": 9,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Agriculture",
+   "topic": "Agricultural reforms",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "agricultural reforms"
+   ],
+   "question": "Mention any two agricultural reforms done by the government for the betterment of the agricultural sector.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1. Land reforms - abolition of zamindari, ceiling on landholdings and consolidation of holdings. 2. Green Revolution (HYV seeds, fertilisers, irrigation); also Kisan Credit Cards, crop insurance (PM Fasal Bima Yojana), Minimum Support Price, PM-KISAN income support.",
+   "marking_points": [
+    {
+     "point": "Reform 1",
+     "marks": 1
+    },
+    {
+     "point": "Reform 2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "9(ii)",
+   "q_order": 41,
+   "q_main": 9,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Agriculture",
+   "topic": "Rabi vs kharif; groundnut",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "cropping seasons",
+    "groundnut"
+   ],
+   "question": "(a) State one point of difference between Rabi and Kharif cropping seasons.\n(b) Name the state that is the leading producer of groundnut in India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Rabi crops are sown at the beginning of winter (Oct-Nov) and harvested in spring (Mar-Apr), e.g. wheat; kharif crops are sown with the onset of the monsoon (June-July) and harvested in Sept-Oct, e.g. rice. (b) Gujarat.",
+   "marking_points": [
+    {
+     "point": "(a) One difference",
+     "marks": 1
+    },
+    {
+     "point": "(b) Gujarat",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "9(iii)",
+   "q_order": 42,
+   "q_main": 9,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Agriculture",
+   "topic": "Coffee cultivation",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "coffee"
+   ],
+   "question": "With reference to cultivation of coffee, answer the following:\n(a) Name a state that leads in the production of coffee in India.\n(b) Give two geographical conditions present in this state that make it the leading producer.\n(c) Other than coffee, name a crop that can also be raised in plantations.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Karnataka. (b) 1. Well-drained hill slopes of the Western Ghats (Kodagu, Chikkamagaluru) at 600-1600 m with rich, humus-laden laterite/red soil. 2. Warm, humid climate (15-28°C) with 150-250 cm well-distributed rainfall and shade trees available. (c) Tea (also rubber).",
+   "marking_points": [
+    {
+     "point": "(a) Karnataka",
+     "marks": 1
+    },
+    {
+     "point": "(b) Two geographical conditions",
+     "marks": 1
+    },
+    {
+     "point": "(c) Tea/rubber",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "9(iv)",
+   "q_order": 43,
+   "q_main": 9,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Agriculture",
+   "topic": "Cotton - ginning",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "cotton",
+    "ginning"
+   ],
+   "question": "Rohan, a farmer, hired some labourers to help him with 'GINNING'.\n(a) Name the crop grown by Rohan.\n(b) Mention any two climatic conditions suitable for this crop.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Cotton (ginning separates cotton fibre/lint from the seeds). (b) 1. High temperature of 21-30°C with at least 210 frost-free days. 2. Moderate rainfall of 50-100 cm, with bright sunny weather during the boll-opening/picking season.",
+   "marking_points": [
+    {
+     "point": "(a) Cotton",
+     "marks": 1
+    },
+    {
+     "point": "(b) Two climatic conditions",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "10(i)",
+   "q_order": 44,
+   "q_main": 10,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Manufacturing Industries",
+   "topic": "Problems of sugar industry",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "sugar industry"
+   ],
+   "question": "Mention two problems faced by sugar industry of India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1. Short crushing season (seasonal nature) - mills remain idle for half the year. 2. Low yield and low sucrose content of cane in north India, high cost of production, obsolete machinery and delayed payments to farmers.",
+   "marking_points": [
+    {
+     "point": "Problem 1",
+     "marks": 1
+    },
+    {
+     "point": "Problem 2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "10(ii)",
+   "q_order": 45,
+   "q_main": 10,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Manufacturing Industries",
+   "topic": "Importance of cotton textile industry",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "cotton textile importance"
+   ],
+   "question": "Explain any two ways in which cotton textile industry is important for the Indian economy.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1. It is one of the largest employers after agriculture, providing jobs to millions in spinning, weaving (handloom, powerloom) and garment making. 2. It earns valuable foreign exchange through export of yarn, fabrics and readymade garments, and supports cotton farmers and allied industries (dyes, chemicals).",
+   "marking_points": [
+    {
+     "point": "Employment",
+     "marks": 1
+    },
+    {
+     "point": "Exports/foreign exchange/linkages",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "10(iii)",
+   "q_order": 46,
+   "q_main": 10,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Manufacturing Industries",
+   "topic": "Petrochemical industry",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "petrochemicals"
+   ],
+   "question": "With reference to the petrochemical industry, answer the following:\n(a) State a reason for the growing popularity of this industry in recent times.\n(b) Why is it located close to oil refineries?\n(c) Name any two petrochemical products.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Petrochemical products (plastics, synthetic fibres, rubber) are cheap, light, durable and versatile and are replacing traditional materials like wood, metal, cotton and jute. (b) Its raw materials (naphtha and other by-products) are obtained from oil refineries, so locating nearby reduces transport cost. (c) Plastics and synthetic fibres (nylon, polyester) - also synthetic rubber, detergents, fertilisers.",
+   "marking_points": [
+    {
+     "point": "(a) Reason for popularity",
+     "marks": 1
+    },
+    {
+     "point": "(b) Raw materials from refineries",
+     "marks": 1
+    },
+    {
+     "point": "(c) Two products",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "10(iv)",
+   "q_order": 47,
+   "q_main": 10,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Manufacturing Industries",
+   "topic": "Reasons - industries",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "electronics",
+    "silk",
+    "mini steel plants"
+   ],
+   "question": "Give one reason to explain each of the following:\n(a) The electronic industry is growing at a fast rate.\n(b) Indian silk produces are becoming less popular in the international market.\n(c) Mini steel plants help in conservation of coal.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Rising demand for mobiles, computers, TVs and digital services, availability of skilled manpower and government support (Digital India, Make in India, PLI schemes). (b) Indian silk faces competition from cheaper, better-finished Chinese/Japanese silk and synthetic fibres; outdated technology and poor quality control. (c) Mini steel plants use electric arc furnaces with scrap iron and sponge iron instead of blast furnaces using coking coal.",
+   "marking_points": [
+    {
+     "point": "(a) Demand/skilled labour/government support",
+     "marks": 1
+    },
+    {
+     "point": "(b) Competition, outdated technology",
+     "marks": 1
+    },
+    {
+     "point": "(c) Electric furnaces, scrap - no coking coal",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "11(i)",
+   "q_order": 48,
+   "q_main": 11,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Transport",
+   "topic": "Railways - long distance",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "railways"
+   ],
+   "question": "Which is the most convenient and cost effective mode of long distance transport in India? Mention two advantages of this mode of transport.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Railways. Advantages: 1. Cheap and convenient for carrying bulky goods (coal, ores, food grains) and large numbers of passengers over long distances. 2. Safe, fuel-efficient and comfortable; they promote national integration, trade and tourism.",
+   "marking_points": [
+    {
+     "point": "Railways",
+     "marks": 1
+    },
+    {
+     "point": "Two advantages",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "11(ii)",
+   "q_order": 49,
+   "q_main": 11,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Transport",
+   "topic": "Golden Quadrilateral",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Golden Quadrilateral"
+   ],
+   "question": "Explain why the Golden Quadrilateral has contributed towards improvement of the Indian economy?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1. It links the four metros - Delhi, Mumbai, Chennai and Kolkata - by 4/6-lane highways, reducing travel time and transport costs of goods. 2. It has promoted trade, industry, agriculture marketing and tourism along the route and generated employment.",
+   "marking_points": [
+    {
+     "point": "Links four metros, faster cheaper movement",
+     "marks": 1
+    },
+    {
+     "point": "Boost to trade, industry, employment",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "11(iii)",
+   "q_order": 50,
+   "q_main": 11,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Transport",
+   "topic": "Roads, air transport, NW-1",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "roads",
+    "air transport",
+    "NW-1"
+   ],
+   "question": "(a) \"Roadways have an edge over railways in India.\" Give reason to support your answer.\n(b) Air transport is fast but not suitable for all regions and purposes in India. Give arguments in favour of the statement.\n(c) Which is the Inland Waterway that connects Prayagraj to Haldia?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Roads provide door-to-door service, are cheaper to build, reach remote hilly and rural areas and are economical for short distances and perishables. (b) Air transport is very expensive, cannot carry heavy/bulky goods, needs costly airports and is affected by bad weather - so it is unsuitable for most people and for bulk cargo. (c) National Waterway No. 1 (Ganga-Bhagirathi-Hooghly).",
+   "marking_points": [
+    {
+     "point": "(a) Reason for roads' advantage",
+     "marks": 1
+    },
+    {
+     "point": "(b) Argument - costly, unsuitable for bulky goods",
+     "marks": 1
+    },
+    {
+     "point": "(c) NW-1",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "11(iv)",
+   "q_order": 51,
+   "q_main": 11,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Transport",
+   "topic": "Reasons - transport",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "UDAN",
+    "railway distribution",
+    "water transport"
+   ],
+   "question": "Give a reason for each of the following:\n(a) At present times, airports are being established even in smaller towns of India.\n(b) Railways are well developed in the northern states of India.\n(c) Water transport is not as popular as land transport.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Under the UDAN regional connectivity scheme, the government aims to make air travel affordable and connect smaller towns to boost tourism, trade and regional development. (b) The Northern Plains are flat with dense population, fertile agriculture and many industrial and urban centres, so building and running railways is easy and profitable. (c) Many rivers are seasonal, shallow, silted and have waterfalls; services are slow, routes are fixed and not door-to-door.",
+   "marking_points": [
+    {
+     "point": "(a) UDAN/regional connectivity",
+     "marks": 1
+    },
+    {
+     "point": "(b) Flat land, dense population, economic activity",
+     "marks": 1
+    },
+    {
+     "point": "(c) Seasonal rivers, slow, limited routes",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "12(i)",
+   "q_order": 52,
+   "q_main": 12,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Waste Management",
+   "topic": "Impact of waste on surface water and landscape",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "water pollution",
+    "landscape spoilage"
+   ],
+   "question": "What is the impact of waste generation on the following?\n(a) Surface water\n(b) Landscape",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Untreated sewage, industrial effluents and garbage dumped in rivers and lakes pollute water, cause eutrophication, kill aquatic life and spread water-borne diseases. (b) Heaps of garbage spoil the beauty of the landscape, give off foul smell, occupy land and make it unfit for use.",
+   "marking_points": [
+    {
+     "point": "(a) Water pollution effects",
+     "marks": 1
+    },
+    {
+     "point": "(b) Spoilage of landscape",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "12(ii)",
+   "q_order": 53,
+   "q_main": 12,
+   "section": "Part II",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Waste Management",
+   "topic": "Open dumping",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "open dumping"
+   ],
+   "question": "Study the picture given below and answer the questions that follow:\n(a) Name the method of waste disposal seen in the picture.\n(b) Why is this method considered a harmful method of waste disposal?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Open dumping (garbage dumped in open land/dumping ground). (b) It breeds flies, mosquitoes and rats which spread diseases; leachate pollutes soil and groundwater; burning or decomposition releases foul smell, smoke and toxic gases like methane, and it spoils the landscape. [Paper prints [3] for this part with only two sub-parts; recorded as 2 marks to keep Q12 at 10.]",
+   "marking_points": [
+    {
+     "point": "(a) Open dumping",
+     "marks": 1
+    },
+    {
+     "point": "(b) Health and pollution hazards",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Photograph of a large heap of garbage at an open dumping ground",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_geography_qms/p9.jpg"
+  },
+  {
+   "q_label": "12(iii)",
+   "q_order": 54,
+   "q_main": 12,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Waste Management",
+   "topic": "Kochi waste plant fire",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "segregation",
+    "3Rs"
+   ],
+   "question": "Fire broke out at the Kochi city waste treatment plant. Thick clouds of toxic smoke engulfed the city. The waste at the plant also contained plastic and biomedical wastes, both of which on combustion are extremely harmful for the general health of people. - Economic Times, 10.03.2023\n(a) Which method of waste management would have helped in reducing health hazards in the above case?\n(b) Mention any one measure you can adopt in schools to reduce waste.\n(c) State one way in which domestic waste can be made useful.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Segregation of waste at source - separating plastic and biomedical waste from other waste so that they are recycled/treated separately (biomedical waste by controlled incineration/autoclaving) and not dumped and burnt together. (b) Use refillable bottles and steel lunch boxes instead of plastic/disposables; place separate dry/wet bins and compost canteen waste. (c) Biodegradable kitchen waste can be composted into manure or used to generate biogas.",
+   "marking_points": [
+    {
+     "point": "(a) Segregation at source / separate treatment",
+     "marks": 1
+    },
+    {
+     "point": "(b) One school measure",
+     "marks": 1
+    },
+    {
+     "point": "(c) Composting/biogas",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "12(iv)",
+   "q_order": 55,
+   "q_main": 12,
+   "section": "Part II",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 5 of 9 questions in Part II",
+   "chapter": "Waste Management",
+   "topic": "Composting",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "composting"
+   ],
+   "question": "(a) What is composting?\n(b) Enumerate two advantages of composting as a method of waste disposal.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Composting is the decomposition of biodegradable organic waste (kitchen waste, leaves, dung) by micro-organisms in pits or heaps to form humus-rich manure (compost). (b) 1. Produces rich organic manure that improves soil fertility and reduces use of chemical fertilisers. 2. Reduces the volume of waste going to landfills; it is cheap and eco-friendly.",
+   "marking_points": [
+    {
+     "point": "(a) Definition",
+     "marks": 1
+    },
+    {
+     "point": "(b) Two advantages",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  }
+ ]
+}

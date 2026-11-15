@@ -1,0 +1,1918 @@
+{
+ "paper_id": "prelim_maths_cathedral",
+ "subject": "maths",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · Cathedral",
+ "source": "prelim",
+ "school": "The Cathedral & John Connon School",
+ "exam_label": "Pre-prelim",
+ "max_marks": 80,
+ "duration_minutes": 180,
+ "reading_minutes": 15,
+ "instructions": "Answers to this paper must be written on the paper provided separately. You will not be allowed to write during the first 15 minutes; this time is to be spent in reading the question paper. The time given at the head of this paper is the time allowed for writing the answers. Attempt all questions from Section A and any four questions from Section B. All working, including rough work, must be clearly shown and must be done on the same sheet as the rest of the answer. Omission of essential working will result in loss of marks. The intended marks for questions or parts of questions are given in brackets [ ]. Mathematical tables are provided. (Pre-Preliminary Examination, December 2025; 11 printed pages.)",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 40,
+   "rule": "Attempt any four questions from this Section.",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 7
+  }
+ ],
+ "has_solutions": true,
+ "notes": [
+  "Q3(a)(iii): the answer key gives sale proceeds as ₹25,200 (240 × ₹90 + ₹3,600 dividend); the shares alone fetch ₹21,600. Both stated in the solution.",
+  "Q3(a)(iv): key computes the change as (6000 − 3600)/19200 × 100 = 12.5%.",
+  "Q3(b)(i): the key writes the count of different scores as a probability 5/6; the question asks for a count, answer 5.",
+  "Q4(a): exact root (−13 − √157)/6 = −4.2550 rounds to −4.25; key gives −4.26 after rounding √157 to 12.53.",
+  "Q4(c): key gives both x = a/3 and x = 3a.",
+  "Q10(b): key reads median 150 cm and Q1 146 cm from the graph; interpolation gives 149.5 and 145.75."
+ ],
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Matrices",
+   "topic": "Equality of matrices",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "equality of matrices"
+   ],
+   "question": "If [x − 2y  5; 3  y] = [6  5; 3  −2] then the value of x is",
+   "options": {
+    "a": "2",
+    "b": "0",
+    "c": "1",
+    "d": "−2"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": [],
+   "solution": "(A) 2. By equality of matrices y = −2 and x − 2y = 6 ⇒ x + 4 = 6 ⇒ x = 2.",
+   "marking_points": [
+    {
+     "point": "(A) 2",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructions",
+   "topic": "Beyond syllabus: incentre, circumcentre and orthocentre of a triangle",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "incentre",
+    "circumcentre",
+    "orthocentre"
+   ],
+   "question": "Consider the following statements regarding the special centers of a triangle:\nStatement I: The Incenter is the only one of the three centers (Incenter, Circumcenter, Orthocenter) that is guaranteed to be strictly in the interior of every possible triangle.\nStatement II: If the Circumcenter of a triangle lies in the exterior of the triangle, then the Orthocenter must also lie in the exterior of the triangle.\nStatement III: A point that is equidistant from the three vertices of a triangle is the center of the inscribed circle (Incircle).",
+   "options": {
+    "a": "Only Statement I is correct",
+    "b": "Only Statement I and II are correct",
+    "c": "Only Statement II and III are correct",
+    "d": "All the statements are correct"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": [],
+   "solution": "(B) Only Statement I and II are correct. The incentre is always inside; a circumcentre outside means the triangle is obtuse, so the orthocentre is also outside; III is false because the point equidistant from the vertices is the circumcentre, not the incentre.",
+   "marking_points": [
+    {
+     "point": "(B) Only Statement I and II are correct",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Ratio and Proportion",
+   "topic": "Fourth/third proportional",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "proportion"
+   ],
+   "question": "The first, second and fourth terms of a proportion are 18, 27 and 63 respectively. The third term is:",
+   "options": {
+    "a": "36",
+    "b": "42",
+    "c": "48",
+    "d": "32"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": [],
+   "solution": "(B) 42. 18 : 27 = x : 63 ⇒ x = 18 × 63 / 27 = 42.",
+   "marking_points": [
+    {
+     "point": "(B) 42",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arithmetic Progression",
+   "topic": "Condition for three terms in A.P.",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "middle term = mean of neighbours"
+   ],
+   "question": "If 2x, x + 10, 3x + 2 are in A.P, then x is equal to",
+   "options": {
+    "a": "0",
+    "b": "2",
+    "c": "4",
+    "d": "6"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": [],
+   "solution": "(D) 6. 2(x + 10) = 2x + 3x + 2 ⇒ 2x + 20 = 5x + 2 ⇒ 3x = 18 ⇒ x = 6.",
+   "marking_points": [
+    {
+     "point": "(D) 6",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Matrices",
+   "topic": "Matrix equation with scalar multiple",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "matrix addition",
+    "scalar multiplication"
+   ],
+   "question": "If B = [−1  5; 0  3] and A − 2B = [0  4; −7  5] then the matrix A is equal to",
+   "options": {
+    "a": "[2  14; −7  11]",
+    "b": "[−2  14; 7  11]",
+    "c": "[2  −14; 7  11]",
+    "d": "[−2  14; −7  11]"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": [],
+   "solution": "(D) [−2  14; −7  11]. A = [0  4; −7  5] + 2B = [0  4; −7  5] + [−2  10; 0  6] = [−2  14; −7  11].",
+   "marking_points": [
+    {
+     "point": "(D) [−2  14; −7  11]",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Equation of a Straight Line",
+   "topic": "Line parallel to y-axis",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "vertical line x = a"
+   ],
+   "question": "Equation of line parallel to y - axis and passing through (−7, 2) is",
+   "options": {
+    "a": "x = 7",
+    "b": "y = −7",
+    "c": "x + 7 = 0",
+    "d": "x = 2"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": [],
+   "solution": "(C) x + 7 = 0. A line parallel to the y-axis has equation x = constant; through (−7, 2) it is x = −7, i.e. x + 7 = 0.",
+   "marking_points": [
+    {
+     "point": "(C) x + 7 = 0",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Quadratic Equations",
+   "topic": "Solving by factorisation (perfect square)",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "perfect square",
+    "equal roots"
+   ],
+   "question": "Roots of the equation 3x² + 2√6x + 2 = 0 are:",
+   "options": {
+    "a": "±√(2/3)",
+    "b": "√(2/3), √(3/2)",
+    "c": "−√(2/3), −√(3/2)",
+    "d": "−√(2/3), −√(2/3)"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": [],
+   "solution": "(D) −√(2/3), −√(2/3). 3x² + 2√6x + 2 = (√3x + √2)² = 0, so x = −√2/√3 = −√(2/3) (repeated root; D = 24 − 24 = 0).",
+   "marking_points": [
+    {
+     "point": "(D) −√(2/3), −√(2/3)",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Similarity",
+   "topic": "Scale factor for volumes of similar solids",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "k³ for volumes"
+   ],
+   "question": "Two similar jugs of cylindrical shape have height of 4 cm and 6 cm respectively. If the capacity of the smaller jug is 48 cm³, then the capacity of the larger jug is",
+   "options": {
+    "a": "100 cm³",
+    "b": "130 cm³",
+    "c": "152 cm³",
+    "d": "162 cm³"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": [],
+   "solution": "(D) 162 cm³. Scale factor k = 6/4 = 3/2; volumes scale as k³, so V = 48 × 27/8 = 162 cm³.",
+   "marking_points": [
+    {
+     "point": "(D) 162 cm³",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Trigonometry",
+   "topic": "Behaviour of trigonometric ratios for acute angles",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "increasing/decreasing trig ratios"
+   ],
+   "question": "P and Q are acute angles such that P > Q. Which of the following is DEFINITELY true?",
+   "options": {
+    "a": "sin P < sin Q",
+    "b": "tan P > tan Q",
+    "c": "cos P > cos Q",
+    "d": "cos P > sin Q"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": [],
+   "solution": "(B) tan P > tan Q. For acute angles sin and tan increase while cos decreases as the angle increases, so tan P > tan Q.",
+   "marking_points": [
+    {
+     "point": "(B) tan P > tan Q",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Probability",
+   "topic": "Tossing a coin three times",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "sample space"
+   ],
+   "question": "If a coin is tossed 3 times, what is the probability of getting same outcome each time?",
+   "options": {
+    "a": "1/2",
+    "b": "1/4",
+    "c": "1/8",
+    "d": "1/16"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": [],
+   "solution": "(B) 1/4. n(S) = 8; favourable outcomes {HHH, TTT} = 2, so P = 2/8 = 1/4.",
+   "marking_points": [
+    {
+     "point": "(B) 1/4",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Circles",
+   "topic": "Tangential quadrilateral (sum of opposite sides)",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "equal tangents",
+    "opposite sides of circumscribed quadrilateral"
+   ],
+   "question": "Sanjana draw the following figure on a board where a circle is inscribed in a quadrilateral. Then she wrote the following relationships.\nI. ZW + WX = XY + YZ\nII. ZY + WX = ZW + YX\nWhich of the above relationships is/are DEFINITELY true?\n(Figure: circle with centre O inscribed in quadrilateral ZYXW — Z top-left, Y top-right, X bottom-right, W bottom-left — touching ZY at R, YX at Q, XW at P and WZ at S.)",
+   "options": {
+    "a": "only I",
+    "b": "only II",
+    "c": "both I and II",
+    "d": "neither I nor II"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": [],
+   "solution": "(B) only II. Tangents from an external point are equal, so for a quadrilateral circumscribing a circle the sums of opposite sides are equal: ZY + WX = ZW + YX. Relation I adds adjacent sides and need not hold.",
+   "marking_points": [
+    {
+     "point": "(B) only II",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arithmetic Progression",
+   "topic": "Identifying an A.P.",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "common difference"
+   ],
+   "question": "4 groups in a class were asked to come up with an arithmetic progression (AP). Shown below are their responses:\nGroup M: 4, 2, 0, −2, ...\nGroup N: 41, 38.5, 36, 33.5, ...\nGroup O: −19, −21, −23, −25, ...\nGroup P: −3, −3, −3, −3, ...\nWhich of these groups correctly came up with an AP?",
+   "options": {
+    "a": "only group M and O",
+    "b": "only group N and O",
+    "c": "only group M, N and O",
+    "d": "all 4 groups M, N, O and P"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": [],
+   "solution": "(D) all 4 groups. Common differences are −2, −2.5, −2 and 0 respectively; a constant sequence is an A.P. with d = 0.",
+   "marking_points": [
+    {
+     "point": "(D) all 4 groups",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Section and Midpoint Formula",
+   "topic": "Midpoint formula with a condition",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "midpoint formula"
+   ],
+   "question": "If (a, b) is the mid-point of the line segment joining the points A(10, −6), B(k, 4) and a − 2b = 18, then the value of k is",
+   "options": {
+    "a": "20",
+    "b": "22",
+    "c": "18",
+    "d": "−20"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": [],
+   "solution": "(B) 22. a = (10 + k)/2, b = (−6 + 4)/2 = −1. a − 2b = 18 ⇒ (10 + k)/2 + 2 = 18 ⇒ 10 + k = 32 ⇒ k = 22.",
+   "marking_points": [
+    {
+     "point": "(B) 22",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Circles",
+   "topic": "Angle at centre is twice the angle at circumference",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "isosceles triangle with radii",
+    "angle at centre"
+   ],
+   "question": "In the given figure, O is the centre of the circle. If ∠OAB = 40°, then what is the value of ∠ACB? (Figure: chord AB, centre O joined to A and B, point C on the major arc joined to A and B.)",
+   "options": {
+    "a": "40°",
+    "b": "80°",
+    "c": "100°",
+    "d": "50°"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": [],
+   "solution": "(D) 50°. OA = OB so ∠OBA = 40°, ∠AOB = 180° − 80° = 100°; ∠ACB = ½∠AOB = 50°.",
+   "marking_points": [
+    {
+     "point": "(D) 50°",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Factor Theorem",
+   "topic": "Remainder theorem",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "remainder theorem"
+   ],
+   "question": "Assertion (A): The value of \"a\" if the division of ax³ + 9x² + 4x − 10 by x + 3 leaves remainder 5 is 2.\nReason (R): If f(x), a polynomial in x, is divided by x − α then f(x) = (x − α) Quotient + remainder. Putting x = α on both sides we obtained, remainder = f(α)",
+   "options": {
+    "a": "Both A and R individually true but R is not the correct explanation of A",
+    "b": "Both A and R individually true but R is the correct explanation of A",
+    "c": "A is false but R is true",
+    "d": "A is true but R is false"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": [],
+   "solution": "(B) Both true and R explains A. f(−3) = −27a + 81 − 12 − 10 = 59 − 27a = 5 ⇒ a = 2, using exactly the remainder theorem stated in R.",
+   "marking_points": [
+    {
+     "point": "(B) Both true and R explains A",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(a)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Circles",
+   "topic": "Angles in a semicircle, angle at centre, cyclic quadrilateral test",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "angle in semicircle",
+    "angle at centre",
+    "converse of cyclic quadrilateral"
+   ],
+   "question": "In the adjoining diagram ∠DOE = 46° and ∠BGH = 113°\ni. Find ∠DBC and ∠DCE\nii. Prove that CBGH is a cyclic quadrilateral.\n(Figure: AB is a diameter of the circle with centre O; D and E lie on the upper semicircle; AD and BE produced meet at C outside the circle; G lies on the lower arc; H lies on CA produced, and HG and GB are joined; ∠DOE = 46°, ∠BGH = 113°.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "i. ∠DBE = ½∠DOE = ½ × 46° = 23° (angle at centre is double the angle at the circumference), so ∠DBC = 23°. ∠ADB = 90° (angle in a semicircle), so ∠BDC = 90°. In △BDC, ∠DCB = 180° − 90° − 23° = 67°, i.e. ∠DCE = 67°. (Equivalently ∠ADB, the exterior angle, = ∠DCB + ∠DBC ⇒ 90° = ∠DCB + 23°.)\nii. ∠HCB = ∠DCB = 67° and ∠HGB = 113°. ∠HCB + ∠HGB = 67° + 113° = 180°. Since a pair of opposite angles of quadrilateral CBGH is supplementary, CBGH is cyclic.",
+   "marking_points": [
+    {
+     "point": "∠DBC = ½∠DOE = 23°",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "∠ADB = 90° (semicircle) ⇒ ∠DCE = 67°",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "∠HCB + ∠HGB = 67° + 113° = 180°",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "opposite angles supplementary ⇒ CBGH cyclic",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Circle with diameter AB and centre O; D, E on the upper arc with ∠DOE = 46°; AD and BE produced meet at C; G on the lower arc with ∠BGH = 113°, H on CA produced.",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_maths_cathedral/p5.jpg"
+  },
+  {
+   "q_label": "2(b)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Trigonometry",
+   "topic": "Trigonometric identity proof",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "sin²A + cos²A = 1"
+   ],
+   "question": "Prove that (sin A − cos A + 1)/(sin A + cos A − 1) = cos A/(1 − sin A)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "LHS = (sin A − cos A + 1)/(sin A + cos A − 1) × (1 − sin A)/(1 − sin A).\nNumerator = (sin A − cos A + 1)(1 − sin A) = sin A − cos A + 1 − sin²A + sin A cos A − sin A = (1 − sin²A) − cos A + sin A cos A = cos²A − cos A + sin A cos A = cos A (cos A − 1 + sin A).\nSo LHS = cos A (sin A + cos A − 1) / [(sin A + cos A − 1)(1 − sin A)] = cos A/(1 − sin A) = RHS. Hence proved.",
+   "marking_points": [
+    {
+     "point": "multiply numerator and denominator by (1 − sin A)",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "expand and use 1 − sin²A = cos²A",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "factor numerator as cos A(sin A + cos A − 1)",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "cancel to get cos A/(1 − sin A)",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(c)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Ratio and Proportion",
+   "topic": "Componendo and dividendo (cubic forms)",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 4,
+   "concepts": [
+    "componendo and dividendo",
+    "(a ± b)³ expansion"
+   ],
+   "question": "Use properties of proportion for the following: If (x³ + 12x)/(6x² + 8) = (y³ + 27y)/(9y² + 27), find x : y.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "By componendo and dividendo: (x³ + 6x² + 12x + 8)/(x³ − 6x² + 12x − 8) = (y³ + 9y² + 27y + 27)/(y³ − 9y² + 27y − 27) ⇒ (x + 2)³/(x − 2)³ = (y + 3)³/(y − 3)³ ⇒ (x + 2)/(x − 2) = (y + 3)/(y − 3).\nApplying componendo and dividendo again: 2x/4 = 2y/6 ⇒ x/2 = y/3 ⇒ x/y = 2/3. Hence x : y = 2 : 3.",
+   "marking_points": [
+    {
+     "point": "apply componendo–dividendo",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "recognise (x+2)³/(x−2)³ = (y+3)³/(y−3)³",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "take cube roots and apply C–D again: 2x/4 = 2y/6",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "x : y = 2 : 3",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(a)",
+   "q_order": 18,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Shares and Dividend",
+   "topic": "Investment, sale and reinvestment in shares",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "market value at discount",
+    "dividend = n × FV × r%",
+    "reinvestment"
+   ],
+   "question": "Mrs. Kulkarni invested ₹19,200 in 15 % ₹100 shares at 20 % discount. After a year she sold these shares at ₹90 each and invested the proceeds (including her dividend) in 20 % ₹50 shares at ₹42. Find:\ni. the dividend for the 1st year\nii. her annual income in the second year\niii. sale proceeds\niv. the percentage change in her return of her original investment.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "M.V. = ₹100 − 20% of ₹100 = ₹80. Number of shares = 19200/80 = 240.\ni. Dividend (1st year) = 240 × 15% × 100 = ₹3,600.\niii. Sale proceeds = 240 × ₹90 = ₹21,600; including the dividend, the amount reinvested = 21600 + 3600 = ₹25,200 (the answer key reports ₹25,200 as the sale proceeds including dividend).\nii. New shares = 25200/42 = 600. Annual income (2nd year) = 600 × 20% × 50 = ₹6,000.\niv. Change in income = 6000 − 3600 = ₹2,400. Percentage change in return on original investment = 2400/19200 × 100 = 12.5% (return rises from 18.75% to 31.25%, an increase of 12.5 percentage points).",
+   "marking_points": [
+    {
+     "point": "240 shares; dividend ₹3,600",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "sale proceeds ₹21,600 (₹25,200 with dividend)",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "600 new shares; income ₹6,000",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "change 2400/19200 × 100 = 12.5%",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(b)",
+   "q_order": 19,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Probability",
+   "topic": "Probability with a non-standard die",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "equally likely outcomes",
+    "repeated face values"
+   ],
+   "question": "A game stall at a funfair uses a special die whose six faces are marked 2, 4, 4, 7, 9, 12.\nA player rolls the die once. The stall owner announces the following rules:\n• If the score is 7 or more, the player wins a silver token.\n• If the score is 4, the player gets another chance to roll.\n• Any other score means no reward.\ni. How many different scores are possible when the die is rolled?\nii. What is the probability that the player gets another chance to roll?\niii. What is the probability that the player wins a silver token?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "n(S) = 6 equally likely faces: {2, 4, 4, 7, 9, 12}.\ni. Different scores possible = {2, 4, 7, 9, 12} = 5. (The answer key writes this as P = 5/6, but the question asks for a count: 5.)\nii. Score 4 appears on 2 faces: P = 2/6 = 1/3.\niii. Score ≥ 7: {7, 9, 12} = 3 faces: P = 3/6 = 1/2.",
+   "marking_points": [
+    {
+     "point": "n(S) = 6; 5 different scores",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "P(another chance) = 2/6 = 1/3",
+     "marks": 1.5,
+     "weight": 1.5
+    },
+    {
+     "point": "P(silver token) = 3/6 = 1/2",
+     "marks": 1.5,
+     "weight": 1.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(c)",
+   "q_order": 20,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "long",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Quadratic Equations",
+   "topic": "Nature of roots — range of k for non-real roots",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "discriminant",
+    "non-real roots"
+   ],
+   "question": "The quadratic equation below is being analyzed by Pratham, Juhi, and Veer:\n(2k − 1)x² − 4kx + (2k + 3) = 0.\nThey are asked to determine a value of the constant k that ensures the equation has non-real roots.\ni. Pratham claims the value is k = −1.\nii. Juhi claims the value is k = 0.75.\niii. Veer claims the value is k = 1.\nWhich student's claim is correct? Justify your answer with proper working.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "a = 2k − 1, b = −4k, c = 2k + 3. For non-real roots, D = b² − 4ac < 0.\nD = 16k² − 4(2k − 1)(2k + 3) = 16k² − 4(4k² + 4k − 3) = −16k + 12.\n−16k + 12 < 0 ⇒ k > 3/4 = 0.75.\nk = −1: D = 28 > 0 (real, distinct roots) — Pratham wrong. k = 0.75: D = 0 (real, equal roots) — Juhi wrong. k = 1: D = −4 < 0 (non-real roots; also a = 1 ≠ 0) — Veer is correct.",
+   "marking_points": [
+    {
+     "point": "identify a, b, c and condition D < 0",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "D = 16k² − 4(2k − 1)(2k + 3)",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "simplify to 12 − 16k < 0 ⇒ k > 0.75",
+     "marks": 2,
+     "weight": 2
+    },
+    {
+     "point": "conclude Veer (k = 1) is correct; others rejected",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(a)",
+   "q_order": 21,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Quadratic Equations",
+   "topic": "Quadratic formula, answer to two decimal places",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "quadratic formula",
+    "rounding"
+   ],
+   "question": "Solve the following quadratic equation 3x² + 13x + 1 = 0 and leave your answer correct up to two decimal places.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "a = 3, b = 13, c = 1. D = 169 − 12 = 157, √157 ≈ 12.530.\nx = (−13 ± √157)/6.\nx = (−13 + 12.530)/6 = −0.470/6 = −0.0783 ≈ −0.08.\nx = (−13 − 12.530)/6 = −25.530/6 = −4.2550 ≈ −4.25 (the answer key, rounding √157 to 12.53 and then 4.255 up, gives −4.26; either is accepted).\nRoots: −0.08 and −4.25.",
+   "marking_points": [
+    {
+     "point": "D = 157",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "x = (−13 ± √157)/6 substituted",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "x ≈ −0.08 and x ≈ −4.25",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(b)",
+   "q_order": 22,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Matrices",
+   "topic": "Matrix multiplication and equality",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "matrix multiplication",
+    "equality of matrices"
+   ],
+   "question": "Solve for x and y: [x + y   x − 4] [−1  −2; 2  2] = [−7  −11]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Multiplying the 1×2 row by the 2×2 matrix: [−(x + y) + 2(x − 4)   −2(x + y) + 2(x − 4)] = [x − y − 8   −2y − 8].\nEquating: −2y − 8 = −11 ⇒ y = 3/2 = 1.5; x − y − 8 = −7 ⇒ x − y = 1 ⇒ x = 2.5.\nx = 2.5, y = 1.5.",
+   "marking_points": [
+    {
+     "point": "correct product [x − y − 8   −2y − 8]",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "equate corresponding elements",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "x = 2.5, y = 1.5",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(c)",
+   "q_order": 23,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Ratio and Proportion",
+   "topic": "Solving using invertendo and componendo–dividendo",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 4,
+   "concepts": [
+    "invertendo",
+    "componendo and dividendo"
+   ],
+   "question": "Solve for x using properties of proportion: 16[(a − x)/(a + x)]³ = (a + x)/(a − x).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "16(a − x)³/(a + x)³ = (a + x)/(a − x) ⇒ (a − x)⁴/(a + x)⁴ = 1/16 ⇒ (invertendo) (a + x)⁴/(a − x)⁴ = 16 ⇒ (a + x)/(a − x) = ±2.\nCase +2: componendo–dividendo ⇒ 2a/2x = 3/1 ⇒ x = a/3.\nCase −2: componendo–dividendo ⇒ 2a/2x = (−2 + 1)/(−2 − 1) = 1/3 ⇒ x = 3a.\nHence x = a/3 or x = 3a.",
+   "marking_points": [
+    {
+     "point": "reduce to [(a + x)/(a − x)]⁴ = 16",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "(a + x)/(a − x) = ±2",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "C–D gives x = a/3",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "x = 3a for the negative root",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "5(a)",
+   "q_order": 24,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Equation of a Straight Line",
+   "topic": "Slope, perpendicular lines, vertical lines",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "slope formula",
+    "m₁m₂ = −1",
+    "vertical line"
+   ],
+   "question": "Aashi, Viyaan, and Tisha are discussing the slope (or gradient) of the line segment connecting two points, A and B, on a coordinate plane. They are given the coordinates of the two points as A(4, −1) and B(x, 7).\n1. Aashi claims the slope of the line is 2.\n2. Viyaan claims the line is perpendicular to the line y = −3x + 5.\n3. Tisha claims that for the line to be vertical, the value of x must be 4.\nAnswer the following questions based on the scenario:\ni. If Aashi's claim is correct, what must be the value of x?\nii. If Viyaan's claim is correct, what must be the value of x?\niii. Is Tisha's claim correct? Explain your reasoning.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Slope of AB = (7 − (−1))/(x − 4) = 8/(x − 4).\ni. 8/(x − 4) = 2 ⇒ x − 4 = 4 ⇒ x = 8.\nii. Slope of y = −3x + 5 is −3; perpendicular slope = 1/3. 8/(x − 4) = 1/3 ⇒ x − 4 = 24 ⇒ x = 28.\niii. Yes. A vertical line (parallel to the y-axis) has all points with the same x-coordinate; A has x = 4, so B must have x = 4 (slope 8/0 is undefined).",
+   "marking_points": [
+    {
+     "point": "x = 8",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "perpendicular slope 1/3 ⇒ x = 28",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "Tisha correct: same x-coordinate, x = 4",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "5(b)",
+   "q_order": 25,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Similarity",
+   "topic": "Similar triangles from intersecting chords",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "angles in same segment",
+    "AA similarity"
+   ],
+   "question": "In the given figure AB = 9 cm, PA = 7.5 cm and PC = 5 cm. Chord AD and BC intersect at P.\ni. Prove that △PAB ∼ △PCD\nii. Find the length of CD.\n(Figure: chords AD and BC of a circle intersect at P inside the circle; AB and CD are joined.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "i. In △PAB and △PCD: ∠PAB = ∠DAB = ∠DCB = ∠PCD (angles in the same segment on chord BD); ∠APB = ∠CPD (vertically opposite angles). Hence △PAB ∼ △PCD (AA).\nii. Corresponding sides are proportional: PA/PC = AB/CD ⇒ 7.5/5 = 9/CD ⇒ CD = 9 × 5/7.5 = 6 cm.",
+   "marking_points": [
+    {
+     "point": "two pairs of equal angles with reasons",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "△PAB ∼ △PCD by AA",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "CD = 6 cm",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Circle with chords AD and BC intersecting at P; AB = 9 cm, PA = 7.5 cm, PC = 5 cm marked; CD joined.",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_maths_cathedral/p7.jpg"
+  },
+  {
+   "q_label": "5(c)",
+   "q_order": 26,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Factor Theorem",
+   "topic": "Remainder theorem with two polynomials",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "remainder theorem"
+   ],
+   "question": "When the polynomial x³ + ax² − 12x + 16 is divided by (x − 2), the remainder is P and when x³ + 2x² − 5ax − 7 is divided by (x − 1), the remainder is Q. Find a if P = −2Q",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "f(x) = x³ + ax² − 12x + 16: P = f(2) = 8 + 4a − 24 + 16 = 4a.\ng(x) = x³ + 2x² − 5ax − 7: Q = g(1) = 1 + 2 − 5a − 7 = −5a − 4.\nP = −2Q ⇒ 4a = 10a + 8 ⇒ −6a = 8 ⇒ a = −4/3.",
+   "marking_points": [
+    {
+     "point": "P = 4a",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "Q = −5a − 4",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "4a = −2(−5a − 4)",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "a = −4/3",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(a)",
+   "q_order": 27,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Mensuration",
+   "topic": "Earth dug from a well spread as an embankment",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "volume of cylinder",
+    "hollow cylinder"
+   ],
+   "question": "A well of inner diameter 8 m, is dug up 14 m deep. The earth taken out of it is spread evenly all round it to width of 3 m to form an embankment. Find the height of this embankment.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Well: r = 4 m, H = 14 m. Embankment: outer radius R = 4 + 3 = 7 m, inner radius r = 4 m.\nVolume of earth = volume of embankment: πr²H = πh(R² − r²) ⇒ 16 × 14 = h(49 − 16) = 33h ⇒ h = 224/33 ≈ 6.79 m.",
+   "marking_points": [
+    {
+     "point": "volume of well πr²H = 224π",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "embankment volume πh(7² − 4²) = 33πh",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "h = 224/33 ≈ 6.79 m",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(b)",
+   "q_order": 28,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Arithmetic Progression",
+   "topic": "Number of terms and middle term",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "nth term",
+    "middle term of odd number of terms"
+   ],
+   "question": "In an AP, the first term is 12 and the common difference is 6. If the last term of the A.P is 252, find its middle term.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "a = 12, d = 6, Tₙ = 252: 12 + (n − 1)6 = 252 ⇒ n − 1 = 40 ⇒ n = 41.\nMiddle term = ((41 + 1)/2)th = 21st term = 12 + 20 × 6 = 132.",
+   "marking_points": [
+    {
+     "point": "n = 41",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "middle term is the 21st",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "T₂₁ = 132",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(c)",
+   "q_order": 29,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "GST",
+   "topic": "GST rates and bill total",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "GST = CGST + SGST",
+    "intra-state bill"
+   ],
+   "question": "Shlok bought the following eatables for his friends\nsr.no | Item | Price (₹) | Quantity | Rate of GST\n1 | Laddus | ₹500 per kg | 2 kg | x %\n2 | Pastries | ₹100 per piece | y pieces | 18 %\nFind:\ni. The value of x if total GST on laddus is ₹50.\nii. The value of y if CGST paid for pastries is ₹108\niii. total amount to be paid (including GST for the above bill)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "i. Cost of laddus = 500 × 2 = ₹1,000. x% of 1000 = 50 ⇒ x = 5.\nii. Cost of pastries = ₹100y; CGST = 9%. 9% of 100y = 9y = 108 ⇒ y = 12.\niii. Pastries cost = ₹1,200, GST = 18% of 1200 = ₹216. Total = 1000 + 50 + 1200 + 216 = ₹2,466.",
+   "marking_points": [
+    {
+     "point": "x = 5",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "CGST = 9% ⇒ y = 12",
+     "marks": 1.5,
+     "weight": 1.5
+    },
+    {
+     "point": "total = ₹2,466",
+     "marks": 1.5,
+     "weight": 1.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "7(a)",
+   "q_order": 30,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Linear Inequations",
+   "topic": "Combined inequation on a number line",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "combined inequation",
+    "real number line"
+   ],
+   "question": "Solve the inequation and represent the solution set on a number line.\n2x − 3 ≥ (1 − x)/3 + x ≥ 4x/3 − 5, x ∈ R.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "First part: 2x − 3 ≥ (1 − x)/3 + x ⇒ 6x − 9 ≥ 1 + 2x ⇒ 4x ≥ 10 ⇒ x ≥ 5/2.\nSecond part: (1 − x)/3 + x ≥ 4x/3 − 5 ⇒ 1 + 2x ≥ 4x − 15 ⇒ 16 ≥ 2x ⇒ x ≤ 8.\nSolution set = {x : 2½ ≤ x ≤ 8, x ∈ R}. On the real number line: a solid (filled) dot at 2.5 and at 8 joined by a thick line.",
+   "marking_points": [
+    {
+     "point": "x ≥ 5/2",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "x ≤ 8",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "solution set 2.5 ≤ x ≤ 8 drawn with closed dots on the number line",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "7(b)",
+   "q_order": 31,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Similarity",
+   "topic": "Similar triangles with parallel lines; ratio of areas",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "AA similarity",
+    "ratio of areas = square of ratio of sides"
+   ],
+   "question": "In △ABC and △EDC, AB ∥ ED. BD = (1/3)BC, and AB = 12.3 cm\ni. Prove that △ABC ∼ △EDC\nii. Find DE\niii. Find (area of △EDC)/(area of △ABC)\n(Figure: triangle ABC with D on BC and E on AC, DE parallel to AB.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "i. In △ABC and △EDC: ∠ABC = ∠EDC (corresponding angles, AB ∥ ED); ∠ACB = ∠ECD (common). So △ABC ∼ △EDC (AA).\nii. Let BD = x, BC = 3x, so DC = 2x. AB/ED = BC/DC ⇒ 12.3/DE = 3x/2x ⇒ DE = 12.3 × 2/3 = 8.2 cm.\niii. area △EDC / area △ABC = (DC/BC)² = (2/3)² = 4/9.",
+   "marking_points": [
+    {
+     "point": "AA similarity with reasons",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "DE = 8.2 cm",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "area ratio 4 : 9",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "7(c)",
+   "q_order": 32,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Quadratic Equations",
+   "topic": "Word problem — seating arrangement",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "forming a quadratic",
+    "rejecting negative root"
+   ],
+   "question": "In an auditorium, seats were arranged in row and columns. The number of rows was equal to the number of seats in each row. When the number of rows was doubled and the number of seats in each row was reduced by 10, the total number of seats increased by 300. Find\ni. the number of rows in the original arrangement.\nii. the number of seats in the auditorium after rearrangement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Let rows = seats per row = x; total = x².\nNew: 2x rows, (x − 10) seats per row ⇒ 2x(x − 10) = x² + 300 ⇒ x² − 20x − 300 = 0 ⇒ (x − 30)(x + 10) = 0 ⇒ x = 30 (x = −10 rejected).\ni. Original rows = 30.\nii. Seats after rearrangement = 60 × 20 = 1,200.",
+   "marking_points": [
+    {
+     "point": "form 2x(x − 10) = x² + 300",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "x² − 20x − 300 = 0 factorised",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "x = 30, reject −10",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "1,200 seats",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "8(a)",
+   "q_order": 33,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Equation of a Straight Line",
+   "topic": "Inclination of lines and angle between them",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "slope = tan θ",
+    "exterior angle of a triangle"
+   ],
+   "question": "The figure below (not drawn to scale) represents the line y = x + 1 and √3x − y = 1. Write down the angles that the line makes with positive direction of the x - axis. Hence determine angle θ.\n(Figure: the two lines intersect in the first quadrant; θ is the acute angle between them at the point of intersection.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "y = x + 1: slope 1 = tan 45°, so inclination 45°.\n√3x − y = 1 ⇒ y = √3x − 1: slope √3 = tan 60°, so inclination 60°.\nIn the triangle formed with the x-axis, the exterior angle 60° = θ + 45° ⇒ θ = 15°.",
+   "marking_points": [
+    {
+     "point": "inclination of y = x + 1 is 45°",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "inclination of √3x − y = 1 is 60°",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "θ = 60° − 45° = 15°",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Axes with lines y = x + 1 and y = √3x − 1 intersecting in the first quadrant; θ marked as the angle between them at the intersection.",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_maths_cathedral/p9.jpg"
+  },
+  {
+   "q_label": "8(b)",
+   "q_order": 34,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "long",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Circles",
+   "topic": "Angle bisectors meeting the circumcircle (angles in same segment)",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 4,
+   "concepts": [
+    "angles in the same segment",
+    "angle bisector",
+    "angle sum property"
+   ],
+   "question": "A triangle ABC is inscribed in a circle. The bisectors of ∠BAC, ∠ABC, and ∠ACB meet the circumcircle of △ABC at points P, Q and R respectively. Prove that\ni. ∠ABC = 2∠APQ\nii. ∠ACB = 2∠APR\niii. ∠QPR = 90° − ½∠BAC",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Let ∠ABC = 2x, ∠ACB = 2z, ∠BAC = 2y; BQ, CR, AP are the bisectors.\ni. ∠APQ = ∠ABQ (angles in the same segment AQ) = x, so ∠ABC = 2x = 2∠APQ.\nii. ∠APR = ∠ACR (angles in the same segment AR) = z, so ∠ACB = 2z = 2∠APR.\niii. ∠QPR = ∠APQ + ∠APR = x + z. In △ABC, 2x + 2z + ∠BAC = 180° ⇒ x + z = 90° − ½∠BAC. Hence ∠QPR = 90° − ½∠BAC.",
+   "marking_points": [
+    {
+     "point": "∠APQ = ∠ABQ = ½∠ABC (same segment)",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "∠APR = ∠ACR = ½∠ACB (same segment)",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "∠QPR = x + z = 90° − ½∠BAC using angle sum",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "8(c)",
+   "q_order": 35,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Reflection",
+   "topic": "Reflection in the y-axis on graph paper",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "reflection in y-axis",
+    "plotting points"
+   ],
+   "question": "Use graph paper for this question. Take 1 cm = 1 unit along both x and y axis.\ni. Plot the following points A(0, 5), B(3, 0), C(1, 0) and D(1, −5)\nii. Reflect the points B, C and D on the y axis and name them as B', C' and D' respectively.\niii. Write down the coordinates of B', C' and D'\niv. Join the points A, B, C, D, D', C', B', A in order and give a name to the closed figure ABCDD'C'B'.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "i. Plot A(0, 5), B(3, 0), C(1, 0), D(1, −5) with scale 1 cm = 1 unit.\nii./iii. Reflection in the y-axis: (x, y) → (−x, y). B'(−3, 0), C'(−1, 0), D'(−1, −5).\niv. Joining A–B–C–D–D'–C'–B'–A gives a 7-sided figure shaped like an arrow pointing upwards: an irregular concave heptagon (arrow).",
+   "marking_points": [
+    {
+     "point": "A, B, C, D plotted correctly",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "B', C', D' plotted",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "B'(−3, 0), C'(−1, 0), D'(−1, −5)",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "figure named: arrow-shaped concave heptagon",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "9(a)",
+   "q_order": 36,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Matrices",
+   "topic": "Finding an unknown matrix from AM = kI",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "order of product",
+    "identity matrix"
+   ],
+   "question": "Given [4  2; −1  1] M = 6I, where M is a matrix and I is a unit matrix of order 2 × 2\ni. State the order of matrix M\nii. Find the matrix M",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "i. A = [4  2; −1  1] is 2×2 and 6I is 2×2, so M is of order 2 × 2.\nii. Let M = [a  b; c  d]. AM = [4a + 2c   4b + 2d; −a + c   −b + d] = [6  0; 0  6].\n−a + c = 0 ⇒ c = a; 4a + 2a = 6 ⇒ a = 1, c = 1.\n4b + 2d = 0 and −b + d = 6 ⇒ d = b + 6 ⇒ 4b + 2b + 12 = 0 ⇒ b = −2, d = 4.\nM = [1  −2; 1  4]. (Check: [4  2; −1  1][1  −2; 1  4] = [6  0; 0  6].)",
+   "marking_points": [
+    {
+     "point": "order 2 × 2",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "set up equations from AM = 6I",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "M = [1  −2; 1  4]",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "9(b)",
+   "q_order": 37,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Mensuration",
+   "topic": "Lead shots dropped into a conical vessel",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "volume of cone",
+    "volume of sphere"
+   ],
+   "question": "A vessel is in the form of an inverted cone. Its height is 11 cm and the radius of its top which is open is 2.5 cm. It is filled with water upto rim. When lead shots, each of which is a sphere of radius 0.25 cm, are dropped into the vessel, 2/5 of the water flows out. Find the number of lead shots dropped in the vessel.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Volume of cone = ⅓π(2.5)²(11). Water overflowing = ⅖ × ⅓π(2.5)²(11).\nVolume of one shot = ⁴⁄₃π(0.25)³.\nn × ⁴⁄₃π(0.25)³ = ⅖ × ⅓π(2.5)² × 11 ⇒ n = (2/5 × 6.25 × 11)/(4 × 0.015625) = 27.5/0.0625 = 440.\nNumber of lead shots = 440.",
+   "marking_points": [
+    {
+     "point": "overflow = ⅖ of cone volume",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "n × volume of one sphere = overflow",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "n = 440",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "9(c)",
+   "q_order": 38,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Circles",
+   "topic": "Tangent–chord (alternate segment) angles",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "alternate segment theorem",
+    "exterior angle",
+    "angles in same segment"
+   ],
+   "question": "In the given figure, QAP is the tangent at a point A and PBD is a straight line. If ∠ACB = 36°, and ∠APB = 42°, find\n(i) ∠BAP  (ii) ∠ABD  (iii) ∠QAD  (iv) ∠BCD\n(Figure: points C, D, A, B on the circle in that order going round; secant PBD from external point P; tangent PAQ at A; chords CA, CB, CD, AB, AD drawn.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "(i) ∠BAP = ∠ACB = 36° (angle between tangent and chord equals angle in the alternate segment).\n(ii) ∠ABD is the exterior angle of △ABP: ∠ABD = ∠BAP + ∠APB = 36° + 42° = 78°.\n(iii) ∠QAD = ∠ACD (alternate segment) and ∠ACD = ∠ABD = 78° (angles in the same segment AD), so ∠QAD = 78°.\n(iv) ∠BCD = ∠ACB + ∠ACD = 36° + 78° = 114°. (Check: ∠BAD = 180° − 36° − 78° = 66°, and ABCD-cyclic gives ∠BCD = 180° − 66° = 114°.)",
+   "marking_points": [
+    {
+     "point": "∠BAP = 36°",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "∠ABD = 78°",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "∠QAD = 78°",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "∠BCD = 114°",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Circle with points C (top), D (upper right), A (bottom) and B (left); tangent PAQ at A, secant PBD; ∠ACB = 36° and ∠APB = 42° marked.",
+   "page": 10,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_maths_cathedral/p10.jpg"
+  },
+  {
+   "q_label": "10(a)",
+   "q_order": 39,
+   "q_main": 10,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Heights and Distances",
+   "topic": "Angle of elevation from eye level",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "angle of elevation",
+    "eye-level adjustment"
+   ],
+   "question": "With reference to the figure, a man stands on the ground at a point A, which is at the same horizontal plane as B, the foot of a vertical pole BC. The height of the pole is 10 m. The man's eye is 2 m above the ground. He observes the angle of elevation at C, the top of the pole as x°, where tan x° = 2/5. Find\ni. the distance AB\nii. the angle of elevation of the top of the pole when he is standing 15 m from the pole. Give your answer to the nearest degree.\n(Figure: AD = 2 m is the man (eye at D), DE horizontal meeting pole BC at E, ABED a rectangle.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "ABED is a rectangle, so BE = AD = 2 m and AB = DE. CE = 10 − 2 = 8 m.\ni. In △DEC, tan x° = CE/DE ⇒ 2/5 = 8/DE ⇒ DE = 20 m. So AB = 20 m.\nii. Now DE = 15 m: tan θ = 8/15 = 0.5333 ⇒ θ ≈ 28°4′ ≈ 28° (nearest degree).",
+   "marking_points": [
+    {
+     "point": "CE = 8 m",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "AB = DE = 20 m",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "tan θ = 8/15",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "θ ≈ 28°",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "10(b)",
+   "q_order": 40,
+   "q_main": 10,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 6.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 7 questions in Section B (Q4–Q10)",
+   "chapter": "Statistics",
+   "topic": "Ogive — median, lower quartile, count above a value",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "cumulative frequency",
+    "ogive",
+    "median and quartile from graph"
+   ],
+   "question": "Use graph paper for this question. A survey regarding height (in cm) of 60 boys belonging to class 10 of a school was conducted. The following data was recorded.\nHeight (in cm): 135-140, 140-145, 145-150, 150-155, 155-160, 160-165, 165-170\nNo. of boys: 4, 8, 20, 14, 7, 6, 1\nTaking 2 cm = height of 10 cm along one axis and 2 cm = 10 boys along the other axis draw an ogive of the above distribution. Use the graph to estimate the following\ni. the median\nii. lower quartile\niii. If above 158 cm is considered as the tall boys of the class. Find the number of boys in the class who are tall.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": [],
+   "solution": "Cumulative frequencies (less than upper boundary): 140→4, 145→12, 150→32, 155→46, 160→53, 165→59, 170→60. Plot (135, 0), (140, 4), (145, 12), (150, 32), (155, 46), (160, 53), (165, 59), (170, 60) with the given scale (a kink on the x-axis since it starts at 135) and join with a smooth free-hand curve.\ni. N = 60; median = (N/2)th = 30th boy. From the graph median ≈ 150 cm (linear interpolation gives 149.5 cm).\nii. Lower quartile = (N/4)th = 15th boy ≈ 146 cm (interpolation 145.75 cm).\niii. At 158 cm the ogive reads ≈ 50 boys, so tall boys ≈ 60 − 50 = 10.",
+   "marking_points": [
+    {
+     "point": "correct cumulative frequency table",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "ogive plotted with correct scale and points",
+     "marks": 2,
+     "weight": 2
+    },
+    {
+     "point": "median ≈ 150 cm",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "Q₁ ≈ 146 cm",
+     "marks": 1,
+     "weight": 1
+    },
+    {
+     "point": "tall boys ≈ 10",
+     "marks": 1,
+     "weight": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  }
+ ]
+}

@@ -96,8 +96,17 @@ export function checkObjective(q, value) {
 }
 
 // ── Choice rules ("attempt any 4 of 6") ─────────────────────────────────────
+// Same rule as api/_boardLib.js: exact name first, so "Part II" never resolves to "Part I".
+export function pickSection(names, target) {
+  if (!target) return undefined;
+  if (names.includes(target)) return target;
+  const cands = names.filter(n => n && (target.startsWith(n) || n.startsWith(target)));
+  return cands.sort((a, b) => Math.abs(a.length - target.length) - Math.abs(b.length - target.length))[0];
+}
+
 export function sectionOf(paper, q) {
-  return (paper.sections || []).find(s => q.section && (q.section.startsWith(s.name) || s.name.startsWith(q.section))) || null;
+  const name = pickSection((paper.sections || []).map(s => s.name), q.section);
+  return (paper.sections || []).find(s => s.name === name) || null;
 }
 
 // Main questions grouped by section, in paper order.
@@ -133,6 +142,15 @@ export function fileToJpegBase64(file, maxSide = 1600, quality = 0.82) {
     img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('Could not open that image')); };
     img.src = url;
   });
+}
+
+// ── Question sources (real board papers vs school prelim papers) ────────────
+export const SOURCE_LABELS = { '': 'Board + prelims', board: 'Board papers', prelim: 'Prelim drill' };
+
+// Caption under a question saying which paper it came from.
+export function paperTag(q) {
+  if (q.source === 'prelim') return `${q.school || 'School'} prelim`;
+  return `${String(q.paper_id || '').replace(/^[a-z_]+?_(\d{4}.*)$/, '$1').toUpperCase()} board paper`;
 }
 
 export const KIND_LABELS = {

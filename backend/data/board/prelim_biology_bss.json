@@ -1,0 +1,2673 @@
+{
+ "paper_id": "prelim_biology_bss",
+ "subject": "biology",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · Bombay Scottish",
+ "source": "prelim",
+ "school": "Bombay Scottish School, Mahim",
+ "exam_label": "Preliminary Assessment",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Answers to be written in the answer booklet provided. Section A is compulsory; attempt any four questions from Section B. For MCQs rewrite the option alphabet along with the complete answer statement. The intended marks are given in brackets [].",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this section",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 40,
+   "rule": "Attempt any four questions from this section",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Safe blood transfusion",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Safe blood transfusion"
+   ],
+   "question": "Which of the following statements is correct with respect to the principle of safe blood transfusion?",
+   "options": {
+    "a": "The donor's red blood corpuscles should not contain antibodies against the recipient's serum.",
+    "b": "The recipient's serum should not contain antigens against the donor's antibodies.",
+    "c": "The recipients serum should not contain the antibodies against the antigens present on red blood corpuscles of the donor",
+    "d": "The recipient's red blood corpuscles should not contain antibodies against the donor's antigen."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) The recipients serum should not contain the antibodies against the antigens present on red blood corpuscles of the donor. If recipient plasma has antibodies against donor RBC antigens, the donor cells agglutinate.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Light adaptation",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Light adaptation"
+   ],
+   "question": "Aruna went to a theatre to watch a movie on a bright sunny morning. As she came out of the theatre, she felt a dazzling effect and could not open her eyes. After a few minutes, her vision became normal. This is due to,",
+   "options": {
+    "a": "Accommodation of the eye",
+    "b": "Mutation",
+    "c": "Polarisation",
+    "d": "Adaptation of the eye"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Adaptation of the eye. Light adaptation: the pupil constricts and rhodopsin bleaches so the eye adjusts to bright light.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Photosynthesis",
+   "topic": "Variegated leaf experiment",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Variegated leaf experiment"
+   ],
+   "question": "Variegated leaf experiment is carried out to test the presence of ____.",
+   "options": {
+    "a": "Fructose",
+    "b": "Chlorophyll",
+    "c": "Water",
+    "d": "Carbon dioxide"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Chlorophyll. A variegated leaf shows that chlorophyll is necessary for photosynthesis (only green parts form starch).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Genetics",
+   "topic": "Monohybrid inheritance - tongue rolling",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "Monohybrid inheritance - tongue rolling"
+   ],
+   "question": "Ajay and Vijay are siblings. Ajay can roll his tongue while Vijay cannot. What is the genotype of their parents?",
+   "options": {
+    "a": "Both the parents are homozygous dominant",
+    "b": "Both the parents are homozygous recessive",
+    "c": "One parent is homozygous dominant, and the other parent is homozygous recessive",
+    "d": "Both the parents are heterozygous dominant."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Both the parents are heterozygous dominant.. A non-roller child (rr) needs an r from each parent, and a roller child shows R is present; of the options, only heterozygous (Rr x Rr) parents can give both.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Lymph",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Lymph"
+   ],
+   "question": "Which of the following statements is/are correct about lymph?\nP- Lymph is colourful as it has haemoglobin but no RBC.\nQ- It contains platelets responsible for clotting.\nR- Lymph is an important carrier for nutrients and hormones.\nS- Fats are absorbed through the lymph in the lacteals present in the intestinal villi.",
+   "options": {
+    "a": "P and R",
+    "b": "R and S",
+    "c": "P only",
+    "d": "S only"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) R and S. Lymph is colourless (no haemoglobin) and lacks platelets; it carries nutrients/hormones and absorbs fats via lacteals.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Human Population",
+   "topic": "Family welfare centres",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Family welfare centres"
+   ],
+   "question": "Statement 1: Family welfare centres have an inverted red triangle sign.\nStatement 2: The centre deals with subsequent care of the children, e.g., immunisation, and oral rehydration therapy to ensure survival of the young ones.",
+   "options": {
+    "a": "Both the statements are true.",
+    "b": "Both the statements are false.",
+    "c": "Statement 1 is true, statement 2 is false",
+    "d": "Statement 1 is false, Statement 2 is true"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both the statements are true.. The inverted red triangle is the family welfare symbol, and these centres also provide child care such as immunisation and ORT.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Grey and white matter arrangement",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "Grey and white matter arrangement"
+   ],
+   "question": "Assertion: The arrangement of white and gray matter is the same in both brain and spinal cord.\nReason: Gray matter consists of cell bodies of neurons.",
+   "options": {
+    "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+    "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+    "c": "Assertion is true, Reason is false.",
+    "d": "Assertion is false, Reason is true"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Assertion is false, Reason is true. In the brain grey matter is outside (cortex) and white matter inside; in the spinal cord it is reversed. So the Assertion is false; the Reason is true.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Number of cells after mitosis",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "Number of cells after mitosis"
+   ],
+   "question": "If you begin with one cell and follow it through four mitotic divisions, then how many daughter cells would be there?",
+   "options": {
+    "a": "12",
+    "b": "4",
+    "c": "8",
+    "d": "16"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 16. Each division doubles the cells: 2^4 = 16.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Genetics",
+   "topic": "Sex-linked recessive expression",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Sex-linked recessive expression"
+   ],
+   "question": "Usually a recessive character is expressed only when present in a homozygous recessive condition. However, a single recessive gene can express itself in human beings when the gene is present on",
+   "options": {
+    "a": "X chromosome of male",
+    "b": "any autosome",
+    "c": "X chromosome of female",
+    "d": "either on autosome or on X chromosome"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) X chromosome of male. Males have a single X (hemizygous), so one recessive X-linked allele is expressed.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Beyond syllabus: Nerve impulse depolarisation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Beyond syllabus: Nerve impulse depolarisation"
+   ],
+   "question": "On stimulation, a nerve fibre which is in resting stage becomes",
+   "options": {
+    "a": "more permeable to Na+",
+    "b": "more permeable to K+",
+    "c": "equally permeable to Na and K+",
+    "d": "less permeable to K+"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) more permeable to Na+. Stimulation opens sodium channels; Na+ rushes in causing depolarisation.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Chemical Coordination in Plants",
+   "topic": "Apical dominance and pruning",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Apical dominance and pruning"
+   ],
+   "question": "In tea plantations and hedge making, gardeners trim the plants regularly so that they remain bushy. Scientific explanation behind this is:",
+   "options": {
+    "a": "removal of apical dominance",
+    "b": "promote growth of lateral buds",
+    "c": "inhibit growth of lateral buds",
+    "d": "both a and b"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) both a and b. Trimming removes the auxin-producing apex (apical dominance), so lateral buds grow and the plant becomes bushy.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Placental exchange",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Placental exchange"
+   ],
+   "question": "A teacher asked the students to give two examples of substances that pass from mother to foetus. Which students have given the correct answer?\nStudent 1- Oxygen and glucose\nStudent 2- Oxygen and urea\nStudent 3- Amino acid and vitamins\nStudent 4- Carbon dioxide and glucose",
+   "options": {
+    "a": "Student 2 and 4",
+    "b": "Student 2 and 3",
+    "c": "Student 1 and 3",
+    "d": "Student 1 and 4"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Student 1 and 3. Oxygen, glucose, amino acids and vitamins pass mother -> foetus; urea and CO2 pass foetus -> mother.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Centromere and centrosome",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "Centromere and centrosome"
+   ],
+   "question": "Assertion: Both centromere and centrosome are parts of a chromosome.\nReason: The centromere is the region where spindle fibres attach, while the centrosome helps in formation of spindle fibres.",
+   "options": {
+    "a": "Assertion is true and Reason is false",
+    "b": "Assertion is false and Reason is true.",
+    "c": "Both Assertion and Reason are true",
+    "d": "Both Assertion and Reason are false."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Assertion is false and Reason is true.. The centrosome is a cytoplasmic organelle (centrioles), not part of a chromosome, so the Assertion is false; the Reason is true.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Sequence of urination",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Sequence of urination"
+   ],
+   "question": "Choose the option which gives the correct sequence of events during urination.\nP- Urinary bladder sends signals to the CNS\nQ- The bladder fills with urine and becomes distended\nR- Micturition\nS- CNS passes on impulses for relaxation of urethral sphincter",
+   "options": {
+    "a": "P-Q-R-S",
+    "b": "S-R-Q-P",
+    "c": "Q-P-S-R",
+    "d": "R-Q-P-S"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Q-P-S-R. The bladder distends, stretch signals go to the CNS, the CNS relaxes the sphincter, then micturition occurs.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Mitosis and cell cycle facts",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Mitosis and cell cycle facts"
+   ],
+   "question": "Read the following statements.\nP- In mitotic cell division chromosome number is halved.\nQ- Nuclear membrane and nucleolus disappear during prophase.\nR- The period between two successive mitotic divisions is known as telophase.\nS- In the G2 phase of the cell cycle, proteins are synthesized.\nWhich of the above given statements are correct?",
+   "options": {
+    "a": "P and R",
+    "b": "Q and R",
+    "c": "P and S",
+    "d": "Q and S"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Q and S. Mitosis keeps the chromosome number constant (P wrong); the period between divisions is interphase (R wrong).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(a)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Karyokinesis",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Karyokinesis"
+   ],
+   "question": "Give the biological term for each of the following: Nuclear changes which occur during cell division.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Give the biological term for each of the following: Nuclear changes which occur during cell division.",
+     "accepted": [
+      "Karyokinesis"
+     ]
+    }
+   ],
+   "solution": "Karyokinesis",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(b)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Reflex arc",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Reflex arc"
+   ],
+   "question": "Give the biological term for each of the following: The shortest route that can be taken by an impulse from a receptor to an effector.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Give the biological term for each of the following: The shortest route that can be taken by an impulse from a receptor to an effector.",
+     "accepted": [
+      "Reflex arc"
+     ]
+    }
+   ],
+   "solution": "Reflex arc",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(c)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Macula lutea",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Macula lutea"
+   ],
+   "question": "Give the biological term for each of the following: Yellow spot.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Give the biological term for each of the following: Yellow spot.",
+     "accepted": [
+      "Macula lutea",
+      "Macula",
+      "Fovea",
+      "Fovea centralis"
+     ]
+    }
+   ],
+   "solution": "Macula lutea",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(d)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Neurilemma",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Neurilemma"
+   ],
+   "question": "Give the biological term for each of the following: Thin sheath which covers myelin sheath.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Give the biological term for each of the following: Thin sheath which covers myelin sheath.",
+     "accepted": [
+      "Neurilemma",
+      "Neurilemma sheath"
+     ]
+    }
+   ],
+   "solution": "Neurilemma",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(e)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Ganglion",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Ganglion"
+   ],
+   "question": "Give the biological term for each of the following: Aggregates of the cytons or cell bodies of nerve cells from which the nerve fibres may arise or enter into.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Give the biological term for each of the following: Aggregates of the cytons or cell bodies of nerve cells from which the nerve fibres may arise or enter into.",
+     "accepted": [
+      "Ganglia",
+      "Ganglion"
+     ]
+    }
+   ],
+   "solution": "Ganglia",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)(a)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Parts of nephron",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Parts of nephron"
+   ],
+   "question": "Choose the odd one out from each of the following sets and identify the category to which the others belong: Loop of Henle, Collecting duct, Papilla, Bowman's capsule",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Odd one out",
+     "accepted": [
+      "Papilla"
+     ]
+    },
+    {
+     "prompt": "Category of the others",
+     "accepted": [
+      "Parts of a nephron (uriniferous tubule)",
+      "nephron",
+      "parts of nephron",
+      "uriniferous tubule"
+     ]
+    }
+   ],
+   "solution": "Odd one out: Papilla. Others: Parts of a nephron (uriniferous tubule).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)(b)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Human Evolution",
+   "topic": "Lamarckism",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Lamarckism"
+   ],
+   "question": "Choose the odd one out from each of the following sets and identify the category to which the others belong: Natural selection, Use and disuse of organs, Acquired characters, Overuse of organs",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Odd one out",
+     "accepted": [
+      "Natural selection"
+     ]
+    },
+    {
+     "prompt": "Category of the others",
+     "accepted": [
+      "Lamarck's theory (Lamarckism)",
+      "Lamarckism",
+      "Lamarck's theory of inheritance of acquired characters"
+     ]
+    }
+   ],
+   "solution": "Odd one out: Natural selection. Others: Lamarck's theory (Lamarckism).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)(c)",
+   "q_order": 22,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Blood clotting factors",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Blood clotting factors"
+   ],
+   "question": "Choose the odd one out from each of the following sets and identify the category to which the others belong: Prothrombin, Thrombin, Fibrinogen, Albumin",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Odd one out",
+     "accepted": [
+      "Albumin"
+     ]
+    },
+    {
+     "prompt": "Category of the others",
+     "accepted": [
+      "Proteins/factors involved in blood clotting",
+      "clotting factors",
+      "blood clotting"
+     ]
+    }
+   ],
+   "solution": "Odd one out: Albumin. Others: Proteins/factors involved in blood clotting.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)(d)",
+   "q_order": 23,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Pituitary hormones",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Pituitary hormones"
+   ],
+   "question": "Choose the odd one out from each of the following sets and identify the category to which the others belong: ADH, TSH, NADPH, ACTH",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Odd one out",
+     "accepted": [
+      "NADPH"
+     ]
+    },
+    {
+     "prompt": "Category of the others",
+     "accepted": [
+      "Pituitary hormones",
+      "hormones",
+      "hormones of pituitary gland"
+     ]
+    }
+   ],
+   "solution": "Odd one out: NADPH. Others: Pituitary hormones.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ii)(e)",
+   "q_order": 24,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Significance of mitosis",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Significance of mitosis"
+   ],
+   "question": "Choose the odd one out from each of the following sets and identify the category to which the others belong: Growth, gamete formation, replacement, repair",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Odd one out",
+     "accepted": [
+      "Gamete formation"
+     ]
+    },
+    {
+     "prompt": "Category of the others",
+     "accepted": [
+      "Significance/functions of mitosis",
+      "mitosis",
+      "functions of mitosis"
+     ]
+    }
+   ],
+   "solution": "Odd one out: Gamete formation. Others: Significance/functions of mitosis.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(iii)(a)",
+   "q_order": 25,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Parts of the eye",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Parts of the eye"
+   ],
+   "question": "Match the descriptions with the correct part labelled in the diagram and name it. E.g.: f) 9 - Nucleus\n(Diagram: L.S. of the human eye with parts numbered 1 to 7.)\na) Carries message to the brain\nb) Focuses the light from the outside world to form a tiny inverted image on part 5\nc) Contains radial and circular muscles to widen and constrict part 2\nd) Sensitive cells of this innermost part send nerve impulses to the brain\ne) Smooth muscles in this part alter the shape of part 4",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Carries message to the brain",
+     "accepted": [
+      "7 - Optic nerve",
+      "Optic nerve",
+      "7"
+     ]
+    }
+   ],
+   "solution": "7 - Optic nerve",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "L.S. of human eye with parts numbered 1-7 (1 cornea, 2 pupil, 3 iris, 4 lens, 5 retina, 6 ciliary body, 7 optic nerve)",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_biology_bss/p5.jpg"
+  },
+  {
+   "q_label": "2(iii)(b)",
+   "q_order": 26,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Parts of the eye",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Parts of the eye"
+   ],
+   "question": "Match the descriptions with the correct part labelled in the diagram and name it. E.g.: f) 9 - Nucleus\n(Diagram: L.S. of the human eye with parts numbered 1 to 7.)\na) Carries message to the brain\nb) Focuses the light from the outside world to form a tiny inverted image on part 5\nc) Contains radial and circular muscles to widen and constrict part 2\nd) Sensitive cells of this innermost part send nerve impulses to the brain\ne) Smooth muscles in this part alter the shape of part 4",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Focuses the light to form a tiny inverted image on part 5",
+     "accepted": [
+      "4 - Lens",
+      "Lens",
+      "4"
+     ]
+    }
+   ],
+   "solution": "4 - Lens",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "L.S. of human eye with parts numbered 1-7 (1 cornea, 2 pupil, 3 iris, 4 lens, 5 retina, 6 ciliary body, 7 optic nerve)",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_biology_bss/p5.jpg"
+  },
+  {
+   "q_label": "2(iii)(c)",
+   "q_order": 27,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Parts of the eye",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Parts of the eye"
+   ],
+   "question": "Match the descriptions with the correct part labelled in the diagram and name it. E.g.: f) 9 - Nucleus\n(Diagram: L.S. of the human eye with parts numbered 1 to 7.)\na) Carries message to the brain\nb) Focuses the light from the outside world to form a tiny inverted image on part 5\nc) Contains radial and circular muscles to widen and constrict part 2\nd) Sensitive cells of this innermost part send nerve impulses to the brain\ne) Smooth muscles in this part alter the shape of part 4",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Radial and circular muscles to widen and constrict part 2",
+     "accepted": [
+      "3 - Iris",
+      "Iris",
+      "3"
+     ]
+    }
+   ],
+   "solution": "3 - Iris",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "L.S. of human eye with parts numbered 1-7 (1 cornea, 2 pupil, 3 iris, 4 lens, 5 retina, 6 ciliary body, 7 optic nerve)",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_biology_bss/p5.jpg"
+  },
+  {
+   "q_label": "2(iii)(d)",
+   "q_order": 28,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Parts of the eye",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Parts of the eye"
+   ],
+   "question": "Match the descriptions with the correct part labelled in the diagram and name it. E.g.: f) 9 - Nucleus\n(Diagram: L.S. of the human eye with parts numbered 1 to 7.)\na) Carries message to the brain\nb) Focuses the light from the outside world to form a tiny inverted image on part 5\nc) Contains radial and circular muscles to widen and constrict part 2\nd) Sensitive cells of this innermost part send nerve impulses to the brain\ne) Smooth muscles in this part alter the shape of part 4",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Sensitive cells of this innermost part send impulses to the brain",
+     "accepted": [
+      "5 - Retina",
+      "Retina",
+      "5"
+     ]
+    }
+   ],
+   "solution": "5 - Retina",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "L.S. of human eye with parts numbered 1-7 (1 cornea, 2 pupil, 3 iris, 4 lens, 5 retina, 6 ciliary body, 7 optic nerve)",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_biology_bss/p5.jpg"
+  },
+  {
+   "q_label": "2(iii)(e)",
+   "q_order": 29,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Parts of the eye",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Parts of the eye"
+   ],
+   "question": "Match the descriptions with the correct part labelled in the diagram and name it. E.g.: f) 9 - Nucleus\n(Diagram: L.S. of the human eye with parts numbered 1 to 7.)\na) Carries message to the brain\nb) Focuses the light from the outside world to form a tiny inverted image on part 5\nc) Contains radial and circular muscles to widen and constrict part 2\nd) Sensitive cells of this innermost part send nerve impulses to the brain\ne) Smooth muscles in this part alter the shape of part 4",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Smooth muscles alter the shape of part 4",
+     "accepted": [
+      "6 - Ciliary body",
+      "Ciliary body",
+      "Ciliary muscles",
+      "6"
+     ]
+    }
+   ],
+   "solution": "6 - Ciliary body",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "L.S. of human eye with parts numbered 1-7 (1 cornea, 2 pupil, 3 iris, 4 lens, 5 retina, 6 ciliary body, 7 optic nerve)",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_biology_bss/p5.jpg"
+  },
+  {
+   "q_label": "2(iv)(a)",
+   "q_order": 30,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Development of embryo",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "zygote",
+    "embryo development"
+   ],
+   "question": "Fill in the blanks.\nThe fertilised human egg, called ____(a)____ soon starts dividing into multiple cells. By the time it reaches the uterus, it has already formed a small hollow ball of numerous cells called the ____(b)____. It develops a number of extraembryonic membranes to protect the developing embryo. ____(c)____ is a sac which develops around the embryo even before the formation of the allantois. The ____(d)____ is the intimate connection established between the foetal membrane and uterine wall, which also acts as an endocrine gland. The full term of the development of the embryo in the uterus is called ____(e)____.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The fertilised human egg, called ____",
+     "accepted": [
+      "Zygote"
+     ]
+    }
+   ],
+   "solution": "Zygote",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(iv)(b)",
+   "q_order": 31,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Development of embryo",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "zygote",
+    "embryo development"
+   ],
+   "question": "Fill in the blanks.\nThe fertilised human egg, called ____(a)____ soon starts dividing into multiple cells. By the time it reaches the uterus, it has already formed a small hollow ball of numerous cells called the ____(b)____. It develops a number of extraembryonic membranes to protect the developing embryo. ____(c)____ is a sac which develops around the embryo even before the formation of the allantois. The ____(d)____ is the intimate connection established between the foetal membrane and uterine wall, which also acts as an endocrine gland. The full term of the development of the embryo in the uterus is called ____(e)____.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Small hollow ball of cells called the ____",
+     "accepted": [
+      "Blastocyst",
+      "Blastula"
+     ]
+    }
+   ],
+   "solution": "Blastocyst",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(iv)(c)",
+   "q_order": 32,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Development of embryo",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "zygote",
+    "embryo development"
+   ],
+   "question": "Fill in the blanks.\nThe fertilised human egg, called ____(a)____ soon starts dividing into multiple cells. By the time it reaches the uterus, it has already formed a small hollow ball of numerous cells called the ____(b)____. It develops a number of extraembryonic membranes to protect the developing embryo. ____(c)____ is a sac which develops around the embryo even before the formation of the allantois. The ____(d)____ is the intimate connection established between the foetal membrane and uterine wall, which also acts as an endocrine gland. The full term of the development of the embryo in the uterus is called ____(e)____.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "____ is a sac around the embryo before the allantois",
+     "accepted": [
+      "Amnion",
+      "Amniotic sac"
+     ]
+    }
+   ],
+   "solution": "Amnion",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(iv)(d)",
+   "q_order": 33,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Development of embryo",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "zygote",
+    "embryo development"
+   ],
+   "question": "Fill in the blanks.\nThe fertilised human egg, called ____(a)____ soon starts dividing into multiple cells. By the time it reaches the uterus, it has already formed a small hollow ball of numerous cells called the ____(b)____. It develops a number of extraembryonic membranes to protect the developing embryo. ____(c)____ is a sac which develops around the embryo even before the formation of the allantois. The ____(d)____ is the intimate connection established between the foetal membrane and uterine wall, which also acts as an endocrine gland. The full term of the development of the embryo in the uterus is called ____(e)____.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Connection between foetal membrane and uterine wall, also an endocrine gland",
+     "accepted": [
+      "Placenta"
+     ]
+    }
+   ],
+   "solution": "Placenta",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(iv)(e)",
+   "q_order": 34,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Development of embryo",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "zygote",
+    "embryo development"
+   ],
+   "question": "Fill in the blanks.\nThe fertilised human egg, called ____(a)____ soon starts dividing into multiple cells. By the time it reaches the uterus, it has already formed a small hollow ball of numerous cells called the ____(b)____. It develops a number of extraembryonic membranes to protect the developing embryo. ____(c)____ is a sac which develops around the embryo even before the formation of the allantois. The ____(d)____ is the intimate connection established between the foetal membrane and uterine wall, which also acts as an endocrine gland. The full term of the development of the embryo in the uterus is called ____(e)____.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Full term of development in uterus is called ____",
+     "accepted": [
+      "Gestation",
+      "Gestation period",
+      "Pregnancy"
+     ]
+    }
+   ],
+   "solution": "Gestation",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(v)(a)",
+   "q_order": 35,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Pollution",
+   "topic": "Sewage vs effluents",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Sewage vs effluents"
+   ],
+   "question": "Distinguish between: Sewage and Effluents (Explanation)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sewage: waste water from homes (kitchens, toilets, bathrooms) containing human excreta, detergents and organic matter. Effluents: liquid wastes discharged from industries/factories containing chemicals, heavy metals, etc.",
+   "marking_points": [
+    {
+     "point": "First term correct",
+     "marks": 0.5
+    },
+    {
+     "point": "Second term correct",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(v)(b)",
+   "q_order": 36,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Human Population",
+   "topic": "Natality vs mortality",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Natality vs mortality"
+   ],
+   "question": "Distinguish between: Natality and Mortality (Definition)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Natality: number of live births per 1000 individuals per year. Mortality: number of deaths per 1000 individuals per year.",
+   "marking_points": [
+    {
+     "point": "First term correct",
+     "marks": 0.5
+    },
+    {
+     "point": "Second term correct",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(v)(c)",
+   "q_order": 37,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Human Evolution",
+   "topic": "Posture of Homo habilis vs Homo sapiens sapiens",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Posture of Homo habilis vs Homo sapiens sapiens"
+   ],
+   "question": "Distinguish between: Homo habilis and Homo sapiens sapiens (Posture)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Homo habilis: erect but slightly stooped/semi-erect posture. Homo sapiens sapiens: fully erect posture.",
+   "marking_points": [
+    {
+     "point": "First term correct",
+     "marks": 0.5
+    },
+    {
+     "point": "Second term correct",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(v)(d)",
+   "q_order": 38,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Active transport vs osmosis",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Active transport vs osmosis"
+   ],
+   "question": "Distinguish between: Active transport and Osmosis (Significance)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Active transport: enables absorption of mineral ions by root hairs against the concentration gradient (using energy/ATP). Osmosis: enables absorption of water by root hairs from the soil and maintains cell turgidity.",
+   "marking_points": [
+    {
+     "point": "First term correct",
+     "marks": 0.5
+    },
+    {
+     "point": "Second term correct",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(v)(e)",
+   "q_order": 39,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Heart sounds",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Heart sounds"
+   ],
+   "question": "Distinguish between: Lubb and Dup (Cause of sound)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Lubb: caused by the closure of the atrioventricular (tricuspid and bicuspid) valves at the start of ventricular systole. Dup: caused by the closure of the semilunar valves at the start of ventricular diastole.",
+   "marking_points": [
+    {
+     "point": "First term correct",
+     "marks": 0.5
+    },
+    {
+     "point": "Second term correct",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 40,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Vehicular emission standards",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Vehicular emission standards"
+   ],
+   "question": "What is the significance of vehicular emission standards?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Emission standards (e.g. Bharat Stage norms) set legal limits on pollutants (CO, NOx, hydrocarbons, particulates) released by vehicles, thereby reducing air pollution and protecting health.",
+   "marking_points": [
+    {
+     "point": "Limit pollutants from vehicles to reduce air pollution",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 41,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Excretory System",
+   "topic": "Diuretics and ADH",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Diuretics and ADH"
+   ],
+   "question": "Lee, an athlete, was told that diuretics are banned in all sports by the World Anti-Doping Agency (WADA). What are diuretics? Which hormone in our body controls diuresis?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Diuretics are substances (drugs, also tea/coffee/alcohol) that increase the volume of urine produced. Diuresis is controlled by the antidiuretic hormone (ADH / vasopressin) secreted by the posterior pituitary.",
+   "marking_points": [
+    {
+     "point": "Diuretics increase urine output",
+     "marks": 1
+    },
+    {
+     "point": "ADH / vasopressin",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 42,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Reproductive System",
+   "topic": "Female reproductive tract",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Female reproductive tract"
+   ],
+   "question": "Draw a neat diagram of the human female reproductive tract. Label the following parts:\na) Muscular contractions of this part push the egg down into the uterus\nb) The part which produces ova.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Draw the front view of the female reproductive system: two ovaries, oviducts (Fallopian tubes) with fimbriated funnels, uterus, cervix and vagina. Label: (a) Fallopian tube (oviduct); (b) Ovary.",
+   "marking_points": [
+    {
+     "point": "Correct neat diagram",
+     "marks": 1
+    },
+    {
+     "point": "Labels: (a) Fallopian tube, (b) Ovary",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 43,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Chemical Coordination in Plants",
+   "topic": "Hydrotropism",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Hydrotropism"
+   ],
+   "question": "A moisture gradient was created in soil by watering only one side of a pot. After a few days, roots grow towards the wet side, even against gravity.\na) Which tropic response is observed here?\nb) Define tropism.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Positive hydrotropism. (b) Tropism is the directional growth movement of a plant part in response to an external stimulus coming from a particular direction.",
+   "marking_points": [
+    {
+     "point": "(a) Hydrotropism (positive)",
+     "marks": 1
+    },
+    {
+     "point": "(b) Definition of tropism",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "3(v)",
+   "q_order": 44,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Photosynthesis",
+   "topic": "CO2 necessary for photosynthesis (Moll's experiment)",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "CO2 necessary for photosynthesis (Moll's experiment)"
+   ],
+   "question": "An experiment was set up as shown in the figure below. (Figure: a potted destarched plant in sunlight; Leaf 1 is enclosed in a bottle/flask A containing KOH, held by a split cork; Leaf 2 is outside on the same plant.)\na) What is the aim of the experiment?\nb) The set up has been exposed to sunlight for two days. What will be the observation, if you perform an iodine test on Leaf 1 and 2? Why?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) To show that carbon dioxide is necessary for photosynthesis (Moll's half-leaf type experiment). (b) Leaf 1 (inside the flask) does not turn blue-black - no starch, because KOH absorbs CO2 so no photosynthesis occurs. Leaf 2 (outside) turns blue-black - starch present, because it received CO2 and carried out photosynthesis.",
+   "marking_points": [
+    {
+     "point": "(a) Aim: CO2 necessary for photosynthesis",
+     "marks": 1
+    },
+    {
+     "point": "(b) Leaf 1 no blue-black, KOH absorbs CO2",
+     "marks": 1
+    },
+    {
+     "point": "Leaf 2 blue-black, starch formed",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 45,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "CNG",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "CNG"
+   ],
+   "question": "Expand biological abbreviation: CNG",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "CNG: Compressed Natural Gas.",
+   "marking_points": [
+    {
+     "point": "Compressed Natural Gas",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 46,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Absorption by Roots",
+   "topic": "Plasmolysis",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Plasmolysis"
+   ],
+   "question": "Explain the term plasmolysis. Give one application of this phenomenon in our daily lives.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Plasmolysis: shrinkage of the protoplasm of a plant cell away from the cell wall due to loss of water by exosmosis when placed in a hypertonic solution. Application: salting of pickles / sugaring of jams preserves food (microbes get plasmolysed); or killing weeds by salting; or salt sprinkled on leeches/snails.",
+   "marking_points": [
+    {
+     "point": "Definition",
+     "marks": 1
+    },
+    {
+     "point": "Daily-life application",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 47,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Genetics",
+   "topic": "Colour blindness cross",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "Colour blindness cross"
+   ],
+   "question": "Draw a Punnet square to find out the progeny of a marriage between a colourblind man and a carrier woman.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Colourblind man: XcY; carrier woman: XXc.\nGametes - man: Xc, Y; woman: X, Xc.\nPunnet square: X x Xc = XXc (carrier daughter); Xc x Xc = XcXc (colourblind daughter); X x Y = XY (normal son); Xc x Y = XcY (colourblind son).\nResult: 25% carrier daughters, 25% colourblind daughters, 25% normal sons, 25% colourblind sons (50% of daughters and 50% of sons colourblind).",
+   "marking_points": [
+    {
+     "point": "Correct parental genotypes and gametes",
+     "marks": 0.5
+    },
+    {
+     "point": "Correct Punnet square",
+     "marks": 1
+    },
+    {
+     "point": "Correct phenotypes of progeny",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(iv)",
+   "q_order": 48,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Human Evolution",
+   "topic": "Cro-Magnon features",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Cro-Magnon features"
+   ],
+   "question": "Jack is in a museum where remains of human ancestors are displayed. However the name tags are missing. Give any 2 features that will help him identify Cro Magnon man.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: about 1.8 m tall with fully erect posture; cranial capacity about 1600 cc; prominent chin, broad face and high, vertical forehead; no supraorbital (eyebrow) ridges; reduced jaws and teeth.",
+   "marking_points": [
+    {
+     "point": "Feature 1",
+     "marks": 1
+    },
+    {
+     "point": "Feature 2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "4(v)",
+   "q_order": 49,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Transpiration",
+   "topic": "Leaf V.S. - stomata",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Leaf V.S. - stomata"
+   ],
+   "question": "The figure represents a vertical section of the leaf.\na) Name X and Z.\nb) State the function of X.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) X - Stoma (with guard cells) in the lower epidermis; Z - Upper epidermis. (b) Stomata allow exchange of gases (CO2 in, O2 out) and loss of water vapour during transpiration.",
+   "marking_points": [
+    {
+     "point": "X - Stoma",
+     "marks": 1
+    },
+    {
+     "point": "Z - Upper epidermis",
+     "marks": 1
+    },
+    {
+     "point": "Function of stoma",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "V.S. of a dicot leaf; X points to a stoma in the lower epidermis, Z to the upper epidermis",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_biology_bss/p6.jpg"
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 50,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Thrombokinase",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Thrombokinase"
+   ],
+   "question": "What is the function of thrombokinase?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Thrombokinase (thromboplastin), released by injured tissues and platelets, converts prothrombin into thrombin in the presence of calcium ions.",
+   "marking_points": [
+    {
+     "point": "Converts prothrombin to thrombin (with Ca2+)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 51,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Balance - semicircular canals and vestibule",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Balance - semicircular canals and vestibule"
+   ],
+   "question": "Kathak is an Indian classical dance which involves a lot of spinning by the dancers. After the spins, the dancers usually feel dizzy. Name the parts in the ear responsible for dynamic equilibrium and static balance.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Dynamic equilibrium: semicircular canals (ampullae). Static balance: vestibule (utriculus and sacculus).",
+   "marking_points": [
+    {
+     "point": "Dynamic - semicircular canals",
+     "marks": 1
+    },
+    {
+     "point": "Static - vestibule (utricle/saccule)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 52,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Protective functions of blood",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Protective functions of blood"
+   ],
+   "question": "Give any two protective functions of the blood.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: WBCs (neutrophils, monocytes) engulf germs by phagocytosis; lymphocytes produce antibodies; clotting prevents blood loss and entry of germs at wounds; antitoxins neutralise toxins.",
+   "marking_points": [
+    {
+     "point": "Function 1",
+     "marks": 1
+    },
+    {
+     "point": "Function 2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "5(iv)",
+   "q_order": 53,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Rods and rhodopsin",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Rods and rhodopsin"
+   ],
+   "question": "Owls are nocturnal animals. They are active at night and hunt small animals with precision. They have large eyes and can see well at night. They have photoreceptor cells similar to humans which enable dim light vision. Name the photoreceptor cell and the pigment it contains, which aids them in night vision.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Rod cells; pigment rhodopsin (visual purple).",
+   "marking_points": [
+    {
+     "point": "Rods",
+     "marks": 1
+    },
+    {
+     "point": "Rhodopsin",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "5(v)",
+   "q_order": 54,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "long",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Sustainable development and 3Rs",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Sustainable development and 3Rs"
+   ],
+   "question": "As an informed citizen of the new era, how will you explain sustainable development? Elaborate on the 3R's in the context of sustainable development.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sustainable development is development that meets the needs of the present generation without compromising the ability of future generations to meet their own needs. 3Rs: Reduce - cut down consumption and waste (e.g. save water/electricity, avoid plastics). Reuse - use items again (e.g. glass jars, cloth bags). Recycle - reprocess waste into new products (e.g. paper, plastic, metal recycling), conserving resources and reducing pollution.",
+   "marking_points": [
+    {
+     "point": "Definition of sustainable development",
+     "marks": 1
+    },
+    {
+     "point": "Reduce and Reuse explained",
+     "marks": 1
+    },
+    {
+     "point": "Recycle explained",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 55,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Chemical Coordination in Plants",
+   "topic": "Commercial use of gibberellins",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Commercial use of gibberellins"
+   ],
+   "question": "How are gibberellins used commercially?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any one: to increase the size of fruits like grapes and produce seedless fruits (parthenocarpy); to increase stem length of sugarcane (more yield); to break seed dormancy / promote malting in brewing.",
+   "marking_points": [
+    {
+     "point": "Any one valid commercial use",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 56,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Excretory System",
+   "topic": "Human excretory system",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Human excretory system"
+   ],
+   "question": "Draw a neat labelled diagram of the human excretory system.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Draw the pair of bean-shaped kidneys with renal artery and renal vein, ureters running down to the urinary bladder, and the urethra; also dorsal aorta and vena cava. Labels: kidney, ureter, urinary bladder, urethra, renal artery, renal vein.",
+   "marking_points": [
+    {
+     "point": "Correct neat diagram",
+     "marks": 1
+    },
+    {
+     "point": "At least four correct labels",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 57,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Industrial air pollutants and health",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Industrial air pollutants and health"
+   ],
+   "question": "As of January 2026, many urban residents monitor the Air Quality Index (AQI) daily to manage their health.\na) Name any two gaseous pollutants produced due to extensive industrialization.\nb) Identify two long-term health risks associated with this proximity.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Any two: sulphur dioxide, nitrogen oxides, carbon monoxide, carbon dioxide (also hydrocarbons). (b) Any two: chronic respiratory diseases such as asthma, bronchitis; lung cancer; cardiovascular (heart) diseases; eye irritation.",
+   "marking_points": [
+    {
+     "point": "(a) two gaseous pollutants",
+     "marks": 1
+    },
+    {
+     "point": "(b) two long-term health risks",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(iv)",
+   "q_order": 58,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Genetics",
+   "topic": "Monohybrid cross - law of dominance",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Monohybrid cross - law of dominance"
+   ],
+   "question": "A dog breeder crossed a purebred black coated labrador(BB) with a chocolate coated labrador(bb). All the puppies were black coated. The breeder then crossed two of these F1 puppies and observed that some F2 puppies were chocolate coated.\na) Which law of Mendel is illustrated when all the F1 offspring are black?\nb) What is the expected phenotypic ratio in the F2 generation?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Law of dominance. (b) Bb x Bb gives 3 black : 1 chocolate.",
+   "marking_points": [
+    {
+     "point": "(a) Law of dominance",
+     "marks": 1
+    },
+    {
+     "point": "(b) 3 black : 1 chocolate",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "6(v)",
+   "q_order": 59,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Transpiration",
+   "topic": "Guttation",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Guttation"
+   ],
+   "question": "Observe the image given and answer the following questions.\na) Name the process.\nb) Why does this process take place in certain plants?\nc) Give 2 examples of plants wherein this process is commonly observed.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Guttation. (b) When root pressure is high and transpiration is low (humid nights/early morning with moist soil), excess water is forced out as droplets through hydathodes at the leaf margins. (c) Any two: grass, tomato, Colocasia (arum), Nasturtium, garden balsam.",
+   "marking_points": [
+    {
+     "point": "(a) Guttation",
+     "marks": 1
+    },
+    {
+     "point": "(b) High root pressure + low transpiration, through hydathodes",
+     "marks": 1
+    },
+    {
+     "point": "(c) Two examples",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "photograph of a leaf with water droplets along its margins",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_biology_bss/p7.jpg"
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 60,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Absorption by Roots",
+   "topic": "Exosmosis in hypertonic solution",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Exosmosis in hypertonic solution"
+   ],
+   "question": "Rewrite the correct statement.\nFreshwater fish when placed in hypertonic salt solution absorb water and burst.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Freshwater fish when placed in hypertonic salt solution lose water (by exosmosis) and shrink/die.",
+   "marking_points": [
+    {
+     "point": "Lose water by exosmosis and shrink",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 61,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Swachh Bharat Abhiyan",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "Swachh Bharat Abhiyan"
+   ],
+   "question": "A cleanliness campaign was launched by the Government of India on 2nd October 2014, with certain goals in mind.\na) Name the programme.\nb) Mention any two objectives curated by the Government which could lead us to achieve those goals.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Swachh Bharat Abhiyan (Clean India Mission). (b) Any two: eliminate open defecation by building toilets; scientific solid waste management; clean streets, roads and public places; create awareness about sanitation and hygiene.",
+   "marking_points": [
+    {
+     "point": "(a) Swachh Bharat Abhiyan",
+     "marks": 1
+    },
+    {
+     "point": "(b) two objectives",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 62,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Reproductive System",
+   "topic": "Fate of corpus luteum",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Fate of corpus luteum"
+   ],
+   "question": "Explain the fate of corpus luteum under each of the following situations\na) On fertilization\nb) In case of no fertilization",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) It persists and keeps secreting progesterone, maintaining the uterine lining for pregnancy (until the placenta takes over). (b) It degenerates (into corpus albicans); progesterone falls and menstruation follows.",
+   "marking_points": [
+    {
+     "point": "(a) persists, secretes progesterone",
+     "marks": 1
+    },
+    {
+     "point": "(b) degenerates, menstruation",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "7(iv)",
+   "q_order": 63,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Excretory System",
+   "topic": "Albuminuria",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Albuminuria"
+   ],
+   "question": "When is albumin passed out in the urine? Name this condition.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Albumin appears in urine when the glomeruli are damaged/inflamed (kidney disease, high blood pressure) so plasma proteins leak through. The condition is called albuminuria.",
+   "marking_points": [
+    {
+     "point": "When glomerular filtration membrane is damaged",
+     "marks": 1
+    },
+    {
+     "point": "Albuminuria",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "7(v)",
+   "q_order": 64,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Parts of brain",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Parts of brain"
+   ],
+   "question": "Given below is a sectional view of the human brain. Study the figure and answer the following questions.\na) Name the part labelled as p and q.\nb) Give the function of the part labelled s.\nc) What is the functional relation between parts labelled p and q?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) p - Cerebrum; q - Corpus callosum. (b) s - Pons: relays impulses between the medulla/cerebellum and cerebrum and helps regulate breathing. (c) The corpus callosum connects the two cerebral hemispheres and transfers information between them so they work in coordination.",
+   "marking_points": [
+    {
+     "point": "(a) p cerebrum, q corpus callosum",
+     "marks": 1
+    },
+    {
+     "point": "(b) function of pons",
+     "marks": 1
+    },
+    {
+     "point": "(c) corpus callosum links the two hemispheres",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "median section of human brain; p on cerebrum, q on corpus callosum, s on pons",
+   "page": 8,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_biology_bss/p8.jpg"
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 65,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Chemical Coordination in Plants",
+   "topic": "Parthenocarpy",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Parthenocarpy"
+   ],
+   "question": "What is parthenocarpy?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Parthenocarpy is the development of fruit without fertilisation, giving seedless fruits (e.g. induced by gibberellins/auxins).",
+   "marking_points": [
+    {
+     "point": "Fruit formation without fertilisation (seedless)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 66,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Absorption by Roots",
+   "topic": "Beyond syllabus: Girdling and phloem translocation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "Beyond syllabus: Girdling and phloem translocation"
+   ],
+   "question": "The figure below represents a tree in which a ring of bark was removed. After a few weeks, a swelling appeared on the bark above the ring while the bark below shrivelled up.\na) Give a reason for the swelling in the bark above the ring.\nb) Why is there a shrinkage of the bark below the ring?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Removing the ring of bark removes the phloem; food made in the leaves moving downward through phloem accumulates above the ring, causing swelling. (b) Food cannot reach the tissues below the ring, so they are starved and shrivel.",
+   "marking_points": [
+    {
+     "point": "(a) Phloem removed, food accumulates above",
+     "marks": 1
+    },
+    {
+     "point": "(b) No food reaches below",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 67,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Endocrine System",
+   "topic": "Pituitary gland",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Pituitary gland"
+   ],
+   "question": "Draw a neat labelled diagram of the pituitary gland.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Draw the pea-sized pituitary attached by the infundibulum (stalk) to the hypothalamus, showing anterior lobe (adenohypophysis), intermediate lobe and posterior lobe (neurohypophysis). Labels: hypothalamus, infundibulum, anterior lobe, posterior lobe.",
+   "marking_points": [
+    {
+     "point": "Correct neat diagram",
+     "marks": 1
+    },
+    {
+     "point": "Correct labels",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "8(iv)",
+   "q_order": 68,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Pollution",
+   "topic": "Ozone depletion",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Ozone depletion"
+   ],
+   "question": "Oscar is collecting information related to the ozone layer. Help him with the cause and the process which leads to breakdown of the ozone layer.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Cause: chlorofluorocarbons (CFCs) used in refrigerators, ACs and aerosols (also halons, NOx). Process: in the stratosphere UV rays break CFCs releasing free chlorine atoms; each Cl atom reacts with ozone (Cl + O3 -> ClO + O2) and is regenerated, destroying thousands of ozone molecules, thinning the ozone layer.",
+   "marking_points": [
+    {
+     "point": "Cause: CFCs",
+     "marks": 1
+    },
+    {
+     "point": "Process: UV releases Cl which breaks O3 to O2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "8(v)",
+   "q_order": 69,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "The Circulatory System",
+   "topic": "Blood pressure",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Blood pressure"
+   ],
+   "question": "Liza visited the doctor for a complete health checkup. After the checkup, following readings were displayed for her on the sphygmomanometer: 120/80.\na) What does this reading represent? Elaborate.\nb) What do the numbers 120 and 80 indicate? At what point in the cycle of the heart beat do we get these readings?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) It is her blood pressure - the pressure exerted by blood on the walls of the arteries, measured in mm Hg; 120/80 is normal BP. (b) 120 mm Hg is the systolic pressure - recorded during ventricular systole (contraction). 80 mm Hg is the diastolic pressure - recorded during ventricular diastole (relaxation).",
+   "marking_points": [
+    {
+     "point": "(a) blood pressure on arterial walls (normal)",
+     "marks": 1
+    },
+    {
+     "point": "(b) 120 systolic - during ventricular contraction",
+     "marks": 1
+    },
+    {
+     "point": "80 diastolic - during ventricular relaxation",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  }
+ ]
+}

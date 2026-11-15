@@ -1,0 +1,1895 @@
+{
+ "paper_id": "prelim_physics_euro",
+ "subject": "physics",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · EuroSchool Thane",
+ "source": "prelim",
+ "school": "EuroSchool, Thane",
+ "exam_label": "Preliminary Examination 1, 2025-26",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Answers to be written on separate paper. First 15 minutes for reading. Section A is compulsory. Attempt any four questions from Section B. Intended marks are given in brackets [ ].",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 40,
+   "rule": "Attempt any four questions from this Section.",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Centre of gravity of a solid cone",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "centre of gravity of a solid cone"
+   ],
+   "question": "Where is the centre of gravity of a solid cone of height 12 cm located?",
+   "options": {
+    "a": "At 3 cm from the base, on its axis",
+    "b": "At 4 cm from the base, on its axis",
+    "c": "At 6 cm from the base, on its axis",
+    "d": "At 8 cm from the base, on its axis"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) At 3 cm from the base, on its axis. C.G. of a solid cone is at h/4 = 12/4 = 3 cm from the base on its axis.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Negative work by fielder (assertion-reason)",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "negative work by fielder (assertion-reason)"
+   ],
+   "question": "Assertion (A): The work done by a fielder when he takes a catch in a cricket match is positive.\nReason (R): The fielder applies force in a direction opposite to the direction of displacement of the ball.",
+   "options": {
+    "a": "Both A and R are true and R is the correct explanation of A",
+    "b": "Both A and R are true but R is not the correct explanation of A",
+    "c": "A is true but R is false",
+    "d": "A is false but R is true"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) A is false but R is true. The force applied by the fielder is opposite to the displacement of the ball (R true), so the work done is negative, not positive (A false).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Class II lever as force multiplier",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "class ii lever as force multiplier"
+   ],
+   "question": "Which of the following levers always acts as a force multiplier?",
+   "options": {
+    "a": "A see-saw",
+    "b": "A bottle opener",
+    "c": "Sugar tongs",
+    "d": "A claw hammer"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) A bottle opener. A bottle opener is a class II lever (load between fulcrum and effort), so its effort arm is always longer than its load arm: MA > 1 always.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Factors affecting loudness",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "factors affecting loudness"
+   ],
+   "question": "Which of the following statements is correct regarding the factors that increase the loudness of sound?",
+   "options": {
+    "a": "Loudness increases when the amplitude of vibration of the vibrating body decreases.",
+    "b": "Loudness increases when the distance between the source and the listener increases.",
+    "c": "Loudness increases when the amplitude of vibration of the vibrating body increases.",
+    "d": "Loudness is independent of the surface area of the vibrating body."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Loudness increases when the amplitude of vibration of the vibrating body increases.. Loudness ∝ (amplitude)², so it increases with amplitude (it decreases with distance and increases with surface area).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Power and current (P = I²R)",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "power and current (p = i²r)"
+   ],
+   "question": "A resistor dissipates a power P when a current I flows through it. If the current through the resistor is doubled while keeping the temperature constant, what will be the new power dissipated?",
+   "options": {
+    "a": "P",
+    "b": "2P",
+    "c": "3P",
+    "d": "4P"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 4P. P = I²R; doubling I with R constant gives (2I)²R = 4P.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "New colour code for house wiring",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "new colour code for house wiring"
+   ],
+   "question": "While installing a ceiling fan, an electrician finds three wires: Brown, Light Blue and Green. For safe installation following the new international convention, the connections should be:",
+   "options": {
+    "a": "Switch → Light Blue; Fan body → Brown; Circuit → Green",
+    "b": "Switch → Brown; Fan body → Green; Circuit → Light Blue",
+    "c": "Switch → Green; Fan body → Light Blue; Circuit → Brown",
+    "d": "Switch → Brown; Fan body → Light Blue; Circuit → Green"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Switch → Brown; Fan body → Green; Circuit → Light Blue. Brown is live (goes through the switch), green is earth (connected to the metal body), light blue is neutral (completes the circuit).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Voltage across parallel bulbs",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "voltage across parallel bulbs"
+   ],
+   "question": "A circuit is set up with a 12 V battery connected to three identical light bulbs A, B and C, each connected directly across the battery terminals in parallel. What is the voltage across bulb C in this circuit?",
+   "options": {
+    "a": "12 V",
+    "b": "8 V",
+    "c": "6 V",
+    "d": "4 V"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 12 V. In parallel, each bulb has the full battery voltage of 12 V across it.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Polarity of a circular current loop",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "polarity of a circular current loop"
+   ],
+   "question": "A circular loop of wire is placed in a vertical plane and connected to a battery so that the current flows in the clockwise direction when viewed from the front. Which of the following statements correctly describes the magnetic polarity of the loop's faces?",
+   "options": {
+    "a": "The front face acts as a north pole and the back face as a south pole",
+    "b": "The front face acts as a south pole and the back face as a north pole",
+    "c": "Both faces act as north poles",
+    "d": "Both faces act as south poles"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) The front face acts as a south pole and the back face as a north pole. Clock rule: clockwise current seen from a face makes it a south pole; the back face (seen anticlockwise from behind) is a north pole.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Formula for electric current",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "formula for electric current"
+   ],
+   "question": "Which of the following formulas correctly represents electric current? (Symbols have their usual meanings)",
+   "options": {
+    "a": "Qt",
+    "b": "ne/t",
+    "c": "t/Q",
+    "d": "Net"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) ne/t. I = Q/t and Q = ne, so I = ne/t.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Strength of an electromagnet",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "strength of an electromagnet"
+   ],
+   "question": "In a junkyard, the engineer notices that the electromagnet on a crane is not lifting enough scrap metal. To make it stronger, she should ________.",
+   "options": {
+    "a": "increase the number of turns of the coil or increase the current",
+    "b": "increase the number of turns of the coil and switch the current off",
+    "c": "reduce the number of turns of the coil or reduce the current in the coil",
+    "d": "remove the core and reduce the current"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) increase the number of turns of the coil or increase the current. The strength of an electromagnet increases with the number of turns and with the current (and with a soft-iron core).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "MCB vs fuse",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "mcb vs fuse"
+   ],
+   "question": "Which of the following is the main advantage of using an MCB over a traditional fuse wire?",
+   "options": {
+    "a": "MCB reduces electricity bills by consuming less power",
+    "b": "MCB increases the voltage supply to appliances during high demand",
+    "c": "MCB can be reset after a fault is repaired, avoiding replacement costs",
+    "d": "MCB prevents all types of electrical faults from occurring"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) MCB can be reset after a fault is repaired, avoiding replacement costs. An MCB trips on overload and can simply be switched back on after the fault is removed; a fuse wire has to be replaced.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Alpha particle is helium nucleus",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "alpha particle is helium nucleus"
+   ],
+   "question": "Emission of an alpha (α) particle is alternatively referred to as the emission of the nucleus of:",
+   "options": {
+    "a": "Helium",
+    "b": "Hydrogen",
+    "c": "Sodium",
+    "d": "Radium"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Helium. An α-particle is a helium nucleus ⁴₂He (2 protons + 2 neutrons).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Heat capacity and temperature rise",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "heat capacity and temperature rise"
+   ],
+   "question": "The same amount of heat is supplied to two liquids X and Y. The temperature of liquid X rises more than that of liquid Y. Which of the following statements is then true?",
+   "options": {
+    "a": "Heat capacity of X = Heat capacity of Y",
+    "b": "Heat capacity of X > Heat capacity of Y",
+    "c": "Heat capacity of X < Heat capacity of Y",
+    "d": "Insufficient data"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Heat capacity of X < Heat capacity of Y. Heat capacity C = Q/Δθ; for the same Q, the larger rise in temperature means a smaller heat capacity, so C(X) < C(Y).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Image of distant object at focus",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "image of distant object at focus"
+   ],
+   "question": "A convex lens of focal length 12 cm is placed at the 36.5 cm mark on a metre scale. A distant tree is located towards the zero end of the scale. To obtain a distinct image of the tree on a screen, at what mark should the screen be placed?",
+   "options": {
+    "a": "60.5 cm",
+    "b": "24.5 cm",
+    "c": "56.5 cm",
+    "d": "48.5 cm"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 48.5 cm. Rays from a distant object converge at the focus on the other side: 36.5 + 12 = 48.5 cm.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Ultrasound in SONAR",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "ultrasound in sonar"
+   ],
+   "question": "Ultrasonic waves are used for SONAR since these waves:",
+   "options": {
+    "a": "travel faster than light in water",
+    "b": "can easily pass through vacuum",
+    "c": "produce audible sound for humans underwater",
+    "d": "have high frequency and travel long distances in water"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) have high frequency and travel long distances in water. Ultrasonic waves have high frequency (short wavelength, high energy) so they travel undeviated over long distances in water and can be sent as a narrow beam.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "2(i)(a)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Uniform circular motion is accelerated",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "uniform circular motion is accelerated"
+   ],
+   "question": "Complete by choosing the correct answer from the bracket: A car moving around a circular track at a steady speed of 60 km/h is in ________ (non-accelerated / accelerated) motion.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "A car moving around a circular track at a steady speed of 60 km/h is in",
+     "accepted": [
+      "accelerated"
+     ]
+    }
+   ],
+   "solution": "accelerated (direction of velocity keeps changing)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "2(i)(b)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Domestic supply voltage in India",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "domestic supply voltage in india"
+   ],
+   "question": "Complete by choosing the correct answer from the bracket: The standard voltage for domestic supply in India is ________ (440 / 220) V.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The standard voltage for domestic supply in India is",
+     "accepted": [
+      "220",
+      "220 V"
+     ]
+    }
+   ],
+   "solution": "220 V",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "2(i)(c)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Right-hand thumb rule",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "right-hand thumb rule"
+   ],
+   "question": "Complete by choosing the correct answer from the bracket: If you hold a straight electric wire connected to a bulb in your right hand with the thumb pointing in the direction of current, the curled fingers show the direction of ________ (electric / magnetic) field around the wire.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "If you hold a straight electric wire connected to a bulb in your right hand with the thumb pointing in the direction of current, the curled fingers show the direction of",
+     "accepted": [
+      "magnetic"
+     ]
+    }
+   ],
+   "solution": "magnetic",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "2(i)(d)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Definition of critical angle",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "definition of critical angle"
+   ],
+   "question": "Complete by choosing the correct answer from the bracket: The critical angle is the angle of incidence in the denser medium for which the angle of ________ (refraction / reflection) in the rarer medium is 90°.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The critical angle is the angle of incidence in the denser medium for which the angle of",
+     "accepted": [
+      "refraction"
+     ]
+    }
+   ],
+   "solution": "refraction",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "2(i)(e)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Deviation of violet light",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "deviation of violet light"
+   ],
+   "question": "Complete by choosing the correct answer from the bracket: During dispersion of visible light through a prism, the ________ (violet / red) colour wavelength is deviated the most.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "During dispersion of visible light through a prism, the",
+     "accepted": [
+      "violet"
+     ]
+    }
+   ],
+   "solution": "violet",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "2(i)(f)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Lens focal length in water",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "lens focal length in water"
+   ],
+   "question": "Complete by choosing the correct answer from the bracket: A convex lens used as a magnifying glass in air becomes less effective when dipped in water because its focal length ________ (decreases / increases).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "A convex lens used as a magnifying glass in air becomes less effective when dipped in water because its focal length",
+     "accepted": [
+      "increases"
+     ]
+    }
+   ],
+   "solution": "increases (the refractive index of glass relative to water is smaller, so the lens converges less)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Damped vibrations",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "damped vibrations"
+   ],
+   "question": "The diagram shows two displacement-time graphs: Graph A has constant amplitude; Graph B has amplitude that gradually decreases with time. Which of these graphs represents the vibrations of a slim tree branch after being pulled and released? Justify.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Graph B. The branch performs damped vibrations: due to air resistance (friction), energy is lost continuously, so the amplitude decreases gradually with time while the frequency stays the same (its natural frequency).",
+   "marking_points": [
+    {
+     "point": "Graph B",
+     "marks": 1
+    },
+    {
+     "point": "Damped vibrations - amplitude decreases due to energy loss to surroundings (air resistance)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 22,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Specific heat capacity; water as coolant",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "specific heat capacity; water as coolant"
+   ],
+   "question": "Define specific heat capacity and state whether the given statement is true or false: \"Water is used as a coolant in car radiators despite other liquids being available because of its low specific heat capacity.\"",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Specific heat capacity of a substance is the amount of heat energy required to raise the temperature of unit mass (1 kg) of the substance by 1 °C (or 1 K); S.I. unit J kg⁻¹ K⁻¹. The statement is FALSE - water is used as a coolant because of its HIGH specific heat capacity (4200 J kg⁻¹ K⁻¹): it absorbs a large amount of heat for a small rise in temperature.",
+   "marking_points": [
+    {
+     "point": "Correct definition of specific heat capacity",
+     "marks": 1
+    },
+    {
+     "point": "False - water has a high specific heat capacity",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Paddle/oar as class III lever",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "paddle/oar as class iii lever"
+   ],
+   "question": "The diagram shows two types of oars in use: Lever A - a kayak paddle held with both hands by the paddler (the upper hand stays nearly fixed while the lower hand pushes), and Lever B - a rowing-boat oar pivoted in a rowlock on the side of the boat with the rower pulling the handle. Which of the oars is acting as a class III lever? Justify your answer.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Lever A (the kayak paddle). The upper hand acts as the fulcrum, the lower hand applies the effort and the water resistance at the blade is the load - the effort lies between the fulcrum and the load, which is a class III lever. (In lever B the rowlock/pivot lies between the effort at the handle and the load at the blade.)",
+   "marking_points": [
+    {
+     "point": "Lever A",
+     "marks": 1
+    },
+    {
+     "point": "Effort (lower hand) between fulcrum (upper hand) and load (water at blade)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Two photographs: Image 1 (Lever A) a kayaker holding a double-handed paddle; Image 2 (Lever B) a rower using an oar fixed in a rowlock on a rowing boat.",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_euro/p5.jpg"
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 24,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Joule heating - potential difference",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "joule heating - potential difference"
+   ],
+   "question": "An electric kettle has a heating coil of resistance 5 Ω. When it is switched on, it produces 250 J of heat in 2 s. Calculate the potential difference across the coil.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "H = V²t/R ⇒ 250 = V² × 2/5 ⇒ V² = 625 ⇒ V = 25 V.",
+   "marking_points": [
+    {
+     "point": "H = V²t/R",
+     "marks": 1
+    },
+    {
+     "point": "V = 25 V",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 25,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Fuse rating for a motor",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "fuse rating for a motor"
+   ],
+   "question": "An electric motor of power 2.4 kW is to be operated at mains of 240 V. Find the current rating of the fuse to be connected with the motor.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "I = P/V = 2400/240 = 10 A. The fuse should be rated at 10 A (a standard fuse of rating slightly above 10 A, e.g. 13 A / 15 A, is used).",
+   "marking_points": [
+    {
+     "point": "I = P/V",
+     "marks": 1
+    },
+    {
+     "point": "10 A (fuse rating slightly above 10 A)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 26,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Moderate coastal climate",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "moderate coastal climate"
+   ],
+   "question": "Why do coastal regions experience moderate climate compared to inland regions? Explain in terms of the specific heat capacity of water.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Water has a very high specific heat capacity (4200 J kg⁻¹ K⁻¹), much higher than land. By day the sea absorbs a large amount of heat with only a small rise in temperature, and at night it gives out a large amount of heat with only a small fall in temperature. So the temperature of nearby land does not rise or fall much - the climate stays moderate.",
+   "marking_points": [
+    {
+     "point": "Water has high specific heat capacity",
+     "marks": 1
+    },
+    {
+     "point": "Sea warms and cools slowly, absorbing heat by day and releasing it at night, so temperature changes are small",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "3(v)",
+   "q_order": 27,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "diagram",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Concave lens ray diagram (peephole)",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "concave lens ray diagram (peephole)"
+   ],
+   "question": "A security guard is using a concave lens of focal length 12 cm mounted on a door peephole to observe visitors. When a person stands 40 cm away from the door, the lens forms an image that is virtual, erect, and smaller than the actual person. Draw a neat labelled ray diagram (not necessarily to scale) to show the image formation by this concave lens. (Note: Choose an appropriate object position that will produce the described image characteristics. Denote the person by an arrow.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Draw a concave lens with principal axis, F₁ and F₂ marked at 12 cm; object arrow AB placed beyond F₁ (at 40 cm). Ray 1: from B parallel to the axis, refracted to diverge as if coming from F₁ (dotted back-extension). Ray 2: from B through the optical centre, undeviated. The dotted extension and ray 2 meet at B' between O and F₁ on the same side as the object, giving a virtual, erect, diminished image A'B' (at about 9.2 cm from the lens: 1/v = 1/(−12) + 1/(−40) ⇒ v ≈ −9.2 cm).",
+   "marking_points": [
+    {
+     "point": "Two correct rays (parallel ray diverging from F; ray through optical centre)",
+     "marks": 1
+    },
+    {
+     "point": "Virtual, erect, diminished image between O and F on object side, labelled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "3(vi)",
+   "q_order": 28,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Applications of infrared and X-rays",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "applications of infrared and x-rays"
+   ],
+   "question": "Complete the following table by stating one practical application for each type of electromagnetic wave: (a) Infrared rays; (b) X-rays.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Infrared rays: remote controls of TV / night-vision and haze photography / heating and drying (therapy for muscular pain). (b) X-rays: detecting bone fractures (radiography) / checking flaws in welded joints / security baggage scanning.",
+   "marking_points": [
+    {
+     "point": "(a) Correct use of infrared",
+     "marks": 1
+    },
+    {
+     "point": "(b) Correct use of X-rays",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "3(vii)",
+   "q_order": 29,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Resultant moment of a couple",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "resultant moment of a couple"
+   ],
+   "question": "A rotating thrill ride at an amusement park has a 12 m long horizontal arm that spins around a central tower. During testing, the maintenance crew applies controlled forces at both ends: a downward force of 5000 N at the left end and an upward force of 5000 N at the right end. Calculate the resultant moment about the central axis and state its direction.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The tower is at the centre, so each force acts 6 m from the axis. Left end, 5000 N downward: moment = 5000 × 6 = 30000 N m anticlockwise. Right end, 5000 N upward: moment = 5000 × 6 = 30000 N m anticlockwise. The two forces form a couple; resultant moment = 30000 + 30000 = 60000 N m (6 × 10⁴ N m), anticlockwise.",
+   "marking_points": [
+    {
+     "point": "Each force at 6 m from the axis, moment of each = 30000 N m",
+     "marks": 1
+    },
+    {
+     "point": "Both moments in the same sense (couple), resultant = 60000 N m",
+     "marks": 1
+    },
+    {
+     "point": "Direction anticlockwise",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Photo of a horizontal ride arm pivoted at its centre on a tower, with a 5000 N downward arrow at the left end and a 5000 N upward arrow at the right end.",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_euro/p6.jpg"
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 30,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Equivalent resistance of series-parallel network",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "equivalent resistance of series-parallel network"
+   ],
+   "question": "A 12 V battery is connected to a combination of resistors (each 6 Ω): one 6 Ω resistor is in parallel with two 6 Ω resistors in series (top branch); this combination is in series with a second group in which two 6 Ω resistors in series are in parallel with one 6 Ω resistor. Calculate the total resistance of the circuit.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "First group: 6 Ω ∥ (6 + 6) Ω = (6 × 12)/(6 + 12) = 4 Ω. Second group: (6 + 6) Ω ∥ 6 Ω = 4 Ω. The two groups are in series: total R = 4 + 4 = 8 Ω. (Current drawn = 12/8 = 1.5 A.)",
+   "marking_points": [
+    {
+     "point": "First parallel group = 4 Ω",
+     "marks": 1
+    },
+    {
+     "point": "Second parallel group = 4 Ω",
+     "marks": 1
+    },
+    {
+     "point": "Total = 8 Ω",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 31,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Step-down transformer diagram and use",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "step-down transformer diagram and use"
+   ],
+   "question": "Draw a neat labelled diagram of a step-down transformer and write one of its uses.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Diagram: a closed laminated soft-iron core; primary coil with MORE turns (thin wire) connected to the a.c. input (high voltage); secondary coil with FEWER turns (thick wire) giving the a.c. output (low voltage). Label core, primary, secondary, input and output. Use: in mobile/phone chargers, door bells, at power substations to reduce the voltage for domestic supply (to 220 V).",
+   "marking_points": [
+    {
+     "point": "Laminated soft-iron core with primary and secondary coils",
+     "marks": 1
+    },
+    {
+     "point": "Primary has more turns than secondary; input/output labelled",
+     "marks": 1
+    },
+    {
+     "point": "One use (e.g. phone charger / distribution substation)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 32,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Fuse in live wire and fuse rating",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "fuse in live wire and fuse rating"
+   ],
+   "question": "(a) If the fuse in the given circuit blows due to excessive current flowing through it caused by a short circuit in the appliance, in which of the following circuits will a blown fuse effectively protect you from electric shock hazard? (Circuit A: fuse in the neutral wire between the appliance and the earthed neutral; Circuit B: fuse in the live wire between the supply and the appliance.)\n(b) You want to use a single electric circuit to operate the following appliances in your home simultaneously: two LED bulbs (each consuming 0.5 A), one ceiling fan (consuming 0.8 A), one mobile phone charger (consuming 0.2 A). You have two fuse wires available: Fuse X with 5 A rating and Fuse Y with 2 A rating. Which fuse wire (X or Y) should you use for this circuit? Explain your reasoning based on the current carrying capacity and safety considerations.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Circuit B. The fuse is in the live wire, so when it blows the appliance is disconnected from the high potential of the live wire. In circuit A the fuse is in the neutral; even after it blows the appliance stays connected to the live wire and touching it can still give a shock. (b) Total current = 2 × 0.5 + 0.8 + 0.2 = 2.0 A. Fuse Y (2 A) is exactly equal to the normal working current, so it would get heated and blow during normal use (no margin). Fuse X (5 A) carries the normal 2 A safely and will still melt in case of a short circuit or heavy overload, so fuse X should be used (ideally a fuse rated a little above 2 A).",
+   "marking_points": [
+    {
+     "point": "(a) Circuit B",
+     "marks": 1
+    },
+    {
+     "point": "(a) Fuse in live wire disconnects appliance from high potential",
+     "marks": 1
+    },
+    {
+     "point": "(b) Total current = 2.0 A",
+     "marks": 1
+    },
+    {
+     "point": "(b) Fuse X - Y would blow at normal current; X has a safe margin",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Two circuits: in Circuit A the blown fuse is in the neutral wire after the appliance; in Circuit B the blown fuse is in the live wire before the appliance; both supplies earthed on the neutral side.",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_euro/p6.jpg"
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 33,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work on an inclined plane",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "work on an inclined plane"
+   ],
+   "question": "A body of mass 8 kg is pulled up an inclined plane (length AB = 6 m, height BC = 3 m, angle 30°) by a force of 50 N applied parallel to the plane.\n(a) Calculate the force of gravity acting on the body. (Take g = 10 m/s²)\n(b) Calculate the work done by the applied force in pulling the body along the entire length of the inclined plane.\n(c) Calculate the work done against the force of gravity when the body reaches the other end of the inclined plane.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) F = mg = 8 × 10 = 80 N. (b) W = F × s = 50 × 6 = 300 J. (c) W = mgh = 80 × 3 = 240 J.",
+   "marking_points": [
+    {
+     "point": "(a) 80 N",
+     "marks": 1
+    },
+    {
+     "point": "(b) 300 J",
+     "marks": 1
+    },
+    {
+     "point": "(c) 240 J",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 34,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Radioactive decay series - back calculation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "radioactive decay series - back calculation"
+   ],
+   "question": "A radioactive nucleus undergoes a series of decays according to the sequence: X --α--> X₁ --β--> X₂ --α--> X₃. If the mass number and atomic number of X₃ are 210 and 83 respectively, what is the mass number and atomic number of X?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Working backwards: X₂ (before α): A = 210 + 4 = 214, Z = 83 + 2 = 85. X₁ (before β): A = 214, Z = 85 − 1 = 84. X (before α): A = 214 + 4 = 218, Z = 84 + 2 = 86. So X is ²¹⁸₈₆X (mass number 218, atomic number 86).",
+   "marking_points": [
+    {
+     "point": "X₂ = ²¹⁴₈₅ and X₁ = ²¹⁴₈₄",
+     "marks": 1
+    },
+    {
+     "point": "Mass number of X = 218",
+     "marks": 1
+    },
+    {
+     "point": "Atomic number of X = 86",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 35,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Factors affecting resistance from data",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "factors affecting resistance from data"
+   ],
+   "question": "An electrical circuit is set up to study the behaviour of different conducting materials. A constant voltage of 12 V is applied across different wires and the corresponding current values are measured using an ammeter. Data (all at room temperature):\nWire | Material | Length (m) | Cross-sectional area (mm²) | Current (A)\nP | Copper | 1.0 | 2.0 | 2.0\nQ | Copper | 2.0 | 2.0 | 1.0\nR | Iron | 1.0 | 2.0 | 0.4\nS | Iron | 1.0 | 4.0 | 0.8\nAnalyse the data and answer:\n(a) Which wire (P, Q, R or S) offers the highest resistance? Justify your answer by analysing the given data without performing any calculations.\n(b) Compare the resistances offered by wires R and S. From the results, what general conclusion can you draw about the factor affecting resistance?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Wire R. With the same voltage across all wires, current is inversely proportional to resistance (I = V/R); R carries the least current (0.4 A), so it has the highest resistance. (b) R = 12/0.4 = 30 Ω; S = 12/0.8 = 15 Ω, so R(R) = 2 × R(S). R and S are of the same material and length but S has double the cross-sectional area. Conclusion: resistance is inversely proportional to the area of cross-section (thicker wire - less resistance).",
+   "marking_points": [
+    {
+     "point": "(a) Wire R",
+     "marks": 1
+    },
+    {
+     "point": "(a) Least current at same voltage means highest resistance",
+     "marks": 1
+    },
+    {
+     "point": "(b) Resistance of R is twice that of S (30 Ω vs 15 Ω)",
+     "marks": 1
+    },
+    {
+     "point": "(b) Resistance ∝ 1/area of cross-section",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 36,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Block and tackle with four pulleys",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "block and tackle with four pulleys"
+   ],
+   "question": "Observe the given block and tackle system: two pulleys in the upper fixed block and two pulleys in the lower movable block, with the string tied to the upper block so that four segments of string (each with tension T) support the lower block carrying the load; the effort is applied downward at the free end.\n(a) What is the value of the mechanical advantage of the system?\n(b) When the load is pulled up by a distance of 1 m, how far does the effort end move?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Load L = 4T and effort E = T, so ideal MA = L/E = 4. (b) VR = 4 (number of strands supporting the lower block), so the effort end moves 4 × 1 = 4 m.",
+   "marking_points": [
+    {
+     "point": "(a) L = 4T, E = T",
+     "marks": 1
+    },
+    {
+     "point": "(a) MA = 4",
+     "marks": 1
+    },
+    {
+     "point": "(b) Effort moves 4 m",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Block and tackle with two pulleys in the upper block and two in the lower block, four strands marked T supporting the lower block, effort arrow down at the free end, load hanging below.",
+   "page": 8,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_euro/p8.jpg"
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 37,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Mixing hot and cold water",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "mixing hot and cold water"
+   ],
+   "question": "A bucket contains 6 kg of water at 20°C. Water at 85°C is poured into it. Neglecting the heat energy absorbed by the bucket, calculate the final temperature of water. The mass of hot water poured is 2 kg. (The specific heat capacity of water is 4200 J kg⁻¹ K⁻¹.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Let final temperature = T. Heat lost by hot water = heat gained by cold water: 2 × 4200 × (85 − T) = 6 × 4200 × (T − 20) ⇒ 170 − 2T = 6T − 120 ⇒ 8T = 290 ⇒ T = 36.25 °C.",
+   "marking_points": [
+    {
+     "point": "Heat lost = heat gained equation",
+     "marks": 1
+    },
+    {
+     "point": "2(85 − T) = 6(T − 20)",
+     "marks": 1
+    },
+    {
+     "point": "T = 36.25 °C",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 38,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Jalatarang - pitch and water level",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "jalatarang - pitch and water level"
+   ],
+   "question": "The image shows a musical set-up called Jalatarang, consisting of 5 identical glasses filled with coloured water at decreasing levels from left to right (Glass 1 fullest, Glass 5 empty). A spoon is used to strike the glasses to produce musical notes.\n(a) Which glass will produce the highest pitch sound and which one will produce the lowest pitch sound when struck with the spoon?\n(b) Study the wave pattern produced by striking glasses 1, 3 and 4 once (displacement-time graph from 0 to 0.06 s: a high-frequency burst, then a low-frequency burst, then a medium-frequency burst, then another high-frequency burst). To reproduce this sound pattern with a single strike on each glass, write the sequence in which the glasses should be struck.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) When a glass is struck, the glass and its water vibrate; more water means more vibrating mass and a lower natural frequency. So Glass 5 (empty/least water) produces the highest pitch and Glass 1 (most water) produces the lowest pitch. (b) Among glasses 1, 3 and 4: Glass 4 gives the highest frequency, Glass 3 a medium frequency and Glass 1 the lowest. The graph shows high → low → medium (→ high) frequency, so the sequence is Glass 4 → Glass 1 → Glass 3 (the final high-frequency burst again matches Glass 4).",
+   "marking_points": [
+    {
+     "point": "(a) Highest pitch: Glass 5",
+     "marks": 1
+    },
+    {
+     "point": "(a) Lowest pitch: Glass 1 (more water - lower frequency)",
+     "marks": 1
+    },
+    {
+     "point": "(b) Identifies frequencies: 4 highest, 3 medium, 1 lowest",
+     "marks": 1
+    },
+    {
+     "point": "(b) Sequence 4 → 1 → 3",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Photo of five glasses with decreasing water levels (Glass 1 to Glass 5) and a spoon; a displacement-time graph (0-0.06 s) showing bursts of high, low, medium and high frequency.",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_euro/p9.jpg"
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 39,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Moment of force on a spanner",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "moment of force on a spanner"
+   ],
+   "question": "A spanner is being used to tighten a nut. Equal forces F₁ and F₂ are applied at points A and B respectively, where A is 9 cm and B is 22 cm from the centre of the nut (forces perpendicular to the spanner).\n(a) At which point will the turning effect be greater?\n(b) What is the ratio of the moment produced at point B to the moment produced at point A?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) At point B, since moment = F × perpendicular distance and B is farther from the axis of rotation. (b) Moment at B : moment at A = (F × 22) : (F × 9) = 22 : 9 (≈ 2.44 : 1).",
+   "marking_points": [
+    {
+     "point": "(a) Point B",
+     "marks": 1
+    },
+    {
+     "point": "(a) Larger perpendicular distance from the pivot",
+     "marks": 1
+    },
+    {
+     "point": "(b) 22 : 9",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 40,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Two inverted prisms cancel deviation",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "two inverted prisms cancel deviation"
+   ],
+   "question": "Two identical prisms are arranged in opposite orientations (the second prism inverted relative to the first, with their faces parallel), as shown in the diagram. Explain the effect of the second prism on the deviation produced by the first prism, and state the relationship between the incident ray and the emergent ray.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The first prism deviates the ray towards its base (downwards). The second, identical, inverted prism deviates the ray by an equal amount in the opposite direction (towards its own base, upwards), so it cancels the deviation produced by the first prism - net deviation is zero (it also recombines any dispersed colours). The emergent ray is parallel to the incident ray, only laterally displaced.",
+   "marking_points": [
+    {
+     "point": "Second prism produces equal deviation in the opposite direction",
+     "marks": 1
+    },
+    {
+     "point": "Net deviation is zero",
+     "marks": 1
+    },
+    {
+     "point": "Emergent ray parallel to incident ray (laterally displaced)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 41,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Fission vs fusion",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "fission vs fusion"
+   ],
+   "question": "A nuclear power plant uses Uranium-235 for fission reactions, while the Sun fuses hydrogen nuclei. Compare these two processes by:\n(a) Writing one nuclear equation for each of these processes.\n(b) Stating which process releases more energy per unit mass of fuel and why.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Fission: ²³⁵₉₂U + ¹₀n → ¹⁴¹₅₆Ba + ⁹²₃₆Kr + 3 ¹₀n + energy (≈ 200 MeV). Fusion: ²₁H + ³₁H → ⁴₂He + ¹₀n + energy (17.6 MeV) [or ²₁H + ²₁H → ³₂He + ¹₀n + energy]. (b) Fusion releases more energy per unit mass of fuel, because a larger fraction of the mass of the light nuclei is lost (mass defect) and converted into energy (E = mc²), even though energy per single reaction is smaller.",
+   "marking_points": [
+    {
+     "point": "(a) Balanced fission equation",
+     "marks": 1
+    },
+    {
+     "point": "(a) Balanced fusion equation",
+     "marks": 1
+    },
+    {
+     "point": "(b) Fusion",
+     "marks": 1
+    },
+    {
+     "point": "(b) Greater mass defect per unit mass converted to energy (E = mc²)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 42,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Household wiring: bulb, fan and socket",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "household wiring: bulb, fan and socket"
+   ],
+   "question": "Draw a labelled circuit diagram showing how a bulb, a fan and a socket in a room are connected to the mains supply. Include appropriate safety devices and control switches in your diagram.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Mains live, neutral and earth lines from the distribution board; a fuse/MCB in the live wire. Bulb, fan (with regulator) and socket connected in parallel between live and neutral, each with its own switch placed in the LIVE wire. The socket has three terminals: live (through its switch), neutral, and the top thick pin to the earth wire; the fan body is also earthed. Label L, N, E, fuse/MCB and switches.",
+   "marking_points": [
+    {
+     "point": "Bulb, fan and socket in parallel across live and neutral",
+     "marks": 1
+    },
+    {
+     "point": "Separate switches in the live wire, fuse/MCB in live wire",
+     "marks": 1
+    },
+    {
+     "point": "Socket and fan earthed, labelling",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 43,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Speed of light in water",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "speed of light in water"
+   ],
+   "question": "When a scuba diver looks up from underwater, they observe the entire above-water world compressed into a circular bright area called 'Snell's Window'. A search light beam is directed toward the diver from above the water surface. Will this search light reach the diver as quickly as it would reach a person standing on the ground at the same distance? Support your answer with calculations. (Given: Speed of light in air = 3 × 10⁸ m/s, Refractive index of water = 4/3)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "No. μ = c/v ⇒ speed of light in water v = (3 × 10⁸)/(4/3) = 2.25 × 10⁸ m s⁻¹, which is less than 3 × 10⁸ m s⁻¹ in air. For the same distance d, time in water = d/(2.25 × 10⁸) = (4/3) × time in air. So light takes longer (4/3 times) to reach the diver through the water.",
+   "marking_points": [
+    {
+     "point": "No, it takes longer",
+     "marks": 1
+    },
+    {
+     "point": "v in water = c/μ = 2.25 × 10⁸ m/s",
+     "marks": 1
+    },
+    {
+     "point": "Time in water is 4/3 times (slower) for the same distance",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 44,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Force on current-carrying rod on rails",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "force on current-carrying rod on rails"
+   ],
+   "question": "A straight conducting rod XY of length l and mass m is placed across two parallel horizontal conducting rails. The rails are connected to a battery and a current of 2 A flows through the rod from X to Y (from Rail 1 to Rail 2, i.e. downwards in the diagram). The entire set-up is placed in a uniform magnetic field directed vertically downwards (perpendicular to the plane of the rails; shown as ⊗, into the page).\n(a) Determine the direction in which the rod will experience a magnetic force. Which rule did you use to determine this?\n(b) Suggest two methods to reverse the direction of motion of the rod.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Using Fleming's left hand rule (forefinger - field into the page/vertically down, middle finger - current from X to Y, i.e. downwards in the diagram), the thumb points to the right: the rod experiences a force along the rails towards the right (towards the battery end) and rolls/slides that way. (b) (1) Reverse the direction of the current (reverse the battery terminals); (2) reverse the direction of the magnetic field. (Not both together.)",
+   "marking_points": [
+    {
+     "point": "(a) Force towards the right (along the rails, perpendicular to rod)",
+     "marks": 1
+    },
+    {
+     "point": "(a) Fleming's left hand rule",
+     "marks": 1
+    },
+    {
+     "point": "(b) Reverse the current",
+     "marks": 1
+    },
+    {
+     "point": "(b) Reverse the magnetic field",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Two horizontal rails (Rail 1 top, Rail 2 bottom) joined on the right by a battery (+ at top); a rod across them carries I = 2 A downwards from Rail 1 to Rail 2; magnetic field into the page shown by crosses.",
+   "page": 10,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_euro/p10.jpg"
+  },
+  {
+   "q_label": "9(i)",
+   "q_order": 45,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Echo distance changes",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "echo distance changes"
+   ],
+   "question": "A person stands 680 m in front of a vertical cliff. At this position, when he claps his hands, he hears the echo after 4 seconds.\n(a) If he wants to hear the echo 1 second earlier, where should he move - towards the cliff or away from the cliff?\n(b) If the person moves to a different position where he hears the echo after 4.8 seconds, how much distance has he moved from his earlier position?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Speed of sound v = 2d/t = (2 × 680)/4 = 340 m s⁻¹. (a) Echo after 3 s requires d = 340 × 3/2 = 510 m, so he must move towards the cliff (by 680 − 510 = 170 m). (b) For 4.8 s: d = 340 × 4.8/2 = 816 m, so he has moved 816 − 680 = 136 m away from the cliff.",
+   "marking_points": [
+    {
+     "point": "v = 340 m/s",
+     "marks": 1
+    },
+    {
+     "point": "(a) Towards the cliff (by 170 m)",
+     "marks": 1
+    },
+    {
+     "point": "(b) Moved 136 m (away from the cliff)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "9(ii)",
+   "q_order": 46,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Magnification by a convex lens",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "magnification by a convex lens"
+   ],
+   "question": "The Science Museum's interactive exhibit features a convex lens (f = 20 cm) on an adjustable track system with a miniature LED butterfly and a movable screen. Visitors can explore image formation by repositioning both the butterfly and screen at different locations. If the object is placed at 60 cm from the lens, state whether the image formed is enlarged or diminished, and by what factor.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "u = −60 cm, f = +20 cm. 1/v = 1/20 − 1/60 = 2/60 ⇒ v = +30 cm. m = v/u = 30/(−60) = −0.5. The image is real, inverted and diminished - half (0.5 times) the size of the object.",
+   "marking_points": [
+    {
+     "point": "v = +30 cm",
+     "marks": 1
+    },
+    {
+     "point": "m = −0.5",
+     "marks": 1
+    },
+    {
+     "point": "Diminished, by a factor of 1/2 (real, inverted)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": null
+  },
+  {
+   "q_label": "9(iii)",
+   "q_order": 47,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Work, Power and Energy",
+   "topic": "Conservation of energy on a skate ramp",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "conservation of energy on a skate ramp"
+   ],
+   "question": "A skater weighing 50 kgf starts from rest at point P (height 4 m) on a skate ramp. He descends to point Q at the bottom (height 0) and then moves up the right side of the ramp towards R. Calculate:\n(a) The kinetic energy of the skater at point Q, assuming negligible friction from P to Q.\n(b) The velocity of the skater at point Q. (use g = 10 m/s²)\n(c) The maximum height the skater reaches, if he loses 800 J of energy against friction while moving from Q to R. [Assume the skater comes to rest at the highest point]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Mass = 50 kg, weight = 500 N. (a) KE at Q = loss of PE = mgh = 50 × 10 × 4 = 2000 J. (b) ½mv² = 2000 ⇒ v² = 4000/50 = 80 ⇒ v = √80 ≈ 8.94 m s⁻¹. (c) Energy left = 2000 − 800 = 1200 J = mgh′ ⇒ h′ = 1200/500 = 2.4 m.",
+   "marking_points": [
+    {
+     "point": "(a) KE = 2000 J",
+     "marks": 1
+    },
+    {
+     "point": "(b) v = √80 ≈ 8.94 m/s",
+     "marks": 1
+    },
+    {
+     "point": "(c) Energy available = 1200 J",
+     "marks": 1
+    },
+    {
+     "point": "(c) h = 2.4 m",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Skate ramp on a grid: skater at P at 4 m height, descends to Q at 0 m, then rises to R at about 2 m on the right.",
+   "page": 12,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_euro/p12.jpg"
+  }
+ ]
+}

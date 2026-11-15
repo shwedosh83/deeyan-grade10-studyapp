@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { boardApi, fmtMarks, fmtTime } from '../../lib/board';
+import { boardApi, fmtMarks, fmtTime, pickSection } from '../../lib/board';
 
 // Marks summary + per-question feedback for a graded attempt.
 // data = response of /api/boardGrade; qMap = { questionId: question row } for showing the question text.
@@ -23,7 +23,7 @@ export default function BoardResults({ data, qMap, title, seconds, onAgain, onHo
         const sections = prev.sections ? JSON.parse(JSON.stringify(prev.sections)) : prev.sections;
         for (const m of marks) {
           const r = prev.results.find(x => x.questionId === m.questionId);
-          const key = sections && Object.keys(sections).find(k => r.section && (k.startsWith(r.section) || r.section.startsWith(k)));
+          const key = sections && pickSection(Object.keys(sections), r.section);
           if (key) sections[key].got += m.marks;
         }
         return {

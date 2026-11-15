@@ -1,0 +1,1961 @@
+{
+ "paper_id": "prelim_chemistry_jbv",
+ "subject": "chemistry",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · J.B. Vachha",
+ "source": "prelim",
+ "school": "The J.B. Vachha High School for Parsi Girls",
+ "exam_label": "Preliminary Examination",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Answers to be written on paper. Time given is for writing answers. Section I (40 marks) is compulsory; attempt any four questions from Section II (40 marks). (The cover line says 'attempt all questions from Section I and Section II', but Section II is headed 'Attempt any 4 questions'.) Intended marks are given in brackets [ ].",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section (printed as Section I)",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 40,
+   "rule": "Attempt any 4 questions from this Section (printed as Section II)",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Periodic Properties and Variations",
+   "topic": "Electron affinity across a period",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "electron affinity across a period"
+   ],
+   "question": "Two elements X and Y have 2 and 7 valence electrons respectively and they have same number of electron shells. Their electron affinities are:",
+   "options": {
+    "a": "X = Y",
+    "b": "X < Y",
+    "c": "X > Y",
+    "d": "Y < X"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) X < Y. In the same period, electron affinity increases from left to right; Y (7 valence electrons) readily gains one electron to complete its octet.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electrolysis",
+   "topic": "Preferential discharge of cations",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "selective discharge",
+    "electrochemical series"
+   ],
+   "question": "The cation which gets reduced first during the electrolysis of a solution which contains Cu2+, Ag1+ and H1+ of the same concentration.",
+   "options": {
+    "a": "Cu2+",
+    "b": "Ag1+",
+    "c": "H1+",
+    "d": "all of these ions"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Ag1+. Silver is lowest in the electrochemical series, so Ag+ ions are discharged (reduced) first: Ag+ > Cu2+ > H+.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Chemical Bonding",
+   "topic": "Formula from atomic numbers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "valency from electronic configuration"
+   ],
+   "question": "P, Q, R and S are the elements with atomic numbers 6, 11, 16 and 8 respectively. The formula of the compound between Q and S:",
+   "options": {
+    "a": "QS",
+    "b": "Q2S",
+    "c": "QS2",
+    "d": "QS3"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Q2S. Q is sodium (2,8,1, valency 1) and S is oxygen (2,6, valency 2), so the compound is Na2O, i.e. Q2S.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Chemical Bonding",
+   "topic": "Number of covalent bonds",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "covalent bonds in NH3"
+   ],
+   "question": "A molecule of .......... contains three covalent bonds.",
+   "options": {
+    "a": "Hydrogen",
+    "b": "Oxygen",
+    "c": "Ammonia",
+    "d": "Nitrogen"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Ammonia. NH3 has three N-H single covalent bonds. (N2 has one triple bond, which is also three shared pairs, but it is counted as a triple bond between two atoms; the expected answer is ammonia.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Analytical Chemistry",
+   "topic": "Test for chlorine",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "starch iodide test for chlorine"
+   ],
+   "question": "The gas which turns Starch iodide paper blue black:",
+   "options": {
+    "a": "SO2",
+    "b": "Cl2",
+    "c": "NO2",
+    "d": "SO3"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Cl2. Chlorine displaces iodine from KI; the liberated iodine turns starch blue-black.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mole Concept and Stoichiometry",
+   "topic": "Molecular formula multiple",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "molecular formula = n x empirical formula"
+   ],
+   "question": "The molecular weight of a compound is 90. The empirical formula weight is 30. Then:",
+   "options": {
+    "a": "n = 1",
+    "b": "n = 2",
+    "c": "n = 3",
+    "d": "n = 4"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) n = 3. n = molecular weight / empirical formula weight = 90 / 30 = 3.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Ammonia",
+   "topic": "Thermal decomposition of ammonium chloride",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "sublimation/decomposition of NH4Cl"
+   ],
+   "question": "The basic gas produced when solid ammonium chloride undergoes thermal decomposition:",
+   "options": {
+    "a": "NO",
+    "b": "HCl",
+    "c": "N2",
+    "d": "NH3"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) NH3. NH4Cl -> NH3 + HCl on heating; ammonia is the basic gas.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Periodic Properties and Variations",
+   "topic": "Reactivity of metals down a group",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "electropositivity down a group"
+   ],
+   "question": "Assertion (A): The tendency of losing electrons increases down the group.\nReason (R): The most reactive metal is placed at the top of Group I.",
+   "options": {
+    "a": "Both A and R are true and R is the correct explanation of A",
+    "b": "Both A and R are true and R is not the correct explanation of A",
+    "c": "A is true but R is false",
+    "d": "A is false but R is true"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) A is true but R is false. Atomic size increases down a group, so electrons are lost more easily; the most reactive metal is therefore at the bottom of Group I.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Organic Chemistry",
+   "topic": "Uses of ethyne",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "oxy-acetylene flame"
+   ],
+   "question": "An unsaturated hydrocarbon used for welding purposes.",
+   "options": {
+    "a": "Ethyl alcohol",
+    "b": "Methane",
+    "c": "Acetylene",
+    "d": "Acetic acid"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Acetylene. Ethyne burns in oxygen with a very hot oxy-acetylene flame used for welding and cutting metals.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mole Concept and Stoichiometry",
+   "topic": "Moles from mass",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "moles = mass / molar mass"
+   ],
+   "question": "The number of moles present in 10 g of CaCO3. [At. wt of Ca = 40; C = 12; O = 16]",
+   "options": {
+    "a": "10 moles",
+    "b": "0.1 mole",
+    "c": "1 mole",
+    "d": "0.11 mole"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 0.1 mole. Molar mass CaCO3 = 40 + 12 + 48 = 100 g; 10/100 = 0.1 mol.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Metallurgy",
+   "topic": "Froth floatation",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 3,
+   "concepts": [
+    "froth floatation principle"
+   ],
+   "question": "Assertion (A): Froth floatation is a method of concentration of sulphide ores.\nReason (R): In this method the ore is wetted by water and the impurities are wetted by the oil.",
+   "options": {
+    "a": "Both A and R are true and R is the correct explanation of A",
+    "b": "Both A and R are true and R is not the correct explanation of A",
+    "c": "A is true but R is false",
+    "d": "A is false but R is true"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) A is true but R is false. In froth floatation the sulphide ore particles are preferentially wetted by the oil and rise with the froth, while the gangue is wetted by water and sinks.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electrolysis",
+   "topic": "Silver electroplating cathode reaction",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "reduction at cathode"
+   ],
+   "question": "The electrode reaction at cathode during the electroplating of an article with silver metal using silver salt is:",
+   "options": {
+    "a": "Ag - 1e- -> Ag1+",
+    "b": "Ag1+ + 1e- -> Ag",
+    "c": "Ag + 1e- -> Ag1+",
+    "d": "Ag1+ - 1e- -> Ag"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Ag1+ + 1e- -> Ag. Reduction occurs at the cathode where silver ions gain electrons and deposit on the article.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Organic Chemistry",
+   "topic": "Saturated hydrocarbon general formula",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "general formula of alkanes CnH2n+2"
+   ],
+   "question": "The formula which represents saturated hydrocarbon is.",
+   "options": {
+    "a": "C4H8",
+    "b": "C5H12",
+    "c": "C4H6",
+    "d": "C5H10"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) C5H12. Saturated hydrocarbons (alkanes) have the general formula CnH2n+2; n = 5 gives C5H12.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Metallurgy",
+   "topic": "Composition of solder",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "alloys: solder Pb + Sn"
+   ],
+   "question": "The main metal present in the alloy Solder is:",
+   "options": {
+    "a": "Copper",
+    "b": "Zinc",
+    "c": "Iron",
+    "d": "Lead"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Lead. Solder is an alloy of lead and tin (typically Pb 50%, Sn 50%), with lead as the main metal as per the ICSE syllabus.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sulphuric Acid",
+   "topic": "SO2 as reducing agent",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "SO2 reducing agent"
+   ],
+   "question": "The gas that decolourises Potassium permanganate (KMnO4) solution is:",
+   "options": {
+    "a": "Sulphur dioxide",
+    "b": "Carbon dioxide",
+    "c": "Chlorine",
+    "d": "Ammonia"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Sulphur dioxide. SO2 is a reducing agent and decolourises acidified pink/purple KMnO4.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(i)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "diagram",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Hydrogen Chloride",
+   "topic": "Laboratory preparation of HCl",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "lab preparation of HCl",
+    "drying of HCl",
+    "upward displacement of air"
+   ],
+   "question": "The following questions are pertaining to the laboratory preparation of Hydrogen chloride gas.\n[Diagram: NaCl in a round-bottom flask heated on a tripod, with H2SO4 added through a thistle funnel; the gas passes through a bottle containing substance A and emerges as 'dry gas', which is collected in a gas jar B.]\n(a) Give the role of substance 'A'.\n(b) Write balanced equation for the reaction that takes place in the round bottom flask.\n(c) Why is the temperature of the reaction mixture kept below 200 C?\n(d) State the method of collection of the gas.\n(e) How will you identify the gas after collection?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) A is concentrated sulphuric acid; it acts as a drying agent and removes moisture from the HCl gas.\n(b) NaCl + H2SO4 (conc) --(below 200 C)--> NaHSO4 + HCl\n(c) Above 200 C, sodium sulphate is formed which forms a hard crust sticking to the flask that is difficult to remove and may crack the flask; it also wastes fuel. Below 200 C the reaction stops at NaHSO4.\n(d) Upward displacement of air (HCl is heavier than air, vapour density 18.25 vs 14.4).\n(e) Bring a glass rod dipped in ammonia solution near the mouth of the jar: dense white fumes of ammonium chloride are formed (NH3 + HCl -> NH4Cl). (Also turns moist blue litmus red.)",
+   "marking_points": [
+    {
+     "point": "(a) A = conc. H2SO4, drying agent",
+     "marks": 1
+    },
+    {
+     "point": "(b) NaCl + H2SO4 -> NaHSO4 + HCl",
+     "marks": 1
+    },
+    {
+     "point": "(c) Avoid Na2SO4 crust / flask cracking / fuel waste",
+     "marks": 1
+    },
+    {
+     "point": "(d) Upward displacement of air",
+     "marks": 1
+    },
+    {
+     "point": "(e) Dense white fumes with ammonia rod",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Laboratory preparation of HCl: NaCl and H2SO4 heated in round-bottom flask, gas through drying bottle A, dry gas collected in gas jar B.",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_chemistry_jbv/p2.jpg"
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sulphuric Acid",
+   "topic": "Catalysts and conditions of industrial processes",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "catalysts in industrial processes"
+   ],
+   "question": "Match the following columns:\nColumn I: (a) Contact Process (b) Esterification (c) Hydrogenation (d) Ostwald's Process (e) Haber's Process\nColumn II: (i) Platinum (ii) Iron (iii) Vanadium Pentoxide (iv) Nickel (v) Conc. H2SO4",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Contact process",
+     "accepted": [
+      "iii",
+      "vanadium pentoxide",
+      "V2O5"
+     ]
+    },
+    {
+     "prompt": "Esterification",
+     "accepted": [
+      "v",
+      "conc. H2SO4",
+      "concentrated sulphuric acid"
+     ]
+    },
+    {
+     "prompt": "Hydrogenation",
+     "accepted": [
+      "iv",
+      "nickel",
+      "Ni"
+     ]
+    },
+    {
+     "prompt": "Ostwald's process",
+     "accepted": [
+      "i",
+      "platinum",
+      "Pt"
+     ]
+    },
+    {
+     "prompt": "Haber's process",
+     "accepted": [
+      "ii",
+      "iron",
+      "Fe"
+     ]
+    }
+   ],
+   "solution": "(a) Contact process - (iii) Vanadium pentoxide\n(b) Esterification - (v) Conc. H2SO4\n(c) Hydrogenation - (iv) Nickel\n(d) Ostwald's process - (i) Platinum\n(e) Haber's process - (ii) Iron",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Analytical Chemistry",
+   "topic": "Choose the correct answer",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "action of acid on sulphite",
+    "lone pairs",
+    "test for sulphate"
+   ],
+   "question": "Choose the correct answer from the brackets:\n(a) The gas produced on the action of dil. HCl on metal sulphite is ........ (SO2 / SO3)\n(b) ........ (Silver / Copper) compounds are easily reduced to corresponding metal by heating alone.\n(c) The molecule which has two lone pair of electrons is ........ (NH3 / H2O).\n(d) Dilute HCl and dilute H2SO4 can be distinguished by adding ........ (NaNO3 / BaCl2) solution.\n(e) Substitution reactions are characteristic reactions of ........ (alkenes / alkanes).",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Gas from dil. HCl on metal sulphite",
+     "accepted": [
+      "SO2",
+      "sulphur dioxide"
+     ]
+    },
+    {
+     "prompt": "Compounds reduced by heating alone",
+     "accepted": [
+      "silver"
+     ]
+    },
+    {
+     "prompt": "Molecule with two lone pairs",
+     "accepted": [
+      "H2O",
+      "water"
+     ]
+    },
+    {
+     "prompt": "Reagent distinguishing dil. HCl and dil. H2SO4",
+     "accepted": [
+      "BaCl2",
+      "barium chloride"
+     ]
+    },
+    {
+     "prompt": "Substitution reactions characteristic of",
+     "accepted": [
+      "alkanes"
+     ]
+    }
+   ],
+   "solution": "(a) SO2 (Na2SO3 + 2HCl -> 2NaCl + H2O + SO2)\n(b) Silver (compounds of less reactive metals such as Ag and Hg are reduced by heat alone)\n(c) H2O\n(d) BaCl2 (gives white ppt of BaSO4 with dil. H2SO4, none with dil. HCl)\n(e) Alkanes",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 5.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Metallurgy",
+   "topic": "Identify the term",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "pulverisation",
+    "electron affinity",
+    "non-polar covalent bond"
+   ],
+   "question": "Identify the following:\n(a) The process of crushing the ore into fine powder.\n(b) The energy released when an electron is added to a neutral gaseous isolated atom to form a negatively charged ion.\n(c) The tendency of an element to form chains of identical atoms.\n(d) The process by which certain ores, specially carbonates, are converted to oxides by heating in the absence of air.\n(e) A type of covalent bond in which electrons are shared equally between the combining atoms.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Crushing the ore into fine powder",
+     "accepted": [
+      "pulverisation",
+      "pulverization",
+      "crushing and grinding"
+     ]
+    },
+    {
+     "prompt": "Energy released when an electron is added to a neutral gaseous atom",
+     "accepted": [
+      "electron affinity"
+     ]
+    },
+    {
+     "prompt": "Tendency to form chains of identical atoms",
+     "accepted": [
+      "catenation"
+     ]
+    },
+    {
+     "prompt": "Converting carbonate ores to oxides by heating in absence of air",
+     "accepted": [
+      "calcination"
+     ]
+    },
+    {
+     "prompt": "Covalent bond with equal sharing",
+     "accepted": [
+      "non-polar covalent bond",
+      "nonpolar covalent bond",
+      "non polar covalent bond"
+     ]
+    }
+   ],
+   "solution": "(a) Pulverisation\n(b) Electron affinity\n(c) Catenation\n(d) Calcination\n(e) Non-polar covalent bond",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(v)(a)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Organic Chemistry",
+   "topic": "IUPAC naming from structures",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "IUPAC nomenclature",
+    "aldehyde",
+    "alkene"
+   ],
+   "question": "Give the IUPAC name of the following:\n(i) H-C(H)(H)-C(H)(H)-C(H)=O, i.e. CH3-CH2-CHO\n(ii) H-C(H)(H)-C(H)=C(H)-C(H)(H)-H, i.e. CH3-CH=CH-CH3",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "CH3-CH2-CHO",
+     "accepted": [
+      "propanal"
+     ]
+    },
+    {
+     "prompt": "CH3-CH=CH-CH3",
+     "accepted": [
+      "but-2-ene",
+      "2-butene",
+      "but 2 ene"
+     ]
+    }
+   ],
+   "solution": "(i) Propanal\n(ii) But-2-ene (2-butene)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(v)(b)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Organic Chemistry",
+   "topic": "Structural formulae of organic compounds",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "structural isomers",
+    "branched alkanes",
+    "carboxylic acid structure"
+   ],
+   "question": "Draw the structural diagram of the following organic compounds:\n(i) 2-methyl propan-1-ol\n(ii) Acetic acid\n(iii) 2, 3 - dimethyl butane",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) 2-Methylpropan-1-ol: (CH3)2CH-CH2-OH; a three-carbon chain with -OH on C-1 and a -CH3 branch on C-2, all bonds shown.\n(ii) Acetic acid (ethanoic acid): CH3-COOH, i.e. H3C-C(=O)-O-H with all bonds shown.\n(iii) 2,3-Dimethylbutane: CH3-CH(CH3)-CH(CH3)-CH3; a four-carbon chain with one -CH3 branch on C-2 and one on C-3, all bonds shown.",
+   "marking_points": [
+    {
+     "point": "2-methylpropan-1-ol correct structure",
+     "marks": 1
+    },
+    {
+     "point": "Acetic acid correct structure",
+     "marks": 1
+    },
+    {
+     "point": "2,3-dimethylbutane correct structure",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 21,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Identify the substance",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "glacial acetic acid",
+    "electrolyte for silver plating"
+   ],
+   "question": "Identify the substance underlined:\n(a) The organic compound (underlined) which when solidified, forms an ice like mass.\n(b) The electrolyte (underlined) that is preferred for the electroplating of silver.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Organic compound forming ice-like mass on solidifying",
+     "accepted": [
+      "glacial acetic acid",
+      "ethanoic acid",
+      "acetic acid",
+      "CH3COOH"
+     ]
+    },
+    {
+     "prompt": "Electrolyte for electroplating silver",
+     "accepted": [
+      "sodium argentocyanide",
+      "Na[Ag(CN)2]",
+      "NaAg(CN)2",
+      "potassium argentocyanide"
+     ]
+    }
+   ],
+   "solution": "(a) Glacial acetic acid (pure ethanoic acid, CH3COOH; freezes at about 16.6 C).\n(b) Sodium argentocyanide, Na[Ag(CN)2].",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 22,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Observations",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "test for unsaturation",
+    "Fe(OH)2 dirty green"
+   ],
+   "question": "Give one relevant observation when:\n(a) Bromine vapours are passed into a solution of ethyne in carbon tetrachloride.\n(b) Sodium hydroxide solution added to Iron (II) sulphate solution.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) The reddish-brown colour of bromine is discharged (decolourised) as it adds across the triple bond forming 1,1,2,2-tetrabromoethane.\n(b) A dirty green precipitate of iron(II) hydroxide is formed.",
+   "marking_points": [
+    {
+     "point": "(a) Reddish-brown bromine colour discharged",
+     "marks": 1
+    },
+    {
+     "point": "(b) Dirty green precipitate",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Sulphuric Acid",
+   "topic": "Properties of sulphuric acid",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "oxidising",
+    "dehydrating",
+    "acidic properties of H2SO4"
+   ],
+   "question": "State the property exhibited by sulphuric acid in each of the following cases:\n(a) When sulphur reacts with conc. sulphuric acid to produce SO2 gas.\n(b) When conc. sulphuric acid added to glucose to produce a spongy mass of carbon.\n(c) When dilute sulphuric acid added to copper oxide to form copper sulphate.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Property with sulphur",
+     "accepted": [
+      "oxidising agent",
+      "oxidizing agent",
+      "oxidising property"
+     ]
+    },
+    {
+     "prompt": "Property with glucose",
+     "accepted": [
+      "dehydrating agent",
+      "dehydrating property"
+     ]
+    },
+    {
+     "prompt": "Property with copper oxide",
+     "accepted": [
+      "acidic nature",
+      "typical acid",
+      "acidic property",
+      "dibasic acid"
+     ]
+    }
+   ],
+   "solution": "(a) Oxidising agent (S + 2H2SO4 -> 3SO2 + 2H2O)\n(b) Dehydrating agent (C6H12O6 -> 6C + 6H2O)\n(c) Acidic nature / typical acid (reacts with a basic oxide to form salt and water: CuO + H2SO4 -> CuSO4 + H2O)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 24,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Mole Concept and Stoichiometry",
+   "topic": "Percentage composition and molecular formula",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "percentage composition",
+    "molecular formula from vapour density"
+   ],
+   "question": "Calculate:\n(a) The percentage composition of phosphorous in the fertilizer super phosphate Ca(H2PO4)2. [At. wt: H = 1; P = 31; O = 16; Ca = 40]\n(b) The Molecular formula of a compound whose empirical formula is CH2O and its vapour density is 30. [At. wt: H = 1; C = 12; O = 16]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Molar mass of Ca(H2PO4)2 = 40 + 2(2 x 1 + 31 + 4 x 16) = 40 + 2(97) = 234 g.\nMass of P = 2 x 31 = 62 g.\n% P = (62 / 234) x 100 = 26.5%.\n(b) Molecular mass = 2 x VD = 2 x 30 = 60.\nEmpirical formula mass of CH2O = 12 + 2 + 16 = 30.\nn = 60 / 30 = 2, so molecular formula = (CH2O)2 = C2H4O2.",
+   "marking_points": [
+    {
+     "point": "(a) Molar mass of Ca(H2PO4)2 = 234",
+     "marks": 0.5
+    },
+    {
+     "point": "(a) %P = 62/234 x 100 = 26.5%",
+     "marks": 1
+    },
+    {
+     "point": "(b) Molecular mass = 2 x VD = 60; EF mass = 30",
+     "marks": 0.5
+    },
+    {
+     "point": "(b) n = 2, molecular formula C2H4O2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 25,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Complete reactions with conditions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "dehydrohalogenation",
+    "action of conc. HNO3 on copper"
+   ],
+   "question": "Complete the following reactions with appropriate conditions:\n(a) CH3CH2Br + KOH (alcoholic) ->\n(b) Cu + conc. HNO3 ->",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) CH3CH2Br + KOH (alc) --(boil)--> CH2=CH2 + KBr + H2O (dehydrohalogenation)\n(b) Cu + 4HNO3 (conc) -> Cu(NO3)2 + 2H2O + 2NO2 (at room temperature)",
+   "marking_points": [
+    {
+     "point": "(a) CH3CH2Br + KOH(alc) -> C2H4 + KBr + H2O, with boiling/heat",
+     "marks": 1
+    },
+    {
+     "point": "(b) Cu + 4HNO3 -> Cu(NO3)2 + 2H2O + 2NO2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 26,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Study of Acids, Bases and Salts",
+   "topic": "Differentiate using criteria",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "basicity",
+    "weak electrolytes vs non-electrolytes"
+   ],
+   "question": "Differentiate between the following pairs using the criteria given:\n(a) Carbonic acid and Acetic acid (Type of salts formed)\n(b) Weak electrolyte and Non-electrolyte (Kind of particles present)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Carbonic acid is dibasic and forms two types of salts: acid salts (e.g. NaHCO3) and normal salts (e.g. Na2CO3). Acetic acid is monobasic and forms only normal salts (e.g. CH3COONa).\n(b) A weak electrolyte contains both ions and (mostly) un-ionised molecules; a non-electrolyte contains only molecules (no ions).",
+   "marking_points": [
+    {
+     "point": "(a) Carbonic acid: acid + normal salts; acetic acid: only normal salt",
+     "marks": 1
+    },
+    {
+     "point": "(b) Weak electrolyte: ions and molecules; non-electrolyte: only molecules",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 27,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electrolysis",
+   "topic": "Electroplating with nickel",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "electroplating with nickel",
+    "active anode"
+   ],
+   "question": "Rohit was trying to electroplate an iron cup with Nickel metal. He has some doubts regarding the electroplating. Help Rohit by answering the following questions:\n[Diagram: electrolytic cell with a battery and ammeter; a thick rod is the anode and the iron cup hangs as the cathode, both dipped in the electrolyte.]\n(a) Why the iron cup is placed at the cathode?\n(b) What happens to the anode after sometime?\n(c) State one condition that is necessary to ensure that the deposit is smooth, firm and even.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Nickel ions (Ni2+) are positive and migrate to the cathode, where they gain electrons and are deposited as nickel metal; so the article to be plated is made the cathode.\n(b) The nickel anode gradually becomes thinner (dissolves) as Ni atoms lose electrons and go into solution as Ni2+ ions.\n(c) A low current for a longer time (or low concentration of the electrolyte / the article kept rotating / clean article).",
+   "marking_points": [
+    {
+     "point": "(a) Ni2+ ions are reduced and deposited at the cathode",
+     "marks": 1
+    },
+    {
+     "point": "(b) Anode becomes thinner / dissolves as Ni2+",
+     "marks": 1
+    },
+    {
+     "point": "(c) Low current for longer time (or equivalent)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(iv)",
+   "q_order": 28,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Esterification",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "esterification",
+    "esters have fruity smell"
+   ],
+   "question": "Sheetal mixed two organic compounds and observed a fruity smell when the product is formed.\n(a) Which are the two organic compounds that she would have mixed?\n(b) State the name of the above reaction.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Ethanol (C2H5OH) and ethanoic acid (CH3COOH), with conc. H2SO4: CH3COOH + C2H5OH -> CH3COOC2H5 + H2O (ethyl ethanoate has a fruity smell).\n(b) Esterification.",
+   "marking_points": [
+    {
+     "point": "(a) Ethanoic acid",
+     "marks": 1
+    },
+    {
+     "point": "(a) Ethanol",
+     "marks": 1
+    },
+    {
+     "point": "(b) Esterification",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 29,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Analytical Chemistry",
+   "topic": "Distinguish using reagents",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "PbCl2 soluble in hot water",
+    "Zn(OH)2 soluble in excess NH4OH"
+   ],
+   "question": "Distinguish between the following pair of compounds using the reagent given in the bracket: (No chemical equation needed)\n(a) Dil. hydrochloric acid and dil. sulphuric acid (using Lead nitrate solution)\n(b) Lead nitrate solution and zinc sulphate solution (using Ammonium hydroxide solution)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Both give a white precipitate with lead nitrate, but the white precipitate of PbCl2 formed with dil. HCl dissolves on heating (soluble in hot water), whereas the white precipitate of PbSO4 formed with dil. H2SO4 does not dissolve on heating.\n(b) With NH4OH, lead nitrate gives a chalky white precipitate insoluble in excess NH4OH, while zinc sulphate gives a gelatinous white precipitate that dissolves in excess NH4OH.",
+   "marking_points": [
+    {
+     "point": "(a) PbCl2 ppt soluble on heating vs PbSO4 ppt insoluble",
+     "marks": 1
+    },
+    {
+     "point": "(b) Pb(OH)2 insoluble in excess vs Zn(OH)2 soluble in excess NH4OH",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 30,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Nitric Acid",
+   "topic": "Identify the gas evolved",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "oxidation of S by HNO3",
+    "reducing property of NH3"
+   ],
+   "question": "Identify the gas evolved during the given reactions:\n(a) Sulphur when treated with conc. nitric acid.\n(b) Ammonia reacts with heated copper oxide.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Gas from sulphur + conc. HNO3",
+     "accepted": [
+      "nitrogen dioxide",
+      "NO2"
+     ]
+    },
+    {
+     "prompt": "Gas from NH3 + heated CuO",
+     "accepted": [
+      "nitrogen",
+      "N2"
+     ]
+    }
+   ],
+   "solution": "(a) Nitrogen dioxide, NO2 (S + 6HNO3 -> H2SO4 + 6NO2 + 2H2O)\n(b) Nitrogen, N2 (3CuO + 2NH3 -> 3Cu + 3H2O + N2)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 31,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Periodic Properties and Variations",
+   "topic": "Periodic table letters",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "electronegativity trend",
+    "atomic size trend",
+    "metallic reactivity"
+   ],
+   "question": "In the above table, H does not represent hydrogen. Some elements are given in their own symbol and position in the periodic table while others are shown with a letter. Answer the following questions using only the letters in the Periodic Table given below:\nPeriod 2: Li (Group 1), D (Group 13), O (Group 16), J (Group 17), Ne (Group 18)\nPeriod 3: A (Group 1), Mg (Group 2), E (Group 13), Si (Group 14), H (Group 16), M (Group 17)\nPeriod 4: R (Group 1), T (Group 2), I (Group 13), Q (Group 15), U (Group 16), Y (Group 18)\n(a) Identify the most electronegative element.\n(b) Identify the most reactive element of Group I.\n(c) Identify the element from Period 3 with least atomic size.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Most electronegative element",
+     "accepted": [
+      "J"
+     ]
+    },
+    {
+     "prompt": "Most reactive element of Group I",
+     "accepted": [
+      "R"
+     ]
+    },
+    {
+     "prompt": "Period 3 element with least atomic size",
+     "accepted": [
+      "M"
+     ]
+    }
+   ],
+   "solution": "(a) J (fluorine; top right of the table, excluding noble gases)\n(b) R (potassium; reactivity of metals increases down Group 1)\n(c) M (chlorine; atomic size decreases across a period)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(iv)",
+   "q_order": 32,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Balanced equations",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "soda lime decarboxylation",
+    "dil. HNO3 with copper",
+    "hydrolysis of AlN"
+   ],
+   "question": "Give balanced equation for the following when\n(a) Ethane is prepared in the laboratory using soda lime.\n(b) Dil. Nitric acid added to copper turnings.\n(c) Warm water added to aluminium nitride.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) C2H5COONa + NaOH --(CaO, heat)--> C2H6 + Na2CO3 (sodium propanoate with soda lime)\n(b) 3Cu + 8HNO3 (dil) -> 3Cu(NO3)2 + 4H2O + 2NO\n(c) AlN + 3H2O -> Al(OH)3 + NH3",
+   "marking_points": [
+    {
+     "point": "(a) C2H5COONa + NaOH -> C2H6 + Na2CO3",
+     "marks": 1
+    },
+    {
+     "point": "(b) 3Cu + 8HNO3 -> 3Cu(NO3)2 + 4H2O + 2NO",
+     "marks": 1
+    },
+    {
+     "point": "(c) AlN + 3H2O -> Al(OH)3 + NH3",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 33,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Chemical Bonding",
+   "topic": "Electron dot structures",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "coordinate bond",
+    "electrovalent bond"
+   ],
+   "question": "Draw the Electron dot (cross dot) structures of the following:\n(a) Hydronium ion (b) Calcium Oxide",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Hydronium ion: the O atom of water (two shared pairs with two H atoms, two lone pairs) donates one lone pair to H+ forming a coordinate bond; [H3O]+ shows three bonding pairs around O and one lone pair, overall charge +1.\n(b) Calcium oxide: Ca (2,8,8,2) transfers two electrons to O (2,6), giving [Ca]2+ and [O]2- (with 8 electrons around O); ionic bond.",
+   "marking_points": [
+    {
+     "point": "(a) H3O+ with coordinate bond and one lone pair on O, + charge",
+     "marks": 1
+    },
+    {
+     "point": "(b) Ca2+ and O2- formed by transfer of two electrons",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 34,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electrolysis",
+   "topic": "Give reasons",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "redox in electrolysis",
+    "saturated vs unsaturated"
+   ],
+   "question": "Give reasons for the following:\n(a) Electrolysis of molten lead bromide is considered a redox reaction.\n(b) Ethane undergoes substitution reaction while ethene undergoes addition reaction.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) At the cathode Pb2+ ions gain electrons (reduction: Pb2+ + 2e- -> Pb) and at the anode Br- ions lose electrons (oxidation: Br- - e- -> Br; 2Br -> Br2); both oxidation and reduction occur simultaneously.\n(b) Ethane is saturated (only C-C single bonds) so its H atoms can only be replaced; ethene is unsaturated with a C=C double bond, so atoms add across the double bond.",
+   "marking_points": [
+    {
+     "point": "(a) Reduction at cathode and oxidation at anode together",
+     "marks": 1
+    },
+    {
+     "point": "(b) Ethane saturated (single bonds); ethene unsaturated (double bond)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 35,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "fill_blank",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Organic Chemistry",
+   "topic": "Homologous series table",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "homologous series",
+    "alkenes"
+   ],
+   "question": "Complete the following table which relates to the homologous series of hydrocarbon:\nAlkane | General formula: CnH2n+2 | Characteristic bond type: (b) ........ | IUPAC name of first member: Methane\nAlkene | General formula: (a) ........ | Characteristic bond type: double bond | IUPAC name of first member: (c) ........",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "General formula of alkenes",
+     "accepted": [
+      "CnH2n"
+     ]
+    },
+    {
+     "prompt": "Characteristic bond type of alkanes",
+     "accepted": [
+      "single bond",
+      "single covalent bond"
+     ]
+    },
+    {
+     "prompt": "IUPAC name of first member of alkenes",
+     "accepted": [
+      "ethene"
+     ]
+    }
+   ],
+   "solution": "(a) CnH2n\n(b) Single bond (C-C single covalent bond)\n(c) Ethene",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(iv)",
+   "q_order": 36,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Analytical Chemistry",
+   "topic": "Select compound from list",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "solubility of PbCl2",
+    "amphoteric hydroxides",
+    "AgCl in NH4OH"
+   ],
+   "question": "You are provided with the list of chemicals mentioned below in the box. Select the appropriate compound from the list for the questions that follow:\nFe(OH)3, AgCl, Ca(OH)2, PbCl2, Na2O, Fe(OH)2, BaCl2, Pb(OH)2\n(a) The compound which dissolves in hot water and not in cold water.\n(b) The compound which dissolves in excess Sodium hydroxide solution.\n(c) The compound which dissolves in Ammonium hydroxide solution.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Dissolves in hot water but not cold",
+     "accepted": [
+      "PbCl2",
+      "lead chloride",
+      "lead(II) chloride"
+     ]
+    },
+    {
+     "prompt": "Dissolves in excess NaOH",
+     "accepted": [
+      "Pb(OH)2",
+      "lead hydroxide",
+      "lead(II) hydroxide"
+     ]
+    },
+    {
+     "prompt": "Dissolves in NH4OH",
+     "accepted": [
+      "AgCl",
+      "silver chloride"
+     ]
+    }
+   ],
+   "solution": "(a) PbCl2\n(b) Pb(OH)2 (forms soluble sodium plumbite)\n(c) AgCl (forms soluble diamminesilver(I) chloride)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 37,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Mole Concept and Stoichiometry",
+   "topic": "Empirical formula from percentage",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "empirical formula from percentage composition"
+   ],
+   "question": "A compound consists of 4.8% carbon and 95.2% bromine by mass. Determine the empirical formula of the compound. [At. Wt: C = 12; Br = 80]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "C: 4.8 / 12 = 0.4\nBr: 95.2 / 80 = 1.19\nRatio C : Br = 0.4/0.4 : 1.19/0.4 = 1 : 2.975 = 1 : 3\nEmpirical formula = CBr3.",
+   "marking_points": [
+    {
+     "point": "Moles C = 0.4, Br = 1.19",
+     "marks": 1
+    },
+    {
+     "point": "Ratio 1:3, empirical formula CBr3",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 38,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Periodic Properties and Variations",
+   "topic": "Definitions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "electronegativity",
+    "isomerism"
+   ],
+   "question": "Define:\n(a) Electronegativity. (b) Isomerism.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Electronegativity is the tendency of an atom in a molecule to attract the shared pair of electrons towards itself.\n(b) Isomerism is the phenomenon in which two or more compounds have the same molecular formula but different structural formulae.",
+   "marking_points": [
+    {
+     "point": "Electronegativity: attraction for shared pair in a molecule",
+     "marks": 1
+    },
+    {
+     "point": "Isomerism: same molecular formula, different structural formula",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 39,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Metallurgy",
+   "topic": "Hall-Heroult process table",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "electrolytic reduction of alumina"
+   ],
+   "question": "Meera is doing an assignment in the extraction of aluminium. Help her to complete the table of Electrolytic reduction of fused alumina to aluminium.\nName of the process: (a) ........ | Electrolyte used: Fused alumina, cryolite and fluorspar | Electrode reaction at the anode: (b) ........ | Electrodes used: (c) ........ | Output: Aluminium",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Hall-Heroult's process\n(b) At anode: O2- - 2e- -> [O]; [O] + [O] -> O2 (oxygen then burns the carbon anode to CO/CO2)\n(c) Anode: thick graphite (carbon) rods; Cathode: carbon (graphite) lining of the iron/steel tank",
+   "marking_points": [
+    {
+     "point": "(a) Hall-Heroult process",
+     "marks": 1
+    },
+    {
+     "point": "(b) O2- - 2e- -> [O]; 2[O] -> O2",
+     "marks": 1
+    },
+    {
+     "point": "(c) Graphite anode and carbon-lined steel tank cathode",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(iv)",
+   "q_order": 40,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Study of Acids, Bases and Salts",
+   "topic": "Zinc compound conversions",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "neutralisation",
+    "precipitation",
+    "thermal decomposition"
+   ],
+   "question": "Write balanced equation for the following conversions (A to C):\nZnO --(A)--> ZnSO4 --(B)--> Zn(OH)2 --(C)--> ZnO",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(A) ZnO + H2SO4 -> ZnSO4 + H2O\n(B) ZnSO4 + 2NaOH -> Zn(OH)2 + Na2SO4 (or ZnSO4 + 2NH4OH -> Zn(OH)2 + (NH4)2SO4)\n(C) Zn(OH)2 --(heat)--> ZnO + H2O",
+   "marking_points": [
+    {
+     "point": "(A) ZnO + H2SO4 -> ZnSO4 + H2O",
+     "marks": 1
+    },
+    {
+     "point": "(B) ZnSO4 + 2NaOH -> Zn(OH)2 + Na2SO4",
+     "marks": 1
+    },
+    {
+     "point": "(C) Zn(OH)2 -> ZnO + H2O on heating",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 41,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Study of Acids, Bases and Salts",
+   "topic": "pH and reactions",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "pH scale",
+    "alkali on ammonium salt",
+    "acid on sulphide"
+   ],
+   "question": "The pH values of three solutions A, B and C are given in the table. Observe the table and answer the questions that follow:\nSolution A: pH 13\nSolution B: pH 2\nSolution C: pH 7.5\n(a) Which solution will liberate ammonia gas when treated with ammonium sulphate?\n(b) Which solution will liberate H2S gas when treated with sodium sulphide?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Liberates ammonia with ammonium sulphate",
+     "accepted": [
+      "A"
+     ]
+    },
+    {
+     "prompt": "Liberates H2S with sodium sulphide",
+     "accepted": [
+      "B"
+     ]
+    }
+   ],
+   "solution": "(a) Solution A (pH 13, a strong alkali) - alkalis displace ammonia from ammonium salts.\n(b) Solution B (pH 2, an acid) - acids liberate H2S from sulphides.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 42,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Hydrogen Chloride",
+   "topic": "Funnel arrangement for HCl",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "back suction",
+    "funnel arrangement"
+   ],
+   "question": "Hydrochloric acid is prepared by dissolving hydrogen chloride in water as per the arrangement given below:\n[Diagram: HCl gas led through a tube into an inverted funnel whose rim just touches the water in a trough; when water rises into the funnel an air gap forms and the water level outside falls.]\n(a) What is the above arrangement called as?\n(b) What precaution needs to be taken during the above method of preparation of hydrochloric acid?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Inverted funnel arrangement (funnel arrangement).\n(b) The rim of the funnel should just touch (barely dip into) the surface of the water; this prevents back suction of water into the generating flask while providing a large surface area for absorption of the highly soluble HCl.",
+   "marking_points": [
+    {
+     "point": "(a) Inverted funnel arrangement",
+     "marks": 1
+    },
+    {
+     "point": "(b) Rim of funnel just touches water to prevent back suction",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Inverted funnel arrangement dissolving HCl gas in water, showing water level and air gap during back suction.",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_chemistry_jbv/p6.jpg"
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 43,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Analytical Chemistry",
+   "topic": "Identify salt W",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "thermal decomposition of Pb(NO3)2",
+    "displacement",
+    "precipitation"
+   ],
+   "question": "Ananya takes a white powdered salt W in a test tube. On heating it produces a buff yellow residue. She dissolves W in water and divides the solution into two parts. To one part she adds Magnesium and to the other part of the solution she adds sodium sulphate solution.\n(a) Identify the compound 'W'\n(b) Name the salt obtained when Magnesium is added to 'W'.\n(c) Write the formula of the precipitate obtained when W is treated with sodium sulphate solution.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Compound W",
+     "accepted": [
+      "lead nitrate",
+      "lead(II) nitrate",
+      "Pb(NO3)2"
+     ]
+    },
+    {
+     "prompt": "Salt formed with magnesium",
+     "accepted": [
+      "magnesium nitrate",
+      "Mg(NO3)2"
+     ]
+    },
+    {
+     "prompt": "Precipitate with sodium sulphate",
+     "accepted": [
+      "PbSO4",
+      "lead sulphate",
+      "lead(II) sulphate"
+     ]
+    }
+   ],
+   "solution": "(a) W is lead nitrate, Pb(NO3)2 (2Pb(NO3)2 -> 2PbO (buff yellow) + 4NO2 + O2).\n(b) Magnesium nitrate (Mg + Pb(NO3)2 -> Mg(NO3)2 + Pb).\n(c) PbSO4 (white precipitate: Pb(NO3)2 + Na2SO4 -> PbSO4 + 2NaNO3).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "8(iv)",
+   "q_order": 44,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Study of Acids, Bases and Salts",
+   "topic": "Methods of salt preparation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "choice of salt preparation method"
+   ],
+   "question": "Name the method used for the preparation of the following salts from the list given below.\nSimple displacement - P\nNeutralisation - Q\nNeutralisation-Titration - R\nPrecipitation - S\n(a) Ammonium sulphate\n(b) Lead carbonate\n(c) Copper (II) chloride",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Method for ammonium sulphate",
+     "accepted": [
+      "R",
+      "neutralisation-titration",
+      "titration"
+     ]
+    },
+    {
+     "prompt": "Method for lead carbonate",
+     "accepted": [
+      "S",
+      "precipitation"
+     ]
+    },
+    {
+     "prompt": "Method for copper(II) chloride",
+     "accepted": [
+      "Q",
+      "neutralisation",
+      "neutralization"
+     ]
+    }
+   ],
+   "solution": "(a) R - Neutralisation by titration (2NH4OH + H2SO4 -> (NH4)2SO4 + 2H2O; both reactants are soluble)\n(b) S - Precipitation (Pb(NO3)2 + Na2CO3 -> PbCO3 + 2NaNO3; insoluble salt)\n(c) Q - Neutralisation (CuO + 2HCl -> CuCl2 + H2O; insoluble base with acid)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  }
+ ]
+}

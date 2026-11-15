@@ -1,0 +1,1949 @@
+{
+ "paper_id": "prelim_physics_avalon",
+ "subject": "physics",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · Avalon Heights",
+ "source": "prelim",
+ "school": "Avalon Heights International School",
+ "exam_label": "Mock 1 Exam October 2025",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Answers to be written on separate paper; first 15 minutes for reading. Section A is compulsory. Attempt any four questions from Section B. Intended marks are given in brackets [ ].",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 40,
+   "rule": "Attempt any four questions from this Section.",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Energy conversion in a pendulum",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "KE → PE from mean to extreme"
+   ],
+   "question": "The energy conversion, when an oscillating pendulum moves from mean to extreme position is:",
+   "options": {
+    "a": "kinetic to potential",
+    "b": "potential to kinetic",
+    "c": "potential to kinetic to potential",
+    "d": "kinetic to potential to kinetic"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) kinetic to potential. Speed falls to zero at the extreme while height increases.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Resistance of metals and semiconductors with temperature",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "metal resistance decreases on cooling",
+    "semiconductor resistance increases on cooling"
+   ],
+   "question": "A piece of copper and another of germanium are cooled from room temperature to 80 K. The resistance of:",
+   "options": {
+    "a": "copper increases, germanium decreases",
+    "b": "copper decreases, germanium increases",
+    "c": "both increases",
+    "d": "both decreases"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) copper decreases, germanium increases. Metals have a positive temperature coefficient; semiconductors like germanium have a negative one.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Meaning of specific heat capacity",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "definition of specific heat capacity"
+   ],
+   "question": "The meaning of the statement specific heat capacity of water is 4200 J / kg K is:",
+   "options": {
+    "a": "water needs 4200 J heat to raise its temperature by 1 K",
+    "b": "to raise the temperature of water, 4200 J of heat is absorbed",
+    "c": "1 kg water absorbs 4200 J heat to increase its temperature by 1 K",
+    "d": "1 kg water must be heated through 1 K temperature to absorb 4200 J heat."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 1 kg water absorbs 4200 J heat to increase its temperature by 1 K.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Wavelength of stationary vibrations in a string",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "number of loops",
+    "λ = 2L/n"
+   ],
+   "question": "What is the ratio of wavelengths between P, Q and R? (Three strings of equal length vibrate: P in 3 loops, Q in 2 loops, R in 1 loop.)",
+   "options": {
+    "a": "3:2:1",
+    "b": "1:2:3",
+    "c": "6:3:2",
+    "d": "2:3:6"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 2:3:6. Each loop = λ/2, so λ = 2L/n: P = 2L/3, Q = L, R = 2L ⇒ 2/3 : 1 : 2 = 2 : 3 : 6.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Three strings of equal length between fixed ends vibrating in 3 loops (P), 2 loops (Q) and 1 loop (R).",
+   "page": 2,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_avalon/p2.jpg"
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Radio-carbon dating",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "carbon-14 dating"
+   ],
+   "question": "To study the age of excavated material of archaeological significance we study the rate of decay of an isotope of",
+   "options": {
+    "a": "uranium",
+    "b": "cobalt",
+    "c": "carbon",
+    "d": "chlorine"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) carbon. Carbon-14 dating is used to find the age of archaeological remains.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Combination of convex and concave lens",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "P = P1 + P2",
+    "f = 1/P"
+   ],
+   "question": "A convex lens is placed in contact with a concave lens of the same focal length. What is the net focal length and power of this combined lens?",
+   "options": {
+    "a": "Infinite focal length and zero power",
+    "b": "Zero focal length and infinite power",
+    "c": "Equal to the focal length of the concave lens and negative power",
+    "d": "Equal to the focal length of the convex lens and positive power"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Infinite focal length and zero power. P = 1/f − 1/f = 0, so f = ∞.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "VR of a movable pulley with a fixed pulley",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "movable pulley VR = 2"
+   ],
+   "question": "In the diagram shown below, the velocity ratio of the arrangement is: (A string fixed to the support passes under a movable pulley P1 carrying the load W, then over a fixed pulley P2; effort E is applied downward at the free end.)",
+   "options": {
+    "a": "0.5",
+    "b": "1",
+    "c": "2",
+    "d": "3"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 2. The load is supported by two strands of the movable pulley P1; the fixed pulley only changes the direction of effort.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Uniform circular motion is accelerated",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "velocity direction changes",
+    "centripetal acceleration"
+   ],
+   "question": "Assertion (A): A body in uniform circular motion is said to be accelerating.\nReason (R): The direction of velocity changes continuously in uniform circular motion.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A",
+    "b": "Both A and R are true, and R is not the correct explanation of A",
+    "c": "A is false but R is true",
+    "d": "A is true but R is false"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both A and R are true, and R is the correct explanation of A. A change in direction of velocity is a change in velocity, i.e. acceleration.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Critical angle and speed of light",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "sin c = 1/μ",
+    "μ = v1/v2"
+   ],
+   "question": "If the speeds of light in a rarer and denser medium are v₁ and v₂ respectively and critical angle for this is c, then:",
+   "options": {
+    "a": "v₁ = v₂ sin c",
+    "b": "v₁ = v₂ cos c",
+    "c": "v₁ = v₂ tan c",
+    "d": "v₁ = v₂ cosec c"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) v₁ = v₂ cosec c. sin c = 1/μ = v₂/v₁ ⇒ v₁ = v₂/sin c = v₂ cosec c.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Rayleigh scattering",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "I ∝ 1/λ⁴"
+   ],
+   "question": "The intensity of scattering is proportional to its wavelength (λ) as:",
+   "options": {
+    "a": "1/λ",
+    "b": "1/λ²",
+    "c": "1/λ³",
+    "d": "1/λ⁴"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 1/λ⁴ (Rayleigh's law of scattering).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Potential of earth wire",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "earth at zero potential"
+   ],
+   "question": "The potential of earth wire is:",
+   "options": {
+    "a": "220 V",
+    "b": "110 V",
+    "c": "0 V",
+    "d": "440 V"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 0 V.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Momentum for equal kinetic energy",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "p = √(2mK)"
+   ],
+   "question": "Two bodies of mass m and 2m have equal kinetic energy. What is the ratio of their momenta?",
+   "options": {
+    "a": "1:2",
+    "b": "1:√2",
+    "c": "√2:1",
+    "d": "2:1"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 1:√2. p = √(2mK) ⇒ p₁/p₂ = √(m/2m) = 1/√2.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Resistance, length and diameter",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "R = ρl/A",
+    "A ∝ d²"
+   ],
+   "question": "The diagram shows different copper conductors of diameters d and 2d and lengths which are multiples of l: A (diameter 2d, length l), B (diameter d, length 2l), C (diameter 2d, length 2l), D (diameter d, length l). The increasing order of their resistances will be:",
+   "options": {
+    "a": "A < B < C < D",
+    "b": "A < C < D < B",
+    "c": "A < D < C < B",
+    "d": "D < A < C < B"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) A < C < D < B. R ∝ l/d²: A = l/4d² (0.25), C = 2l/4d² (0.5), D = l/d² (1), B = 2l/d² (2).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Effect of temperature on sound",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "speed of sound depends on temperature",
+    "frequency set by source"
+   ],
+   "question": "Change in temperature of the medium changes ______ of a sound wave.",
+   "options": {
+    "a": "frequency",
+    "b": "amplitude",
+    "c": "wavelength",
+    "d": "loudness"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) wavelength. Temperature changes the speed of sound; frequency is fixed by the source, so λ = v/f changes.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Latent heat of fusion",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "latent heat vs specific latent heat"
+   ],
+   "question": "The amount of heat energy required to melt a given mass of a substance at its melting point without any rise in temperature is called as the",
+   "options": {
+    "a": "specific heat capacity",
+    "b": "specific latent heat of fusion",
+    "c": "latent heat of fusion",
+    "d": "specific latent heat of freezing"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) latent heat of fusion (for a given mass; per unit mass it would be the specific latent heat of fusion).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(a)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Commercial unit of electrical energy",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Commercial unit of electrical energy"
+   ],
+   "question": "The unit in which the consumer pays the cost of electrical energy consumed is ______ [Wh / kWh / J]",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The unit in which the consumer pays the cost of electrical energy consumed is ______ [Wh / kWh / J]",
+     "accepted": [
+      "kWh",
+      "kilowatt hour"
+     ]
+    }
+   ],
+   "solution": "kWh",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(b)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Natural vibrations",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Natural vibrations"
+   ],
+   "question": "A wire stretched between two fixed supports is plucked exactly in middle and then released. It executes ______ [forced / damped / natural] vibrations.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "A wire stretched between two fixed supports is plucked exactly in middle and then released. It executes ______ [forced / damped / natural] vibrations.",
+     "accepted": [
+      "natural",
+      "natural (free)"
+     ]
+    }
+   ],
+   "solution": "natural (free) vibrations",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(c)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Focal length and lens thickness",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Focal length and lens thickness"
+   ],
+   "question": "The focal length of a thin convex lens is ______ [less than / more than / equal to] that of a thick convex lens.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The focal length of a thin convex lens is ______ [less than / more than / equal to] that of a thick convex lens.",
+     "accepted": [
+      "more than"
+     ]
+    }
+   ],
+   "solution": "more than",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(i)(d)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Class II lever as force multiplier",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Class II lever as force multiplier"
+   ],
+   "question": "A class ______ [I / II / III] lever always acts as a force multiplier.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "A class ______ [I / II / III] lever always acts as a force multiplier.",
+     "accepted": [
+      "II",
+      "2",
+      "second"
+     ]
+    }
+   ],
+   "solution": "II (effort arm is always longer than load arm)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(i)(e)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Couple produces rotation",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Couple produces rotation"
+   ],
+   "question": "A ______ [torque / couple] is always needed to produce rotation.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "A ______ [torque / couple] is always needed to produce rotation.",
+     "accepted": [
+      "torque"
+     ]
+    }
+   ],
+   "solution": "torque (a single force about a fixed pivot can also produce rotation; a couple is not always needed)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(i)(f)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Microwaves in GPS",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Microwaves in GPS"
+   ],
+   "question": "A person uses GPS device to locate his missing car in a crowded city. The system primarily uses ______ [infrared / microwave] radiation.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "A person uses GPS device to locate his missing car in a crowded city. The system primarily uses ______ [infrared / microwave] radiation.",
+     "accepted": [
+      "microwave",
+      "microwaves"
+     ]
+    }
+   ],
+   "solution": "microwave",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "match",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Levers in the human body",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "forearm is class III lever",
+    "standing on toes is class II lever"
+   ],
+   "question": "Match the movement of the body part in Column A to the class of lever in Column B.\nColumn A: (a) Lifting a dumbbell; (b) Standing on toes\nColumn B: Class I; Class II; Class III",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Lifting a dumbbell",
+     "accepted": [
+      "Class III",
+      "III",
+      "3"
+     ]
+    },
+    {
+     "prompt": "Standing on toes",
+     "accepted": [
+      "Class II",
+      "II",
+      "2"
+     ]
+    }
+   ],
+   "solution": "(a) Lifting a dumbbell — Class III (elbow is fulcrum, biceps effort between fulcrum and load).\n(b) Standing on toes — Class II (toes are fulcrum, body weight between fulcrum and calf-muscle effort).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 22,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Tension, frequency and pitch",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "PR = time period",
+    "frequency increases with tension",
+    "pitch"
+   ],
+   "question": "The displacement – time graph of a sound wave produced by a vibrating wire is shown (one complete wave from P through crest Q and trough S to R).\n(a) How will you adjust the tension in the wire, to reduce the length of PR?\n(b) Which characteristic of sound is affected by the reduction in the length?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) PR represents the time period of one vibration. To reduce it (increase frequency), increase the tension in the wire.\n(b) Pitch — it increases (shriller sound).",
+   "marking_points": [
+    {
+     "point": "(a) Increase the tension",
+     "marks": 1
+    },
+    {
+     "point": "(b) Pitch (increases)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "diagram",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Heat capacity vs mass graph",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "slope of C vs m = specific heat capacity",
+    "low SHC heats faster"
+   ],
+   "question": "In the physics laboratory, various blocks of materials labelled A and B, each with masses ranging from 10 g to 50 g, are utilised to determine their respective heat capacities. A graph of heat capacity (y-axis) against mass (x-axis) gives two straight lines through the origin, A being steeper than B.\n(a) Plot the graph illustrating the relationship between the mass and specific heat capacity of materials A and B.\n(b) Which material is a relatively better conductor?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Slope of heat capacity vs mass = specific heat capacity, so c_A > c_B (both constant).\n(a) Specific heat capacity (y) vs mass (x): two horizontal straight lines parallel to the mass axis, line A above line B.\n(b) B — it has the lower specific heat capacity, so it heats up (and conducts) more readily.",
+   "marking_points": [
+    {
+     "point": "(a) Horizontal lines, A above B",
+     "marks": 1
+    },
+    {
+     "point": "(b) B",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Graph of heat capacity vs mass with two straight lines from the origin, A steeper than B.",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_avalon/p5.jpg"
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 24,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Colour code of wires",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "new international colour convention"
+   ],
+   "question": "According to the new colour convention which colour of wire is connected to\n(a) the metal body of the appliance\n(b) the switch of the appliance.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Green (or green-yellow) — earth wire.\n(b) Brown — live wire (the switch is always in the live wire).",
+   "marking_points": [
+    {
+     "point": "(a) Green / green-yellow (earth)",
+     "marks": 1
+    },
+    {
+     "point": "(b) Brown (live)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 25,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Infrared photography in fog",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "infrared",
+    "less scattering of longer wavelength"
+   ],
+   "question": "An electromagnetic radiation is used for photography in fog.\n(a) Identify the radiation.\n(b) Why is this radiation mentioned in part (a), ideal for this purpose?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Infrared radiation.\n(b) It has a long wavelength, so it is scattered very little by fog/mist particles and penetrates through fog.",
+   "marking_points": [
+    {
+     "point": "(a) Infrared",
+     "marks": 1
+    },
+    {
+     "point": "(b) Long wavelength — least scattered, penetrates fog",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 26,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Power of lens and curvature",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "more curvature → shorter focal length → more power"
+   ],
+   "question": "Assuming all lenses shown below are of the same material, state which lens has the maximum power. Justify. (Four biconvex lenses P, Q, R, S; Q is the thickest/most curved, P the thinnest.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Q has the maximum power. Being the thickest (most curved surfaces), it bends light the most and has the shortest focal length; P = 1/f is therefore greatest.",
+   "marking_points": [
+    {
+     "point": "Q",
+     "marks": 1
+    },
+    {
+     "point": "Thickest/most curved ⇒ shortest focal length ⇒ greatest power",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Four biconvex lenses P, Q, R, S of slightly different sizes; Q is the thickest and P the thinnest.",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_avalon/p6.jpg"
+  },
+  {
+   "q_label": "3(v)",
+   "q_order": 27,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Deviation by total internal reflection in equilateral prism",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "normal incidence",
+    "TIR deviation = 180° − 2i"
+   ],
+   "question": "A ray of light is incident perpendicular on one face of an equilateral triangle prism. It meets the second face at an angle of incidence of 60°, is totally internally reflected, and emerges normally through the base. Calculate the angle of deviation.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "At the first face the ray enters undeviated (normal incidence). At the second face i = 60° (> critical angle ≈ 42°), so it is totally reflected; deviation = 180° − 2 × 60° = 60°. It leaves the base normally (no further deviation). Total deviation = 60°.",
+   "marking_points": [
+    {
+     "point": "TIR at second face with i = 60°",
+     "marks": 1
+    },
+    {
+     "point": "Deviation = 180° − 2 × 60° = 60°",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Equilateral prism; ray enters one face normally, meets the other face at 60° and reflects straight down through the base.",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_avalon/p6.jpg"
+  },
+  {
+   "q_label": "3(vi)",
+   "q_order": 28,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Positive and negative work",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "work negative when force opposes displacement"
+   ],
+   "question": "State if the following quantities are positive or negative.\n(a) Work done by the resistive force of air on a vibrating pendulum in bringing it to rest.\n(b) Work done by a man in lifting a bucket out of a well by means of a rope tied to the bucket.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Negative — air resistance acts opposite to displacement.\n(b) Positive — the force (upward pull) is along the displacement.",
+   "marking_points": [
+    {
+     "point": "(a) Negative",
+     "marks": 1
+    },
+    {
+     "point": "(b) Positive",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "3(vii)",
+   "q_order": 29,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Alpha and beta decay on N–Z graph",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "β decay: Z+1, N−1",
+    "α decay: Z−2, N−2",
+    "A = Z + N"
+   ],
+   "question": "The graph illustrates the correlation between the number of protons (x-axis) and the number of neutrons (y-axis) for the element C in the periodic table (C is plotted at 92 protons, 147 neutrons). The element is denoted by a letter rather than its conventional symbol. It undergoes radioactive decay and releases radioactive rays.\n(a) Write the chemical symbol along with the mass number and atomic number for the element denoted as C.\n(b) Plot on the graph,\n(i) The daughter element after the emission of beta radiation by the element C.\n(ii) The daughter element, as indicated in the previous answer, if it undergoes alpha decay.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Z = 92, N = 147 ⇒ A = 239: ²³⁹₉₂C (it is uranium-239, ²³⁹₉₂U).\n(b)(i) β-decay: Z → 93, N → 146; plot at (93, 146) [²³⁹₉₃Np].\n(ii) α-decay: Z → 91, N → 144; plot at (91, 144) [²³⁵₉₁Pa].",
+   "marking_points": [
+    {
+     "point": "(a) ²³⁹₉₂C (A = 239, Z = 92)",
+     "marks": 1
+    },
+    {
+     "point": "(b)(i) Point at (93, 146)",
+     "marks": 1
+    },
+    {
+     "point": "(b)(ii) Point at (91, 144)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Graph with protons (80-95) on x-axis and neutrons (140-150) on y-axis; element C plotted at about (92, 147).",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_avalon/p7.jpg"
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 30,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Principle of moments on a lifting bar",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "principle of moments",
+    "1 kgf = 10 N"
+   ],
+   "question": "The force F is necessary to hold steady, in the position shown, a mass of W kg. The mass of lifting bar is negligible unless otherwise stated. (g = 10 m/s²) (F acts downward at 1.5 m on one side of the pivot; W hangs at 0.3 m on the other side.)\n(a) If W = 60 kgf, what is F?\n(b) If W = 100 kgf, and F = 150 N, which side and where should another mass of 10 kg be suspended from the pivot to keep the bar in the same position?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) F × 1.5 = 600 N × 0.3 ⇒ F = 180/1.5 = 120 N.\n(b) Load moment = 1000 × 0.3 = 300 N m; effort moment = 150 × 1.5 = 225 N m. Extra moment needed on the effort side = 75 N m. 10 kg = 100 N ⇒ d = 75/100 = 0.75 m. Hang the 10 kg mass on the side of F (effort side), 0.75 m from the pivot.",
+   "marking_points": [
+    {
+     "point": "(a) F = 120 N",
+     "marks": 1
+    },
+    {
+     "point": "(b) Moments 300 N m vs 225 N m; 75 N m short",
+     "marks": 1
+    },
+    {
+     "point": "(b) 10 kg on the F side at 0.75 m from pivot",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Lifting bar on a pivot: force F downward at the left end 1.5 m from the pivot, load W kg hung 0.3 m to the right.",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_avalon/p7.jpg"
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 31,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Critical angle and prism angle from ray geometry",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "grazing emergence at critical angle",
+    "critical angle smaller for violet"
+   ],
+   "question": "The diagram shows the path of a blue ray through a right-angled prism ABC (right angle at B). The blue ray enters face AB normally, travels to face AC and emerges grazing along AC; the angle between the ray inside the prism and the face AC (towards C) is marked 133°.\n(a) Calculate the critical angle of the material of the prism for blue colour.\n(b) What is the measure of angle of this prism?\n(c) Which colour should replace the blue ray, for the ray to undergo total internal reflection?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) The ray makes 180° − 133° = 47° with face AC, so the angle of incidence at AC = 90° − 47° = 43°. Since it emerges grazing (r = 90°), critical angle for blue = 43°.\n(b) The ray is perpendicular to AB, so the angle of the prism A = angle of incidence at AC = 43°.\n(c) Violet (or indigo) — it has a higher refractive index, so its critical angle is less than 43° and it will be totally internally reflected.",
+   "marking_points": [
+    {
+     "point": "(a) Critical angle = 43°",
+     "marks": 1
+    },
+    {
+     "point": "(b) Angle of prism = 43°",
+     "marks": 1
+    },
+    {
+     "point": "(c) Violet / indigo",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Right-angled prism ABC with right angle at B; blue ray enters AB normally, meets AC (133° marked) and emerges along AC.",
+   "page": 8,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_avalon/p8.jpg"
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 32,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Block and tackle: MA and power",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "VR = number of strands",
+    "MA = η × VR",
+    "power = work/time"
+   ],
+   "question": "A pulley system has a velocity ratio 5. Draw a neat, labelled diagram of the pulley system to lift a load by applying effort in a convenient direction. Mark the tension in your diagram.\n(a) If the efficiency of the system is 80%, find its mechanical advantage.\n(b) If a load of 10 kgf is pulled up by a distance of 2 m in 10 s, calculate the power developed by the effort.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Diagram: block and tackle with 3 pulleys in the upper fixed block and 2 in the lower movable block; string tied to the hook of the lower block, passing alternately round the pulleys; effort applied downward at the free end from the upper block; tension T in each of the 5 strands supporting the lower block; load L hung from the lower block.\n(a) MA = η × VR = 0.8 × 5 = 4.\n(b) Work on load = 100 N × 2 m = 200 J. Work by effort = 200/0.8 = 250 J. Power = 250/10 = 25 W. (Useful power output = 20 W.)",
+   "marking_points": [
+    {
+     "point": "Correct diagram: 5 strands, effort downward, tensions marked",
+     "marks": 1
+    },
+    {
+     "point": "(a) MA = 4",
+     "marks": 1
+    },
+    {
+     "point": "(b) Work by effort = 200/0.8 = 250 J",
+     "marks": 1
+    },
+    {
+     "point": "(b) Power = 25 W",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 33,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Partly covered lens",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "every part of a lens forms the full image",
+    "brightness reduced"
+   ],
+   "question": "A convex lens of focal length 15 cm is placed on a stand. An object (a lighted candle) is positioned 30 cm from the lens. Now, the upper half of the lens is covered with an opaque black strip, leaving only the lower half uncovered.\n(a) Will the lens still produce an image of the candle?\n(b) Describe how the characteristics of the image (brightness, size, and position) will change.\n(c) Draw a ray diagram to justify your answer.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Yes, a complete image is still formed.\n(b) Brightness decreases (about half, as fewer rays pass); size and position are unchanged — real, inverted, same size image at 30 cm (2F) on the other side.\n(c) Ray diagram: candle at 2F; rays from the candle tip that strike the lower uncovered half (e.g. one passing through the focus F on the object side, which emerges parallel to the axis, and another striking the lower half at any point) still meet at the tip of the inverted image at 2F′; the upper half shown blocked. This shows the full image forms, only with less light.",
+   "marking_points": [
+    {
+     "point": "(a) Yes",
+     "marks": 1
+    },
+    {
+     "point": "(b) Dimmer; size and position unchanged (at 2F′, same size)",
+     "marks": 1
+    },
+    {
+     "point": "(c) Correct ray diagram through lower half",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 34,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Fuse and two-way switch placement",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "fuse and switch in live wire",
+    "dual control switch"
+   ],
+   "question": "Purvi's friend Tim connected a fuse to his oven. He wants to control the oven from two different locations. Shown is the circuit diagram: one end of the oven coil goes to two two-way switches (connected by two traveller wires), whose other common terminal goes to terminal B; from the oven, one wire goes through a fuse to terminal C (marked with the earth symbol) and another wire goes to terminal A.\n(a) Which one of the two, A or B should be a live wire?\n(b) In the event of an overload, will the fuse serve its purpose?\n(c) If we interchange the A and B wires in the circuit, will the circuit work?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) B — the switches must be in the live wire.\n(b) No — the fuse is connected in the earth line (C), not in the live wire, so it will not cut off the live supply when there is an overload.\n(c) Yes, the oven will still switch on and off from both places, but it becomes unsafe: the switches would then be in the neutral wire, so the oven stays connected to live even when switched off.",
+   "marking_points": [
+    {
+     "point": "(a) B",
+     "marks": 1
+    },
+    {
+     "point": "(b) No — fuse is not in the live wire",
+     "marks": 1
+    },
+    {
+     "point": "(c) Works but unsafe (switches in neutral)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Oven coil connected through two two-way switches to terminal B; separate wires from the oven to terminal A and, through a fuse, to an earthed terminal C.",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_avalon/p9.jpg"
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 35,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Echo from a cliff",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "2d = vt",
+    "simultaneous equations"
+   ],
+   "question": "A man stands in front of the cliff and fires a gun. He hears an echo after 4 seconds. On moving closer to the cliff by 41.25 m and again firing a gun, he hears an echo after 3.75 seconds. Calculate:\n(a) speed of sound\n(b) distance of man from the cliff to his initial position",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Let initial distance = d. 2d = 4v ... (1); 2(d − 41.25) = 3.75v ... (2).\nSubtracting: 82.5 = 0.25v ⇒ (a) v = 330 m/s.\n(b) d = 4v/2 = 2 × 330 = 660 m.",
+   "marking_points": [
+    {
+     "point": "2d = 4v and 2(d − 41.25) = 3.75v",
+     "marks": 1
+    },
+    {
+     "point": "82.5 = 0.25 v",
+     "marks": 1
+    },
+    {
+     "point": "(a) v = 330 m/s",
+     "marks": 1
+    },
+    {
+     "point": "(b) d = 660 m",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 36,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Natural frequency, effective length and resonance",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "effective length to centre of gravity",
+    "resonance"
+   ],
+   "question": "Study the diagram: four pendulums of equal thread length hang from a common support — X: bob completely filled with mercury (CG at centre); Y: hollow bob half filled with water; Z: hollow bob (empty); W: hollow bob mostly filled with water.\n(a) Arrange the following pendulums according to their natural frequencies (use <, >, =).\n(b) If the pendulum Z is initiated into oscillations, which pendulum among the others will exhibit the highest amplitude of vibration?\n(c) Justify your answer for (a) and (b).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) f_X = f_Z > f_W > f_Y.\n(b) X.\n(c) Natural frequency depends on the effective length (support to centre of gravity of the bob): f ∝ 1/√L. X (completely filled) and Z (hollow) have their CG at the centre of the bob, so they have equal, shortest effective lengths and equal, highest frequency. Water in W and Y lowers the CG; it is lowest for the half-filled Y, so Y has the longest effective length and lowest frequency. When Z oscillates, X has the same natural frequency, so it resonates and vibrates with the largest amplitude.",
+   "marking_points": [
+    {
+     "point": "(a) f_X = f_Z > f_W > f_Y",
+     "marks": 1
+    },
+    {
+     "point": "(b) X (resonance)",
+     "marks": 1
+    },
+    {
+     "point": "(c) Frequency depends on effective length to CG; X and Z equal ⇒ resonance",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Four pendulums X (mercury-filled bob, CG at centre), Y (bob half-filled with water), Z (hollow bob), W (bob mostly filled with water) on equal threads from one support.",
+   "page": 9,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_avalon/p9.jpg"
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 37,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Centre of gravity of a cone",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 4,
+   "concepts": [
+    "CG of solid cone at h/4 from base",
+    "CG of hollow cone at h/3 from base"
+   ],
+   "question": "Pavel took an earthen pot which was filled with water up to its brim. The earthen pot was conical in shape and kept with its apex in downward direction.\n(a) If the vertical height of the earthen pot is 12 cm, where does the centre of gravity lie?\n(b) Pavel poured out all the water from the pot. Will its centre of gravity shift towards the open end or towards the apex?\n(c) Pavel wanted to grow a plant in the given pot. So, he filled it completely again with some soil. What will be the new position of its centre of gravity?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Filled pot behaves as a solid cone: CG lies on the axis at h/4 = 3 cm from the open end (base), i.e. 9 cm above the apex.\n(b) Empty pot is a hollow cone with CG at h/3 = 4 cm from the open end (8 cm above the apex) — it shifts towards the apex.\n(c) Completely filled again (solid cone): CG returns to 3 cm below the open end, i.e. 9 cm above the apex.",
+   "marking_points": [
+    {
+     "point": "(a) 3 cm from open end / 9 cm from apex",
+     "marks": 1
+    },
+    {
+     "point": "(b) Towards the apex",
+     "marks": 1
+    },
+    {
+     "point": "(c) Back to 9 cm from apex (3 cm from open end)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 38,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Final temperature with ice below 0 °C",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 4,
+   "concepts": [
+    "heat gained = heat lost",
+    "latent heat of fusion"
+   ],
+   "question": "A vessel of negligible thermal capacity contains 60 g of water at 40 °C. In this water is placed 10 g of ice at −10 °C. If all the ice melts, calculate the final temperature of water.\nSpecific heat capacity of ice = 2100 J/kg °C\nSpecific heat capacity of water = 4200 J/kg °C\nSpecific latent heat of fusion of ice = 336 × 10³ J/kg",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Let final temperature = T.\nHeat gained by ice: −10 → 0 °C: 0.01 × 2100 × 10 = 210 J; melting: 0.01 × 336000 = 3360 J; 0 → T: 0.01 × 4200 × T = 42T.\nHeat lost by water: 0.06 × 4200 × (40 − T) = 10080 − 252T.\n210 + 3360 + 42T = 10080 − 252T ⇒ 294T = 6510 ⇒ T ≈ 22.1 °C.",
+   "marking_points": [
+    {
+     "point": "Heat to warm and melt ice = 210 + 3360 J",
+     "marks": 1
+    },
+    {
+     "point": "Heat to warm melted water = 42T; heat lost = 252(40 − T)",
+     "marks": 1
+    },
+    {
+     "point": "Equation 3570 + 42T = 10080 − 252T",
+     "marks": 1
+    },
+    {
+     "point": "T ≈ 22.1 °C",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 39,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Penetrating power and absorption of radiations",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "gamma rays absorbed by dense material",
+    "aluminium stops α and β"
+   ],
+   "question": "(a) A mass of lead is embedded in a block of wood. Radiations from a radioactive source incident on the side of the block produce a shadow on a fluorescent screen placed beyond the block. How will the shadow of wood and lead differ? Give reason for the difference.\n(b) If the block of wood is replaced by a block of aluminium, will there be any change in the shadow?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) The lead casts a dark (sharp) shadow while the wood casts only a faint shadow. Lead, being very dense, absorbs the penetrating (γ) radiation almost completely; wood absorbs very little, so most radiation passes through and the screen still glows there.\n(b) Yes — aluminium absorbs more radiation than wood (it stops α and β completely and some γ), so the shadow of the block becomes darker, though lead's shadow remains the darkest.",
+   "marking_points": [
+    {
+     "point": "(a) Lead: dark shadow; wood: faint shadow",
+     "marks": 1
+    },
+    {
+     "point": "(a) Reason: lead (dense) absorbs radiation, wood lets most through",
+     "marks": 1
+    },
+    {
+     "point": "(b) Yes, aluminium block's shadow is darker than wood's",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 40,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work against friction on an inclined plane",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 4,
+   "concepts": [
+    "work = F × d",
+    "PE = mgh",
+    "friction work"
+   ],
+   "question": "A block of mass 30 kg is pulled up a slope (shown in the diagram) with a constant speed by applying a force of 200 N parallel to the slope. A and B are the initial and final positions of the block (AB = 3 m along the slope, vertical height BC = 1.5 m). Calculate the force of friction offered by the surface AB. (g = 10 m/s²)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Work done by applied force = 200 × 3 = 600 J.\nGain in PE = mgh = 30 × 10 × 1.5 = 450 J (no KE gain, constant speed).\nWork against friction = 600 − 450 = 150 J ⇒ friction = 150/3 = 50 N.",
+   "marking_points": [
+    {
+     "point": "Work by force = 600 J",
+     "marks": 1
+    },
+    {
+     "point": "PE gain = 450 J",
+     "marks": 1
+    },
+    {
+     "point": "Friction = 150/3 = 50 N",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 41,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Resonance in a car on speed ridges",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "resonance",
+    "forced vibration frequency equals natural frequency"
+   ],
+   "question": "A car is travelling on a road that has evenly spaced speed ridges. As the car continues to move over these ridges at a certain constant speed, the vehicle suddenly begins to vibrate more than usual, and the passengers feel repeated jolts.\n(a) Explain why the vibrations of the car increased at that specific speed.\n(b) Mention one possible risk of this situation and suggest one preventive measure.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) At that speed the frequency at which the wheels strike the evenly spaced ridges (periodic force) becomes equal to the natural frequency of the car's body/suspension. Resonance occurs, so the car vibrates with large amplitude.\n(b) Risk: the large-amplitude vibrations can damage the suspension/parts or make the driver lose control (and cause discomfort/injury). Prevention: change (reduce) the speed so the forcing frequency no longer matches the natural frequency, and use good shock absorbers (damping).",
+   "marking_points": [
+    {
+     "point": "(a) Forcing frequency from ridges equals natural frequency of car",
+     "marks": 1
+    },
+    {
+     "point": "(a) Resonance ⇒ large amplitude",
+     "marks": 1
+    },
+    {
+     "point": "(b) A valid risk",
+     "marks": 1
+    },
+    {
+     "point": "(b) A valid preventive measure (change speed / shock absorbers)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 42,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Power, resistance and mass of wires",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 4,
+   "concepts": [
+    "R = ρl/A",
+    "P = V²/R",
+    "mass = density × volume"
+   ],
+   "question": "A nichrome wire X with length l and cross-sectional area A is connected to a 10 V source and another nichrome wire Y with length 2l and cross-sectional area A/2, is connected to a 20 V source.\n(a) Compare the electrical power consumed by each wire.\n(b) Compare the masses of these wires. (Given that the density of nichrome wire is d)\n(c) State true or false: Wire X and wire Y both show the same rise in temperature at the same time.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "R_X = ρl/A = R; R_Y = ρ(2l)/(A/2) = 4R.\n(a) P_X = 10²/R = 100/R; P_Y = 20²/4R = 100/R ⇒ P_X : P_Y = 1 : 1.\n(b) m_X = d × lA; m_Y = d × 2l × A/2 = d lA ⇒ 1 : 1.\n(c) True — equal power, equal mass and same material (same specific heat capacity), so the same rise in temperature in the same time.",
+   "marking_points": [
+    {
+     "point": "(a) R_Y = 4R_X; P_X : P_Y = 1 : 1",
+     "marks": 1
+    },
+    {
+     "point": "(b) m_X : m_Y = 1 : 1",
+     "marks": 1
+    },
+    {
+     "point": "(c) True",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 43,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Refractive index from glass to air and critical angle",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "ᵍμₐ = 1/ᵃμg",
+    "critical angle",
+    "factors affecting critical angle"
+   ],
+   "question": "The refractive index of glass with respect to air is expressed as ₐμ_g = sin i / sin r.\n(a) Write the expression for refractive index when light travels from glass to air.\n(b) If angle r = 90°, what is the corresponding angle i called?\n(c) State the two factors which affect the angle i in (b).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) _gμ_a = sin i / sin r, where i is the angle in glass and r the angle in air; also _gμ_a = 1/ₐμ_g.\n(b) The critical angle (C).\n(c) (1) The nature (refractive index) of the pair of media — greater refractive index, smaller critical angle; (2) the colour (wavelength) of light — critical angle is less for violet than for red. (Temperature also affects it.)",
+   "marking_points": [
+    {
+     "point": "(a) _gμ_a = sin i / sin r (i in glass) = 1/ₐμ_g",
+     "marks": 1
+    },
+    {
+     "point": "(b) Critical angle",
+     "marks": 1
+    },
+    {
+     "point": "(c) Refractive index/nature of medium and colour (wavelength) of light",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 44,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Lens formula and magnification",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "real inverted image ⇒ convex lens",
+    "1/v − 1/u = 1/f",
+    "m = v/u"
+   ],
+   "question": "A lens of focal length 20 cm forms an inverted image at a distance of 60 cm from the lens.\n(a) Identify the lens.\n(b) How far is the lens present in front of the object?\n(c) Calculate the magnification of the image.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Convex lens (only a convex lens forms an inverted, real image).\n(b) v = +60 cm, f = +20 cm: 1/v − 1/u = 1/f ⇒ 1/u = 1/60 − 1/20 = −2/60 ⇒ u = −30 cm. The object is 30 cm in front of the lens.\n(c) m = v/u = 60/(−30) = −2 (image twice the size, inverted).",
+   "marking_points": [
+    {
+     "point": "(a) Convex lens",
+     "marks": 1
+    },
+    {
+     "point": "(b) Lens formula substitution",
+     "marks": 0.5
+    },
+    {
+     "point": "(b) u = 30 cm",
+     "marks": 1
+    },
+    {
+     "point": "(c) m = −2",
+     "marks": 1.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "9(i)",
+   "q_order": 45,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Explanations: latent heat, SHC of water, white sky",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "latent heat absorbed on melting",
+    "high SHC of water",
+    "scattering"
+   ],
+   "question": "Explain the following:\n(a) The temperature of the surrounding starts falling when ice in a frozen lake starts melting.\n(b) Water is used in hot water bottles for fomentation.\n(c) The sky at noon appears white.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Melting ice absorbs a large amount of latent heat of fusion (336 J/g) from the surroundings, so the surroundings cool.\n(b) Water has a high specific heat capacity; it stores a lot of heat and gives it out slowly over a long time while cooling.\n(c) At noon the sun is overhead and light travels a shorter path through the atmosphere, so little light is scattered selectively; also the larger dust/water particles scatter all colours almost equally — so all colours reach us and the sky appears white.",
+   "marking_points": [
+    {
+     "point": "(a) Ice absorbs latent heat from surroundings",
+     "marks": 1
+    },
+    {
+     "point": "(b) High specific heat capacity of water",
+     "marks": 1
+    },
+    {
+     "point": "(c) Short path / large particles scatter all colours equally",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "9(ii)",
+   "q_order": 46,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Apparent depth and refractive index",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "apparent depth = real depth/μ",
+    "refraction"
+   ],
+   "question": "A glass slab is placed over a printed sheet. The slab is 6 cm thick and has a refractive index of 1.5. A student looks vertically down at the print through the slab and feels the text appears closer than it actually is.\n(a) What is the apparent thickness of the glass slab as seen by the student?\n(b) Which phenomenon is responsible for this effect?\n(c) If the same sheet is viewed through water of depth 6 cm, will the apparent depth be more, less, or equal compared to the glass slab? Justify your answer.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Apparent thickness = real thickness/μ = 6/1.5 = 4 cm.\n(b) Refraction of light (from glass to air).\n(c) More — water has a lower refractive index (1.33) than glass, so apparent depth = 6/1.33 ≈ 4.5 cm > 4 cm.",
+   "marking_points": [
+    {
+     "point": "(a) 4 cm",
+     "marks": 1
+    },
+    {
+     "point": "(b) Refraction",
+     "marks": 1
+    },
+    {
+     "point": "(c) More, since μ_water < μ_glass (≈ 4.5 cm)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "9(iii)",
+   "q_order": 47,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Cells in series with internal resistance",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 4,
+   "concepts": [
+    "emf and internal resistance in series",
+    "terminal voltage",
+    "H = I²Rt"
+   ],
+   "question": "Figure shows a circuit diagram containing 12 cells (in series), each of emf 1.5 V and internal resistance 0.25 Ω, a key, an ammeter of resistance 0.8 Ω (R1), a network R2 in which a 4 Ω and an 8 Ω resistor in series are connected in parallel with a 12 Ω resistor, and a resistor R3 = 2.2 Ω, all in series. Calculate:\n(a) the current in the circuit\n(b) the terminal voltage of the battery\n(c) the p.d. across 4 Ω resistor\n(d) the electrical energy spent in 1 minute in the ammeter",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Emf = 12 × 1.5 = 18 V; internal resistance r = 12 × 0.25 = 3 Ω.\nR2 = (4 + 8) ∥ 12 = 6 Ω. External R = 0.8 + 6 + 2.2 = 9 Ω.\n(a) I = 18/(9 + 3) = 1.5 A.\n(b) Terminal voltage = E − Ir = 18 − 1.5 × 3 = 13.5 V.\n(c) Current divides equally between the 12 Ω branches: 0.75 A through 4 Ω + 8 Ω; V(4 Ω) = 0.75 × 4 = 3 V.\n(d) H = I²Rt = 1.5² × 0.8 × 60 = 108 J.",
+   "marking_points": [
+    {
+     "point": "(a) I = 1.5 A",
+     "marks": 1
+    },
+    {
+     "point": "(b) V = 13.5 V",
+     "marks": 1
+    },
+    {
+     "point": "(c) 3 V",
+     "marks": 1
+    },
+    {
+     "point": "(d) 108 J",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  }
+ ]
+}

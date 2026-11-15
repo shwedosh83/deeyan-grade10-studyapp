@@ -1,0 +1,1921 @@
+{
+ "paper_id": "prelim_history_civics_cathedral",
+ "subject": "history_civics",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · Cathedral",
+ "source": "prelim",
+ "school": "Cathedral and John Connon School",
+ "exam_label": "Prelim 2",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Attempt all questions from Part I (compulsory). In Part II attempt any two questions from Section A and any three questions from Section B. Intended marks are given in brackets []. Fifteen minutes are for reading the paper.",
+ "sections": [
+  {
+   "name": "Part I",
+   "total_marks": 30,
+   "rule": "Attempt all questions from this Part",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Part II Section A",
+   "total_marks": 20,
+   "rule": "Attempt any two questions from this Section",
+   "compulsory": false,
+   "attempt_n": 2,
+   "out_of": 3
+  },
+  {
+   "name": "Part II Section B",
+   "total_marks": 30,
+   "rule": "Attempt any three questions from this Section",
+   "compulsory": false,
+   "attempt_n": 3,
+   "out_of": 5
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(a)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Nominated members of Rajya Sabha and the electoral college",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "nominated members",
+    "Electoral College of President"
+   ],
+   "question": "Mrinal Sen became a member of the Rajya Sabha but was not part of the Electoral College as",
+   "options": {
+    "a": "He won the election",
+    "b": "He was nominated for his contribution to cinema",
+    "c": "He was a party leader",
+    "d": "He was appointed by the PM"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) He was nominated for his contribution to cinema. Nominated members of Parliament do not vote in the presidential election; only elected MPs and MLAs form the Electoral College.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(b)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "President and Vice President",
+   "topic": "Nomination for Presidential election",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "election of the President"
+   ],
+   "question": "If a candidate wants to contest the Presidential election, which situation makes his nomination valid?",
+   "options": {
+    "a": "He is nominated by 5 MPs only",
+    "b": "He is nominated by 10 proposers and 10 seconders who are members of the electoral college",
+    "c": "He files his nomination without any proposer or seconder",
+    "d": "He is nominated by 50 proposers and 50 seconders who are members of the electoral college"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) He is nominated by 50 proposers and 50 seconders who are members of the electoral college. The nomination paper of a presidential candidate must be subscribed by at least 50 electors as proposers and 50 as seconders.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(c)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "Collective and individual responsibility",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 3,
+   "concepts": [
+    "collective responsibility",
+    "individual responsibility"
+   ],
+   "question": "Assertion (A): The decisions taken in the meetings of the Cabinet are equally applicable to all the Ministers.\nReasoning (R): The Ministers are individually responsible to the President.",
+   "options": {
+    "a": "(A) is true, but (R) is false.",
+    "b": "(A) is false, but (R) is true.",
+    "c": "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+    "d": "Both (A) and (R) are false."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Both (A) and (R) are true, but (R) is not the correct explanation of (A). A follows from collective responsibility (all ministers are bound by Cabinet decisions); R describes individual responsibility (ministers hold office during the pleasure of the President), which does not explain A.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(d)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Writ of Mandamus",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "writs",
+    "Mandamus"
+   ],
+   "question": "A student is denied admission even though she meets all the eligibility criteria. She appeals to the court to order the college to perform its duty and grant her admission. Which writ applies in this case?",
+   "options": {
+    "a": "Mandamus",
+    "b": "Quo Warranto",
+    "c": "Prohibition",
+    "d": "Certiorari"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Mandamus. Mandamus ('we command') is issued to a public authority/body ordering it to perform a duty it is legally bound to perform.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(e)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Supreme Court",
+   "topic": "Advisory jurisdiction",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "advisory jurisdiction"
+   ],
+   "question": "The President of India seeks the opinion of the Supreme Court on the legality of a newly proposed electoral reform under ______.",
+   "options": {
+    "a": "Advisory jurisdiction",
+    "b": "Appellate jurisdiction",
+    "c": "Original jurisdiction",
+    "d": "Writ jurisdiction"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Advisory jurisdiction. Under Article 143 the President may refer a question of law or fact of public importance to the Supreme Court for its opinion.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(f)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Cases handled by Lok Adalat",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 4,
+   "concepts": [
+    "Lok Adalat"
+   ],
+   "question": "Which of the following cases CANNOT be taken up by Lok Adalat?",
+   "options": {
+    "a": "Motor accident compensation cases",
+    "b": "Divorce disputes",
+    "c": "Assault",
+    "d": "Settlement of family feuds"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Divorce disputes. Lok Adalats settle motor accident claims, family and matrimonial disputes (except divorce) and compoundable offences by compromise; divorce cases are excluded. (Note: a serious, non-compoundable assault would also be outside a Lok Adalat's scope, so 'Assault' may be accepted by some keys; the ICSE textbook exclusion is divorce.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(g)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Jyotiba Phule",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Jyotiba Phule",
+    "social reformers"
+   ],
+   "question": "Who wrote the famous book \"Gulamgiri\"?",
+   "options": {
+    "a": "Raja Ram Mohan Roy",
+    "b": "B.R. Ambedkar",
+    "c": "Jyotiba Phule",
+    "d": "Mahatma Gandhi"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Jyotiba Phule. He wrote 'Gulamgiri' (1873), attacking caste oppression of the lower castes.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(h)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "First Phase of Indian National Movement",
+   "topic": "Methods of the Early Nationalists",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 4,
+   "concepts": [
+    "Early Nationalists",
+    "methods of Moderates"
+   ],
+   "question": "Assertion (A): The objective of the nationalists was to educate people in India in modern politics.\nReasoning (R): They made use of three P's i.e. Petitions, Prayers and Protests.",
+   "options": {
+    "a": "(A) is true, but (R) is false.",
+    "b": "(A) is false, but (R) is true.",
+    "c": "Both (A) and (R) are true, but (R) is not the correct explanation of (A)",
+    "d": "Both (A) and (R) are false."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Both (A) and (R) are true, but (R) is not the correct explanation of (A). The Early Nationalists aimed to create political awareness and educate people in modern politics; their methods were constitutional - prayers, petitions and protests - addressed to the British, which describes their method rather than explaining their objective.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(i)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Lucknow Pact 1916",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Lucknow Pact",
+    "Lucknow Session 1916"
+   ],
+   "question": "The signing of the Lucknow Pact holds significance because:",
+   "options": {
+    "a": "It marked the beginning of the Non-Cooperation Movement.",
+    "b": "It led to the formation of the Indian National Congress.",
+    "c": "It gave way to the partition of India.",
+    "d": "It brought unity between the Moderates and the Assertive Nationalists."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) It brought unity between the Moderates and the Assertive Nationalists. At the Lucknow Session (1916) the Moderates and Assertives reunited, and the Congress and Muslim League also signed the Lucknow Pact.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(j)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Second Round Table Conference",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Second Round Table Conference"
+   ],
+   "question": "The Second Round Table Conference was a deadlock mainly because of disagreements over the issue of",
+   "options": {
+    "a": "Federal structure of India",
+    "b": "Separation of Burma from India",
+    "c": "Representation and rights of minorities",
+    "d": "Financial relations between the Centre and Provinces"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Representation and rights of minorities. The conference (1931) broke down over the communal question - separate electorates and representation for minorities.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(k)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Cripps Mission",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Cripps Mission"
+   ],
+   "question": "The Cripps Mission came to India during which global event?",
+   "options": {
+    "a": "World War I",
+    "b": "World War II",
+    "c": "The Non-Cooperation Movement",
+    "d": "The First Round Table Conference"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) World War II. The Cripps Mission came in March 1942 to secure Indian cooperation in the war as Japan advanced towards India.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(l)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Independence and Partition of India",
+   "topic": "Grouping under Cabinet Mission Plan",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Cabinet Mission Plan grouping"
+   ],
+   "question": "Choose the correct Grouping of Provinces under the Cabinet Mission Plan:",
+   "options": {
+    "a": "Group A: Punjab; Group B: Madras; Group C: Assam",
+    "b": "Group A: Sind; Group B: Bombay; Group C: Bengal",
+    "c": "Group A: Odisha; Group B: Punjab; Group C: Assam",
+    "d": "Group A: Bengal; Group B: Sind; Group C: Bombay"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Group A: Odisha; Group B: Punjab; Group C: Assam. Group A comprised Hindu-majority provinces (Madras, Bombay, UP, Bihar, CP, Orissa), Group B the north-western Muslim-majority provinces (Punjab, NWFP, Sind), and Group C Bengal and Assam.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(m)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Forward Bloc and The INA",
+   "topic": "Founder of the INA",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "INA",
+    "Forward Bloc"
+   ],
+   "question": "Complete the analogy:\nSubhash Chandra Bose: Forward Bloc :: ________ : INA.",
+   "options": {
+    "a": "Dr. Laxmi Swaminathan",
+    "b": "Mohan Singh",
+    "c": "Jawaharlal Nehru",
+    "d": "Muhammad Ali Jinnah"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Mohan Singh. Captain Mohan Singh founded the Indian National Army (1942) with Japanese help, as Bose founded the Forward Bloc (1939).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(n)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First World War",
+   "topic": "Immediate cause of WWI: Sarajevo assassination",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Sarajevo crisis",
+    "Serbian nationalism"
+   ],
+   "question": "What was the main reason for the below depicted assassination? [Picture: illustration of the assassination of Archduke Franz Ferdinand and his wife in an open car at Sarajevo, 1914.]",
+   "options": {
+    "a": "To strengthen Austria-Hungary",
+    "b": "To unite all Serbs under a Greater Serbia",
+    "c": "To support Ottoman control in the Balkans",
+    "d": "To start World War I deliberately"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) To unite all Serbs under a Greater Serbia. Gavrilo Princip, a member of the Serbian nationalist society 'Black Hand', killed Archduke Franz Ferdinand to free Bosnian Serbs from Austria-Hungary and create a Greater Serbia.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(o)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Rise of Dictatorships",
+   "topic": "Similarity of Fascism and Nazism",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Fascism",
+    "Nazism"
+   ],
+   "question": "Which of the following is a similarity between the ideologies of the Fascists and the Nazis?",
+   "options": {
+    "a": "Belief in democracy and individual freedom",
+    "b": "Emphasis on authoritarian rule and totalitarian control",
+    "c": "Promotion of internationalism and pacifism",
+    "d": "Advocacy of socialism and class struggle"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Emphasis on authoritarian rule and totalitarian control. Both believed in a supreme, all-powerful state under one leader and one party.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "1(p)",
+   "q_order": 15,
+   "q_main": 1,
+   "section": "Part I",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The United Nations",
+   "topic": "UNICEF",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "UNICEF functions"
+   ],
+   "question": "Following a natural disaster, a UN agency provides temporary shelters, nutrition, and psychological support to affected children. Which agency is it?",
+   "options": {
+    "a": "World Food Programme",
+    "b": "World Health Organization",
+    "c": "United Nations Children's Fund",
+    "d": "International Red Cross"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) United Nations Children's Fund (UNICEF). UNICEF gives emergency relief to children and mothers affected by disasters, epidemics and war.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(a)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "Appointment of Cabinet Ministers",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "appointment of ministers"
+   ],
+   "question": "How are the Cabinet Ministers appointed?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Cabinet Ministers are appointed by the President on the advice of the Prime Minister. A minister must be a member of either House of Parliament; a non-member can be appointed but must become a member within six months, or cease to be a minister.",
+   "marking_points": [
+    {
+     "point": "Appointed by the President on the advice of the PM",
+     "marks": 1
+    },
+    {
+     "point": "Must be (or within 6 months become) a member of Parliament",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(b)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Sessions Court",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Sessions Court"
+   ],
+   "question": "What is the highest criminal court in a district, and how are its judges appointed?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Court of the Sessions Judge (Sessions Court) is the highest criminal court in a district. Its judges are appointed by the Governor of the State in consultation with the Chief Justice of the High Court.",
+   "marking_points": [
+    {
+     "point": "Sessions Court",
+     "marks": 1
+    },
+    {
+     "point": "Judges appointed by the Governor in consultation with the High Court",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(c)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Real motives of the Partition of Bengal",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Partition of Bengal"
+   ],
+   "question": "State the actual motives behind the partition of Bengal.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (1) To weaken the growing nationalist movement in Bengal, the nerve centre of Indian nationalism. (2) To divide Hindus and Muslims ('divide and rule') by creating a Muslim-majority province of East Bengal and Assam. (3) To reduce the Bengalis to a minority in their own province by including Hindi- and Oriya-speaking people.",
+   "marking_points": [
+    {
+     "point": "First real motive",
+     "marks": 1
+    },
+    {
+     "point": "Second real motive",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(d)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Divide and Rule policy",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "divide and rule",
+    "separate electorates"
+   ],
+   "question": "Mention two ways in which the British implemented the Divide and Rule Policy.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (1) Partition of Bengal (1905) on communal lines. (2) Introduction of separate electorates for Muslims through the Morley-Minto Reforms (1909). (3) Encouraging and patronising the Muslim League against the Congress (Simla Deputation). (4) Reorganising the army on caste, community and regional lines. (5) Setting princes and landlords against nationalists.",
+   "marking_points": [
+    {
+     "point": "First way",
+     "marks": 1
+    },
+    {
+     "point": "Second way",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(e)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Rejection of Cripps proposals",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Cripps Mission"
+   ],
+   "question": "Why did the Indian National Congress reject the Cripps Mission?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (1) It offered only Dominion Status after the war, not complete independence. (2) The provision allowing provinces to stay out of the Indian Union (right to secede) opened the way for partition. (3) Defence was to remain under British control, with no immediate transfer of real power. (4) Representatives of Princely States were to be nominated by rulers, not elected by the people. Gandhi called it 'a post-dated cheque on a crashing bank'.",
+   "marking_points": [
+    {
+     "point": "First reason",
+     "marks": 1
+    },
+    {
+     "point": "Second reason",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(f)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Forward Bloc and The INA",
+   "topic": "Objectives of the Forward Bloc",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Forward Bloc objectives"
+   ],
+   "question": "Describe the method suggested by the Forward Bloc for creating a socialist state.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Forward Bloc aimed at a modern socialist state through an uncompromising anti-imperialist struggle and an agrarian and industrial revolution: abolition of landlordism/zamindari, social ownership and control of the means of production and distribution, scientific large-scale production for the economic regeneration of the country, and a new monetary and credit system - with equal rights and social justice for all.",
+   "marking_points": [
+    {
+     "point": "Abolition of landlordism / agrarian revolution",
+     "marks": 1
+    },
+    {
+     "point": "Social ownership and control of production and distribution; large-scale scientific industrial production",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(g)",
+   "q_order": 22,
+   "q_main": 2,
+   "section": "Part I",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First World War",
+   "topic": "Treaty of Versailles: gains of France",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Treaty of Versailles"
+   ],
+   "question": "What gains did France secure under the Treaty of Versailles?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (1) Alsace-Lorraine was returned to France. (2) France got the coal mines of the Saar Valley for 15 years. (3) France received a large share of the war reparations paid by Germany. (4) The Rhineland was demilitarised, securing France's border. (5) France received some German colonies as mandates (parts of Togoland and Cameroon).",
+   "marking_points": [
+    {
+     "point": "First gain",
+     "marks": 1
+    },
+    {
+     "point": "Second gain",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(a)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Union Legislature",
+   "topic": "Election and term of the Speaker",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Speaker of Lok Sabha"
+   ],
+   "question": "\"Whatever the Constitution may or may not provide, the welfare of the country will depend upon the way in which the country is administered.\" - Dr. Rajendra Prasad\nWith reference to the above, answer the following questions:\nExplain the process through which Mr. Om Birla is elected as the Speaker of the Lok Sabha. Also mention the duration of his term in office.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Speaker is elected by the members of the Lok Sabha from among themselves at the first sitting of the newly elected House, by a simple majority of members present and voting (usually the candidate of the majority party, often by consensus). The Speaker holds office for the life of the Lok Sabha, i.e. normally 5 years; even when the House is dissolved he continues until immediately before the first meeting of the new Lok Sabha. He may resign earlier or be removed by a resolution passed by a majority of all the then members after 14 days' notice.",
+   "marking_points": [
+    {
+     "point": "Elected by Lok Sabha members from among themselves",
+     "marks": 1
+    },
+    {
+     "point": "At first sitting by simple majority",
+     "marks": 1
+    },
+    {
+     "point": "Term: life of the Lok Sabha (5 years), continues till first meeting of new House",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(b)",
+   "q_order": 24,
+   "q_main": 3,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Union Legislature",
+   "topic": "Adjournment of the House by the Speaker",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "powers of Speaker",
+    "adjournment",
+    "quorum"
+   ],
+   "question": "\"Whatever the Constitution may or may not provide, the welfare of the country will depend upon the way in which the country is administered.\" - Dr. Rajendra Prasad\nWith reference to the above, answer the following questions:\nMention the conditions that justify the Speaker's decision to adjourn the House.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: (1) Lack of quorum - when fewer than one-tenth of the total members are present. (2) Grave disorder or unruly behaviour in the House making it impossible to conduct business. (3) Death of a sitting member or of an eminent national personality, as a mark of respect. (4) A national calamity or emergency situation. (5) When the business for the day is completed.",
+   "marking_points": [
+    {
+     "point": "Lack of quorum (1/10 members)",
+     "marks": 1
+    },
+    {
+     "point": "Grave disorder in the House",
+     "marks": 1
+    },
+    {
+     "point": "Death of a member/eminent person or other grave situation",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3(c)",
+   "q_order": 25,
+   "q_main": 3,
+   "section": "Part II Section A",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Union Legislature",
+   "topic": "Financial functions of Parliament",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "financial powers of Parliament",
+    "Budget",
+    "Money Bill"
+   ],
+   "question": "\"Whatever the Constitution may or may not provide, the welfare of the country will depend upon the way in which the country is administered.\" - Dr. Rajendra Prasad\nWith reference to the above, answer the following questions:\nExplain the Financial functions of the Parliament.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) Parliament is the custodian of the nation's finances: no tax can be levied or money spent without the authority of Parliament. (2) It passes the annual Budget (Annual Financial Statement); the Finance Bill imposes taxes and the Appropriation Bill authorises expenditure. (3) Money Bills originate only in the Lok Sabha, which votes on the demands for grants; the Rajya Sabha can only delay them for 14 days. (4) Parliament controls public expenditure through the reports of the Comptroller and Auditor-General examined by the Public Accounts Committee and the Estimates Committee, and through cut motions and questions.",
+   "marking_points": [
+    {
+     "point": "No tax levied/money spent without Parliament's sanction",
+     "marks": 1
+    },
+    {
+     "point": "Passes the Budget - Finance Bill and Appropriation Bill",
+     "marks": 1
+    },
+    {
+     "point": "Money Bills only in Lok Sabha; Rajya Sabha can delay 14 days",
+     "marks": 1
+    },
+    {
+     "point": "Control of expenditure through CAG reports/PAC/Estimates Committee",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(a)",
+   "q_order": 26,
+   "q_main": 4,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "President and Vice President",
+   "topic": "Executive powers: appointments",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "executive powers of the President"
+   ],
+   "question": "\"The Presidency is not about authority - it is about responsibility. The President must remind the nation of its dreams, protect the Constitution, and illuminate the path of integrity for future generations.\" - A.P.J. Abdul Kalam\nExplain the Executive powers of the President in appointing key officials who help in administering the Union Government.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The President appoints: (1) the Prime Minister and, on the PM's advice, the other ministers, and allocates portfolios; (2) the Attorney-General of India, the Comptroller and Auditor-General, and the Governors of States; (3) the Chief Election Commissioner and other Election Commissioners, the Chairman and members of the UPSC and Finance Commission, and ambassadors and High Commissioners to other countries (also the Chief Justice and judges of the Supreme Court and High Courts).",
+   "marking_points": [
+    {
+     "point": "Appoints PM and other ministers on PM's advice",
+     "marks": 1
+    },
+    {
+     "point": "Appoints Attorney-General, CAG, Governors",
+     "marks": 1
+    },
+    {
+     "point": "Appoints Election Commissioners, UPSC members, ambassadors etc.",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(b)",
+   "q_order": 27,
+   "q_main": 4,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "President and Vice President",
+   "topic": "Impeachment of the President",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "impeachment of the President"
+   ],
+   "question": "\"The Presidency is not about authority - it is about responsibility. The President must remind the nation of its dreams, protect the Constitution, and illuminate the path of integrity for future generations.\" - A.P.J. Abdul Kalam\nDescribe the procedure for impeachment of the President. [The printed question 'How does the Constitution empower the President with military authority?' was struck out and replaced by hand with this question.]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) The President can be impeached only for 'violation of the Constitution'. The charge may be initiated in either House of Parliament by a resolution signed by at least one-fourth of its total members, after 14 days' written notice. (2) The resolution must be passed by a majority of not less than two-thirds of the total membership of that House. (3) The other House then investigates the charges, the President has the right to defend himself (in person or through counsel); if this House too passes the resolution by a two-thirds majority of its total membership, the President stands removed from office from the date the resolution is passed.",
+   "marking_points": [
+    {
+     "point": "Ground: violation of Constitution; charge by resolution signed by 1/4 members with 14 days' notice",
+     "marks": 1
+    },
+    {
+     "point": "Passed by 2/3 of total membership of initiating House",
+     "marks": 1
+    },
+    {
+     "point": "Other House investigates (President may defend); if it also passes by 2/3, President removed",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(c)",
+   "q_order": 28,
+   "q_main": 4,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "President and Vice President",
+   "topic": "Ordinance-making power",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "ordinance-making power"
+   ],
+   "question": "\"The Presidency is not about authority - it is about responsibility. The President must remind the nation of its dreams, protect the Constitution, and illuminate the path of integrity for future generations.\" - A.P.J. Abdul Kalam\nUnder what legislative constraints can the President promulgate an Ordinance?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) An Ordinance can be issued only when Parliament (or either House) is not in session. (2) The President must be satisfied that circumstances exist which require immediate action, and he acts on the advice of the Council of Ministers. (3) It can be issued only on subjects on which Parliament can make laws, and cannot amend the Constitution. (4) It must be laid before Parliament when it reassembles and ceases to operate six weeks after reassembly unless approved by Parliament earlier; it may also be withdrawn by the President at any time.",
+   "marking_points": [
+    {
+     "point": "Only when Parliament is not in session",
+     "marks": 1
+    },
+    {
+     "point": "Need for immediate action; on advice of Council of Ministers",
+     "marks": 1
+    },
+    {
+     "point": "Only on subjects within Parliament's legislative competence",
+     "marks": 1
+    },
+    {
+     "point": "Must be approved within 6 weeks of reassembly or it lapses",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(a)",
+   "q_order": 29,
+   "q_main": 5,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Supreme Court",
+   "topic": "Qualifications of Supreme Court judges",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "qualifications of Supreme Court judges"
+   ],
+   "question": "\"The Supreme Court must remain the last refuge of the oppressed and bewildered.\" - Justice P.N. Bhagwati\nState the qualifications to be a judge in the Supreme Court.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A person must be a citizen of India and: (a) have been a judge of a High Court (or of two or more such courts in succession) for at least 5 years; or (b) have been an advocate of a High Court (or two or more such courts) for at least 10 years; or (c) be, in the opinion of the President, a distinguished jurist.",
+   "marking_points": [
+    {
+     "point": "Citizen of India + High Court judge for at least 5 years",
+     "marks": 1
+    },
+    {
+     "point": "Or advocate of a High Court for at least 10 years",
+     "marks": 1
+    },
+    {
+     "point": "Or a distinguished jurist in the President's opinion",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(b)",
+   "q_order": 30,
+   "q_main": 5,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "The Supreme Court",
+   "topic": "Judicial review",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "judicial review"
+   ],
+   "question": "\"The Supreme Court must remain the last refuge of the oppressed and bewildered.\" - Justice P.N. Bhagwati\nIdentify the power under which the Supreme Court acts when it finds a law passed by the Legislature to be unconstitutional, and state what action it can take.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The power of Judicial Review. Under it the Supreme Court examines the constitutional validity of laws passed by Parliament or State Legislatures and orders of the executive. If a law violates the Constitution (e.g. infringes Fundamental Rights or exceeds the legislature's powers), the Court declares it ultra vires, i.e. null and void, and it cannot be enforced. This makes the Court the guardian of the Constitution.",
+   "marking_points": [
+    {
+     "point": "Identifies Judicial Review",
+     "marks": 1
+    },
+    {
+     "point": "Examines constitutional validity of laws/orders",
+     "marks": 1
+    },
+    {
+     "point": "Declares unconstitutional law null and void (ultra vires)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(c)",
+   "q_order": 31,
+   "q_main": 5,
+   "section": "Part II Section A",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 2 of 3 questions in Section A",
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Appellate jurisdiction of High Court in criminal cases",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "appellate jurisdiction of High Court"
+   ],
+   "question": "\"The Supreme Court must remain the last refuge of the oppressed and bewildered.\" - Justice P.N. Bhagwati\nWrite about the powers exercised by the High Court under its appellate jurisdiction in criminal cases.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) Appeals lie to the High Court against decisions of a Sessions Judge or Additional Sessions Judge where the sentence of imprisonment exceeds 7 years. (2) A death sentence passed by a Sessions Court cannot be executed unless it is confirmed by the High Court. (3) Appeals also lie against sentences of an Assistant Sessions Judge or Metropolitan/Judicial Magistrate in certain cases (e.g. imprisonment exceeding 4 years). (4) The High Court may confirm, reduce or enhance a sentence, order a retrial, or reverse an order of acquittal.",
+   "marking_points": [
+    {
+     "point": "Appeals against Sessions Court where imprisonment exceeds 7 years",
+     "marks": 1
+    },
+    {
+     "point": "Death sentence by Sessions Court must be confirmed by High Court",
+     "marks": 1
+    },
+    {
+     "point": "Appeals from Assistant Sessions Judge/Magistrates in specified cases",
+     "marks": 1
+    },
+    {
+     "point": "Can confirm, alter or reverse sentence/acquittal",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(a)",
+   "q_order": 32,
+   "q_main": 6,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First War of Independence 1857",
+   "topic": "Nana Saheb",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Nana Saheb",
+    "leaders of 1857"
+   ],
+   "question": "\"The Revolt of 1857 stands as India's earliest united cry for independence.\"\nWith reference to the above statement, answer the following questions:\nWhy did Nana Saheb turn against the British, and how did he contribute to the uprising?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Nana Saheb was the adopted son of the last Peshwa, Baji Rao II. After Baji Rao's death the British (Lord Dalhousie) refused to continue his pension to Nana Saheb, so he turned against them. During the revolt he led the rebels at Kanpur, drove out the British forces and proclaimed himself Peshwa; with his able general Tantia Tope he continued the struggle against the British.",
+   "marking_points": [
+    {
+     "point": "Adopted son of Peshwa Baji Rao II",
+     "marks": 1
+    },
+    {
+     "point": "British stopped his pension after Baji Rao II's death",
+     "marks": 1
+    },
+    {
+     "point": "Led the revolt at Kanpur / proclaimed Peshwa, with Tantia Tope",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(b)",
+   "q_order": 33,
+   "q_main": 6,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First War of Independence 1857",
+   "topic": "Economic causes: indigo cultivators",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "indigo cultivation",
+    "economic exploitation"
+   ],
+   "question": "\"The Revolt of 1857 stands as India's earliest united cry for independence.\"\nWith reference to the above statement, answer the following questions:\nDescribe the harsh and unjust conditions faced by the indigo cultivators.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) European planters forced peasants to grow indigo on the best part of their land instead of food crops, by giving them advances (dadan) that kept them permanently in debt. (2) The planters paid a very low price for indigo, far below its market value, so the cultivators suffered losses and could not repay. (3) Peasants who refused were subjected to physical torture, kidnapping, illegal confinement and destruction of crops/property; the courts and police favoured the planters. (These grievances later led to the Indigo Revolt of 1859-60, depicted in 'Neel Darpan'.)",
+   "marking_points": [
+    {
+     "point": "Forced to grow indigo on best land through advances / perpetual debt",
+     "marks": 1
+    },
+    {
+     "point": "Very low price paid for indigo",
+     "marks": 1
+    },
+    {
+     "point": "Torture/oppression by planters with no legal protection",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(c)",
+   "q_order": 34,
+   "q_main": 6,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The First War of Independence 1857",
+   "topic": "Reorganisation of the army after 1857",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "consequences of 1857",
+    "army reorganisation"
+   ],
+   "question": "\"The Revolt of 1857 stands as India's earliest united cry for independence.\"\nWith reference to the above statement, answer the following questions:\nWhat measures were taken in the Army after the uprising of 1857 to ensure that a similar uprising would not occur again?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) The number of European soldiers was increased - ratio of 1:2 in the Bengal Army and 2:5 in the Madras and Bombay armies. (2) Key positions, the artillery and later tanks and armoured units were kept only in European hands. (3) 'Divide and rule' / 'balance and counterpoise' - regiments were formed on the basis of caste, community and region to prevent unity among soldiers. (4) Recruitment was increased from 'martial races' like Sikhs, Gurkhas and Pathans who had remained loyal, and Indian soldiers were isolated from nationalist newspapers and ideas.",
+   "marking_points": [
+    {
+     "point": "Increase in proportion of European troops",
+     "marks": 1
+    },
+    {
+     "point": "Artillery and key posts reserved for Europeans",
+     "marks": 1
+    },
+    {
+     "point": "Regiments organised on caste/community/region lines",
+     "marks": 1
+    },
+    {
+     "point": "Recruitment of 'martial races' / isolation from nationalism",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "7(a)",
+   "q_order": 35,
+   "q_main": 7,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Programme of Khilafat-Non-Cooperation Movement",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Non-Cooperation Movement programme",
+    "Khilafat Movement"
+   ],
+   "question": "\"Through Gandhi, the national movement found its soul in satyagraha and its strength in unity.\"\nWith reference to the above statement, answer the following questions:\nList the key activities launched as part of the Khilafat Non-Cooperation Movement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: (1) Surrender of titles and honorary posts. (2) Boycott of government schools and colleges, law courts, legislative councils (1920 elections) and official functions. (3) Boycott of foreign goods, especially cloth - bonfires of foreign cloth; promotion of Swadeshi, hand-spinning and khadi. (4) Setting up of national schools and colleges (Jamia Millia Islamia, Kashi Vidyapith) and panchayats to settle disputes. (5) Hartals, strikes and picketing of liquor shops; non-payment of taxes in some areas.",
+   "marking_points": [
+    {
+     "point": "First activity",
+     "marks": 1
+    },
+    {
+     "point": "Second activity",
+     "marks": 1
+    },
+    {
+     "point": "Third activity",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "7(b)",
+   "q_order": 36,
+   "q_main": 7,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Simon Commission",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Simon Commission"
+   ],
+   "question": "\"Through Gandhi, the national movement found its soul in satyagraha and its strength in unity.\"\nWith reference to the above statement, answer the following questions:\nWhy did the British government appoint the Simon Commission, and why was it met with black-flag and protests in India?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Simon Commission was appointed in 1927 to review the working of the Government of India Act, 1919 and recommend further constitutional reforms (the Act had provided for a review after ten years). It was met with black flags and the slogan 'Simon Go Back' because (1) all its seven members were British - there was no Indian member, which was an insult to Indians; and (2) Indians felt that the British were deciding India's future without consulting Indians, denying their right to self-determination.",
+   "marking_points": [
+    {
+     "point": "Appointed to review working of the 1919 Act and suggest reforms",
+     "marks": 1
+    },
+    {
+     "point": "All-white commission with no Indian member",
+     "marks": 1
+    },
+    {
+     "point": "Seen as an insult / denial of Indians' right to decide their own constitution",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "7(c)",
+   "q_order": 37,
+   "q_main": 7,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Gandhi-Irwin Pact",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Gandhi-Irwin Pact",
+    "Civil Disobedience Movement"
+   ],
+   "question": "\"Through Gandhi, the national movement found its soul in satyagraha and its strength in unity.\"\nWith reference to the above statement, answer the following questions:\nState the major provisions accepted by the British government in the settlement known as the Gandhi-Irwin Pact.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The British government agreed to: (1) release all political prisoners except those guilty of violence; (2) withdraw all ordinances and end prosecutions connected with the Civil Disobedience Movement; (3) return confiscated properties/lands of satyagrahis not yet sold to third parties, and treat leniently government servants who had resigned; (4) permit people living near the coast to collect or make salt for personal use, and allow peaceful picketing of liquor and foreign cloth shops. In return the Congress suspended the Civil Disobedience Movement and agreed to attend the Second Round Table Conference.",
+   "marking_points": [
+    {
+     "point": "Release of non-violent political prisoners",
+     "marks": 1
+    },
+    {
+     "point": "Withdrawal of ordinances/prosecutions",
+     "marks": 1
+    },
+    {
+     "point": "Return of confiscated property / reinstatement of resigned officials",
+     "marks": 1
+    },
+    {
+     "point": "Salt-making for personal use near coast / peaceful picketing allowed",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "8(a)",
+   "q_order": 38,
+   "q_main": 8,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Independence and Partition of India",
+   "topic": "Transfer of power; Mountbatten's haste",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "Mountbatten",
+    "transfer of power"
+   ],
+   "question": "Study the pictures given below and answer the following questions: [Photograph: the formal ceremony in the Durbar Hall, Government House, New Delhi, with Lord and Lady Mountbatten standing before thrones as Indian leaders take the oath.]\nIdentify the historical event shown in the image and explain why Lord Mountbatten decided to hasten the transfer of power.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Event: the transfer of power on 15 August 1947 - the swearing-in ceremony at Durbar Hall, New Delhi, where Lord Mountbatten took the oath as the first Governor-General of independent India and Nehru's government was sworn in. Mountbatten advanced the date (from June 1948 to 15 August 1947) because: (1) communal riots following the Muslim League's Direct Action (August 1946) were spreading and the situation was going out of control; (2) the Interim Government had broken down due to constant conflict between Congress and League members, and the administration was collapsing; (3) Britain, weakened by the Second World War, wanted to withdraw quickly before it was blamed for a civil war.",
+   "marking_points": [
+    {
+     "point": "Identifies transfer of power / swearing-in on 15 August 1947",
+     "marks": 1
+    },
+    {
+     "point": "Reason: spreading communal riots after Direct Action",
+     "marks": 1
+    },
+    {
+     "point": "Reason: deadlock in Interim Government / Britain's weakness after WWII",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Photograph of the swearing-in ceremony at Durbar Hall, New Delhi on 15 August 1947 (transfer of power) with Lord Mountbatten.",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_history_civics_cathedral/p5.jpg"
+  },
+  {
+   "q_label": "8(b)",
+   "q_order": 39,
+   "q_main": 8,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Independence and Partition of India",
+   "topic": "Acceptance of the Mountbatten Plan",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Mountbatten Plan"
+   ],
+   "question": "Study the pictures given below and answer the following questions: [Photograph: the formal ceremony in the Durbar Hall, Government House, New Delhi, with Lord and Lady Mountbatten standing before thrones as Indian leaders take the oath.]\nExplain why the Mountbatten Plan was approved by the political factions.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) The Congress accepted it because the communal riots had made partition inevitable and it was the only way to avoid a civil war; the experience of the Interim Government showed the League would not cooperate, and partition at least ensured a strong central government for the remaining India. (2) The Muslim League accepted it because it got a separate state of Pakistan, though smaller than demanded. (3) The plan offered an early transfer of power (15 August 1947), partition of Punjab and Bengal on the basis of votes of their legislators (which satisfied Sikhs and Hindus of those provinces), and freedom for Princely States to join either dominion.",
+   "marking_points": [
+    {
+     "point": "Congress: partition preferable to civil war / communal riots; League non-cooperation",
+     "marks": 1
+    },
+    {
+     "point": "League: Pakistan granted",
+     "marks": 1
+    },
+    {
+     "point": "Early transfer of power / partition of Punjab and Bengal by vote satisfied other groups",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "8(c)",
+   "q_order": 40,
+   "q_main": 8,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Independence and Partition of India",
+   "topic": "Indian Independence Act 1947",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Indian Independence Act 1947"
+   ],
+   "question": "Study the pictures given below and answer the following questions: [Photograph: the formal ceremony in the Durbar Hall, Government House, New Delhi, with Lord and Lady Mountbatten standing before thrones as Indian leaders take the oath.]\nState and explain how the Indian Independence Act, 1947, ended the jurisdiction of the British Parliament over India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) From 15 August 1947 two independent dominions, India and Pakistan, were created and the British Government ceased to have any responsibility for their administration. (2) No Act of the British Parliament passed on or after 15 August 1947 would extend to either dominion unless extended by a law of that dominion; the Constituent Assemblies became sovereign legislatures, free to frame their constitutions and to repeal any British Act, including the Independence Act itself. (3) The office of the Secretary of State for India was abolished, and the Governor-General became only a constitutional head acting on the advice of the dominion cabinet. (4) British paramountcy over the Princely States lapsed, and the British King dropped the title 'Emperor of India'; each dominion was free to leave the Commonwealth.",
+   "marking_points": [
+    {
+     "point": "British Government's responsibility ended; two sovereign dominions",
+     "marks": 1
+    },
+    {
+     "point": "British laws no longer to apply; Constituent Assembly sovereign, could repeal British Acts",
+     "marks": 1
+    },
+    {
+     "point": "Secretary of State's office abolished; Governor-General a constitutional head",
+     "marks": 1
+    },
+    {
+     "point": "Paramountcy over princely states lapsed / title Emperor of India dropped",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "9(a)",
+   "q_order": 41,
+   "q_main": 9,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The Second World War",
+   "topic": "Failure of the League of Nations",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "failure of League of Nations",
+    "causes of WWII"
+   ],
+   "question": "\"The Second World War reshaped the world, giving rise to superpowers and setting the stage for the Cold War.\"\nWith reference to this answer the following questions:\nWhy did the League of Nations prove ineffective? Provide examples to support your answer.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) It had no army of its own to enforce its decisions, and its decisions needed unanimity. (2) Major powers stayed out or left - the USA never joined; Germany, Japan and Italy withdrew - so it was seen as a club of victors (Britain and France) protecting their interests. (3) It failed to check aggression: Japan's invasion of Manchuria (1931), Italy's conquest of Abyssinia (1935-36) where sanctions were ineffective, and Germany's rearmament, remilitarisation of the Rhineland and annexation of Austria and Czechoslovakia.",
+   "marking_points": [
+    {
+     "point": "No army / unanimity required - no enforcement power",
+     "marks": 1
+    },
+    {
+     "point": "Absence/withdrawal of major powers (USA never joined; Germany, Japan, Italy left)",
+     "marks": 1
+    },
+    {
+     "point": "Examples of failure: Manchuria 1931, Abyssinia 1935, German aggression",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "9(b)",
+   "q_order": 42,
+   "q_main": 9,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Non Aligned Movement",
+   "topic": "Cold War and ideological blocs",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Cold War",
+    "capitalism vs communism"
+   ],
+   "question": "\"The Second World War reshaped the world, giving rise to superpowers and setting the stage for the Cold War.\"\nWith reference to this answer the following questions:\nDefine the Cold War and state how the two superpower blocs differed in their ideology.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Cold War: the state of political tension, hostility and rivalry between the USA-led Western bloc and the USSR-led Eastern bloc after the Second World War, carried on through propaganda, arms race, military alliances and economic pressure, but without direct armed fighting between the superpowers. Ideology: the Western bloc (USA, NATO) stood for capitalism, free-market economy and liberal multi-party democracy; the Eastern bloc (USSR, Warsaw Pact) stood for communism, state ownership and a planned economy under one-party rule.",
+   "marking_points": [
+    {
+     "point": "Definition of Cold War (tension without direct war)",
+     "marks": 1
+    },
+    {
+     "point": "Western bloc: capitalism and liberal democracy",
+     "marks": 1
+    },
+    {
+     "point": "Eastern bloc: communism, state-controlled economy, one-party rule",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "9(c)",
+   "q_order": 43,
+   "q_main": 9,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "Non Aligned Movement",
+   "topic": "Objectives of NAM",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Non-Aligned Movement objectives"
+   ],
+   "question": "\"The Second World War reshaped the world, giving rise to superpowers and setting the stage for the Cold War.\"\nWith reference to this answer the following questions:\nList the objectives of the Non-Aligned Movement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any four: (1) To keep away from military alliances and power blocs and follow an independent foreign policy. (2) To work for world peace, peaceful coexistence and reduction of Cold War tensions, and promote disarmament. (3) To oppose colonialism, imperialism and racial discrimination (apartheid) and support freedom struggles. (4) To protect the independence and sovereignty of member nations. (5) To promote economic cooperation and development of member countries and a new international economic order. (6) To strengthen the United Nations.",
+   "marking_points": [
+    {
+     "point": "First objective",
+     "marks": 1
+    },
+    {
+     "point": "Second objective",
+     "marks": 1
+    },
+    {
+     "point": "Third objective",
+     "marks": 1
+    },
+    {
+     "point": "Fourth objective",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "10(a)",
+   "q_order": 44,
+   "q_main": 10,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "UN agencies' logos; objectives of the UN",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 1,
+   "concepts": [
+    "UNICEF",
+    "WHO",
+    "objectives of UN"
+   ],
+   "question": "Study the pictures given below and answer the following questions: [Picture A: logo showing a mother lifting a child inside a globe within olive branches. Picture B: logo showing a serpent coiled around a staff over a globe within olive branches.]\n(i) Identify the logos shown above.\n(ii) Mention any two objectives of the UN.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) A - UNICEF (United Nations International Children's Emergency Fund); B - WHO (World Health Organisation). (ii) Any two objectives: to maintain international peace and security; to develop friendly relations among nations based on equal rights and self-determination; to achieve international cooperation in solving economic, social, cultural and humanitarian problems and promote respect for human rights; to act as a centre for harmonising the actions of nations.",
+   "marking_points": [
+    {
+     "point": "Identifies A - UNICEF and B - WHO",
+     "marks": 1
+    },
+    {
+     "point": "First objective of UN",
+     "marks": 1
+    },
+    {
+     "point": "Second objective of UN",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Two UN agency logos: A - UNICEF (mother and child in globe), B - WHO (rod of Asclepius over globe).",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_history_civics_cathedral/p6.jpg"
+  },
+  {
+   "q_label": "10(b)",
+   "q_order": 45,
+   "q_main": 10,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "Uniting for Peace: General Assembly powers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 4,
+   "concepts": [
+    "Uniting for Peace Resolution",
+    "General Assembly"
+   ],
+   "question": "Study the pictures given below and answer the following questions: [Picture A: logo showing a mother lifting a child inside a globe within olive branches. Picture B: logo showing a serpent coiled around a staff over a globe within olive branches.]\nState the special powers of the General Assembly when the Security Council is deadlocked, as seen in the Russia-Ukraine crisis.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Under the 'Uniting for Peace' Resolution (1950): (1) if the Security Council fails to act to maintain international peace because of lack of unanimity of its permanent members (use of veto), the General Assembly can take up the matter itself. (2) It can be called into an emergency special session within 24 hours at the request of any nine members of the Security Council or a majority of UN members. (3) It can recommend collective measures to members, including the use of armed force if necessary. In the Russia-Ukraine crisis (2022), after Russia vetoed the Security Council resolution, the General Assembly met in an emergency special session and passed a resolution demanding Russia's withdrawal.",
+   "marking_points": [
+    {
+     "point": "Uniting for Peace: GA acts when SC is blocked by veto",
+     "marks": 1
+    },
+    {
+     "point": "Emergency special session within 24 hours",
+     "marks": 1
+    },
+    {
+     "point": "Can recommend collective measures incl. armed force / Russia-Ukraine example",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "10(c)",
+   "q_order": 46,
+   "q_main": 10,
+   "section": "Part II Section B",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 3 of 5 questions in Section B",
+   "chapter": "The United Nations",
+   "topic": "Functions of WHO",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "WHO functions"
+   ],
+   "question": "Study the pictures given below and answer the following questions: [Picture A: logo showing a mother lifting a child inside a globe within olive branches. Picture B: logo showing a serpent coiled around a staff over a globe within olive branches.]\nWrite any four functions of the UN agency 'B' shown in the pictures above.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Agency B is the WHO. Functions (any four): (1) to work for the eradication/control of epidemic and endemic diseases like malaria, smallpox, polio, TB and AIDS; (2) to promote immunisation and maternal and child health care; (3) to help member countries strengthen their health services and train health workers; (4) to promote research and set international standards for drugs, vaccines and food; (5) to provide health information, educate people on nutrition, sanitation and hygiene; (6) to provide emergency medical aid during epidemics and disasters.",
+   "marking_points": [
+    {
+     "point": "First function",
+     "marks": 1
+    },
+    {
+     "point": "Second function",
+     "marks": 1
+    },
+    {
+     "point": "Third function",
+     "marks": 1
+    },
+    {
+     "point": "Fourth function",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Two UN agency logos: A - UNICEF (mother and child in globe), B - WHO (rod of Asclepius over globe).",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_history_civics_cathedral/p6.jpg"
+  }
+ ]
+}

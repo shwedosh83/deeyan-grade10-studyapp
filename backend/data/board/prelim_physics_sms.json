@@ -1,0 +1,1934 @@
+{
+ "paper_id": "prelim_physics_sms",
+ "subject": "physics",
+ "year": 2026,
+ "sem": null,
+ "label": "Prelim · St. Mary's Mazagaon",
+ "source": "prelim",
+ "school": "St. Mary's School (ICSE, ISC and International), Mazagaon, Mumbai",
+ "exam_label": "Preliminary Examination 2025-26",
+ "max_marks": 80,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Answers to be written on the paper provided separately. All questions in Section A are compulsory. Answer any four main questions from Section B. All sub-questions under each question must be answered in the correct order. Intended marks are given in brackets [ ].",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "All questions are compulsory.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 40,
+   "rule": "Solve any four questions from this section.",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Identifying examples of a couple",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "couple",
+    "examples of couple"
+   ],
+   "question": "Out of the following which are examples of a couple?\n1. A pair of hands turning a steering wheel\n2. A man pushing a box on the floor\n3. Opening a jar lid with two hands\n4. A person pulling a rope tied to a well bucket",
+   "options": {
+    "a": "1 and 3",
+    "b": "3 and 4",
+    "c": "1, 2 and 3",
+    "d": "1, 2 and 3"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 1 and 3. Turning a steering wheel and opening a jar lid with two hands involve two equal, opposite, parallel forces not in the same line (a couple); pushing a box and pulling a rope are single forces. (Options c and d are printed identically.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Efficiency of a machine",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "efficiency = output/input"
+   ],
+   "question": "A machine converts 800 J of electric energy to 600 J of mechanical energy. Its efficiency is:",
+   "options": {
+    "a": "60 %",
+    "b": "75%",
+    "c": "80%",
+    "d": "133%"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 75%. Efficiency = output/input × 100 = 600/800 × 100 = 75%.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Class of lever: broom",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "class III lever",
+    "broom"
+   ],
+   "question": "Look at the diagram and name the type of lever. [Diagram: a broom]",
+   "options": {
+    "a": "Class 1",
+    "b": "Class 2",
+    "c": "Class 3",
+    "d": "None of these"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Class 3. When sweeping, the upper hand acts as the fulcrum, the lower hand applies the effort between fulcrum and load, and the load (friction of dust) acts at the bristles.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Picture of a sweeping broom (long handle with bristles at the bottom).",
+   "page": 1,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_sms/p1.jpg"
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Refraction from denser to rarer medium",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "speed, wavelength, frequency in refraction"
+   ],
+   "question": "When light passes from denser to rarer medium, which statement is incorrect?",
+   "options": {
+    "a": "The angle of refraction is greater than the angle of incidence.",
+    "b": "The speed of light increases",
+    "c": "The wavelength decreases",
+    "d": "The frequency remains constant."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) The wavelength decreases. Going into a rarer medium the speed increases and frequency stays constant, so the wavelength increases (λ = v/f).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Uses of concave lens",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "uses of concave lens"
+   ],
+   "question": "Which of the following is not an application of a concave lens?",
+   "options": {
+    "a": "Correction of Myopia",
+    "b": "Wide angle camera lens",
+    "c": "Peepholes in doors",
+    "d": "Magnifying glass"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Magnifying glass. A magnifying glass is a convex lens; concave lenses are used for myopia correction, peepholes and wide-angle lenses.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Electromagnetic spectrum classification",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "electromagnetic spectrum"
+   ],
+   "question": "Which property of electromagnetic waves determine whether they are classified as radio waves, visible light or X rays?",
+   "options": {
+    "a": "Speed in vacuum",
+    "b": "Amplitude",
+    "c": "Wavelength",
+    "d": "Direction of propagation"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Wavelength. All EM waves travel at the same speed in vacuum; they are classified by wavelength (or frequency).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Echo between two hills",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "echo distance d = vt/2"
+   ],
+   "question": "A man is standing between two high hills as shown in the diagram (man M between hill H1 at distance x and hill H2 at distance y).\nThe man fires a shot and hears two echoes. If the first echo is heard 1 second after firing and second echo is heard 2 second after firing. What is the distance between two hills? (Speed of sound = 340 m/s)",
+   "options": {
+    "a": "170 m",
+    "b": "340 m",
+    "c": "510 m",
+    "d": "None of the above"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 510 m. x = 340 × 1/2 = 170 m, y = 340 × 2/2 = 340 m; distance between hills = 170 + 340 = 510 m.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Current in series combination",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "series combination current"
+   ],
+   "question": "If three resistors R1, R2 and R3 are connected in series with a supply. What is the relation between current drawn by each of them if R1 > R2 > R3.",
+   "options": {
+    "a": "I1 = I2 = I3",
+    "b": "I1 > I2 > I3",
+    "c": "I1 < I2 < I3",
+    "d": "None of the above"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) I1 = I2 = I3. In series the same current flows through every resistor.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "MCB as protection device",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "MCB vs fuse"
+   ],
+   "question": "After a power surge, which protection device would allow you to restore power most quickly?",
+   "options": {
+    "a": "A ceramic fuse",
+    "b": "A rewirable fuse",
+    "c": "An MCB",
+    "d": "A circuit isolator"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) An MCB. It trips on overload and can simply be reset by pushing the switch back, without replacing any wire.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Magnetic field at centre of circular loop",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "field of circular loop"
+   ],
+   "question": "In a circular loop carrying current, the magnetic field at the centre of the loop is:",
+   "options": {
+    "a": "Parallel to the plane of the loop",
+    "b": "Perpendicular to the plane of the loop",
+    "c": "At an angle 45° to the plane of the loop",
+    "d": "zero"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Perpendicular to the plane of the loop.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Heat capacity and specific heat",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "C = mc"
+   ],
+   "question": "If two bodies have the same thermal capacity but different masses, they must have:",
+   "options": {
+    "a": "Same specific heat",
+    "b": "Different specific heats",
+    "c": "Same volume",
+    "d": "Same density"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Different specific heats. Heat capacity C = mc; same C with different m requires different c.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Alpha decay of U-238",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "alpha decay"
+   ],
+   "question": "If Uranium-238 emits an alpha particle, the resulting element will be:",
+   "options": {
+    "a": "Thorium- 234",
+    "b": "Thorium- 236",
+    "c": "Radium - 236",
+    "d": "Uranium- 234"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Thorium-234. ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He (mass number −4, atomic number −2).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Frequency of AC mains",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 3,
+   "concepts": [
+    "AC frequency 50 Hz",
+    "direction reversal twice per cycle"
+   ],
+   "question": "Assertion(A): The frequency of alternating current in Indian households is 50 Hz.\nReason(R): AC in India changes its direction every 0.01 s",
+   "options": {
+    "a": "Both A and R are true and R is the correct explanation of A",
+    "b": "Both A and R are true but R is not the correct explanation of A",
+    "c": "A is true, R is false",
+    "d": "R is true, A is false"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both A and R are true and R is the correct explanation of A. AC reverses direction twice per cycle; reversal every 0.01 s means a period of 0.02 s, i.e. f = 1/0.02 = 50 Hz.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Temperature vs size of body",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "temperature vs heat"
+   ],
+   "question": "Assertion(A): A large body always has a higher temperature than the small one.\nReason(R): Temperature depends on the average kinetic energy of molecules",
+   "options": {
+    "a": "Both A and R are true and R is the correct explanation of A",
+    "b": "Both A and R are true but R is not the correct explanation of A",
+    "c": "A is true, R is false",
+    "d": "R is true, A is false"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) R is true, A is false. Temperature depends on the average kinetic energy of molecules, not on the size of the body; a large body may hold more heat but need not be hotter.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Echolocation by dolphins",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "ultrasound echolocation"
+   ],
+   "question": "Assertion(A): Dolphins can detect the presence of fish using echolocation\nReason(R): Dolphin produce low frequency sounds to identify obstacles",
+   "options": {
+    "a": "Both A and R are true and R is the correct explanation of A",
+    "b": "Both A and R are true but R is not the correct explanation of A",
+    "c": "A is true, R is false",
+    "d": "R is true, A is false"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) A is true, R is false. Dolphins use high-frequency ultrasonic sound (not low frequency) for echolocation.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(i)(a)",
+   "q_order": 15,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Work done against gravity",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Work done against gravity"
+   ],
+   "question": "Work done in lifting a body of mass A through height X is given by: _____",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Work done in lifting a body of mass A through height X is given by: _____",
+     "accepted": [
+      "AgX",
+      "A g X",
+      "mgh",
+      "A × g × X",
+      "AXg"
+     ]
+    }
+   ],
+   "solution": "AgX (W = mgh = A × g × X)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(i)(b)",
+   "q_order": 16,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "V.R. of single movable pulley",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "V.R. of single movable pulley"
+   ],
+   "question": "The V.R. of a single movable pulley is _____.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "The V.R. of a single movable pulley is _____.",
+     "accepted": [
+      "2",
+      "two"
+     ]
+    }
+   ],
+   "solution": "2",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(i)(c)",
+   "q_order": 17,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Background radiation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Background radiation"
+   ],
+   "question": "Radiation from natural resources like soil and cosmic rays is called ____.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Radiation from natural resources like soil and cosmic rays is called ____.",
+     "accepted": [
+      "background radiation",
+      "natural background radiation",
+      "background radiations"
+     ]
+    }
+   ],
+   "solution": "background radiation",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(i)(d)",
+   "q_order": 18,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Unit conversion Wh to J",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Unit conversion Wh to J"
+   ],
+   "question": "1 Whr = _____ J",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "1 Whr = _____ J",
+     "accepted": [
+      "3600",
+      "3600 J",
+      "3.6 × 10³",
+      "3.6 x 10^3"
+     ]
+    }
+   ],
+   "solution": "3600 J (1 W × 3600 s)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(i)(e)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Work, Power and Energy",
+   "topic": "Work done when force perpendicular to displacement",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Work done when force perpendicular to displacement"
+   ],
+   "question": "If the displacement is perpendicular to the force applied, then the work done is ____.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "If the displacement is perpendicular to the force applied, then the work done is ____.",
+     "accepted": [
+      "zero",
+      "0",
+      "nil"
+     ]
+    }
+   ],
+   "solution": "zero (W = Fs cos 90° = 0)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(i)(f)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Composition of alpha particle",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Composition of alpha particle"
+   ],
+   "question": "An alpha particle consists of two protons and two _____.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "An alpha particle consists of two protons and two _____.",
+     "accepted": [
+      "neutrons",
+      "neutron"
+     ]
+    }
+   ],
+   "solution": "neutrons",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Absolute vs relative refractive index",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "absolute and relative refractive index"
+   ],
+   "question": "State two differences between absolute and relative refractive index",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1. Absolute RI is the RI of a medium with respect to vacuum (n = c/v), whereas relative RI is the RI of one medium with respect to another medium (₁n₂ = v₁/v₂).\n2. Absolute RI is always greater than 1, whereas relative RI may be greater than, less than or equal to 1.",
+   "marking_points": [
+    {
+     "point": "Definition difference: w.r.t. vacuum vs w.r.t. another medium",
+     "marks": 1
+    },
+    {
+     "point": "Absolute RI always > 1; relative RI can be < 1, = 1 or > 1",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 22,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "numerical",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Efficiency of block and tackle",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "block and tackle VR = n",
+    "efficiency = MA/VR"
+   ],
+   "question": "A block and tackle system has 3 pulleys in each block. If an effort of 100 N (effort applied in downward direction) is required to raise a load of 480 N, calculate the efficiency of the system.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Total pulleys n = 6, so V.R. = 6. M.A. = L/E = 480/100 = 4.8. Efficiency η = M.A./V.R. × 100 = 4.8/6 × 100 = 80%.",
+   "marking_points": [
+    {
+     "point": "V.R. = 6 and M.A. = 4.8",
+     "marks": 1
+    },
+    {
+     "point": "η = 4.8/6 = 80%",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 23,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Centre of gravity of conical pot",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 4,
+   "concepts": [
+    "centre of gravity of cone",
+    "C.G. of hollow cone"
+   ],
+   "question": "Paresh took an earthen pot which was filled with water up to its brim. The earthen pot was conical in shape and kept with its apex in downward direction.\na) If the vertical height of the earthen pot is 12 cm, where does its centre of gravity lie?\nb) Paresh poured out all the water from the pot. How will its centre of gravity shift: Towards the open end or Towards the apex?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) A cone filled completely behaves like a solid cone; its C.G. lies on the axis at h/4 from the base (open end), i.e. 12/4 = 3 cm below the open end (9 cm above the apex).\n(b) Towards the apex. The empty pot is a hollow conical shell whose C.G. lies at h/3 = 4 cm from the open end (8 cm above the apex), so the C.G. shifts towards the apex.",
+   "marking_points": [
+    {
+     "point": "(a) On the axis, h/4 = 3 cm from the open end (9 cm from apex)",
+     "marks": 1
+    },
+    {
+     "point": "(b) Shifts towards the apex",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(ii)",
+   "q_order": 24,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Factors affecting angle of deviation",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "deviation by prism"
+   ],
+   "question": "State the dependence of angle of deviation in prism on:\na) RI of material of prism\nb) wavelength of light",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) The greater the refractive index of the material of the prism, the greater the angle of deviation.\n(b) The greater the wavelength of light, the smaller the angle of deviation (red deviates least, violet most).",
+   "marking_points": [
+    {
+     "point": "(a) Deviation increases with increase in RI",
+     "marks": 1
+    },
+    {
+     "point": "(b) Deviation decreases with increase in wavelength",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(iii)",
+   "q_order": 25,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Resonance in tuning",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "resonance",
+    "tuning of radio/TV"
+   ],
+   "question": "We are able to see TV channels clearly when we set the TV on auto tuning. State and define the phenomena responsible for this.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Resonance. When the frequency of the receiver (tuning) circuit is adjusted to become equal to the frequency of the transmitted signal, it picks up that signal with maximum amplitude. Resonance is the phenomenon in which a body vibrates with a large amplitude when the frequency of the externally applied periodic force equals its natural frequency.",
+   "marking_points": [
+    {
+     "point": "Phenomenon: resonance",
+     "marks": 1
+    },
+    {
+     "point": "Definition: large-amplitude vibration when applied frequency equals natural frequency",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(iv)",
+   "q_order": 26,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Advantages of parallel household wiring",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "parallel circuits in house wiring"
+   ],
+   "question": "State any two advantages of parallel combination in household circuits",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1. Each appliance gets the same (full mains) voltage of 220 V.\n2. Each appliance can be switched on or off independently; if one appliance fails, the others keep working.",
+   "marking_points": [
+    {
+     "point": "Same voltage across each appliance",
+     "marks": 1
+    },
+    {
+     "point": "Independent switching / failure of one does not affect others",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(v)",
+   "q_order": 27,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Elevation of boiling point",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "effect of pressure on boiling point",
+    "effect of impurities"
+   ],
+   "question": "Rishi is surprised to see water boiling at 115°C. Give reason to why water can boil at the above temperature?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The boiling point of water rises above 100 °C when the pressure on its surface is increased (e.g. inside a pressure cooker) or when impurities such as salt are dissolved in it. Hence water under increased pressure (or containing dissolved impurities) can boil at 115 °C.",
+   "marking_points": [
+    {
+     "point": "Boiling point increases with increase in pressure",
+     "marks": 1
+    },
+    {
+     "point": "So water under higher pressure (pressure cooker)/with dissolved impurities boils at 115 °C",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(vi)",
+   "q_order": 28,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Sound",
+   "topic": "Pitch and frequency from wave graph",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "pitch depends on frequency"
+   ],
+   "question": "The figure shows two waves of different frequencies. Which one of them is a shrill note? State the reason?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Wave (a) is the shrill note. It has a shorter wavelength, i.e. more oscillations in the same time, so its frequency is higher; pitch (shrillness) increases with frequency.",
+   "marking_points": [
+    {
+     "point": "Wave (a)",
+     "marks": 1
+    },
+    {
+     "point": "Higher frequency (more waves in the same time) means higher pitch",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Two displacement-time graphs: (a) many closely spaced waves of small wavelength λ; (b) fewer, widely spaced waves of larger wavelength λ'.",
+   "page": 4,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_sms/p4.jpg"
+  },
+  {
+   "q_label": "3(vii)",
+   "q_order": 29,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Electricity and Magnetism",
+   "topic": "Parallel resistors with internal resistance",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "parallel combination",
+    "I = ε/(R + r)"
+   ],
+   "question": "Three resistors of value 2 ohm, 3 ohm and 6 ohm are connected parallel to a cell of emf 2 V. Find the value of current drawn by the circuit if the internal resistance of the cell is 1 ohm.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1/Rp = 1/2 + 1/3 + 1/6 = 1, so Rp = 1 Ω. Total resistance = Rp + r = 1 + 1 = 2 Ω. I = ε/(R + r) = 2/2 = 1 A.",
+   "marking_points": [
+    {
+     "point": "Rp = 1 Ω",
+     "marks": 1
+    },
+    {
+     "point": "Total resistance 2 Ω including internal resistance",
+     "marks": 1
+    },
+    {
+     "point": "I = 1 A",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4(i)",
+   "q_order": 30,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Electromagnet polarity and strength",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "clock rule",
+    "factors affecting electromagnet strength"
+   ],
+   "question": "[Figure: a coil of insulated wire wound on an iron nail, connected to a battery; − terminal on the tip side, + terminal on the head side.]\nFigure shows an electromagnet. State the polarity developed on the tip of the nail. State any two ways to decrease the strength of the magnetic field produced.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Polarity: South pole at the tip. Current enters from the + terminal at the head end and leaves at the tip end; seen from the tip, the current in the turns flows clockwise, so the tip becomes a South pole (clock rule).\nWays to decrease strength: (1) decrease the current (use fewer cells / add resistance), (2) decrease the number of turns of the coil (or remove the soft-iron nail core).",
+   "marking_points": [
+    {
+     "point": "Tip of nail: South pole (clock rule)",
+     "marks": 1
+    },
+    {
+     "point": "Decrease current",
+     "marks": 1
+    },
+    {
+     "point": "Decrease number of turns / remove iron core",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Iron nail wound with a coil of insulated wire; the coil ends are connected to a battery with − on the nail-tip side and + on the head side.",
+   "page": 4,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_sms/p4.jpg"
+  },
+  {
+   "q_label": "4(ii)",
+   "q_order": 31,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Three-pin socket terminals",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "three-pin socket",
+    "colour coding of wires"
+   ],
+   "question": "Figure shows the socket used for electric connection (a three-pin socket: terminal 1 is the large top hole, terminals 2 and 3 are the two smaller lower holes on the left and right).\na) State the colour code of wire to be used for second terminal\nb) What is the use of third terminal\nc) Why is the first terminal made thicker than others?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Terminal 2 (lower left) is the neutral terminal: wire colour light blue (old code: black).\n(b) Terminal 3 (lower right) is the live terminal: it connects the live wire and supplies current at high potential to the appliance (the switch and fuse are in this line).\n(c) Terminal 1 is the earth terminal; it is made thicker (and the earth pin longer) so that the plug cannot be inserted the wrong way and the earth connection, having low resistance, is made first, ensuring safety against shocks.",
+   "marking_points": [
+    {
+     "point": "(a) Neutral – light blue (or black)",
+     "marks": 1
+    },
+    {
+     "point": "(b) Live terminal – brings current to appliance",
+     "marks": 1
+    },
+    {
+     "point": "(c) Earth terminal is thicker: low resistance, cannot be inserted wrongly / makes earth connection first",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Front view of a three-pin socket: hole 1 (large) at the top, holes 2 (left) and 3 (right) smaller at the bottom.",
+   "page": 4,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_sms/p4.jpg"
+  },
+  {
+   "q_label": "4(iii)",
+   "q_order": 32,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Parallel circuit: find R and branch current",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "parallel circuits",
+    "Ohm's law"
+   ],
+   "question": "Find the value of R in the following circuit. Also find value of current in ammeter 1.\nCircuit: a 12 V battery; ammeter A2 in the main line reads 5.0 A; the circuit then divides into two parallel branches – one containing ammeter A1 in series with a 3.0 Ω resistor, the other containing resistor R.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The battery (negligible internal resistance) applies 12 V across each parallel branch.\nCurrent in A1 = V/R = 12/3 = 4 A.\nCurrent through R = 5.0 − 4 = 1 A.\nR = 12/1 = 12 Ω.",
+   "marking_points": [
+    {
+     "point": "p.d. across each branch = 12 V",
+     "marks": 1
+    },
+    {
+     "point": "A1 reads 4 A",
+     "marks": 1
+    },
+    {
+     "point": "Current through R = 1 A",
+     "marks": 1
+    },
+    {
+     "point": "R = 12 Ω",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5(i)",
+   "q_order": 33,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Nuclear fission vs fusion",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "nuclear fission",
+    "nuclear fusion"
+   ],
+   "question": "State three differences between nuclear fusion and nuclear fission.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1. Fission: a heavy nucleus splits into two lighter nuclei; fusion: two light nuclei combine to form a heavier nucleus.\n2. Fission can occur at ordinary temperature (needs slow neutrons); fusion needs extremely high temperature (~10⁷ K) and pressure.\n3. Fission products are radioactive (nuclear waste); fusion products are generally not radioactive. (Also: energy per unit mass is greater in fusion; fission can be controlled in reactors, fusion is not yet controllable.)",
+   "marking_points": [
+    {
+     "point": "Splitting of heavy nucleus vs combining of light nuclei",
+     "marks": 1
+    },
+    {
+     "point": "Conditions: ordinary temperature/neutron bombardment vs very high temperature and pressure",
+     "marks": 1
+    },
+    {
+     "point": "Radioactive waste vs no radioactive waste (or energy per unit mass / controllability)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(ii)",
+   "q_order": 34,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Successive alpha, beta, gamma decays",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "alpha decay",
+    "beta decay",
+    "gamma emission"
+   ],
+   "question": "An atomic nucleus A is composed of 84 protons and 128 neutrons.\na) Nucleus A emits an alpha particle to become B. What is the composition of B?\nb) Nucleus B emits the beta particle and is transformed to C. What is the composition of C?\nc) Does the composition of nucleus C change if it emits gamma radiation?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A: Z = 84, N = 128 (mass number 212).\n(a) Alpha emission: Z − 2, N − 2 → B has 82 protons and 126 neutrons (mass number 208).\n(b) Beta emission: one neutron changes into a proton → C has 83 protons and 125 neutrons (mass number 208).\n(c) No. Gamma emission only releases energy; the numbers of protons and neutrons remain the same.",
+   "marking_points": [
+    {
+     "point": "B: 82 protons, 126 neutrons",
+     "marks": 1
+    },
+    {
+     "point": "C: 83 protons, 125 neutrons",
+     "marks": 1
+    },
+    {
+     "point": "No change on gamma emission",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5(iii)",
+   "q_order": 35,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Sound",
+   "topic": "Frequency of stretched string and wave speed",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "f ∝ 1/l for strings",
+    "v = fλ"
+   ],
+   "question": "a) A wire of length 80 cm has a frequency of 256 Hz. Calculate the length of similar wire under similar tension which will have frequency 1024 Hz.\nb) A certain sound has a frequency of 256 Hz and wavelength of 1.3 m. Calculate the speed of this wave.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) For the same wire and tension, f ∝ 1/l, so f₁l₁ = f₂l₂ → l₂ = 256 × 80/1024 = 20 cm.\n(b) v = fλ = 256 × 1.3 = 332.8 m/s.",
+   "marking_points": [
+    {
+     "point": "f ∝ 1/l relation",
+     "marks": 1
+    },
+    {
+     "point": "l = 20 cm",
+     "marks": 1
+    },
+    {
+     "point": "v = fλ",
+     "marks": 1
+    },
+    {
+     "point": "v = 332.8 m/s",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(i)",
+   "q_order": 36,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "diagram",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Image formation by concave lens",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "concave lens image formation",
+    "ray diagram"
+   ],
+   "question": "A virtual diminished image is formed between the optical centre and the principal focus of the lens. Name the type of lens. Draw a neat and labelled diagram to show the position of object and image.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Concave (diverging) lens.\nDiagram: object AB placed anywhere in front of the concave lens (e.g. beyond F). A ray from B parallel to the principal axis diverges after refraction so that it appears to come from the focus F₁ on the object side (dotted backward extension). A ray from B through optical centre O goes undeviated. The dotted extension and this ray meet at B'; A'B' is drawn between O and F₁ on the same side as the object: virtual, erect and diminished. Label O, F₁, F₂, AB, A'B' and arrows on rays.",
+   "marking_points": [
+    {
+     "point": "Concave lens",
+     "marks": 1
+    },
+    {
+     "point": "Correct ray diagram with two rays and dotted extensions",
+     "marks": 1
+    },
+    {
+     "point": "Image A'B' between O and F, virtual, erect, diminished; labels",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(ii)",
+   "q_order": 37,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Scattering of light case study",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Rayleigh scattering",
+    "scattering ∝ 1/λ⁴"
+   ],
+   "question": "The spreading of light by the air molecules is called the scattering of light. The light having the least wavelength scatters more. The sun appears red at sunrise and sunset. The appearance of blue sky is due to scattering of light. The colour of the scattered light depends on the size of particles. The smaller molecules in the atmosphere scatter smaller wavelengths of light. The amount of scattering of light depends on the wavelength of light. When light from the sun enters the earth's atmosphere it gets scattered by the dust particles and air molecules present in the atmosphere. The path of sunlight entering the dark room through a fine hole is seen because of scattering of sunlight by dust particles present in its path inside the room.\nAnswer the following questions.\na) Why do astronauts in spaceships observe that the colour of earth appears blue?\nb) Why are danger signals made in red colour?\nc) The smoke from a fire looks white, give reason.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Blue light (short wavelength) from sunlight is scattered the most by air molecules of the earth's atmosphere (scattering ∝ 1/λ⁴); this scattered blue light (along with light from the oceans) reaches the astronauts, so the earth appears blue.\n(b) Red light has the longest wavelength in the visible spectrum, so it is scattered the least and can travel the farthest through air, fog and smoke; hence it is visible from a large distance.\n(c) Smoke contains large particles (larger than the wavelength of light) which scatter all wavelengths almost equally; the mixture of all scattered colours appears white.",
+   "marking_points": [
+    {
+     "point": "(a) Blue scattered most by atmosphere reaches the observer",
+     "marks": 1
+    },
+    {
+     "point": "(b) Red least scattered, travels farthest",
+     "marks": 1
+    },
+    {
+     "point": "(c) Large particles scatter all colours equally → white",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6(iii)",
+   "q_order": 38,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "topic": "Speed of light and RI across three media",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 4,
+   "concepts": [
+    "v = fλ in refraction",
+    "refractive index = c/v"
+   ],
+   "question": "The wavelength of light becomes half when it moves from medium 1 to medium 2 in the following diagram. And the speed of light increases to three times when it moves from medium 2 to 3. If medium 3 is vacuum, find the speed of light in medium 1. Hence find RI of medium 1 with respect to medium 3.\n(Diagram: a ray passes from medium 1 (n₁) into medium 2 (n₂) and then into medium 3 (n₃), arranged as three horizontal layers.)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Medium 3 is vacuum: v₃ = c = 3 × 10⁸ m/s.\nv₃ = 3v₂ → v₂ = 1 × 10⁸ m/s.\nFrequency is unchanged, so v ∝ λ; λ₂ = λ₁/2 → v₂ = v₁/2 → v₁ = 2 × 10⁸ m/s.\nRI of medium 1 w.r.t. medium 3 (vacuum) = v₃/v₁ = 3 × 10⁸/2 × 10⁸ = 1.5.",
+   "marking_points": [
+    {
+     "point": "v₂ = 1 × 10⁸ m/s",
+     "marks": 1
+    },
+    {
+     "point": "Frequency constant so v ∝ λ",
+     "marks": 1
+    },
+    {
+     "point": "v₁ = 2 × 10⁸ m/s",
+     "marks": 1
+    },
+    {
+     "point": "RI = 1.5",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "7(i)",
+   "q_order": 39,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "topic": "Balancing a metre rule to find its mass",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "principle of moments",
+    "C.G. of uniform rule"
+   ],
+   "question": "A uniform meter rule is balanced horizontally at the 60 cm mark by suspending 10 gf at one end. Draw the arrangement for the same and find the mass of the rule.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Diagram: metre rule on a knife edge (fulcrum) at 60 cm, 10 gf hung at the 100 cm end, weight W of the rule acting downward at its C.G. (50 cm mark).\nTaking moments about the fulcrum: W × (60 − 50) = 10 × (100 − 60) → W × 10 = 400 → W = 40 gf. Mass of the rule = 40 g.",
+   "marking_points": [
+    {
+     "point": "Diagram: fulcrum at 60 cm, 10 gf at 100 cm, W at 50 cm",
+     "marks": 1
+    },
+    {
+     "point": "Principle of moments W × 10 = 10 × 40",
+     "marks": 1
+    },
+    {
+     "point": "Mass = 40 g",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(ii)",
+   "q_order": 40,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work done while holding a load",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "work = force × displacement",
+    "work against gravity"
+   ],
+   "question": "An old man was standing on a bus stand carrying very heavy luggage. Ravi was looking at the old man and finding him uncomfortable. He requested him to put down the luggage and help him do so.\na) did the old man do any work while holding the luggage?\nb) write the equation for work done against gravity.\nc) Is work done against gravity positive or negative?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) No. While merely holding the luggage there is no displacement, so W = F × s = 0 (though he gets tired due to muscular effort).\n(b) W = mgh (m = mass, g = acceleration due to gravity, h = vertical height).\n(c) Work done against gravity (by the applied force) is positive, since the applied force and displacement are in the same direction; the work done by gravity itself is negative.",
+   "marking_points": [
+    {
+     "point": "(a) No work – no displacement",
+     "marks": 1
+    },
+    {
+     "point": "(b) W = mgh",
+     "marks": 1
+    },
+    {
+     "point": "(c) Positive (work by gravity is negative)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "7(iii)",
+   "q_order": 41,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Mechanics (Machines, Gravitation)",
+   "topic": "Crowbar as class I lever",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "class I lever",
+    "M.A. = effort arm/load arm"
+   ],
+   "question": "A man uses a crowbar of length 150 cm to raise a load of 75 kgf by putting the sharp edge below the bar at a distance of 1 m from his hand.\na) Draw a diagram of arrangement showing fulcrum load and effort with their directions\nb) identify the kind of lever in a crowbar.\nc) calculate the mechanical advantage and the effort needed.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Diagram: crowbar resting on a fulcrum (stone/sharp edge) 1 m from the effort end; effort E applied downward at the hand end; load L (75 kgf) at the other end acting downward on the bar, 50 cm from the fulcrum.\n(b) Class I lever (fulcrum between load and effort).\n(c) Effort arm = 100 cm, load arm = 150 − 100 = 50 cm. M.A. = effort arm/load arm = 100/50 = 2. Effort = L/M.A. = 75/2 = 37.5 kgf.",
+   "marking_points": [
+    {
+     "point": "Diagram with F, L, E and directions",
+     "marks": 1
+    },
+    {
+     "point": "Class I lever",
+     "marks": 1
+    },
+    {
+     "point": "M.A. = 2",
+     "marks": 1
+    },
+    {
+     "point": "Effort = 37.5 kgf",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "8(i)",
+   "q_order": 42,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Latent heat of fusion; cold after hailstorm",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "latent heat of fusion",
+    "cooling due to melting of ice"
+   ],
+   "question": "a) Define latent heat of fusion.\nb) Why does it become colder after hailstorm, than before or during the hailstorm?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) Specific latent heat of fusion is the amount of heat energy required to convert unit mass of a solid into liquid at its melting point without any change in temperature.\n(b) After the hailstorm the hailstones (ice) melt. For melting, each gram of ice absorbs 336 J of latent heat from the surroundings, so the temperature of the surroundings falls and it becomes colder.",
+   "marking_points": [
+    {
+     "point": "(a) Correct definition with 'no change in temperature'",
+     "marks": 1
+    },
+    {
+     "point": "(b) Hailstones melt after the storm",
+     "marks": 1
+    },
+    {
+     "point": "(b) Absorb latent heat from surroundings, so surroundings cool",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "8(ii)",
+   "q_order": 43,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Heat (Calorimetry)",
+   "topic": "Heating curve of sodium chloride",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "heating curve",
+    "specific heat capacity and slope"
+   ],
+   "question": "The above graph shows the heating curve for sodium chloride. (Temperature (°C) vs time: A at 0 °C rising steeply to B at 801 °C; flat BC at 801 °C; CD rising less steeply to D at 1465 °C; flat DE at 1465 °C.)\na) Which part of the graph shows melting of sodium chloride?\nb) What is the boiling point of sodium chloride?\nc) Why is the slope of part AB more than the slope of part CD?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) BC (temperature constant at 801 °C while the solid melts).\n(b) 1465 °C (part DE).\n(c) AB shows heating of solid NaCl and CD of liquid NaCl. With the same rate of heat supply, rise of temperature per unit time is inversely proportional to specific heat capacity; the solid has a lower specific heat capacity than the liquid, so its temperature rises faster and AB is steeper.",
+   "marking_points": [
+    {
+     "point": "(a) BC",
+     "marks": 1
+    },
+    {
+     "point": "(b) 1465 °C",
+     "marks": 1
+    },
+    {
+     "point": "(c) Solid has lower specific heat capacity than liquid, so faster temperature rise",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Heating curve for sodium chloride: temperature vs time with points A (0 °C), B and C at 801 °C, D and E at 1465 °C.",
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_sms/p6.jpg"
+  },
+  {
+   "q_label": "8(iii)",
+   "q_order": 44,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Maximum bulbs on a fuse",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "P = VI",
+    "R = V²/P"
+   ],
+   "question": "A household has a fuse of 5 A rating. Calculate the maximum number of bulbs of rating 55 W, 220 V each that can be connected in the circuit. Also find the resistance of each bulb.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Current drawn by each bulb I = P/V = 55/220 = 0.25 A. Maximum number of bulbs = 5/0.25 = 20 (equivalently, maximum power = 220 × 5 = 1100 W; 1100/55 = 20).\nResistance of each bulb R = V²/P = 220 × 220/55 = 880 Ω.",
+   "marking_points": [
+    {
+     "point": "I per bulb = 0.25 A (or P max = 1100 W)",
+     "marks": 1
+    },
+    {
+     "point": "Number of bulbs = 20",
+     "marks": 1
+    },
+    {
+     "point": "R = V²/P",
+     "marks": 1
+    },
+    {
+     "point": "R = 880 Ω",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "9(i)",
+   "q_order": 45,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Modern Physics (Radioactivity)",
+   "topic": "Alpha emission from hydrogen; isotopes",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "alpha particle composition",
+    "isotopes"
+   ],
+   "question": "a) Is it possible for a hydrogen nucleus to emit an Alpha particle? Give a reason for your answer.\nb) Define isotopes.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) No. An alpha particle consists of 2 protons and 2 neutrons, but a hydrogen nucleus has only one proton (and no neutron), so it cannot emit an alpha particle.\n(b) Isotopes are atoms of the same element having the same atomic number but different mass numbers (i.e. different numbers of neutrons), e.g. ¹H, ²H, ³H.",
+   "marking_points": [
+    {
+     "point": "(a) No",
+     "marks": 1
+    },
+    {
+     "point": "(a) Reason: hydrogen nucleus has only one proton; alpha needs 2p + 2n",
+     "marks": 1
+    },
+    {
+     "point": "(b) Definition of isotopes",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "9(ii)",
+   "q_order": 46,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Electricity and Magnetism",
+   "topic": "Electromagnet attracting an iron bar",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 4,
+   "concepts": [
+    "clock rule",
+    "electromagnet",
+    "oscillatory motion"
+   ],
+   "question": "[Figure: an iron bar hangs from a spring attached to a wooden clamp stand, just above a vertical electromagnet; the electromagnet is connected in series with an ammeter, a switch, a battery and a rheostat; a half-metre ruler beside it measures the position of the bar.]\na) State the polarity at top end of the electromagnet when the switch is closed.\nb) What will happen to the iron bar when that happens?\nc) State the type of motion iron bar will have after opening the switch.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) South pole. The wire from the + terminal enters the coil at its top on the right and, as drawn, the current flows clockwise when viewed from above, so the top end becomes a South pole (clock rule). [Answer depends on the winding as drawn in the figure.]\n(b) The iron bar gets magnetised by induction and is attracted downward towards the electromagnet, stretching the spring.\n(c) On opening the switch the electromagnet loses its magnetism; the stretched spring pulls the bar back up and it oscillates up and down (vibratory/oscillatory motion, simple harmonic), gradually dying out.",
+   "marking_points": [
+    {
+     "point": "(a) South pole at top (clock rule)",
+     "marks": 1
+    },
+    {
+     "point": "(b) Iron bar attracted downwards, spring stretches",
+     "marks": 1
+    },
+    {
+     "point": "(c) Oscillatory (vibratory) motion up and down",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Iron bar suspended from a spring on a clamp stand above a vertical electromagnet wired with an ammeter, switch, battery and rheostat; half-metre ruler beside it.",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_sms/p7.jpg"
+  },
+  {
+   "q_label": "9(iii)",
+   "q_order": 47,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "numerical",
+   "marks": 4.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Work, Power and Energy",
+   "topic": "Energy loss on a slope: momentum and height",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 3,
+   "concepts": [
+    "momentum p = mv",
+    "conservation of energy with friction loss"
+   ],
+   "question": "Richa skates from the top of the slope, and gains a speed of 15 m/s. She loses 25 % of energy to friction.\na) If mass of Richa is 50 kg, find her momentum when she reaches bottom of the slope.\nb) What is the height of the slope? (Take g = 10 m/s²)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) p = mv = 50 × 15 = 750 kg m/s.\n(b) KE at bottom = ½mv² = ½ × 50 × 15² = 5625 J. This is 75% of the initial potential energy: 0.75 × mgh = 5625 → mgh = 7500 J → h = 7500/(50 × 10) = 15 m.",
+   "marking_points": [
+    {
+     "point": "Momentum = 750 kg m/s",
+     "marks": 1
+    },
+    {
+     "point": "KE = 5625 J",
+     "marks": 1
+    },
+    {
+     "point": "KE = 75% of PE → PE = 7500 J",
+     "marks": 1
+    },
+    {
+     "point": "h = 15 m",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  }
+ ]
+}

@@ -10,7 +10,7 @@ export const SCAN_MODEL = process.env.BOARD_SCAN_MODEL || 'claude-sonnet-5-5';
 
 // Columns safe to send to the student before an attempt is submitted (no solution, no correct option, no rubric).
 export const PUBLIC_Q_COLS =
-  'id,paper_id,subject,q_label,q_order,q_main,section,type,marks,mandatory,choice_note,chapter,topic,applied,applied_kind,difficulty,question,options,is_objective,needs_figure,figure_desc,figure_url';
+  'id,paper_id,subject,q_label,q_order,q_main,section,type,marks,mandatory,choice_note,chapter,topic,applied,applied_kind,difficulty,question,options,is_objective,needs_figure,figure_desc,figure_url,source,school';
 
 // answer_items without the accepted answers (safe to show before submission)
 export function stripItems(q) {
@@ -57,6 +57,15 @@ export function gradeItems(q, answerText) {
     points_hit: detail.filter(d => d.correct).map(d => d.prompt), points_missed: detail.filter(d => !d.correct).map(d => `${d.prompt}: ${d.accepted[0]}`) };
 }
 
+// Matches a question's section label to a paper section name. "Part II" must not resolve to "Part I",
+// so an exact name wins, then the prefix match whose length is closest to the target.
+export function pickSection(names, target) {
+  if (!target) return undefined;
+  if (names.includes(target)) return target;
+  const cands = names.filter(n => n && (target.startsWith(n) || n.startsWith(target)));
+  return cands.sort((a, b) => Math.abs(a.length - target.length) - Math.abs(b.length - target.length))[0];
+}
+
 // ── Choice rules ("attempt any 4 of 6") ──────────────────────────────────────
 // Only the first `attempt_n` answered main questions in a choice section count; for internal OR
 // alternatives only the first answered alternative counts. Returns Set of question ids that count.
@@ -69,7 +78,7 @@ export function countedQuestionIds(paper, questions, answeredIds) {
   for (const q of questions) (bySection[q.section] ||= []).push(q);
 
   for (const [secName, qs] of Object.entries(bySection)) {
-    const sec = Object.entries(secByName).find(([n]) => secName && (secName.startsWith(n) || n.startsWith(secName)))?.[1];
+    const sec = secByName[pickSection(Object.keys(secByName), secName)];
     const choiceQs = qs.filter(q => q.mandatory === 'choice');
     // compulsory rows always count when answered
     for (const q of qs) if (q.mandatory === 'compulsory' && answered.has(q.id)) counted.add(q.id);
