@@ -1,0 +1,1458 @@
+{
+ "paper_id": "computer_applications_2023",
+ "subject": "computer_applications",
+ "year": 2023,
+ "sem": null,
+ "label": "2023",
+ "source": "board",
+ "school": "CISCE",
+ "exam_label": "ICSE Board",
+ "max_marks": 100,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Answers are written on separate paper; the first 15 minutes are for reading the paper. Attempt all questions from Section A and any four questions from Section B. Section B answers must be Java programs (BlueJ or any Java environment) written with variable descriptions/mnemonic codes; flowcharts and algorithms are not required.",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 60,
+   "rule": "Attempt any four questions from this Section.",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "Inheritance",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "inheritance"
+   ],
+   "question": "A mechanism where one class acquires the properties of another class:",
+   "options": {
+    "a": "Polymorphism",
+    "b": "Inheritance",
+    "c": "Encapsulation",
+    "d": "Abstraction"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Inheritance. Inheritance lets a subclass acquire the properties and methods of a superclass.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Logical operators",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "logical operators"
+   ],
+   "question": "Identify the type of operator &&:",
+   "options": {
+    "a": "ternary",
+    "b": "unary",
+    "c": "logical",
+    "d": "relational"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) logical. && is the logical AND operator.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Scanner nextLine()",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Scanner methods"
+   ],
+   "question": "The Scanner class method used to accept words with space:",
+   "options": {
+    "a": "next()",
+    "b": "nextLine()",
+    "c": "Next()",
+    "d": "nextString()"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) nextLine(). nextLine() reads the whole line including spaces; next() stops at a space.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "import keyword",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "import and packages"
+   ],
+   "question": "The keyword used to call package in the program:",
+   "options": {
+    "a": "extends",
+    "b": "export",
+    "c": "import",
+    "d": "package"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) import. import brings a package's classes into the program, e.g. import java.util.*;",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Math.ceil and Math.sqrt",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "Math.ceil",
+    "Math.sqrt"
+   ],
+   "question": "What value will Math.sqrt (Math.ceil (15.3)) return?",
+   "options": {
+    "a": "16.0",
+    "b": "16",
+    "c": "4.0",
+    "d": "5.0"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 4.0. Math.ceil(15.3) = 16.0 and Math.sqrt(16.0) = 4.0 (a double).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Fall through in switch",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "fall through",
+    "break"
+   ],
+   "question": "The absence of which statement leads to fall through situation in switch case statement?",
+   "options": {
+    "a": "continue",
+    "b": "break",
+    "c": "return",
+    "d": "System.exit(0)"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) break. Without break, control falls through into the following cases.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Infinite loop",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "infinite loop"
+   ],
+   "question": "State the type of loop in the given program segment:\nfor (int i = 5; i != 0; i -= 2)\nSystem.out.println(i);",
+   "options": {
+    "a": "finite",
+    "b": "infinite",
+    "c": "null",
+    "d": "fixed"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) infinite. i takes 5, 3, 1, -1, -3 ... and never equals 0, so the condition i != 0 is always true.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Method prototype",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "method prototype"
+   ],
+   "question": "Write a method prototype name check() which takes an integer argument and returns a char:",
+   "options": {
+    "a": "char check()",
+    "b": "void check (int x)",
+    "c": "check (int x)",
+    "d": "char check (int x)"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) char check (int x). Return type char, name check, one int parameter.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Return values of a method",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "return statement"
+   ],
+   "question": "The number of values that a method can return is:",
+   "options": {
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 1. A method can return only one value through its return statement.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "concat()",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "String.concat"
+   ],
+   "question": "The String class method to join two strings is:",
+   "options": {
+    "a": "concat(String)",
+    "b": "<string>.joint(string)",
+    "c": "concat(char)",
+    "d": "Concat()"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) concat(String). concat(String) appends the argument string to the calling string.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "substring()",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "substring(begin, end)"
+   ],
+   "question": "The output of the function \"COMPOSITION\".substring(3, 6):",
+   "options": {
+    "a": "POSI",
+    "b": "POS",
+    "c": "MPO",
+    "d": "MPOS"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) POS. Characters at indices 3, 4, 5 are P, O, S (end index 6 is excluded).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Explicit type casting",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "explicit type casting"
+   ],
+   "question": "int x = (int) 32.8; is an example of __________ typecasting.",
+   "options": {
+    "a": "implicit",
+    "b": "automatic",
+    "c": "explicit",
+    "d": "coercion"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) explicit. The programmer forces the conversion with the (int) cast operator.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "Bytecode",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "bytecode",
+    "JVM"
+   ],
+   "question": "The code obtained after compilation is known as:",
+   "options": {
+    "a": "source code",
+    "b": "object code",
+    "c": "machine code",
+    "d": "java byte code"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) java byte code. javac compiles Java source code into bytecode, which the JVM interprets.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Syntax errors",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "syntax error"
+   ],
+   "question": "Missing a semicolon in a statement is what type of error?",
+   "options": {
+    "a": "Logical",
+    "b": "Syntax",
+    "c": "Runtime",
+    "d": "No error"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Syntax. It violates the grammar of the language and is caught at compile time.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "1(xvi)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "switch fall through output",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "switch fall through"
+   ],
+   "question": "Consider the following program segment and select the output of the same when n = 10 :\nswitch(n)\n{case 10 : System.out.println(n*2);\ncase 4 : System.out.println(n*4); break;\ndefault : System.out.println(n);\n}",
+   "options": {
+    "a": "20\n40",
+    "b": "10\n4",
+    "c": "20, 40",
+    "d": "10\n10"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 20\n40. case 10 prints 20; with no break it falls through to case 4, which prints 40 on the next line, then break exits.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "1(xvii)",
+   "q_order": 15,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Pure method",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "pure and impure methods"
+   ],
+   "question": "A method which does not modify the value of variables is termed as:",
+   "options": {
+    "a": "Impure method",
+    "b": "Pure method",
+    "c": "Primitive method",
+    "d": "User defined method"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Pure method. A pure method does not change the state of the object or its arguments.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "1(xviii)",
+   "q_order": 16,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Unboxing",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "autoboxing and unboxing"
+   ],
+   "question": "When an object of a Wrapper class is converted to its corresponding primitive data type, it is called as ___________.",
+   "options": {
+    "a": "Boxing",
+    "b": "Explicit type conversion",
+    "c": "Unboxing",
+    "d": "Implicit type conversion"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Unboxing. Wrapper object to primitive is unboxing; primitive to wrapper is boxing.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "1(xix)",
+   "q_order": 17,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Size of char",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "char data type size"
+   ],
+   "question": "The number of bits occupied by the value 'a' are:",
+   "options": {
+    "a": "1 bit",
+    "b": "2 bits",
+    "c": "4 bits",
+    "d": "16 bits"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 16 bits. 'a' is a char, which occupies 2 bytes (16 bits) in Java (Unicode).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "1(xx)",
+   "q_order": 18,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Static method",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "static method"
+   ],
+   "question": "Method which is a part of a class rather than an instance of the class is termed as:",
+   "options": {
+    "a": "Static method",
+    "b": "Non static method",
+    "c": "Wrapper class",
+    "d": "String method"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Static method. A static method belongs to the class and can be called without creating an object.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(i)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Java expression with Math.pow",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "Math.pow",
+    "writing Java expressions"
+   ],
+   "question": "Write the Java expression for (a + b)ˣ.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Math.pow(a + b, x)",
+   "marking_points": [
+    {
+     "point": "Use of Math.pow",
+     "marks": 1
+    },
+    {
+     "point": "Correct arguments (a + b) as base and x as exponent",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Compound assignment with prefix/postfix",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 4,
+   "concepts": [
+    "compound assignment",
+    "prefix and postfix operators"
+   ],
+   "question": "Evaluate the expression when the value of x = 4:\nx *= --x + x++ + x",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Value of x",
+     "accepted": [
+      "40"
+     ]
+    }
+   ],
+   "solution": "x *= expr means x = x * (expr), and the left x is taken first as 4.\n--x: x becomes 3, value 3\nx++: value 3, then x becomes 4\nx: 4\nexpr = 3 + 3 + 4 = 10\nx = 4 * 10 = 40",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Converting do-while to for",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "do-while vs for",
+    "loop conversion"
+   ],
+   "question": "Convert the following do…while loop to for loop:\nint x=10;\ndo\n{x--;\nSystem.out.print(x);\n}while (x>=1);",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "int x;\nfor (x = 10; x >= 1; )\n{\n    x--;\n    System.out.print(x);\n}\n(Both print 9876543210. Since x starts at 10, the condition is true on entry, so the for loop behaves exactly like the do-while.)",
+   "marking_points": [
+    {
+     "point": "Correct for loop header with initialisation x = 10 and condition x >= 1",
+     "marks": 1
+    },
+    {
+     "point": "Loop body x--; System.out.print(x); giving the same output",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 22,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Character class methods",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "Character.toUpperCase",
+    "Character.isLetterOrDigit"
+   ],
+   "question": "Give the output of the following Character class methods:\n(a) Character.toUpperCase ('a')\n(b) Character.isLetterOrDigit('#')",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(a)",
+     "accepted": [
+      "A",
+      "'A'"
+     ]
+    },
+    {
+     "prompt": "(b)",
+     "accepted": [
+      "false"
+     ]
+    }
+   ],
+   "solution": "(a) A\n(b) false ('#' is neither a letter nor a digit)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "2(v)",
+   "q_order": 23,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Ternary to if-else",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "ternary operator",
+    "if-else"
+   ],
+   "question": "Rewrite the following code using the if-else statement:\nint m= 400;\ndouble ch = (m>300) ? (m / 10.0) * 2: (m / 20.0) - 2;",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "int m = 400;\ndouble ch;\nif (m > 300)\n    ch = (m / 10.0) * 2;\nelse\n    ch = (m / 20.0) - 2;\n(Here ch = 80.0.)",
+   "marking_points": [
+    {
+     "point": "Correct if condition (m > 300) with ch = (m / 10.0) * 2",
+     "marks": 1
+    },
+    {
+     "point": "else part ch = (m / 20.0) - 2, with ch declared as double",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "2(vi)",
+   "q_order": 24,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "while loop digit trace",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "while loop trace",
+    "% and / on integers"
+   ],
+   "question": "Give the output of the following program segment:\nint n = 4279; int d;\nwhile(n>0)\n{d=n%10;\nSystem.out.println(d);\nn=n/100;\n}",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "First line of output",
+     "accepted": [
+      "9"
+     ]
+    },
+    {
+     "prompt": "Second line of output",
+     "accepted": [
+      "2"
+     ]
+    }
+   ],
+   "solution": "Trace: n=4279, d=9, print 9, n=42; n=42, d=2, print 2, n=0; loop ends.\nOutput:\n9\n2",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "2(vii)",
+   "q_order": 25,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "lastIndexOf and compareTo",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "lastIndexOf",
+    "compareTo"
+   ],
+   "question": "Give the output of the following String class methods:\n(a) \"COMMENCEMENT\".lastIndexOf('M')\n(b) \"devote\".compareTo(\"DEVOTE\")",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(a)",
+     "accepted": [
+      "8"
+     ]
+    },
+    {
+     "prompt": "(b)",
+     "accepted": [
+      "32"
+     ]
+    }
+   ],
+   "solution": "(a) 8: C0 O1 M2 M3 E4 N5 C6 E7 M8 E9 N10 T11, so the last 'M' is at index 8.\n(b) 32: the first characters differ, 'd' − 'D' = 100 − 68 = 32.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "2(viii)",
+   "q_order": 26,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Array length and element",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "array length",
+    "array indexing"
+   ],
+   "question": "Consider the given array and answer the questions given below:\nint x[ ]={4,7,9,66,72,0,16};\n(a) What is the length of the array?\n(b) What is the value in x[4]?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(a) length",
+     "accepted": [
+      "7"
+     ]
+    },
+    {
+     "prompt": "(b) x[4]",
+     "accepted": [
+      "72"
+     ]
+    }
+   ],
+   "solution": "(a) 7\n(b) 72 (index 4 is the fifth element)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "2(ix)",
+   "q_order": 27,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Object and constructor",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "object",
+    "constructor"
+   ],
+   "question": "Name the following:\n(a) What is an instance of the class called?\n(b) The method which has same name as that of the class name.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(a) instance of a class",
+     "accepted": [
+      "object",
+      "an object"
+     ]
+    },
+    {
+     "prompt": "(b) method with the same name as the class",
+     "accepted": [
+      "constructor",
+      "a constructor"
+     ]
+    }
+   ],
+   "solution": "(a) Object  (b) Constructor",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "2(x)",
+   "q_order": 28,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Implicit char to int conversion",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "implicit type conversion",
+    "Unicode of characters"
+   ],
+   "question": "Write the value of n after execution:\nchar ch ='d';\nint n = ch + 5;",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Value of n",
+     "accepted": [
+      "105"
+     ]
+    }
+   ],
+   "solution": "n = 105. The Unicode (ASCII) value of 'd' is 100; char is promoted to int, so 100 + 5 = 105.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "3",
+   "q_order": 29,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class Student: stream allocation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "class and object",
+    "if-else-if ladder",
+    "Scanner input"
+   ],
+   "question": "Design a class with the following specifications:\nClass name: Student\nMember variables:\nname – name of student\nage – age of student\nmks – marks obtained\nstream – stream allocated\n(Declare the variables using appropriate data types)\nMember methods:\nvoid accept() – Accept name, age and marks using methods of Scanner class.\nvoid allocation() – Allocate the stream as per following criteria:\nmks | stream\n>= 300 | Science and Computer\n>= 200 and < 300 | Commerce and Computer\n>= 75 and < 200 | Arts and Animation\n< 75 | Try Again\nvoid print() – Display student name, age, mks and stream allocated.\nCall all the above methods in main method using an object.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Model program:\n\nimport java.util.Scanner;\n\npublic class Student\n{\n    String name;     // name of student\n    int age;         // age of student\n    double mks;      // marks obtained\n    String stream;   // stream allocated\n\n    void accept()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter name: \");\n        name = sc.nextLine();\n        System.out.print(\"Enter age: \");\n        age = sc.nextInt();\n        System.out.print(\"Enter marks: \");\n        mks = sc.nextDouble();\n    }\n\n    void allocation()\n    {\n        if (mks >= 300)\n            stream = \"Science and Computer\";\n        else if (mks >= 200)\n            stream = \"Commerce and Computer\";\n        else if (mks >= 75)\n            stream = \"Arts and Animation\";\n        else\n            stream = \"Try Again\";\n    }\n\n    void print()\n    {\n        System.out.println(\"Name: \" + name);\n        System.out.println(\"Age: \" + age);\n        System.out.println(\"Marks: \" + mks);\n        System.out.println(\"Stream allocated: \" + stream);\n    }\n\n    public static void main(String args[])\n    {\n        Student ob = new Student();\n        ob.accept();\n        ob.allocation();\n        ob.print();\n    }\n}\n\nSample: mks = 250 gives stream Commerce and Computer; mks = 60 gives Try Again.",
+   "marking_points": [
+    {
+     "point": "Class declaration with name (String), age (int), mks (int/double), stream (String)",
+     "marks": 2
+    },
+    {
+     "point": "accept() using Scanner methods for name, age and marks",
+     "marks": 3
+    },
+    {
+     "point": "allocation(): correct if-else-if conditions for the four ranges",
+     "marks": 4
+    },
+    {
+     "point": "Correct stream strings assigned",
+     "marks": 1
+    },
+    {
+     "point": "print() displays name, age, mks and stream",
+     "marks": 2
+    },
+    {
+     "point": "main() creates object and calls accept, allocation, print",
+     "marks": 2
+    },
+    {
+     "point": "Overall correctness",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "4",
+   "q_order": 30,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Arrays",
+   "topic": "Bubble sort of characters",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "bubble sort",
+    "char array",
+    "comparing characters"
+   ],
+   "question": "Define a class to accept 10 characters from a user. Using bubble sort technique arrange them in ascending order. Display the sorted array and original array.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Model program:\n\nimport java.util.Scanner;\n\npublic class CharSort\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        char orig[] = new char[10];   // original array\n        char a[] = new char[10];      // copy to be sorted\n        System.out.println(\"Enter 10 characters:\");\n        for (int i = 0; i < 10; i++)\n        {\n            orig[i] = sc.next().charAt(0);\n            a[i] = orig[i];\n        }\n\n        for (int i = 0; i < 9; i++)             // passes\n        {\n            for (int j = 0; j < 9 - i; j++)     // compare adjacent characters\n            {\n                if (a[j] > a[j + 1])\n                {\n                    char t = a[j];\n                    a[j] = a[j + 1];\n                    a[j + 1] = t;\n                }\n            }\n        }\n\n        System.out.println(\"Original array:\");\n        for (int i = 0; i < 10; i++)\n            System.out.print(orig[i] + \" \");\n        System.out.println();\n        System.out.println(\"Sorted array:\");\n        for (int i = 0; i < 10; i++)\n            System.out.print(a[i] + \" \");\n        System.out.println();\n    }\n}\n\nA copy of the input is kept in orig[] so the original order can still be displayed after a[] is sorted. Characters are compared by their Unicode values.",
+   "marking_points": [
+    {
+     "point": "Declaration of char array(s) of size 10, with a copy kept for the original",
+     "marks": 2
+    },
+    {
+     "point": "Input of 10 characters using Scanner (next().charAt(0))",
+     "marks": 2
+    },
+    {
+     "point": "Outer loop for passes",
+     "marks": 2
+    },
+    {
+     "point": "Inner loop comparing adjacent characters",
+     "marks": 2
+    },
+    {
+     "point": "Correct swap using a temporary char",
+     "marks": 3
+    },
+    {
+     "point": "Display of original array",
+     "marks": 1
+    },
+    {
+     "point": "Display of sorted array",
+     "marks": 1
+    },
+    {
+     "point": "Overall correctness",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "5",
+   "q_order": 31,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "User-Defined Methods",
+   "topic": "Overloading print(): pattern and lead number",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "method overloading",
+    "nested loop pattern",
+    "digit extraction"
+   ],
+   "question": "Define a class to overload the function print as follows:\nvoid print() – to print the following format\n1 1 1 1\n2 2 2 2\n3 3 3 3\n4 4 4 4\n5 5 5 5\nvoid print(int n) – To check whether the number is a lead number. A lead number is the one whose sum of even digits are equal to sum of odd digits.\ne.g. 3669\nodd digits sum = 3 + 9 = 12\neven digits sum = 6 + 6 = 12\n3669 is a lead number.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Model program:\n\npublic class Overload\n{\n    // prints the 5 x 4 pattern of row numbers\n    void print()\n    {\n        for (int i = 1; i <= 5; i++)\n        {\n            for (int j = 1; j <= 4; j++)\n                System.out.print(i + \" \");\n            System.out.println();\n        }\n    }\n\n    // checks whether n is a lead number\n    void print(int n)\n    {\n        int num = n;        // working copy\n        int evenSum = 0;    // sum of even digits\n        int oddSum = 0;     // sum of odd digits\n        while (num > 0)\n        {\n            int d = num % 10;\n            if (d % 2 == 0)\n                evenSum += d;\n            else\n                oddSum += d;\n            num = num / 10;\n        }\n        if (evenSum == oddSum)\n            System.out.println(n + \" is a lead number.\");\n        else\n            System.out.println(n + \" is not a lead number.\");\n    }\n\n    public static void main(String args[])\n    {\n        Overload ob = new Overload();\n        ob.print();\n        ob.print(3669);\n    }\n}\n\nTrace for 3669: digits 9 (odd), 6 (even), 6 (even), 3 (odd) give oddSum = 12 and evenSum = 12, so it prints \"3669 is a lead number.\"",
+   "marking_points": [
+    {
+     "point": "Class with two overloaded print() methods with correct signatures",
+     "marks": 2
+    },
+    {
+     "point": "print(): nested loops (5 rows, 4 columns) printing the row number",
+     "marks": 3
+    },
+    {
+     "point": "print(): line break after each row",
+     "marks": 1
+    },
+    {
+     "point": "print(int n): digit extraction using % 10 and / 10 in a loop",
+     "marks": 3
+    },
+    {
+     "point": "Checking even/odd digit and adding to the right sum",
+     "marks": 3
+    },
+    {
+     "point": "Comparing sums and printing the result message",
+     "marks": 2
+    },
+    {
+     "point": "Overall correctness",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "6",
+   "q_order": 32,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "String Handling",
+   "topic": "Counting digits, letters and special characters",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "String traversal",
+    "Character class methods"
+   ],
+   "question": "Define a class to accept a String and print the number of digits, alphabets and special characters in the string.\nExample: S = \"KAPILDEV@83\"\nOutput:\nNumber of digits – 2\nNumber of Alphabets – 8\nNumber of Special characters – 1",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Model program:\n\nimport java.util.Scanner;\n\npublic class CountChars\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a string: \");\n        String s = sc.nextLine();\n        int digits = 0, alpha = 0, special = 0;   // counters\n        for (int i = 0; i < s.length(); i++)\n        {\n            char ch = s.charAt(i);\n            if (Character.isDigit(ch))\n                digits++;\n            else if (Character.isLetter(ch))\n                alpha++;\n            else\n                special++;\n        }\n        System.out.println(\"Number of digits – \" + digits);\n        System.out.println(\"Number of Alphabets – \" + alpha);\n        System.out.println(\"Number of Special characters – \" + special);\n    }\n}\n\nTrace on KAPILDEV@83: K A P I L D E V are 8 letters, '@' is 1 special character, 8 and 3 are 2 digits, which matches the sample output.",
+   "marking_points": [
+    {
+     "point": "Input of the string using nextLine()",
+     "marks": 2
+    },
+    {
+     "point": "Loop through each character using charAt()",
+     "marks": 3
+    },
+    {
+     "point": "Digit check using Character.isDigit (or range '0'-'9')",
+     "marks": 2
+    },
+    {
+     "point": "Letter check using Character.isLetter (or ranges)",
+     "marks": 2
+    },
+    {
+     "point": "Remaining characters counted as special",
+     "marks": 2
+    },
+    {
+     "point": "Display of the three counts",
+     "marks": 2
+    },
+    {
+     "point": "Overall correctness",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "7",
+   "q_order": 33,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Arrays",
+   "topic": "Linear search in a double array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "linear search",
+    "double array"
+   ],
+   "question": "Define a class to accept values into an array of double data type of size 20. Accept a double value from user and search in the array using linear search method. If value is found display message \"Found\" with its position where it is present in the array. Otherwise display message \"not found\".",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Model program:\n\nimport java.util.Scanner;\n\npublic class LinearSearch\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        double a[] = new double[20];   // array of 20 values\n        System.out.println(\"Enter 20 values:\");\n        for (int i = 0; i < 20; i++)\n            a[i] = sc.nextDouble();\n        System.out.print(\"Enter value to search: \");\n        double key = sc.nextDouble();  // value to be searched\n        int pos = -1;                  // index where found\n        for (int i = 0; i < 20; i++)\n        {\n            if (a[i] == key)\n            {\n                pos = i;\n                break;\n            }\n        }\n        if (pos != -1)\n            System.out.println(\"Found at position \" + (pos + 1));\n        else\n            System.out.println(\"not found\");\n    }\n}\n\nThe position printed is the 1-based position (index + 1); printing the index is also accepted if stated.",
+   "marking_points": [
+    {
+     "point": "double array of size 20 declared",
+     "marks": 1
+    },
+    {
+     "point": "Input of 20 values using a loop",
+     "marks": 2
+    },
+    {
+     "point": "Input of the search value",
+     "marks": 1
+    },
+    {
+     "point": "Loop comparing each element with the search value",
+     "marks": 4
+    },
+    {
+     "point": "Recording position / flag and stopping on finding",
+     "marks": 2
+    },
+    {
+     "point": "\"Found\" with position displayed",
+     "marks": 2
+    },
+    {
+     "point": "\"not found\" displayed otherwise",
+     "marks": 1
+    },
+    {
+     "point": "Overall correctness",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "8",
+   "q_order": 34,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Arrays",
+   "topic": "Sum of one-digit and two-digit array elements",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "array traversal",
+    "range checks"
+   ],
+   "question": "Define a class to accept values in integer array of size 10. Find sum of one digit number and sum of two digit numbers entered. Display them separately.\nExample: Input:\na[ ] = {2, 12, 4, 9, 18, 25, 3, 32, 20, 1}\nOutput:\nSum of one digit numbers : 2 + 4 + 9 + 3 + 1 = 19\nSum of two digit numbers : 12 + 18 + 25 + 32 + 20 = 107",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Model program:\n\nimport java.util.Scanner;\n\npublic class DigitSum\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int a[] = new int[10];\n        System.out.println(\"Enter 10 integers:\");\n        for (int i = 0; i < 10; i++)\n            a[i] = sc.nextInt();\n        int sum1 = 0, sum2 = 0;        // sums of one digit and two digit numbers\n        String s1 = \"\", s2 = \"\";       // terms shown in the output\n        for (int i = 0; i < 10; i++)\n        {\n            if (a[i] >= 0 && a[i] <= 9)\n            {\n                sum1 += a[i];\n                s1 = s1 + (s1.equals(\"\") ? \"\" : \" + \") + a[i];\n            }\n            else if (a[i] >= 10 && a[i] <= 99)\n            {\n                sum2 += a[i];\n                s2 = s2 + (s2.equals(\"\") ? \"\" : \" + \") + a[i];\n            }\n        }\n        System.out.println(\"Sum of one digit numbers : \" + s1 + \" = \" + sum1);\n        System.out.println(\"Sum of two digit numbers : \" + s2 + \" = \" + sum2);\n    }\n}\n\nTrace on the sample: one digit numbers 2, 4, 9, 3, 1 give 19; two digit numbers 12, 18, 25, 32, 20 give 107. The program prints:\nSum of one digit numbers : 2 + 4 + 9 + 3 + 1 = 19\nSum of two digit numbers : 12 + 18 + 25 + 32 + 20 = 107",
+   "marking_points": [
+    {
+     "point": "Integer array of size 10 declared",
+     "marks": 1
+    },
+    {
+     "point": "Input of 10 values using a loop",
+     "marks": 2
+    },
+    {
+     "point": "Condition for one digit number (0 to 9)",
+     "marks": 2
+    },
+    {
+     "point": "Condition for two digit number (10 to 99)",
+     "marks": 2
+    },
+    {
+     "point": "Correct accumulation of both sums",
+     "marks": 3
+    },
+    {
+     "point": "Display of both sums separately (with terms as in the sample)",
+     "marks": 3
+    },
+    {
+     "point": "Overall correctness",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  }
+ ]
+}

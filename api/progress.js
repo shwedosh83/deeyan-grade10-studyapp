@@ -140,11 +140,28 @@ export default async function handler(req, res) {
       skills: Object.values(S.skills).map(K => ({ ...K, accuracy: pct(K.correct, K.answered) })).sort((a, b) => b.answered - a.answered),
     })).sort((a, b) => (b.last_active || '').localeCompare(a.last_active || ''));
 
+    // ── school class tests (marks the teacher gave; kept apart from XP, streaks and time) ──
+    // The table appears only after backend/migrations/add_classwork.sql; until then this is simply empty.
+    const { data: cwRows } = await admin.from('classwork_results').select('subject, chapter, marks, got, test_date').eq('user_id', userId).not('got', 'is', null).limit(5000);
+    const schoolMap = {};
+    for (const r of cwRows || []) {
+      const S = (schoolMap[r.subject] ||= {}), k = r.chapter || 'Other';
+      const C = (S[k] ||= { chapter: k, got: 0, marks: 0, questions: 0, last_test: null });
+      C.got += Number(r.got) || 0; C.marks += Number(r.marks) || 0; C.questions++;
+      if (r.test_date && (!C.last_test || r.test_date > C.last_test)) C.last_test = r.test_date;
+    }
+    const school = Object.entries(schoolMap).map(([subject, cs]) => ({ subject,
+      chapters: Object.values(cs).map(C => ({ ...C, got: Math.round(C.got * 10) / 10, accuracy: pct(C.got, C.marks) })).sort((a, b) => a.accuracy - b.accuracy) }));
+
     // ── revision list & next challenge (weakest real chapters, enough attempts to be meaningful) ──
+    // App practice needs 5+ answers; a school test needs 4+ marks on the chapter. Both under 70%.
     const chapters = subjects.flatMap(S => S.chapters.map(C => ({ subject: S.subject, ...C })));
-    const revision = chapters.filter(c => c.answered >= 5 && c.accuracy < 70).sort((a, b) => a.accuracy - b.accuracy || b.answered - a.answered).slice(0, 8);
+    const schoolWeak = school.flatMap(S => S.chapters.filter(C => C.chapter !== 'Other' && C.marks >= 4 && C.accuracy < 70)
+      .map(C => ({ subject: S.subject, chapter: C.chapter, from: 'school', got: C.got, marks: C.marks, answered: C.questions, accuracy: C.accuracy })));
+    const revision = [...chapters.filter(c => c.answered >= 5 && c.accuracy < 70), ...schoolWeak]
+      .sort((a, b) => a.accuracy - b.accuracy || b.answered - a.answered).slice(0, 8);
     let next_challenge = null;
-    if (revision.length) next_challenge = { type: 'revise', subject: revision[0].subject, chapter: revision[0].chapter, accuracy: revision[0].accuracy, answered: revision[0].answered };
+    if (revision.length) { const r = revision[0]; next_challenge = { type: 'revise', subject: r.subject, chapter: r.chapter, accuracy: r.accuracy, answered: r.answered, from: r.from || 'app', got: r.got, marks: r.marks }; }
     else if (subjects.length) { const stale = [...subjects].sort((a, b) => (a.last_active || '').localeCompare(b.last_active || ''))[0]; next_challenge = { type: 'revisit', subject: stale.subject, last_active: stale.last_active }; }
 
     // ── accuracy by difficulty (board questions carry a 1–5 difficulty) ──────
@@ -176,7 +193,7 @@ export default async function handler(req, res) {
       streak: { current, best, active_today: !!perDay[today] },
       today: { date: today, answered: todayAnswered, goal: DAILY_GOAL, done: todayAnswered >= DAILY_GOAL },
       week, improvement: { this_week: accThis, last_week: accLast, answered_this_week: thisWk.length, answered_last_week: lastWk.length },
-      subjects, revision, next_challenge, difficulty, badges,
+      subjects, school, revision, next_challenge, difficulty, badges,
     });
   } catch (e) {
     console.error('progress', e.message || e);

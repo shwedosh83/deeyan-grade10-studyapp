@@ -1,0 +1,1217 @@
+{
+ "paper_id": "computer_applications_2019",
+ "subject": "computer_applications",
+ "year": 2019,
+ "sem": null,
+ "label": "2019",
+ "source": "board",
+ "school": "CISCE",
+ "exam_label": "ICSE Board",
+ "max_marks": 100,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Answers are written on separate paper; the first 15 minutes are for reading the paper. Attempt all questions from Section A and any four questions from Section B. Section B answers must be Java programs (BlueJ or any Java environment) written with variable descriptions/mnemonic codes; flowcharts and algorithms are not required.",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 60,
+   "rule": "Attempt any four questions from this Section.",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(a)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "Principles of OOP",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "principles of OOP"
+   ],
+   "question": "Name any two basic principles of Object-oriented Programming.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two of: Encapsulation, Inheritance, Polymorphism, Abstraction.",
+   "marking_points": [
+    {
+     "point": "First correct principle (e.g. Encapsulation)",
+     "marks": 1
+    },
+    {
+     "point": "Second correct principle (e.g. Inheritance)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(b)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Unary vs binary operators",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "unary operator",
+    "binary operator"
+   ],
+   "question": "Write a difference between unary and binary operator.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A unary operator works on a single operand, e.g. ++a, -a, !flag. A binary operator works on two operands, e.g. a + b, a > b, a && b.",
+   "marking_points": [
+    {
+     "point": "Unary operator acts on one operand, with example",
+     "marks": 1
+    },
+    {
+     "point": "Binary operator acts on two operands, with example",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(c)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Keywords void and static",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "void keyword",
+    "static class variable"
+   ],
+   "question": "Name the keyword which:\n(i) indicates that a method has no return type.\n(ii) makes the variable as a class variable.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(i) keyword indicating a method has no return type",
+     "accepted": [
+      "void"
+     ]
+    },
+    {
+     "prompt": "(ii) keyword making a variable a class variable",
+     "accepted": [
+      "static"
+     ]
+    }
+   ],
+   "solution": "(i) void  (ii) static",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(d)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Size of primitive data types",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "primitive data type sizes"
+   ],
+   "question": "Write the memory capacity (storage size) of short and float data type in bytes.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Size of short (bytes)",
+     "accepted": [
+      "2",
+      "2 bytes",
+      "two bytes",
+      "two"
+     ]
+    },
+    {
+     "prompt": "Size of float (bytes)",
+     "accepted": [
+      "4",
+      "4 bytes",
+      "four bytes",
+      "four"
+     ]
+    }
+   ],
+   "solution": "short: 2 bytes; float: 4 bytes.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(e)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Types of tokens",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "tokens: keyword, literal, operator, separator"
+   ],
+   "question": "Identify and name the following tokens:\n(i) public\n(ii) 'a'\n(iii) ==\n(iv) { }",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(i) public",
+     "accepted": [
+      "keyword",
+      "reserved word",
+      "access specifier keyword"
+     ]
+    },
+    {
+     "prompt": "(ii) 'a'",
+     "accepted": [
+      "literal",
+      "character literal",
+      "char literal"
+     ]
+    },
+    {
+     "prompt": "(iii) ==",
+     "accepted": [
+      "operator",
+      "relational operator"
+     ]
+    },
+    {
+     "prompt": "(iv) { }",
+     "accepted": [
+      "separator",
+      "separators",
+      "punctuator",
+      "delimiter"
+     ]
+    }
+   ],
+   "solution": "(i) public: keyword  (ii) 'a': literal (character literal)  (iii) ==: operator (relational operator)  (iv) { }: separator (punctuator).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "2(a)",
+   "q_order": 5,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "if-else-if vs switch-case",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "if-else-if ladder",
+    "switch-case"
+   ],
+   "question": "Differentiate between if else if and switch-case statements.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "if-else-if can test any type of condition (relational/logical expressions, ranges, any data type), whereas switch-case tests only equality of a single expression against constant case values (int, char, String etc.). In if-else-if, once a condition is true the remaining conditions are skipped automatically, whereas in switch a missing break causes fall through to the next case.",
+   "marking_points": [
+    {
+     "point": "if-else-if evaluates any relational/logical condition (ranges, any type)",
+     "marks": 1
+    },
+    {
+     "point": "switch-case checks only equality of one expression against constant case labels",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(b)",
+   "q_order": 6,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "parseInt and valueOf with string concatenation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "Integer.parseInt / valueOf",
+    "string concatenation"
+   ],
+   "question": "Give the output of the following code:\nString P = \"20\", Q =\"19\";\nint a = Integer.parseInt(P);\nint b = Integer.valueOf(Q);\nSystem.out.println(a+\"\"+b);",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Output",
+     "accepted": [
+      "2019"
+     ]
+    }
+   ],
+   "solution": "Output: 2019. a = 20 and b = 19 are ints, but a + \"\" turns the expression into a String, so \"20\" + 19 is concatenated to \"2019\".",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(c)",
+   "q_order": 7,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Types of errors",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "syntax, runtime and logical errors"
+   ],
+   "question": "What are the various types of errors in Java?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(1) Syntax (compile-time) errors: violation of the rules of the language, e.g. missing semicolon. (2) Runtime errors: occur during execution, e.g. division by zero, array index out of bounds. (3) Logical errors: the program runs but gives wrong output because of faulty logic, e.g. using + instead of *.",
+   "marking_points": [
+    {
+     "point": "Syntax / compile-time errors named and explained",
+     "marks": 0.5
+    },
+    {
+     "point": "Runtime errors named and explained",
+     "marks": 0.5
+    },
+    {
+     "point": "Logical errors named and explained",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(d)",
+   "q_order": 8,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Character.isDigit()",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "Character.isDigit",
+    "boolean return type"
+   ],
+   "question": "State the data type and value of res after the following is executed:\nchar ch = '9';\nres= Character.isDigit(ch);",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Data type of res",
+     "accepted": [
+      "boolean"
+     ]
+    },
+    {
+     "prompt": "Value of res",
+     "accepted": [
+      "true"
+     ]
+    }
+   ],
+   "solution": "Data type of res: boolean. Value: true, because '9' is a digit character.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "2(e)",
+   "q_order": 9,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Linear vs binary search",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "linear search",
+    "binary search"
+   ],
+   "question": "What is the difference between the linear search and the binary search technique?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Linear search compares the search value with each element one by one from the beginning; the array need not be sorted. Binary search works only on a sorted array: it compares with the middle element and repeatedly halves the search range, so it is much faster for large arrays.",
+   "marking_points": [
+    {
+     "point": "Linear search: element-by-element comparison, works on unsorted array",
+     "marks": 1
+    },
+    {
+     "point": "Binary search: needs sorted array, repeatedly compares middle element and halves the range",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(a)",
+   "q_order": 10,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Java expression with Math.abs",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Math.abs",
+    "writing Java expressions"
+   ],
+   "question": "Write a Java expression for the following:\n| x² + 2xy |",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Math.abs(x * x + 2 * x * y)",
+   "marking_points": [
+    {
+     "point": "Correct inner expression x*x + 2*x*y (or Math.pow(x,2) + 2*x*y)",
+     "marks": 1
+    },
+    {
+     "point": "Enclosed in Math.abs( )",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(b)",
+   "q_order": 11,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Return types of library methods",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "String.startsWith",
+    "Math.random"
+   ],
+   "question": "Write the return data type of the following functions:\n(i) startsWith( )\n(ii) random( )",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(i) startsWith( )",
+     "accepted": [
+      "boolean"
+     ]
+    },
+    {
+     "prompt": "(ii) random( )",
+     "accepted": [
+      "double"
+     ]
+    }
+   ],
+   "solution": "(i) startsWith( ): boolean  (ii) random( ): double",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(c)",
+   "q_order": 12,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Ternary operator",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "ternary operator"
+   ],
+   "question": "If the value of basic=1500, what will be the value of tax after the following statement is executed?\ntax = basic>1200 ? 200 :100;",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Value of tax",
+     "accepted": [
+      "200"
+     ]
+    }
+   ],
+   "solution": "tax = 200, because the condition basic > 1200 (1500 > 1200) is true, so the first value is assigned.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(d)",
+   "q_order": 13,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Loop with continue",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "continue statement",
+    "for loop trace"
+   ],
+   "question": "Give the output of following code and mention how many times the loop will execute?\nint i;\nfor( i=5 ; i>=1 ;i--)\n{\n if(i%2 ==1)\n continue;\n System.out.print( i+ \" \");\n}",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Output",
+     "accepted": [
+      "4 2",
+      "4  2"
+     ]
+    },
+    {
+     "prompt": "Number of times the loop executes",
+     "accepted": [
+      "5",
+      "5 times",
+      "five"
+     ]
+    }
+   ],
+   "solution": "Trace: i=5 odd, continue; i=4 prints 4; i=3 odd, continue; i=2 prints 2; i=1 odd, continue; i=0 stops.\nOutput: 4 2\nThe loop executes 5 times (i = 5, 4, 3, 2, 1).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "3(e)",
+   "q_order": 14,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Call by value vs call by reference",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "call by value",
+    "call by reference"
+   ],
+   "question": "State a difference between call by value and call by reference.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "In call by value, a copy of the actual parameter's value is passed (primitive types), so changes made to the formal parameter inside the method do not affect the actual parameter. In call by reference, the reference (address) of the object/array is passed, so changes made inside the method are reflected in the original.",
+   "marking_points": [
+    {
+     "point": "Call by value: copy passed, original unchanged",
+     "marks": 1
+    },
+    {
+     "point": "Call by reference: reference passed, changes reflected in original",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(f)",
+   "q_order": 15,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Math.sqrt and Math.max",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "Math.max",
+    "Math.sqrt returns double"
+   ],
+   "question": "Give the output of the following:\nMath.sqrt(Math.max(9,16))",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Output",
+     "accepted": [
+      "4.0"
+     ]
+    }
+   ],
+   "solution": "Math.max(9,16) = 16; Math.sqrt(16) = 4.0 (sqrt always returns a double).\nOutput: 4.0",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(g)",
+   "q_order": 16,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "substring, concat and toUpperCase",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "substring",
+    "concat",
+    "toUpperCase"
+   ],
+   "question": "Write the output for the following:\nString s1 = \"phoenix\"; String s2 =\"island\" ;\nSystem.out.println (s1.substring(0).concat (s2.substring(2) ) );\nSystem.out.println(s2.toUpperCase());",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "First line",
+     "accepted": [
+      "phoenixland"
+     ]
+    },
+    {
+     "prompt": "Second line",
+     "accepted": [
+      "ISLAND"
+     ]
+    }
+   ],
+   "solution": "s1.substring(0) = \"phoenix\"; s2.substring(2) = \"land\"; concatenated gives \"phoenixland\".\nOutput:\nphoenixland\nISLAND",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(h)",
+   "q_order": 17,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Prefix and postfix increment/decrement",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "prefix decrement",
+    "postfix increment"
+   ],
+   "question": "Evaluate the following expression if the value of x=2, y=3 and z=1.\nv=x+ --z+ y++ +y",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Value of v",
+     "accepted": [
+      "9"
+     ]
+    }
+   ],
+   "solution": "v = x + (--z) + (y++) + y = 2 + 0 + 3 + 4 = 9. (--z makes z 0 before use; y++ uses 3 then makes y 4; the last y is 4.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(i)",
+   "q_order": 18,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Array element and length",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "array indexing",
+    "length property"
+   ],
+   "question": "String x[] = {\"Artificial intelligence\", \"IOT\", \"Machine learning\", \"Big data\"};\nGive the output of the following statements:\n(i) System.out.println(x[3]);\n(ii) System.out.println(x.length);",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(i) x[3]",
+     "accepted": [
+      "Big data"
+     ]
+    },
+    {
+     "prompt": "(ii) x.length",
+     "accepted": [
+      "4"
+     ]
+    }
+   ],
+   "solution": "(i) Big data (index 3 is the fourth element)\n(ii) 4",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "3(j)",
+   "q_order": 19,
+   "q_main": 3,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Packages",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "package"
+   ],
+   "question": "What is meant by a package? Give an example.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A package is a group of related classes and interfaces stored together (like a folder), e.g. java.util (contains Scanner), java.lang, java.io.",
+   "marking_points": [
+    {
+     "point": "Package: collection/group of related classes and interfaces",
+     "marks": 1
+    },
+    {
+     "point": "Valid example, e.g. java.util / java.lang / java.io",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "4",
+   "q_order": 20,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class with constructor and discount slabs (ShowRoom)",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "class and object",
+    "default constructor",
+    "if-else-if ladder"
+   ],
+   "question": "Design a class name ShowRoom with the following description:\nInstance variables / Data members:\nString name - To store the name of the customer\nlong mobno - To store the mobile number of the customer\ndouble cost - To store the cost of the items purchased\ndouble dis - To store the discount amount\ndouble amount - To store the amount to be paid after discount\nMember methods:\nShowRoom( ) - default constructor to initialize data members\nvoid input( ) - To input customer name, mobile number, cost\nvoid calculate( ) - To calculate discount on the cost of purchased items, based on following criteria\nCost | Discount (in percentage)\nLess than or equal to ₹ 10000 | 5%\nMore than ₹ 10000 and less than or equal to ₹ 20000 | 10%\nMore than ₹ 20000 and less than or equal to ₹ 35000 | 15%\nMore than ₹ 35000 | 20%\nvoid display( ) - To display customer name, mobile number, amount to be paid after discount.\nWrite a main method to create an object of the class and call the above member methods.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Model program:\n\nimport java.util.Scanner;\n\npublic class ShowRoom\n{\n    String name;     // name of the customer\n    long mobno;      // mobile number of the customer\n    double cost;     // cost of the items purchased\n    double dis;      // discount amount\n    double amount;   // amount to be paid after discount\n\n    ShowRoom()\n    {\n        name = \"\";\n        mobno = 0L;\n        cost = 0.0;\n        dis = 0.0;\n        amount = 0.0;\n    }\n\n    void input()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter customer name: \");\n        name = sc.nextLine();\n        System.out.print(\"Enter mobile number: \");\n        mobno = sc.nextLong();\n        System.out.print(\"Enter cost of items purchased: \");\n        cost = sc.nextDouble();\n    }\n\n    void calculate()\n    {\n        if (cost <= 10000)\n            dis = cost * 5 / 100;\n        else if (cost <= 20000)\n            dis = cost * 10 / 100;\n        else if (cost <= 35000)\n            dis = cost * 15 / 100;\n        else\n            dis = cost * 20 / 100;\n        amount = cost - dis;\n    }\n\n    void display()\n    {\n        System.out.println(\"Customer name: \" + name);\n        System.out.println(\"Mobile number: \" + mobno);\n        System.out.println(\"Amount to be paid: \" + amount);\n    }\n\n    public static void main(String args[])\n    {\n        ShowRoom ob = new ShowRoom();\n        ob.input();\n        ob.calculate();\n        ob.display();\n    }\n}\n\nSample run: cost = 25000 falls in the 15% slab, so dis = 3750.0 and amount = 21250.0.",
+   "marking_points": [
+    {
+     "point": "Class declaration with the five data members of correct types",
+     "marks": 2
+    },
+    {
+     "point": "Default constructor initialising all data members",
+     "marks": 2
+    },
+    {
+     "point": "input() using Scanner for name, mobile number (long) and cost",
+     "marks": 2
+    },
+    {
+     "point": "calculate(): correct if-else-if slabs 5%/10%/15%/20% with correct boundaries",
+     "marks": 4
+    },
+    {
+     "point": "amount = cost - dis",
+     "marks": 1
+    },
+    {
+     "point": "display() prints name, mobile number and amount",
+     "marks": 2
+    },
+    {
+     "point": "main() creates object and calls input, calculate, display",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "5",
+   "q_order": 21,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Conditional Constructs",
+   "topic": "Menu driven program with switch: letters/Unicode and number pattern",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "switch-case menu",
+    "char to int Unicode",
+    "nested loop pattern"
+   ],
+   "question": "Using the switch-case statement, write a menu driven program to do the following:\n(a) To generate and print Letters from A to Z and their Unicode\nLetters    Unicode\nA          65\nB          66\n.          .\n.          .\n.          .\nZ          90\n(b) Display the following pattern using iteration (looping) statement:\n1\n1 2\n1 2 3\n1 2 3 4\n1 2 3 4 5",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Model program:\n\nimport java.util.Scanner;\n\npublic class Menu\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"1. Letters A to Z with their Unicode\");\n        System.out.println(\"2. Number pattern\");\n        System.out.print(\"Enter your choice: \");\n        int ch = sc.nextInt();   // user's menu choice\n        switch (ch)\n        {\n            case 1:\n                System.out.println(\"Letters\\tUnicode\");\n                for (char c = 'A'; c <= 'Z'; c++)\n                    System.out.println(c + \"\\t\" + (int) c);\n                break;\n            case 2:\n                for (int i = 1; i <= 5; i++)        // row number\n                {\n                    for (int j = 1; j <= i; j++)    // numbers in the row\n                        System.out.print(j + \" \");\n                    System.out.println();\n                }\n                break;\n            default:\n                System.out.println(\"Invalid choice\");\n        }\n    }\n}\n\nChoice 1 prints A 65, B 66, ... Z 90; choice 2 prints the five-row triangle 1 / 1 2 / ... / 1 2 3 4 5.",
+   "marking_points": [
+    {
+     "point": "Menu display and input of choice using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "switch-case with case 1, case 2, break statements and default for wrong choice",
+     "marks": 3
+    },
+    {
+     "point": "Case 1: loop from 'A' to 'Z' printing each letter",
+     "marks": 2
+    },
+    {
+     "point": "Case 1: Unicode printed by casting to int",
+     "marks": 2
+    },
+    {
+     "point": "Case 2: nested loops (outer rows 1-5, inner 1 to i)",
+     "marks": 3
+    },
+    {
+     "point": "Case 2: correct printing with line break after each row",
+     "marks": 1
+    },
+    {
+     "point": "Overall correctness and output format",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "6",
+   "q_order": 22,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Arrays",
+   "topic": "Bubble sort of 15 integers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "bubble sort",
+    "array input"
+   ],
+   "question": "Write a program to input 15 integer elements in an array and sort them in ascending order using the bubble sort technique.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Model program:\n\nimport java.util.Scanner;\n\npublic class BubbleSort\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int a[] = new int[15];   // array of 15 integers\n        System.out.println(\"Enter 15 integers:\");\n        for (int i = 0; i < 15; i++)\n            a[i] = sc.nextInt();\n\n        for (int i = 0; i < 14; i++)            // passes\n        {\n            for (int j = 0; j < 14 - i; j++)    // compare adjacent elements\n            {\n                if (a[j] > a[j + 1])\n                {\n                    int t = a[j];\n                    a[j] = a[j + 1];\n                    a[j + 1] = t;\n                }\n            }\n        }\n\n        System.out.println(\"Sorted array in ascending order:\");\n        for (int i = 0; i < 15; i++)\n            System.out.print(a[i] + \" \");\n        System.out.println();\n    }\n}\n\nEach pass compares adjacent elements and swaps them when the left one is larger, so the largest remaining value bubbles to the end; after 14 passes the array is in ascending order.",
+   "marking_points": [
+    {
+     "point": "Array declaration of size 15",
+     "marks": 1
+    },
+    {
+     "point": "Input of 15 elements using a loop and Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Outer loop for passes (n-1 passes)",
+     "marks": 2
+    },
+    {
+     "point": "Inner loop comparing adjacent elements a[j] and a[j+1]",
+     "marks": 3
+    },
+    {
+     "point": "Correct swap using a temporary variable when a[j] > a[j+1]",
+     "marks": 3
+    },
+    {
+     "point": "Display of sorted array",
+     "marks": 2
+    },
+    {
+     "point": "Overall correctness",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "7",
+   "q_order": 23,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "User-Defined Methods",
+   "topic": "Function overloading: series()",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "method overloading",
+    "series sum",
+    "pattern i³ − 1"
+   ],
+   "question": "Design a class to overload a function series( ) as follows:\n(a) void series (int x, int n) – To display the sum of the series given below:\nx¹ + x² + x³ + ……………… xⁿ terms\n(b) void series (int p) – To display the following series:\n0, 7, 26, 63 ……………. p terms\n(c) void series ( ) – To display the sum of the series given below:\n1/2 + 1/3 + 1/4 ……………. 1/10",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Model program:\n\npublic class Overload\n{\n    // (a) sum of x^1 + x^2 + ... + x^n\n    void series(int x, int n)\n    {\n        double sum = 0;\n        for (int i = 1; i <= n; i++)\n            sum += Math.pow(x, i);\n        System.out.println(\"Sum = \" + sum);\n    }\n\n    // (b) 0, 7, 26, 63 ... p terms (term = i^3 - 1)\n    void series(int p)\n    {\n        for (int i = 1; i <= p; i++)\n            System.out.print((i * i * i - 1) + \" \");\n        System.out.println();\n    }\n\n    // (c) sum of 1/2 + 1/3 + ... + 1/10\n    void series()\n    {\n        double sum = 0.0;\n        for (int i = 2; i <= 10; i++)\n            sum += 1.0 / i;\n        System.out.println(\"Sum = \" + sum);\n    }\n\n    public static void main(String args[])\n    {\n        Overload ob = new Overload();\n        ob.series(2, 5);\n        ob.series(5);\n        ob.series();\n    }\n}\n\nCheck: series(2,5) gives 2+4+8+16+32 = 62.0; series(5) prints 0 7 26 63 124 (each term is i³ − 1); series() gives 1/2 + 1/3 + ... + 1/10 ≈ 1.9290.",
+   "marking_points": [
+    {
+     "point": "Class with three overloaded series() methods with correct signatures",
+     "marks": 3
+    },
+    {
+     "point": "(a) loop from 1 to n summing Math.pow(x, i), sum displayed",
+     "marks": 3
+    },
+    {
+     "point": "(b) loop printing i*i*i - 1 for i = 1 to p",
+     "marks": 3
+    },
+    {
+     "point": "(c) loop from 2 to 10 summing 1.0/i (floating-point division), sum displayed",
+     "marks": 3
+    },
+    {
+     "point": "main() creating object and calling the methods (or equivalent)",
+     "marks": 1
+    },
+    {
+     "point": "Overall correctness",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "8",
+   "q_order": 24,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "String Handling",
+   "topic": "Count words starting with 'A'",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "String traversal",
+    "toUpperCase",
+    "word counting"
+   ],
+   "question": "Write a program to input a sentence and convert it into uppercase and count and display the total number of words starting with a letter 'A'.\nExample:\nSample Input: ADVANCEMENT AND APPLICATION OF INFORMATION TECHNOLOGY ARE EVER CHANGING.\nSample Output: Total number of words starting with letter 'A' = 4.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Model program:\n\nimport java.util.Scanner;\n\npublic class CountA\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"Enter a sentence:\");\n        String s = sc.nextLine();\n        s = \" \" + s.toUpperCase();   // leading space so the first word is counted too\n        int count = 0;                // words starting with 'A'\n        for (int i = 0; i < s.length() - 1; i++)\n        {\n            if (s.charAt(i) == ' ' && s.charAt(i + 1) == 'A')\n                count++;\n        }\n        System.out.println(\"Total number of words starting with letter 'A' = \" + count);\n    }\n}\n\nTrace on the sample: the words ADVANCEMENT, AND, APPLICATION and ARE start with 'A', so the program prints: Total number of words starting with letter 'A' = 4",
+   "marking_points": [
+    {
+     "point": "Input of sentence using nextLine()",
+     "marks": 2
+    },
+    {
+     "point": "Conversion to uppercase using toUpperCase()",
+     "marks": 2
+    },
+    {
+     "point": "Adding a leading space (or separate check of the first character) so the first word is counted",
+     "marks": 2
+    },
+    {
+     "point": "Loop through the characters checking a space followed by 'A' (or split into words and check charAt(0))",
+     "marks": 4
+    },
+    {
+     "point": "Counter incremented correctly",
+     "marks": 2
+    },
+    {
+     "point": "Display of count in the required message",
+     "marks": 1
+    },
+    {
+     "point": "Overall correctness",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "9",
+   "q_order": 25,
+   "q_main": 9,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Four-digit tech numbers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "digit extraction with / and %",
+    "generating numbers in a range"
+   ],
+   "question": "A tech number has even number of digits. If the number is split in two equal halves, then the square of sum of these halves is equal to the number itself. Write a program to generate and print all four digits tech numbers.\nExample:\nConsider the number 3025\nSquare of sum of the halves of 3025\n= (30+25)²\n= (55)²\n= 3025 is a tech number.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Model program:\n\npublic class TechNumber\n{\n    public static void main(String args[])\n    {\n        System.out.println(\"Four digit tech numbers are:\");\n        for (int n = 1000; n <= 9999; n++)\n        {\n            int first = n / 100;    // left half\n            int second = n % 100;   // right half\n            int sum = first + second;\n            if (sum * sum == n)\n                System.out.println(n);\n        }\n    }\n}\n\nOutput: 2025, 3025 and 9801 (e.g. (20+25)² = 45² = 2025; (98+01)² = 99² = 9801).",
+   "marking_points": [
+    {
+     "point": "Loop from 1000 to 9999",
+     "marks": 3
+    },
+    {
+     "point": "Splitting the number into halves using n/100 and n%100",
+     "marks": 4
+    },
+    {
+     "point": "Sum of halves and its square computed",
+     "marks": 2
+    },
+    {
+     "point": "Comparison of the square with the number",
+     "marks": 2
+    },
+    {
+     "point": "Printing the tech numbers",
+     "marks": 2
+    },
+    {
+     "point": "Overall correctness",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  }
+ ]
+}

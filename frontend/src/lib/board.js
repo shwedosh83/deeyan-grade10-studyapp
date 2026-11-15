@@ -145,12 +145,13 @@ export function fileToJpegBase64(file, maxSide = 1600, quality = 0.82) {
 }
 
 // ── Question sources (real board papers vs school prelim papers) ────────────
-export const SOURCE_LABELS = { '': 'Board + prelims', board: 'Board papers', prelim: 'Prelim drill', competency: 'Competency' };
+export const SOURCE_LABELS = { '': 'Board + prelims', board: 'Board papers', prelim: 'Prelim drill', competency: 'Competency', classwork: 'School tests' };
 
 // Caption under a question saying which paper it came from.
 export function paperTag(q) {
   if (q.source === 'prelim') return `${q.school || 'School'} prelim`;
   if (q.source === 'competency') return 'CISCE competency';
+  if (q.source === 'classwork') return q.school || 'School test';
   return `${String(q.paper_id || '').replace(/^[a-z_]+?_(\d{4}.*)$/, '$1').toUpperCase()} board paper`;
 }
 

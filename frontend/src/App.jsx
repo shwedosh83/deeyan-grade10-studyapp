@@ -18,6 +18,7 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 import { ThemeProvider } from './context/ThemeContext';
 import { ProgressProvider } from './context/ProgressContext';
 import ProgressPage from './components/ProgressPage';
+import SchoolWork from './components/SchoolWork';
 import { isConfigured } from './lib/supabase';
 
 function SetupBanner() {
@@ -62,6 +63,7 @@ function AppShell() {
               <Route path="/" element={<Navigate to="/home" replace />} />
               <Route path="/home" element={<HomeDashboard />} />
               <Route path="/progress" element={<ProgressPage />} />
+              <Route path="/school" element={<SchoolWork />} />
               <Route path="/admin" element={<AdminPage />} />
 
               {/* old addresses keep working */}
@@ -82,6 +84,7 @@ function AppShell() {
                   <Route path="sprint" element={<BoardSprint />} />
                   <Route path="applied" element={<BoardApplied />} />
                   <Route path="competency" element={<BoardCompetency />} />
+                  <Route path="school" element={<BoardCompetency source="classwork" />} />
                 </Route>
                 <Route path="skills" element={<SkillTracker />} />
                 <Route path="weekly" element={<WeeklySummary />} />

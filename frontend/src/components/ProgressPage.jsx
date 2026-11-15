@@ -200,7 +200,7 @@ function Revision({ revision, next }) {
           <p className="text-xs font-semibold uppercase tracking-wider text-brand-ink">Recommended next</p>
           {next.type === 'revise' ? (
             <p className="mt-1 text-sm text-ink">
-              Revise <span className="font-semibold">{next.chapter}</span> in {subjectMeta(next.subject).label} — you're at {next.accuracy}% over {next.answered} answers.
+              Revise <span className="font-semibold">{next.chapter}</span> in {subjectMeta(next.subject).label}: {next.from === 'school' ? `your school tests on it came to ${next.got}/${next.marks} marks` : `you're at ${next.accuracy}% over ${next.answered} answers`}.
             </p>
           ) : (
             <p className="mt-1 text-sm text-ink">
@@ -217,14 +217,14 @@ function Revision({ revision, next }) {
       ) : (
         <ul className="mt-4 divide-y divide-line">
           {revision.map(r => {
-            const b = bandOf(r.accuracy, r.answered);
+            const b = bandOf(r.accuracy, r.from === 'school' ? 99 : r.answered);
             const m = subjectMeta(r.subject);
             return (
               <li key={`${r.subject}-${r.chapter}`} className="flex items-center gap-3 py-2.5">
                 <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-sm ${subjectStyle(r.subject).tile}`}>{m.emoji}</span>
                 <div className="min-w-0 flex-1">
                   <p className="truncate text-sm font-medium text-ink" title={r.chapter}>{r.chapter}</p>
-                  <p className="text-xs text-ink-3">{m.label} · {r.correct}/{r.answered} correct</p>
+                  <p className="text-xs text-ink-3">{m.label} · {r.from === 'school' ? `school tests: ${r.got}/${r.marks} marks` : `${r.correct}/${r.answered} correct`}</p>
                 </div>
                 <span className={`text-sm font-semibold ${b.text}`}>{r.accuracy}%</span>
                 <Link to={`/${r.subject}`} className="btn-ghost px-2.5 py-1 text-xs">Practise</Link>

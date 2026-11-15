@@ -1,0 +1,1356 @@
+{
+ "paper_id": "computer_applications_2025",
+ "subject": "computer_applications",
+ "year": 2025,
+ "sem": null,
+ "label": "2025",
+ "source": "board",
+ "school": "CISCE",
+ "exam_label": "ICSE Board",
+ "max_marks": 100,
+ "duration_minutes": 120,
+ "reading_minutes": 15,
+ "instructions": "Section A is compulsory. Attempt any four questions from Section B. Answers are written on separate paper; the first 15 minutes are for reading the paper. Section B answers are Java programs (BlueJ or any Java environment) with variable descriptions/mnemonic codes; flowcharts and algorithms are not required.",
+ "sections": [
+  {
+   "name": "Section A",
+   "total_marks": 40,
+   "rule": "Attempt all questions from this Section.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  },
+  {
+   "name": "Section B",
+   "total_marks": 60,
+   "rule": "Attempt any four questions from this Section.",
+   "compulsory": false,
+   "attempt_n": 4,
+   "out_of": 6
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1(i)",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Package of Character class",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "wrapper classes are in java.lang"
+   ],
+   "question": "Character class methods are found in the package called:",
+   "options": {
+    "a": "java.util",
+    "b": "java.lang",
+    "c": "java.awt",
+    "d": "java.io"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) java.lang. Character is a wrapper class in java.lang, which is imported by default.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(ii)",
+   "q_order": 1,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "char + int arithmetic",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "char promoted to int in arithmetic",
+    "ASCII of 'Z' is 90"
+   ],
+   "question": "System.out.println('Z' + 32); will display:",
+   "options": {
+    "a": "z",
+    "b": "Z",
+    "c": "122",
+    "d": "154"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 122. 'Z' is promoted to its code 90; 90 + 32 = 122 is printed as an int.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iii)",
+   "q_order": 2,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Memory occupied by a double array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "double occupies 8 bytes",
+    "elements × size"
+   ],
+   "question": "double x[] = {2.5, 4.5, 5.5, 6.4}; occupies __________ bytes.",
+   "options": {
+    "a": "16",
+    "b": "4",
+    "c": "8",
+    "d": "32"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 32. 4 elements × 8 bytes per double = 32 bytes.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(iv)",
+   "q_order": 3,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Operator precedence: / and %",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "/ and % have equal precedence, left to right",
+    "integer division"
+   ],
+   "question": "The output of 42/6%2 is:",
+   "options": {
+    "a": "1",
+    "b": "10",
+    "c": "2",
+    "d": "0"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 1. 42/6 = 7, then 7 % 2 = 1 (left-to-right evaluation).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(v)",
+   "q_order": 4,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Index of an element in a 2D array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "row and column indices start at 0"
+   ],
+   "question": "Consider the Two dimensional array P[2][3] of peripherals (input / output devices) given below, state the index of the device Barcode Scanner.\nRow 0: Mouse | Keyboard | Printer\nRow 1: Scanner | Barcode Scanner | Microphone",
+   "options": {
+    "a": "P[1][1]",
+    "b": "P[0][1]",
+    "c": "P[1][2]",
+    "d": "P[0][0]"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) P[1][1]. Barcode Scanner is in the second row (index 1) and second column (index 1).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 1
+  },
+  {
+   "q_label": "1(vi)",
+   "q_order": 5,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "User-defined (composite) data types",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "array and class are non-primitive/user-defined types"
+   ],
+   "question": "Which of the following is user defined data type?\n1. array\n2. double\n3. class\n4. boolean",
+   "options": {
+    "a": "only 1",
+    "b": "1 and 3",
+    "c": "only 2",
+    "d": "only 4"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 1 and 3. array and class are composite (user-defined) types; double and boolean are primitive.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(vii)",
+   "q_order": 6,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Infinite loop",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "loop variable skipping the terminating value"
+   ],
+   "question": "Select the infinite loop:",
+   "options": {
+    "a": "for(int i=1;i<=10;i++)",
+    "b": "for(int i=2; i!=0;i-=3)",
+    "c": "for(int i=5;i<=5;i++)",
+    "d": "for(int i=1;i>=1;i--)"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) for(int i=2; i!=0;i-=3). i takes 2, -1, -4, ... and never equals 0, so i != 0 is always true.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(viii)",
+   "q_order": 7,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Math.max and Math.min with negatives",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Math.min",
+    "Math.max with negative numbers"
+   ],
+   "question": "The output of Math.max(-7, Math.min(-5,-4)) is",
+   "options": {
+    "a": "-5",
+    "b": "-4",
+    "c": "-7",
+    "d": "error"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) -5. Math.min(-5, -4) = -5; Math.max(-7, -5) = -5.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(ix)",
+   "q_order": 8,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Object creation statement",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "ClassName objectName = new ClassName();"
+   ],
+   "question": "Which of the following is true for the given object creation statement?\nGame cricket = new Game();",
+   "options": {
+    "a": "Game is an object of cricket class",
+    "b": "New keyword creates object Game",
+    "c": "Game is a class and cricket is an object",
+    "d": "Game and cricket are objects"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Game is a class and cricket is an object. Game is the class and cricket is the object created with new.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(x)",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Access specifiers: real-life example",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "public access is open to all"
+   ],
+   "question": "Post office is an example for __________ access specifier.",
+   "options": {
+    "a": "public",
+    "b": "local",
+    "c": "protected",
+    "d": "private"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) public. A post office can be used by everyone, just as public members are accessible from anywhere.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xi)",
+   "q_order": 10,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "break in switch case",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "fall through",
+    "break exits switch"
+   ],
+   "question": "Assertion (A): In switch case break statement avoids fall through.\nReason (R): break statement helps to execute only one case at a time.",
+   "options": {
+    "a": "Both (A) and (R) are true and (R) is a correct explanation of (A).",
+    "b": "Both (A) and (R) are true and (R) is not a correct explanation of (A).",
+    "c": "(A) is true and (R) is false.",
+    "d": "(A) is false and (R) is true."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both (A) and (R) are true and (R) is a correct explanation of (A).. break transfers control out of the switch after the matching case, which is exactly why fall through is avoided.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xii)",
+   "q_order": 11,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Choosing a loop for repetition",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "for loop for a fixed number of repetitions"
+   ],
+   "question": "A physical education teacher asks the students to do the side stretch as shown below, 10 times. Which programming construct the teacher uses?\n[Picture: a figure doing a side stretch, labelled \"Side Stretch\" with a circular arrow and the number 10.]",
+   "options": {
+    "a": "if",
+    "b": "switch",
+    "c": "for",
+    "d": "if else if"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) for. A task repeated a fixed number of times (10) is done with a for loop.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xiii)",
+   "q_order": 12,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Index of the last element",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "length is a property of arrays",
+    "indices run 0 to length-1"
+   ],
+   "question": "The index (subscript) of the last element of an array ar[] is",
+   "options": {
+    "a": "ar.length()",
+    "b": "ar[].length",
+    "c": "ar.length()-1",
+    "d": "ar.length-1"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) ar.length-1. Array indices run from 0 to ar.length - 1; length is a property, not a method.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xiv)",
+   "q_order": 13,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Nested loops: clock analogy",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "inner loop completes for each outer iteration"
+   ],
+   "question": "Assertion (A): A clock is a real-life example of nested loops.\nReason (R): The hour hand moves through 12 positions, while the minute hand moves through 60 positions within each hour.",
+   "options": {
+    "a": "Both (A) and (R) are true and (R) is a correct explanation of (A).",
+    "b": "Both (A) and (R) are true and (R) is not a correct explanation of (A).",
+    "c": "(A) is true and (R) is false.",
+    "d": "(A) is false and (R) is true."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both (A) and (R) are true and (R) is a correct explanation of (A).. For every position of the hour hand (outer loop), the minute hand completes all 60 positions (inner loop), which explains the assertion.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xv)",
+   "q_order": 14,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Method overloading rules",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "return type alone cannot overload",
+    "signature = name + parameter list"
+   ],
+   "question": "Which of the following pairs of methods will cause a compile-time error due to incorrect method overloading?",
+   "options": {
+    "a": "void test(int a, int b) and void test(double a, double b)",
+    "b": "void test(int a, double b) and void test(double a, int b)",
+    "c": "void test(int a, double b) and void test(int a)",
+    "d": "void test(int a) and int test(int a)"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) void test(int a) and int test(int a). The two methods have the same parameter list and differ only in return type, which is not valid overloading.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 2
+  },
+  {
+   "q_label": "1(xvi)",
+   "q_order": 15,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Double.parseDouble()",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "String to double conversion"
+   ],
+   "question": "Which of the following converts \"25\" to 25.0?",
+   "options": {
+    "a": "Double. Parsedouble(\"25\")",
+    "b": "Double.parse(\"25\")",
+    "c": "Double.parseDouble(\"25\")",
+    "d": "Double.parseDouble(25)"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Double.parseDouble(\"25\"). Double.parseDouble takes a String argument and returns a double.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xvii)",
+   "q_order": 16,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "for loop with empty body (semicolon)",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "semicolon after for makes an empty body",
+    "print vs println"
+   ],
+   "question": "Consider the program segment:\nint p=0;\nfor(p=4; p>0; p-=2);\nSystem.out.print(p);\nSystem.out.println(p);\nThe above statements will display:",
+   "options": {
+    "a": "42",
+    "b": "4200",
+    "c": "0\n0",
+    "d": "00"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 00. The semicolon ends the loop; p goes 4, 2, 0 and the loop stops at 0. print and println then print 0 twice on the same line: 00.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xix)",
+   "q_order": 17,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "compareTo()",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "compareTo returns difference of first mismatching characters"
+   ],
+   "question": "What is the output of the statement given below?\n\"ANGER\".compareTo(\"ANGEL\")",
+   "options": {
+    "a": "3",
+    "b": "-6",
+    "c": "6",
+    "d": "0"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 6. First difference is at index 4: 'R' (82) − 'L' (76) = 6.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "1(xx)",
+   "q_order": 18,
+   "q_main": 1,
+   "section": "Section A",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Ordering statements for factorial",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "initialise before loop",
+    "return after loop"
+   ],
+   "question": "Consider the following program segment in which the statements are jumbled. Choose the correct order of statements to calculate and return the factorial of 4.\nfor (k=1; k<=4; k++) → 1\nreturn fa; → 2\nlong fa=1, k; → 3\nfa*=k; → 4",
+   "options": {
+    "a": "1, 2, 3, 4",
+    "b": "3, 1, 4, 2",
+    "c": "3, 1, 2, 4",
+    "d": "1, 3, 2, 4"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 3, 1, 4, 2. Declare/initialise (3), loop (1), multiply inside the loop (4), then return (2).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(i)",
+   "q_order": 19,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Java expression with Math.sqrt",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Math.sqrt"
+   ],
+   "question": "Write the java expression to find the product of square root of P and the square root of Q using the methods of Math class.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Math.sqrt(P) * Math.sqrt(Q)",
+   "marking_points": [
+    {
+     "point": "Math.sqrt(P) and Math.sqrt(Q)",
+     "marks": 1
+    },
+    {
+     "point": "Multiplied with *",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(ii)",
+   "q_order": 20,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "substring() and concat()",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "substring(begin) to end",
+    "concat joins strings"
+   ],
+   "question": "Write the output of the following String method:\nString x= \"talent\"; String y=\"matrix\";\nSystem.out.print(x.substring(3).concat(y.substring(3)));",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "x.substring(3) = \"ent\", y.substring(3) = \"rix\"; \"ent\".concat(\"rix\") = \"entrix\".\nOutput: entrix",
+   "marking_points": [
+    {
+     "point": "Substrings \"ent\" and \"rix\"",
+     "marks": 1
+    },
+    {
+     "point": "Output: entrix",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iii)",
+   "q_order": 21,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Creating an object with a parameterised constructor",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "new with constructor arguments"
+   ],
+   "question": "Write the Java statement for creating an object named 'sifra' of the class 'Robot', which takes three double parameters.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Robot sifra = new Robot(1.5, 2.5, 3.5);\n(Any three double values are acceptable.)",
+   "marking_points": [
+    {
+     "point": "Robot sifra = new Robot(...)",
+     "marks": 1
+    },
+    {
+     "point": "Three double arguments passed",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(iv)",
+   "q_order": 22,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Converting for loop to do-while (exit controlled)",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "exit controlled loop = do-while"
+   ],
+   "question": "Convert the given loop into exit controlled loop.\nint a,b;\nfor (a=10, b=1; a>=1; a-=2)\n{\n    b+= a;\n    b++;\n}\nSystem.out.print(b);",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "int a, b;\na = 10;\nb = 1;\ndo\n{\n    b += a;\n    b++;\n    a -= 2;\n} while (a >= 1);\nSystem.out.print(b);\n\n(Both versions print 36.)",
+   "marking_points": [
+    {
+     "point": "Initialisation before do and a -= 2 inside the body",
+     "marks": 1
+    },
+    {
+     "point": "do { ... } while (a >= 1); with print after the loop",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(v)",
+   "q_order": 23,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Default and parameterised constructors: output",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "default constructor",
+    "parameterised constructor"
+   ],
+   "question": "Consider and give the output of the following program:\nclass report\n{\n    int a,b;\n    report()\n    {\n        a=10;\n        b=15;\n    }\n    report(int x, int y)\n    {\n        a=x;\n        b=y;\n    }\n    void print()\n    {\n        System.out.println(a*b);\n    }\n    static void main()\n    {\n        report r=new report();\n        r.print();\n        report p = new report(4, 5);\n        p.print();\n    }\n}",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "r is created with the default constructor: a = 10, b = 15, so r.print() prints 150.\np is created with the parameterised constructor: a = 4, b = 5, so p.print() prints 20.\nOutput:\n150\n20",
+   "marking_points": [
+    {
+     "point": "150",
+     "marks": 1
+    },
+    {
+     "point": "20",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 3
+  },
+  {
+   "q_label": "2(vi)",
+   "q_order": 24,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "String methods by return type",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "length() returns int",
+    "charAt() returns char"
+   ],
+   "question": "(a) Name one String method which results in positive integer only.\n(b) Name one String method which results in a character.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) length()\n(b) charAt(int index)",
+   "marking_points": [
+    {
+     "point": "(a) length()",
+     "marks": 1
+    },
+    {
+     "point": "(b) charAt()",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(viii)",
+   "q_order": 25,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Accessing array elements; largest element index",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "array indexing",
+    "largest element"
+   ],
+   "question": "Consider the following array and answer the questions given below:\nint a[] = {12, 10, 8, 4, 6, 2, 3, 5, 7};\n(a) What is the output of System.out.print(a[0]+a[5]);?\n(b) What is the index (subscript) of the largest element of the array a[]?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) a[0] = 12, a[5] = 2, so the output is 14.\n(b) The largest element is 12, at index 0.",
+   "marking_points": [
+    {
+     "point": "(a) 14",
+     "marks": 1
+    },
+    {
+     "point": "(b) 0",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(ix)",
+   "q_order": 26,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Initialising a 2D array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "2D array initialiser list",
+    "row-column indexing"
+   ],
+   "question": "(a) Write the Java statement to initialise the first 6 odd numbers in a 3 × 2 array.\n(b) What is the result of x[0][1]+x[2][1] of the above array?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(a) int x[][] = {{1, 3}, {5, 7}, {9, 11}};\n(b) x[0][1] = 3 and x[2][1] = 11, so the result is 14.",
+   "marking_points": [
+    {
+     "point": "(a) Correct 3 × 2 initialisation with 1, 3, 5, 7, 9, 11",
+     "marks": 1
+    },
+    {
+     "point": "(b) 14",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2(x)",
+   "q_order": 27,
+   "q_main": 2,
+   "section": "Section A",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "substring(i) in a loop with step 2",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "substring(begin)",
+    "loop count with step 2"
+   ],
+   "question": "Give the output of the following program segment and specify how many times the loop is executed.\nString s = \"JAYA\";\nfor(i=0;i<s.length();i+=2)\nSystem.out.println(s.substring(i));",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Length of \"JAYA\" is 4; i takes the values 0 and 2.\ni = 0: s.substring(0) = \"JAYA\"\ni = 2: s.substring(2) = \"YA\"\nOutput:\nJAYA\nYA\nThe loop executes 2 times.",
+   "marking_points": [
+    {
+     "point": "Output JAYA and YA on separate lines",
+     "marks": 1
+    },
+    {
+     "point": "Loop executes 2 times",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3",
+   "q_order": 28,
+   "q_main": 3,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class with accept, calculate and display: slab-based cloud storage bill",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "class with member variables and methods",
+    "slab-wise bill calculation",
+    "Scanner input"
+   ],
+   "question": "Define a class named CloudStorage with the following specifications:\nMember Variables:\nint acno – stores the user's account number.\nint space – stores the amount of storage space in GB purchased by the user.\ndouble bill – stores the total price to be paid by the user.\nMember Methods:\nvoid accept() – prompts the user to input their account number and storage space using Scanner class methods only.\nvoid calculate() – calculates the bill total price based on the storage space purchased using the pricing table provided:\nStorage range | Price per GB (Rs)\nFirst 15 GB | 15\nNext 15 GB | 13\nAbove 30 GB | 11\nvoid display() – displays the account number, storage space and bill to be paid.\nWrite a main method to create an object of the class and invoke the methods of the class with respect to the object.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample check: 40 GB -> 15*15 + 15*13 + 10*11 = 225 + 195 + 110 = Rs.530.\n\nimport java.util.Scanner;\n\nclass CloudStorage\n{\n    int acno;       // account number\n    int space;      // storage space purchased in GB\n    double bill;    // total price to be paid\n\n    void accept()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter account number: \");\n        acno = sc.nextInt();\n        System.out.print(\"Enter storage space (GB): \");\n        space = sc.nextInt();\n    }\n\n    void calculate()\n    {\n        if (space <= 15)\n            bill = space * 15;\n        else if (space <= 30)\n            bill = 15 * 15 + (space - 15) * 13;\n        else\n            bill = 15 * 15 + 15 * 13 + (space - 30) * 11;\n    }\n\n    void display()\n    {\n        System.out.println(\"Account number : \" + acno);\n        System.out.println(\"Storage space  : \" + space + \" GB\");\n        System.out.println(\"Bill (Rs)      : \" + bill);\n    }\n\n    public static void main(String args[])\n    {\n        CloudStorage ob = new CloudStorage();\n        ob.accept();\n        ob.calculate();\n        ob.display();\n    }\n}",
+   "marking_points": [
+    {
+     "point": "Class declaration and member variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "accept() using Scanner for acno and space",
+     "marks": 2
+    },
+    {
+     "point": "Slab 1: space <= 15 -> space * 15",
+     "marks": 2
+    },
+    {
+     "point": "Slab 2: 15*15 + (space-15)*13",
+     "marks": 2
+    },
+    {
+     "point": "Slab 3: 15*15 + 15*13 + (space-30)*11",
+     "marks": 2
+    },
+    {
+     "point": "display() prints acno, space and bill",
+     "marks": 2
+    },
+    {
+     "point": "main() creates object and invokes methods in order",
+     "marks": 3
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "4",
+   "q_order": 29,
+   "q_main": 4,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Arrays",
+   "topic": "NORM of a 4×4 array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "2D array input with nested loops",
+    "sum of squares",
+    "Math.sqrt"
+   ],
+   "question": "Define a class to accept values into a 4 × 4 integer array. Calculate and print the NORM of the array.\nNORM is the square root of sum of squares of all elements.\nExample array:\n1 2 1 3\n5 2 1 6\n3 6 1 2\n3 4 6 3\nSum of squares of elements = 1 + 4 + 1 + 9 + 25 + 4 + 1 + 36 + 9 + 36 + 1 + 4 + 9 + 16 + 36 + 9 = 201\nNORM = Square root of 201 = 14.177446878757825",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample check: sum of squares = 201, NORM = Math.sqrt(201) = 14.177446878757825.\n\nimport java.util.Scanner;\n\nclass Norm\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int a[][] = new int[4][4];\n        int sum = 0;            // sum of squares of all elements\n        System.out.println(\"Enter 16 integers:\");\n        for (int i = 0; i < 4; i++)\n        {\n            for (int j = 0; j < 4; j++)\n            {\n                a[i][j] = sc.nextInt();\n                sum = sum + a[i][j] * a[i][j];\n            }\n        }\n        double norm = Math.sqrt(sum);\n        System.out.println(\"Sum of squares of elements = \" + sum);\n        System.out.println(\"NORM = \" + norm);\n    }\n}",
+   "marking_points": [
+    {
+     "point": "Class, main() and declaration of 4x4 array",
+     "marks": 2
+    },
+    {
+     "point": "Input of 16 elements using nested loops",
+     "marks": 4
+    },
+    {
+     "point": "Sum of squares of all elements",
+     "marks": 4
+    },
+    {
+     "point": "NORM = Math.sqrt(sum)",
+     "marks": 3
+    },
+    {
+     "point": "Printing the NORM",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5",
+   "q_order": 30,
+   "q_main": 5,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "String Handling",
+   "topic": "Super string: equal uppercase and lowercase counts",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "Character.isUpperCase / isLowerCase",
+    "charAt loop over a String"
+   ],
+   "question": "Define a class to accept a String and Print if it is a Super string or not. A String is Super if the number of uppercase letters are equal to the number of lower case letters.\n[Use Character & String methods only]\nExample: \"COmmITmeNt\"\nNumber of Uppercase letters - 5\nNumber of Lowercase letters - 5\nString is a Super String",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample check: \"COmmITmeNt\" -> uppercase C, O, I, T, N = 5; lowercase m, m, m, e, t = 5 -> Super String.\n\nimport java.util.Scanner;\n\nclass SuperString\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a string: \");\n        String s = sc.nextLine();\n        int upper = 0, lower = 0;   // counts of uppercase and lowercase letters\n        for (int i = 0; i < s.length(); i++)\n        {\n            char ch = s.charAt(i);\n            if (Character.isUpperCase(ch))\n                upper++;\n            else if (Character.isLowerCase(ch))\n                lower++;\n        }\n        System.out.println(\"Number of Uppercase letters - \" + upper);\n        System.out.println(\"Number of Lowercase letters - \" + lower);\n        if (upper == lower)\n            System.out.println(\"String is a Super String\");\n        else\n            System.out.println(\"String is not a Super String\");\n    }\n}",
+   "marking_points": [
+    {
+     "point": "Class, main() and Scanner input of the String",
+     "marks": 2
+    },
+    {
+     "point": "Loop over the String using length() and charAt()",
+     "marks": 3
+    },
+    {
+     "point": "Counting uppercase letters with Character.isUpperCase()",
+     "marks": 3
+    },
+    {
+     "point": "Counting lowercase letters with Character.isLowerCase()",
+     "marks": 3
+    },
+    {
+     "point": "Comparing counts and printing the counts and message",
+     "marks": 4
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6",
+   "q_order": 31,
+   "q_main": 6,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Arrays",
+   "topic": "Binary search on a character array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "binary search: low, high, mid",
+    "characters compared by Unicode value"
+   ],
+   "question": "Define a class to initialise the following data in an array.\nSearch for a given character input by the user, using the Binary Search technique.\nPrint \"Search Successful\" if the character is found otherwise print \"Search is not Successful\".\n'A', 'H', 'N', 'P', 'S', 'U', 'W', 'Y', 'Z', 'b', 'd'",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The array is already in ascending order of Unicode values (uppercase letters 65-90 come before 'b' = 98 and 'd' = 100), so binary search works directly. Sample check: 'S' -> mid index 5 ('U'), then high = 4, mid 2 ('N'), low = 3, mid 3 ('P'), low = 4, mid 4 ('S') -> Search Successful.\n\nimport java.util.Scanner;\n\nclass BinSearch\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        char a[] = {'A', 'H', 'N', 'P', 'S', 'U', 'W', 'Y', 'Z', 'b', 'd'};\n        System.out.print(\"Enter the character to search: \");\n        char key = sc.next().charAt(0);\n        int low = 0, high = a.length - 1;\n        boolean found = false;\n        while (low <= high)\n        {\n            int mid = (low + high) / 2;\n            if (a[mid] == key)\n            {\n                found = true;\n                break;\n            }\n            else if (key < a[mid])\n                high = mid - 1;\n            else\n                low = mid + 1;\n        }\n        if (found)\n            System.out.println(\"Search Successful\");\n        else\n            System.out.println(\"Search is not Successful\");\n    }\n}",
+   "marking_points": [
+    {
+     "point": "Class, main() and character array initialised with the given data",
+     "marks": 3
+    },
+    {
+     "point": "Input of the search character",
+     "marks": 2
+    },
+    {
+     "point": "low/high initialisation and while (low <= high) loop with mid",
+     "marks": 4
+    },
+    {
+     "point": "Correct updating of low and high by comparison",
+     "marks": 3
+    },
+    {
+     "point": "Appropriate success / failure messages",
+     "marks": 3
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "7",
+   "q_order": 32,
+   "q_main": 7,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "User-Defined Methods",
+   "topic": "Overloading print(): pattern, series sum, larger character",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "method overloading",
+    "nested loops pattern",
+    "loop with step 0.5"
+   ],
+   "question": "Define a class to overload the method print() as follows:\nvoid print() – To print the given format using nested loops.\n@#@#@\n@#@#@\n@#@#@\n@#@#@\n@#@#@\ndouble print(double a, double b) – To display the sum of numbers between a and b with difference of 0.5.\ne.g. if a=1.0, b=4.0\noutput is: 1.0 + 1.5 + 2.0 + 2.5 + ........ + 4.0\nint print(char ch1, char ch2) – compare the two characters and return the ASCII code of the largest character.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample check: print() gives 5 rows of @#@#@; print(1.0, 4.0) displays 1.0 + 1.5 + 2.0 + 2.5 + 3.0 + 3.5 + 4.0 = 17.5 and returns 17.5; print('A', 'z') returns 122.\n\nclass Overload\n{\n    // prints 5 rows of @#@#@ using nested loops\n    void print()\n    {\n        for (int i = 1; i <= 5; i++)\n        {\n            for (int j = 1; j <= 5; j++)\n            {\n                if (j % 2 == 1)\n                    System.out.print(\"@\");\n                else\n                    System.out.print(\"#\");\n            }\n            System.out.println();\n        }\n    }\n\n    // displays a + (a+0.5) + ... + b and returns the sum\n    double print(double a, double b)\n    {\n        double sum = 0.0;\n        for (double x = a; x <= b; x = x + 0.5)\n        {\n            sum = sum + x;\n            if (x + 0.5 <= b)\n                System.out.print(x + \" + \");\n            else\n                System.out.print(x);\n        }\n        System.out.println(\" = \" + sum);\n        return sum;\n    }\n\n    // returns the ASCII code of the larger character\n    int print(char ch1, char ch2)\n    {\n        if (ch1 > ch2)\n            return (int) ch1;\n        else\n            return (int) ch2;\n    }\n\n    public static void main(String args[])\n    {\n        Overload ob = new Overload();\n        ob.print();\n        double s = ob.print(1.0, 4.0);\n        System.out.println(\"Sum = \" + s);\n        System.out.println(\"ASCII code of larger character = \" + ob.print('A', 'z'));\n    }\n}",
+   "marking_points": [
+    {
+     "point": "Class declaration and three correctly overloaded method headers",
+     "marks": 3
+    },
+    {
+     "point": "Nested loops printing 5 rows of @#@#@",
+     "marks": 4
+    },
+    {
+     "point": "Loop from a to b with step 0.5 accumulating and displaying the sum, sum returned",
+     "marks": 4
+    },
+    {
+     "point": "Comparison of characters and return of the larger ASCII code",
+     "marks": 2
+    },
+    {
+     "point": "main() invoking the methods",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "8",
+   "q_order": 33,
+   "q_main": 8,
+   "section": "Section B",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "choice",
+   "choice_note": "any 4 of 6 questions in Section B",
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Largest and smallest digit; parity of their sum",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "digit extraction",
+    "tracking max and min",
+    "even/odd check"
+   ],
+   "question": "Define a class to accept a number. Check if the sum of the largest digit and the smallest digit is an even number or an odd number. Print appropriate messages.\nSample Input: 6425 | 3748\nLargest digit: 6 | 8\nSmallest digit: 2 | 3\nSample Output: Sum is even | Sum is odd",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample check: 6425 -> largest 6, smallest 2, sum 8 -> Sum is even; 3748 -> largest 8, smallest 3, sum 11 -> Sum is odd.\n\nimport java.util.Scanner;\n\nclass DigitSum\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int num = sc.nextInt();\n        int large = 0, small = 9;   // largest and smallest digit\n        int n = num;\n        do\n        {\n            int d = n % 10;\n            if (d > large)\n                large = d;\n            if (d < small)\n                small = d;\n            n = n / 10;\n        } while (n > 0);\n        System.out.println(\"Largest digit: \" + large);\n        System.out.println(\"Smallest digit: \" + small);\n        if ((large + small) % 2 == 0)\n            System.out.println(\"Sum is even\");\n        else\n            System.out.println(\"Sum is odd\");\n    }\n}",
+   "marking_points": [
+    {
+     "point": "Class, main() and Scanner input of the number",
+     "marks": 2
+    },
+    {
+     "point": "Loop extracting digits using % 10 and / 10",
+     "marks": 3
+    },
+    {
+     "point": "Finding the largest digit",
+     "marks": 3
+    },
+    {
+     "point": "Finding the smallest digit",
+     "marks": 3
+    },
+    {
+     "point": "Even/odd check of the sum with appropriate messages",
+     "marks": 4
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  }
+ ]
+}

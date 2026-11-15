@@ -187,7 +187,9 @@ function NextChallenge({ challenge }) {
         </h2>
         <p className="mt-2 max-w-lg text-sm text-white/75">
           {revise
-            ? `You're at ${challenge.accuracy}% across ${challenge.answered} answers here. A focused round now is the quickest way to lift it.`
+            ? (challenge.from === 'school'
+              ? `Your school tests on this chapter came to ${challenge.got}/${challenge.marks} marks (${challenge.accuracy}%). A focused round now is the quickest way to lift it.`
+              : `You're at ${challenge.accuracy}% across ${challenge.answered} answers here. A focused round now is the quickest way to lift it.`)
             : `This is the subject you've practised least recently${last ? ` (last ${last})` : ''}. A short round keeps it fresh.`}
         </p>
         <Link to={to} className="mt-5 inline-flex items-center gap-2 rounded-xl bg-barca-gold px-5 py-2.5 text-sm font-semibold text-barca-navy-deep shadow-soft transition duration-150 hover:bg-amber-300 active:scale-[0.98]">
@@ -297,7 +299,7 @@ function StrengthsAndGaps({ subjects, revision }) {
         <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-sm ${subjectStyle(c.subject).tile}`}>{meta.emoji}</span>
         <div className="min-w-0 flex-1">
           <p className="truncate text-sm font-medium text-ink">{c.chapter}</p>
-          <p className="text-xs text-ink-3">{meta.label} · {c.answered} answered</p>
+          <p className="text-xs text-ink-3">{meta.label} · {c.from === 'school' ? `school tests ${c.got}/${c.marks} marks` : `${c.answered} answered`}</p>
         </div>
         <span className={`pill ${tone}`}>{c.accuracy}%</span>
       </div>
