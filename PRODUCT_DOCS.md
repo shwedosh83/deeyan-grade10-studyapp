@@ -1,4 +1,4 @@
-# MyAICoach — Product Documentation
+# Full Marks — Product Documentation
 
 **Version:** 1.0
 **Last updated:** April 2026
@@ -29,7 +29,7 @@
 
 ### What It Is
 
-MyAICoach is an AI-powered study and self-assessment application for Grade 10 ICSE students. It provides a structured, personalised practice environment across three core subjects — Biology, History & Civics, and Chemistry — with AI evaluation of written answers, real-time feedback, skill-level progress tracking, and weekly summaries.
+Full Marks (formerly MyAICoach) is an AI-powered study and self-assessment application for Grade 10 ICSE students. It provides a structured, personalised practice environment across three core subjects — Biology, History & Civics, and Chemistry — with AI evaluation of written answers, real-time feedback, skill-level progress tracking, and weekly summaries.
 
 ### Who It Is For
 
@@ -43,7 +43,7 @@ ICSE Grade 10 students preparing for board exams need to answer a large volume o
 
 2. **No visibility into weaknesses.** Students don't know which sub-topics within a subject they are weakest in, so they can't target their study efficiently.
 
-MyAICoach solves both problems: it uses Claude to evaluate written answers in real time with subject-specific leniency, and it tracks accuracy by skill across every chapter so students can see exactly where to focus next.
+Full Marks solves both problems: it uses Claude to evaluate written answers in real time with subject-specific leniency, and it tracks accuracy by skill across every chapter so students can see exactly where to focus next.
 
 ---
 

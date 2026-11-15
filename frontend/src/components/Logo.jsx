@@ -1,5 +1,5 @@
 /**
- * MyAICoach logo — two coloured bars + wordmark
+ * Full Marks logo — two coloured bars + wordmark
  * size: "sm" | "md" | "lg"
  * dark: true = white text (for navy backgrounds), false = navy text (for light backgrounds)
  */
@@ -16,7 +16,7 @@ export default function Logo({ size = 'md', dark = true }) {
       </div>
       {/* Wordmark */}
       <span className={`font-extrabold tracking-tight ${text} ${dark ? 'text-white' : 'text-barca-navy'}`}>
-        MyAICoach
+        Full Marks
       </span>
     </div>
   );

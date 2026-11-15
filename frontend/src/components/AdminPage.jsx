@@ -85,7 +85,7 @@ export default function AdminPage() {
             <h1 className="text-2xl font-bold text-gray-900">Admin</h1>
             <span className="text-xs font-semibold bg-barca-red text-white px-2 py-0.5 rounded-full uppercase tracking-wide">Private</span>
           </div>
-          <p className="text-gray-500 text-sm mt-1">User activity across MyAICoach</p>
+          <p className="text-gray-500 text-sm mt-1">User activity across Full Marks</p>
         </div>
       </div>
 
