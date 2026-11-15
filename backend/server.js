@@ -22,7 +22,7 @@ const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 // Board-paper practice: reuse the exact Vercel handlers (ESM) so local dev matches production
 for (const name of ['boardPapers', 'boardGrade', 'boardScan', 'progress', 'classwork']) {
   app.post(`/api/${name}`, async (req, res) => {
-    try { const mod = await import(`../api/${name}.js`); return mod.default(req, res); }
+    try { const mod = await import(`../api/${name === 'classwork' ? '_classwork' : name}.js`); return mod.default(req, res); }
     catch (e) { console.error(name, e); return res.status(500).json({ error: e.message }); }
   });
 }

@@ -1,4 +1,5 @@
 import { admin, PUBLIC_Q_COLS, stripItems } from './_boardLib.js';
+import classwork from './_classwork.js';
 
 // Unbiased Fisher–Yates shuffle (sort with a random comparator keeps most of the original row order).
 function shuffle(arr) {
@@ -32,6 +33,8 @@ function chapterList(body) {
 //   applied { subject, kinds[], chapter, count, userId } -> applied questions WITHOUT solutions, unseen first
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
+  // /api/classwork is served by this function (vercel.json rewrite) to stay within the plan's function limit.
+  if (req.query?.route === 'classwork') return classwork(req, res);
   const { action } = req.body || {};
   try {
     if (action === 'list') {

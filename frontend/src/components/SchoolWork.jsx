@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { SUBJECTS } from '../context/SubjectContext';
 import { supabase } from '../lib/supabase';
@@ -36,7 +36,7 @@ export default function SchoolWork() {
         <p className="eyebrow">From school</p>
         <h1 className="page-title">Class tests &amp; worksheets</h1>
         <p className="mt-1 max-w-2xl text-sm text-ink-2">
-          Upload a marked class test or a worksheet (question paper, your answer sheet, solutions: photos or PDFs). Each upload is read question by question: the questions join your practice, and the marks your teacher gave show up here and in My progress.
+          Upload a marked class test or a worksheet (question paper, your answer sheet, solutions: photos or PDFs). Press Mark it and every answer is checked against a model answer, ICSE-style, with marks and what to fix. The questions then join your practice, and weak chapters show up in My progress.
         </p>
       </header>
 
@@ -89,7 +89,7 @@ function UploadCard({ userId, onDone }) {
       setBusy('Saving…');
       await boardApi('classwork', { action: 'create', userId, ...f, files: done });
       setF(blank); setFiles([]);
-      setMsg({ tone: 'good', text: 'Uploaded. It will be read into questions and marks shortly.' });
+      setMsg({ tone: 'good', text: 'Uploaded. Press Mark it next to it to get the result.' });
       onDone();
     } catch (err) {
       setMsg({ tone: 'bad', text: err.message === 'setup' ? 'Class-test storage is not set up yet.' : `Upload failed: ${err.message}` });
@@ -161,8 +161,9 @@ function SchoolResults({ loading, chapters }) {
     <section className="card p-6">
       <p className="eyebrow">Marks from school</p>
       <p className="section-title">Where the marks went</p>
+      <p className="mt-0.5 text-xs text-ink-3">From the papers you've had marked here.</p>
       {!subjects.length ? (
-        <p className="mt-2 text-sm text-ink-3">Once a marked test has been read, you'll see marks by chapter here, weakest first.</p>
+        <p className="mt-2 text-sm text-ink-3">After your first paper is marked you'll see marks by chapter here, weakest first.</p>
       ) : (
         <div className="mt-4 space-y-5">{subjects.map(sid => {
           const s = subjectById(sid), st = subjectStyle(sid);
@@ -191,7 +192,16 @@ function SchoolResults({ loading, chapters }) {
 }
 
 function UploadList({ state, userId, onChange }) {
+  const navigate = useNavigate();
   const [removing, setRemoving] = useState(null);
+  const [marking, setMarking] = useState({});   // id -> true while marking
+  const [errors, setErrors] = useState({});     // id -> message
+  async function mark(u) {
+    setMarking(m => ({ ...m, [u.id]: true })); setErrors(e => ({ ...e, [u.id]: null }));
+    try { await boardApi('classwork', { action: 'evaluate', userId, id: u.id }); navigate(`/school/${u.id}`); }
+    catch (e) { setErrors(x => ({ ...x, [u.id]: e.message })); onChange(); }
+    setMarking(m => ({ ...m, [u.id]: false }));
+  }
   async function remove(u) {
     if (!window.confirm(`Remove "${u.title || KIND_LABEL[u.kind]}" and its files? This can't be undone.`)) return;
     setRemoving(u.id);
@@ -208,19 +218,23 @@ function UploadList({ state, userId, onChange }) {
           const s = subjectById(u.subject), st = subjectStyle(u.subject), r = u.result;
           const scored = u.marks_scored !== null && u.marks_max ? `${num(u.marks_scored)}/${num(u.marks_max)}` : r?.marked ? `${num(r.got)}/${num(r.marks)}` : null;
           return (
-            <li key={u.id} className="flex items-center gap-3 py-3">
+            <li key={u.id} className="py-3"><div className="flex items-center gap-3">
               <span className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-xl text-base ${st.tile}`}>{s.emoji}</span>
               <div className="min-w-0 flex-1">
                 <p className="truncate text-sm font-semibold text-ink">{u.title || `${s.label} ${KIND_LABEL[u.kind]?.toLowerCase()}`}</p>
                 <p className="text-xs text-ink-3">{[KIND_LABEL[u.kind], fmtDate(u.test_date) || `uploaded ${fmtDate(u.created_at)}`, `${u.files.length} file${u.files.length === 1 ? '' : 's'}`, r ? `${r.questions} questions` : null].filter(Boolean).join(' · ')}</p>
               </div>
               {scored && <span className="font-display text-sm font-bold text-ink">{scored}</span>}
-              {u.status === 'processed' && <span className="pill bg-good-soft text-good">Read</span>}
-              {u.status === 'failed' && <span className="pill bg-bad-soft text-bad" title={u.status_note || ''}>Couldn't read</span>}
-              {u.status === 'pending' && <>
-                <span className="pill bg-warn-soft text-warn">Waiting to be read</span>
-                <button onClick={() => remove(u)} disabled={removing === u.id} className="btn-ghost px-2 py-1 text-xs">Remove</button>
+              {u.status === 'processed' && <Link to={`/school/${u.id}`} className="btn-secondary px-3 py-1.5 text-xs">See result</Link>}
+              {(u.status === 'pending' || u.status === 'failed' || (u.status === 'processing' && !marking[u.id])) && <>
+                <button onClick={() => mark(u)} disabled={marking[u.id]} className="btn-primary px-3 py-1.5 text-xs">{u.status === 'pending' ? 'Mark it' : 'Try again'}</button>
+                <button onClick={() => remove(u)} disabled={removing === u.id || marking[u.id]} className="btn-ghost px-2 py-1 text-xs">Remove</button>
               </>}
+              {marking[u.id] && <span className="pill bg-brand-soft text-brand-ink animate-pulse">Marking… 1–3 min</span>}
+            </div>
+            {(errors[u.id] || (u.status === 'failed' && u.status_note)) && !marking[u.id] && (
+              <p className="ml-12 mt-1.5 rounded-lg bg-bad-soft px-3 py-1.5 text-xs text-bad">{errors[u.id] || u.status_note}</p>
+            )}
             </li>
           );
         })}</ul>

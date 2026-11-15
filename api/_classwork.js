@@ -1,11 +1,14 @@
 import { admin } from './_boardLib.js';
+import { evaluateUpload } from './_classworkEval.js';
 
 // School class tests and worksheets.
 // POST { action, userId, ... }
 //   sign   { userId, name }                         -> signed upload URL for one file in the private `classwork` bucket
 //   create { userId, subject, kind, title, test_date, marks_scored, marks_max, note, files[] } -> the new upload row (status pending)
 //   list   { userId }                                -> uploads (newest first) + per-subject chapter results from marked tests
-//   delete { userId, id }                            -> removes a pending upload and its files
+//   delete   { userId, id }                          -> removes an upload that hasn't been marked, and its files
+//   evaluate { userId, id }                          -> marks it with Claude (1-3 min) and returns the updated upload
+//   get      { userId, id }                          -> one upload with its evaluation
 const BUCKET = 'classwork';
 const KINDS = ['class_test', 'worksheet', 'other'];
 const safeName = n => String(n || 'file').replace(/[^\w.\-]+/g, '_').slice(-80);
@@ -61,10 +64,21 @@ export default async function handler(req, res) {
       return res.json({ uploads: (uploads || []).map(u => ({ ...u, result: byUpload[u.id] || null })), chapters });
     }
 
+    if (action === 'evaluate') {
+      try { return res.json({ upload: await evaluateUpload(userId, req.body.id) }); }
+      catch (e) { if (e.userFacing) return res.status(422).json({ error: e.message }); throw e; }
+    }
+
+    if (action === 'get') {
+      const { data, error } = await admin.from('classwork_uploads').select('*').eq('id', req.body.id).eq('user_id', userId).single();
+      if (error) throw error;
+      return res.json({ upload: data });
+    }
+
     if (action === 'delete') {
       const { data: u, error } = await admin.from('classwork_uploads').select('*').eq('id', req.body.id).eq('user_id', userId).single();
       if (error) throw error;
-      if (u.status !== 'pending') return res.status(400).json({ error: 'Only uploads that have not been processed yet can be removed.' });
+      if (u.status === 'processed' || u.status === 'processing') return res.status(400).json({ error: 'Marked papers stay in your record and cannot be removed here.' });
       await admin.storage.from(BUCKET).remove((u.files || []).map(f => f.path));
       await admin.from('classwork_uploads').delete().eq('id', u.id);
       return res.json({ ok: true });

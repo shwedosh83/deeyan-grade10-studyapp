@@ -14,9 +14,10 @@ CREATE TABLE IF NOT EXISTS classwork_uploads (
   marks_max     NUMERIC,
   files         JSONB NOT NULL DEFAULT '[]',              -- [{ path, name, type, size }]
   note          TEXT,
-  status        TEXT NOT NULL DEFAULT 'pending',          -- pending | processed | failed
+  status        TEXT NOT NULL DEFAULT 'pending',          -- pending | processing | processed | failed
   status_note   TEXT,
   paper_id      TEXT,                                     -- board_papers.id once processed
+  evaluation    JSONB,                                    -- full marking: per-question answer, model answer, marks, feedback
   processed_at  TIMESTAMPTZ,
   created_at    TIMESTAMPTZ NOT NULL DEFAULT now()
 );
