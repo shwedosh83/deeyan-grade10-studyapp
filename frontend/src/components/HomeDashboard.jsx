@@ -109,17 +109,19 @@ function StatRow({ totals, level, streak, today }) {
   const left = Math.max(0, today.goal - today.answered);
   const xpToNext = level.next ? level.next_min - totals.xp : 0;
   return (
-    <div className="grid grid-cols-4 gap-4 animate-slide-up">
-      <div className="card flex items-center gap-4 p-5">
-        <GoalRing value={today.answered} goal={today.goal} />
-        <div className="min-w-0">
-          <p className="eyebrow">Today's goal</p>
-          <p className="mt-1 text-sm font-semibold text-ink">{today.done ? 'Goal reached' : `${left} to go`}</p>
-          <p className="mt-0.5 text-xs text-ink-3">{today.done ? 'Anything extra is a bonus.' : `${today.goal} questions a day`}</p>
+    <div className="grid grid-cols-2 gap-4 xl:grid-cols-4 animate-slide-up">
+      <div className="card min-w-0 p-5">
+        <p className="eyebrow truncate">Today's goal</p>
+        <div className="mt-2 flex items-center gap-3">
+          <GoalRing value={today.answered} goal={today.goal} size={56} stroke={6} />
+          <div className="min-w-0">
+            <p className="font-display text-lg font-bold leading-tight text-ink">{today.done ? 'Goal reached' : `${left} to go`}</p>
+            <p className="mt-0.5 text-xs text-ink-3">{today.done ? 'Anything extra is a bonus' : `${today.goal} a day`}</p>
+          </div>
         </div>
       </div>
 
-      <div className="card p-5">
+      <div className="card min-w-0 p-5">
         <p className="eyebrow">Streak</p>
         <p className="mt-2 flex items-baseline gap-1.5">
           <span className="font-display text-3xl font-bold text-ink">{streak.current}</span>
@@ -132,10 +134,10 @@ function StatRow({ totals, level, streak, today }) {
         </p>
       </div>
 
-      <div className="card p-5">
-        <div className="flex items-center justify-between">
-          <p className="eyebrow">Level</p>
-          <span className="pill bg-accent-soft text-accent">{totals.xp.toLocaleString()} XP</span>
+      <div className="card min-w-0 p-5">
+        <div className="flex items-center justify-between gap-2">
+          <p className="eyebrow truncate">Level</p>
+          <span className="pill shrink-0 bg-accent-soft text-accent">{totals.xp.toLocaleString()} XP</span>
         </div>
         <p className="mt-2 font-display text-2xl font-bold text-ink">{level.name}</p>
         <div className="progress-track mt-2 h-1.5">
@@ -144,8 +146,8 @@ function StatRow({ totals, level, streak, today }) {
         <p className="mt-1.5 text-xs text-ink-3">{level.next ? `${xpToNext.toLocaleString()} XP to ${level.next}` : 'Top level reached'}</p>
       </div>
 
-      <div className="card p-5">
-        <p className="eyebrow">Time practised</p>
+      <div className="card min-w-0 p-5">
+        <p className="eyebrow truncate">Time practised</p>
         <p className="mt-2 font-display text-3xl font-bold text-ink">{formatHours(totals.seconds)}</p>
         <p className="mt-1 text-xs text-ink-3">{totals.answered.toLocaleString()} answered · {totals.active_days} active day{totals.active_days === 1 ? '' : 's'}</p>
       </div>
@@ -416,7 +418,7 @@ function BadgesCard({ badges }) {
 function HomeSkeleton() {
   return (
     <div className="space-y-6" aria-busy="true" aria-label="Loading your progress">
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 gap-4 xl:grid-cols-4">
         {[0, 1, 2, 3].map(i => <div key={i} className="card p-5"><div className="skeleton h-3 w-20" /><div className="skeleton mt-3 h-8 w-24" /><div className="skeleton mt-3 h-2.5 w-32" /></div>)}
       </div>
       <div className="grid grid-cols-3 gap-6">
