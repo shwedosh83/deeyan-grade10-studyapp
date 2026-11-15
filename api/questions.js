@@ -1,5 +1,12 @@
 import { createClient } from '@supabase/supabase-js';
 
+// Unbiased Fisher–Yates shuffle (sort with a random comparator keeps most of the original row order).
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+
 const admin = createClient(
   process.env.SUPABASE_URL,
   process.env.SUPABASE_SERVICE_KEY
@@ -42,7 +49,7 @@ export default async function handler(req, res) {
 
   // ── 2. No userId → plain shuffle, no spaced repetition ───────────────────
   if (!userId) {
-    const shuffled = pool.sort(() => Math.random() - 0.5).slice(0, limit);
+    const shuffled = shuffle(pool).slice(0, limit);
     return res.json({ questions: shuffled });
   }
 
@@ -96,7 +103,7 @@ export default async function handler(req, res) {
 
   // Shuffle unseen (random variety), sort wrong by most-recently-wrong first,
   // sort correct by oldest-answered first (longest since seen)
-  unseen.sort(() => Math.random() - 0.5);
+  unseen.splice(0, unseen.length, ...shuffle(unseen));
   wrong.sort((a, b) => new Date(b.answeredAt) - new Date(a.answeredAt));
   correct.sort((a, b) => new Date(a.answeredAt) - new Date(b.answeredAt));
 

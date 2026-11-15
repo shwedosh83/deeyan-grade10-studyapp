@@ -15,7 +15,7 @@ export default function BoardSprint() {
   const navigate = useNavigate();
   const [phase, setPhase] = useState('setup'); // setup | loading | running | saving | results
   const [count, setCount] = useState(15);
-  const [chapter, setChapter] = useState('');   // '' = all chapters
+  const [selChapters, setSelChapters] = useState([]);   // [] = all chapters
   const [chapters, setChapters] = useState([]);
   const [source, setSource] = useState('');     // '' = board + prelims, 'board', 'prelim'
   const [sources, setSources] = useState([]);   // sources that exist in this subject's pool
@@ -34,7 +34,7 @@ export default function BoardSprint() {
   const hasBoard = SUBJECTS_WITH_BOARD.includes(subject.id);
   const qMap = useMemo(() => Object.fromEntries(questions.map(q => [q.id, q])), [questions]);
 
-  useEffect(() => { setPhase('setup'); setResult(null); setError(null); setChapter(''); setChapters([]); setSource(''); setSources([]); }, [subject.id]);
+  useEffect(() => { setPhase('setup'); setResult(null); setError(null); setSelChapters([]); setChapters([]); setSource(''); setSources([]); }, [subject.id]);
 
   // Chapter + source lists for the setup screen (count 0 = metadata only).
   useEffect(() => {
@@ -50,8 +50,8 @@ export default function BoardSprint() {
   async function start() {
     setPhase('loading'); setError(null);
     try {
-      const d = await boardApi('boardPapers', { action: 'sprint', subject: subject.id, count: Number(count), chapter: chapter || null, source: source || null });
-      if (!d.questions?.length) { setError(chapter ? `No objective questions for ${chapter} yet.` : 'No objective questions for this subject yet.'); setPhase('setup'); return; }
+      const d = await boardApi('boardPapers', { action: 'sprint', subject: subject.id, count: Number(count), chapters: selChapters, source: source || null });
+      if (!d.questions?.length) { setError(selChapters.length ? `No objective questions for ${selChapters.join(', ')} yet.` : 'No objective questions for this subject yet.'); setPhase('setup'); return; }
       setQuestions(d.questions); setPoolSize(d.pool_size); setIdx(0); setAnswers({}); setChecked({}); finishing.current = false;
       const t = Date.now(); setStartedAt(t); setDeadline(t + d.questions.length * SECONDS_PER_Q * 1000);
       setPhase('running');
@@ -96,7 +96,7 @@ export default function BoardSprint() {
             <p className="text-sm font-medium text-gray-700">Which papers?</p>
             <div className="flex gap-1.5 flex-wrap">
               {['', 'board', 'prelim'].map(s => (
-                <button key={s || 'all'} type="button" onClick={() => { setSource(s); setChapter(''); }}
+                <button key={s || 'all'} type="button" onClick={() => { setSource(s); setSelChapters([]); }}
                   className={`px-3 py-1 rounded-full text-xs font-medium border ${source === s ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500 hover:text-gray-700'}`}>
                   {SOURCE_LABELS[s]}
                 </button>
@@ -107,15 +107,15 @@ export default function BoardSprint() {
         )}
         {chapters.length > 1 && (
           <div className="space-y-2">
-            <p className="text-sm font-medium text-gray-700">Which chapter?</p>
+            <p className="text-sm font-medium text-gray-700">Which chapters? <span className="text-gray-400 font-normal">(tap to pick one or more)</span></p>
             <div className="flex gap-1.5 flex-wrap">
-              <button type="button" onClick={() => setChapter('')}
-                className={`px-3 py-1 rounded-full text-xs font-medium border ${chapter === '' ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500 hover:text-gray-700'}`}>
+              <button type="button" onClick={() => setSelChapters([])}
+                className={`px-3 py-1 rounded-full text-xs font-medium border ${selChapters.length === 0 ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500 hover:text-gray-700'}`}>
                 All chapters
               </button>
               {chapters.map(c => (
-                <button key={c} type="button" onClick={() => setChapter(c)}
-                  className={`px-3 py-1 rounded-full text-xs font-medium border ${chapter === c ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500 hover:text-gray-700'}`}>
+                <button key={c} type="button" onClick={() => setSelChapters(cs => cs.includes(c) ? cs.filter(x => x !== c) : [...cs, c])}
+                  className={`px-3 py-1 rounded-full text-xs font-medium border ${selChapters.includes(c) ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500 hover:text-gray-700'}`}>
                   {c}
                 </button>
               ))}

@@ -14,7 +14,7 @@ export default function BoardApplied() {
   const navigate = useNavigate();
   const [phase, setPhase] = useState('setup'); // setup | loading | running | done
   const [kinds, setKinds] = useState([]);
-  const [chapter, setChapter] = useState('');
+  const [selChapters, setSelChapters] = useState([]);   // [] = all chapters
   const [source, setSource] = useState('');  // '' = board + prelims, 'board', 'prelim'
   const [count, setCount] = useState(10);
   const [chapters, setChapters] = useState([]);
@@ -31,7 +31,7 @@ export default function BoardApplied() {
   const hasBoard = SUBJECTS_WITH_BOARD.includes(subject.id);
 
   useEffect(() => {
-    setPhase('setup'); setKinds([]); setChapter(''); setSource(''); setInfo(null); setError(null);
+    setPhase('setup'); setKinds([]); setSelChapters([]); setSource(''); setInfo(null); setError(null);
     if (!hasBoard) return;
     boardApi('boardPapers', { action: 'applied', subject: subject.id, count: 1, userId: user?.id || null })
       .then(d => { setChapters(d.chapters || []); setInfo(d); }).catch(() => {});
@@ -40,7 +40,7 @@ export default function BoardApplied() {
   async function start() {
     setPhase('loading'); setError(null);
     try {
-      const d = await boardApi('boardPapers', { action: 'applied', subject: subject.id, kinds, chapter: chapter || null, count, userId: user?.id || null, source: source || null });
+      const d = await boardApi('boardPapers', { action: 'applied', subject: subject.id, kinds, chapters: selChapters, count, userId: user?.id || null, source: source || null });
       if (!d.questions?.length) { setError('No applied questions match those filters.'); setPhase('setup'); return; }
       setQuestions(d.questions); setIdx(0); setAnswer(''); setFb(null); setLog([]); setPhase('running');
     } catch (e) { setError(e.message); setPhase('setup'); }
@@ -98,10 +98,13 @@ export default function BoardApplied() {
           ))}</div>
         </div>
         <div>
-          <p className="text-sm font-medium text-gray-700 mb-2">Chapter</p>
-          <select value={chapter} onChange={e => setChapter(e.target.value)} className="w-full border-2 border-gray-200 rounded-lg px-3 py-2 text-sm">
-            <option value="">All chapters</option>{chapters.map(c => <option key={c} value={c}>{c}</option>)}
-          </select>
+          <p className="text-sm font-medium text-gray-700 mb-2">Chapters <span className="text-gray-400 font-normal">(tap to pick one or more; none = all)</span></p>
+          <div className="flex flex-wrap gap-2">
+            <button onClick={() => setSelChapters([])} className={`px-3 py-1.5 rounded-full text-sm border-2 ${selChapters.length === 0 ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500'}`}>All chapters</button>
+            {chapters.map(c => (
+              <button key={c} onClick={() => setSelChapters(cs => cs.includes(c) ? cs.filter(x => x !== c) : [...cs, c])} className={`px-3 py-1.5 rounded-full text-sm border-2 ${selChapters.includes(c) ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500'}`}>{c}</button>
+            ))}
+          </div>
         </div>
         <div>
           <p className="text-sm font-medium text-gray-700 mb-2">How many?</p>
