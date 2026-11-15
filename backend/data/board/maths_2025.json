@@ -803,23 +803,23 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": [],
-   "solution": "Steps of construction: 1. Draw line segment AB = 6 cm. 2. At point A, construct ∠BAX = 120°. 3. With A as centre and radius 4.5 cm, draw an arc cutting AX at point C. 4. Join B and C; ΔABC is the required triangle. 5. Draw the perpendicular bisectors of AB and AC, intersecting at O. 6. With O as centre and OC (= OA = OB) as radius, draw the circle passing through A, B and C. 7. The measured radius is approximately 5.2 cm.",
+   "solution": "Radius ≈ 5.3 cm (calculated 5.27 cm; a measured 5.2–5.3 cm is acceptable)\nSteps of construction: 1. Draw line segment AB = 6 cm. 2. At point A, construct ∠BAX = 120°. 3. With A as centre and radius 4.5 cm, draw an arc cutting AX at point C. 4. Join B and C; ΔABC is the required triangle. 5. Draw the perpendicular bisectors of AB and AC, intersecting at O. 6. With O as centre and OC (= OA = OB) as radius, draw the circle passing through A, B and C. 7. The measured radius is approximately 5.3 cm. Check: BC² = 6² + 4.5² − 2(6)(4.5)cos 120° = 83.25, BC ≈ 9.12 cm; R = BC/(2 sin 120°) ≈ 5.27 cm.",
    "marking_points": [
     {
      "point": "correct construction of ΔABC (AB = 6, ∠A = 120°, AC = 4.5)",
-     "weight": 1
+     "marks": 1
     },
     {
      "point": "perpendicular bisectors of two sides to locate O",
-     "weight": 1
+     "marks": 1
     },
     {
      "point": "circle through A, B, C drawn with centre O",
-     "weight": 1
+     "marks": 1
     },
     {
-     "point": "radius measured ≈ 5.2 cm",
-     "weight": 1
+     "point": "radius measured ≈ 5.3 cm (5.2–5.3 accepted)",
+     "marks": 1
     }
    ],
    "needs_figure": false,
@@ -1321,19 +1321,19 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": [],
-   "solution": "Draw the histogram with class intervals 30-40, 40-50, 50-60, 60-70, 70-80 on the x-axis and frequencies 10, 26, 40, 54, 34 on the y-axis (scale: 2 cm = 10 marks and 2 cm = 10 students). To find the mode: (a) identify the rectangle with the highest frequency (modal class 60-70); (b) join the top corners of the modal rectangle with the immediately adjacent corners of the neighbouring rectangles (the two cross-lines); (c) let the joining lines cut each other at P; (d) drop a perpendicular from P to the x-axis; (e) the foot of the perpendicular gives the mode. Mode ≈ 64.5 (approx.).",
+   "solution": "Mode ≈ 64 marks\nDraw the histogram with class intervals 30–40, …, 70–80 on the x-axis (2 cm = 10 marks, kink before 30) and frequencies 10, 26, 40, 54, 34 on the y-axis (2 cm = 10 students).\nModal class = 60–70 (tallest bar, 54).\nJoin the top-right corner of the modal bar to the top-right corner of the bar before it (50–60), and the top-left corner of the modal bar to the top-left corner of the bar after it (70–80). From the point where these lines cross, drop a perpendicular to the x-axis; its foot is the mode.\nReading: mode ≈ 64 marks.\n(Check: 60 + (54 − 40)/(108 − 40 − 34) × 10 = 64.12.)",
    "marking_points": [
     {
      "point": "histogram drawn correctly to scale",
-     "weight": 1
+     "marks": 1
     },
     {
-     "point": "cross-line construction inside the modal class 60-70",
-     "weight": 1
+     "point": "cross-line construction inside the modal class 60–70",
+     "marks": 1
     },
     {
-     "point": "mode read off ≈ 64.5",
-     "weight": 1
+     "point": "mode read off ≈ 64",
+     "marks": 1
     }
    ],
    "needs_figure": false,
@@ -1502,19 +1502,19 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": [],
-   "solution": "Build the table (the printed solution converts to continuous classes): x·f values are 30, 22, 24, 78, 42, 75, 48; Σf = 24, Σxf = 319; cumulative frequencies 3, 5, 7, 13, 16, 21, 24. (a) Mean = Σxf/Σf = 319/24 = 13.29 ≈ 13 (nearest whole number). (b) Median (printed grouped method, class 12.5-13.5 with l = 12.5, n = 24, c.f. = 7, f = 6, h = 1): M = l + ((n/2 − c.f.)/f) × h = 12.5 + ((12 − 7)/6) × 1 = 12.5 + 5/6 = 12.5 + 0.83 = 13.33 ≈ 13. Median = 13.",
+   "solution": "(a) Mean ≈ 13 (b) Median = 13\nTable: x·f = 30, 22, 24, 78, 42, 75, 48; Σf = 24, Σxf = 319.\n(a) Mean = Σxf/Σf = 319/24 = 13.29 ≈ 13 (nearest whole number).\n(b) Cumulative frequencies: 3, 5, 7, 13, 16, 21, 24. n = 24 (even), so median = average of the 12th and 13th observations. The 8th to 13th observations are all 13 (c.f. 7 → 13), so both are 13.\nMedian = (13 + 13)/2 = 13.",
    "marking_points": [
     {
      "point": "Σf = 24 and Σxf = 319 computed",
-     "weight": 1
+     "marks": 1
     },
     {
-     "point": "mean = 13.29 ≈ 13",
-     "weight": 1
+     "point": "mean = 319/24 = 13.29 ≈ 13",
+     "marks": 1
     },
     {
-     "point": "median = 13 (12th/13th observation, printed value 13.33 ≈ 13)",
-     "weight": 1
+     "point": "c.f. table; 12th and 13th observations both 13 ⇒ median = 13",
+     "marks": 1
     }
    ],
    "needs_figure": false,

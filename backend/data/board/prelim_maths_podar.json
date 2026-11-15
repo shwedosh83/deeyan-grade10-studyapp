@@ -1749,27 +1749,23 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": [],
-   "solution": "Draw rectangles of heights 5, 15, 10, 5, 12, 8 on the class intervals (x-axis 2 cm = 10 units, y-axis 2 cm = 2 units). Modal class is 10-20 (frequency 15). Join the top corners of the modal bar to the adjacent bars' corners crosswise; the vertical through their intersection gives mode ≈ 16.5 (by formula 10 + (15 − 5)/(30 − 5 − 10) × 10 = 16.67). Students scoring below 30 = 5 + 15 + 10 = 30.",
+   "solution": "Mode ≈ 16.7; 30 students scored below 30\nDraw rectangles of heights 5, 15, 10, 5, 12, 8 on the class intervals 0–10, …, 50–60 (x-axis 2 cm = 10 marks, y-axis 2 cm = 2 students).\nModal class = 10–20 (frequency 15). Join the top-right corner of the modal bar to the top-right corner of the bar before it (0–10), and the top-left corner of the modal bar to the top-left corner of the bar after it (20–30). Drop a perpendicular from the intersection to the x-axis: mode ≈ 16.7.\n(Check: 10 + (15 − 5)/(30 − 5 − 10) × 10 = 16.67.)\nNumber scoring below 30 = 5 + 15 + 10 = 30.",
    "marking_points": [
     {
      "point": "histogram drawn to scale",
-     "marks": 1,
-     "weight": 1
+     "marks": 1
     },
     {
      "point": "crossing-line construction on modal bar",
-     "marks": 1,
-     "weight": 1
+     "marks": 1
     },
     {
-     "point": "mode ≈ 16.5-16.7",
-     "marks": 1,
-     "weight": 1
+     "point": "mode ≈ 16.7",
+     "marks": 1
     },
     {
      "point": "30 students below 30",
-     "marks": 1,
-     "weight": 1
+     "marks": 1
     }
    ],
    "needs_figure": false,

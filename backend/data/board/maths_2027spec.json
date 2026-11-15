@@ -1500,19 +1500,19 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": [],
-   "solution": "Shaded area = outer rectangle − inner rectangle: 12 × 10 − (12 − x)(10 − x) = 57.\n120 − 120 + 22x − x² = 57 → x² − 22x + 57 = 0 → (x − 19)(x − 3) = 0.\nx = 19 is not possible (exceeds the sides), therefore x = 3 cm (i.e. x = 3 m as per the diagram's units).",
+   "solution": "From the diagram the outer rectangle is 12 m × 10 m and the unshaded rectangle is (12 − x) m × (10 − x) m.\nShaded area = 12 × 10 − (12 − x)(10 − x) = 57\n⇒ 120 − (120 − 22x + x²) = 57 ⇒ x² − 22x + 57 = 0 ⇒ (x − 19)(x − 3) = 0.\nx = 19 is impossible (it exceeds both sides 12 m and 10 m), so x = 3 m.",
    "marking_points": [
     {
      "point": "Form equation 12 × 10 − (12 − x)(10 − x) = 57",
-     "weight": 1
+     "marks": 1
     },
     {
      "point": "Simplify and factorise: (x − 19)(x − 3) = 0",
-     "weight": 1
+     "marks": 1
     },
     {
-     "point": "Reject x = 19; conclude x = 3",
-     "weight": 1
+     "point": "Reject x = 19; x = 3 m",
+     "marks": 1
     }
    ],
    "needs_figure": true,
@@ -1589,7 +1589,7 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": [],
-   "solution": "Cumulative frequencies: 8, 20, 36, 60, 89, 127, 169, 200. Plot points (10,8), (20,20), (30,36), (40,60), (50,89), (60,127), (70,169), (80,200) and draw a smooth ogive.\n(a) Median = value at cf = 100 (N/2): Median = 53 ± 1.\n(b) Students above 75 marks = 200 − cf at 75 = 200 − 186 = 14 students.\n(c) 35% of 80 = 28 marks; number of students scoring 35% and below = cf at 28 = 34 ± 2.",
+   "solution": "Cumulative frequencies: 8, 20, 36, 60, 89, 127, 169, 200. Plot points (10,8), (20,20), (30,36), (40,60), (50,89), (60,127), (70,169), (80,200) and draw a smooth ogive.\n(a) Median = value at cf = 100 (N/2): Median = 53 ± 1.\n(b) Students above 75 marks = 200 − cf at 75. Reading the ogive at 75 gives cf ≈ 184–186, so about 14–16 students (≈ 15 by straight-line interpolation between (70, 169) and (80, 200); accept 14–16).\n(c) 35% of 80 = 28 marks; number of students scoring 35% and below = cf at 28 = 34 ± 2.",
    "marking_points": [
     {
      "point": "Correct cumulative frequency table (8, 20, 36, 60, 89, 127, 169, 200)",
@@ -1771,19 +1771,19 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": [],
-   "solution": "Draw the histogram with weight on the x-axis (2 cm = 5 kg) and number of students on the y-axis (2 cm = 5 students); bars of heights 5, 7, 14, 21, 25, 15, 7, 6. The tallest bar is 50−55 (modal class). Join the top corners of the modal bar to the adjacent bars' corners (cross-lines) and drop a perpendicular from their intersection to the x-axis.\nMode: 51.5 kg.",
+   "solution": "Modal weight ≈ 51.4 kg\nDraw the histogram with weight on the x-axis (2 cm = 5 kg, kink before 30) and number of students on the y-axis (2 cm = 5 students); bars of heights 5, 7, 14, 21, 25, 15, 7, 6.\nThe tallest bar is 50–55 (modal class). Join the top-right corner of the modal bar to the top-right corner of the bar before it (45–50), and the top-left corner of the modal bar to the top-left corner of the bar after it (55–60). Drop a perpendicular from their intersection to the x-axis.\nMode ≈ 51.4 kg.\n(Check: 50 + (25 − 21)/(50 − 21 − 15) × 5 = 51.43.)",
    "marking_points": [
     {
      "point": "Histogram drawn correctly to the given scale with all 8 bars",
-     "weight": 2
+     "marks": 2
     },
     {
-     "point": "Mode construction on modal class 50−55 (cross-lines and perpendicular)",
-     "weight": 1
+     "point": "Mode construction on modal class 50–55 (cross-lines and perpendicular)",
+     "marks": 1
     },
     {
-     "point": "Modal weight = 51.5 kg",
-     "weight": 1
+     "point": "Modal weight ≈ 51.4 kg",
+     "marks": 1
     }
    ],
    "needs_figure": false,

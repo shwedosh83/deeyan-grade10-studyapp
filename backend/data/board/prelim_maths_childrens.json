@@ -68,7 +68,12 @@
    "correct_option": "b",
    "answer_items": [],
    "solution": "(b) 2/3. ar = 9/4 and ar⁶ = 8/27, so r⁵ = (8/27) × (4/9) = 32/243 = (2/3)⁵, giving r = 2/3.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "(b) 2/3",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 1
@@ -103,7 +108,12 @@
    "correct_option": "b",
    "answer_items": [],
    "solution": "(b) a circle. The tip of the minute hand stays at a fixed distance (its length) from the fixed centre, so its locus is a circle whatever the shape of the clock face.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "Correct option (b) a circle",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 1
@@ -137,7 +147,12 @@
    "correct_option": "c",
    "answer_items": [],
    "solution": "(c) 120. Return% × M.V. = Dividend% × F.V. ⇒ 8 × 150 = 10 × F.V. ⇒ F.V. = ₹120.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "8 × 150 = 10 × F.V. ⇒ F.V. = ₹120, option (c)",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 1
@@ -172,7 +187,12 @@
    "correct_option": "d",
    "answer_items": [],
    "solution": "(d) 1 : 3. Trisection points divide AB into three equal parts, so AP = AB/3 and AP : AB = 1 : 3.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "(d) 1 : 3: trisection gives AP = AB/3",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 1
@@ -277,7 +297,12 @@
    "correct_option": "d",
    "answer_items": [],
    "solution": "(d) A is false, R is true. Using 2b = a + c: 2(4k − 3) = (2k − 1) + (4k + 1) ⇒ 8k − 6 = 6k ⇒ k = 3, not 1. So A is false; R is the true property of an AP.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "2(4k − 3) = (2k − 1) + (4k + 1) gives k = 3, so A is false and R is true → option (d)",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 1
@@ -312,7 +337,12 @@
    "correct_option": "c",
    "answer_items": [],
    "solution": "(c) ₹756. Selling price = 70% of 12000 = ₹8400. CGST = 9% of 8400 = ₹756.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "(c) ₹756",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 1
@@ -347,7 +377,12 @@
    "correct_option": "c",
    "answer_items": [],
    "solution": "(c) 1 : 1. A regular hexagon is made of six equilateral triangles with apex at the centre, so each side equals the circumradius.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "(c) 1 : 1 — hexagon = six equilateral triangles, so side = circumradius",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 1
@@ -416,7 +451,12 @@
    "correct_option": "d",
    "answer_items": [],
    "solution": "(d) 2. Let k be added: f(4) = 16 + 12 − 30 + k = 0 ⇒ −2 + k = 0 ⇒ k = 2.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "(d) 2",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 1
@@ -555,7 +595,12 @@
    "correct_option": "b",
    "answer_items": [],
    "solution": "(b) 2πr³. The largest cylinder has radius r (half the side) and height 2r, so V = πr² × 2r = 2πr³.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "(b) 2πr³ — r = r, h = 2r, V = πr²(2r)",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 3

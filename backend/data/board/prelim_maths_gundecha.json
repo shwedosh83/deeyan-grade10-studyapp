@@ -170,7 +170,12 @@
    "correct_option": "d",
    "answer_items": [],
    "solution": "(d) ₹1500. Total deposit = 1000 × 24 = ₹24,000; interest = 25500 − 24000 = ₹1500.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "Interest = 25500 − 1000 × 24 = ₹1500, option (d)",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 1
@@ -204,7 +209,12 @@
    "correct_option": "c",
    "answer_items": [],
    "solution": "(c) 3/2. Let k be subtracted: f(1/2) − k = 0 ⇒ 2(1/8) − 1/4 + 3/2 − k = 0 ⇒ k = 3/2.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "(c) 3/2",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 1
@@ -239,7 +249,12 @@
    "correct_option": "b",
    "answer_items": [],
    "solution": "(b) ±4. Slopes: k/2 and 8/k. Parallel ⇒ k/2 = 8/k ⇒ k² = 16 ⇒ k = ±4.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "Correct option (b) ±4",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 1
@@ -342,7 +357,12 @@
    "correct_option": "a",
    "answer_items": [],
    "solution": "(a) 18. DB is a diameter, so ∠DAB = 90°. ∠ADB = ∠ACB = 2x (angles in the same segment on chord AB). In ΔDAB: 90° + 2x + 3x = 180° ⇒ x = 18.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "∠DAB = 90°, ∠ADB = ∠ACB = 2x; 90° + 2x + 3x = 180° ⇒ x = 18 → option (a)",
+     "marks": 1
+    }
+   ],
    "needs_figure": true,
    "figure_desc": "Circle with centre O; DB is a diameter through O; A on the lower arc with ∠DAB marked as a right angle; chord AC drawn; ∠ACB = 2x at C and ∠ABD = 3x at B.",
    "page": 2,
@@ -412,7 +432,12 @@
    "correct_option": "d",
    "answer_items": [],
    "solution": "(d) Statement 1 is false, statement 2 is true. Rotating a right triangle about a leg (12 cm) gives a cone, not a cylinder. Rotating about the hypotenuse (13 cm) gives two cones joined at their common base – a double cone.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "(d) — about a leg gives a cone; about the hypotenuse gives a double cone",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 2
@@ -446,7 +471,12 @@
    "correct_option": "a",
    "answer_items": [],
    "solution": "(a) 7 : 5. Componendo-dividendo: 2a²/2b² = (37 + 12)/(37 − 12) = 49/25 ⇒ a/b = 7/5.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "C–D: a²/b² = 49/25 ⇒ a:b = 7:5, option (a)",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 2
@@ -480,7 +510,12 @@
    "correct_option": "c",
    "answer_items": [],
    "solution": "(c) 15%. Return% = (Dividend% × F.V.)/M.V. = (12 × 25)/20 = 15%.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "12 × 25/20 = 15%, option (c)",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 2
@@ -514,7 +549,12 @@
    "correct_option": "d",
    "answer_items": [],
    "solution": "(d) 3. 2(4m − 1) = (5m + 2) + (m + 2) ⇒ 8m − 2 = 6m + 4 ⇒ m = 3.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "2(4m − 1) = (5m + 2) + (m + 2) ⇒ m = 3 → option (d)",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": 2

@@ -1109,23 +1109,23 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": [],
-   "solution": "Let the tree be CD of height 100 m with foot C between A and B. In ΔADC: tan 52° = DC/AC ⇒ 1.279 = 100/AC ⇒ AC = 100/1.279 = 78.18 m. In ΔBDC: tan 45° = DC/BC ⇒ 1 = 100/BC ⇒ BC = 100 m. AB = AC + BC = 78.18 + 100 = 178.18 m ≈ 178 m (to the nearest metre).",
+   "solution": "AB ≈ 178 m\nLet the tree be CD (height 100 m) with foot C between A and B.\nIn ΔADC: tan 52° = DC/AC ⇒ 1.2799 = 100/AC ⇒ AC = 100/1.2799 = 78.13 m.\nIn ΔBDC: tan 45° = DC/BC ⇒ 1 = 100/BC ⇒ BC = 100 m.\nAB = AC + BC = 78.13 + 100 = 178.13 m ≈ 178 m (to the nearest metre).",
    "marking_points": [
     {
-     "point": "tan 52° = 100/AC ⇒ AC = 78.18 m",
-     "weight": 2
+     "point": "tan 52° = 100/AC ⇒ AC = 78.13 m",
+     "marks": 2
     },
     {
      "point": "tan 45° = 100/BC ⇒ BC = 100 m",
-     "weight": 1
+     "marks": 1
     },
     {
-     "point": "AB = AC + BC = 178.18 m",
-     "weight": 1
+     "point": "AB = AC + BC = 178.13 m",
+     "marks": 1
     },
     {
      "point": "Rounded answer 178 m",
-     "weight": 1
+     "marks": 1
     }
    ],
    "needs_figure": false,
@@ -1156,19 +1156,19 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": [],
-   "solution": "a = 2, b = −10, c = 5. Discriminant D = b² − 4ac = 100 − 40 = 60. x = (−b ± √D)/2a = (10 ± √60)/4 = (10 ± 7.7459)/4. So x = 17.7459/4 or 2.2541/4, i.e. x = 4.43 and x = 0.563 (as printed; correctly rounded to three significant figures these are 4.44 and 0.564).",
+   "solution": "x = 4.44 or x = 0.564\na = 2, b = −10, c = 5. D = b² − 4ac = 100 − 40 = 60, √60 = 7.746.\nx = (−b ± √D)/2a = (10 ± 7.746)/4.\nx = 17.746/4 = 4.4365 ≈ 4.44 or x = 2.254/4 = 0.56351 ≈ 0.564 (3 significant figures).",
    "marking_points": [
     {
      "point": "D = 100 − 40 = 60",
-     "weight": 1
+     "marks": 1
     },
     {
-     "point": "x = (10 ± √60)/4 with √60 = 7.7459",
-     "weight": 1
+     "point": "x = (10 ± √60)/4 with √60 = 7.746",
+     "marks": 1
     },
     {
-     "point": "Both roots stated to three significant figures",
-     "weight": 1
+     "point": "Both roots to 3 s.f.: x = 4.44 and x = 0.564",
+     "marks": 1
     }
    ],
    "needs_figure": false,

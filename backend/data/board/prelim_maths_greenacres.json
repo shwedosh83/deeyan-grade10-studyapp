@@ -70,7 +70,12 @@
    "correct_option": "a",
    "answer_items": [],
    "solution": "(a) ₹1200. Market value = 80 − 25% of 80 = ₹60; investment = 20 × 60 = ₹1200.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "M.V. = ₹60; 20 × 60 = ₹1200, option (a)",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": null
@@ -139,7 +144,12 @@
    "correct_option": "b",
    "answer_items": [],
    "solution": "(b) 2.5. (8 + a)/(15 + a) = 3/5 ⇒ 40 + 5a = 45 + 3a ⇒ 2a = 5 ⇒ a = 2.5.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "(8 + k)/(15 + k) = 3/5 ⇒ k = 2.5, option (b)",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": null
@@ -173,7 +183,12 @@
    "correct_option": "b",
    "answer_items": [],
    "solution": "(b) 4/3. For perpendicular lines m₁m₂ = −1, so m₂ = −1/(−3/4) = 4/3.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "Correct option (b) 4/3",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": null
@@ -242,7 +257,12 @@
    "correct_option": "c",
    "answer_items": [],
    "solution": "(c) ₹360. Total deposit = 1200 × 9 = ₹10,800; interest = 11,160 − 10,800 = ₹360.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "Interest = 11160 − 1200 × 9 = ₹360, option (c)",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": null
@@ -310,7 +330,12 @@
    "correct_option": "b",
    "answer_items": [],
    "solution": "(b) 3 cm. πr² × 8 = 72π ⇒ r² = 9 ⇒ r = 3 cm.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "(b) 3 cm — 8πr² = 72π ⇒ r = 3",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": null
@@ -344,7 +369,12 @@
    "correct_option": "a",
    "answer_items": [],
    "solution": "(a) 6%. CGST = SGST = ₹75, so total GST = ₹150; rate = 150/2500 × 100 = 6%.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "(a) 6%",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": null
@@ -378,7 +408,12 @@
    "correct_option": "b",
    "answer_items": [],
    "solution": "(b) x − 4. x² − 16 = (x + 4)(x − 4) and x² − 8x + 16 = (x − 4)², so x − 4 is common.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "(b) x − 4",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": null
@@ -515,7 +550,12 @@
    "correct_option": "b",
    "answer_items": [],
    "solution": "(b) 375. S₁₅ = 15/2 [2(4) + 14(3)] = 15/2 × 50 = 375.",
-   "marking_points": [],
+   "marking_points": [
+    {
+     "point": "S₁₅ = 15/2[2(4) + 14(3)] = 375 → option (b)",
+     "marks": 1
+    }
+   ],
    "needs_figure": false,
    "figure_desc": null,
    "page": null

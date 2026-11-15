@@ -391,12 +391,11 @@
    "is_objective": true,
    "correct_option": "b",
    "answer_items": [],
-   "solution": "(b) 5 : 3. Let ratio k : 1; x-coordinate (10k + 2)/(k + 1) = 7 ⇒ 3k = 5 ⇒ k = 5/3, ratio 5 : 3. (The answer key writes \"c\" beside the value 5:3; the value is option (b).)",
+   "solution": "Let the ratio be k : 1. x-coordinate: (10k + 2)/(k + 1) = 7 ⇒ 10k + 2 = 7k + 7 ⇒ 3k = 5 ⇒ k = 5/3. Ratio = 5 : 3, option (b).",
    "marking_points": [
     {
-     "point": "Correct option (b): 5 : 3. Let ratio k : 1; x-coordinate (10k + 2)/(k + 1) = 7 ⇒ 3k = 5 ⇒ k = 5/3, ratio 5 : 3. (The answer key writes \"c\" beside the value 5:3; the value is option (b).)",
-     "marks": 1.0,
-     "weight": 1.0
+     "point": "(b) 5 : 3",
+     "marks": 1
     }
    ],
    "needs_figure": false,
@@ -1775,27 +1774,23 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": [],
-   "solution": "By componendo and dividendo: (x⁴ + 2x² + 1)/(x⁴ − 2x² + 1) = (17 + 8)/(17 − 8) ⇒ (x² + 1)²/(x² − 1)² = 25/9 ⇒ (x² + 1)/(x² − 1) = 5/3 (taking positive root). Again C&D: 2x²/2 = (5 + 3)/(5 − 3) = 4 ⇒ x² = 4 ⇒ x = ±2. Check: (16 + 1)/(2 × 4) = 17/8 ✓. (The handwritten key writes 5/4 instead of 5/3 after taking the square root and gets x = ±3, which does not satisfy the equation: (81 + 1)/18 ≠ 17/8. Correct answer x = ±2.)",
+   "solution": "By componendo and dividendo: (x⁴ + 1 + 2x²)/(x⁴ + 1 − 2x²) = (17 + 8)/(17 − 8) ⇒ (x² + 1)²/(x² − 1)² = 25/9 ⇒ (x² + 1)/(x² − 1) = ±5/3.\nCase +5/3: C&D ⇒ 2x²/2 = (5 + 3)/(5 − 3) = 4 ⇒ x² = 4 ⇒ x = ±2.\nCase −5/3: 3(x² + 1) = −5(x² − 1) ⇒ 8x² = 2 ⇒ x² = 1/4 ⇒ x = ±1/2.\nCheck: x = 2: (16 + 1)/8 = 17/8 ✓; x = 1/2: (1/16 + 1)/(1/2) = 17/8 ✓.\nHence x = ±2 or x = ±1/2. (Equivalently 4x⁴ − 17x² + 4 = 0 ⇒ (x² − 4)(4x² − 1) = 0.)",
    "marking_points": [
     {
-     "point": "Componendo-dividendo applied",
-     "marks": 1.0,
-     "weight": 1.0
+     "point": "Componendo-dividendo applied to get (x² + 1)²/(x² − 1)² = 25/9",
+     "marks": 1
     },
     {
-     "point": "(x² + 1)²/(x² − 1)² = 25/9",
-     "marks": 1.0,
-     "weight": 1.0
+     "point": "(x² + 1)/(x² − 1) = ±5/3",
+     "marks": 1
     },
     {
-     "point": "(x² + 1)/(x² − 1) = 5/3",
-     "marks": 1.0,
-     "weight": 1.0
+     "point": "x² = 4 ⇒ x = ±2",
+     "marks": 1
     },
     {
-     "point": "x = ±2",
-     "marks": 1.0,
-     "weight": 1.0
+     "point": "x² = 1/4 ⇒ x = ±1/2",
+     "marks": 1
     }
    ],
    "needs_figure": false,

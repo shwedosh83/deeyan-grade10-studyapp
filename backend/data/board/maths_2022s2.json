@@ -850,19 +850,19 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": [],
-   "solution": "(a) Plot A(0, 4), B(2, 2), C(5, 2), D(4, 0) with E(0, 0) as origin. (b) Reflecting in the Y-axis: B'(−2, 2), C'(−5, 2), D'(−4, 0). (c) On joining ABCDD'C'B'A, the shape obtained is not a proper geometrical shape, but a collection (combination) of a quadrilateral and a triangle.",
+   "solution": "B'(−2, 2), C'(−5, 2), D'(−4, 0); the closed figure is a (concave) heptagon.\n(a) Plot A(0, 4), B(2, 2), C(5, 2), D(4, 0); E(0, 0) is the origin.\n(b) Reflection in the y-axis: (x, y) → (−x, y), so B'(−2, 2), C'(−5, 2), D'(−4, 0).\n(c) Joining A → B → C → D → D' → C' → B' → A gives a closed figure with 7 sides and no sides crossing, so it is a heptagon (concave, since the angles at B and B' are reflex). It is symmetric about the y-axis and can be seen as triangle ABB' sitting on trapezium CDD'C'.",
    "marking_points": [
     {
      "point": "Points plotted correctly to scale",
-     "weight": 1
+     "marks": 1
     },
     {
-     "point": "Reflected points B'(−2,2), C'(−5,2), D'(−4,0)",
-     "weight": 1
+     "point": "Reflected points B'(−2, 2), C'(−5, 2), D'(−4, 0)",
+     "marks": 1
     },
     {
-     "point": "Figure joined and named (combination of a quadrilateral and a triangle)",
-     "weight": 1
+     "point": "Figure joined in order and named a (concave) heptagon",
+     "marks": 1
     }
    ],
    "needs_figure": false,
@@ -1223,19 +1223,19 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": [],
-   "solution": "Cumulative frequency table (marks less than / cf): 20/3, 30/11, 40/25, 50/34, 60/38, 70/40. (Assume a class 0-10 with zero frequency before the first class.) Plot the points (10, 0), (20, 3), (30, 11), (40, 25), (50, 34), (60, 38), (70, 40) on graph paper to the given scale and draw a smooth curve (ogive) through them. N/2 = 40/2 = 20: locate 20 on the y-axis (point P), draw a line parallel to the x-axis cutting the curve at Q, and from Q drop a line parallel to the y-axis meeting the x-axis at M. The coordinate of M is 37.5. Hence the median is 37.5 marks.",
+   "solution": "Median ≈ 36.4 marks (accept 36 to 37)\nCumulative frequency (less than): 20 → 3, 30 → 11, 40 → 25, 50 → 34, 60 → 38, 70 → 40. Start the curve at (10, 0) (zero frequency for 0–10; kink on the marks axis). Plot (10, 0), (20, 3), (30, 11), (40, 25), (50, 34), (60, 38), (70, 40) using 2 cm = 10 marks and 2 cm = 5 students, and join with a smooth free-hand curve.\nN = 40, so the median is the (N/2)th = 20th student. From 20 on the c.f. axis draw a horizontal line to the curve, then drop a perpendicular to the marks axis.\nMedian ≈ 36.4 marks (check by interpolation: 30 + (20 − 11)/14 × 10 = 36.4).",
    "marking_points": [
     {
      "point": "Cumulative frequency table 3, 11, 25, 34, 38, 40",
-     "weight": 1
+     "marks": 1
     },
     {
-     "point": "Points plotted and smooth ogive drawn to scale",
-     "weight": 1
+     "point": "Points plotted at upper boundaries and smooth ogive drawn to scale",
+     "marks": 1
     },
     {
-     "point": "Median read at N/2 = 20 as 37.5 marks",
-     "weight": 1
+     "point": "Median read at N/2 = 20 as ≈ 36.4 marks (36–37)",
+     "marks": 1
     }
    ],
    "needs_figure": false,
