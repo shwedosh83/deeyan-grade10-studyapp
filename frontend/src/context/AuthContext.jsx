@@ -8,6 +8,13 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // Local design preview only: `VITE_PREVIEW_USER=1 vite` signs in a placeholder user.
+    // import.meta.env.DEV is false in production builds, so this branch is removed there.
+    if (import.meta.env.DEV && import.meta.env.VITE_PREVIEW_USER === '1') {
+      setUser({ id: import.meta.env.VITE_PREVIEW_USER_ID || '00000000-0000-0000-0000-000000000000', email: 'preview@local', user_metadata: { full_name: 'Deeyan (preview)' } });
+      setLoading(false);
+      return;
+    }
     // Get initial session
     supabase.auth.getSession().then(({ data: { session } }) => {
       setUser(session?.user ?? null);

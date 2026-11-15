@@ -1,6 +1,7 @@
 import { NavLink, Navigate, Outlet, useParams, useLocation } from 'react-router-dom';
 import { SUBJECTS } from '../context/SubjectContext';
 import { SUBJECTS_WITH_BOARD, BOARD_ONLY_SUBJECTS } from '../lib/board';
+import { subjectStyle } from '../lib/subjectStyle';
 
 // Everything inside a subject: header + tabs, then the page.
 export default function SubjectShell() {
@@ -20,21 +21,28 @@ export default function SubjectShell() {
     { to: 'skills', label: 'Skills' },
     { to: 'weekly', label: 'Weekly summary' },
   ];
+  const st = subjectStyle(subject.id);
 
   return (
-    <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold text-gray-900 flex items-center gap-2"><span>{subject.emoji}</span>{subject.label}</h1>
-        <nav className="flex gap-1 mt-3 border-b border-gray-200 overflow-x-auto">
+    <div className="space-y-6 animate-fade-in">
+      <header className="flex flex-wrap items-end justify-between gap-4">
+        <div className="flex items-center gap-3">
+          <span className={`flex h-11 w-11 items-center justify-center rounded-2xl text-2xl ${st.tile}`}>{subject.emoji}</span>
+          <div>
+            <p className="eyebrow">Subject</p>
+            <h1 className="page-title leading-tight">{subject.label}</h1>
+          </div>
+        </div>
+        <nav className="scroll-row flex gap-1 overflow-x-auto rounded-xl border border-line bg-surface p-1 shadow-soft">
           {tabs.map(t => (
             <NavLink key={t.to} to={`/${subject.id}${t.to ? '/' + t.to : ''}`} end={t.end}
-              className={({ isActive }) => { isActive = isActive || (t.also && pathname.startsWith(`/${subject.id}/${t.also}`)); return `px-4 py-2 text-sm font-medium whitespace-nowrap -mb-px border-b-2 transition-colors ${
-                isActive ? 'border-barca-navy text-barca-navy' : 'border-transparent text-gray-500 hover:text-gray-800'}`; }}>
+              className={({ isActive }) => { isActive = isActive || (t.also && pathname.startsWith(`/${subject.id}/${t.also}`)); return `whitespace-nowrap rounded-lg px-3.5 py-1.5 text-sm font-semibold transition duration-150 ${
+                isActive ? 'bg-brand-soft text-brand-ink' : 'text-ink-3 hover:bg-surface-2 hover:text-ink'}`; }}>
               {t.label}
             </NavLink>
           ))}
         </nav>
-      </div>
+      </header>
       <Outlet />
     </div>
   );

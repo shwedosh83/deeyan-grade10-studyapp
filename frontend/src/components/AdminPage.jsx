@@ -97,7 +97,7 @@ export default function AdminPage() {
       </div>
 
       {/* Users table */}
-      <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
+      <div className="card overflow-hidden">
         <div className="px-6 py-4 border-b border-gray-100">
           <h2 className="font-semibold text-gray-800">Users ({users.length})</h2>
         </div>
@@ -186,7 +186,7 @@ export default function AdminPage() {
                         .slice(0, 5);
 
                       return (
-                        <div key={sid} className="bg-white rounded-xl border border-gray-200 p-4">
+                        <div key={sid} className="card p-4">
                           <div className="flex items-center justify-between mb-3">
                             <div className="flex items-center gap-2">
                               <span className="text-xl">{meta.emoji}</span>
@@ -238,7 +238,7 @@ export default function AdminPage() {
 
 function SummaryCard({ icon, label, value }) {
   return (
-    <div className="bg-white rounded-xl border border-gray-200 p-5 flex items-center gap-4">
+    <div className="card p-5 flex items-center gap-4">
       <span className="text-3xl">{icon}</span>
       <div>
         <p className="text-2xl font-bold text-barca-navy">{value}</p>

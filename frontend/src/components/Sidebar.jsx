@@ -1,14 +1,29 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import { useSubject } from '../context/SubjectContext';
 import { useAuth } from '../context/AuthContext';
+import { useTheme } from '../context/ThemeContext';
+import { useProgress } from '../context/ProgressContext';
 import { SUBJECTS_WITH_BOARD, BOARD_ONLY_SUBJECTS } from '../lib/board';
 import Logo from './Logo';
 
 const TAB_SEGMENTS = ['chapters', 'board', 'skills', 'weekly'];
 
+const Icon = {
+  home: <path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-9.5Z" />,
+  chart: <path d="M4 20V10M10 20V4M16 20v-7M22 20H2" />,
+  sun: <><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" /></>,
+  moon: <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" />,
+  monitor: <><rect x="3" y="4" width="18" height="12" rx="2" /><path d="M8 20h8M12 16v4" /></>,
+};
+const Svg = ({ children, className = 'w-[18px] h-[18px]' }) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">{children}</svg>
+);
+
 export default function Sidebar() {
   const { subjects } = useSubject();
   const { user, signOut } = useAuth();
+  const { theme, setTheme } = useTheme();
+  const { data: progress } = useProgress();
   const { pathname } = useLocation();
 
   const displayName = user?.user_metadata?.full_name || user?.email?.split('@')[0] || 'Student';
@@ -26,43 +41,74 @@ export default function Sidebar() {
   };
 
   const linkCls = (isActive) =>
-    `flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm font-medium transition-all ${
-      isActive ? 'bg-white/15 text-white border-l-2 border-barca-gold pl-[10px]' : 'text-white/70 hover:text-white hover:bg-white/10'}`;
+    `group relative flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium transition duration-150 ${
+      isActive ? 'bg-white/[0.14] text-white shadow-[inset_0_0_0_1px_rgba(255,255,255,0.08)]' : 'text-white/70 hover:bg-white/[0.08] hover:text-white'}`;
+  const activeBar = <span className="absolute left-0 top-1/2 h-5 w-[3px] -translate-y-1/2 rounded-r-full bg-barca-gold" />;
 
   return (
-    <aside className="w-56 shrink-0 bg-barca-navy min-h-screen flex flex-col sticky top-0 h-screen overflow-y-auto">
-      <div className="px-5 pt-6 pb-4 border-b border-white/10"><Logo size="sm" dark={true} /></div>
+    <aside className="sticky top-0 flex h-screen w-60 shrink-0 flex-col overflow-y-auto bg-gradient-to-b from-barca-navy-deep via-barca-navy-deep to-[#001B3D] text-white">
+      <div className="px-5 pb-5 pt-6"><Logo size="sm" dark={true} /></div>
 
-      <div className="px-3 pt-5">
+      <nav className="space-y-1 px-3">
         <NavLink to="/home" className={({ isActive }) => linkCls(isActive)}>
-          <span className="text-base leading-none opacity-70">⌂</span><span>All subjects</span>
+          {({ isActive }) => (<>{isActive && activeBar}<Svg>{Icon.home}</Svg><span>Home</span></>)}
         </NavLink>
+        <NavLink to="/progress" className={({ isActive }) => linkCls(isActive)}>
+          {({ isActive }) => (<>{isActive && activeBar}<Svg>{Icon.chart}</Svg><span>My progress</span></>)}
+        </NavLink>
+      </nav>
+
+      <div className="px-3 pt-6">
+        <p className="mb-2 px-3 text-[11px] font-semibold uppercase tracking-widest text-white/40">Subjects</p>
+        <div className="space-y-0.5">
+          {subjects.map(s => {
+            const active = parts[0] === s.id;
+            return (
+              <NavLink key={s.id} to={target(s)} className={() => linkCls(active)}>
+                {active && activeBar}
+                <span className={`flex h-7 w-7 items-center justify-center rounded-lg text-[15px] leading-none transition ${active ? 'bg-white/15' : 'bg-white/[0.06] group-hover:bg-white/10'}`}>{s.emoji}</span>
+                <span className="truncate">{s.label}</span>
+              </NavLink>
+            );
+          })}
+        </div>
       </div>
 
-      <div className="px-3 pt-5">
-        <p className="text-white/40 text-xs font-semibold uppercase tracking-widest px-2 mb-2">Subjects</p>
-        <div className="space-y-0.5">
-          {subjects.map(s => (
-            <NavLink key={s.id} to={target(s)} className={() => linkCls(parts[0] === s.id)}>
-              <span className="text-base leading-none">{s.emoji}</span><span>{s.label}</span>
-            </NavLink>
+      <div className="mt-auto space-y-3 px-3 pb-4 pt-6">
+        {progress && (
+          <NavLink to="/progress" className="block rounded-xl bg-white/[0.06] p-3 transition hover:bg-white/10">
+            <div className="flex items-center justify-between text-xs">
+              <span className="font-semibold text-white">{progress.level.name}</span>
+              <span className="flex items-center gap-1 font-semibold text-barca-gold" title="Current streak">🔥 {progress.streak.current} day{progress.streak.current === 1 ? '' : 's'}</span>
+            </div>
+            <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-white/10">
+              <div className="h-full rounded-full bg-gradient-to-r from-barca-gold to-amber-300 transition-[width] duration-700" style={{ width: `${progress.level.progress}%` }} />
+            </div>
+            <p className="mt-1.5 text-[11px] text-white/50">{progress.totals.xp.toLocaleString()} XP{progress.level.next ? ` · ${(progress.level.next_min - progress.totals.xp).toLocaleString()} to ${progress.level.next}` : ' · top level'}</p>
+          </NavLink>
+        )}
+
+        <div className="flex items-center gap-1 rounded-xl bg-white/[0.06] p-1" role="radiogroup" aria-label="Theme">
+          {[['light', 'sun', 'Light'], ['dark', 'moon', 'Dark'], ['system', 'monitor', 'Auto']].map(([t, ic, label]) => (
+            <button key={t} type="button" role="radio" aria-checked={theme === t} onClick={() => setTheme(t)} title={label}
+              className={`flex flex-1 items-center justify-center gap-1.5 rounded-lg py-1.5 text-[11px] font-semibold transition ${theme === t ? 'bg-white/15 text-white' : 'text-white/50 hover:text-white'}`}>
+              <Svg className="h-3.5 w-3.5">{Icon[ic]}</Svg>{label}
+            </button>
           ))}
         </div>
-      </div>
 
-      <div className="mt-auto px-4 py-4 border-t border-white/10 space-y-3">
-        <div className="flex items-center gap-2.5">
+        <div className="flex items-center gap-2.5 px-1 pt-1">
           {avatarUrl ? (
-            <img src={avatarUrl} alt={displayName} className="w-7 h-7 rounded-full object-cover" />
+            <img src={avatarUrl} alt="" className="h-8 w-8 rounded-full object-cover ring-2 ring-white/10" />
           ) : (
-            <div className="w-7 h-7 rounded-full bg-barca-gold flex items-center justify-center text-barca-navy text-xs font-bold">{initials}</div>
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-barca-gold text-xs font-bold text-barca-navy-deep">{initials}</div>
           )}
-          <div className="flex-1 min-w-0">
-            <p className="text-white text-xs font-semibold truncate">{displayName}</p>
-            <p className="text-white/30 text-[10px] truncate">Grade 10 · ICSE</p>
+          <div className="min-w-0 flex-1">
+            <p className="truncate text-xs font-semibold text-white">{displayName}</p>
+            <p className="truncate text-[11px] text-white/40">Grade 10 · ICSE</p>
           </div>
+          <button onClick={signOut} className="rounded-lg px-2 py-1 text-[11px] font-medium text-white/50 transition hover:bg-white/10 hover:text-white">Sign out</button>
         </div>
-        <button onClick={signOut} className="w-full text-left text-white/40 hover:text-white/70 text-xs px-1 transition-colors">Sign out →</button>
       </div>
     </aside>
   );

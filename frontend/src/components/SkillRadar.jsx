@@ -1,55 +1,5 @@
-// Custom SVG Spider/Radar chart for skill visualization
-const BIOLOGY_SKILLS = [
-  'Cell Biology',
-  'Genetics & Heredity',
-  'Plant Physiology',
-  'Human Physiology',
-  'Nervous System & Coordination',
-  'Reproduction',
-  'Ecology & Environment',
-  'Diagrams & Experiments',
-];
-
-const HC_SKILLS = [
-  'Indian Freedom Struggle',
-  'Gandhi & Mass Movements',
-  'Independence & Partition',
-  'World Wars & Fascism',
-  'International Organisations',
-  'Indian Constitution',
-  'Executive & Parliament',
-  'Judiciary',
-];
-
-const CHEMISTRY_SKILLS = [
-  'Periodic Table & Properties',
-  'Chemical Bonding',
-  'Acids, Bases & Salts',
-  'Analytical Chemistry',
-  'Mole Concept & Stoichiometry',
-  'Electrolysis',
-  'Metallurgy',
-  'Study of Compounds',
-  'Organic Chemistry',
-  'Diagrams & Experiments',
-];
-
-const PHYSICS_SKILLS = [
-  'Force: Turning Forces and Uniform Circular Motion',
-  'Light',
-  'Heat',
-  'Electricity and Magnetism',
-];
-
-const GEOGRAPHY_SKILLS = [
-  'Location and Physical Features',
-  'Climate and Monsoon',
-  'Natural Vegetation',
-  'Mineral Resources',
-  'Energy Resources',
-  'Agriculture and Crops',
-  'Manufacturing Industries',
-];
+// SVG radar of real accuracy (per skill or per chapter) from useProgress(). Needs at least 3 data points.
+import { bandOf } from './progress/bands';
 
 // Short display labels for the radar axes
 const SHORT_LABELS = {
@@ -89,188 +39,88 @@ const SHORT_LABELS = {
   'Manufacturing Industries': 'Industries',
 };
 
-export function getSkillsForSubject(subjectId, skillScores = []) {
-  if (subjectId === 'biology') return BIOLOGY_SKILLS;
-  if (subjectId === 'chemistry') return CHEMISTRY_SKILLS;
-  if (subjectId === 'history_civics') return HC_SKILLS;
-  if (subjectId === 'physics') return PHYSICS_SKILLS;
-  if (subjectId === 'geography') return GEOGRAPHY_SKILLS;
-  // Any other subject: use the skills it actually has data for
-  return [...new Set(skillScores.map(r => r.skill))];
-}
 
-export default function SkillRadar({ skillScores, subjectId }) {
-  const skills = getSkillsForSubject(subjectId, skillScores);
-  const N = skills.length;
-  if (N < 3) return null; // a radar needs at least 3 axes
-  const SIZE = 340;
-  const CX = SIZE / 2;
-  const CY = SIZE / 2;
-  const R = 100; // outer radius
+const shorten = (label) => {
+  if (SHORT_LABELS[label]) return SHORT_LABELS[label];
+  return label.length > 20 ? `${label.slice(0, 18).trim()}…` : label;
+};
 
-  // Aggregate accuracy per skill across all chapters
-  const skillMap = {};
-  skills.forEach(s => { skillMap[s] = { correct: 0, total: 0 }; });
+// points: [{ label, accuracy (0–100), answered, correct }] — straight from progress data, nothing filled in.
+export default function SkillRadar({ points = [], title = 'Skill overview', basis = 'skill', emptyAction = null }) {
+  const N = points.length;
 
-  skillScores.forEach(row => {
-    if (skillMap[row.skill]) {
-      skillMap[row.skill].correct += row.correct_attempts;
-      skillMap[row.skill].total += row.total_attempts;
-    }
-  });
-
-  const accuracies = skills.map(s => {
-    const { correct, total } = skillMap[s];
-    return total > 0 ? correct / total : 0;
-  });
-
-  // Convert polar to cartesian
-  function polar(angle, r) {
-    const a = (angle - 90) * (Math.PI / 180);
-    return {
-      x: CX + r * Math.cos(a),
-      y: CY + r * Math.sin(a),
-    };
+  if (N < 3) {
+    return (
+      <div className="card p-6">
+        <p className="eyebrow">Shape of your strengths</p>
+        <h2 className="section-title mt-0.5">{title}</h2>
+        <div className="mt-4 rounded-xl bg-surface-2 p-6 text-center">
+          <p className="text-sm text-ink-2">
+            The radar needs at least 3 {basis === 'chapter' ? 'chapters' : 'topics'} with answers — you have {N} so far. Practise a few more chapters to fill it in.
+          </p>
+          {emptyAction && <div className="mt-4">{emptyAction}</div>}
+        </div>
+      </div>
+    );
   }
 
+  const SIZE = 340, CX = SIZE / 2, CY = SIZE / 2, R = 100;
   const angleStep = 360 / N;
-
-  // Grid rings at 25%, 50%, 75%, 100%
   const rings = [0.25, 0.5, 0.75, 1.0];
-
-  // Build polygon points for data
-  const dataPoints = accuracies.map((acc, i) => {
-    const p = polar(i * angleStep, acc * R);
-    return `${p.x},${p.y}`;
-  }).join(' ');
-
-  // Build grid polygon points for each ring
-  function ringPoints(factor) {
-    return skills.map((_, i) => {
-      const p = polar(i * angleStep, factor * R);
-      return `${p.x},${p.y}`;
-    }).join(' ');
-  }
+  const polar = (angle, r) => {
+    const a = (angle - 90) * (Math.PI / 180);
+    return { x: CX + r * Math.cos(a), y: CY + r * Math.sin(a) };
+  };
+  const ringPoints = f => points.map((_, i) => { const p = polar(i * angleStep, f * R); return `${p.x},${p.y}`; }).join(' ');
+  const dataPoints = points.map((pt, i) => { const p = polar(i * angleStep, ((pt.accuracy ?? 0) / 100) * R); return `${p.x},${p.y}`; }).join(' ');
 
   return (
-    <div className="bg-white rounded-xl border border-gray-200 p-6">
-      <h2 className="text-sm font-semibold text-gray-700 mb-4">Skill Overview</h2>
-      <div className="flex flex-col items-center gap-10 sm:flex-row sm:items-center">
-        {/* SVG Chart — overflow:visible so labels outside bounds show */}
+    <div className="card p-6">
+      <p className="eyebrow">Shape of your strengths</p>
+      <h2 className="section-title mt-0.5">{title}</h2>
+      <p className="mt-1 text-xs text-ink-3">Accuracy per {basis}, from every answer you've given in this subject.</p>
+      <div className="mt-4 flex flex-col items-center gap-10 lg:flex-row">
         <div className="shrink-0 pl-16 pr-8">
-        <svg width={SIZE} height={SIZE} viewBox={`0 0 ${SIZE} ${SIZE}`} overflow="visible">
-          {/* Grid rings */}
-          {rings.map((r, ri) => (
-            <polygon
-              key={ri}
-              points={ringPoints(r)}
-              fill="none"
-              stroke={ri === rings.length - 1 ? '#CBD5E1' : '#E2E8F0'}
-              strokeWidth={ri === rings.length - 1 ? 1.5 : 1}
-            />
-          ))}
-
-          {/* Axis lines */}
-          {skills.map((_, i) => {
-            const outer = polar(i * angleStep, R);
-            return (
-              <line
-                key={i}
-                x1={CX} y1={CY}
-                x2={outer.x} y2={outer.y}
-                stroke="#E2E8F0"
-                strokeWidth={1}
-              />
-            );
-          })}
-
-          {/* Data polygon */}
-          <polygon
-            points={dataPoints}
-            fill="#004D98"
-            fillOpacity={0.15}
-            stroke="#004D98"
-            strokeWidth={2}
-            strokeLinejoin="round"
-          />
-
-          {/* Data points */}
-          {accuracies.map((acc, i) => {
-            const p = polar(i * angleStep, acc * R);
-            return (
-              <circle
-                key={i}
-                cx={p.x} cy={p.y} r={4}
-                fill="#004D98"
-                stroke="white"
-                strokeWidth={2}
-              />
-            );
-          })}
-
-          {/* Ring labels (%) */}
-          {rings.map((r, ri) => {
-            const p = polar(0, r * R);
-            return (
-              <text
-                key={ri}
-                x={p.x + 4} y={p.y - 2}
-                fontSize={8}
-                fill="#94A3B8"
-              >
-                {r * 100}%
-              </text>
-            );
-          })}
-
-          {/* Axis labels */}
-          {skills.map((skill, i) => {
-            const angle = i * angleStep;
-            const labelR = R + 28;
-            const p = polar(angle, labelR);
-            const label = SHORT_LABELS[skill] || skill;
-
-            let anchor = 'middle';
-            if (p.x < CX - 8) anchor = 'end';
-            else if (p.x > CX + 8) anchor = 'start';
-
-            return (
-              <text
-                key={i}
-                x={p.x} y={p.y}
-                fontSize={9.5}
-                fontWeight={500}
-                fill="#374151"
-                textAnchor={anchor}
-                dominantBaseline="middle"
-              >
-                {label}
-              </text>
-            );
-          })}
-        </svg>
+          <svg width={SIZE} height={SIZE} viewBox={`0 0 ${SIZE} ${SIZE}`} overflow="visible" role="img" aria-label={`${title} radar chart`}>
+            {rings.map((r, ri) => (
+              <polygon key={ri} points={ringPoints(r)} className="fill-none stroke-line" strokeWidth={ri === rings.length - 1 ? 1.5 : 1} />
+            ))}
+            {points.map((_, i) => {
+              const o = polar(i * angleStep, R);
+              return <line key={i} x1={CX} y1={CY} x2={o.x} y2={o.y} className="stroke-line" strokeWidth={1} />;
+            })}
+            <polygon points={dataPoints} className="fill-brand/15 stroke-brand transition-all duration-300" strokeWidth={2} strokeLinejoin="round" />
+            {points.map((pt, i) => {
+              const p = polar(i * angleStep, ((pt.accuracy ?? 0) / 100) * R);
+              return <circle key={i} cx={p.x} cy={p.y} r={4} className="fill-brand stroke-surface" strokeWidth={2}><title>{`${pt.label}: ${pt.accuracy}% (${pt.correct}/${pt.answered})`}</title></circle>;
+            })}
+            {rings.map((r, ri) => {
+              const p = polar(0, r * R);
+              return <text key={ri} x={p.x + 4} y={p.y - 2} fontSize={8} className="fill-ink-3">{r * 100}%</text>;
+            })}
+            {points.map((pt, i) => {
+              const p = polar(i * angleStep, R + 28);
+              const anchor = p.x < CX - 8 ? 'end' : p.x > CX + 8 ? 'start' : 'middle';
+              return (
+                <text key={i} x={p.x} y={p.y} fontSize={9.5} fontWeight={500} className="fill-ink-2" textAnchor={anchor} dominantBaseline="middle">
+                  {shorten(pt.label)}
+                </text>
+              );
+            })}
+          </svg>
         </div>
 
-        {/* Legend */}
-        <div className="flex flex-col gap-2 w-full">
-          {skills.map((skill, i) => {
-            const { correct, total } = skillMap[skill];
-            const acc = total > 0 ? Math.round((correct / total) * 100) : null;
-            const color = acc === null ? 'bg-gray-200' : acc >= 70 ? 'bg-barca-navy' : acc >= 40 ? 'bg-amber-400' : 'bg-barca-red';
-            const textColor = acc === null ? 'text-gray-400' : acc >= 70 ? 'text-barca-navy' : acc >= 40 ? 'text-amber-500' : 'text-barca-red';
-
+        <div className="flex w-full flex-col gap-2.5">
+          {points.map(pt => {
+            const b = bandOf(pt.accuracy, pt.answered);
             return (
-              <div key={skill} className="flex items-center gap-2">
-                <div className={`w-2 h-2 rounded-full shrink-0 ${color}`} />
-                <span className="text-xs text-gray-600 flex-1">{skill}</span>
-                <span className={`text-xs font-semibold w-12 text-right ${textColor}`}>
-                  {acc !== null ? `${acc}%` : '—'}
-                </span>
-                <div className="w-20 h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                  <div
-                    className={`h-full rounded-full ${color}`}
-                    style={{ width: acc !== null ? `${acc}%` : '0%' }}
-                  />
+              <div key={pt.label} className="flex items-center gap-2">
+                <span className={`h-2 w-2 shrink-0 rounded-full ${b.dot}`} />
+                <span className="flex-1 truncate text-xs text-ink-2" title={pt.label}>{pt.label}</span>
+                <span className="text-[11px] text-ink-3">{pt.correct}/{pt.answered}</span>
+                <span className={`w-10 text-right text-xs font-semibold ${b.text}`}>{pt.accuracy}%</span>
+                <div className="progress-track h-1.5 w-20">
+                  <div className={`progress-fill ${b.bar}`} style={{ width: `${pt.accuracy}%` }} />
                 </div>
               </div>
             );

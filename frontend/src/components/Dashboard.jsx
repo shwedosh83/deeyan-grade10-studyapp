@@ -3,30 +3,40 @@ import { useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { useSubject } from '../context/SubjectContext';
 import { useAuth } from '../context/AuthContext';
+import { useProgress } from '../context/ProgressContext';
+import { subjectStyle } from '../lib/subjectStyle';
 import CoachWidget from './CoachWidget';
 import ConceptExplainer from './ConceptExplainer';
 
 export default function Dashboard() {
   const navigate = useNavigate();
-  const [stats, setStats] = useState({ total: 0, correct: 0, skills: 0 });
   const [showExplainer, setShowExplainer] = useState(false);
-  const [weakSkills, setWeakSkills] = useState([]);
   const [chapters, setChapters] = useState([]);
   const [chapterProgress, setChapterProgress] = useState({}); // chapter_id → progress obj
   const [reviewCount, setReviewCount] = useState(0);
   const [loading, setLoading] = useState(true);
   const { subject } = useSubject();
   const { user, loading: authLoading } = useAuth();
+  const { data: progress } = useProgress();
   const firstName = user?.user_metadata?.full_name?.split(' ')[0] || user?.email?.split('@')[0] || 'Deeyan';
+  const st = subjectStyle(subject.id);
+
+  // Subject stats come from /api/progress (the old skill_scores / get_weak_skills queries no longer exist).
+  const subjProg = progress?.subjects?.find(s => s.subject === subject.id) || null;
+  const stats = { total: subjProg?.answered || 0, correct: subjProg?.correct || 0, skills: subjProg?.skills?.length || 0 };
+  // Weakest topics: at least 3 answers and under 70%, lowest first (same shape the coach + Focus Areas expect).
+  const weakSkills = (subjProg?.skills || [])
+    .filter(s => s.answered >= 3 && s.accuracy < 70)
+    .sort((a, b) => a.accuracy - b.accuracy)
+    .slice(0, 3)
+    .map(s => ({ ...s, chapter_name: subject.label })); // the coach prompt reads chapter_name
 
   useEffect(() => {
     // Wait until auth has resolved — user is null while loading
     if (authLoading) return;
 
     async function load() {
-      const [scoresRes, weakRes, chaptersRes, reviewRes, progressRes] = await Promise.all([
-        supabase.from('skill_scores').select('total_attempts, correct_attempts').eq('subject', subject.id),
-        supabase.rpc('get_weak_skills', { p_subject: subject.id, p_limit: 3 }),
+      const [chaptersRes, reviewRes, progressRes] = await Promise.all([
         supabase.rpc('get_chapters_for_subject', { p_subject: subject.id }),
         supabase.from('review_queue').select('id', { count: 'exact' })
           .eq('subject', subject.id).is('completed_at', null)
@@ -38,13 +48,6 @@ export default function Dashboard() {
         }).then(r => r.json()).catch(() => ({ progress: [] })),
       ]);
 
-      if (scoresRes.data) {
-        const total = scoresRes.data.reduce((s, r) => s + r.total_attempts, 0);
-        const correct = scoresRes.data.reduce((s, r) => s + r.correct_attempts, 0);
-        setStats({ total, correct, skills: scoresRes.data.length });
-      }
-
-      if (weakRes.data) setWeakSkills(weakRes.data);
       if (reviewRes.count) setReviewCount(reviewRes.count);
 
       // Build progress map
@@ -88,15 +91,18 @@ export default function Dashboard() {
   const accuracy = stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : null;
 
   const accuracyColor =
-    accuracy === null ? 'text-gray-400'
-    : accuracy >= 70  ? 'text-barca-navy'
-    : accuracy >= 40  ? 'text-amber-500'
-    : 'text-barca-red';
+    accuracy === null ? 'text-ink-3'
+    : accuracy >= 70  ? 'text-good'
+    : accuracy >= 40  ? 'text-warn'
+    : 'text-bad';
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center h-64">
-        <div className="w-8 h-8 border-4 border-barca-navy border-t-transparent rounded-full animate-spin" />
+      <div className="space-y-6" aria-busy="true">
+        <div className="skeleton h-7 w-40" />
+        <div className="skeleton h-24 w-full rounded-2xl" />
+        <div className="grid grid-cols-3 gap-4">{[0, 1, 2].map(i => <div key={i} className="skeleton h-24 rounded-2xl" />)}</div>
+        <div className="card p-6"><div className="skeleton h-4 w-56" /><div className="mt-4 grid grid-cols-3 gap-3">{[0, 1, 2, 3, 4, 5].map(i => <div key={i} className="skeleton h-14 rounded-xl" />)}</div></div>
       </div>
     );
   }
@@ -107,10 +113,11 @@ export default function Dashboard() {
   }).length;
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 animate-fade-in">
       {/* Header */}
       <div>
-        <h1 className="text-2xl font-bold text-gray-900">Hey {firstName}!</h1>
+        <p className="eyebrow">{subject.label} · Practice</p>
+        <h1 className="page-title mt-1">Hey {firstName}</h1>
       </div>
 
       {/* Coach Widget */}
@@ -119,74 +126,75 @@ export default function Dashboard() {
       {/* Ask AI Tutor — prominent card */}
       <button
         onClick={() => setShowExplainer(true)}
-        className="w-full text-left bg-gradient-to-r from-barca-navy to-blue-700 rounded-2xl p-5 shadow-md hover:shadow-lg transition-all active:scale-[0.99]"
+        className="group relative w-full overflow-hidden rounded-2xl bg-gradient-to-br from-barca-navy-deep via-barca-navy to-barca-navy-dark p-5 text-left shadow-soft transition duration-200 hover:-translate-y-0.5 hover:shadow-lift active:scale-[0.99]"
       >
-        <div className="flex items-center justify-between">
+        <div className={`pointer-events-none absolute -right-12 -top-12 h-40 w-40 rounded-full bg-gradient-to-br ${st.grad} opacity-25 blur-2xl`} />
+        <div className="relative flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center text-xl shrink-0">
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/15 text-xl">
               🧠
             </div>
             <div>
-              <p className="text-white font-bold text-base leading-tight">Ask Your Coach</p>
-              <p className="text-blue-200 text-xs mt-0.5">Concepts · Memory tricks · Board exam tips</p>
+              <p className="font-display text-base font-bold leading-tight text-white">Ask Your Coach</p>
+              <p className="mt-0.5 text-xs text-white/65">Concepts · Memory tricks · Board exam tips</p>
             </div>
           </div>
-          <div className="bg-white/20 hover:bg-white/30 rounded-xl px-3 py-1.5 text-white text-xs font-semibold shrink-0 ml-2">
+          <div className="ml-2 shrink-0 rounded-xl bg-white/15 px-3 py-1.5 text-xs font-semibold text-white transition duration-150 group-hover:bg-white/25">
             Ask now →
           </div>
         </div>
-        <div className="mt-3 bg-white/10 rounded-xl px-3 py-2.5 flex items-center gap-2">
-          <svg className="w-3.5 h-3.5 text-blue-200 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <div className="relative mt-3 flex items-center gap-2 rounded-xl bg-white/10 px-3 py-2.5">
+          <svg className="h-3.5 w-3.5 shrink-0 text-white/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
           </svg>
-          <p className="text-blue-100 text-xs">Ask about any {subject.label} concept…</p>
+          <p className="text-xs text-white/75">Ask about any {subject.label} concept…</p>
         </div>
       </button>
 
       {/* Stats */}
       <div className="grid grid-cols-3 gap-4">
-        <StatCard label="Questions Done" value={stats.total || '—'} color="text-barca-navy" />
+        <StatCard label="Questions done" value={stats.total || '—'} color="text-ink" />
         <StatCard
           label="Accuracy"
           value={accuracy !== null ? `${accuracy}%` : '—'}
           color={accuracyColor}
         />
-        <StatCard label="Topics Covered" value={stats.skills || '—'} color="text-barca-navy" />
+        <StatCard label="Topics covered" value={stats.skills || '—'} color="text-ink" />
       </div>
 
       {/* Spaced repetition review banner */}
       {reviewCount > 0 && (
         <button
           onClick={() => navigate(`/${subject.id}/chapters?mode=review`)}
-          className="w-full flex items-center gap-3 bg-amber-50 border border-amber-200 rounded-xl p-4 hover:bg-amber-100 transition-colors text-left"
+          className="flex w-full items-center gap-3 rounded-xl border border-warn/30 bg-warn-soft p-4 text-left transition duration-150 hover:border-warn/50"
         >
           <span className="text-2xl">🔁</span>
           <div>
-            <p className="font-semibold text-amber-800 text-sm">
+            <p className="text-sm font-semibold text-ink">
               {reviewCount} question{reviewCount > 1 ? 's' : ''} ready for review
             </p>
-            <p className="text-xs text-amber-600">These tripped you up last time — time to retry them</p>
+            <p className="text-xs text-ink-2">These tripped you up last time — time to retry them</p>
           </div>
-          <svg className="w-4 h-4 text-amber-500 ml-auto shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <svg className="ml-auto h-4 w-4 shrink-0 text-warn" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7"/>
           </svg>
         </button>
       )}
 
       {/* Start Quiz */}
-      <div className="bg-white rounded-xl border border-gray-200 p-6">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="font-semibold text-gray-800">Chapters — pick one to practise</h2>
+      <div className="card p-6">
+        <div className="mb-4 flex items-center justify-between">
+          <h2 className="section-title">Chapters — pick one to practise</h2>
           {inProgressCount > 0 && (
-            <span className="text-xs text-amber-600 font-medium bg-amber-50 px-2 py-1 rounded-full">
+            <span className="pill bg-warn-soft text-warn">
               {inProgressCount} chapter{inProgressCount > 1 ? 's' : ''} in progress
             </span>
           )}
         </div>
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 mb-4">
+        <div className="mb-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
           <button
             onClick={() => navigate(`/${subject.id}/chapters`)}
-            className="col-span-2 sm:col-span-3 bg-barca-navy hover:bg-barca-navy-dark text-white font-semibold py-3 rounded-lg transition-colors"
+            className="btn-primary col-span-2 sm:col-span-3"
           >
             All Chapters
           </button>
@@ -202,28 +210,28 @@ export default function Dashboard() {
               <button
                 key={ch.chapter_id}
                 onClick={() => navigate(`/${subject.id}/chapters?chapter=${ch.chapter_id}`)}
-                className={`text-sm font-medium py-2 px-3 rounded-lg transition-colors text-left ${
+                className={`rounded-xl border px-3 py-2.5 text-left text-sm font-medium transition duration-150 hover:-translate-y-0.5 hover:shadow-soft ${
                   isComplete
-                    ? 'bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-200'
+                    ? 'border-good/30 bg-good-soft text-ink hover:border-good/50'
                     : isInProgress
-                    ? 'bg-amber-50 hover:bg-amber-100 text-amber-800 border border-amber-200'
-                    : 'bg-barca-navy-light hover:bg-blue-100 text-barca-navy'
+                    ? 'border-warn/30 bg-warn-soft text-ink hover:border-warn/50'
+                    : 'border-line bg-surface-2 text-ink-2 hover:border-brand/40 hover:text-ink'
                 }`}
               >
                 <span className="block truncate">
-                  {isComplete ? '✓ ' : ''}{ch.chapter_name}
+                  {isComplete ? <span className="text-good">✓ </span> : ''}{ch.chapter_name}
                 </span>
                 {total > 0 && (
                   <div className="mt-1.5">
-                    <div className="h-1 bg-white/60 rounded-full overflow-hidden">
+                    <div className="h-1 overflow-hidden rounded-full bg-line/70">
                       <div
-                        className={`h-full rounded-full transition-all ${
-                          isComplete ? 'bg-emerald-500' : isInProgress ? 'bg-amber-400' : 'bg-gray-300'
+                        className={`h-full rounded-full transition-[width] duration-300 ${
+                          isComplete ? 'bg-good' : isInProgress ? 'bg-warn' : 'bg-ink-3/40'
                         }`}
                         style={{ width: `${pct}%` }}
                       />
                     </div>
-                    <span className="text-xs opacity-60 mt-0.5 block">
+                    <span className="mt-0.5 block text-xs text-ink-3">
                       {answered}/{total}
                     </span>
                   </div>
@@ -236,23 +244,23 @@ export default function Dashboard() {
 
       {/* Weak Skills */}
       {weakSkills.length > 0 && (
-        <div className="bg-white rounded-xl border border-gray-200 p-6">
-          <h2 className="font-semibold text-gray-800 mb-1">Focus Areas</h2>
-          <p className="text-sm text-gray-500 mb-4">Topics where you need the most practice</p>
+        <div className="card p-6">
+          <h2 className="section-title mb-1">Focus areas</h2>
+          <p className="mb-4 text-sm text-ink-3">Topics where you need the most practice</p>
           <div className="space-y-3">
             {weakSkills.map((s) => (
               <div key={s.skill}>
-                <div className="flex justify-between text-sm mb-1">
-                  <span className="font-medium text-gray-700">{s.skill}</span>
-                  <span className="text-barca-red font-semibold">{s.accuracy}%</span>
+                <div className="mb-1 flex justify-between text-sm">
+                  <span className="font-medium text-ink-2">{s.skill}</span>
+                  <span className="font-semibold text-bad">{s.accuracy}%</span>
                 </div>
-                <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
+                <div className="progress-track">
                   <div
-                    className="h-full bg-barca-red rounded-full"
+                    className="progress-fill bg-bad"
                     style={{ width: `${s.accuracy}%` }}
                   />
                 </div>
-                <p className="text-xs text-gray-400 mt-0.5">{s.chapter_name}</p>
+                <p className="mt-0.5 text-xs text-ink-3">{s.answered} answered</p>
               </div>
             ))}
           </div>
@@ -260,15 +268,15 @@ export default function Dashboard() {
       )}
 
       {stats.total === 0 && (
-        <p className="text-center text-gray-400 text-sm">
-          No attempts yet — start your first quiz above!
+        <p className="text-center text-sm text-ink-3">
+          No attempts yet — pick a chapter above to start.
         </p>
       )}
 
       {/* Floating icon button */}
       <button
         onClick={() => setShowExplainer(true)}
-        className="fixed bottom-6 right-4 z-40 w-14 h-14 bg-barca-navy hover:bg-barca-navy-dark text-white rounded-full shadow-xl flex items-center justify-center text-2xl transition-all hover:scale-110 active:scale-95"
+        className="fixed bottom-6 right-4 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-barca-navy text-2xl text-white shadow-lift transition duration-200 hover:scale-110 hover:bg-barca-navy-dark active:scale-95"
         title="Ask Your Coach"
       >
         🧠
@@ -284,9 +292,9 @@ export default function Dashboard() {
 
 function StatCard({ label, value, color }) {
   return (
-    <div className="bg-white rounded-xl border border-gray-200 p-4 text-center">
-      <p className={`text-3xl font-bold ${color}`}>{value}</p>
-      <p className="text-xs text-gray-500 mt-1">{label}</p>
+    <div className="card p-5 text-center">
+      <p className={`font-display text-3xl font-bold ${color}`}>{value}</p>
+      <p className="mt-1 text-xs text-ink-3">{label}</p>
     </div>
   );
 }

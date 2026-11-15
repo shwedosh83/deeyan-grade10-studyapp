@@ -1,3 +1,85 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ── Theme tokens (RGB triplets so Tailwind opacity modifiers work) ───────── */
+@layer base {
+  :root {
+    --canvas: 244 246 251;
+    --surface: 255 255 255;
+    --surface-2: 241 244 249;
+    --line: 226 231 240;
+    --ink: 15 23 42;
+    --ink-2: 71 85 105;
+    --ink-3: 120 134 156;
+    --brand: 0 77 152;
+    --brand-soft: 235 242 252;
+    --brand-ink: 0 61 122;
+    --accent: 214 158 0;
+    --accent-soft: 253 246 220;
+    --good: 22 163 74;
+    --good-soft: 232 248 238;
+    --warn: 217 119 6;
+    --warn-soft: 254 243 224;
+    --bad: 220 38 38;
+    --bad-soft: 254 236 236;
+    color-scheme: light;
+  }
+  .dark {
+    --canvas: 10 15 28;
+    --surface: 18 25 42;
+    --surface-2: 27 36 56;
+    --line: 41 52 77;
+    --ink: 236 241 249;
+    --ink-2: 176 188 208;
+    --ink-3: 128 142 166;
+    --brand: 96 165 250;
+    --brand-soft: 23 42 74;
+    --brand-ink: 147 197 253;
+    --accent: 250 204 21;
+    --accent-soft: 54 45 14;
+    --good: 74 222 128;
+    --good-soft: 16 48 32;
+    --warn: 251 191 36;
+    --warn-soft: 56 40 12;
+    --bad: 248 113 113;
+    --bad-soft: 60 22 26;
+    color-scheme: dark;
+  }
+
+  html { -webkit-text-size-adjust: 100%; }
+  body { @apply bg-canvas text-ink font-sans antialiased; }
+  h1, h2, h3 { @apply font-display tracking-tight text-ink; }
+  ::selection { background: rgb(var(--accent) / 0.35); }
+  :focus-visible { outline: 2px solid rgb(var(--brand)); outline-offset: 2px; }
+}
+
+/* ── Shared components ─────────────────────────────────────────────────── */
+@layer components {
+  .card { @apply bg-surface rounded-2xl border border-line/80 shadow-soft; }
+  .card-hover { @apply transition duration-200 hover:-translate-y-0.5 hover:shadow-lift hover:border-line; }
+  .btn-primary { @apply inline-flex items-center justify-center gap-2 rounded-xl bg-barca-navy px-5 py-3 text-sm font-semibold text-white shadow-soft transition duration-150 hover:bg-barca-navy-dark active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40 disabled:active:scale-100 dark:bg-brand dark:text-slate-950 dark:hover:bg-brand/90; }
+  .btn-secondary { @apply inline-flex items-center justify-center gap-2 rounded-xl border border-line bg-surface px-5 py-3 text-sm font-semibold text-ink shadow-soft transition duration-150 hover:bg-surface-2 active:scale-[0.98] disabled:opacity-40; }
+  .btn-ghost { @apply inline-flex items-center justify-center gap-2 rounded-xl px-3 py-2 text-sm font-semibold text-ink-2 transition hover:bg-surface-2 hover:text-ink; }
+  .chip { @apply inline-flex min-h-[36px] items-center gap-1.5 rounded-full border border-line bg-surface px-3.5 py-1.5 text-sm font-medium text-ink-2 transition duration-150 hover:border-ink-3/50 hover:text-ink; }
+  .chip-on { @apply border-brand bg-brand-soft text-brand-ink hover:border-brand hover:text-brand-ink; }
+  .input { @apply w-full rounded-xl border border-line bg-surface px-3.5 py-2.5 text-sm text-ink placeholder:text-ink-3 transition focus:border-brand focus:outline-none focus:ring-4 focus:ring-brand/15; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-wider text-ink-3; }
+  .page-title { @apply font-display text-2xl font-bold tracking-tight text-ink sm:text-3xl; }
+  .section-title { @apply font-display text-lg font-bold tracking-tight text-ink; }
+  .pill { @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold; }
+  .progress-track { @apply h-2 w-full overflow-hidden rounded-full bg-surface-2; }
+  .progress-fill { @apply h-full rounded-full transition-[width] duration-500 ease-out; }
+  .skeleton { @apply rounded-lg bg-surface-2; background-image: linear-gradient(90deg, transparent, rgb(var(--line) / 0.6), transparent); background-size: 200% 100%; animation: shimmer 1.6s linear infinite; }
+}
+
+@keyframes shimmer { from { background-position: -200% 0; } to { background-position: 200% 0; } }
+
+/* Hide scrollbars on horizontal tab rows */
+.scroll-row { scrollbar-width: none; }
+.scroll-row::-webkit-scrollbar { display: none; }
+
+/* Respect reduced-motion preferences everywhere */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; transition-duration: 1ms !important; scroll-behavior: auto !important; }
+}

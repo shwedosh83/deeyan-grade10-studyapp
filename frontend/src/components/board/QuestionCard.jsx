@@ -6,10 +6,10 @@ import { fmtMarks, getItems, isMCQ, parseItems, correctKeys, KIND_LABELS, MATH_K
 function MathStrip({ onInsert }) {
   return (
     <div className="flex gap-1.5 flex-wrap items-center">
-      <span className="text-xs text-gray-400 mr-1">Insert:</span>
+      <span className="mr-1 text-xs text-ink-3">Insert:</span>
       {MATH_KEYS.map(k => (
         <button key={k} type="button" tabIndex={-1} onMouseDown={e => e.preventDefault()} onClick={() => onInsert(k)}
-          className="w-9 h-8 rounded-lg border border-gray-200 bg-gray-50 hover:bg-gray-100 active:bg-gray-200 text-gray-700 text-base leading-none">
+          className="h-8 w-9 rounded-lg border border-line bg-surface-2 text-base leading-none text-ink-2 transition duration-150 hover:border-brand/40 hover:text-ink active:scale-95">
           {k}
         </button>
       ))}
@@ -19,7 +19,8 @@ function MathStrip({ onInsert }) {
 
 // One question row: badges, figure, text, and the right input (options / blanks / written answer).
 // `reveal` (Sprint) = { itemFlags?: boolean[] } to colour the options / blanks after checking.
-export default function QuestionCard({ q, value, onChange = () => {}, disabled = false, reveal = null, compact = false, questionOnly = false }) {
+// `tag` (optional) = source caption shown as a pill, e.g. "2024 board paper" / "School prelim".
+export default function QuestionCard({ q, value, onChange = () => {}, disabled = false, reveal = null, compact = false, questionOnly = false, tag = null }) {
   const items = getItems(q);
   const mcq = isMCQ(q);
   const keys = reveal ? correctKeys(q) : [];
@@ -40,58 +41,61 @@ export default function QuestionCard({ q, value, onChange = () => {}, disabled =
   }
 
   return (
-    <div className={`bg-white rounded-xl border border-gray-200 ${compact ? 'p-4' : 'p-5'} space-y-3`}>
-      <div className="flex items-center gap-2 flex-wrap">
-        <span className="text-xs font-bold text-barca-navy bg-barca-navy-light px-2 py-0.5 rounded">{q.q_label}</span>
-        <span className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full font-semibold">
+    <div className={`card ${compact ? 'p-5' : 'p-6'} space-y-4`}>
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="pill bg-brand text-white dark:text-slate-950">{q.q_label}</span>
+        <span className="pill bg-accent-soft text-accent">
           {fmtMarks(q.marks)} mark{Number(q.marks) !== 1 ? 's' : ''}
         </span>
+        {tag && <span className={`pill ${q.source === 'prelim' ? 'bg-brand-soft text-brand-ink' : 'bg-surface-2 text-ink-2'}`}>{tag}</span>}
         {q.mandatory === 'choice' && (
-          <span className="text-xs bg-amber-50 text-amber-700 px-2 py-0.5 rounded-full font-medium">Choice question</span>
+          <span className="pill bg-warn-soft text-warn">Choice question</span>
         )}
         {q.applied && q.applied_kind && (
-          <span className="text-xs bg-violet-50 text-violet-700 px-2 py-0.5 rounded-full font-medium">{KIND_LABELS[q.applied_kind] || 'Applied'}</span>
+          <span className="pill bg-brand-soft text-brand-ink">{KIND_LABELS[q.applied_kind] || 'Applied'}</span>
         )}
-        {q.chapter && <span className="text-xs text-gray-400 truncate max-w-[16rem]">{q.chapter}</span>}
+        {q.chapter && <span className="max-w-[16rem] truncate text-xs text-ink-3">{q.chapter}</span>}
       </div>
 
       {q.needs_figure && q.figure_url && (
         <div>
-          <p className="text-xs text-gray-400 mb-1">Figure (page from the original paper) — this page may show other questions too</p>
-          <a href={q.figure_url} target="_blank" rel="noreferrer">
-            <img src={q.figure_url} alt={`Figure for ${q.q_label}`} className="w-full max-w-2xl rounded-lg border border-gray-200" loading="lazy" />
+          <p className="mb-1.5 text-xs text-ink-3">Figure (page from the original paper) — this page may show other questions too</p>
+          <a href={q.figure_url} target="_blank" rel="noreferrer" className="block w-full max-w-2xl rounded-xl border border-line bg-white p-2 transition duration-150 hover:shadow-lift">
+            <img src={q.figure_url} alt={`Figure for ${q.q_label}`} className="w-full rounded-lg" loading="lazy" />
           </a>
         </div>
       )}
       {q.needs_figure && !q.figure_url && (
-        <div className="text-xs bg-amber-50 border border-amber-200 text-amber-800 rounded-lg px-3 py-2">
+        <div className="rounded-xl border border-warn/30 bg-warn-soft px-3 py-2 text-xs text-ink-2">
           The figure for this question isn't available in the app. {q.figure_desc ? <>It shows: <em>{q.figure_desc}</em></> : 'Use your own paper copy if you have it.'}
         </div>
       )}
 
-      <p className="text-gray-800 whitespace-pre-wrap leading-relaxed text-[15px]">{q.question}</p>
+      <p className={`whitespace-pre-wrap leading-relaxed text-ink ${compact ? 'text-[15px]' : 'text-base'}`}>{q.question}</p>
 
       {questionOnly && mcq && (
-        <ul className="space-y-1 text-sm text-gray-700">{Object.entries(q.options).map(([k, text]) => <li key={k}><b className="uppercase">{k})</b> {String(text)}</li>)}</ul>
+        <ul className="space-y-1.5 text-sm text-ink-2">{Object.entries(q.options).map(([k, text]) => <li key={k} className="flex gap-2.5"><b className="w-5 shrink-0 uppercase text-ink-3">{k})</b><span>{String(text)}</span></li>)}</ul>
       )}
       {questionOnly && items.length > 0 && (
-        <ul className="list-disc pl-5 text-sm text-gray-700">{items.map((it, i) => <li key={i}>{it.prompt}</li>)}</ul>
+        <ul className="list-disc space-y-1 pl-5 text-sm text-ink-2">{items.map((it, i) => <li key={i}>{it.prompt}</li>)}</ul>
       )}
 
       {!questionOnly && mcq && (
         <div className="space-y-2">
           {Object.entries(q.options).map(([k, text]) => {
             const picked = value === k;
-            let style = picked ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 bg-gray-50 hover:bg-gray-100 text-gray-700';
+            let style = picked ? 'border-brand bg-brand-soft text-brand-ink shadow-glow' : 'border-line bg-surface hover:border-brand/40 hover:bg-surface-2 text-ink';
+            let badge = picked ? 'bg-brand text-white dark:text-slate-950' : 'bg-surface-2 text-ink-2';
+            let anim = '';
             if (reveal) {
-              if (keys.includes(k)) style = 'border-emerald-400 bg-emerald-50 text-emerald-800 font-semibold';
-              else if (picked) style = 'border-red-400 bg-red-50 text-red-700';
-              else style = 'border-gray-200 bg-white text-gray-400';
+              if (keys.includes(k)) { style = 'border-good bg-good-soft text-ink font-semibold'; badge = 'bg-good text-white dark:text-slate-950'; anim = 'animate-pop'; }
+              else if (picked) { style = 'border-bad bg-bad-soft text-ink'; badge = 'bg-bad text-white dark:text-slate-950'; anim = 'animate-shake'; }
+              else { style = 'border-line bg-surface text-ink-3'; badge = 'bg-surface-2 text-ink-3'; }
             }
             return (
               <button key={k} type="button" disabled={disabled} onClick={() => onChange(k)}
-                className={`w-full text-left px-4 py-2.5 rounded-lg border-2 text-sm flex gap-3 transition-colors ${style} ${disabled ? 'cursor-default' : 'cursor-pointer'}`}>
-                <span className="font-bold uppercase shrink-0">{k})</span><span>{String(text)}</span>
+                className={`flex w-full items-center gap-3.5 rounded-xl border-2 px-4 py-3.5 text-left text-[15px] transition duration-150 ${style} ${anim} ${disabled ? 'cursor-default' : 'cursor-pointer active:scale-[0.99]'}`}>
+                <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-sm font-bold uppercase transition-colors duration-150 ${badge}`}>{k}</span><span>{String(text)}</span>
               </button>
             );
           })}
@@ -100,22 +104,22 @@ export default function QuestionCard({ q, value, onChange = () => {}, disabled =
 
       {showStrip && items.length > 0 && <MathStrip onInsert={insertSym} />}
       {!questionOnly && items.length > 0 && (
-        <div className="space-y-2">
+        <div className="space-y-2.5">
           {items.map((it, i) => {
             const vals = parseItems(value, items.length);
             const flag = reveal?.itemFlags?.[i];
             return (
               <div key={i} className="flex items-center gap-3 flex-wrap">
-                <label className="text-sm text-gray-600 flex-1 min-w-[10rem]">{it.prompt}</label>
+                <label className="min-w-[10rem] flex-1 text-sm text-ink-2">{it.prompt}</label>
                 <input
                   value={vals[i]} disabled={disabled}
                   ref={el => { inputRefs.current[i] = el; }} onFocus={() => { activeKey.current = i; }}
                   onChange={e => { const next = [...vals]; next[i] = e.target.value; onChange(JSON.stringify(next)); }}
-                  className={`border-2 rounded-lg px-3 py-1.5 text-sm w-56 focus:outline-none focus:border-barca-navy ${
-                    flag === true ? 'border-emerald-400 bg-emerald-50' : flag === false ? 'border-red-400 bg-red-50' : 'border-gray-200'}`}
+                  className={`input !w-56 disabled:opacity-90 ${
+                    flag === true ? '!border-good !bg-good-soft animate-pop' : flag === false ? '!border-bad !bg-bad-soft animate-shake' : ''}`}
                 />
                 {reveal && flag === false && q.answer_items?.[i] && (
-                  <span className="text-xs text-emerald-700">→ {q.answer_items[i].accepted[0]}</span>
+                  <span className="pill bg-good-soft text-good">→ {q.answer_items[i].accepted[0]}</span>
                 )}
               </div>
             );
@@ -130,7 +134,7 @@ export default function QuestionCard({ q, value, onChange = () => {}, disabled =
           ref={el => { inputRefs.current.text = el; }} onFocus={() => { activeKey.current = 'text'; }}
           rows={Math.min(12, Math.max(3, Math.round(Number(q.marks) * 1.5)))}
           placeholder={q.type === 'program' ? 'Write your program here…' : q.type === 'map_work' ? 'Describe where you would mark/shade it (you will self-mark these)…' : 'Write your answer here…'}
-          className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-700 focus:outline-none focus:border-barca-navy resize-y disabled:bg-gray-50 font-[inherit]"
+          className="input resize-y px-4 py-3 font-[inherit] leading-relaxed disabled:bg-surface-2"
         />
       )}
     </div>

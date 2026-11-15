@@ -2,9 +2,11 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSubject } from '../../context/SubjectContext';
 import { useAuth } from '../../context/AuthContext';
+import { useProgress } from '../../context/ProgressContext';
 import { boardApi, checkObjective, fmtTime, getItems, hasAnswer, isMCQ, paperTag, SOURCE_LABELS, SUBJECTS_WITH_BOARD } from '../../lib/board';
 import QuestionCard from './QuestionCard';
 import BoardResults from './BoardResults';
+import { EmptyCard, ErrorCard, Field, Segmented, Spinner, TimerPill } from './ui';
 
 const COUNTS = [10, 15, 20];
 const SECONDS_PER_Q = 45;
@@ -13,6 +15,7 @@ export default function BoardSprint() {
   const { subject } = useSubject();
   const { user } = useAuth();
   const navigate = useNavigate();
+  const { refresh } = useProgress();
   const [phase, setPhase] = useState('setup'); // setup | loading | running | saving | results
   const [count, setCount] = useState(15);
   const [selChapters, setSelChapters] = useState([]);   // [] = all chapters
@@ -80,71 +83,72 @@ export default function BoardSprint() {
       const out = await boardApi('boardGrade', { userId: user?.id || null, subject: subject.id, mode: 'sprint', inputMethod: 'typed', secondsUsed: Math.round((Date.now() - startedAt) / 1000), answers: list });
       setResult(out);
     } catch (e) { setError(e.message); setResult(null); }
+    refresh();
     setPhase('results');
   }
 
   useEffect(() => { if (phase === 'running' && deadline && now >= deadline) finish(); }, [now, phase, deadline]); // eslint-disable-line
 
-  if (!hasBoard) return <p className="text-gray-500 text-sm">Board papers for {subject.label} aren't in the app yet.</p>;
+  if (!hasBoard) return <EmptyCard text={`Board papers for ${subject.label} aren't in the app yet.`} />;
 
   if (phase === 'setup' || phase === 'loading') return (
-    <div className="max-w-xl space-y-5">
-      <p className="text-sm text-gray-500">Quick-fire objectives from real {subject.label} board papers: MCQs, assertion–reason, match the column, fill in the blanks, name the term. {SECONDS_PER_Q} seconds each, marked instantly.</p>
-      <div className="bg-white rounded-xl border border-gray-200 p-5 space-y-3">
+    <div className="max-w-2xl space-y-6 animate-fade-in">
+      <div>
+        <p className="eyebrow">Sprint round</p>
+        <p className="mt-1 text-sm leading-relaxed text-ink-2">Quick-fire objectives from real {subject.label} board papers: MCQs, assertion–reason, match the column, fill in the blanks, name the term. {SECONDS_PER_Q} seconds each, marked instantly.</p>
+      </div>
+      <div className="card space-y-6 p-6">
         {sources.length > 1 && (
-          <div className="space-y-2">
-            <p className="text-sm font-medium text-gray-700">Which papers?</p>
-            <div className="flex gap-1.5 flex-wrap">
-              {['', 'board', 'prelim'].map(s => (
-                <button key={s || 'all'} type="button" onClick={() => { setSource(s); setSelChapters([]); }}
-                  className={`px-3 py-1 rounded-full text-xs font-medium border ${source === s ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500 hover:text-gray-700'}`}>
-                  {SOURCE_LABELS[s]}
-                </button>
-              ))}
-            </div>
-            {source === 'prelim' && <p className="text-xs text-gray-400">Objective questions from the top board-aligned school prelim papers (2025-26), each tagged with its school.</p>}
-          </div>
+          <Field label="Which papers?">
+            <Segmented value={source} onChange={s => { setSource(s); setSelChapters([]); }}
+              options={['', 'board', 'prelim'].map(s => [s, SOURCE_LABELS[s]])} />
+            {source === 'prelim' && <p className="text-xs text-ink-3">Objective questions from the top board-aligned school prelim papers (2025-26), each tagged with its school.</p>}
+          </Field>
         )}
         {chapters.length > 1 && (
-          <div className="space-y-2">
-            <p className="text-sm font-medium text-gray-700">Which chapters? <span className="text-gray-400 font-normal">(tap to pick one or more)</span></p>
-            <div className="flex gap-1.5 flex-wrap">
+          <Field label="Which chapters?" hint="(tap to pick one or more)">
+            <div className="flex flex-wrap gap-2">
               <button type="button" onClick={() => setSelChapters([])}
-                className={`px-3 py-1 rounded-full text-xs font-medium border ${selChapters.length === 0 ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500 hover:text-gray-700'}`}>
+                className={`chip ${selChapters.length === 0 ? 'chip-on' : ''}`}>
                 All chapters
               </button>
               {chapters.map(c => (
                 <button key={c} type="button" onClick={() => setSelChapters(cs => cs.includes(c) ? cs.filter(x => x !== c) : [...cs, c])}
-                  className={`px-3 py-1 rounded-full text-xs font-medium border ${selChapters.includes(c) ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500 hover:text-gray-700'}`}>
-                  {c}
+                  className={`chip ${selChapters.includes(c) ? 'chip-on' : ''}`}>
+                  {selChapters.includes(c) && <span aria-hidden="true">✓</span>}{c}
                 </button>
               ))}
             </div>
-          </div>
+          </Field>
         )}
-        <p className="text-sm font-medium text-gray-700">How many questions?</p>
-        <div className="flex gap-2">{COUNTS.map(n => (
-          <button key={n} onClick={() => setCount(n)} className={`flex-1 py-2 rounded-lg text-sm font-medium border-2 ${Number(count) === n ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500'}`}>{n} <span className="text-xs opacity-60">({fmtTime(n * SECONDS_PER_Q)})</span></button>
-        ))}</div>
-        <label className="flex items-center gap-3 text-sm text-gray-600">Or enter your own:
-          <input type="number" min="1" max="100" placeholder="1–100" value={COUNTS.includes(Number(count)) ? '' : count} onChange={e => setCount(e.target.value === '' ? 15 : Math.max(1, Math.min(100, parseInt(e.target.value, 10) || 1)))} className="w-24 border-2 border-gray-200 rounded-lg px-3 py-2 text-sm font-medium" />
-          <span className="text-xs text-gray-400">{fmtTime(Number(count) * SECONDS_PER_Q)} total</span>
-        </label>
-        {error && <p className="text-sm text-red-500 bg-red-50 rounded-lg px-3 py-2">{error}</p>}
-        <button onClick={start} disabled={phase === 'loading' || !count} className="w-full bg-barca-navy hover:bg-barca-navy-dark disabled:bg-gray-300 text-white font-semibold py-3 rounded-lg">{phase === 'loading' ? 'Loading…' : 'Start sprint'}</button>
+        <Field label="How many questions?">
+          <div className="grid grid-cols-3 gap-2">{COUNTS.map(n => (
+            <button key={n} onClick={() => setCount(n)} className={`rounded-xl border-2 px-3 py-3 text-center transition duration-150 ${Number(count) === n ? 'border-brand bg-brand-soft text-brand-ink shadow-glow' : 'border-line bg-surface text-ink-2 hover:border-brand/40'}`}>
+              <span className="block font-display text-xl font-bold">{n}</span>
+              <span className="block text-xs opacity-70">({fmtTime(n * SECONDS_PER_Q)})</span>
+            </button>
+          ))}</div>
+          <label className="flex flex-wrap items-center gap-3 text-sm text-ink-2">Or enter your own:
+            <input type="number" min="1" max="100" placeholder="1–100" value={COUNTS.includes(Number(count)) ? '' : count} onChange={e => setCount(e.target.value === '' ? 15 : Math.max(1, Math.min(100, parseInt(e.target.value, 10) || 1)))} className="input !w-28 font-medium" />
+            <span className="text-xs text-ink-3">{fmtTime(Number(count) * SECONDS_PER_Q)} total</span>
+          </label>
+        </Field>
+        {error && <ErrorCard title="Couldn't start the sprint" message={error} />}
+        <button onClick={start} disabled={phase === 'loading' || !count} className="btn-primary w-full py-3.5 text-base">{phase === 'loading' ? 'Loading…' : 'Start sprint'}</button>
       </div>
     </div>
   );
 
-  if (phase === 'saving') return <div className="flex justify-center h-48 items-center"><div className="w-8 h-8 border-4 border-barca-navy border-t-transparent rounded-full animate-spin" /></div>;
+  if (phase === 'saving') return <Spinner label="Saving your round…" />;
 
   if (phase === 'results') {
     if (result) return <BoardResults data={result} qMap={qMap} title={`${subject.label} sprint`} seconds={Math.round((Date.now() - startedAt) / 1000)} againLabel="Another sprint" onAgain={() => setPhase('setup')} onHome={() => navigate(`/${subject.id}/board`)} />;
     return (
-      <div className="max-w-xl bg-white rounded-xl border border-gray-200 p-8 text-center space-y-3">
-        <p className="text-4xl font-bold text-barca-navy">{score.toFixed(1)} / {questions.length}</p>
-        <p className="text-sm text-gray-500">Your results couldn't be saved ({error}), but your score above is right.</p>
-        <button onClick={() => setPhase('setup')} className="bg-barca-navy text-white font-semibold px-5 py-2 rounded-lg text-sm">Another sprint</button>
+      <div className="card max-w-xl space-y-4 p-8 text-center animate-slide-up">
+        <p className="eyebrow">{subject.label} sprint</p>
+        <p className="font-display text-5xl font-bold tabular-nums text-ink animate-burst">{score.toFixed(1)} <span className="text-2xl text-ink-3">/ {questions.length}</span></p>
+        <p className="rounded-xl bg-warn-soft px-4 py-2.5 text-sm text-ink-2">Your results couldn't be saved ({error}), but your score above is right.</p>
+        <button onClick={() => setPhase('setup')} className="btn-primary">Another sprint</button>
       </div>
     );
   }
@@ -153,36 +157,49 @@ export default function BoardSprint() {
   const items = getItems(q);
   const done = checked[q.id];
   const low = remaining < 30;
+  const total = questions.length * SECONDS_PER_Q;
+  const timerState = low ? 'bad' : remaining < Math.min(90, total * 0.25) ? 'warn' : 'calm';
   return (
-    <div className="max-w-2xl space-y-4">
-      <div className="flex items-center justify-between">
-        <p className="font-semibold text-gray-700">Question {idx + 1} of {questions.length}</p>
-        <div className="flex items-center gap-4">
-          <span className="text-sm text-barca-gold font-semibold tabular-nums">{score.toFixed(1)} pts</span>
-          <span className={`font-bold tabular-nums ${low ? 'text-red-600' : 'text-gray-800'}`}>{fmtTime(remaining)}</span>
+    <div className="max-w-3xl space-y-5 animate-fade-in">
+      <div className="card space-y-4 p-4">
+        <div className="flex items-center justify-between gap-3">
+          <p className="text-sm font-semibold text-ink">Question <span className="font-display text-lg">{idx + 1}</span> <span className="text-ink-3">of {questions.length}</span></p>
+          <div className="flex items-center gap-2">
+            <span className="pill bg-accent-soft py-1 text-sm tabular-nums text-accent">{score.toFixed(1)} pts</span>
+            <TimerPill text={fmtTime(remaining)} state={timerState} />
+          </div>
+        </div>
+        <div className="progress-track"><div className="progress-fill bg-brand" style={{ width: `${(idx / questions.length) * 100}%` }} /></div>
+        <div className="flex flex-wrap gap-1.5" aria-hidden="true">
+          {questions.map((x, i) => {
+            const c = checked[x.id];
+            const cls = c ? (c.correct ? 'bg-good' : c.got > 0 ? 'bg-warn' : 'bg-bad')
+              : i === idx ? 'bg-brand ring-4 ring-brand/20' : i < idx ? 'bg-ink-3/40' : 'bg-surface-2 border border-line';
+            return <span key={x.id} className={`h-2.5 w-2.5 rounded-full transition duration-200 ${cls}`} />;
+          })}
         </div>
       </div>
-      <div className="h-2 bg-gray-100 rounded-full overflow-hidden"><div className="h-full bg-barca-navy transition-all" style={{ width: `${(idx / questions.length) * 100}%` }} /></div>
-      <p className="text-xs text-gray-400">{paperTag(q)}</p>
 
-      <QuestionCard q={q} value={answers[q.id] || ''} compact
-        onChange={v => (isMCQ(q) ? pickOption(q, v) : setAnswers(a => ({ ...a, [q.id]: v })))}
-        disabled={!!done} reveal={done ? { itemFlags: done.flags } : null} />
+      <div key={q.id} className="animate-slide-in-right">
+        <QuestionCard q={q} value={answers[q.id] || ''} tag={paperTag(q)}
+          onChange={v => (isMCQ(q) ? pickOption(q, v) : setAnswers(a => ({ ...a, [q.id]: v })))}
+          disabled={!!done} reveal={done ? { itemFlags: done.flags } : null} />
+      </div>
 
       {!isMCQ(q) && items.length > 0 && !done && (
-        <button onClick={() => check(q, answers[q.id])} disabled={!hasAnswer(q, answers[q.id])} className="bg-barca-navy disabled:bg-gray-300 text-white font-semibold px-5 py-2 rounded-lg text-sm">Check</button>
+        <button onClick={() => check(q, answers[q.id])} disabled={!hasAnswer(q, answers[q.id])} className="btn-primary">Check</button>
       )}
       {done && (
-        <div className={`rounded-lg px-4 py-3 text-sm ${done.correct ? 'bg-emerald-50 text-emerald-700' : done.got > 0 ? 'bg-amber-50 text-amber-700' : 'bg-red-50 text-red-700'}`}>
-          {done.correct ? 'Correct!' : done.got > 0 ? `${done.got} of ${done.total} right` : 'Not quite.'}
-          {q.solution && !done.correct && <p className="mt-1 text-xs whitespace-pre-wrap opacity-90">{q.solution}</p>}
+        <div className={`rounded-xl border px-5 py-4 text-sm ${done.correct ? 'border-good/30 bg-good-soft animate-pop' : done.got > 0 ? 'border-warn/30 bg-warn-soft animate-pop' : 'border-bad/30 bg-bad-soft animate-shake'}`}>
+          <p className={`font-semibold ${done.correct ? 'text-good' : done.got > 0 ? 'text-warn' : 'text-bad'}`}>{done.correct ? 'Correct!' : done.got > 0 ? `${done.got} of ${done.total} right` : 'Not quite.'}</p>
+          {q.solution && !done.correct && <p className="mt-1.5 whitespace-pre-wrap text-xs leading-relaxed text-ink-2">{q.solution}</p>}
         </div>
       )}
-      <div className="flex gap-2">
-        <button onClick={() => (idx + 1 >= questions.length ? finish() : setIdx(idx + 1))} className="flex-1 bg-barca-navy hover:bg-barca-navy-dark text-white font-semibold py-2.5 rounded-lg">
+      <div className="flex gap-3">
+        <button onClick={() => (idx + 1 >= questions.length ? finish() : setIdx(idx + 1))} className="btn-primary flex-1">
           {idx + 1 >= questions.length ? 'Finish' : done ? 'Next →' : 'Skip →'}
         </button>
-        <button onClick={finish} className="px-4 bg-gray-100 text-gray-600 text-sm font-semibold rounded-lg">End now</button>
+        <button onClick={finish} className="btn-secondary">End now</button>
       </div>
     </div>
   );

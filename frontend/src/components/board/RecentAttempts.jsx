@@ -16,16 +16,23 @@ export default function RecentAttempts() {
   }, [user?.id, subject.id]);
   if (!recent.length) return null;
   return (
-    <div>
-      <h2 className="font-bold text-gray-900 mb-2">Recent practice</h2>
-      <div className="bg-white rounded-xl border border-gray-200 divide-y divide-gray-100">
-        {recent.map(a => (
-          <div key={a.id} className="px-4 py-2.5 flex items-center justify-between text-sm">
-            <span className="text-gray-700 capitalize">{a.mode === 'timed' ? `Paper ${a.paper_id?.replace(/^[a-z_]+?_(\d{4}.*)$/, '$1').toUpperCase()}` : a.mode}</span>
-            <span className="text-gray-400 text-xs">{new Date(a.submitted_at).toLocaleDateString()}</span>
-            <span className="font-semibold tabular-nums">{a.score === null ? '—' : fmtMarks(a.score)} / {fmtMarks(a.max_score)}</span>
-          </div>
-        ))}
+    <div className="space-y-3">
+      <div>
+        <p className="eyebrow">History</p>
+        <h2 className="section-title">Recent practice</h2>
+      </div>
+      <div className="card divide-y divide-line overflow-hidden">
+        {recent.map(a => {
+          const pct = a.score !== null && Number(a.max_score) ? (Number(a.score) / Number(a.max_score)) * 100 : null;
+          const tone = pct === null ? 'bg-surface-2 text-ink-3' : pct >= 80 ? 'bg-good-soft text-good' : pct >= 50 ? 'bg-warn-soft text-warn' : 'bg-bad-soft text-bad';
+          return (
+            <div key={a.id} className="flex items-center gap-4 px-5 py-3 text-sm transition duration-150 hover:bg-surface-2">
+              <span className="flex-1 font-medium capitalize text-ink">{a.mode === 'timed' ? `Paper ${a.paper_id?.replace(/^[a-z_]+?_(\d{4}.*)$/, '$1').toUpperCase()}` : a.mode}</span>
+              <span className="text-xs text-ink-3">{new Date(a.submitted_at).toLocaleDateString()}</span>
+              <span className={`pill tabular-nums ${tone}`}>{a.score === null ? '—' : fmtMarks(a.score)} / {fmtMarks(a.max_score)}</span>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

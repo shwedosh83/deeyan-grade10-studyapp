@@ -14,12 +14,15 @@ import BoardSprint from './components/board/BoardSprint';
 import BoardApplied from './components/board/BoardApplied';
 import { SubjectProvider, useSubject } from './context/SubjectContext';
 import { AuthProvider, useAuth } from './context/AuthContext';
+import { ThemeProvider } from './context/ThemeContext';
+import { ProgressProvider } from './context/ProgressContext';
+import ProgressPage from './components/ProgressPage';
 import { isConfigured } from './lib/supabase';
 
 function SetupBanner() {
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
-      <div className="bg-white rounded-2xl border border-gray-200 p-8 max-w-md w-full text-center shadow-sm">
+    <div className="min-h-screen bg-canvas flex items-center justify-center p-4">
+      <div className="card p-8 max-w-md w-full text-center">
         <div className="text-4xl mb-4">🧬</div>
         <h1 className="text-2xl font-bold text-gray-900 mb-2">Full Marks</h1>
         <p className="text-gray-500 mb-6">Supabase isn't configured yet. Create a <code className="bg-gray-100 px-1.5 py-0.5 rounded text-sm font-mono">.env</code> file in <code className="bg-gray-100 px-1.5 py-0.5 rounded text-sm font-mono">frontend/</code>:</p>
@@ -38,8 +41,8 @@ function AppShell() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="w-8 h-8 border-4 border-barca-navy border-t-transparent rounded-full animate-spin" />
+      <div className="min-h-screen bg-canvas flex items-center justify-center">
+        <div className="w-8 h-8 border-4 border-brand border-t-transparent rounded-full animate-spin" />
       </div>
     );
   }
@@ -49,12 +52,15 @@ function AppShell() {
   return (
     <BrowserRouter>
       <SubjectProvider>
-        <div className="flex min-h-screen bg-gray-50">
+       <ProgressProvider>
+        <div className="flex min-h-screen bg-canvas">
           <Sidebar />
-          <main className="flex-1 min-w-0 px-8 py-8">
+          <main className="min-w-0 flex-1 px-6 py-8 lg:px-10">
+           <div className="mx-auto max-w-6xl">
             <Routes>
-              <Route path="/" element={<OpenLastSubject />} />
+              <Route path="/" element={<Navigate to="/home" replace />} />
               <Route path="/home" element={<HomeDashboard />} />
+              <Route path="/progress" element={<ProgressPage />} />
               <Route path="/admin" element={<AdminPage />} />
 
               {/* old addresses keep working */}
@@ -80,17 +86,13 @@ function AppShell() {
               </Route>
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
+           </div>
           </main>
         </div>
+       </ProgressProvider>
       </SubjectProvider>
     </BrowserRouter>
   );
-}
-
-// Opening the app goes straight into the last subject studied.
-function OpenLastSubject() {
-  const { subject } = useSubject();
-  return <Navigate to={`/${subject.id}`} replace />;
 }
 
 // Old address (/quiz, /board ...) -> same page under the current subject.
@@ -104,8 +106,10 @@ export default function App() {
   if (!isConfigured) return <SetupBanner />;
 
   return (
-    <AuthProvider>
-      <AppShell />
-    </AuthProvider>
+    <ThemeProvider>
+      <AuthProvider>
+        <AppShell />
+      </AuthProvider>
+    </ThemeProvider>
   );
 }

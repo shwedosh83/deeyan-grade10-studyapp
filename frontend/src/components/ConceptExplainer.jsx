@@ -14,7 +14,7 @@ function renderMessage(text) {
     // Emoji section heading (line starts with an emoji)
     if (/^[🔍💡🌍🧠🔗📚✍️❓]/.test(line)) {
       elements.push(
-        <div key={i} className="mt-4 mb-1 font-semibold text-barca-navy text-sm">
+        <div key={i} className="mt-4 mb-1 text-sm font-semibold text-brand">
           {line}
         </div>
       );
@@ -32,8 +32,8 @@ function renderMessage(text) {
       elements.push(
         <ul key={i} className="list-none space-y-1 my-1 pl-1">
           {bulletLines.map((b, j) => (
-            <li key={j} className="flex gap-2 text-sm text-gray-700">
-              <span className="text-barca-navy mt-0.5">›</span>
+            <li key={j} className="flex gap-2 text-sm text-ink-2">
+              <span className="mt-0.5 text-brand">›</span>
               <span dangerouslySetInnerHTML={{ __html: boldify(b) }} />
             </li>
           ))}
@@ -51,7 +51,7 @@ function renderMessage(text) {
 
     // Regular paragraph
     elements.push(
-      <p key={i} className="text-sm text-gray-700 leading-relaxed"
+      <p key={i} className="text-sm leading-relaxed text-ink-2"
         dangerouslySetInnerHTML={{ __html: boldify(line) }}
       />
     );
@@ -64,6 +64,8 @@ function renderMessage(text) {
 function boldify(text) {
   return text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 }
+
+const TUTOR_DOWN = "The tutor isn't available right now. Please try again in a little while.";
 
 // ── Component ─────────────────────────────────────────────────────────────────
 export default function ConceptExplainer({ onClose }) {
@@ -103,9 +105,9 @@ export default function ConceptExplainer({ onClose }) {
         }),
       });
       const data = await res.json();
-      setHistory(prev => [...prev, { role: 'assistant', content: data.message || 'Sorry, something went wrong.' }]);
+      setHistory(prev => [...prev, { role: 'assistant', content: data.message || TUTOR_DOWN }]);
     } catch {
-      setHistory(prev => [...prev, { role: 'assistant', content: 'Sorry, something went wrong. Try again.' }]);
+      setHistory(prev => [...prev, { role: 'assistant', content: TUTOR_DOWN }]);
     }
     setLoading(false);
   }
@@ -131,18 +133,18 @@ export default function ConceptExplainer({ onClose }) {
     <>
       {/* Dimmed backdrop — click to close */}
       <div
-        className="fixed inset-0 z-40 bg-black/30 backdrop-blur-[1px]"
+        className="fixed inset-0 z-40 bg-barca-navy-deep/40 backdrop-blur-[2px] animate-fade-in"
         onClick={onClose}
       />
 
       {/* Right-side drawer */}
-      <div className="fixed inset-y-0 right-0 z-50 w-full sm:w-[440px] bg-white shadow-2xl flex flex-col">
+      <div className="fixed inset-y-0 right-0 z-50 flex w-full flex-col border-l border-line bg-surface shadow-2xl animate-slide-in-right sm:w-[440px]">
 
         {/* Header */}
-        <div className="flex items-center gap-3 px-4 py-3.5 border-b border-gray-100 bg-white shrink-0">
+        <div className="flex shrink-0 items-center gap-3 border-b border-line bg-surface px-4 py-3.5">
           <button
             onClick={onClose}
-            className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-gray-200 transition-colors shrink-0"
+            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-surface-2 text-ink-3 transition duration-150 hover:bg-line hover:text-ink"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M19 12H5M12 5l-7 7 7 7"/>
@@ -150,8 +152,8 @@ export default function ConceptExplainer({ onClose }) {
           </button>
           <span className="text-xl">🧠</span>
           <div className="min-w-0">
-            <p className="font-semibold text-gray-900 text-sm leading-tight">Ask Your Coach</p>
-            <p className="text-xs text-gray-400 truncate">{subject.label} · concepts, memory tricks, board tips</p>
+            <p className="font-display text-sm font-bold leading-tight text-ink">Ask Your Coach</p>
+            <p className="truncate text-xs text-ink-3">{subject.label} · concepts, memory tricks, board tips</p>
           </div>
         </div>
 
@@ -161,7 +163,7 @@ export default function ConceptExplainer({ onClose }) {
           {/* Empty state — suggestions */}
           {history.length === 0 && (
             <div className="space-y-3">
-              <p className="text-sm text-gray-500 text-center pt-2">
+              <p className="pt-2 text-center text-sm text-ink-2">
                 Ask me anything about {subject.label}. I'll explain it clearly, give you a memory trick, and show you exactly how to write it in your board exam.
               </p>
               <div className="grid grid-cols-2 gap-2 pt-1">
@@ -169,7 +171,7 @@ export default function ConceptExplainer({ onClose }) {
                   <button
                     key={i}
                     onClick={() => setInput(s)}
-                    className="text-left text-xs bg-gray-50 hover:bg-blue-50 border border-gray-200 hover:border-blue-200 rounded-lg px-3 py-2 text-gray-600 hover:text-barca-navy transition-colors"
+                    className="rounded-xl border border-line bg-surface-2 px-3 py-2 text-left text-xs text-ink-2 transition duration-150 hover:border-brand/40 hover:bg-brand-soft hover:text-brand-ink"
                   >
                     {s}
                   </button>
@@ -182,13 +184,20 @@ export default function ConceptExplainer({ onClose }) {
           {history.map((msg, i) => (
             <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
               {msg.role === 'user' ? (
-                <div className="bg-barca-navy text-white text-sm rounded-2xl rounded-br-sm px-4 py-2.5 max-w-[80%]">
+                <div className="max-w-[80%] rounded-2xl rounded-br-sm bg-barca-navy px-4 py-2.5 text-sm text-white animate-fade-in dark:bg-brand dark:text-slate-950">
                   {msg.content}
                 </div>
               ) : (
-                <div className="bg-gray-50 border border-gray-100 rounded-2xl rounded-bl-sm px-4 py-3 max-w-full w-full">
-                  {renderMessage(msg.content)}
-                </div>
+                msg.content === TUTOR_DOWN ? (
+                  <div className="w-full rounded-2xl rounded-bl-sm border border-warn/25 bg-warn-soft px-4 py-3 animate-fade-in">
+                    <p className="text-sm font-semibold text-ink">The tutor isn't available right now</p>
+                    <p className="mt-0.5 text-sm text-ink-2">Your question wasn't lost — try sending it again in a little while.</p>
+                  </div>
+                ) : (
+                  <div className="w-full max-w-full rounded-2xl rounded-bl-sm border border-line bg-surface-2 px-4 py-3 animate-fade-in">
+                    {renderMessage(msg.content)}
+                  </div>
+                )
               )}
             </div>
           ))}
@@ -196,11 +205,11 @@ export default function ConceptExplainer({ onClose }) {
           {/* Loading bubble */}
           {loading && (
             <div className="flex justify-start">
-              <div className="bg-gray-50 border border-gray-100 rounded-2xl rounded-bl-sm px-4 py-3">
+              <div className="rounded-2xl rounded-bl-sm border border-line bg-surface-2 px-4 py-3">
                 <div className="flex gap-1 items-center h-4">
-                  <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
-                  <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
-                  <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
+                  <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-ink-3" style={{ animationDelay: '0ms' }} />
+                  <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-ink-3" style={{ animationDelay: '150ms' }} />
+                  <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-ink-3" style={{ animationDelay: '300ms' }} />
                 </div>
               </div>
             </div>
@@ -210,7 +219,7 @@ export default function ConceptExplainer({ onClose }) {
         </div>
 
         {/* Input bar */}
-        <div className="px-4 py-3 border-t border-gray-100 bg-white">
+        <div className="border-t border-line bg-surface px-4 py-3">
           <div className="flex gap-2 items-end">
             <textarea
               ref={inputRef}
@@ -219,13 +228,13 @@ export default function ConceptExplainer({ onClose }) {
               onKeyDown={handleKey}
               placeholder={history.length === 0 ? `Ask about any ${subject.label} concept…` : 'Ask a follow-up…'}
               rows={1}
-              className="flex-1 resize-none border border-gray-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-barca-navy focus:ring-1 focus:ring-barca-navy leading-relaxed"
+              className="input flex-1 resize-none leading-relaxed"
               style={{ maxHeight: '100px', overflowY: 'auto' }}
             />
             <button
               onClick={send}
               disabled={!input.trim() || loading}
-              className="flex-none w-10 h-10 rounded-xl bg-barca-navy hover:bg-barca-navy-dark disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center text-white transition-colors"
+              className="btn-primary h-10 w-10 flex-none p-0"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <line x1="22" y1="2" x2="11" y2="13" />
@@ -233,7 +242,7 @@ export default function ConceptExplainer({ onClose }) {
               </svg>
             </button>
           </div>
-          <p className="text-xs text-gray-400 mt-1.5 text-center">Enter to send · Shift+Enter for new line</p>
+          <p className="mt-1.5 text-center text-xs text-ink-3">Enter to send · Shift+Enter for new line</p>
         </div>
       </div>
     </>

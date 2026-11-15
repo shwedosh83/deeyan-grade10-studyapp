@@ -2,8 +2,10 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSubject } from '../../context/SubjectContext';
 import { useAuth } from '../../context/AuthContext';
+import { useProgress } from '../../context/ProgressContext';
 import { boardApi, fmtMarks, hasAnswer, KIND_LABELS, paperTag, SOURCE_LABELS, SUBJECTS_WITH_BOARD } from '../../lib/board';
 import QuestionCard from './QuestionCard';
+import { EmptyCard, ErrorCard, Field, Ring, Segmented, TONE, toneOf } from './ui';
 
 const KINDS = ['numerical', 'data_diagram', 'reasoning', 'case', 'program', 'map'];
 const COUNTS = [5, 10, 15];
@@ -12,6 +14,7 @@ export default function BoardApplied() {
   const { subject } = useSubject();
   const { user } = useAuth();
   const navigate = useNavigate();
+  const { refresh } = useProgress();
   const [phase, setPhase] = useState('setup'); // setup | loading | running | done
   const [kinds, setKinds] = useState([]);
   const [selChapters, setSelChapters] = useState([]);   // [] = all chapters
@@ -70,62 +73,71 @@ export default function BoardApplied() {
   }
 
   function next() {
-    if (idx + 1 >= questions.length) { setPhase('done'); return; }
+    if (idx + 1 >= questions.length) { setPhase('done'); refresh(); return; }
     setIdx(idx + 1); setAnswer(''); setFb(null);
   }
 
-  if (!hasBoard) return <p className="text-gray-500 text-sm">Board papers for {subject.label} aren't in the app yet.</p>;
+  if (!hasBoard) return <EmptyCard text={`Board papers for ${subject.label} aren't in the app yet.`} />;
 
   // Only the kinds that exist in this subject's question pool (all of them until the info call returns).
   const availableKinds = info?.kinds ? KINDS.filter(k => info.kinds.includes(k)) : KINDS;
 
   if (phase === 'setup' || phase === 'loading') return (
-    <div className="max-w-xl space-y-5">
-      <p className="text-sm text-gray-500">Board-paper questions that test using ideas in new situations — case studies, numericals, data and diagram reading — drawn from all {subject.label} papers. Marked against the official solution with the exact points you missed.{info ? ` ${info.pool_size} to practise (${info.unseen} not yet tried).` : ''}</p>
-      <div className="bg-white rounded-xl border border-gray-200 p-5 space-y-4">
-        {(info?.sources || []).length > 1 && (
-          <div>
-            <p className="text-sm font-medium text-gray-700 mb-2">Which papers?</p>
-            <div className="flex flex-wrap gap-2">{['', 'board', 'prelim'].map(s => (
-              <button key={s || 'all'} onClick={() => setSource(s)} className={`px-3 py-1.5 rounded-full text-sm border-2 ${source === s ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500'}`}>{SOURCE_LABELS[s]}</button>
-            ))}</div>
+    <div className="max-w-2xl space-y-6 animate-fade-in">
+      <div>
+        <p className="eyebrow">Applied questions</p>
+        <p className="mt-1 text-sm leading-relaxed text-ink-2">Board-paper questions that test using ideas in new situations — case studies, numericals, data and diagram reading — drawn from all {subject.label} papers. Marked against the official solution with the exact points you missed.</p>
+        {info && (
+          <div className="mt-3 flex flex-wrap gap-2">
+            <span className="pill bg-surface-2 text-ink-2">{info.pool_size} to practise</span>
+            <span className="pill bg-brand-soft text-brand-ink">{info.unseen} not yet tried</span>
           </div>
         )}
-        <div>
-          <p className="text-sm font-medium text-gray-700 mb-2">Type of question <span className="text-gray-400 font-normal">(none selected = all)</span></p>
+      </div>
+      <div className="card space-y-6 p-6">
+        {(info?.sources || []).length > 1 && (
+          <Field label="Which papers?">
+            <Segmented value={source} onChange={setSource} options={['', 'board', 'prelim'].map(s => [s, SOURCE_LABELS[s]])} />
+          </Field>
+        )}
+        <Field label="Type of question" hint="(none selected = all)">
           <div className="flex flex-wrap gap-2">{availableKinds.map(k => (
-            <button key={k} onClick={() => setKinds(s => s.includes(k) ? s.filter(x => x !== k) : [...s, k])} className={`px-3 py-1.5 rounded-full text-sm border-2 ${kinds.includes(k) ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500'}`}>{KIND_LABELS[k]}</button>
+            <button key={k} onClick={() => setKinds(s => s.includes(k) ? s.filter(x => x !== k) : [...s, k])} className={`chip ${kinds.includes(k) ? 'chip-on' : ''}`}>{kinds.includes(k) && <span aria-hidden="true">✓</span>}{KIND_LABELS[k]}</button>
           ))}</div>
-        </div>
-        <div>
-          <p className="text-sm font-medium text-gray-700 mb-2">Chapters <span className="text-gray-400 font-normal">(tap to pick one or more; none = all)</span></p>
+        </Field>
+        <Field label="Chapters" hint="(tap to pick one or more; none = all)">
           <div className="flex flex-wrap gap-2">
-            <button onClick={() => setSelChapters([])} className={`px-3 py-1.5 rounded-full text-sm border-2 ${selChapters.length === 0 ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500'}`}>All chapters</button>
+            <button onClick={() => setSelChapters([])} className={`chip ${selChapters.length === 0 ? 'chip-on' : ''}`}>All chapters</button>
             {chapters.map(c => (
-              <button key={c} onClick={() => setSelChapters(cs => cs.includes(c) ? cs.filter(x => x !== c) : [...cs, c])} className={`px-3 py-1.5 rounded-full text-sm border-2 ${selChapters.includes(c) ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500'}`}>{c}</button>
+              <button key={c} onClick={() => setSelChapters(cs => cs.includes(c) ? cs.filter(x => x !== c) : [...cs, c])} className={`chip ${selChapters.includes(c) ? 'chip-on' : ''}`}>{selChapters.includes(c) && <span aria-hidden="true">✓</span>}{c}</button>
             ))}
           </div>
-        </div>
-        <div>
-          <p className="text-sm font-medium text-gray-700 mb-2">How many?</p>
-          <div className="flex gap-2">{COUNTS.map(n => <button key={n} onClick={() => setCount(n)} className={`flex-1 py-2 rounded-lg text-sm font-medium border-2 ${count === n ? 'border-barca-navy bg-barca-navy-light text-barca-navy' : 'border-gray-200 text-gray-500'}`}>{n}</button>)}</div>
-        </div>
-        {error && <p className="text-sm text-red-500 bg-red-50 rounded-lg px-3 py-2">{error}</p>}
-        <button onClick={start} disabled={phase === 'loading'} className="w-full bg-barca-navy hover:bg-barca-navy-dark disabled:bg-gray-300 text-white font-semibold py-3 rounded-lg">{phase === 'loading' ? 'Loading…' : 'Start'}</button>
+        </Field>
+        <Field label="How many?">
+          <Segmented value={count} onChange={setCount} options={COUNTS.map(n => [n, String(n)])} />
+        </Field>
+        {error && <ErrorCard title="Couldn't load questions" message={error} />}
+        <button onClick={start} disabled={phase === 'loading'} className="btn-primary w-full py-3.5 text-base">{phase === 'loading' ? 'Loading…' : 'Start'}</button>
       </div>
     </div>
   );
 
   if (phase === 'done') {
     const got = log.reduce((s, x) => s + x.got, 0), max = log.reduce((s, x) => s + x.max, 0);
+    const pct = max ? Math.round((got / max) * 100) : 0;
     return (
-      <div className="max-w-xl bg-white rounded-xl border border-gray-200 p-8 text-center space-y-3">
-        <p className="text-sm text-gray-500">{subject.label} applied practice</p>
-        <p className="text-5xl font-bold text-barca-navy">{fmtMarks(got)} <span className="text-2xl text-gray-400">/ {fmtMarks(max)}</span></p>
-        <p className="text-xs text-gray-400">{log.length} of {questions.length} questions marked</p>
-        <div className="flex gap-3 justify-center pt-2">
-          <button onClick={() => setPhase('setup')} className="bg-barca-navy text-white font-semibold px-5 py-2 rounded-lg text-sm">Practise more</button>
-          <button onClick={() => navigate(`/${subject.id}/board`)} className="bg-gray-100 text-gray-700 font-semibold px-5 py-2 rounded-lg text-sm">Board practice home</button>
+      <div className="card max-w-xl space-y-5 p-8 text-center animate-slide-up">
+        <p className="eyebrow">{subject.label} applied practice</p>
+        {max > 0 && (
+          <div className="flex justify-center">
+            <Ring pct={pct} size={120}><span className={`font-display text-2xl font-bold ${TONE[toneOf(pct)].text}`}>{pct}%</span></Ring>
+          </div>
+        )}
+        <p className="font-display text-5xl font-bold tabular-nums text-ink animate-burst">{fmtMarks(got)} <span className="text-2xl text-ink-3">/ {fmtMarks(max)}</span></p>
+        <p className="text-xs text-ink-3">{log.length} of {questions.length} questions marked</p>
+        <div className="flex justify-center gap-3 pt-1">
+          <button onClick={() => setPhase('setup')} className="btn-primary">Practise more</button>
+          <button onClick={() => navigate(`/${subject.id}/board`)} className="btn-secondary">Board practice home</button>
         </div>
       </div>
     );
@@ -133,27 +145,37 @@ export default function BoardApplied() {
 
   const r = fb?.results?.[0];
   const needsSelf = r && (r.marks_awarded === null || r.marks_awarded === undefined);
+  const rPct = r && !needsSelf && Number(r.marks) ? (Number(r.marks_awarded) / Number(r.marks)) * 100 : null;
+  const rTone = rPct === null ? null : TONE[toneOf(rPct)];
   return (
-    <div className="max-w-2xl space-y-4">
-      <div className="flex items-center justify-between"><p className="font-semibold text-gray-700">Question {idx + 1} of {questions.length}</p>
-        <span className="text-xs text-gray-400">{paperTag(q)}</span></div>
-      <QuestionCard q={q} value={answer} onChange={setAnswer} disabled={!!fb} />
-      {error && <p className="text-sm text-red-500 bg-red-50 rounded-lg px-3 py-2">{error}</p>}
-      {!fb && <button onClick={submit} disabled={busy || !hasAnswer(q, answer)} className="w-full bg-barca-navy hover:bg-barca-navy-dark disabled:bg-gray-300 text-white font-semibold py-2.5 rounded-lg">{busy ? 'Marking…' : 'Submit answer'}</button>}
+    <div className="max-w-3xl space-y-5 animate-fade-in">
+      <div className="card space-y-3 p-4">
+        <div className="flex items-center justify-between">
+          <p className="text-sm font-semibold text-ink">Question <span className="font-display text-lg">{idx + 1}</span> <span className="text-ink-3">of {questions.length}</span></p>
+          {log.length > 0 && <span className="pill bg-accent-soft py-1 text-sm tabular-nums text-accent">{fmtMarks(log.reduce((s, x) => s + x.got, 0))} / {fmtMarks(log.reduce((s, x) => s + x.max, 0))}</span>}
+        </div>
+        <div className="progress-track"><div className="progress-fill bg-brand" style={{ width: `${((idx + (fb ? 1 : 0)) / questions.length) * 100}%` }} /></div>
+      </div>
+      <div key={q.id} className="animate-slide-in-right">
+        <QuestionCard q={q} value={answer} onChange={setAnswer} disabled={!!fb} tag={paperTag(q)} />
+      </div>
+      {error && <ErrorCard title="Marking isn't available right now" message={error} hint="Your answer is still here — try submitting again in a little while." />}
+      {!fb && <button onClick={submit} disabled={busy || !hasAnswer(q, answer)} className="btn-primary w-full py-3.5 text-base">{busy ? 'Marking…' : 'Submit answer'}</button>}
+      {busy && <p className="text-center text-xs text-ink-3 animate-fade-in">Marking against the official solution…</p>}
       {r && (
-        <div className="bg-white rounded-xl border border-gray-200 p-4 space-y-3">
-          <p className="text-lg font-bold tabular-nums">{needsSelf ? 'Mark yourself' : <>{fmtMarks(r.marks_awarded)} <span className="text-gray-400 font-normal">/ {fmtMarks(r.marks)}</span></>}</p>
-          {r.points_hit?.length > 0 && <ul className="text-sm text-emerald-700 space-y-0.5">{r.points_hit.map((p, i) => <li key={i}>✓ {p}</li>)}</ul>}
-          {r.points_missed?.length > 0 && <div className="bg-red-50 rounded p-3"><p className="text-xs font-semibold text-red-700 mb-1">What was missing</p><ul className="text-sm text-red-700 space-y-0.5">{r.points_missed.map((p, i) => <li key={i}>＋ {p}</li>)}</ul></div>}
-          {r.feedback && <p className="text-xs text-gray-500 italic">{r.feedback}</p>}
-          <div className="bg-emerald-50 rounded p-3"><p className="text-xs font-semibold text-emerald-700 mb-1">Official solution</p><p className="text-sm text-emerald-900 whitespace-pre-wrap">{r.solution}</p></div>
+        <div className={`card space-y-4 p-5 animate-slide-up ${rTone ? `border-l-4 ${rPct >= 80 ? 'border-l-good' : rPct >= 50 ? 'border-l-warn' : 'border-l-bad'}` : ''}`}>
+          <p className={`font-display text-2xl font-bold tabular-nums ${rTone ? `${rTone.text} animate-pop` : 'text-ink'}`}>{needsSelf ? 'Mark yourself' : <>{fmtMarks(r.marks_awarded)} <span className="text-base font-normal text-ink-3">/ {fmtMarks(r.marks)}</span></>}</p>
+          {r.points_hit?.length > 0 && <ul className="space-y-1 rounded-xl bg-good-soft p-3 text-sm text-good">{r.points_hit.map((p, i) => <li key={i}>✓ {p}</li>)}</ul>}
+          {r.points_missed?.length > 0 && <div className="rounded-xl bg-bad-soft p-3"><p className="mb-1 text-xs font-semibold text-bad">What was missing</p><ul className="space-y-1 text-sm text-ink-2">{r.points_missed.map((p, i) => <li key={i}>＋ {p}</li>)}</ul></div>}
+          {r.feedback && <p className="text-xs italic text-ink-3">{r.feedback}</p>}
+          <div className="rounded-xl border border-line bg-surface-2 p-4"><p className="mb-1.5 text-xs font-semibold text-good">Official solution</p><p className="whitespace-pre-wrap text-sm leading-relaxed text-ink-2">{r.solution}</p></div>
           {needsSelf && (
-            <div className="flex items-center gap-2 text-sm">
-              <label>My marks: <input type="number" min="0" max={r.marks} step="0.5" value={selfMarks} onChange={e => setSelfMarks(e.target.value)} className="border-2 border-gray-200 rounded px-2 py-1 w-20 ml-1" /> / {fmtMarks(r.marks)}</label>
-              <button onClick={saveSelf} className="bg-amber-600 text-white font-semibold px-3 py-1.5 rounded-lg">Save</button>
+            <div className="flex flex-wrap items-center gap-3 rounded-xl bg-warn-soft p-3 text-sm text-ink-2">
+              <label className="flex items-center gap-2">My marks: <input type="number" min="0" max={r.marks} step="0.5" value={selfMarks} onChange={e => setSelfMarks(e.target.value)} className="input !w-24 !py-1.5" /> / {fmtMarks(r.marks)}</label>
+              <button onClick={saveSelf} className="btn-secondary !py-2">Save</button>
             </div>
           )}
-          <button onClick={next} disabled={needsSelf} className="w-full bg-barca-navy disabled:bg-gray-300 text-white font-semibold py-2.5 rounded-lg">{idx + 1 >= questions.length ? 'Finish' : 'Next question →'}</button>
+          <button onClick={next} disabled={needsSelf} className="btn-primary w-full">{idx + 1 >= questions.length ? 'Finish' : 'Next question →'}</button>
         </div>
       )}
     </div>

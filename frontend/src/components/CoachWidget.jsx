@@ -19,15 +19,15 @@ export default function CoachWidget({ subject, weakSkills, totalDone }) {
       // Get days since last session for this subject
       const { data: lastSession } = await supabase
         .from('sessions')
-        .select('created_at')
+        .select('started_at')
         .eq('subject', subject.id)
         .eq('user_id', user?.id)
-        .order('created_at', { ascending: false })
+        .order('started_at', { ascending: false })
         .limit(1)
         .single();
 
       const daysSinceSession = lastSession
-        ? Math.floor((Date.now() - new Date(lastSession.created_at)) / 86400000)
+        ? Math.floor((Date.now() - new Date(lastSession.started_at)) / 86400000)
         : 999;
 
       try {
@@ -61,31 +61,50 @@ export default function CoachWidget({ subject, weakSkills, totalDone }) {
 
   if (loading) {
     return (
-      <div className="bg-barca-navy rounded-xl p-5 text-white animate-pulse">
-        <div className="h-4 bg-white/20 rounded w-3/4 mb-2" />
-        <div className="h-4 bg-white/20 rounded w-1/2" />
+      <div className="card flex items-start gap-3 p-5" aria-busy="true">
+        <div className="skeleton h-9 w-9 shrink-0 rounded-full" />
+        <div className="flex-1 space-y-2 pt-1">
+          <div className="skeleton h-3 w-24" />
+          <div className="skeleton h-3.5 w-3/4" />
+          <div className="skeleton h-3.5 w-1/2" />
+        </div>
       </div>
     );
   }
 
-  if (!message) return null;
+  // The coach is AI-written; if it can't answer (e.g. the service is unavailable) show a calm fallback.
+  if (!message) {
+    return (
+      <div className="card flex items-center justify-between gap-4 p-5 animate-fade-in">
+        <div className="flex items-start gap-3">
+          <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-surface-2 text-sm font-bold text-ink-3">AI</div>
+          <div>
+            <p className="text-sm font-semibold text-ink">Your coach is unavailable right now</p>
+            <p className="mt-0.5 text-sm text-ink-3">No problem — pick up a chapter and keep going.</p>
+          </div>
+        </div>
+        <button onClick={handleCoachPick} className="btn-secondary shrink-0 py-2">Practise</button>
+      </div>
+    );
+  }
 
   return (
-    <div className="bg-barca-navy rounded-xl p-5 text-white space-y-4">
+    <div className="relative space-y-4 overflow-hidden rounded-2xl border border-line/80 bg-surface p-5 shadow-soft animate-fade-in">
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-barca-gold to-amber-400" />
       <div className="flex items-start gap-3">
-        <div className="w-9 h-9 rounded-full bg-barca-gold flex items-center justify-center shrink-0 text-barca-navy font-bold text-sm">
+        <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-accent-soft text-sm font-bold text-accent">
           AI
         </div>
         <div>
-          <p className="text-xs text-white/60 font-medium mb-1">Your Coach</p>
-          <p className="text-sm leading-relaxed text-white/90">{message}</p>
+          <p className="eyebrow mb-1">Your Coach</p>
+          <p className="text-sm leading-relaxed text-ink">{message}</p>
         </div>
       </div>
       <button
         onClick={handleCoachPick}
-        className="w-full bg-barca-gold hover:bg-yellow-400 text-barca-navy font-semibold py-2.5 rounded-lg text-sm transition-colors"
+        className="btn-primary w-full py-2.5"
       >
-        Let's Go 🚀
+        Let's go
       </button>
     </div>
   );

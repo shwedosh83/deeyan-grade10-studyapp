@@ -3,6 +3,9 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { useSubject } from '../context/SubjectContext';
 import { useAuth } from '../context/AuthContext';
+import { useProgress } from '../context/ProgressContext';
+import { subjectStyle } from '../lib/subjectStyle';
+import QuestionDots from './quiz/QuestionDots';
 
 const QUESTION_COUNTS = [5, 10, 15, 20, 30];
 
@@ -57,6 +60,7 @@ export default function Quiz() {
   const navigate = useNavigate();
   const { subject } = useSubject();
   const { user } = useAuth();
+  const { refresh: refreshProgress } = useProgress();
   const [searchParams] = useSearchParams();
   const preselectedChapter = searchParams.get('chapter') ? parseInt(searchParams.get('chapter')) : null;
 
@@ -414,6 +418,7 @@ export default function Quiz() {
         total_questions: questions.length,
         correct_answers: correct,
       }).eq('id', sessionId);
+      refreshProgress(); // session saved: update XP / streak
       setPhase('results');
     } else {
       setCurrentIndex(next);
@@ -442,24 +447,25 @@ export default function Quiz() {
       : null;
     const isContinueMode = isSingleChapter && singleChapterProgress && !chapterComplete;
 
-    return (
-      <div className="max-w-2xl mx-auto space-y-6">
-        <h1 className="text-2xl font-bold text-gray-900">Start Quiz</h1>
+    const optCls = (on) => `chip flex-1 justify-center ${on ? 'chip-on' : ''}`;
 
-        <div className="bg-white rounded-xl border border-gray-200 p-6 space-y-5">
+    return (
+      <div className="max-w-2xl mx-auto space-y-6 animate-fade-in">
+        <div>
+          <p className="eyebrow">{subject.emoji} {subject.label}</p>
+          <h1 className="page-title mt-1">Start a quiz</h1>
+        </div>
+
+        <div className="card p-6 space-y-6">
           {/* Question type */}
           <div>
-            <p className="text-sm font-medium text-gray-700 mb-2">Question Type</p>
+            <p className="eyebrow mb-2.5">Question type</p>
             <div className="flex gap-2">
               {QUESTION_TYPES.filter(t => t.subjects === null || t.subjects.includes(subject.id)).map((t) => (
                 <button
                   key={String(t.value)}
                   onClick={() => { setError(null); setQuestionType(t.value); }}
-                  className={`flex-1 py-2 rounded-lg text-sm font-medium border-2 transition-colors ${
-                    questionType === t.value
-                      ? 'border-barca-navy bg-barca-navy-light text-barca-navy'
-                      : 'border-gray-200 text-gray-500 hover:border-gray-300'
-                  }`}
+                  className={optCls(questionType === t.value)}
                 >
                   {t.label}
                 </button>
@@ -469,35 +475,31 @@ export default function Quiz() {
 
           {/* Number of questions — replaced with chapter progress in continue mode */}
           {isContinueMode ? (
-            <div className="bg-amber-50 border border-amber-200 rounded-xl px-4 py-3.5 space-y-1">
-              <p className="text-sm font-semibold text-amber-800">
-                📖 Continue Chapter — {remaining} question{remaining !== 1 ? 's' : ''} remaining
+            <div className="rounded-xl border border-warn/30 bg-warn-soft px-4 py-3.5 space-y-2">
+              <p className="text-sm font-semibold text-ink">
+                📖 Continue chapter — {remaining} question{remaining !== 1 ? 's' : ''} remaining
               </p>
-              <div className="h-1.5 bg-amber-200 rounded-full overflow-hidden">
+              <div className="progress-track bg-surface/70">
                 <div
-                  className="h-full bg-amber-500 rounded-full"
+                  className="progress-fill bg-warn"
                   style={{ width: `${singleChapterProgress.completion_pct}%` }}
                 />
               </div>
-              <p className="text-xs text-amber-600">
+              <p className="text-xs text-ink-2">
                 {singleChapterProgress.answered_questions}/{singleChapterProgress.total_questions} done · You'll get 10 at a time from unseen questions
               </p>
             </div>
           ) : chapterComplete ? (
-            <div className="bg-emerald-50 border border-emerald-200 rounded-xl px-4 py-3.5 space-y-2">
-              <p className="text-sm font-semibold text-emerald-700">
-                ✓ Chapter complete! Practice again?
+            <div className="rounded-xl border border-good/30 bg-good-soft px-4 py-3.5 space-y-2.5">
+              <p className="text-sm font-semibold text-good">
+                ✓ Chapter complete — practise again?
               </p>
               <div className="flex gap-2">
                 {QUESTION_COUNTS.map((n) => (
                   <button
                     key={n}
                     onClick={() => setQuizSize(n)}
-                    className={`flex-1 py-1.5 rounded-lg text-sm font-medium border-2 transition-colors ${
-                      quizSize === n
-                        ? 'border-emerald-600 bg-emerald-100 text-emerald-800'
-                        : 'border-gray-200 text-gray-500 hover:border-gray-300'
-                    }`}
+                    className={`chip flex-1 justify-center ${quizSize === n ? 'border-good bg-surface text-good hover:border-good hover:text-good' : ''}`}
                   >
                     {n}
                   </button>
@@ -506,17 +508,13 @@ export default function Quiz() {
             </div>
           ) : (
             <div>
-              <p className="text-sm font-medium text-gray-700 mb-2">Number of Questions</p>
+              <p className="eyebrow mb-2.5">Number of questions</p>
               <div className="flex gap-2">
                 {QUESTION_COUNTS.map((n) => (
                   <button
                     key={n}
                     onClick={() => setQuizSize(n)}
-                    className={`flex-1 py-2 rounded-lg text-sm font-medium border-2 transition-colors ${
-                      quizSize === n
-                        ? 'border-barca-navy bg-barca-navy-light text-barca-navy'
-                        : 'border-gray-200 text-gray-500 hover:border-gray-300'
-                    }`}
+                    className={`${optCls(quizSize === n)} tabular-nums`}
                   >
                     {n}
                   </button>
@@ -527,7 +525,7 @@ export default function Quiz() {
 
           {/* Source filter */}
           <div>
-            <p className="text-sm font-medium text-gray-700 mb-2">Source</p>
+            <p className="eyebrow mb-2.5">Source</p>
             <div className="flex gap-2 flex-wrap">
               {QUESTION_SOURCES
                 .filter(s => s.subjects === null || s.subjects.includes(subject.id))
@@ -535,11 +533,7 @@ export default function Quiz() {
                 <button
                   key={String(s.value)}
                   onClick={() => setSourceFilter(s.value)}
-                  className={`flex-1 py-2 rounded-lg text-sm font-medium border-2 transition-colors ${
-                    sourceFilter === s.value
-                      ? 'border-barca-navy bg-barca-navy-light text-barca-navy'
-                      : 'border-gray-200 text-gray-500 hover:border-gray-300'
-                  }`}
+                  className={optCls(sourceFilter === s.value)}
                 >
                   {s.label}
                 </button>
@@ -549,11 +543,11 @@ export default function Quiz() {
 
           {/* Chapter selection */}
           <div>
-            <div className="flex items-center justify-between mb-2">
-              <p className="text-sm font-medium text-gray-700">Chapters</p>
+            <div className="flex items-center justify-between mb-2.5">
+              <p className="eyebrow">Chapters</p>
               <button
                 onClick={toggleAllChapters}
-                className="text-xs text-barca-navy hover:underline font-medium"
+                className="text-xs font-semibold text-brand hover:underline"
               >
                 {allSelected ? 'Deselect All' : 'Select All'}
               </button>
@@ -565,17 +559,17 @@ export default function Quiz() {
                   <button
                     key={ch.id}
                     onClick={() => toggleChapter(ch.id)}
-                    className={`flex items-center gap-2 px-3 py-2 rounded-lg border text-left text-sm transition-all ${
+                    className={`flex items-center gap-2.5 px-3 py-2.5 rounded-xl border text-left text-sm transition duration-150 ${
                       checked
-                        ? 'border-barca-navy bg-barca-navy-light text-barca-navy'
-                        : 'border-gray-200 text-gray-600 hover:border-gray-300 hover:bg-gray-50'
+                        ? 'border-brand bg-brand-soft text-brand-ink'
+                        : 'border-line bg-surface text-ink-2 hover:border-ink-3/50 hover:bg-surface-2'
                     }`}
                   >
-                    <span className={`w-4 h-4 rounded border-2 flex items-center justify-center shrink-0 transition-colors ${
-                      checked ? 'bg-barca-navy border-barca-navy' : 'border-gray-300'
+                    <span className={`w-4 h-4 rounded border-2 flex items-center justify-center shrink-0 transition-colors duration-150 ${
+                      checked ? 'bg-brand border-brand' : 'border-line'
                     }`}>
                       {checked && (
-                        <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                        <svg className="w-2.5 h-2.5 text-surface" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                         </svg>
                       )}
@@ -585,16 +579,16 @@ export default function Quiz() {
                 );
               })}
             </div>
-            <p className="text-xs text-gray-400 mt-2">
+            <p className="text-xs text-ink-3 mt-2">
               {noneSelected ? 'No chapters selected — will draw from all chapters' : `${selectedChapters.size} chapter${selectedChapters.size > 1 ? 's' : ''} selected`}
             </p>
           </div>
 
-          {error && <p className="text-sm text-red-500 bg-red-50 rounded-lg px-3 py-2">{error}</p>}
+          {error && <p className="text-sm text-bad bg-bad-soft rounded-xl px-3.5 py-2.5 animate-fade-in">{error}</p>}
 
           <button
             onClick={startQuiz}
-            className="w-full bg-barca-navy hover:bg-barca-navy-dark text-white font-semibold py-3 rounded-lg transition-colors"
+            className="btn-primary w-full"
           >
             {isContinueMode
               ? `Continue — 10 Questions`
@@ -607,9 +601,21 @@ export default function Quiz() {
 
   if (phase === 'loading') {
     return (
-      <div className="flex flex-col items-center justify-center h-64 gap-3">
-        <div className="w-8 h-8 border-4 border-barca-navy border-t-transparent rounded-full animate-spin" />
-        <p className="text-gray-500 text-sm">Loading questions...</p>
+      <div className="max-w-3xl mx-auto space-y-4 animate-fade-in" aria-busy="true">
+        <div className="flex items-center justify-between">
+          <div className="skeleton h-6 w-48" />
+          <div className="skeleton h-6 w-24" />
+        </div>
+        <div className="skeleton h-2 w-full" />
+        <div className="card p-8 space-y-4">
+          <div className="skeleton h-4 w-32" />
+          <div className="skeleton h-6 w-full" />
+          <div className="skeleton h-6 w-4/5" />
+          <div className="space-y-2.5 pt-2">
+            {[0, 1, 2, 3].map(i => <div key={i} className="skeleton h-14 w-full rounded-xl" />)}
+          </div>
+        </div>
+        <p className="text-center text-sm text-ink-3">Loading questions...</p>
       </div>
     );
   }
@@ -631,48 +637,86 @@ export default function Quiz() {
   }
 
   const q = questions[currentIndex];
-  const progress = (currentIndex / questions.length) * 100;
   const isMCQ = q.type === 'mcq';
   const isAIGenerated = q.year_tag === 'AI Generated';
   const correctLetter = correctMCQLetter(q.answer);
 
+  // ── Display-only values derived from existing state ──
+  const st = subjectStyle(subject.id);
+  const correctCount = results.filter((r) => r.isCorrect).length;
+  const answeredCount = results.length;
+  const answeredPct = questions.length ? (answeredCount / questions.length) * 100 : 0;
+  const resultFor = (question) => {
+    for (let i = results.length - 1; i >= 0; i--) if (results[i].question.id === question.id) return results[i];
+    return null;
+  };
+  const dotStatuses = questions.map((question, i) => {
+    const r = resultFor(question);
+    if (r) return r.isCorrect ? 'correct' : 'incorrect';
+    const answered = i === currentIndex ? isAnswered : questionStates[i]?.isAnswered;
+    return answered ? 'answered' : 'pending';
+  });
+  // Consecutive correct answers ending with this question (only when this was the latest answer)
+  let streak = 0;
+  if (results.length && results[results.length - 1].question.id === q.id) {
+    for (let i = results.length - 1; i >= 0 && results[i].isCorrect; i--) streak++;
+  }
+  const streakNote = streak >= 3 ? ` Nice — that's ${streak} in a row.` : '';
+
+  const TONE = {
+    good: { panel: 'bg-good-soft border-good/30', text: 'text-good', bar: 'bg-good' },
+    warn: { panel: 'bg-warn-soft border-warn/30', text: 'text-warn', bar: 'bg-warn' },
+    bad:  { panel: 'bg-bad-soft border-bad/30',   text: 'text-bad',  bar: 'bg-bad' },
+  };
+  const evalTone = evaluation?.result === 'correct' ? TONE.good : evaluation?.result === 'partial' ? TONE.warn : TONE.bad;
+  const evalFailed = !isMCQ && evaluation && !evaluation.result; // evaluate endpoint returned an error body
+
   return (
-    <div className="space-y-4">
+    <div className="max-w-3xl mx-auto space-y-5">
       {/* Header */}
-      <div className="flex items-center justify-between">
-        <div>
-          <p className="text-sm text-gray-500">{chapterName}</p>
-          <p className="font-semibold text-gray-700">Question {currentIndex + 1} of {questions.length}</p>
-        </div>
-        <div className="flex items-center gap-3">
-          <span className={`text-xs px-2 py-1 rounded-full font-medium ${isMCQ ? 'bg-blue-50 text-blue-600' : 'bg-purple-50 text-purple-600'}`}>
+      <div className="flex items-center justify-between gap-4">
+        <span className={`pill py-1 max-w-[60%] ${st.tile}`}>
+          <span aria-hidden="true">{subject.emoji}</span>
+          <span className="truncate">{subject.label} · {chapterName}</span>
+        </span>
+        <div className="flex items-center gap-3 shrink-0">
+          <span className="pill bg-surface-2 text-ink-2">
             {TYPE_LABELS[q.type] || 'Short Answer'}
           </span>
-          <span className="text-sm text-barca-gold font-semibold tabular-nums">
-            {results.filter((r) => r.isCorrect).length} correct
+          <span className="text-sm font-semibold text-accent tabular-nums">
+            {correctCount} correct
           </span>
         </div>
       </div>
 
-      {/* Progress */}
-      <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
-        <div className="h-full bg-barca-navy rounded-full transition-all duration-300" style={{ width: `${progress}%` }} />
+      {/* Progress: answered / total */}
+      <div className="flex items-center gap-3">
+        <div className="progress-track flex-1">
+          <div className="progress-fill bg-brand" style={{ width: `${answeredPct}%` }} />
+        </div>
+        <span className="text-xs font-medium text-ink-3 tabular-nums shrink-0">
+          {answeredCount}/{questions.length} answered
+        </span>
       </div>
 
+      {/* Question map */}
+      <QuestionDots statuses={dotStatuses} current={currentIndex} />
+
       {/* Question card */}
-      <div className="bg-white rounded-xl border border-gray-200 p-6 space-y-5">
-        <div>
-          <div className="flex items-center gap-2 mb-2 flex-wrap">
-            <span className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full font-semibold">
+      <div key={currentIndex} className="card p-8 space-y-6 animate-slide-up">
+        <div className="space-y-4">
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="eyebrow mr-1">Question {currentIndex + 1} of {questions.length}</span>
+            <span className="pill bg-surface-2 text-ink-2">
               {questionMarks(q)} mark{questionMarks(q) !== 1 ? 's' : ''}
             </span>
             {q.year_tag && !isAIGenerated && (
-              <span className="text-xs bg-barca-gold-light text-amber-700 px-2 py-0.5 rounded-full font-medium">
+              <span className="pill bg-accent-soft text-ink-2">
                 {q.year_tag}
               </span>
             )}
             {isAIGenerated && (
-              <span className="text-xs bg-violet-50 text-violet-700 px-2 py-0.5 rounded-full font-medium flex items-center gap-1">
+              <span className="pill bg-brand-soft text-brand-ink">
                 <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
                 </svg>
@@ -680,9 +724,9 @@ export default function Quiz() {
               </span>
             )}
           </div>
-          <p className="text-gray-800 font-medium leading-relaxed">{q.question}</p>
+          <p className="font-display text-xl font-semibold leading-relaxed tracking-tight text-ink">{q.question}</p>
           {q.skill && (
-            <span className="inline-flex items-center gap-1 mt-2 text-xs font-medium px-2.5 py-1 rounded-full bg-barca-navy-light text-barca-navy border border-barca-navy/10">
+            <span className="pill bg-brand-soft text-brand-ink py-1">
               <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
               </svg>
@@ -693,22 +737,34 @@ export default function Quiz() {
 
         {/* MCQ options */}
         {isMCQ && (
-          <div className="space-y-2">
+          <div className="space-y-2.5">
             {['a', 'b', 'c', 'd'].map((key) => {
-              let style = 'border-gray-200 bg-gray-50 hover:bg-gray-100 hover:border-gray-300 text-gray-700 cursor-pointer';
+              let row = 'border-line bg-surface text-ink hover:border-brand/50 hover:bg-brand-soft/40 hover:shadow-soft cursor-pointer';
+              let badge = 'bg-surface-2 text-ink-2 group-hover:bg-brand-soft group-hover:text-brand-ink';
+              let mark = null;
               if (isAnswered) {
-                if (key === correctLetter) style = 'border-emerald-400 bg-emerald-50 text-emerald-800 font-semibold cursor-default';
-                else if (key === selectedAnswer) style = 'border-red-400 bg-red-50 text-red-700 cursor-default';
-                else style = 'border-gray-200 bg-white text-gray-400 cursor-default';
+                if (key === correctLetter) {
+                  row = 'border-good bg-good-soft text-ink font-medium cursor-default animate-pop';
+                  badge = 'bg-good text-surface';
+                  mark = <span className="ml-auto shrink-0 text-good font-bold" aria-label="Correct answer">✓</span>;
+                } else if (key === selectedAnswer) {
+                  row = 'border-bad bg-bad-soft text-ink cursor-default animate-shake';
+                  badge = 'bg-bad text-surface';
+                  mark = <span className="ml-auto shrink-0 text-bad font-bold" aria-label="Your answer">✗</span>;
+                } else {
+                  row = 'border-line bg-surface text-ink-3 cursor-default';
+                  badge = 'bg-surface-2 text-ink-3';
+                }
               }
               return (
                 <button
                   key={key}
                   onClick={() => handleMCQAnswer(key)}
-                  className={`w-full text-left px-4 py-3 rounded-lg border-2 transition-all text-sm flex items-start gap-3 ${style}`}
+                  className={`group w-full text-left px-4 py-3.5 rounded-xl border-2 transition duration-150 text-[15px] leading-relaxed flex items-start gap-4 ${row}`}
                 >
-                  <span className="font-bold uppercase shrink-0">{key})</span>
-                  <span>{optionText(q.options, key)}</span>
+                  <span className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-lg text-sm font-bold uppercase transition duration-150 ${badge}`}>{key}</span>
+                  <span className="pt-0.5">{optionText(q.options, key)}</span>
+                  {mark && <span className="ml-auto pl-2 pt-0.5">{mark}</span>}
                 </button>
               );
             })}
@@ -725,16 +781,16 @@ export default function Quiz() {
                 disabled={isAnswered}
                 placeholder="Type your answer here, or use the mic to speak..."
                 rows={4}
-                className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 pr-12 text-sm text-gray-700 focus:outline-none focus:border-barca-navy resize-none disabled:bg-gray-50 disabled:text-gray-500"
+                className="input px-4 py-3 pr-14 text-[15px] leading-relaxed resize-none disabled:bg-surface-2 disabled:text-ink-2"
               />
               {voiceSupported && !isAnswered && (
                 <button
                   onClick={isListening ? stopVoice : startVoice}
                   title={isListening ? 'Stop recording' : 'Speak your answer'}
-                  className={`absolute right-3 top-3 w-8 h-8 rounded-full flex items-center justify-center transition-all ${
+                  className={`absolute right-3 top-3 w-9 h-9 rounded-full flex items-center justify-center transition duration-150 ${
                     isListening
-                      ? 'bg-red-500 text-white animate-pulse'
-                      : 'bg-gray-100 hover:bg-barca-navy-light text-gray-500 hover:text-barca-navy'
+                      ? 'bg-bad text-surface animate-pulse'
+                      : 'bg-surface-2 text-ink-3 hover:bg-brand-soft hover:text-brand-ink'
                   }`}
                 >
                   {isListening ? (
@@ -750,8 +806,8 @@ export default function Quiz() {
               )}
             </div>
             {isListening && (
-              <p className="text-xs text-red-500 flex items-center gap-1.5">
-                <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse inline-block"/>
+              <p className="text-xs text-bad flex items-center gap-1.5">
+                <span className="w-2 h-2 bg-bad rounded-full animate-pulse inline-block"/>
                 Listening... speak your answer, then click stop
               </p>
             )}
@@ -760,21 +816,21 @@ export default function Quiz() {
                 <button
                   onClick={handleShortAnswerSubmit}
                   disabled={evaluating || !typedAnswer.trim()}
-                  className="w-full bg-barca-navy hover:bg-barca-navy-dark disabled:bg-gray-200 disabled:text-gray-400 text-white font-semibold py-2.5 rounded-lg transition-colors"
+                  className="btn-primary w-full"
                 >
                   {evaluating ? 'Evaluating...' : 'Submit Answer'}
                 </button>
                 {!hint && !loadingHint && (
                   <button
                     onClick={getHint}
-                    className="w-full text-xs text-gray-400 hover:text-barca-navy py-1 transition-colors"
+                    className="btn-ghost w-full text-xs text-ink-3 hover:text-brand"
                   >
                     🤔 Need a hint?
                   </button>
                 )}
-                {loadingHint && <p className="text-xs text-gray-400 text-center">Getting hint...</p>}
+                {loadingHint && <p className="text-xs text-ink-3 text-center py-2">Getting hint...</p>}
                 {hint && (
-                  <div className="bg-amber-50 border border-amber-200 rounded-lg px-4 py-3 text-sm text-amber-800 leading-relaxed">
+                  <div className="rounded-xl border border-warn/30 bg-warn-soft px-4 py-3 text-sm text-ink-2 leading-relaxed animate-fade-in">
                     💡 {hint}
                   </div>
                 )}
@@ -784,17 +840,17 @@ export default function Quiz() {
         )}
 
         {/* Always-visible Prev / Next navigation */}
-        <div className="flex gap-2 pt-2">
+        <div className="flex gap-2 pt-1">
           <button
             onClick={previousQuestion}
             disabled={currentIndex === 0}
-            className="flex-none px-4 bg-gray-100 hover:bg-gray-200 disabled:opacity-30 disabled:cursor-not-allowed text-gray-700 font-semibold py-2.5 rounded-lg transition-colors flex items-center gap-1.5 text-sm"
+            className="btn-secondary flex-none px-4 disabled:cursor-not-allowed"
           >
             ← Prev
           </button>
           <button
             onClick={nextQuestion}
-            className="flex-1 bg-barca-navy hover:bg-barca-navy-dark text-white font-semibold py-2.5 rounded-lg transition-colors"
+            className="btn-primary flex-1"
           >
             {currentIndex + 1 >= questions.length ? 'See Results' : 'Next →'}
           </button>
@@ -802,74 +858,71 @@ export default function Quiz() {
 
         {/* Post-answer feedback */}
         {isAnswered && (
-          <div className="space-y-3 pt-1 border-t border-gray-100">
+          <div className="space-y-3 pt-5 border-t border-line animate-fade-in">
 
             {/* MCQ result */}
             {isMCQ && (
-              <p className={`text-sm font-semibold ${selectedAnswer === correctLetter ? 'text-emerald-600' : 'text-red-500'}`}>
+              <div className={`rounded-xl border px-4 py-3 text-sm font-semibold ${
+                selectedAnswer === correctLetter ? 'border-good/30 bg-good-soft text-good animate-pop' : 'border-bad/30 bg-bad-soft text-bad'
+              }`}>
                 {selectedAnswer === correctLetter
-                  ? 'Correct!'
-                  : `Wrong — correct answer: ${correctLetter?.toUpperCase()}) ${optionText(q.options, correctLetter)}`}
-              </p>
+                  ? `Correct.${streakNote}`
+                  : `Not quite — the answer is ${correctLetter?.toUpperCase()}) ${optionText(q.options, correctLetter)}`}
+              </div>
             )}
 
             {/* MCQ built-in explanation (from PDF/question bank) */}
             {isMCQ && isAnswered && q.explanation && (
-              <div className="bg-gray-50 border border-gray-200 rounded-lg p-3 text-xs text-gray-600 leading-relaxed">
+              <div className="rounded-xl border border-line bg-surface-2 p-4 text-sm text-ink-2 leading-relaxed">
                 {q.explanation}
               </div>
             )}
 
+            {/* Evaluate endpoint returned an error: calm note + model answer */}
+            {evalFailed && (
+              <div className="rounded-xl border border-line bg-surface-2 p-4 text-sm space-y-3">
+                <p className="text-ink-2">Automatic marking isn't available right now. Compare your answer with the model answer below.</p>
+                <div>
+                  <p className="eyebrow mb-1">Model answer</p>
+                  <p className="text-ink-2 leading-relaxed">{q.answer}</p>
+                </div>
+              </div>
+            )}
+
             {/* Short answer evaluation */}
-            {!isMCQ && evaluation && evaluation.result !== 'unavailable' && (
-              <div className={`rounded-lg p-4 text-sm space-y-3 ${
-                evaluation.result === 'correct' ? 'bg-emerald-50 border border-emerald-200' :
-                evaluation.result === 'partial' ? 'bg-amber-50 border border-amber-200' :
-                'bg-red-50 border border-red-200'
-              }`}>
+            {!isMCQ && evaluation && evaluation.result !== 'unavailable' && !evalFailed && (
+              <div className={`rounded-xl border p-4 text-sm space-y-3 ${evaluation.result === 'correct' ? 'animate-pop' : ''} ${evalTone.panel}`}>
                 <div className="flex items-center justify-between gap-3">
-                  <p className={`font-semibold ${
-                    evaluation.result === 'correct' ? 'text-emerald-700' :
-                    evaluation.result === 'partial' ? 'text-amber-700' :
-                    'text-red-700'
-                  }`}>
-                    {evaluation.result === 'correct' ? 'Correct!' :
-                     evaluation.result === 'partial' ? 'Partially Correct' :
-                     evaluation.result === 'incorrect' ? 'Incorrect' : 'Self-marked'}
+                  <p className={`font-semibold ${evalTone.text}`}>
+                    {evaluation.result === 'correct' ? `Correct.${streakNote}` :
+                     evaluation.result === 'partial' ? 'Partially correct' :
+                     evaluation.result === 'incorrect' ? 'Not quite' : 'Self-marked'}
                   </p>
                   {typeof evaluation.percentCovered === 'number' && (
-                    <span className={`text-xs font-semibold tabular-nums shrink-0 ${
-                      evaluation.result === 'correct' ? 'text-emerald-700' :
-                      evaluation.result === 'partial' ? 'text-amber-700' :
-                      'text-red-700'
-                    }`}>
+                    <span className={`text-xs font-semibold tabular-nums shrink-0 ${evalTone.text}`}>
                       {evaluation.percentCovered}% covered
                     </span>
                   )}
                 </div>
 
                 {typeof evaluation.percentCovered === 'number' && (
-                  <div className="h-1.5 bg-white/70 rounded-full overflow-hidden">
+                  <div className="h-1.5 bg-surface/70 rounded-full overflow-hidden">
                     <div
-                      className={`h-full rounded-full transition-all duration-300 ${
-                        evaluation.result === 'correct' ? 'bg-emerald-500' :
-                        evaluation.result === 'partial' ? 'bg-amber-500' :
-                        'bg-red-500'
-                      }`}
+                      className={`h-full rounded-full transition-[width] duration-300 ${evalTone.bar}`}
                       style={{ width: `${evaluation.percentCovered}%` }}
                     />
                   </div>
                 )}
 
-                <p className="text-gray-700">{evaluation.feedback}</p>
+                {evaluation.feedback && <p className="text-ink-2 leading-relaxed">{evaluation.feedback}</p>}
 
                 {Array.isArray(evaluation.missingPoints) && evaluation.missingPoints.length > 0 && (
                   <div>
-                    <p className="text-xs text-gray-500 font-medium mb-1">Still missing:</p>
+                    <p className="eyebrow mb-1.5">Still missing</p>
                     <ul className="space-y-1">
                       {evaluation.missingPoints.map((point, i) => (
-                        <li key={i} className="text-xs text-gray-700 flex items-start gap-1.5">
-                          <span className="text-gray-400 shrink-0">＋</span>
+                        <li key={i} className="text-xs text-ink-2 flex items-start gap-1.5">
+                          <span className="text-ink-3 shrink-0">＋</span>
                           <span>{point}</span>
                         </li>
                       ))}
@@ -878,25 +931,25 @@ export default function Quiz() {
                 )}
 
                 <div className="pt-1">
-                  <p className="text-xs text-gray-500 font-medium mb-1">Model Answer:</p>
-                  <p className="text-gray-600 text-xs">{q.answer}</p>
+                  <p className="eyebrow mb-1">Model answer</p>
+                  <p className="text-ink-2 text-xs leading-relaxed">{q.answer}</p>
                 </div>
               </div>
             )}
 
             {/* Self-mark fallback when AI evaluation unavailable */}
             {!isMCQ && evaluation?.result === 'unavailable' && (
-              <div className="rounded-lg p-4 text-sm space-y-3 bg-gray-50 border border-gray-200">
+              <div className="rounded-xl border border-line bg-surface-2 p-4 text-sm space-y-4">
                 <div>
-                  <p className="text-xs text-gray-500 font-medium mb-1">Model Answer:</p>
-                  <p className="text-gray-700 text-xs">{q.answer}</p>
+                  <p className="eyebrow mb-1">Model answer</p>
+                  <p className="text-ink-2 text-sm leading-relaxed">{q.answer}</p>
                 </div>
                 <div>
-                  <p className="text-xs text-gray-500 mb-2">AI evaluation unavailable — how did you do?</p>
+                  <p className="text-xs text-ink-3 mb-2">Automatic marking isn't available — how did you do?</p>
                   <div className="flex gap-2">
-                    <button onClick={() => handleSelfMark(q, 'correct')} className="flex-1 py-1.5 rounded-lg bg-emerald-100 text-emerald-700 font-semibold text-xs hover:bg-emerald-200 transition-colors">Got it</button>
-                    <button onClick={() => handleSelfMark(q, 'partial')} className="flex-1 py-1.5 rounded-lg bg-amber-100 text-amber-700 font-semibold text-xs hover:bg-amber-200 transition-colors">Partially</button>
-                    <button onClick={() => handleSelfMark(q, 'incorrect')} className="flex-1 py-1.5 rounded-lg bg-red-100 text-red-700 font-semibold text-xs hover:bg-red-200 transition-colors">Missed it</button>
+                    <button onClick={() => handleSelfMark(q, 'correct')} className="flex-1 py-2 rounded-xl bg-good-soft text-good font-semibold text-xs border border-good/20 hover:border-good/50 transition duration-150">Got it</button>
+                    <button onClick={() => handleSelfMark(q, 'partial')} className="flex-1 py-2 rounded-xl bg-warn-soft text-warn font-semibold text-xs border border-warn/20 hover:border-warn/50 transition duration-150">Partially</button>
+                    <button onClick={() => handleSelfMark(q, 'incorrect')} className="flex-1 py-2 rounded-xl bg-bad-soft text-bad font-semibold text-xs border border-bad/20 hover:border-bad/50 transition duration-150">Missed it</button>
                   </div>
                 </div>
               </div>
@@ -904,11 +957,11 @@ export default function Quiz() {
 
             {/* ICSE Board Tips */}
             {q.board_tips && (
-              <div className="bg-amber-50 border border-amber-300 rounded-lg p-4 space-y-1.5">
-                <p className="text-xs font-semibold text-amber-800 flex items-center gap-1.5">
+              <div className="rounded-xl border border-accent/30 bg-accent-soft p-4 space-y-1.5">
+                <p className="text-xs font-semibold text-ink flex items-center gap-1.5">
                   📋 ICSE Board Tips
                 </p>
-                <div className="text-xs text-amber-900 leading-relaxed whitespace-pre-line">
+                <div className="text-xs text-ink-2 leading-relaxed whitespace-pre-line">
                   {q.board_tips}
                 </div>
               </div>
@@ -919,14 +972,14 @@ export default function Quiz() {
               <button
                 onClick={getExplanation}
                 disabled={loadingExplanation}
-                className="text-sm text-blue-600 hover:underline disabled:text-gray-400"
+                className="btn-ghost -ml-3 text-brand hover:text-brand disabled:text-ink-3"
               >
                 {loadingExplanation ? 'Getting explanation...' : 'Explain this in detail'}
               </button>
             )}
 
             {explanation && (
-              <div className="bg-blue-50 border border-blue-100 rounded-lg p-4 text-sm text-blue-900 leading-relaxed">
+              <div className="rounded-xl border border-line bg-surface-2 p-5 text-sm text-ink-2 leading-relaxed whitespace-pre-line animate-fade-in">
                 {explanation}
               </div>
             )}
@@ -944,9 +997,9 @@ function Results({ results, chapterName, subject, onRestart, onHome, userId, sel
   const total = results.length;
   const pct = Math.round((correct / total) * 100);
   const grade =
-    pct >= 80 ? { label: 'Excellent!', color: 'text-barca-navy' }
-    : pct >= 60 ? { label: 'Good job!', color: 'text-amber-500' }
-    : { label: 'Keep practicing!', color: 'text-red-500' };
+    pct >= 80 ? { label: 'Excellent work', color: 'text-good' }
+    : pct >= 60 ? { label: 'Good work', color: 'text-warn' }
+    : { label: 'Keep practising', color: 'text-bad' };
 
   const [debrief, setDebrief] = useState(null);
   const [loadingDebrief, setLoadingDebrief] = useState(true);
@@ -1002,55 +1055,93 @@ function Results({ results, chapterName, subject, onRestart, onHome, userId, sel
     fetchDebrief();
   }, []);
 
+  // Score ring (display only)
+  const hasAnswers = total > 0;
+  const R = 52;
+  const C = 2 * Math.PI * R;
+  const ringPct = hasAnswers ? pct : 0;
+
   return (
-    <div className="space-y-6">
+    <div className="max-w-3xl mx-auto space-y-6 animate-fade-in">
 
       {/* Chapter completion celebration */}
       {justCompleted && (
-        <div className="bg-emerald-50 border-2 border-emerald-300 rounded-2xl p-6 text-center space-y-3">
-          <p className="text-4xl">🎉</p>
-          <p className="font-bold text-emerald-800 text-xl">Chapter Complete!</p>
-          <p className="text-sm text-emerald-700">
-            You've answered all {postQuizProgress.total_questions} questions in <strong>{chapterName}</strong>
+        <div className="rounded-2xl border border-good/30 bg-good-soft p-6 text-center space-y-3 animate-burst">
+          <p className="text-4xl" aria-hidden="true">🎉</p>
+          <p className="font-display font-bold text-ink text-xl">Chapter complete</p>
+          <p className="text-sm text-ink-2">
+            You've answered all {postQuizProgress.total_questions} questions in <strong className="text-ink">{chapterName}</strong>
           </p>
           {nextChapter ? (
             <button
               onClick={() => navigate(`/${subject.id}/chapters?chapter=${nextChapter.id}`)}
-              className="mt-1 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-5 py-2.5 rounded-xl transition-colors text-sm"
+              className="btn-primary mt-1"
             >
               Next up: {nextChapter.name} →
             </button>
           ) : (
-            <p className="text-xs text-emerald-600 font-medium">You've completed all chapters! 🏆</p>
+            <p className="text-xs text-good font-semibold">You've completed all chapters.</p>
           )}
         </div>
       )}
 
-      <div className="bg-white rounded-xl border border-gray-200 p-8 text-center">
-        <p className={`text-5xl font-bold ${grade.color}`}>{pct}%</p>
-        <p className="text-lg font-semibold text-gray-700 mt-1">{grade.label}</p>
-        <p className="text-gray-500 text-sm mt-1">{correct} / {total} correct — {chapterName}</p>
-        <div className="flex gap-3 mt-6 justify-center">
-          <button onClick={onRestart} className="bg-barca-navy hover:bg-barca-navy-dark text-white font-semibold px-6 py-2 rounded-lg transition-colors">
-            Try Again
-          </button>
-          <button onClick={onHome} className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold px-6 py-2 rounded-lg transition-colors">
-            Dashboard
-          </button>
+      <div className="card p-8">
+        <div className="flex flex-col items-center gap-8 sm:flex-row sm:items-center">
+          <div className="relative h-36 w-36 shrink-0 animate-burst">
+            <svg viewBox="0 0 120 120" className="h-full w-full -rotate-90" aria-hidden="true">
+              <circle cx="60" cy="60" r={R} fill="none" strokeWidth="10" className="text-surface-2" stroke="currentColor" />
+              <circle
+                cx="60" cy="60" r={R} fill="none" strokeWidth="10" strokeLinecap="round"
+                className={`${grade.color} transition-[stroke-dashoffset] duration-300`}
+                stroke="currentColor"
+                strokeDasharray={C}
+                strokeDashoffset={C * (1 - ringPct / 100)}
+              />
+            </svg>
+            <div className="absolute inset-0 flex flex-col items-center justify-center">
+              <span className={`font-display text-4xl font-bold tabular-nums ${hasAnswers ? grade.color : 'text-ink-3'}`}>{hasAnswers ? `${pct}%` : '—'}</span>
+              <span className="text-[11px] font-semibold uppercase tracking-wider text-ink-3">accuracy</span>
+            </div>
+          </div>
+
+          <div className="flex-1 text-center sm:text-left">
+            <p className="eyebrow">{subject?.label} · {chapterName}</p>
+            <p className="font-display text-2xl font-bold tracking-tight text-ink mt-1">
+              {hasAnswers ? grade.label : 'No answers this round'}
+            </p>
+            <div className="mt-4 grid grid-cols-2 gap-3 max-w-xs mx-auto sm:mx-0">
+              <div className="rounded-xl bg-surface-2 px-4 py-3">
+                <p className="font-display text-xl font-bold text-good tabular-nums">{correct}</p>
+                <p className="text-xs text-ink-3">correct</p>
+              </div>
+              <div className="rounded-xl bg-surface-2 px-4 py-3">
+                <p className="font-display text-xl font-bold text-ink tabular-nums">{total}</p>
+                <p className="text-xs text-ink-3">answered</p>
+              </div>
+            </div>
+            <div className="flex gap-3 mt-6 justify-center sm:justify-start">
+              <button onClick={onRestart} className="btn-primary">
+                Try Again
+              </button>
+              <button onClick={onHome} className="btn-secondary">
+                Dashboard
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
       {/* Coach Debrief */}
       {(loadingDebrief || debrief) && (
-        <div className="bg-barca-navy rounded-xl p-5 text-white">
+        <div className="rounded-2xl bg-gradient-to-br from-barca-navy to-barca-navy-deep p-5 text-white shadow-soft animate-slide-up">
           <div className="flex items-start gap-3">
             <div className="w-9 h-9 rounded-full bg-barca-gold flex items-center justify-center shrink-0 text-barca-navy font-bold text-sm">
               AI
             </div>
-            <div>
-              <p className="text-xs text-white/60 font-medium mb-1">Coach's Take</p>
+            <div className="flex-1">
+              <p className="text-xs text-white/60 font-semibold uppercase tracking-wider mb-1">Coach's take</p>
               {loadingDebrief
-                ? <div className="space-y-2 animate-pulse"><div className="h-3 bg-white/20 rounded w-full"/><div className="h-3 bg-white/20 rounded w-4/5"/></div>
+                ? <div className="space-y-2 animate-pulse"><div className="h-3 bg-barca-navy-light/20 rounded w-full"/><div className="h-3 bg-barca-navy-light/20 rounded w-4/5"/></div>
                 : <p className="text-sm leading-relaxed text-white/90">{debrief}</p>
               }
             </div>
@@ -1058,35 +1149,40 @@ function Results({ results, chapterName, subject, onRestart, onHome, userId, sel
         </div>
       )}
 
-      <div className="bg-white rounded-xl border border-gray-200 divide-y divide-gray-100">
-        {results.map((r, i) => (
-          <div key={i} className="p-4 flex items-start gap-3">
-            <span className={`mt-0.5 text-lg shrink-0 ${r.isCorrect ? 'text-emerald-500' : r.score === 0.5 ? 'text-amber-400' : 'text-red-400'}`}>
-              {r.isCorrect ? '✓' : r.score === 0.5 ? '~' : '✗'}
-            </span>
-            <div className="min-w-0">
-              <div className="flex items-center gap-2 mb-0.5 flex-wrap">
-                <span className={`text-xs px-1.5 py-0.5 rounded font-medium ${r.type === 'mcq' ? 'bg-blue-50 text-blue-600' : 'bg-purple-50 text-purple-600'}`}>
-                  {r.type === 'mcq' ? 'MCQ' : 'SA'}
+      {results.length > 0 && (
+        <div className="card divide-y divide-line">
+          {results.map((r, i) => {
+            const tone = r.isCorrect ? 'bg-good-soft text-good' : r.score === 0.5 ? 'bg-warn-soft text-warn' : 'bg-bad-soft text-bad';
+            return (
+              <div key={i} className="p-4 flex items-start gap-3">
+                <span className={`mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-sm font-bold ${tone}`}>
+                  {r.isCorrect ? '✓' : r.score === 0.5 ? '~' : '✗'}
                 </span>
-                {r.question.year_tag === 'AI Generated' && (
-                  <span className="text-xs px-1.5 py-0.5 rounded font-medium bg-violet-50 text-violet-600">AI</span>
-                )}
+                <div className="min-w-0">
+                  <div className="flex items-center gap-2 mb-1 flex-wrap">
+                    <span className={`pill ${r.type === 'mcq' ? 'bg-brand-soft text-brand-ink' : 'bg-surface-2 text-ink-2'}`}>
+                      {r.type === 'mcq' ? 'MCQ' : 'SA'}
+                    </span>
+                    {r.question.year_tag === 'AI Generated' && (
+                      <span className="pill bg-accent-soft text-ink-2">AI</span>
+                    )}
+                  </div>
+                  <p className="text-sm text-ink leading-snug">{r.question.question}</p>
+                  {r.type === 'mcq' && !r.isCorrect && (
+                    <p className="text-xs text-bad mt-1">
+                      Your answer: {r.question.options[r.userAnswer]} — Correct: {r.question.options[r.question.answer]}
+                    </p>
+                  )}
+                  {r.type === 'short_answer' && r.feedback && (
+                    <p className="text-xs text-ink-2 mt-1">{r.feedback}</p>
+                  )}
+                  <p className="text-xs text-ink-3 mt-0.5">{r.question.skill}</p>
+                </div>
               </div>
-              <p className="text-sm text-gray-700 leading-snug">{r.question.question}</p>
-              {r.type === 'mcq' && !r.isCorrect && (
-                <p className="text-xs text-red-500 mt-1">
-                  Your answer: {r.question.options[r.userAnswer]} — Correct: {r.question.options[r.question.answer]}
-                </p>
-              )}
-              {r.type === 'short_answer' && r.feedback && (
-                <p className="text-xs text-gray-500 mt-1">{r.feedback}</p>
-              )}
-              <p className="text-xs text-gray-400 mt-0.5">{r.question.skill}</p>
-            </div>
-          </div>
-        ))}
-      </div>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }
