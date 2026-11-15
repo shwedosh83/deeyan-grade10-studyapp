@@ -10,7 +10,7 @@ import { EmptyCard, ErrorCard, Field, Ring, Segmented, TONE, toneOf } from './ui
 const KINDS = ['numerical', 'data_diagram', 'reasoning', 'case', 'program', 'map'];
 const COUNTS = [5, 10, 15];
 
-export default function BoardApplied() {
+export default function BoardApplied({ fixedSource = null }) {
   const { subject } = useSubject();
   const { user } = useAuth();
   const navigate = useNavigate();
@@ -18,7 +18,7 @@ export default function BoardApplied() {
   const [phase, setPhase] = useState('setup'); // setup | loading | running | done
   const [kinds, setKinds] = useState([]);
   const [selChapters, setSelChapters] = useState([]);   // [] = all chapters
-  const [source, setSource] = useState('');  // '' = board + prelims, 'board', 'prelim'
+  const [source, setSource] = useState(fixedSource || '');  // '' = board + prelims, 'board', 'prelim'
   const [count, setCount] = useState(10);
   const [chapters, setChapters] = useState([]);
   const [info, setInfo] = useState(null);
@@ -34,9 +34,9 @@ export default function BoardApplied() {
   const hasBoard = SUBJECTS_WITH_BOARD.includes(subject.id);
 
   useEffect(() => {
-    setPhase('setup'); setKinds([]); setSelChapters([]); setSource(''); setInfo(null); setError(null);
+    setPhase('setup'); setKinds([]); setSelChapters([]); setSource(fixedSource || ''); setInfo(null); setError(null);
     if (!hasBoard) return;
-    boardApi('boardPapers', { action: 'applied', subject: subject.id, count: 1, userId: user?.id || null })
+    boardApi('boardPapers', { action: 'applied', subject: subject.id, count: 1, userId: user?.id || null, source: fixedSource })
       .then(d => { setChapters(d.chapters || []); setInfo(d); }).catch(() => {});
   }, [subject.id]); // eslint-disable-line
 
@@ -85,8 +85,8 @@ export default function BoardApplied() {
   if (phase === 'setup' || phase === 'loading') return (
     <div className="max-w-2xl space-y-6 animate-fade-in">
       <div>
-        <p className="eyebrow">Applied questions</p>
-        <p className="mt-1 text-sm leading-relaxed text-ink-2">Board-paper questions that test using ideas in new situations — case studies, numericals, data and diagram reading — drawn from all {subject.label} papers. Marked against the official solution with the exact points you missed.</p>
+        {!fixedSource && <p className="eyebrow">Applied questions</p>}
+        {!fixedSource && <p className="mt-1 text-sm leading-relaxed text-ink-2">Board-paper questions that test using ideas in new situations — case studies, numericals, data and diagram reading — drawn from all {subject.label} papers. Marked against the official solution with the exact points you missed.</p>}
         {info && (
           <div className="mt-3 flex flex-wrap gap-2">
             <span className="pill bg-surface-2 text-ink-2">{info.pool_size} to practise</span>
@@ -95,7 +95,7 @@ export default function BoardApplied() {
         )}
       </div>
       <div className="card space-y-6 p-6">
-        {(info?.sources || []).length > 1 && (
+        {!fixedSource && (info?.sources || []).length > 1 && (
           <Field label="Which papers?">
             <Segmented value={source} onChange={setSource} options={['', 'board', 'prelim'].map(s => [s, SOURCE_LABELS[s]])} />
           </Field>
@@ -168,7 +168,7 @@ export default function BoardApplied() {
           {r.points_hit?.length > 0 && <ul className="space-y-1 rounded-xl bg-good-soft p-3 text-sm text-good">{r.points_hit.map((p, i) => <li key={i}>✓ {p}</li>)}</ul>}
           {r.points_missed?.length > 0 && <div className="rounded-xl bg-bad-soft p-3"><p className="mb-1 text-xs font-semibold text-bad">What was missing</p><ul className="space-y-1 text-sm text-ink-2">{r.points_missed.map((p, i) => <li key={i}>＋ {p}</li>)}</ul></div>}
           {r.feedback && <p className="text-xs italic text-ink-3">{r.feedback}</p>}
-          <div className="rounded-xl border border-line bg-surface-2 p-4"><p className="mb-1.5 text-xs font-semibold text-good">Official solution</p><p className="whitespace-pre-wrap text-sm leading-relaxed text-ink-2">{r.solution}</p></div>
+          <div className="rounded-xl border border-line bg-surface-2 p-4"><p className="mb-1.5 text-xs font-semibold text-good">Official solution</p><p className={`whitespace-pre-wrap leading-relaxed text-ink-2 ${q.applied_kind === 'program' ? 'font-mono text-[13px]' : 'text-sm'}`}>{r.solution}</p></div>
           {needsSelf && (
             <div className="flex flex-wrap items-center gap-3 rounded-xl bg-warn-soft p-3 text-sm text-ink-2">
               <label className="flex items-center gap-2">My marks: <input type="number" min="0" max={r.marks} step="0.5" value={selfMarks} onChange={e => setSelfMarks(e.target.value)} className="input !w-24 !py-1.5" /> / {fmtMarks(r.marks)}</label>

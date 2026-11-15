@@ -11,7 +11,7 @@ import { EmptyCard, ErrorCard, Field, Segmented, Spinner, TimerPill } from './ui
 const COUNTS = [10, 15, 20];
 const SECONDS_PER_Q = 45;
 
-export default function BoardSprint() {
+export default function BoardSprint({ fixedSource = null }) {
   const { subject } = useSubject();
   const { user } = useAuth();
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ export default function BoardSprint() {
   const [count, setCount] = useState(15);
   const [selChapters, setSelChapters] = useState([]);   // [] = all chapters
   const [chapters, setChapters] = useState([]);
-  const [source, setSource] = useState('');     // '' = board + prelims, 'board', 'prelim'
+  const [source, setSource] = useState(fixedSource || '');     // '' = board + prelims, 'board', 'prelim'; fixed to 'competency' on the Competency tab
   const [sources, setSources] = useState([]);   // sources that exist in this subject's pool
   const [questions, setQuestions] = useState([]);
   const [poolSize, setPoolSize] = useState(null);
@@ -37,7 +37,7 @@ export default function BoardSprint() {
   const hasBoard = SUBJECTS_WITH_BOARD.includes(subject.id);
   const qMap = useMemo(() => Object.fromEntries(questions.map(q => [q.id, q])), [questions]);
 
-  useEffect(() => { setPhase('setup'); setResult(null); setError(null); setSelChapters([]); setChapters([]); setSource(''); setSources([]); }, [subject.id]);
+  useEffect(() => { setPhase('setup'); setResult(null); setError(null); setSelChapters([]); setChapters([]); setSource(fixedSource || ''); setSources([]); }, [subject.id]);
 
   // Chapter + source lists for the setup screen (count 0 = metadata only).
   useEffect(() => {
@@ -93,12 +93,12 @@ export default function BoardSprint() {
 
   if (phase === 'setup' || phase === 'loading') return (
     <div className="max-w-2xl space-y-6 animate-fade-in">
-      <div>
+      {!fixedSource && <div>
         <p className="eyebrow">Sprint round</p>
         <p className="mt-1 text-sm leading-relaxed text-ink-2">Quick-fire objectives from real {subject.label} board papers: MCQs, assertion–reason, match the column, fill in the blanks, name the term. {SECONDS_PER_Q} seconds each, marked instantly.</p>
-      </div>
+      </div>}
       <div className="card space-y-6 p-6">
-        {sources.length > 1 && (
+        {!fixedSource && sources.length > 1 && (
           <Field label="Which papers?">
             <Segmented value={source} onChange={s => { setSource(s); setSelChapters([]); }}
               options={['', 'board', 'prelim'].map(s => [s, SOURCE_LABELS[s]])} />

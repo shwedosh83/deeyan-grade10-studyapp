@@ -1,0 +1,2521 @@
+{
+ "paper_id": "competency_biology",
+ "subject": "biology",
+ "year": 2024,
+ "sem": null,
+ "label": "CISCE Competency Bank",
+ "source": "competency",
+ "school": "CISCE",
+ "exam_label": "Competency-focused practice questions",
+ "max_marks": 85.0,
+ "duration_minutes": 0,
+ "reading_minutes": 0,
+ "instructions": "Official CISCE competency-focused practice questions (July 2024).",
+ "sections": [
+  {
+   "name": "Item bank",
+   "total_marks": 85.0,
+   "rule": "Practice item bank",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Pollution",
+   "topic": "Pollution - noise pollution near airport",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "noise pollution effects"
+   ],
+   "question": "Rita suffers from constant headaches and high blood pressure. Her residence is close to an airport. What could be the most likely cause of her condition?",
+   "options": {
+    "a": "Noise pollution",
+    "b": "Air pollution",
+    "c": "Nuclear pollution",
+    "d": "Water pollution"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Noise pollution. Continuous loud aircraft noise near an airport causes stress, headaches, sleep disturbance and raised blood pressure (hypertension).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "2",
+   "q_order": 1,
+   "q_main": 2,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Human Anatomy and Physiology - exo-endocrine (heterocrine) gland",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "heterocrine gland",
+    "pancreas"
+   ],
+   "question": "An exo-endocrine gland in the human body is:",
+   "options": {
+    "a": "Pituitary gland",
+    "b": "Pancreas",
+    "c": "Salivary gland",
+    "d": "Adrenal gland"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Pancreas. It is both exocrine (secretes pancreatic juice through a duct into the duodenum) and endocrine (islets of Langerhans secrete insulin and glucagon directly into the blood).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3",
+   "q_order": 2,
+   "q_main": 3,
+   "section": "Item bank",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Human Anatomy and Physiology - dialysis and urea toxicity",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "dialysis",
+    "urea toxicity"
+   ],
+   "question": "Assertion: If both kidneys fail, urea from the blood is removed by dialysis.\nReason: Accumulation of urea in the human body is toxic.",
+   "options": {
+    "a": "A is True, and R is false.",
+    "b": "A is False, and R is true.",
+    "c": "Both A and R are true.",
+    "d": "Both A and R are false."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Both A and R are true. When both kidneys fail, an artificial kidney (haemodialysis) removes urea from the blood; this is necessary because accumulation of urea (uraemia) is toxic. R correctly explains why dialysis is needed.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4",
+   "q_order": 3,
+   "q_main": 4,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Human Anatomy and Physiology - colour blindness",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "colour blindness",
+    "cones"
+   ],
+   "question": "Rajesh was told to buy a blue cloth by his craft teacher. He couldn't differentiate blue colour from green and hence brought a green cloth to class. Which medical reason could have resulted in this?",
+   "options": {
+    "a": "Myopia",
+    "b": "Cataract",
+    "c": "Colour blindness",
+    "d": "Hyperopia"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Colour blindness. Inability to distinguish certain colours is due to defective cone cells of the retina (an inherited, sex-linked condition); the other options affect focusing or clarity, not colour discrimination.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "5",
+   "q_order": 4,
+   "q_main": 5,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Plant Physiology - plasmolysis by salt",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "plasmolysis",
+    "exosmosis",
+    "hypertonic solution"
+   ],
+   "question": "Mary sprinkled 5 kg of common salt on the grass growing on her lawn. After a couple of days, she observed that the grass had wilted and died. This was due to which of the following conditions?",
+   "options": {
+    "a": "Endosmosis",
+    "b": "Turgidity",
+    "c": "Deplasmolysis",
+    "d": "Plasmolysis"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Plasmolysis. The salt makes the soil solution hypertonic, so water moves out of the root and grass cells by exosmosis; the protoplasm shrinks away from the cell wall (plasmolysis), the plants wilt and die.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "7",
+   "q_order": 5,
+   "q_main": 7,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Basic Biology - stages of mitosis",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "metaphase",
+    "anaphase"
+   ],
+   "question": "The given figures A and B show ______ and ______ stages of cell division.",
+   "options": {
+    "a": "prophase, metaphase",
+    "b": "telophase, anaphase",
+    "c": "metaphase, anaphase",
+    "d": "anaphase, telophase"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) metaphase, anaphase. In A the chromosomes are lined up at the equator attached to spindle fibres (metaphase); in B the chromatids have separated and are moving towards opposite poles (anaphase).",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Two diagrams of a dividing cell with spindle: A shows chromosomes aligned at the equatorial plate; B shows chromatids being pulled towards opposite poles.",
+   "page": 5,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_biology/p5.jpg"
+  },
+  {
+   "q_label": "8",
+   "q_order": 6,
+   "q_main": 8,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Human Anatomy and Physiology - dialysis fluid",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "dialysis",
+    "osmotic pressure"
+   ],
+   "question": "A person is suffering from kidney failure. He is put on a dialysis machine by the doctors. The osmotic pressure of dialysis fluid should be:",
+   "options": {
+    "a": "equal to that of blood.",
+    "b": "more than that of blood.",
+    "c": "less than that of blood.",
+    "d": "equal to zero."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) equal to that of blood. The dialysing fluid is isotonic with blood (same salts, no urea), so there is no net loss or gain of water by blood cells/plasma, while urea diffuses out of the blood down its concentration gradient.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "9",
+   "q_order": 7,
+   "q_main": 9,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Human Anatomy and Physiology - adrenaline in emergency",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "adrenaline",
+    "fight or flight"
+   ],
+   "question": "A squirrel is in a scary situation. The secreted adrenaline prepares the body to meet the situation. Which of the following is NOT TRUE for this situation?",
+   "options": {
+    "a": "Adrenaline prepares the body to fight danger.",
+    "b": "Extra energy and strength are provided to the body.",
+    "c": "At the time of the stress, fewer hormones are released into the blood.",
+    "d": "Adrenaline prepares the body to run away from danger."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) At the time of the stress, fewer hormones are released into the blood. This is false: during stress the adrenal medulla releases MORE adrenaline (the 'fight or flight' hormone), which raises heartbeat, blood glucose and energy so the animal can fight or flee.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "10",
+   "q_order": 8,
+   "q_main": 10,
+   "section": "Item bank",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Human Anatomy and Physiology - pulmonary artery",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "pulmonary artery",
+    "deoxygenated blood"
+   ],
+   "question": "Assertion (A): The main pulmonary artery pumps oxygenated blood from the right vertical into the lungs.\nReason (R): Inside the lungs, the artery divides and divides several times to form capillaries around the air sacs.",
+   "options": {
+    "a": "A is True, and R is false.",
+    "b": "A is False, and R is true.",
+    "c": "Both A and R are true.",
+    "d": "Both A and R are false."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) A is False, and R is true. The pulmonary artery carries DEOXYGENATED blood from the right ventricle to the lungs, so A is false. R is true: in the lungs it branches repeatedly into capillaries around the alveoli for gaseous exchange.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "11",
+   "q_order": 9,
+   "q_main": 11,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Human Anatomy and Physiology - conditioned reflexes",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "conditioned reflex",
+    "natural reflex"
+   ],
+   "question": "Given below are some common reflexes in humans.\ni. Quick closing of the eyelids when a strong beam of light is flashed across.\nii. Apply brakes to your vehicle if anything suddenly comes in front.\niii. Playing a musical instrument\niv. Coughing reflex, when the food is swallowed, enters the windpipe.\nThe conditioned reflexes are:",
+   "options": {
+    "a": "i and ii",
+    "b": "ii and iii",
+    "c": "iii and iv",
+    "d": "i and iv"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) ii and iii. Applying brakes and playing a musical instrument are acquired through learning and practice (conditioned reflexes); blinking and coughing are inborn (natural) reflexes.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "13",
+   "q_order": 10,
+   "q_main": 13,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Human Anatomy and Physiology - mechanism of vision",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "vision sequence",
+    "retina",
+    "optic nerve"
+   ],
+   "question": "The four major steps in seeing an object are:\ni. interpretation by the brain.\nii. focussing of image.\niii. entry of light rays.\niv. transmission of nerve impulses from the retina & brain.\nThe correct sequence will be:",
+   "options": {
+    "a": "i, ii, iii, iv",
+    "b": "ii, iii, iv, i",
+    "c": "iii, ii, iv, i",
+    "d": "iv, i, ii, iii"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) iii, ii, iv, i. Light enters the eye, the lens focuses the image on the retina, impulses travel along the optic nerve to the brain, and the brain interprets them.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "14",
+   "q_order": 11,
+   "q_main": 14,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Human Anatomy and Physiology - nephron",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "nephron",
+    "kidney structure"
+   ],
+   "question": "Based on the given figure, identify the structural as well as the functional unit of kidney:",
+   "options": {
+    "a": "A",
+    "b": "B",
+    "c": "C",
+    "d": "D"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) C. The part labelled C is the enlarged nephron (Bowman's capsule with glomerulus and the renal tubule), which is the structural and functional unit of the kidney.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Sectional view of a kidney with labels A (ureter/pelvis region), B (renal blood vessels), D (cortex/capsule), and C pointing to an enlarged nephron with glomerulus and tubule.",
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_biology/p7.jpg"
+  },
+  {
+   "q_label": "15",
+   "q_order": 12,
+   "q_main": 15,
+   "section": "Item bank",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Human Anatomy and Physiology - seminiferous tubules",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "seminiferous tubules",
+    "oxytocin"
+   ],
+   "question": "Assertion: Seminiferous tubules produce sperms.\nReason: Seminiferous tubules secrete Oxytocin, which aids in the production of sperm.",
+   "options": {
+    "a": "A is True, and R is false.",
+    "b": "A is False, and R is true.",
+    "c": "Both A and R are true.",
+    "d": "Both A and R are false."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) A is True, and R is false. Sperms are produced in the seminiferous tubules of the testes. Oxytocin is secreted (released) by the posterior pituitary and causes uterine contractions and milk ejection; it does not come from the tubules or aid sperm production.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "16",
+   "q_order": 13,
+   "q_main": 16,
+   "section": "Item bank",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Human Anatomy and Physiology - synapse",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 3,
+   "concepts": [
+    "synapse",
+    "neurotransmitter"
+   ],
+   "question": "Assertion: The nerve impulse travels from the axon of a neuron to the axon of another neuron.\nReason: The end portion of the axon has swollen ends, which store neurotransmitters.",
+   "options": {
+    "a": "A is True, and R is false.",
+    "b": "A is False, and R is true.",
+    "c": "Both A and R are true.",
+    "d": "Both A and R are false."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) A is False, and R is true. At a synapse the impulse passes from the axon endings of one neuron to the DENDRITES (or cell body) of the next, not axon to axon. The axon terminals do have swollen synaptic knobs storing neurotransmitter (acetylcholine).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "17",
+   "q_order": 14,
+   "q_main": 17,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Human Anatomy and Physiology - urine output and sweating",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "water reabsorption",
+    "sweating",
+    "osmoregulation"
+   ],
+   "question": "Thomas played cricket on a hot summer afternoon. His urine output was much less, though he drank plenty of water. What could be the possible cause?\nP - Kidneys reabsorb a lot of water\nQ - Sweat glands are active\nR - Kidneys absorb less water\nS - Sweat glands are inactive",
+   "options": {
+    "a": "R and Q",
+    "b": "P and Q",
+    "c": "P and S",
+    "d": "R and S"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) P and Q. On a hot day much water is lost as sweat (sweat glands active); to conserve water, more ADH is released and the kidney tubules reabsorb more water, so less urine is formed.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "19",
+   "q_order": 15,
+   "q_main": 19,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Human Anatomy and Physiology - diabetes diet",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "diabetes mellitus",
+    "sugar-rich foods"
+   ],
+   "question": "Surya's father was diagnosed with Diabetes mellitus. The doctor advised him to avoid certain foods. Which are the foods he should avoid eating?\nP - Sweets\nQ - Leafy vegetables\nR - Bananas\nS - Pulses",
+   "options": {
+    "a": "P and R",
+    "b": "Q and S",
+    "c": "R and S",
+    "d": "P and Q"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) P and R. Sweets and bananas are rich in sugars that raise blood glucose quickly; a diabetic (insulin-deficient) person should avoid them, whereas leafy vegetables and pulses are recommended.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "20",
+   "q_order": 16,
+   "q_main": 20,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Human Anatomy and Physiology - light adaptation",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "rods and cones",
+    "light adaptation"
+   ],
+   "question": "During light adaptation:",
+   "options": {
+    "a": "Rods and cones become active.",
+    "b": "Rods and cones become inactive.",
+    "c": "Rods become active and cones inactive.",
+    "d": "Cones become active and rods inactive."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Cones become active and rods inactive. In bright light rhodopsin of rods is bleached so rods stop working, and the cones (iodopsin) take over for bright-light and colour vision.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "21",
+   "q_order": 17,
+   "q_main": 21,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Plant Physiology - plasmolysis in salt solution",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "plasmolysis",
+    "flaccidity"
+   ],
+   "question": "A cell of a leaf of an aquatic plant is kept in a 5% salt solution for some time. The phenomenon which will take place is/are:",
+   "options": {
+    "a": "turgidity",
+    "b": "plasmolysis",
+    "c": "turgidity and flaccidity",
+    "d": "plasmolysis and flaccidity"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) plasmolysis and flaccidity. 5% salt solution is hypertonic to the cell sap, so water leaves the cell by exosmosis; the cell loses turgor (becomes flaccid) and the protoplasm shrinks away from the wall (plasmolysis).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "22",
+   "q_order": 18,
+   "q_main": 22,
+   "section": "Item bank",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Plant Physiology - osmosis",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "osmosis",
+    "water potential"
+   ],
+   "question": "Osmosis is controlled by the concentration of _______ molecules.",
+   "options": null,
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Osmosis is controlled by the concentration of _______ molecules.",
+     "accepted": [
+      "water"
+     ]
+    }
+   ],
+   "solution": "water. Osmosis is the movement of water molecules from a region of their higher concentration to lower concentration through a semi-permeable membrane.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "23",
+   "q_order": 19,
+   "q_main": 23,
+   "section": "Item bank",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Plant Physiology - animal cell in hypotonic solution",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "hypotonic solution",
+    "endosmosis"
+   ],
+   "question": "An animal cell is kept in a lower solute concentration fluid. The cell will _________. (Enlarge / Shrink)",
+   "options": null,
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "An animal cell is kept in a lower solute concentration fluid. The cell will _________. (Enlarge / Shrink)",
+     "accepted": [
+      "enlarge",
+      "swell"
+     ]
+    }
+   ],
+   "solution": "enlarge. The outside fluid is hypotonic, so water enters the cell by endosmosis and the cell swells (it may even burst, as it has no cell wall).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "24",
+   "q_order": 20,
+   "q_main": 24,
+   "section": "Item bank",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Plant Physiology - water absorption by roots",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "root hair",
+    "cell sap concentration"
+   ],
+   "question": "Plants absorb water from the roots because the cell sap is _______ (more, less) concentrated than the surrounding fluids.",
+   "options": null,
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Plants absorb water from the roots because the cell sap is _______ (more, less) concentrated than the surrounding fluids.",
+     "accepted": [
+      "more"
+     ]
+    }
+   ],
+   "solution": "more. The cell sap of root hairs is more concentrated (hypertonic) than the soil water, so water enters by osmosis.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "25",
+   "q_order": 21,
+   "q_main": 25,
+   "section": "Item bank",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Human Anatomy and Physiology - RBCs in hypertonic solution",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "exosmosis",
+    "hypertonic solution",
+    "crenation"
+   ],
+   "question": "Human red blood cells, when kept in a hypertonic solution, ______ occurs. (Osmosis, endosmosis, exosmosis)",
+   "options": null,
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Human red blood cells, when kept in a hypertonic solution, ______ occurs. (Osmosis, endosmosis, exosmosis)",
+     "accepted": [
+      "exosmosis"
+     ]
+    }
+   ],
+   "solution": "exosmosis. Water moves out of the RBCs into the more concentrated surrounding solution, so the cells shrink (crenate).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "26",
+   "q_order": 22,
+   "q_main": 26,
+   "section": "Item bank",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Plant Physiology - thistle funnel osmosis experiment",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 1,
+   "concepts": [
+    "osmosis demonstration"
+   ],
+   "question": "Given below is an experimental setup (a thistle funnel experiment). Concentrated sugar solution is taken in the thistle funnel. The mouth of the thistle funnel is covered with cellophane paper. The thistle funnel is inverted in a beaker containing water.\nThe above experiment demonstrates __________.",
+   "options": null,
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Given below is an experimental setup (a thistle funnel experiment). Concentrated sugar solution is taken in the thistle funnel. The mouth of the thistle funnel is covered with cellophane paper. The thistle funnel is inverted in a beaker containing water.\nThe above experiment demonstrates __________.",
+     "accepted": [
+      "osmosis",
+      "endosmosis"
+     ]
+    }
+   ],
+   "solution": "osmosis. Water from the beaker passes through the semi-permeable cellophane into the sugar solution.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "27",
+   "q_order": 23,
+   "q_main": 27,
+   "section": "Item bank",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Plant Physiology - thistle funnel osmosis experiment",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 1,
+   "concepts": [
+    "osmosis demonstration"
+   ],
+   "question": "Given below is an experimental setup (a thistle funnel experiment). Concentrated sugar solution is taken in the thistle funnel. The mouth of the thistle funnel is covered with cellophane paper. The thistle funnel is inverted in a beaker containing water.\nAfter a few hours, the level of the sugar solution __________ in the thistle funnel.",
+   "options": null,
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Given below is an experimental setup (a thistle funnel experiment). Concentrated sugar solution is taken in the thistle funnel. The mouth of the thistle funnel is covered with cellophane paper. The thistle funnel is inverted in a beaker containing water.\nAfter a few hours, the level of the sugar solution __________ in the thistle funnel.",
+     "accepted": [
+      "rises",
+      "increases",
+      "goes up"
+     ]
+    }
+   ],
+   "solution": "rises. Water enters the funnel by osmosis (endosmosis), increasing the volume of the solution, so the level in the stem rises.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "28",
+   "q_order": 24,
+   "q_main": 28,
+   "section": "Item bank",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Plant Physiology - semi-permeable membrane",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 1,
+   "concepts": [
+    "semi-permeable membrane"
+   ],
+   "question": "Given below is an experimental setup (a thistle funnel experiment). Concentrated sugar solution is taken in the thistle funnel. The mouth of the thistle funnel is covered with cellophane paper. The thistle funnel is inverted in a beaker containing water.\nIt (the cellophane paper) allows only ________ molecules to pass through it freely.",
+   "options": null,
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Given below is an experimental setup (a thistle funnel experiment). Concentrated sugar solution is taken in the thistle funnel. The mouth of the thistle funnel is covered with cellophane paper. The thistle funnel is inverted in a beaker containing water.\nIt (the cellophane paper) allows only ________ molecules to pass through it freely.",
+     "accepted": [
+      "water"
+     ]
+    }
+   ],
+   "solution": "water. Cellophane acts as a semi-permeable membrane, permitting the small water (solvent) molecules to pass.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "29",
+   "q_order": 25,
+   "q_main": 29,
+   "section": "Item bank",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Plant Physiology - semi-permeable membrane",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 1,
+   "concepts": [
+    "semi-permeable membrane"
+   ],
+   "question": "Given below is an experimental setup (a thistle funnel experiment). Concentrated sugar solution is taken in the thistle funnel. The mouth of the thistle funnel is covered with cellophane paper. The thistle funnel is inverted in a beaker containing water.\nIt (the cellophane paper) prevents the passage of ________ molecules.",
+   "options": null,
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Given below is an experimental setup (a thistle funnel experiment). Concentrated sugar solution is taken in the thistle funnel. The mouth of the thistle funnel is covered with cellophane paper. The thistle funnel is inverted in a beaker containing water.\nIt (the cellophane paper) prevents the passage of ________ molecules.",
+     "accepted": [
+      "sugar",
+      "sucrose",
+      "solute"
+     ]
+    }
+   ],
+   "solution": "sugar. The larger sugar (solute) molecules cannot pass through the cellophane.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "30",
+   "q_order": 26,
+   "q_main": 30,
+   "section": "Item bank",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Absorption by Roots",
+   "topic": "Plant Physiology - control experiment",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "control experiment",
+    "osmosis"
+   ],
+   "question": "Given below is an experimental setup (a thistle funnel experiment). Concentrated sugar solution is taken in the thistle funnel. The mouth of the thistle funnel is covered with cellophane paper. The thistle funnel is inverted in a beaker containing water.\nA control experiment can be set up by taking plain _______ in the thistle funnel and placing it in another beaker containing water.",
+   "options": null,
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Given below is an experimental setup (a thistle funnel experiment). Concentrated sugar solution is taken in the thistle funnel. The mouth of the thistle funnel is covered with cellophane paper. The thistle funnel is inverted in a beaker containing water.\nA control experiment can be set up by taking plain _______ in the thistle funnel and placing it in another beaker containing water.",
+     "accepted": [
+      "water"
+     ]
+    }
+   ],
+   "solution": "water. With water on both sides there is no concentration difference, so no change in level occurs, showing that the rise is due to the sugar solution.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "31",
+   "q_order": 27,
+   "q_main": 31,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Human Anatomy and Physiology - dengue haemorrhage vs haemophilia",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "platelets",
+    "blood clotting",
+    "haemophilia"
+   ],
+   "question": "Haemorrhage frequently happens in viral dengue fever. Compare this condition with haemophilia.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "In dengue fever the virus causes the platelet (thrombocyte) count to fall very low; with too few platelets blood cannot clot properly, so internal bleeding (haemorrhage) occurs. It is an acquired, temporary condition that recovers as the platelet count rises. Haemophilia is an inherited, sex-linked (X-linked recessive) genetic disorder in which a clotting factor is lacking, so blood fails to clot even from a small cut; it is lifelong. (Key: dengue = acquired fall in platelets; haemophilia = genetic deficiency of clotting factor.)",
+   "marking_points": [
+    {
+     "point": "Dengue: viral infection lowers platelet count, so clotting fails and haemorrhage occurs (acquired, temporary)",
+     "marks": 1.0
+    },
+    {
+     "point": "Haemophilia: inherited/sex-linked genetic disorder - clotting factor absent, blood does not clot (lifelong)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "32(a)",
+   "q_order": 28,
+   "q_main": 32,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Photosynthesis",
+   "topic": "Plant Physiology - temperature and rate of photosynthesis",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "temperature as limiting factor"
+   ],
+   "question": "Differentiate in the rate of photosynthesis for the increase in temperature.\n(a) 20° to 30°C",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Between 20°C and 30°C the rate of photosynthesis increases (roughly doubles for every 10°C rise), because the enzymes of the dark reaction work faster as temperature rises in this optimum range.",
+   "marking_points": [
+    {
+     "point": "Rate increases / roughly doubles, as enzyme activity increases",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "32(b)",
+   "q_order": 29,
+   "q_main": 32,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Photosynthesis",
+   "topic": "Plant Physiology - temperature and rate of photosynthesis",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "temperature as limiting factor",
+    "enzyme denaturation"
+   ],
+   "question": "Differentiate in the rate of photosynthesis for the increase in temperature.\n(b) 40°C to 50°C",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Between 40°C and 50°C the rate of photosynthesis falls sharply and finally stops, because the enzymes are denatured (destroyed) at high temperature and stomata close.",
+   "marking_points": [
+    {
+     "point": "Rate decreases sharply and stops - enzymes denatured at high temperature",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "33",
+   "q_order": 30,
+   "q_main": 33,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "topic": "Basic Biology - DNA base pairing",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "DNA base pairing",
+    "hydrogen bonds"
+   ],
+   "question": "Name the nitrogenous base with which Guanine pairs up in the helical structure of DNA and through how many hydrogen bonds?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Guanine pairs with Cytosine, joined by three (3) hydrogen bonds (G≡C).",
+   "marking_points": [
+    {
+     "point": "Cytosine",
+     "marks": 1.0
+    },
+    {
+     "point": "Three hydrogen bonds",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "34",
+   "q_order": 31,
+   "q_main": 34,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Human Anatomy and Physiology - sneezing reflex",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "reflex action",
+    "stimulus and response"
+   ],
+   "question": "When an irritant enters the nose, a sneezing reflex happens. Identify the stimulus and the response.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Stimulus: the irritant (dust/foreign particle) entering the nose. Response: sneezing - a forceful expulsion of air through the nose and mouth to throw out the irritant.",
+   "marking_points": [
+    {
+     "point": "Stimulus - the irritant (dust/foreign particle) in the nose",
+     "marks": 1.0
+    },
+    {
+     "point": "Response - sneezing (forceful expulsion of air)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "35",
+   "q_order": 32,
+   "q_main": 35,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Genetics",
+   "topic": "Basic Biology - mutation due to radiation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "mutation",
+    "radiation"
+   ],
+   "question": "An atomic explosion in 1945 in Japan led to a large number of persisting deformities in the bodies of plants and animals. What might have happened?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The atomic explosion released high-energy ionising radiation which caused mutations - sudden changes in the genes/chromosomes (hereditary material, DNA) of body and reproductive cells. Mutations in germ cells were passed on to offspring, so the deformities persisted over generations.",
+   "marking_points": [
+    {
+     "point": "Radiation caused mutations - changes in genes/chromosomes (DNA)",
+     "marks": 1.0
+    },
+    {
+     "point": "Mutations in reproductive cells are inherited, so deformities persisted",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "36",
+   "q_order": 33,
+   "q_main": 36,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Circulatory System",
+   "topic": "Human Anatomy and Physiology - bicuspid valve",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "bicuspid valve",
+    "mitral valve"
+   ],
+   "question": "Why is a bicuspid valve in the human heart named so?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The bicuspid (mitral) valve lies between the left atrium and the left ventricle and is named so because it has two cusps (flaps).",
+   "marking_points": [
+    {
+     "point": "It has two cusps/flaps",
+     "marks": 1.0
+    },
+    {
+     "point": "Located between left atrium and left ventricle",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "37",
+   "q_order": 34,
+   "q_main": 37,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Photosynthesis",
+   "topic": "Plant Physiology - CO2 uptake by leaf",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "CO2 diffusion",
+    "photosynthesis vs respiration"
+   ],
+   "question": "Under which condition does a leaf take carbon dioxide from the atmosphere?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A leaf takes in CO2 when the concentration of CO2 outside the leaf is higher than inside, i.e., in light when the rate of photosynthesis is greater than the rate of respiration (above the compensation point). CO2 inside is used up in photosynthesis, so CO2 diffuses in through open stomata.",
+   "marking_points": [
+    {
+     "point": "In light, when photosynthesis exceeds respiration",
+     "marks": 1.0
+    },
+    {
+     "point": "CO2 concentration outside higher than inside, so CO2 diffuses in through stomata",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "39",
+   "q_order": 35,
+   "q_main": 39,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Human Anatomy and Physiology - glomerular pressure",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "ultrafiltration",
+    "afferent and efferent arteriole"
+   ],
+   "question": "Why the blood flows through the glomerulus under great pressure?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The efferent arteriole (carrying blood away from the glomerulus) is narrower than the afferent arteriole (bringing blood in). More blood enters than can leave easily, so pressure builds up in the glomerular capillaries, which drives ultrafiltration.",
+   "marking_points": [
+    {
+     "point": "Efferent arteriole narrower than afferent arteriole",
+     "marks": 1.0
+    },
+    {
+     "point": "Builds up high pressure needed for ultrafiltration",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "40",
+   "q_order": 36,
+   "q_main": 40,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Genetics",
+   "topic": "Basic Biology - genotype and phenotype",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "genotype",
+    "phenotype"
+   ],
+   "question": "Differentiate between genotype and phenotype.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Genotype is the genetic constitution (combination of genes/alleles) of an organism, e.g., TT or Tt. Phenotype is the observable/expressed character of the organism, e.g., tall.",
+   "marking_points": [
+    {
+     "point": "Genotype - genetic makeup/combination of alleles (e.g. Tt)",
+     "marks": 1.0
+    },
+    {
+     "point": "Phenotype - observable expressed trait (e.g. tall)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "41",
+   "q_order": 37,
+   "q_main": 41,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Pollution",
+   "topic": "Pollution - smog and asthma in winter",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "smog",
+    "air pollution control"
+   ],
+   "question": "The number of asthma patients increases during winters in metropolitan cities like Delhi. Why is it so? How can it be reduced?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Why: In winter cold air near the ground traps smoke, dust and vehicular/industrial pollutants; these mix with fog to form smog (smoke + fog), which irritates the airways and triggers asthma and other respiratory problems. Reduction: control emissions - tall chimneys fitted with filters and electrostatic precipitators in factories, use of CNG/public transport, banning crop-stubble and waste burning, planting trees.",
+   "marking_points": [
+    {
+     "point": "Smog (smoke + fog) / trapped air pollutants in winter irritate airways",
+     "marks": 1.0
+    },
+    {
+     "point": "Any valid control measure, e.g. filters/electrostatic precipitators, CNG, no burning",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "42",
+   "q_order": 38,
+   "q_main": 42,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Human Population",
+   "topic": "Population - high IMR yet population growth",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "infant mortality",
+    "birth rate"
+   ],
+   "question": "In our country, the infant mortality rate is high, but the population is still increasing in India. Explain.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Because the infant mortality rate is high, many families (especially economically weaker and less-educated sections) feel it is safer to have more children so that at least some survive; children are also seen as extra earning hands and security in old age. Hence the birth rate remains much higher than the death rate, so the population keeps increasing.",
+   "marking_points": [
+    {
+     "point": "Fear of child loss leads families to produce more children",
+     "marks": 1.0
+    },
+    {
+     "point": "Birth rate stays higher than death rate, so population grows",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "43",
+   "q_order": 39,
+   "q_main": 43,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Human Evolution",
+   "topic": "Human Evolution - vestigial appendix",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "vestigial organs",
+    "evidence of evolution"
+   ],
+   "question": "Justify the statement - \"Vermiform appendix is a vestigial organ in humans.\"",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The vermiform appendix projects from the blind end of the caecum. In herbivorous ancestors/related mammals (e.g., rabbit) the caecum and appendix are large and help digest cellulose, but in humans it is reduced and has no digestive function. Being functionless and reduced, it is a vestigial organ, evidence that humans evolved from ancestors in which it was functional.",
+   "marking_points": [
+    {
+     "point": "Functional/large in herbivores (cellulose digestion) / ancestors",
+     "marks": 1.0
+    },
+    {
+     "point": "Reduced and functionless in humans, hence vestigial",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "44",
+   "q_order": 40,
+   "q_main": 44,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Human Anatomy and Physiology - adrenal virilism",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "adrenal cortex",
+    "sex corticoids"
+   ],
+   "question": "What is Adrenal Virilism?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Adrenal virilism is a condition caused by overgrowth/hypersecretion of the adrenal cortex (excess sex corticoids/male hormones) in an adult woman, leading to development of male secondary sexual characters such as beard, moustache and a deep voice.",
+   "marking_points": [
+    {
+     "point": "Hypersecretion/overgrowth of adrenal cortex (excess sex corticoids)",
+     "marks": 1.0
+    },
+    {
+     "point": "In females - beard, moustache, deep voice (masculine features)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "45(a)",
+   "q_order": 41,
+   "q_main": 45,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Human Anatomy and Physiology - corpus luteum after fertilisation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "corpus luteum",
+    "progesterone"
+   ],
+   "question": "Explain the function of corpus luteum when:\n(a) ovum is fertilised.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The corpus luteum persists and continues to secrete progesterone, which keeps the uterine lining thick and suitable for implantation and maintenance of pregnancy (until the placenta takes over).",
+   "marking_points": [
+    {
+     "point": "Continues secreting progesterone - maintains uterine lining for implantation/pregnancy",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "45(b)",
+   "q_order": 42,
+   "q_main": 45,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Human Anatomy and Physiology - corpus luteum without fertilisation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "corpus luteum",
+    "menstruation"
+   ],
+   "question": "Explain the function of corpus luteum when:\n(b) ovum is not fertilised.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The corpus luteum degenerates and stops producing progesterone; the fall in progesterone causes the uterine lining to break down, leading to menstruation.",
+   "marking_points": [
+    {
+     "point": "Degenerates, progesterone stops - uterine lining breaks down (menstruation)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "46(a)",
+   "q_order": 43,
+   "q_main": 46,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Human Anatomy and Physiology - identical twins",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "monozygotic twins"
+   ],
+   "question": "Shruti's mother gave birth to two male babies. Both the babies had a strong resemblance to each other. The doctor said that they have been formed from a single ovum.\n(a) What kind of twins are they?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "They are identical (monozygotic) twins, formed when a single fertilised ovum (zygote) splits into two embryos.",
+   "marking_points": [
+    {
+     "point": "Identical (monozygotic) twins",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "46(b)",
+   "q_order": 44,
+   "q_main": 46,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Human Anatomy and Physiology - sex of identical twins",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "sex determination",
+    "monozygotic twins"
+   ],
+   "question": "Shruti's mother gave birth to two male babies. Both the babies had a strong resemblance to each other. The doctor said that they have been formed from a single ovum.\n(b) Why are they of the same gender?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sex is determined at fertilisation (here an X-bearing ovum was fertilised by a Y-bearing sperm, giving an XY zygote). Both twins develop from this same single zygote, so they have identical genes and the same sex chromosomes (XY) - hence both are male.",
+   "marking_points": [
+    {
+     "point": "Both arise from one zygote with the same sex chromosomes (XY) fixed at fertilisation",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "47(a)",
+   "q_order": 45,
+   "q_main": 47,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Human Anatomy and Physiology - adrenaline on pupils",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "adrenaline effects"
+   ],
+   "question": "State the effect of Adrenaline on:\n(a) Pupils of eyes",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Adrenaline dilates (widens) the pupils of the eyes.",
+   "marking_points": [
+    {
+     "point": "Pupils dilate",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "47(b)",
+   "q_order": 46,
+   "q_main": 47,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Human Anatomy and Physiology - adrenaline on heartbeat",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "adrenaline effects"
+   ],
+   "question": "State the effect of Adrenaline on:\n(b) Heartbeat",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Adrenaline increases the rate (and force) of heartbeat.",
+   "marking_points": [
+    {
+     "point": "Heartbeat increases",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "48",
+   "q_order": 47,
+   "q_main": 48,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Excretory System",
+   "topic": "Human Anatomy and Physiology - albuminuria",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "albuminuria",
+    "glomerular filtration"
+   ],
+   "question": "When is albumin passed out in urine? Name this condition.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Albumin (a plasma protein) is normally too large to be filtered. It passes out in urine when the glomerular membrane / Bowman's capsule becomes more permeable, e.g., due to very high blood pressure or infection/inflammation of the kidney. The condition is called albuminuria.",
+   "marking_points": [
+    {
+     "point": "When glomerular/Bowman's capsule membrane becomes more permeable (high BP or kidney infection)",
+     "marks": 1.0
+    },
+    {
+     "point": "Albuminuria",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "49",
+   "q_order": 48,
+   "q_main": 49,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Reproductive System",
+   "topic": "Human Anatomy and Physiology - scrotal testes",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "scrotum",
+    "spermatogenesis temperature"
+   ],
+   "question": "Mention the significance of the Testes being located inside the scrotum.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The scrotum lies outside the abdominal cavity, keeping the testes about 2-3°C below body temperature, which is necessary for the formation and maturation of sperms. It also holds and protects the testes.",
+   "marking_points": [
+    {
+     "point": "Keeps testes 2-3°C below body temperature",
+     "marks": 1.0
+    },
+    {
+     "point": "Lower temperature needed for sperm formation/maturation (also protects testes)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "50",
+   "q_order": 49,
+   "q_main": 50,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Human Population",
+   "topic": "Population - natural resources and population pressure",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "population and resources"
+   ],
+   "question": "Give two examples of natural resources which cannot keep pace with the rising population.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Food and water (also acceptable: land, forests, fossil fuels).",
+   "marking_points": [
+    {
+     "point": "Food (or land/forests)",
+     "marks": 1.0
+    },
+    {
+     "point": "Water (or fossil fuels)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 13
+  },
+  {
+   "q_label": "51",
+   "q_order": 50,
+   "q_main": 51,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Human Anatomy and Physiology - dark adaptation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "dark adaptation",
+    "rhodopsin",
+    "rods and cones"
+   ],
+   "question": "Keshav enters a dark room from a brightly lit area. He experiences difficulty in viewing objects, but gradually his vision improves.\nExplain the role of the photoreceptors in this case.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "In bright light the visual purple (rhodopsin) of the rods is bleached, and the cones (iodopsin), which work only in bright light, cannot function in dim light - so at first Keshav cannot see. In the dark, rhodopsin is gradually resynthesised in the rods; once enough has formed, the rods become sensitive to dim light and vision improves (dark adaptation).",
+   "marking_points": [
+    {
+     "point": "Cones (iodopsin) do not work in dim light; rhodopsin in rods was bleached by bright light",
+     "marks": 1.0
+    },
+    {
+     "point": "Rhodopsin regenerates in dark, rods become active and vision improves",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 13
+  },
+  {
+   "q_label": "53(a)",
+   "q_order": 51,
+   "q_main": 53,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Human Anatomy and Physiology - diabetes mellitus",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "diabetes mellitus symptoms"
+   ],
+   "question": "Rohit's father has increased thirst and hunger with frequent urination. He also gets fatigued very often. His doctor advised him to get a blood sugar profile test done.\n(a) Name the disease based on the symptoms given above.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Diabetes mellitus (excess thirst, hunger, frequent urination and fatigue are its classic symptoms).",
+   "marking_points": [
+    {
+     "point": "Diabetes mellitus",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 13
+  },
+  {
+   "q_label": "53(b)",
+   "q_order": 52,
+   "q_main": 53,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Human Anatomy and Physiology - insulin deficiency",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "insulin",
+    "islets of Langerhans"
+   ],
+   "question": "Rohit's father has increased thirst and hunger with frequent urination. He also gets fatigued very often. His doctor advised him to get a blood sugar profile test done.\n(b) Which is the hormone whose deficiency causes this disorder?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Insulin, secreted by the beta cells of the islets of Langerhans of the pancreas.",
+   "marking_points": [
+    {
+     "point": "Insulin",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 13
+  },
+  {
+   "q_label": "53(c)",
+   "q_order": 53,
+   "q_main": 53,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Endocrine System",
+   "topic": "Human Anatomy and Physiology - hyperglycaemia",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "hyperglycaemia"
+   ],
+   "question": "Rohit's father has increased thirst and hunger with frequent urination. He also gets fatigued very often. His doctor advised him to get a blood sugar profile test done.\n(c) What is the technical term for high blood sugar level?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Hyperglycaemia.",
+   "marking_points": [
+    {
+     "point": "Hyperglycaemia",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 13
+  },
+  {
+   "q_label": "55(a)",
+   "q_order": 54,
+   "q_main": 55,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Human Anatomy and Physiology - cerebrum",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "cerebrum functions"
+   ],
+   "question": "Manoj was writing a composition on \"The importance of Education in life\".\n(a) Name the part of the brain that Manoj uses for writing the composition.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Cerebrum - the seat of thinking, intelligence, memory, language and voluntary actions.",
+   "marking_points": [
+    {
+     "point": "Cerebrum",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 14
+  },
+  {
+   "q_label": "55(b)",
+   "q_order": 55,
+   "q_main": 55,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Human Anatomy and Physiology - voluntary action",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "voluntary action"
+   ],
+   "question": "Manoj was writing a composition on \"The importance of Education in life\".\n(b) Is it a voluntary or involuntary action?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Voluntary action - it is done consciously, under the control of the will (cerebrum).",
+   "marking_points": [
+    {
+     "point": "Voluntary",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 14
+  },
+  {
+   "q_label": "55(c)",
+   "q_order": 56,
+   "q_main": 55,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Nervous System and Sense Organs",
+   "topic": "Human Anatomy and Physiology - nervous pathway",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "sensory and motor nerves",
+    "nerve pathway"
+   ],
+   "question": "Manoj was writing a composition on \"The importance of Education in life\".\n(c) Trace the nervous pathway using the following terms:\nMuscles of the hand, Sensory nerves, Fingertips, Motor nerves, and Brain.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Fingertips → Sensory nerves → Brain → Motor nerves → Muscles of the hand.",
+   "marking_points": [
+    {
+     "point": "Correct sequence: Fingertips → Sensory nerves → Brain → Motor nerves → Muscles of the hand",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 14
+  },
+  {
+   "q_label": "56(a)",
+   "q_order": 57,
+   "q_main": 56,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transpiration",
+   "topic": "Plant Physiology - potometer",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "potometer"
+   ],
+   "question": "Study the diagram given below and answer the questions that follow:\n(a) Identify the apparatus.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Ganong's potometer.",
+   "marking_points": [
+    {
+     "point": "Ganong's potometer",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Ganong's potometer: a leafy shoot fixed in one arm, a reservoir with stopcock, a horizontal graduated capillary tube with an air bubble, its end dipping into a beaker of coloured water.",
+   "page": 15,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_biology/p15.jpg"
+  },
+  {
+   "q_label": "56(b)",
+   "q_order": 58,
+   "q_main": 56,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transpiration",
+   "topic": "Plant Physiology - potometer use",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "rate of water uptake",
+    "transpiration"
+   ],
+   "question": "Study the diagram given below and answer the questions that follow:\n(b) What is it used to measure?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "It measures the rate of water uptake (absorption) by the leafy shoot, which is approximately equal to the rate of transpiration. The movement of the air bubble along the graduated capillary tube per unit time gives the rate.",
+   "marking_points": [
+    {
+     "point": "Rate of water uptake by the cut shoot (≈ rate of transpiration)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Ganong's potometer: a leafy shoot fixed in one arm, a reservoir with stopcock, a horizontal graduated capillary tube with an air bubble, its end dipping into a beaker of coloured water.",
+   "page": 15,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_biology/p15.jpg"
+  },
+  {
+   "q_label": "56(c)",
+   "q_order": 59,
+   "q_main": 56,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transpiration",
+   "topic": "Plant Physiology - potometer limitation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "potometer limitations"
+   ],
+   "question": "Study the diagram given below and answer the questions that follow:\n(c) Mention any one limitation of using the apparatus.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any one: it measures water uptake, not the actual water lost (some absorbed water is used in photosynthesis/retained by cells); it is difficult to introduce a single air bubble and the setup must be completely airtight; the cut shoot may not behave like an intact plant.",
+   "marking_points": [
+    {
+     "point": "Any one valid limitation (measures uptake not loss / difficult to introduce air bubble / must be airtight)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Ganong's potometer: a leafy shoot fixed in one arm, a reservoir with stopcock, a horizontal graduated capillary tube with an air bubble, its end dipping into a beaker of coloured water.",
+   "page": 15,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_biology/p15.jpg"
+  },
+  {
+   "q_label": "57(a)",
+   "q_order": 60,
+   "q_main": 57,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Chemical Coordination in Plants",
+   "topic": "Plant Physiology - plant hormones",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "ethylene",
+    "abscisic acid"
+   ],
+   "question": "The statements given below are false. Correct and rewrite the complete statements:\n(a) Fruit ripening is induced by Abscisic acid.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Fruit ripening is induced by Ethylene. (Alternatively: Leaf fall/senescence is induced by Abscisic acid.)",
+   "marking_points": [
+    {
+     "point": "Fruit ripening is induced by Ethylene",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 15
+  },
+  {
+   "q_label": "57(b)",
+   "q_order": 61,
+   "q_main": 57,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Chemical Coordination in Plants",
+   "topic": "Plant Physiology - hydrotropism",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "hydrotropism"
+   ],
+   "question": "The statements given below are false. Correct and rewrite the complete statements:\n(b) Roots show negative Hydrotropism.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Roots show positive Hydrotropism. (Alternatively: Roots show negative Phototropism.)",
+   "marking_points": [
+    {
+     "point": "Roots show positive Hydrotropism",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 15
+  },
+  {
+   "q_label": "57(c)",
+   "q_order": 62,
+   "q_main": 57,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Chemical Coordination in Plants",
+   "topic": "Plant Physiology - clinostat",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "clinostat",
+    "geotropism"
+   ],
+   "question": "The statements given below are false. Correct and rewrite the complete statements:\n(c) Thigmotropism can be demonstrated by using a Clinostat.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Geotropism can be demonstrated by using a Clinostat.",
+   "marking_points": [
+    {
+     "point": "Geotropism can be demonstrated by using a Clinostat",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 15
+  },
+  {
+   "q_label": "58(a)",
+   "q_order": 63,
+   "q_main": 58,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Genetics",
+   "topic": "Basic Biology - monohybrid cross phenotypic ratio",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "monohybrid cross",
+    "phenotypic ratio"
+   ],
+   "question": "Two heterozygous pea plants having round seeds (Rr) are crossed with each other.\n(a) Write the Phenotypic ratio of the offspring.",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Rr × Rr gives RR, Rr, Rr, rr. Phenotypic ratio = 3 round : 1 wrinkled (3 : 1).",
+   "marking_points": [
+    {
+     "point": "3 round : 1 wrinkled",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 15
+  },
+  {
+   "q_label": "58(b)",
+   "q_order": 64,
+   "q_main": 58,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Genetics",
+   "topic": "Basic Biology - monohybrid cross genotypic ratio",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "monohybrid cross",
+    "genotypic ratio"
+   ],
+   "question": "Two heterozygous pea plants having round seeds (Rr) are crossed with each other.\n(b) What will the genotypic ratio of the offspring be?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Genotypic ratio = 1 RR : 2 Rr : 1 rr (1 : 2 : 1).",
+   "marking_points": [
+    {
+     "point": "1 RR : 2 Rr : 1 rr",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 15
+  },
+  {
+   "q_label": "58(c)",
+   "q_order": 65,
+   "q_main": 58,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Genetics",
+   "topic": "Basic Biology - recessive trait",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "numerical",
+   "difficulty": 2,
+   "concepts": [
+    "dominant and recessive"
+   ],
+   "question": "Two heterozygous pea plants having round seeds (Rr) are crossed with each other.\n(c) Which of the above two traits is recessive?",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Wrinkled seed (rr) is the recessive trait; round (R) is dominant, which is why heterozygous Rr plants have round seeds.",
+   "marking_points": [
+    {
+     "point": "Wrinkled seed is recessive",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 15
+  },
+  {
+   "q_label": "59(a)",
+   "q_order": 66,
+   "q_main": 59,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transpiration",
+   "topic": "Plant Physiology - temperature and transpiration",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "factors affecting transpiration"
+   ],
+   "question": "How is the rate of transpiration affected under the following environmental conditions:\n(a) High temperature",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Rate of transpiration increases - higher temperature increases evaporation of water and lowers the relative humidity of air.",
+   "marking_points": [
+    {
+     "point": "Increases (faster evaporation)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 15
+  },
+  {
+   "q_label": "59(b)",
+   "q_order": 67,
+   "q_main": 59,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transpiration",
+   "topic": "Plant Physiology - humidity and transpiration",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "factors affecting transpiration"
+   ],
+   "question": "How is the rate of transpiration affected under the following environmental conditions:\n(b) Low humidity",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Rate of transpiration increases - dry air creates a steeper water vapour gradient between leaf and air, so water vapour diffuses out faster.",
+   "marking_points": [
+    {
+     "point": "Increases (steeper diffusion gradient)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 15
+  },
+  {
+   "q_label": "59(c)",
+   "q_order": 68,
+   "q_main": 59,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Transpiration",
+   "topic": "Plant Physiology - light and transpiration",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "factors affecting transpiration",
+    "stomata"
+   ],
+   "question": "How is the rate of transpiration affected under the following environmental conditions:\n(c) Low intensity of sunlight",
+   "options": null,
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Rate of transpiration decreases - in low light the stomata close (or partly close) and temperature is lower.",
+   "marking_points": [
+    {
+     "point": "Decreases (stomata close)",
+     "marks": 1.0
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 15
+  }
+ ]
+}

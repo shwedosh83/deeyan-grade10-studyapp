@@ -10,10 +10,11 @@ export default function BoardLayout() {
     { to: base, label: 'Timed paper', hint: 'Full paper, real time', icon: '⏱️', end: true },
     { to: `${base}/sprint`, label: 'Sprint round', hint: 'Quick-fire objectives', icon: '⚡' },
     ...(BOARD_MODES_WITHOUT_APPLIED.includes(subject.id) ? [] : [{ to: `${base}/applied`, label: 'Applied questions', hint: 'Cases, data, numericals', icon: '🧩' }]),
+    { to: `${base}/competency`, label: 'Competency', hint: 'CISCE item bank', icon: '🎯' },
   ];
   return (
     <div className="space-y-6">
-      <div className={`grid gap-3 ${modes.length === 3 ? 'sm:grid-cols-3' : 'sm:grid-cols-2'} max-w-3xl`}>
+      <div className={`grid gap-3 ${modes.length === 4 ? 'grid-cols-2 xl:grid-cols-4' : 'grid-cols-3'} max-w-4xl`}>
         {modes.map(m => (
           <NavLink key={m.to} to={m.to} end={m.end}
             className={({ isActive }) => `group flex items-center gap-3 rounded-2xl border p-3.5 transition duration-150 ${isActive

@@ -12,14 +12,14 @@ export async function boardApi(name, body) {
   return json;
 }
 
-export const SUBJECTS_WITH_BOARD = ['biology', 'chemistry', 'physics', 'geography', 'history_civics', 'maths'];
+export const SUBJECTS_WITH_BOARD = ['biology', 'chemistry', 'physics', 'geography', 'history_civics', 'maths', 'computer_applications'];
 
 // Maths is solved on paper: no Applied mode, only timed uploads and Sprint.
 export const BOARD_MODES_WITHOUT_APPLIED = ['maths'];
 
 // Subjects that only have board papers in the app (no chapter quizzes/skills yet):
 // they open straight on the Board tab and hide the empty tabs.
-export const BOARD_ONLY_SUBJECTS = ['maths'];
+export const BOARD_ONLY_SUBJECTS = ['maths', 'computer_applications'];
 
 // One-tap symbols for typing maths answers.
 export const MATH_KEYS = ['√', '²', '³', 'π', '÷', '×', '±'];
@@ -145,11 +145,12 @@ export function fileToJpegBase64(file, maxSide = 1600, quality = 0.82) {
 }
 
 // ── Question sources (real board papers vs school prelim papers) ────────────
-export const SOURCE_LABELS = { '': 'Board + prelims', board: 'Board papers', prelim: 'Prelim drill' };
+export const SOURCE_LABELS = { '': 'Board + prelims', board: 'Board papers', prelim: 'Prelim drill', competency: 'Competency' };
 
 // Caption under a question saying which paper it came from.
 export function paperTag(q) {
   if (q.source === 'prelim') return `${q.school || 'School'} prelim`;
+  if (q.source === 'competency') return 'CISCE competency';
   return `${String(q.paper_id || '').replace(/^[a-z_]+?_(\d{4}.*)$/, '$1').toUpperCase()} board paper`;
 }
 

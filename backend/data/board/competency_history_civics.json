@@ -1,0 +1,2840 @@
+{
+ "paper_id": "competency_history_civics",
+ "subject": "history_civics",
+ "year": 2024,
+ "sem": null,
+ "label": "CISCE Competency Bank",
+ "source": "competency",
+ "school": "CISCE",
+ "exam_label": "Competency-focused practice questions",
+ "max_marks": 130.0,
+ "duration_minutes": 0,
+ "reading_minutes": 0,
+ "instructions": "Official CISCE competency-focused practice questions (July 2024).",
+ "sections": [
+  {
+   "name": "Item bank",
+   "total_marks": 130.0,
+   "rule": "Practice item bank",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "2",
+   "q_order": 0,
+   "q_main": 2,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Quorum of the House",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "quorum one-tenth of total membership",
+    "adjournment for lack of quorum"
+   ],
+   "question": "The house has 550 members. On a particular day, 45 members are present. The Government wants to present a Bill. What do you think will happen?",
+   "options": {
+    "a": "The Government has a majority, so the Bill will be passed.",
+    "b": "The Government cannot pass the Bill because the opposition is against it.",
+    "c": "The Government is unable to introduce the Bill because the Speaker adjourns the House.",
+    "d": "The Government can introduce the Bill but cannot pass it."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) The Government is unable to introduce the Bill because the Speaker adjourns the House. The quorum is one-tenth of the total membership (55 of 550); with only 45 present there is no quorum, so the Speaker must adjourn the House and no business can be transacted.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "3",
+   "q_order": 1,
+   "q_main": 3,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Ordinances and Parliament",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "ordinance must be approved by Parliament",
+    "six weeks after reassembly"
+   ],
+   "question": "31st July 2023, ANI reported: \"Government to introduce Delhi Services Ordinance Bill in Lok Sabha tomorrow.\"\nWhy should the Government introduce an ordinance in the Lok Sabha?",
+   "options": {
+    "a": "The Government needs the approval of only the Lok Sabha.",
+    "b": "The Government needs the approval of the Opposition.",
+    "c": "The Rajya Sabha has no power over an ordinance.",
+    "d": "Every ordinance needs to be approved by both houses of the Parliament to become law."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Every ordinance needs to be approved by both houses of the Parliament to become law. An ordinance must be laid before both Houses and ceases to operate six weeks after Parliament reassembles unless approved; hence the Government brings a Bill to replace it.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 4
+  },
+  {
+   "q_label": "4",
+   "q_order": 2,
+   "q_main": 4,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Exclusive powers of the Lok Sabha",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Money Bill only in Lok Sabha",
+    "no-confidence motion"
+   ],
+   "question": "Identify the exclusive powers of the Lok Sabha.\nP: Introduces the Money Bill\nQ: Passes an ordinary bill\nR: Can vote a government out of power\nS: Can impeach the President.",
+   "options": {
+    "a": "P and Q",
+    "b": "R and S",
+    "c": "P and R",
+    "d": "Q and S"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) P and R. A Money Bill can be introduced only in the Lok Sabha, and only the Lok Sabha can remove the Council of Ministers by a vote of no-confidence. Ordinary bills and impeachment of the President involve both Houses.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "5",
+   "q_order": 3,
+   "q_main": 5,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Constitutional amendment by Parliament",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "Parliament as law-making body",
+    "amendment of laws"
+   ],
+   "question": "Which of the following can make the amendment as shown in the picture?\n[Picture: Hindustan Times newspaper clipping headlined \"Differently abled protest, demand amendments in rights bill\".]",
+   "options": {
+    "a": "The Parliament",
+    "b": "The High Court",
+    "c": "The Supreme Court",
+    "d": "The President"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) The Parliament. Making or amending a law (here, a rights bill) is a legislative function, and only Parliament as the law-making body can amend it; courts interpret laws and the President only gives assent.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "6",
+   "q_order": 4,
+   "q_main": 6,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Lok Adalat - advantages",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Lok Adalat",
+    "speedy justice"
+   ],
+   "question": "12 February 2023, The Economic Times reported: \"More than 97.64 lakh cases settled in the first National Lok Adalat of 2023: NALSA.\"\nWhich advantage of the Lok Adalat is MOST highlighted in the above headline?",
+   "options": {
+    "a": "Saves money.",
+    "b": "Speedy justice.",
+    "c": "Works on compromise.",
+    "d": "Reduces burden on Higher courts."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Speedy justice. Settling over 97 lakh cases in a single day-long sitting shows the Lok Adalat's ability to dispose of a huge number of cases quickly.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 5
+  },
+  {
+   "q_label": "7",
+   "q_order": 5,
+   "q_main": 7,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Revisory jurisdiction of the High Court",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "revisory jurisdiction",
+    "supervision over subordinate courts"
+   ],
+   "question": "The High Court feels there has been blatant injustice in a case solved by the lower court and transfers the case to itself to check the judgement. Which jurisdiction is it exercising?",
+   "options": {
+    "a": "Revisory",
+    "b": "Advisory",
+    "c": "Original",
+    "d": "Appellate"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Revisory. Under its revisory jurisdiction the High Court can call for the records of a case decided by a subordinate court and revise the decision if it feels there has been injustice or a wrong application of law.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "9",
+   "q_order": 6,
+   "q_main": 9,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Objective of the Non-Cooperation Movement",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Non-Cooperation Movement",
+    "Swaraj"
+   ],
+   "question": "Replace the underlined phrase with the correct option:\nThe objective of the Non-Cooperation Movement was [to demobilise public opinion all over the country].",
+   "options": {
+    "a": "to make the movement rare and unique.",
+    "b": "to provide an international base for Congress.",
+    "c": "to generate a wedge between Hindu-Muslim unity.",
+    "d": "to attain self-governance."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) to attain self-governance. The Non-Cooperation Movement (1920-22) aimed at attaining Swaraj (self-government), besides righting the Punjab and Khilafat wrongs.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "10",
+   "q_order": 7,
+   "q_main": 10,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Lord Lytton's Arms Act 1878",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Indian Arms Act 1878",
+    "Lord Lytton"
+   ],
+   "question": "The central government of a country has decided to enforce a law that involves issuing licenses to keep arms.\nWho among the following British Governor Generals had passed a similar law in India in 1878?",
+   "options": {
+    "a": "Lord Curzon.",
+    "b": "Lord Lytton.",
+    "c": "Lord Ripon.",
+    "d": "Lord Dalhousie."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Lord Lytton. The Indian Arms Act, 1878, passed under Lord Lytton, made it a criminal offence for Indians to keep or carry arms without a licence (Europeans were exempted).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 6
+  },
+  {
+   "q_label": "11",
+   "q_order": 8,
+   "q_main": 11,
+   "section": "Item bank",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Surat Split 1907",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 4,
+   "concepts": [
+    "Surat Split 1907",
+    "Moderates vs Assertives methods"
+   ],
+   "question": "Read the two statements given below about the split in Congress and select the option that shows the correct relationship between (A) and (B).\n(A) Leaders with moderate political opinions wanted to insert a Clause in the Congress Constitution that said that Swaraj was to be achieved through constitutional means.\n(B) Swadeshi and Boycott were the basic components of methods of struggle of the assertive nationalists that led to the split in the Congress in 1907.",
+   "options": {
+    "a": "(B) contradicts (A).",
+    "b": "(B) is the reason for (A).",
+    "c": "(A) is true, but (B) is false.",
+    "d": "(A) and (B) are independent of each other."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) (B) is the reason for (A). The Assertive Nationalists wanted to extend Swadeshi and Boycott beyond Bengal into a mass struggle; the Moderates opposed these methods and, after the 1907 Surat split, wrote into the Congress constitution that Swaraj was to be attained only by constitutional means.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "12",
+   "q_order": 9,
+   "q_main": 12,
+   "section": "Item bank",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Partition of Bengal",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 3,
+   "concepts": [
+    "Partition of Bengal 1905",
+    "divide and rule"
+   ],
+   "question": "Read the two statements given below about the Partition of Bengal and select the option that shows the correct relationship between (A) and (B).\n(A) The partition of Bengal \"was a mere readjustment of administrative boundaries.\"\n(B) The nationalists believed that the Government did not intend to strike at the roots of Indian nationalism.",
+   "options": {
+    "a": "(B) contradicts (A).",
+    "b": "(B) is the reason for (A).",
+    "c": "(A) is true, but (B) is false.",
+    "d": "(A) and (B) are independent of each other."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) (A) is true, but (B) is false. The Government officially described the partition as an administrative readjustment, but the nationalists believed it was a deliberate attempt to strike at the roots of Indian nationalism by dividing Bengal (divide and rule).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 7
+  },
+  {
+   "q_label": "13",
+   "q_order": 10,
+   "q_main": 13,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Role of the press in nationalism",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "nationalist press",
+    "growth of nationalism"
+   ],
+   "question": "Analysing the picture given below, identify the statement that does NOT align with its content.\n[Picture: collage of nationalist newspapers - Kesari, Young India, Harijan, National Herald, Amrita Bazar Patrika - with photographs of Tilak, Nehru and Gandhi.]",
+   "options": {
+    "a": "The press spread modern liberal ideals such as liberty, freedom, and equality among the populace.",
+    "b": "The press provided a platform for various social groups from different regions of the country to exchange their views.",
+    "c": "The press played an important role in organising political movements.",
+    "d": "The press regularly praised the policies of the British Government in India."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) The press regularly praised the policies of the British Government in India. The nationalist press (Kesari, Young India, Harijan, National Herald etc.) criticised British policies and spread nationalist ideas; it did not praise the Government.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Collage of nationalist newspapers (Kesari, Young India, Harijan, National Herald, Amrita Bazar Patrika) with photos of Tilak, Nehru and Gandhi",
+   "page": 8,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_history_civics/p8.jpg"
+  },
+  {
+   "q_label": "14",
+   "q_order": 11,
+   "q_main": 14,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "First Phase of Indian National Movement",
+   "topic": "Objectives of the Indian National Congress",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "objectives of INC 1885"
+   ],
+   "question": "Choose the options that DO NOT apply to the immediate objectives of the Indian National Congress.\nP- To prevent national workers from all parts of India from becoming personally known to each other.\nQ- To end all racial, religious, and provincial prejudices to promote national unity.\nR- To formulate popular demands on vital Indian problems and their presentation before the government.\nS- To manipulate the public opinion.",
+   "options": {
+    "a": "P and Q",
+    "b": "Q and R",
+    "c": "P and S",
+    "d": "R and S"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) P and S. The Congress aimed to PROMOTE personal acquaintance among national workers and to TRAIN and organise public opinion; Q and R were genuine objectives.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 8
+  },
+  {
+   "q_label": "15",
+   "q_order": 12,
+   "q_main": 15,
+   "section": "Item bank",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Chauri Chaura and withdrawal of NCM",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "Chauri Chaura incident",
+    "withdrawal of Non-Cooperation Movement"
+   ],
+   "question": "Assertion (A): Gandhiji called off the Non-Cooperation Movement in 1922.\nReason (R): An unruly crowd burnt down a police station at Chauri-Chaura in 1922.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A.",
+    "b": "Both A and R are true, but R is not the correct explanation of A.",
+    "c": "A is true, but R is false.",
+    "d": "A is false, but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both A and R are true, and R is the correct explanation of A. On 5 February 1922 a mob set fire to the Chauri Chaura police station, killing 22 policemen; upset by this violence, Gandhiji called off the movement.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "16",
+   "q_order": 13,
+   "q_main": 16,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Civil Disobedience Movement - Salt",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Dandi March",
+    "Salt Law"
+   ],
+   "question": "The issue on which the Civil Disobedience Movement of 1930 was launched was _____.",
+   "options": {
+    "a": "equal employment opportunities for Indians",
+    "b": "the proposed execution of Bhagat Singh.",
+    "c": "salt monopoly exercised by the British Government.",
+    "d": "complete freedom."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) salt monopoly exercised by the British Government. Gandhiji launched the movement with the Dandi March (12 March - 6 April 1930) to break the Salt Law, which gave the Government a monopoly over salt and taxed an article used by every Indian.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "17",
+   "q_order": 14,
+   "q_main": 17,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Quit India - Do or Die",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Do or Die",
+    "Quit India Movement"
+   ],
+   "question": "The statement, \"We shall either free India or die in the attempt\", is associated with which of the following?",
+   "options": {
+    "a": "Non-Cooperation Movement",
+    "b": "Civil Disobedience Movement",
+    "c": "Individual Satyagraha",
+    "d": "Quit India Movement"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Quit India Movement. Gandhiji gave the call \"Do or Die\" (we shall either free India or die in the attempt) at the Bombay session of the AICC in August 1942.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "18",
+   "q_order": 15,
+   "q_main": 18,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Quit India Resolution",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Quit India Resolution",
+    "Wardha 1942"
+   ],
+   "question": "At Wardha, the Congress Working Committee adopted a resolution that was passed in Bombay. Name the resolution.",
+   "options": {
+    "a": "Poorna Swaraj Resolution",
+    "b": "Quit India Resolution",
+    "c": "Non-Cooperation Resolution",
+    "d": "Swaraj Resolution"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Quit India Resolution. The CWC adopted it at Wardha on 14 July 1942 and the AICC passed it at Bombay on 8 August 1942.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "19",
+   "q_order": 16,
+   "q_main": 19,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Forward Bloc and The INA",
+   "topic": "Chronology of Netaji's life",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Subhas Chandra Bose chronology"
+   ],
+   "question": "Arrange the following events of Netaji's life in chronological order.\ni. Supreme Commander of INA\nii. Provisional Government of Free India\niii. Formation of Forward Bloc\niv. Congress Presidentship",
+   "options": {
+    "a": "i, iii, iv, ii",
+    "b": "iv, iii, ii, i",
+    "c": "i, ii, iii, iv",
+    "d": "iv, iii, i, ii"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) iv, iii, i, ii. Congress President (Haripura 1938, re-elected Tripuri 1939) -> Forward Bloc (May 1939) -> Supreme Commander of the INA (August 1943) -> Provisional Government of Free India (21 October 1943).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 9
+  },
+  {
+   "q_label": "20",
+   "q_order": 17,
+   "q_main": 20,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Independence and Partition of India",
+   "topic": "Mountbatten Plan - Princely States",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "Mountbatten Plan",
+    "princely states"
+   ],
+   "question": "Which of these statements regarding the status of Princely States are INCORRECT with reference to the Mountbatten Plan?",
+   "options": {
+    "a": "Princely states would receive the choice to be independent or join the Indian Union.",
+    "b": "All existing treaties with the princely states would end.",
+    "c": "A plebiscite will be held for all states.",
+    "d": "Freedom to associate with any dominion."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) A plebiscite will be held for all states. Under the Mountbatten Plan British paramountcy and treaties with the princely states lapsed and they were free to join either dominion or remain independent; plebiscites were provided only for NWFP and Sylhet, not for princely states.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "21",
+   "q_order": 18,
+   "q_main": 21,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "President and Vice President",
+   "topic": "Executive powers of the President",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "executive vs legislative powers of President"
+   ],
+   "question": "Which of the following is an Executive function of the President in a parliamentary system?",
+   "options": {
+    "a": "Issuing ordinances",
+    "b": "Appointing the Prime Minister",
+    "c": "Granting assent to bills passed by Parliament",
+    "d": "Addressing the nation on Independence Day"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Appointing the Prime Minister. Appointments are executive powers; issuing ordinances and assenting to bills are legislative powers of the President.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "23",
+   "q_order": 19,
+   "q_main": 23,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "President and Vice President",
+   "topic": "Qualifications of the Vice-President",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "qualifications of Vice-President",
+    "office of profit"
+   ],
+   "question": "Mr. Patil was not found eligible for the election as the Vice-President of India even though he had the qualifications of being a citizen of India and not being a member of the Parliament and State Legislature. On what ground was he disqualified?",
+   "options": {
+    "a": "For being above the age of thirty-five.",
+    "b": "For being qualified as a member of the Council of States.",
+    "c": "For holding any office of profit under the Centre or the State government.",
+    "d": "All of the above."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) For holding any office of profit under the Centre or the State government. A candidate for Vice-President must be a citizen, at least 35 years old, qualified for election to the Rajya Sabha and must not hold any office of profit; (a) and (b) are qualifications, not disqualifications.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "24",
+   "q_order": 20,
+   "q_main": 24,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Nominated members of Rajya Sabha",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "12 nominated members of Rajya Sabha"
+   ],
+   "question": "Your uncle is a renowned scientist. He has neither contested nor won any election to the Rajya Sabha. But he has recently become a member of the Rajya Sabha and has been appointed as a minister. How is this possible?",
+   "options": {
+    "a": "He was appointed by the Chief Justice of India.",
+    "b": "He was nominated by the President.",
+    "c": "He was appointed by the Prime Minister.",
+    "d": "He was nominated by the Governor."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) He was nominated by the President. The President nominates 12 members to the Rajya Sabha with special knowledge or practical experience in literature, science, art and social service.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 10
+  },
+  {
+   "q_label": "25",
+   "q_order": 21,
+   "q_main": 25,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Supreme Court",
+   "topic": "Advisory jurisdiction of the Supreme Court",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "advisory jurisdiction Article 143"
+   ],
+   "question": "In August 2002, President Dr. Abdul Kalam sought the help of the Supreme Court in connection with the controversy between the Election Commission and the Government on elections in Gujarat.\nThe Jurisdiction of the Supreme Court applicable in the above-mentioned situation is ____",
+   "options": {
+    "a": "Revisory",
+    "b": "Appellate",
+    "c": "Advisory",
+    "d": "Original"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Advisory. Under Article 143 the President may refer a question of law or fact of public importance to the Supreme Court for its opinion.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "26",
+   "q_order": 22,
+   "q_main": 26,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Sessions of Parliament",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "sessions of Parliament"
+   ],
+   "question": "The house is discussing an issue regarding the nation in the month of November. Which session is in motion?",
+   "options": {
+    "a": "Summer Session",
+    "b": "Budget Session",
+    "c": "Winter Session",
+    "d": "Monsoon Session."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Winter Session. Parliament usually meets in three sessions: Budget (February-May), Monsoon (July-August/September) and Winter (November-December).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "29",
+   "q_order": 23,
+   "q_main": 29,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The United Nations",
+   "topic": "Objectives of the UN",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "objectives of the UN"
+   ],
+   "question": "Which of the following objectives of the UNO has been recently added?",
+   "options": {
+    "a": "Maintain international peace.",
+    "b": "Develop friendly relations among nations.",
+    "c": "Centre for harmonising the actions of nations.",
+    "d": "Disarm, decolonise and develop."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Disarm, decolonise and develop. Options (a), (b) and (c) are original purposes laid down in Article 1 of the UN Charter (1945); the \"three Ds\" were emphasised later.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 11
+  },
+  {
+   "q_label": "30",
+   "q_order": 24,
+   "q_main": 30,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Second World War",
+   "topic": "Policy of appeasement",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 3,
+   "concepts": [
+    "policy of appeasement",
+    "Japanese aggression"
+   ],
+   "question": "Why did Britain and France follow the policy of appeasement towards Japan in the period before the outbreak of WWII?",
+   "options": {
+    "a": "Japan could be used to weaken China.",
+    "b": "Japan was supporting Britain and France.",
+    "c": "Japan wanted to occupy the colonies of Britain.",
+    "d": "Japan was a weak country."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Japan could be used to weaken China. Britain and France did not act against Japanese aggression in Manchuria and China, expecting Japan to check China and the spread of communism in the Far East.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "31",
+   "q_order": 25,
+   "q_main": 31,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Non Aligned Movement",
+   "topic": "Cold War",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Cold War"
+   ],
+   "question": "Which of the following statements about the Cold War is incorrect?",
+   "options": {
+    "a": "It was a competition between the US & the Soviet Union and their respective allies.",
+    "b": "It was an ideological war between the superpowers.",
+    "c": "It triggered an arms race.",
+    "d": "The US and USSR were engaged in direct wars."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) The US and USSR were engaged in direct wars. The Cold War was a state of tension and rivalry without direct armed conflict between the two superpowers.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 12
+  },
+  {
+   "q_label": "32",
+   "q_order": 26,
+   "q_main": 32,
+   "section": "Item bank",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Non Aligned Movement",
+   "topic": "Non-Aligned Movement cartoon",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Non-Aligned Movement",
+    "Nehru"
+   ],
+   "question": "Which movement is depicted in the above cartoon?\n[Cartoon: Nehru gazing up at a winged sign reading \"NEUTRALITY\" while standing beside two gift boxes labelled \"U.S. AID\" and \"SOVIET AID\".]",
+   "options": {
+    "a": "Formation of UN",
+    "b": "Non-Aligned movement",
+    "c": "Beginning Cold War",
+    "d": "None of the above"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Non-Aligned movement. Nehru, a founder of NAM, kept India away from both blocs (neutrality) while accepting aid from both the USA and the USSR.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Cartoon of Nehru looking at a winged \"Neutrality\" sign beside gift boxes marked \"U.S. Aid\" and \"Soviet Aid\"",
+   "page": 12,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_history_civics/p12.jpg"
+  },
+  {
+   "q_label": "33",
+   "q_order": 27,
+   "q_main": 33,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Removal of the Speaker",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "removal of Speaker",
+    "effective majority"
+   ],
+   "question": "29th March 2023, The Hindu reported:\n\"Opposition MPs, in this case, largely the Congress legislature party, are mooting an idea of a resolution against Lok Sabha Speaker Om Birla for being 'unfair' to the opposition.\"\nWhat is the consequence when the Lok Sabha moves a resolution against the Speaker? In the above case, do you think the resolution would have led to such a consequence? Why?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "If such a resolution (moved after 14 days' notice) is passed by a majority of all the then members of the Lok Sabha, the Speaker is removed from office. In this case the resolution would not have led to removal, because it was moved by the Opposition, which did not have a majority in the Lok Sabha; the ruling party/alliance with a majority would defeat it.",
+   "marking_points": [
+    {
+     "point": "Consequence: the Speaker is removed from office if the resolution is passed by a majority of all the then members",
+     "marks": 1
+    },
+    {
+     "point": "No - the Opposition lacked a majority in the Lok Sabha, so the resolution would fail",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 13
+  },
+  {
+   "q_label": "34",
+   "q_order": 28,
+   "q_main": 34,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Powers of the Speaker - suspension",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "powers of the Speaker",
+    "suspension of members"
+   ],
+   "question": "14th December 2023, The Hindustan Times reported:\n\"Parliament session highlights: Total 13 opposition MPs suspended, SR Parthiban's suspension revoked.\"\nWho can suspend the members from the Lok Sabha? Mention any one probable circumstance under which he/she can suspend the members.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Speaker of the Lok Sabha can suspend members. Circumstance (any one): gross disorderly conduct / indiscipline; persistently and wilfully obstructing the business of the House; disregarding the authority of the Chair or refusing to obey the Speaker's ruling; entering the well of the House and shouting slogans.",
+   "marking_points": [
+    {
+     "point": "The Speaker",
+     "marks": 1
+    },
+    {
+     "point": "Any one valid circumstance, e.g. disorderly conduct/indiscipline or obstructing proceedings",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 13
+  },
+  {
+   "q_label": "35",
+   "q_order": 29,
+   "q_main": 35,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Removal of High Court judges",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "removal of judges",
+    "impeachment",
+    "independence of judiciary"
+   ],
+   "question": "2nd February 2024, the ANI reported:\n\"Centre notifies appointment of Chief Justices of seven different High Courts.\"\nCan the Centre remove the judges? Give a reason for your answer.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "No. Although the judges are appointed by the President (on the advice of the executive/collegium), the Centre cannot remove them at will. A High Court judge can be removed only by an order of the President after an address (impeachment) passed by each House of Parliament by a majority of its total membership and two-thirds of members present and voting, on grounds of proved misbehaviour or incapacity. This security of tenure protects judicial independence.",
+   "marking_points": [
+    {
+     "point": "No, the Centre (executive) cannot remove them",
+     "marks": 1
+    },
+    {
+     "point": "Reason: removal only by the President after impeachment by both Houses of Parliament with special majority on proved misbehaviour/incapacity",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 13
+  },
+  {
+   "q_label": "36",
+   "q_order": 30,
+   "q_main": 36,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Second Phase of Indian National Movement",
+   "topic": "Lucknow Pact 1916",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Lucknow Pact",
+    "Hindu-Muslim unity"
+   ],
+   "question": "With reference to the picture given below, state any two significant outcomes of the pact signed in 1916 between the Indian National Congress and the All-India Muslim League.\n[Picture: leaders seated at a table signing the pact.]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Lucknow Pact (1916). Any two outcomes: (1) It brought the Congress and the Muslim League together on a common political platform - an important step towards Hindu-Muslim unity. (2) It reunited the Early (Moderate) and Assertive Nationalists in the Congress. (3) The two parties put forward joint demands for self-government/constitutional reforms, which demoralised the British and contributed to the Montagu Declaration and the gradual development of self-governing institutions. (4) The Congress accepted separate electorates for Muslims (a step later seen as encouraging communal politics).",
+   "marking_points": [
+    {
+     "point": "First valid outcome of the Lucknow Pact",
+     "marks": 1
+    },
+    {
+     "point": "Second valid outcome of the Lucknow Pact",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Photograph of Congress and Muslim League leaders signing the Lucknow Pact",
+   "page": 13,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_history_civics/p13.jpg"
+  },
+  {
+   "q_label": "37",
+   "q_order": 31,
+   "q_main": 37,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Ilbert Bill controversy",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Ilbert Bill",
+    "racial discrimination"
+   ],
+   "question": "Read the excerpt given below and answer the question that follows:\nNews outlets played a big role in instigating the dispute around the bill, sparking outrage in Britain and India, as the political press \"to influence government legislation for India\" for the first time. The Gazette, the Times, and other newspapers continued to release statements condemning the bill and criticising the desire to \"please the native community at any cost\". The widespread news reports invoked more opposition from those in Britain regarding the need to bring in judicial equality.\nSource: Wikipedia\nWhich Bill is being referred to in the above passage? What was its implication on the Indian judicial system?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Ilbert Bill (1883), introduced during Lord Ripon's viceroyalty. It sought to remove the racial discrimination by which no European could be tried for a criminal offence by an Indian judge or magistrate, i.e. it proposed to allow Indian judges/magistrates to try Europeans. Due to the European agitation it was diluted - Europeans could claim trial by a jury of which at least half were Europeans - which exposed the racial bias of British rule and made Indians realise the need for an organised national movement.",
+   "marking_points": [
+    {
+     "point": "Ilbert Bill (1883)",
+     "marks": 1
+    },
+    {
+     "point": "Implication: it proposed to let Indian judges try Europeans, removing racial discrimination in the judiciary (later diluted after European protest)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 14
+  },
+  {
+   "q_label": "38",
+   "q_order": 32,
+   "q_main": 38,
+   "section": "Item bank",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Jyotiba Phule and Satyashodhak Samaj",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Jyotiba Phule",
+    "Satyashodhak Samaj"
+   ],
+   "question": "He led a movement in India that called for the creation of a new social order in which no one would be subordinated to the upper-caste Brahmans. He also fought for women's rights, believing that education was essential to bringing about social change.\nIdentify the social reformer from the given passage. Name the organisation he established in 1873 with the aim of securing social justice for the weaker sections of society.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Social reformer",
+     "accepted": [
+      "Jyotiba Phule",
+      "Jyotirao Phule",
+      "Mahatma Jyotiba Phule",
+      "Jotiba Phule",
+      "Phule"
+     ]
+    },
+    {
+     "prompt": "Organisation founded in 1873",
+     "accepted": [
+      "Satyashodhak Samaj",
+      "Satya Shodhak Samaj",
+      "Satya Sodhak Samaj",
+      "Satyashodak Samaj"
+     ]
+    }
+   ],
+   "solution": "Social reformer: Jyotiba (Jyotirao) Phule. Organisation: Satyashodhak Samaj (1873), which worked for social justice for the lower castes and women.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 14
+  },
+  {
+   "q_label": "39(a)",
+   "q_order": 33,
+   "q_main": 39,
+   "section": "Item bank",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Simon Commission",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 1,
+   "concepts": [
+    "Simon Commission"
+   ],
+   "question": "[Picture: a procession of protesters carrying black flags and a banner reading \"SIMON GO BACK\".]\n(a) Identify the event associated with the above-mentioned slogan.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Event",
+     "accepted": [
+      "Simon Commission",
+      "Arrival of the Simon Commission",
+      "Boycott of the Simon Commission",
+      "Simon Commission boycott",
+      "Simon Go Back protest"
+     ]
+    }
+   ],
+   "solution": "The arrival (and boycott) of the Simon Commission in India, 1928.",
+   "marking_points": [],
+   "needs_figure": true,
+   "figure_desc": "Photograph of a procession with black flags and a \"Simon Go Back\" banner",
+   "page": 14,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_history_civics/p14.jpg"
+  },
+  {
+   "q_label": "39(b)",
+   "q_order": 34,
+   "q_main": 39,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Boycott of the Simon Commission",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 1,
+   "concepts": [
+    "Simon Commission",
+    "all-white commission"
+   ],
+   "question": "[Picture: a procession of protesters carrying black flags and a banner reading \"SIMON GO BACK\".]\n(b) Why did the Indian leaders decide to boycott the event?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Simon Commission (1927), appointed to review constitutional reforms in India, had seven members - all British; there was no Indian member. Indians regarded this all-white commission as an insult to their self-respect and a denial of their right of self-determination, so the Congress (Madras session, 1927), the Muslim League and other parties boycotted it.",
+   "marking_points": [
+    {
+     "point": "No Indian member on the Commission - an insult/denial of self-determination to Indians",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Photograph of a procession with black flags and a \"Simon Go Back\" banner",
+   "page": 14,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_history_civics/p14.jpg"
+  },
+  {
+   "q_label": "40",
+   "q_order": 35,
+   "q_main": 40,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Independence and Partition of India",
+   "topic": "Acceptance of the Mountbatten Plan",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Mountbatten Plan",
+    "reasons for accepting partition"
+   ],
+   "question": "With reference to the above newspaper article, state any two reasons for the acceptance of the Mountbatten Plan.\n[Newspaper: The Times of India, Bombay, 4 June 1947 - \"WAY OUT OF INDIAN DEADLOCK: Britain's plan for smooth transfer of power; Immediate Dominion Status granted; People asked to decide partition question; Present Constituent Assembly not disturbed; Mr. Nehru commends plan to nation; Mr. Jinnah hopeful of League's acceptance.\"]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (1) Large-scale communal riots convinced leaders that partition was the only solution to the communal problem. (2) The Muslim League joined the Interim Government only to obstruct; the Congress realised a joint administration with the League was impossible. (3) The only alternative was a federation with a weak centre; a smaller India with a strong centre was preferable. (4) Partition was the price for immediate independence (dominion status) - delay could plunge India into civil war. (5) Partition would rid the Constitution of separate electorates and other undemocratic provisions.",
+   "marking_points": [
+    {
+     "point": "First valid reason for acceptance of the Mountbatten Plan",
+     "marks": 1
+    },
+    {
+     "point": "Second valid reason",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 15
+  },
+  {
+   "q_label": "41",
+   "q_order": 36,
+   "q_main": 41,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Forward Bloc and The INA",
+   "topic": "Slogans of Subhas Chandra Bose",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "Subhas Chandra Bose",
+    "INA slogans"
+   ],
+   "question": "\"It is our duty to pay for our liberty with our own blood. The Freedom that we shall win through our sacrifice and Exertions, we shall be able to preserve with our own strength.\"\nWith reference to the above quote, put forth the slogans given by the great Indian freedom fighter Subhash Chandra Bose.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Slogans of Subhas Chandra Bose: \"Tum mujhe khoon do, main tumhe azadi doonga\" (Give me blood, and I will give you freedom); \"Dilli Chalo\" (Chalo Delhi / On to Delhi); \"Jai Hind\".",
+   "marking_points": [
+    {
+     "point": "\"Give me blood, and I will give you freedom\"",
+     "marks": 1
+    },
+    {
+     "point": "\"Dilli Chalo\" or \"Jai Hind\"",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 15
+  },
+  {
+   "q_label": "42",
+   "q_order": 37,
+   "q_main": 42,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The United Nations",
+   "topic": "Functions of UNICEF",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 1,
+   "concepts": [
+    "UNICEF functions"
+   ],
+   "question": "Mention ANY TWO functions of the UN agency associated with the above picture.\n[Picture: UNICEF publication \"Children of Syria - A UNICEF update: Escaping war trauma, Syrian children reconnect with their childhood\".]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The agency is UNICEF. Any two functions: (1) Protects children with respect to their survival, health and well-being, especially in emergencies like war (e.g. Syria). (2) Provides funds for training health and sanitation workers, teachers and nutritionists. (3) Provides technical supplies and equipment - from paper for textbooks and medicines for health clinics to pumps and pipes for clean drinking water. (4) Helps prevent diseases such as TB, malaria and skin and eye diseases through immunisation and health programmes.",
+   "marking_points": [
+    {
+     "point": "First valid function of UNICEF",
+     "marks": 1
+    },
+    {
+     "point": "Second valid function of UNICEF",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "UNICEF \"Children of Syria\" update cover showing two Syrian girls",
+   "page": 15,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_history_civics/p15.jpg"
+  },
+  {
+   "q_label": "43",
+   "q_order": 38,
+   "q_main": 43,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The United Nations",
+   "topic": "Big Three and formation of the UN",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Big Three",
+    "formation of UN"
+   ],
+   "question": "Identify the big three. Name the organisation formed by them after World War II.\n[Cartoon: three leaders - Roosevelt, Stalin and Churchill - leaning over a map of Europe.]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Big Three: Franklin D. Roosevelt (USA), Joseph Stalin (USSR) and Winston Churchill (Britain). The organisation: the United Nations Organisation (UNO), established on 24 October 1945.",
+   "marking_points": [
+    {
+     "point": "Identifies the Big Three: Roosevelt, Stalin, Churchill",
+     "marks": 1
+    },
+    {
+     "point": "United Nations Organisation (UNO)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Cartoon of Roosevelt, Stalin and Churchill leaning over a map of Europe",
+   "page": 16,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_history_civics/p16.jpg"
+  },
+  {
+   "q_label": "44",
+   "q_order": 39,
+   "q_main": 44,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Rise of Dictatorships",
+   "topic": "Ideologies of Fascism and Nazism",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 3,
+   "concepts": [
+    "Fascism",
+    "Nazism",
+    "totalitarianism"
+   ],
+   "question": "Mention the similarities in the ideologies of the dictators depicted in the above picture.\n[Cartoon: Mussolini and Hitler shaking hands over \"Sud-Tirol\".]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The dictators are Mussolini (Fascism, Italy) and Hitler (Nazism, Germany). Similarities (any two): both believed in totalitarian rule - one party, one leader; both despised democracy and opposed communism; both held the state supreme, suppressing individual rights and freedoms; both believed in aggressive nationalism and imperialism; both glorified war as an instrument of national policy.",
+   "marking_points": [
+    {
+     "point": "First similarity in Fascist and Nazi ideology",
+     "marks": 1
+    },
+    {
+     "point": "Second similarity",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Cartoon of Mussolini and Hitler shaking hands over South Tyrol (Sud-Tirol)",
+   "page": 16,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_history_civics/p16.jpg"
+  },
+  {
+   "q_label": "45",
+   "q_order": 40,
+   "q_main": 45,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "Position of the Prime Minister",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "position of the Prime Minister",
+    "primus inter pares"
+   ],
+   "question": "Read the conversation given below and answer the following questions:\nPriscila: The Prime Minister is like a king, he decides everything in our country.\nKiran: Lord Morley described the Prime Minister as 'primus inter pares' (first among equals) and 'keystone of the cabinet arch'. He is the chief executive of the nation and works as head of the Union Government.\nBalvinder: The Prime Minister has to consider the expectations of the party members and other support of the government. But after all, the Prime Minister has a greater say in policy-making and in choosing the ministers.\nSource (Edited): https://dspmuranchi.ac.in/pdf/Blog/pm.pdf\nIn light of the above conversation, answer the following.\nDo you agree with Priscila's or Kiran's statement? Justify your answer with reference to the position of the Prime minister in our country.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "I agree with Kiran. The Prime Minister is not like a king: he is the leader of the majority in the Lok Sabha, heads the Council of Ministers which is collectively responsible to the Lok Sabha, and can be removed by a vote of no-confidence; decisions are taken collectively in the Cabinet and he must carry his party and allies with him. At the same time he is the real head of the government - he chooses and allocates portfolios to ministers, presides over the Cabinet and coordinates policy - making him 'first among equals' and the 'keystone of the cabinet arch'.",
+   "marking_points": [
+    {
+     "point": "Agrees with Kiran (PM is first among equals, not a king)",
+     "marks": 1
+    },
+    {
+     "point": "Justification: PM is accountable to Lok Sabha / works through a collectively responsible Cabinet, yet leads it",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 17
+  },
+  {
+   "q_label": "46",
+   "q_order": 41,
+   "q_main": 46,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Supreme Court",
+   "topic": "Writ of Habeas Corpus",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "writ of Habeas Corpus",
+    "Articles 32 and 226"
+   ],
+   "question": "\"The Madras High Court has accepted a request made on behalf of a Minister's wife, for an urgent hearing of a Habeas Corpus petition filed by her accusing the Enforcement Directorate (ED) of not having followed due procedure while arresting her husband early on Wednesday.\" (Reference: The Hindu)\nIn the situation given above, what does the 'Habeas Corpus' mean? Which bodies in our Country are authorised to issue such orders?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "'Habeas Corpus' means 'to have the body'. It is a writ directing an authority that has detained a person to produce him before the court so that the court can examine whether the detention is lawful; if not, the person is set free. It is issued by the Supreme Court (Article 32) and the High Courts (Article 226).",
+   "marking_points": [
+    {
+     "point": "Meaning: 'to have the body' - produce the detained person before the court to test legality of detention",
+     "marks": 1
+    },
+    {
+     "point": "Supreme Court and High Courts",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 17
+  },
+  {
+   "q_label": "47",
+   "q_order": 42,
+   "q_main": 47,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Lok Adalat and judicial delays",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "judicial delays",
+    "Lok Adalat"
+   ],
+   "question": "[Cartoon by R.K. Laxman: an old man outside a court says, \"Yes, the judge addresses me as 'Young Man.....' because I was quite young when this case started.\"]\nWith reference to the picture given above, explain a common problem of the judicial system and how it can be solved through a subordinate court.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Problem: inordinate delay in justice - cases drag on for decades because of the huge backlog of pending cases, so that a litigant who was young when the case began has grown old ('justice delayed is justice denied'). Solution: the Lok Adalat - it settles disputes quickly through compromise and conciliation, is informal, involves no court fee, and its award is final, thereby reducing the backlog and providing speedy justice.",
+   "marking_points": [
+    {
+     "point": "Problem: delay in justice / huge backlog of pending cases",
+     "marks": 1
+    },
+    {
+     "point": "Solution: Lok Adalat provides speedy, inexpensive settlement by compromise",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "R.K. Laxman cartoon of an old litigant outside a court saying the judge calls him \"Young Man\" because he was young when the case started",
+   "page": 18,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_history_civics/p18.jpg"
+  },
+  {
+   "q_label": "49",
+   "q_order": 43,
+   "q_main": 49,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Gap between two sessions",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "sessions of Parliament",
+    "six-month rule"
+   ],
+   "question": "If the Parliament has prorogued its session by the end of February, within which month it must have its next session? Why?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The next session must be held by the end of August, because the Constitution (Article 85) provides that the gap between two sessions of Parliament must not exceed six months.",
+   "marking_points": [
+    {
+     "point": "By the end of August",
+     "marks": 1
+    },
+    {
+     "point": "Gap between two sessions cannot exceed six months",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 18
+  },
+  {
+   "q_label": "50",
+   "q_order": 44,
+   "q_main": 50,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First War of Independence 1857",
+   "topic": "Annexation of Awadh",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "annexation of Awadh",
+    "causes of 1857"
+   ],
+   "question": "Read the excerpt given below and answer the question that follows:\n\"On 7th February 1856, Lord Dalhousie ordered to depose Wajid Ali Shah on account of alleged internal misrule. The Kingdom of Awadh was annexed in February 1856.\"\nAwadh was annexed on the ground of misrule. With respect to it, state two of its impacts.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (1) The Nawab's court was dissolved and the army of Awadh disbanded, leaving thousands of soldiers, nobles and officials unemployed. (2) It caused deep resentment among the sepoys of the Bengal Army, most of whom came from Awadh, as their own ruler had been deposed. (3) Taluqdars lost their estates under the new land settlement. (4) It was seen as an act of betrayal of a loyal ally, increasing distrust of the British and contributing to the Revolt of 1857.",
+   "marking_points": [
+    {
+     "point": "First impact of annexation of Awadh",
+     "marks": 1
+    },
+    {
+     "point": "Second impact of annexation of Awadh",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 18
+  },
+  {
+   "q_label": "51",
+   "q_order": 45,
+   "q_main": 51,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Lahore Session 1929",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Lahore Session 1929",
+    "Purna Swaraj"
+   ],
+   "question": "'The Lahore Session of the Indian National Congress in 1929 was a significant milestone in the Indian independence movement.'\nConcerning the above statement, explain what made the Lahore session a momentous event in India's struggle for independence.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "At the Lahore Session (December 1929), presided over by Jawaharlal Nehru, the Congress passed the Purna Swaraj resolution, declaring complete independence as its goal. The tricolour was hoisted on the banks of the Ravi on 31 December 1929, 26 January 1930 was celebrated as Independence Day, and the Congress Working Committee was authorised to launch a Civil Disobedience Movement - a decisive shift from dominion status to complete sovereignty.",
+   "marking_points": [
+    {
+     "point": "Purna Swaraj (complete independence) adopted as the goal of the Congress",
+     "marks": 1
+    },
+    {
+     "point": "Any other significance: 26 January as Independence Day / authorised Civil Disobedience Movement / flag hoisted on the Ravi",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 19
+  },
+  {
+   "q_label": "52",
+   "q_order": 46,
+   "q_main": 52,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "British reaction to Quit India",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "Quit India Movement",
+    "British repression"
+   ],
+   "question": "Mention any two ways in which the British Government in India reacted to the Quit India Resolution.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (1) In the early hours of 9 August 1942 all top Congress leaders were arrested - Gandhiji was detained at the Aga Khan Palace, Pune and others at Ahmednagar Fort. (2) The Congress was declared an illegal organisation. (3) The press was muzzled. (4) Demonstrating crowds were lathi-charged, machine-gunned and even bombed from the air; about 10,000 people were killed and 60,000 arrested. (5) Collective (punitive) fines were imposed on villages and villagers flogged; the military took over many towns.",
+   "marking_points": [
+    {
+     "point": "First valid British reaction",
+     "marks": 1
+    },
+    {
+     "point": "Second valid British reaction",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 19
+  },
+  {
+   "q_label": "53",
+   "q_order": 47,
+   "q_main": 53,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Forward Bloc and The INA",
+   "topic": "Unique features of the INA",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "INA",
+    "Rani of Jhansi Regiment"
+   ],
+   "question": "The Indian National Army, built by Subhash Chandra Bose, was far ahead of its time and was a unique army. Mention any two traits that made it unique.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (1) It was organised on foreign soil, thousands of kilometres from India, depending on Indians in East Asia for men, money and supplies. (2) It had a women's regiment - the Rani of Jhansi Regiment - at a time when women did not serve in combat. (3) It was free of communal and caste distinctions - Hindus, Muslims and Sikhs served together, eating in common kitchens. (4) It was made up of volunteers inspired by patriotism and the spirit of self-sacrifice.",
+   "marking_points": [
+    {
+     "point": "First unique trait of the INA",
+     "marks": 1
+    },
+    {
+     "point": "Second unique trait of the INA",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 19
+  },
+  {
+   "q_label": "54",
+   "q_order": 48,
+   "q_main": 54,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First World War",
+   "topic": "Nation-states and empires before 1914",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "nationalism before WWI",
+    "multinational empires"
+   ],
+   "question": "Name any one single nation-state and one imperial state before 1914.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Nation-state (any one): France, Germany, Holland (Netherlands). Imperial (multinational) state (any one): Austria-Hungary, the Russian Empire, the Ottoman Empire.",
+   "marking_points": [
+    {
+     "point": "One nation-state, e.g. France",
+     "marks": 1
+    },
+    {
+     "point": "One imperial state, e.g. Austria-Hungary / Russian Empire / Ottoman Empire",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 19
+  },
+  {
+   "q_label": "55",
+   "q_order": 49,
+   "q_main": 55,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Second World War",
+   "topic": "Failure of the League of Nations",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "League of Nations failure",
+    "collective security"
+   ],
+   "question": "The League of Nations failed in preventing the Second World War. Give two reasons for the same.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (1) The system of collective security failed - member nations did not act together against aggressors (Japan in Manchuria, Italy in Abyssinia). (2) Economic sanctions proved ineffective and were not applied properly. (3) The League had no army of its own - its coercive machinery was inadequate. (4) Major powers such as the USA never joined, and Germany, Japan and Italy left it. (5) Britain and France followed a policy of appeasement and used the League for their own interests.",
+   "marking_points": [
+    {
+     "point": "First valid reason for failure of the League",
+     "marks": 1
+    },
+    {
+     "point": "Second valid reason",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 19
+  },
+  {
+   "q_label": "56",
+   "q_order": 50,
+   "q_main": 56,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "PM as leader of the Cabinet",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "powers of PM over Cabinet"
+   ],
+   "question": "As the leader of the cabinet, what are the powers of the Prime Minister of India?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any two: (1) The PM selects the ministers - the President appoints them on his advice - and can ask any minister to resign or advise the President to dismiss him. (2) He allocates portfolios and can reshuffle the Council of Ministers. (3) He presides over Cabinet meetings and decides their agenda. (4) He directs and coordinates the policies and work of all ministries. (5) His resignation means the resignation of the whole Council of Ministers.",
+   "marking_points": [
+    {
+     "point": "First power of the PM as leader of the Cabinet",
+     "marks": 1
+    },
+    {
+     "point": "Second power",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 19
+  },
+  {
+   "q_label": "57",
+   "q_order": 51,
+   "q_main": 57,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Exclusive powers of the Lok Sabha",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "exclusive powers of Lok Sabha",
+    "Money Bill",
+    "no-confidence motion"
+   ],
+   "question": "The Lok Sabha has been the pulse of the vitality of Indian democracy. Mention any three exclusive powers of the Lok Sabha to justify this statement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: (1) The Council of Ministers is responsible only to the Lok Sabha and stays in office only as long as it enjoys its confidence; a no-confidence motion can be moved and passed only in the Lok Sabha. (2) A Money Bill can be introduced only in the Lok Sabha; the Rajya Sabha cannot reject or amend it and must return it within 14 days. (3) The Lok Sabha controls the national purse - it passes the Budget and votes demands for grants; cut motions are moved here. (4) In a joint sitting to resolve a deadlock, the will of the Lok Sabha prevails due to its larger numbers. (5) An adjournment motion can be moved only in the Lok Sabha.",
+   "marking_points": [
+    {
+     "point": "First exclusive power of the Lok Sabha",
+     "marks": 1
+    },
+    {
+     "point": "Second exclusive power",
+     "marks": 1
+    },
+    {
+     "point": "Third exclusive power",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 19
+  },
+  {
+   "q_label": "58",
+   "q_order": 52,
+   "q_main": 58,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Parliamentary control over the Executive",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "parliamentary control over executive",
+    "question hour",
+    "no-confidence"
+   ],
+   "question": "It is the function of Parliament to exercise control over the Executive and to ensure parliamentary surveillance of administration. Mention any three ways in which the Parliament adheres to the above function.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: (1) Question Hour - members ask questions and supplementaries; ministers must answer. (2) Zero Hour and discussions/debates on policies. (3) Adjournment motion to discuss an urgent matter of public importance. (4) No-confidence motion - the Council of Ministers must resign if it is passed. (5) Censure motion, cut motion and rejection of a Government Bill or the Budget. (6) Financial control - examining the reports of the Comptroller and Auditor-General through committees.",
+   "marking_points": [
+    {
+     "point": "First method of parliamentary control",
+     "marks": 1
+    },
+    {
+     "point": "Second method",
+     "marks": 1
+    },
+    {
+     "point": "Third method",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 19
+  },
+  {
+   "q_label": "59",
+   "q_order": 53,
+   "q_main": 59,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "High Court and Subordinate Courts",
+   "topic": "Advantages of the Lok Adalat",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Lok Adalat advantages",
+    "alternative dispute resolution"
+   ],
+   "question": "The Lok Adalat is a Statutory Organisation under the Legal Services Authorities Act of 1987 and was created as an alternative dispute resolution mechanism. Analyse the role of the Lok Adalat by giving three advantages.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: (1) Speedy justice - disputes are settled quickly, often in a single sitting. (2) Saves money - no court fee is charged, and fees already paid are refunded if the matter is settled. (3) Works in a spirit of compromise and conciliation - both parties are satisfied and relationships preserved. (4) Informal procedure - parties can interact directly with the judge without strict rules of evidence. (5) Reduces the burden of pending cases on regular courts, including High Courts. (6) The award is final and binding, with no appeal, giving finality to disputes.",
+   "marking_points": [
+    {
+     "point": "First advantage of Lok Adalat",
+     "marks": 1
+    },
+    {
+     "point": "Second advantage",
+     "marks": 1
+    },
+    {
+     "point": "Third advantage",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 20
+  },
+  {
+   "q_label": "60",
+   "q_order": 54,
+   "q_main": 60,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Drain of wealth",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "drain of wealth",
+    "economic exploitation"
+   ],
+   "question": "Highlight three ways in which India's wealth was being diverted to England.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: (1) Salaries and allowances of the Secretary of State and members of the India Council were paid out of Indian revenues. (2) British officials and personnel in India sent their savings to England, and pensions to retired British officials were paid from India. (3) Payments to the War Office for the maintenance of British troops in India and for wars fought outside India. (4) Profits of British trading companies and interest and dividends on British capital invested in railways, plantations and mines were sent to England.",
+   "marking_points": [
+    {
+     "point": "First channel of drain of wealth",
+     "marks": 1
+    },
+    {
+     "point": "Second channel",
+     "marks": 1
+    },
+    {
+     "point": "Third channel",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 20
+  },
+  {
+   "q_label": "62",
+   "q_order": 55,
+   "q_main": 62,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Deindustrialisation under British rule",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "deindustrialisation",
+    "one-way free trade",
+    "colonial economy"
+   ],
+   "question": "To benefit British industry, British rule pursued a policy of free trade in India. The nationalists were generally concerned about the lack of public investment in agriculture and argued that the British were trying to turn India into a valuable source of raw materials and a consumer of British-manufactured goods to make India an extension of the British economy.\n(Source: History of Modern India by Bipin Chandra.)\nDiscuss how the British empire deindustrialised India.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: (1) Through one-way free trade, cheap machine-made British goods were imported into India with little or no duty, ruining Indian handicrafts and cottage industries (e.g. textiles). (2) Heavy duties were imposed on Indian manufactured goods entering England, so Indian handicrafts lost their export market and stagnated. (3) India was turned into a colonial economy - an exporter of raw materials (cotton, indigo, jute) and an importer of finished British goods; cultivators were forced to grow cash crops for British industry. (4) Loss of royal and aristocratic patronage after annexations destroyed the market for fine crafts. (5) British capital went into railways, plantations and mines serving British needs, not into Indian industry, so artisans were pushed onto agriculture.",
+   "marking_points": [
+    {
+     "point": "First way India was deindustrialised",
+     "marks": 1
+    },
+    {
+     "point": "Second way",
+     "marks": 1
+    },
+    {
+     "point": "Third way",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 20
+  },
+  {
+   "q_label": "63",
+   "q_order": 56,
+   "q_main": 63,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Independence and Partition of India",
+   "topic": "Constituent Assembly under the Cabinet Mission Plan",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "Cabinet Mission Plan",
+    "Constituent Assembly composition"
+   ],
+   "question": "The Cabinet Mission proposed a two-tier federal plan which was expected to maintain national unity while conceding the largest measure of regional autonomy.\nWith reference to the above, state the composition of the Constituent Assembly.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Under the Cabinet Mission Plan (1946) the Constituent Assembly was to have 389 members: (1) 296 members from the British Indian provinces (292 from the provinces and 4 from the Chief Commissioners' provinces) and 93 members from the Princely States. (2) Members from the provinces were to be elected indirectly by the Provincial Legislative Assemblies (adult suffrage was ruled out to avoid delay), roughly one member per ten lakh population. (3) Seats in each province were divided among the three communities - General, Muslim and Sikh - in proportion to their population, each community electing its own representatives.",
+   "marking_points": [
+    {
+     "point": "Total 389: 296 from British provinces and 93 from Princely States",
+     "marks": 1
+    },
+    {
+     "point": "Elected indirectly by Provincial Legislative Assemblies (no adult suffrage)",
+     "marks": 1
+    },
+    {
+     "point": "Seats divided among General, Muslim and Sikh communities in proportion to population",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 20
+  },
+  {
+   "q_label": "64",
+   "q_order": 57,
+   "q_main": 64,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Second Round Table Conference",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Second Round Table Conference",
+    "separate electorates"
+   ],
+   "question": "When and where was the Second Round Table conference held? State the demand raised during this conference.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The Second Round Table Conference was held in London from September to December 1931; Gandhiji attended as the sole representative of the Congress (following the Gandhi-Irwin Pact). Demands raised: Gandhiji demanded the immediate establishment of a responsible government/dominion status (complete independence) for India, which the British refused to concede; the conference was deadlocked over the demand for separate electorates raised by the Muslims, the Depressed Classes, Indian Christians, Anglo-Indians and Europeans.",
+   "marking_points": [
+    {
+     "point": "Held in 1931 (September-December)",
+     "marks": 1
+    },
+    {
+     "point": "Held in London",
+     "marks": 1
+    },
+    {
+     "point": "Demand: separate electorates by minorities / Gandhiji's demand for immediate responsible government (dominion status), which was refused",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 20
+  },
+  {
+   "q_label": "65",
+   "q_order": 58,
+   "q_main": 65,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Impact of the Quit India Movement",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Quit India Movement impact"
+   ],
+   "question": "'The Quit India Movement made Independence of India as the only agenda of the National Movement. It proved that there could be no retreat and future negotiations could only be on the manner of the transfer of power.'\nWith reference to the above statement, enlist the impact of the Quit India Movement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: (1) It demonstrated the depth of nationalist feeling and the capacity of Indians for struggle and sacrifice. (2) It made clear to the British that they could no longer rule India against the wishes of its people; independence became non-negotiable and only the manner of transfer of power remained. (3) People of all sections - students, workers, peasants, women - participated, making it a truly mass movement. (4) It strengthened the Congress Socialist Party and threw up new leaders such as Jayaprakash Narayan, Aruna Asaf Ali and Ram Manohar Lohia. (5) Parallel governments were set up in places like Satara, Ballia and Tamluk.",
+   "marking_points": [
+    {
+     "point": "First impact of the Quit India Movement",
+     "marks": 1
+    },
+    {
+     "point": "Second impact",
+     "marks": 1
+    },
+    {
+     "point": "Third impact",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 20
+  },
+  {
+   "q_label": "66",
+   "q_order": 59,
+   "q_main": 66,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First World War",
+   "topic": "Treaty of Versailles - impact on Germany",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "data_diagram",
+   "difficulty": 2,
+   "concepts": [
+    "Treaty of Versailles",
+    "reparations",
+    "disarmament of Germany"
+   ],
+   "question": "Mention any three ways in which Germany was affected by this treaty.\n[Cartoon: an Allied officer holding out \"TERMS: The German People must pay for all damage to civilians on land or sea or from the air\" to a dejected German figure.]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The treaty is the Treaty of Versailles (1919). Any three: (1) War-guilt and reparations - Germany had to pay for all damages; reparations were fixed at 6,600 million pounds (about 33 billion dollars); she ceded merchant ships and supplied coal to France, Italy and Belgium. (2) Territorial losses - Alsace-Lorraine to France, Eupen-Malmedy to Belgium, North Schleswig to Denmark, territory to Poland and Czechoslovakia; Danzig became a free city. (3) The Saar coal mines were given to France for 15 years, the region governed by the League of Nations. (4) Germany lost all her overseas colonies. (5) Military restrictions - army limited to 1,00,000 men, navy to 15,000 men and a few ships; air force and submarines banned; the Rhineland was demilitarised and occupied by Allied troops for 15 years.",
+   "marking_points": [
+    {
+     "point": "First effect of the Treaty of Versailles on Germany",
+     "marks": 1
+    },
+    {
+     "point": "Second effect",
+     "marks": 1
+    },
+    {
+     "point": "Third effect",
+     "marks": 1
+    }
+   ],
+   "needs_figure": true,
+   "figure_desc": "Cartoon of an Allied officer presenting \"Terms: the German people must pay for all damage...\" to a German figure",
+   "page": 21,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_history_civics/p21.jpg"
+  },
+  {
+   "q_label": "67",
+   "q_order": 60,
+   "q_main": 67,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Non Aligned Movement",
+   "topic": "Objectives of the Non-Aligned Movement",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Non-Aligned Movement objectives"
+   ],
+   "question": "Enumerate any three objectives of the movement started by newly independent countries in Asia and Africa.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The movement is the Non-Aligned Movement. Any three objectives: (1) To protect the newly won freedom of Asian and African countries from colonial domination and keep away from military blocs. (2) To oppose colonialism, imperialism and racial discrimination (apartheid). (3) To advocate sovereign equality of all states and peaceful settlement of international disputes. (4) To oppose the use of force and nuclear weapons; to promote disarmament. (5) To strengthen the UN as an instrument of world peace. (6) To build a New International Economic Order based on equity and justice.",
+   "marking_points": [
+    {
+     "point": "First objective of NAM",
+     "marks": 1
+    },
+    {
+     "point": "Second objective",
+     "marks": 1
+    },
+    {
+     "point": "Third objective",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 21
+  },
+  {
+   "q_label": "69(a)",
+   "q_order": 61,
+   "q_main": 69,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Supreme Court",
+   "topic": "Qualifications of SC and HC judges",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "qualifications of judges"
+   ],
+   "question": "Compare the two higher courts of our country with reference to the following:\n(a) qualification",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Supreme Court judge: citizen of India and has been a judge of a High Court for at least 5 years, or an advocate of a High Court for at least 10 years, or a distinguished jurist in the opinion of the President. High Court judge: citizen of India and has held a judicial office in India for at least 10 years, or has been an advocate of a High Court for at least 10 years.",
+   "marking_points": [
+    {
+     "point": "Correct qualification for both SC (5 yrs HC judge/10 yrs advocate/jurist) and HC (10 yrs judicial office/10 yrs advocate)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 21
+  },
+  {
+   "q_label": "69(b)",
+   "q_order": 62,
+   "q_main": 69,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Supreme Court",
+   "topic": "Retirement age of SC and HC judges",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "retirement age of judges"
+   ],
+   "question": "Compare the two higher courts of our country with reference to the following:\n(b) age of retirement",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Supreme Court judges retire at 65 years; High Court judges retire at 62 years.",
+   "marking_points": [
+    {
+     "point": "SC 65 years and HC 62 years",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 21
+  },
+  {
+   "q_label": "69(c)",
+   "q_order": 63,
+   "q_main": 69,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Supreme Court",
+   "topic": "Original jurisdiction of SC and HC",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "original jurisdiction of SC and HC"
+   ],
+   "question": "Compare the two higher courts of our country with reference to the following:\n(c) one example of each of their Original Jurisdiction.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Supreme Court (any one): disputes between the Centre and one or more States, or between States; enforcement of Fundamental Rights (Article 32). High Court (any one): cases relating to State revenue and its collection; enforcement of Fundamental Rights (Article 226); cases of wills, marriage, divorce, company law and contempt of court; election petitions.",
+   "marking_points": [
+    {
+     "point": "One correct example each for SC and HC original jurisdiction",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 21
+  },
+  {
+   "q_label": "70(a)",
+   "q_order": 64,
+   "q_main": 70,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "Individual responsibility of ministers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "individual responsibility"
+   ],
+   "question": "Read the following excerpt and answer the questions that follow:\nAs railway and transport minister, Lal Bahadur Shastri sent his resignation twice to Nehru after train accidents. Only once he was persuaded to take it back.....When it appeared that Nehru seemed inclined to accept the (second) resignation, thirty MPs appealed to Nehru not to let Shastri go. They were of the view that while Shastri should be lauded for having offered to resign, his resignation should not be accepted, as he was not personally responsible for the accident.\n(Source: theprint.in)\n(a) Does Shastri's resignation reflect Individual Responsibility or Collective Responsibility? Justify.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Individual Responsibility. Shastri, as Railway Minister, took personal accountability for the train accidents that occurred in his ministry and offered to resign - only he, not the whole Council of Ministers, resigned.",
+   "marking_points": [
+    {
+     "point": "Individual Responsibility, as Shastri alone took responsibility for lapses in his own ministry",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 21
+  },
+  {
+   "q_label": "70(b)",
+   "q_order": 65,
+   "q_main": 70,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Prime Minister and Council of Ministers",
+   "topic": "Individual vs collective responsibility",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "individual responsibility",
+    "collective responsibility"
+   ],
+   "question": "(With reference to the excerpt on Lal Bahadur Shastri's resignation)\n(b) Highlight two important differences between both types.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Individual responsibility: each minister is answerable for the working of his own department - its lapses and departures from policy; he may be asked to resign by the PM, and only he leaves office. Collective responsibility: all ministers are jointly responsible to the Lok Sabha for all decisions and policies of the government; Cabinet decisions bind every minister, who must defend them publicly or resign; if a no-confidence motion is passed, the entire Council of Ministers must resign.",
+   "marking_points": [
+    {
+     "point": "Difference 1: individual = answerable for own department; collective = jointly answerable for all government policies",
+     "marks": 1
+    },
+    {
+     "point": "Difference 2: individual lapse -> that minister resigns; collective -> whole Council resigns on losing confidence of Lok Sabha",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 21
+  },
+  {
+   "q_label": "71",
+   "q_order": 66,
+   "q_main": 71,
+   "section": "Item bank",
+   "type": "fill_blank",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "President and Vice President",
+   "topic": "Ordinance-making power of the President",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "ordinance",
+    "Article 123"
+   ],
+   "question": "When either of the two Houses of the Parliament of India is not in session, and if the government feels the need for an immediate procedure, the President can promulgate ____________ that has the same force and effect as an act passed by parliament under its legislative powers.\nWhat can the President promulgate? Who prepares it? Which body must approve it?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "What can the President promulgate?",
+     "accepted": [
+      "Ordinance",
+      "An ordinance",
+      "Ordinances"
+     ]
+    },
+    {
+     "prompt": "Who prepares it?",
+     "accepted": [
+      "Cabinet",
+      "The Cabinet",
+      "Union Cabinet",
+      "Council of Ministers",
+      "Union Council of Ministers"
+     ]
+    },
+    {
+     "prompt": "Which body must approve it?",
+     "accepted": [
+      "Parliament",
+      "The Parliament",
+      "Both Houses of Parliament"
+     ]
+    }
+   ],
+   "solution": "The President can promulgate an Ordinance (Article 123). It is prepared by the Union Cabinet (Council of Ministers), on whose advice the President acts. It must be approved by Parliament within six weeks of its reassembly, otherwise it lapses.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 22
+  },
+  {
+   "q_label": "72(a)",
+   "q_order": 67,
+   "q_main": 72,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Union Legislature",
+   "topic": "Election to the Rajya Sabha",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "indirect election of Rajya Sabha",
+    "horse-trading"
+   ],
+   "question": "The Supreme Court, on March 4, 2024, said the elections to the Rajya Sabha and Council of States required \"utmost protection\" and the right to vote should be carried out freely without fear of persecution.\nWith reference to the above statement, answer the following:\n(a) Analyse why the Supreme Court emphasised \"utmost protection\" for elections to the Rajya Sabha.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Rajya Sabha members represent the States and are elected indirectly by the elected members of the State Legislative Assemblies (MLAs) by proportional representation through the single transferable vote. Since the electorate is small, MLAs can be pressured, threatened or bribed by parties (horse-trading), and the outcome depends on a few votes. \"Utmost protection\" is therefore needed so that MLAs vote freely and without fear, preserving the integrity of the Council of States and of the federal principle.",
+   "marking_points": [
+    {
+     "point": "Rajya Sabha is elected indirectly by MLAs (small electorate) representing the States",
+     "marks": 1
+    },
+    {
+     "point": "Such elections are vulnerable to pressure/bribery/horse-trading, so protection ensures free, fearless voting",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 22
+  },
+  {
+   "q_label": "73",
+   "q_order": 68,
+   "q_main": 73,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The Supreme Court",
+   "topic": "Independence of the judiciary",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "independence of judiciary"
+   ],
+   "question": "The independence of the judiciary shall be guaranteed by the State and enshrined in the Constitution or the law of the country. It is the duty of all governmental and other institutions to respect and observe the independence of the judiciary.\nWith reference to the above statement, mention any four ways in which the Constitution has ensured the independence of the judiciary.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any four: (1) Mode of appointment - judges are appointed by the President in consultation with the Chief Justice/collegium, not at the will of the executive alone. (2) Security of tenure - judges hold office till 65 (SC) / 62 (HC) and can be removed only by impeachment by both Houses with a special majority on grounds of proved misbehaviour or incapacity. (3) Salaries and allowances are charged on the Consolidated Fund and are not subject to the vote of Parliament; they cannot be reduced to their disadvantage during their term (except in a financial emergency). (4) No discussion on the conduct of a judge in Parliament or State legislatures except during impeachment. (5) Power to punish for contempt of court. (6) Retired SC judges cannot plead or act in any court in India. (7) The Supreme Court has full control over its establishment and staff.",
+   "marking_points": [
+    {
+     "point": "First constitutional safeguard",
+     "marks": 1
+    },
+    {
+     "point": "Second safeguard",
+     "marks": 1
+    },
+    {
+     "point": "Third safeguard",
+     "marks": 1
+    },
+    {
+     "point": "Fourth safeguard",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 22
+  },
+  {
+   "q_label": "74(a)",
+   "q_order": 69,
+   "q_main": 74,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Lord Lytton",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 1,
+   "concepts": [
+    "Lord Lytton"
+   ],
+   "question": "Read the given excerpt and answer the question that follows:\nAn English politician who served as Viceroy of India. He is commonly regarded as a ruthless viceroy due to his approach to the Great Indian Famine of 1876-1878.\n(a) Identify the Viceroy in the given statement.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Lord Lytton (Viceroy of India, 1876-1880).",
+   "marking_points": [
+    {
+     "point": "Lord Lytton",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 22
+  },
+  {
+   "q_label": "74(b)",
+   "q_order": 70,
+   "q_main": 74,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Growth of Nationalism",
+   "topic": "Lord Lytton's repressive policies",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Vernacular Press Act",
+    "Arms Act",
+    "Delhi Durbar 1877"
+   ],
+   "question": "(With reference to the Viceroy identified in (a))\n(b) Mention any three of his policies which impacted colonial India from 1876 to 1880.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Any three: (1) Reduction of the maximum age for the Indian Civil Service examination from 21 to 19 years (1876-77), ruining the chances of Indian candidates. (2) The Imperial Delhi Durbar (1877) to proclaim Queen Victoria Empress of India, held lavishly when millions were dying in the famine in South India. (3) The Vernacular Press Act (1878), which curbed the freedom of Indian-language newspapers but exempted English papers. (4) The Indian Arms Act (1878), making it a criminal offence for Indians to keep arms without a licence while Europeans were exempted. (5) Removal of import duties on British cotton textiles, which harmed Indian industry.",
+   "marking_points": [
+    {
+     "point": "First policy of Lord Lytton",
+     "marks": 1
+    },
+    {
+     "point": "Second policy",
+     "marks": 1
+    },
+    {
+     "point": "Third policy",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 22
+  },
+  {
+   "q_label": "75",
+   "q_order": 71,
+   "q_main": 75,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Gandhian Era and Struggle for Independence",
+   "topic": "Jallianwala Bagh Massacre",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 3,
+   "concepts": [
+    "Jallianwala Bagh",
+    "Rowlatt Act",
+    "General Dyer"
+   ],
+   "question": "Name the incident related to the above newspaper article and examine the cause and effect of the incident.\n[Newspaper clipping, Associated Press, Bombay, Dec. 24: \"THE AMRITSAR MASSACRE. 'Darkest Stain on British Rule.' GREAT SENSATION IN ENGLAND. Dismissal and Impeachment of Gen. Dyer and Sir Michael Demanded.\" - quoting the Westminster Gazette that General Dyer must be recalled and the Amritsar massacre repudiated, and the Star calling it 'the darkest stain on British rule in India'; Labour meetings in Glasgow demand the dismissal and impeachment of General Dyer and Sir Michael O'Dwyer.]",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Incident: the Jallianwala Bagh Massacre (Amritsar, 13 April 1919).\nCause: The Rowlatt Act (1919) allowed arrest and imprisonment without trial; Gandhiji's Rowlatt Satyagraha led to protests, lathi-charges and firing, especially in Punjab. On 10 April 1919 two popular local leaders, Dr Saifuddin Kitchlew and Dr Satyapal, were arrested and deported. To protest against their arrest and the Rowlatt Act, people gathered peacefully at Jallianwala Bagh on Baisakhi, 13 April 1919. General Dyer blocked the only exit and ordered his troops to fire without warning on the unarmed crowd; officially 379 were killed, unofficially far more.\nEffect: Martial law was imposed in Punjab with humiliating punishments (crawling order, public floggings). A wave of anger spread across India; Rabindranath Tagore renounced his knighthood. The massacre turned Gandhiji and many moderates against British rule and led directly to the Non-Cooperation Movement (1920); in Britain too it caused a sensation and demands for Dyer's dismissal.",
+   "marking_points": [
+    {
+     "point": "Names the Jallianwala Bagh Massacre (13 April 1919)",
+     "marks": 1
+    },
+    {
+     "point": "Cause: Rowlatt Act protests and arrest of Dr Kitchlew and Dr Satyapal leading to the peaceful gathering",
+     "marks": 1
+    },
+    {
+     "point": "Event: General Dyer fired without warning on the unarmed crowd in an enclosed park",
+     "marks": 1
+    },
+    {
+     "point": "Effect: martial law and humiliation, nationwide outrage (Tagore returned knighthood), leading to the Non-Cooperation Movement",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 23
+  },
+  {
+   "q_label": "76",
+   "q_order": 72,
+   "q_main": 76,
+   "section": "Item bank",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "The First World War",
+   "topic": "Outbreak and consequences of WWI",
+   "bloom": "recall",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "Sarajevo assassination",
+    "consequences of WWI"
+   ],
+   "question": "The newspaper goes on to state that:\n\"Archduke Franz Ferdinand, heir to the Austro-Hungarian throne, and his morganatic wife, the Duchess of Hohenberg, were assassinated today while driving through the streets of Sarajevo, the Bosnian capital. A youthful Servian student fired the shots, which added another to the long list of tragedies that have darkened the reign of Emperor Francis Joseph.\"\nWhich disaster was aggravated due to the above incident? What were the consequences of the disaster?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The assassination at Sarajevo (28 June 1914) was the immediate cause of the First World War (1914-1918). Consequences (any three): (1) The Treaty of Versailles (1919) was imposed on Germany - war guilt, heavy reparations, loss of territory and colonies and disarmament. (2) Territorial rearrangements - the German, Austro-Hungarian, Russian and Ottoman empires collapsed and new states such as Poland, Czechoslovakia, Yugoslavia, Austria and Hungary emerged. (3) The League of Nations was formed (1920) to maintain world peace. (4) Huge loss of life and property; economic ruin; the harsh terms on Germany sowed the seeds of the Second World War.",
+   "marking_points": [
+    {
+     "point": "First World War",
+     "marks": 1
+    },
+    {
+     "point": "First consequence (e.g. Treaty of Versailles)",
+     "marks": 1
+    },
+    {
+     "point": "Second consequence (e.g. territorial rearrangements/new states)",
+     "marks": 1
+    },
+    {
+     "point": "Third consequence (e.g. formation of the League of Nations)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 23
+  }
+ ]
+}

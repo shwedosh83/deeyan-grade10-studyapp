@@ -12,6 +12,7 @@ import SubjectShell from './components/SubjectShell';
 import BoardPaper from './components/board/BoardPaper';
 import BoardSprint from './components/board/BoardSprint';
 import BoardApplied from './components/board/BoardApplied';
+import BoardCompetency from './components/board/BoardCompetency';
 import { SubjectProvider, useSubject } from './context/SubjectContext';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ThemeProvider } from './context/ThemeContext';
@@ -80,6 +81,7 @@ function AppShell() {
                   <Route index element={<BoardPaper />} />
                   <Route path="sprint" element={<BoardSprint />} />
                   <Route path="applied" element={<BoardApplied />} />
+                  <Route path="competency" element={<BoardCompetency />} />
                 </Route>
                 <Route path="skills" element={<SkillTracker />} />
                 <Route path="weekly" element={<WeeklySummary />} />

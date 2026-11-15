@@ -8,6 +8,7 @@ const SUBJECT_HINTS = {
   chemistry:           'When relevant, include balanced equations. Note valencies and state symbols. Mention common mistakes with ions.',
   geography:           'Use India-specific data and examples where natural. Mention if a map or sketch is expected.',
   history_civics:      'Structure answers as: cause → event → effect. Always include dates. For Civics, cite the relevant constitutional article or provision.',
+  computer_applications: 'Answer in ICSE Java style: show a complete class with main, use Scanner for input, trace output line by line, and name the concept (e.g. method overloading, constructor, encapsulation) the examiner is testing.',
   english_literature:  'For Julius Caesar questions, always cite the act and scene. For poems, identify the figure of speech and explain its effect. For short stories, link character actions to theme. In board exams, quote from the text when possible — even a half-line is enough to impress examiners.',
 };
 

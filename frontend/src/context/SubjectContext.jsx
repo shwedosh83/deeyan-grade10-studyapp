@@ -9,6 +9,7 @@ export const SUBJECTS = [
   { id: 'physics',             label: 'Physics',          emoji: '⚡' },
   { id: 'maths',               label: 'Maths',            emoji: '📐' },
   { id: 'english_literature',  label: 'English Lit',      emoji: '📚' },
+  { id: 'computer_applications', label: 'Computer Apps',  emoji: '💻' },
 ];
 
 const SubjectContext = createContext(null);

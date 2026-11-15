@@ -28,6 +28,7 @@ export default function QuestionCard({ q, value, onChange = () => {}, disabled =
   // Math strip: insert a symbol at the caret of the input last focused (blank i, or the textarea).
   const inputRefs = useRef({});
   const activeKey = useRef(null);
+  const code = q.type === 'program' || q.applied_kind === 'program';   // Java answers: monospace, no spell-check
   const showStrip = q.subject === 'maths' && !questionOnly && !disabled && !mcq;
   function insertSym(sym) {
     const key = activeKey.current ?? (items.length ? 0 : 'text');
@@ -132,9 +133,10 @@ export default function QuestionCard({ q, value, onChange = () => {}, disabled =
         <textarea
           value={value || ''} disabled={disabled} onChange={e => onChange(e.target.value)}
           ref={el => { inputRefs.current.text = el; }} onFocus={() => { activeKey.current = 'text'; }}
-          rows={Math.min(12, Math.max(3, Math.round(Number(q.marks) * 1.5)))}
-          placeholder={q.type === 'program' ? 'Write your program here…' : q.type === 'map_work' ? 'Describe where you would mark/shade it (you will self-mark these)…' : 'Write your answer here…'}
-          className="input resize-y px-4 py-3 font-[inherit] leading-relaxed disabled:bg-surface-2"
+          rows={code ? 16 : Math.min(12, Math.max(3, Math.round(Number(q.marks) * 1.5)))}
+          spellCheck={!code}
+          placeholder={code ? 'Write your program here…' : q.type === 'map_work' ? 'Describe where you would mark/shade it (you will self-mark these)…' : 'Write your answer here…'}
+          className={`input resize-y px-4 py-3 leading-relaxed disabled:bg-surface-2 ${code ? 'font-mono text-[13px]' : 'font-[inherit]'}`}
         />
       )}
     </div>

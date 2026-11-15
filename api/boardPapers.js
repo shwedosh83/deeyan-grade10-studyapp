@@ -15,6 +15,10 @@ function mixSources(rows, n) {
   while (out.length < n && lanes.some(l => l.length)) for (const l of lanes) if (l.length && out.length < n) out.push(l.shift());
   return shuffle(out);
 }
+// No source chosen = the exam papers (board + prelims). The CISCE competency item bank only appears when asked for.
+const EXAM_SOURCES = ['board', 'prelim'];
+const bySource = (q, source) => (source ? q.eq('source', source) : q.in('source', EXAM_SOURCES));
+
 // Accepts `chapters` (array) or the older single `chapter`.
 function chapterList(body) {
   const c = body.chapters ?? (body.chapter ? [body.chapter] : []);
@@ -33,7 +37,7 @@ export default async function handler(req, res) {
     if (action === 'list') {
       const { subject } = req.body;
       if (!subject) return res.status(400).json({ error: 'subject required' });
-      const { data: papers, error } = await admin.from('board_papers').select('*').eq('subject', subject).order('year', { ascending: false }).order('sem');
+      const { data: papers, error } = await admin.from('board_papers').select('*').eq('subject', subject).in('source', EXAM_SOURCES).order('year', { ascending: false }).order('sem');
       if (error) throw error;
       const { data: qs } = await admin.from('board_questions').select('paper_id,mandatory,marks').eq('subject', subject).limit(5000);
       const counts = {};
@@ -51,19 +55,19 @@ export default async function handler(req, res) {
     }
 
     if (action === 'sprint') {
-      const { subject, count = 15, source = null } = req.body;   // source: 'board' | 'prelim' | null = both
+      const { subject, count = 15, source = null } = req.body;   // source: 'board' | 'prelim' | 'competency' | null = board + prelim
       const chapters = chapterList(req.body);
       let query = admin.from('board_questions')
         .select(PUBLIC_Q_COLS + ',correct_option,solution,answer_items')
         .eq('subject', subject).eq('is_objective', true).or('needs_figure.eq.false,figure_url.not.is.null').limit(3000);   // figure questions only when the page image exists
       if (chapters.length) query = query.in('chapter', chapters);
-      if (source) query = query.eq('source', source);
+      query = bySource(query, source);
       const { data, error } = await query;
       if (error) throw error;
       let allChapters;
       if (chapters.length) {
         let allQ = admin.from('board_questions').select('chapter').eq('subject', subject).eq('is_objective', true).limit(3000);
-        if (source) allQ = allQ.eq('source', source);
+        allQ = bySource(allQ, source);
         const { data: all } = await allQ;
         allChapters = [...new Set((all || []).map(x => x.chapter).filter(Boolean))].sort();
       } else {
@@ -75,11 +79,11 @@ export default async function handler(req, res) {
     }
 
     if (action === 'applied') {
-      const { subject, kinds = [], count = 10, userId = null, source = null } = req.body;   // source: 'board' | 'prelim' | null = both
+      const { subject, kinds = [], count = 10, userId = null, source = null } = req.body;   // source: 'board' | 'prelim' | 'competency' | null = board + prelim
       const chapters = chapterList(req.body);
       let q = admin.from('board_questions').select(PUBLIC_Q_COLS + ',answer_items').eq('subject', subject).eq('applied', true).eq('is_objective', false).not('solution', 'is', null);
       if (kinds.length) q = q.in('applied_kind', kinds);
-      if (source) q = q.eq('source', source);
+      q = bySource(q, source);
       const { data: unfiltered, error } = await q.limit(3000);
       if (error) throw error;
       const pool = chapters.length ? (unfiltered || []).filter(x => chapters.includes(x.chapter)) : (unfiltered || []);
