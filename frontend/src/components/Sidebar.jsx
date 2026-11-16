@@ -3,10 +3,10 @@ import { useSubject } from '../context/SubjectContext';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
 import { useProgress } from '../context/ProgressContext';
-import { SUBJECTS_WITH_BOARD, BOARD_ONLY_SUBJECTS } from '../lib/board';
+import { SUBJECTS_WITH_BOARD, BOARD_ONLY_SUBJECTS, WORKSHEET_SUBJECTS } from '../lib/board';
 import Logo from './Logo';
 
-const TAB_SEGMENTS = ['chapters', 'board', 'skills', 'weekly'];
+const TAB_SEGMENTS = ['chapters', 'board', 'skills', 'weekly', 'worksheets'];
 
 const Icon = {
   home: <path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-9.5Z" />,
@@ -36,7 +36,7 @@ export default function Sidebar() {
   const onSubject = subjects.some(s => s.id === parts[0]);
   const currentTab = onSubject && TAB_SEGMENTS.includes(parts[1]) ? parts[1] : '';
   const target = (s) => {
-    if (!currentTab || (currentTab === 'board' && !SUBJECTS_WITH_BOARD.includes(s.id))) return `/${s.id}`;
+    if (!currentTab || (currentTab === 'board' && !SUBJECTS_WITH_BOARD.includes(s.id)) || (currentTab === 'worksheets' && !WORKSHEET_SUBJECTS.includes(s.id))) return `/${s.id}`;
     if (currentTab !== 'board' && BOARD_ONLY_SUBJECTS.includes(s.id)) return `/${s.id}`;   // maths has only the Board tab
     return `/${s.id}/${currentTab}`;
   };

@@ -20,6 +20,7 @@ import { ProgressProvider } from './context/ProgressContext';
 import ProgressPage from './components/ProgressPage';
 import SchoolWork from './components/SchoolWork';
 import SchoolResult from './components/SchoolResult';
+import Worksheets from './components/Worksheets';
 import { isConfigured } from './lib/supabase';
 
 function SetupBanner() {
@@ -81,6 +82,7 @@ function AppShell() {
               <Route path="/:subjectId" element={<SubjectShell />}>
                 <Route index element={<Dashboard />} />
                 <Route path="chapters" element={<Quiz />} />
+                <Route path="worksheets" element={<Worksheets />} />
                 <Route path="board" element={<BoardLayout />}>
                   <Route index element={<BoardPaper />} />
                   <Route path="sprint" element={<BoardSprint />} />

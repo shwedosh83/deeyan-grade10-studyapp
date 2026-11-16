@@ -16,6 +16,18 @@ function mixSources(rows, n) {
   while (out.length < n && lanes.some(l => l.length)) for (const l of lanes) if (l.length && out.length < n) out.push(l.shift());
   return shuffle(out);
 }
+// Original printed question papers (question pages only) live in the public `papers` bucket (permanent links); index.json lists which exist.
+let pdfIndex = { at: 0, ids: new Set() };
+async function paperPdfUrl(id) {
+  if (Date.now() - pdfIndex.at > 5 * 60 * 1000) {
+    try {
+      const { data } = await admin.storage.from('papers').download('index.json');
+      pdfIndex = { at: Date.now(), ids: new Set(JSON.parse(await data.text())) };
+    } catch { pdfIndex = { at: Date.now(), ids: new Set() }; }
+  }
+  return pdfIndex.ids.has(id) ? admin.storage.from('papers').getPublicUrl(`${id}.pdf`).data.publicUrl : null;
+}
+
 // No source chosen = the exam papers (board + prelims). The CISCE competency item bank only appears when asked for.
 const EXAM_SOURCES = ['board', 'prelim'];
 const bySource = (q, source) => (source ? q.eq('source', source) : q.in('source', EXAM_SOURCES));
@@ -54,7 +66,7 @@ export default async function handler(req, res) {
       if (error) throw error;
       const { data: questions, error: qe } = await admin.from('board_questions').select(PUBLIC_Q_COLS + ',answer_items').eq('paper_id', paperId).order('q_order');
       if (qe) throw qe;
-      return res.json({ paper, questions: questions.map(stripItems) });
+      return res.json({ paper: { ...paper, pdf_url: await paperPdfUrl(paper.id) }, questions: questions.map(stripItems) });
     }
 
     if (action === 'sprint') {

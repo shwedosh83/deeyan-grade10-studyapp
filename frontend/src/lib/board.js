@@ -21,6 +21,9 @@ export const BOARD_MODES_WITHOUT_APPLIED = ['maths'];
 // they open straight on the Board tab and hide the empty tabs.
 export const BOARD_ONLY_SUBJECTS = ['maths', 'computer_applications'];
 
+// Subjects with printable topic worksheets in storage (papers/worksheets/<subject>/).
+export const WORKSHEET_SUBJECTS = ['physics'];
+
 // One-tap symbols for typing maths answers.
 export const MATH_KEYS = ['√', '²', '³', 'π', '÷', '×', '±'];
 

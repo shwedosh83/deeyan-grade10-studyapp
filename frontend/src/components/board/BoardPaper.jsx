@@ -36,6 +36,7 @@ export default function BoardPaper() {
   const [deadline, setDeadline] = useState(0);
   const [startedAt, setStartedAt] = useState(0);
   const [curMain, setCurMain] = useState(null);
+  const [view, setView] = useState('pdf');      // 'pdf' = the original printed paper (when we have it), 'text' = question by question
   const [result, setResult] = useState(null);
   const [resume, setResume] = useState(null);
   // scan state
@@ -361,6 +362,15 @@ export default function BoardPaper() {
   const timerState = reading ? 'reading' : low ? 'bad' : remaining < 900 ? 'warn' : 'calm';
   const allMains = sections.flatMap(s => s.mains);
   const posIdx = allMains.findIndex(m => m.main === main?.main);
+  const showPdf = !!paper.pdf_url && view === 'pdf';
+  const viewToggle = paper.pdf_url ? (
+    <div className="inline-flex gap-1 rounded-xl border border-line bg-surface-2 p-1" role="radiogroup" aria-label="How to show the paper">
+      {[['pdf', 'Original paper'], ['text', 'Text view']].map(([v, l]) => (
+        <button key={v} type="button" role="radio" aria-checked={view === v} onClick={() => setView(v)}
+          className={`rounded-lg px-3 py-1.5 text-xs font-semibold transition duration-150 ${view === v ? 'bg-surface text-ink shadow-soft' : 'text-ink-3 hover:text-ink'}`}>{l}</button>
+      ))}
+    </div>
+  ) : null;
 
   return (
     <div className="flex items-start gap-6">
@@ -370,7 +380,8 @@ export default function BoardPaper() {
           <TimerPill big text={fmtTime(reading ? readingLeft : remaining)} state={timerState} />
           {reading && <button onClick={skipReading} className="btn-ghost w-full !py-1.5 text-xs text-brand">Start writing now</button>}
         </div>
-        <div className="card space-y-4 p-4">
+        {viewToggle && <div className="flex justify-center">{viewToggle}</div>}
+        {!showPdf && <div className="card space-y-4 p-4">
           {sections.map(sec => (
             <div key={sec.name}>
               <p className="eyebrow mb-2">{sec.name}</p>
@@ -393,10 +404,25 @@ export default function BoardPaper() {
             <span className="flex items-center gap-1.5"><span className="h-2.5 w-2.5 rounded-full bg-brand" />Current</span>
             <span className="flex items-center gap-1.5"><span className="h-2.5 w-2.5 rounded-full border border-dashed border-warn/60 bg-warn-soft" />Choice</span>
           </div>
-        </div>
+        </div>}
         <button onClick={() => setPhase('scan')} className="btn-primary w-full">Done writing — upload pages</button>
       </aside>
 
+      {showPdf ? (
+      <div className="min-w-0 flex-1 space-y-3">
+        <div className="flex items-center justify-between text-xs text-ink-3">
+          <span>{paper.label} · original paper</span>
+          <a href={paper.pdf_url} target="_blank" rel="noreferrer" className="font-semibold text-brand hover:text-brand-ink">Open in a new tab ↗</a>
+        </div>
+        {reading && <Notice tone="brand" title="Reading time">Read the whole paper and plan which choice questions to attempt. You can't write yet.</Notice>}
+        {!reading && <Notice tone="brand">Write your answers on paper and number each one. When you're done (or time is up), upload your pages.</Notice>}
+        <div className="card overflow-hidden p-0">
+          <iframe title={`${paper.label} question paper`} src={`${paper.pdf_url}#view=FitH`} className="block h-[calc(100vh-10rem)] min-h-[600px] w-full bg-white" />
+        </div>
+        <button onClick={() => setPhase('scan')} className="btn-primary w-full md:hidden">Done writing — upload pages</button>
+        {error && <ErrorCard title="Something went wrong" message={error} />}
+      </div>
+      ) : (
       <div className="min-w-0 max-w-3xl flex-1 space-y-4">
         <div className="card flex items-center justify-between gap-3 px-4 py-2.5 md:hidden">
           <TimerPill text={fmtTime(reading ? readingLeft : remaining)} state={timerState} />
@@ -434,6 +460,7 @@ export default function BoardPaper() {
         </div>
         {error && <ErrorCard title="Something went wrong" message={error} />}
       </div>
+      )}
 
     </div>
   );

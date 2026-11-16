@@ -1,6 +1,6 @@
 import { NavLink, Navigate, Outlet, useParams, useLocation } from 'react-router-dom';
 import { SUBJECTS } from '../context/SubjectContext';
-import { SUBJECTS_WITH_BOARD, BOARD_ONLY_SUBJECTS } from '../lib/board';
+import { SUBJECTS_WITH_BOARD, BOARD_ONLY_SUBJECTS, WORKSHEET_SUBJECTS } from '../lib/board';
 import { subjectStyle } from '../lib/subjectStyle';
 
 // Everything inside a subject: header + tabs, then the page.
@@ -18,6 +18,7 @@ export default function SubjectShell() {
   ] : [
     { to: '', label: 'Practice', end: true, also: 'chapters' },
     ...(SUBJECTS_WITH_BOARD.includes(subject.id) ? [{ to: 'board', label: 'Board papers' }] : []),
+    ...(WORKSHEET_SUBJECTS.includes(subject.id) ? [{ to: 'worksheets', label: 'Worksheets' }] : []),
     { to: 'skills', label: 'Skills' },
     { to: 'weekly', label: 'Weekly summary' },
   ];
