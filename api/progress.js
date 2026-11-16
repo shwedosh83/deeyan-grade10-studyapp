@@ -62,7 +62,7 @@ export default async function handler(req, res) {
       admin.from('session_answers').select('session_id, question_id, is_correct, answered_at').in('session_id', ids).limit(20000));
     const qIds = [...new Set(quizAnswers.map(a => a.question_id))];
     const qInfo = Object.fromEntries((await inChunks(qIds, ids =>
-      admin.from('questions').select('id, subject, chapter_name, skill').in('id', ids))).map(q => [q.id, q]));
+      admin.from('questions').select('id, subject, chapter_name, skill').in('id', ids))).map(q => [q.id, { ...q, subject: String(q.subject || '').replace(/^retired_/, '') }]));   // retired questions keep their history
 
     const { data: attempts, error: aErr } = await admin.from('board_attempts')
       .select('id, subject, mode, paper_id, started_at, submitted_at, seconds_used, score, max_score, status').eq('user_id', userId).limit(5000);

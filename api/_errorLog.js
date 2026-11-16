@@ -55,7 +55,7 @@ async function gather(userId) {
   const sess = Object.fromEntries((sessions || []).map(s => [s.id, s]));
   const qa = await inChunks(Object.keys(sess), ids => admin.from('session_answers').select('id, session_id, question_id, user_answer, is_correct, answered_at').in('session_id', ids).limit(20000));
   const qInfo = Object.fromEntries((await inChunks([...new Set(qa.map(a => a.question_id))], ids =>
-    admin.from('questions').select('id, subject, chapter_name, skill, question, options, answer, explanation').in('id', ids))).map(q => [q.id, q]));
+    admin.from('questions').select('id, subject, chapter_name, skill, question, options, answer, explanation').in('id', ids))).map(q => [q.id, { ...q, subject: String(q.subject || '').replace(/^retired_/, '') }]));   // retired questions keep their history
 
   // Board-paper practice
   const { data: attempts } = await admin.from('board_attempts').select('id, subject, mode, paper_id, started_at, submitted_at').eq('user_id', userId).limit(5000);
