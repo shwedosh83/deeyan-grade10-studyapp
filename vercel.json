@@ -19,5 +19,8 @@
     "api/boardPapers.js": {
       "maxDuration": 300
     }
-  }
+  },
+  "regions": [
+    "bom1"
+  ]
 }
