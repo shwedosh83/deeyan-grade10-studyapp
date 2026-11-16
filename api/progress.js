@@ -2,6 +2,7 @@
 // chapter-quiz sessions/answers and board-practice attempts/answers. Nothing here is estimated or invented;
 // the rules (XP, levels, streaks, badges, time) are listed in RULES and shown to the student in the app.
 import { createClient } from '@supabase/supabase-js';
+import errorLog from './_errorLog.js';
 
 const admin = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY);
 
@@ -47,6 +48,8 @@ function activeSeconds(times) {
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
+  // The error log is served by this function to stay within the plan's function limit.
+  if (req.body?.action === 'errors' || req.body?.action === 'errors_tag') return errorLog(req, res);
   const { userId } = req.body || {};
   if (!userId) return res.status(400).json({ error: 'userId required' });
   try {

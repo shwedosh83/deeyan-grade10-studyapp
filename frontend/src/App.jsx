@@ -21,6 +21,7 @@ import ProgressPage from './components/ProgressPage';
 import SchoolWork from './components/SchoolWork';
 import SchoolResult from './components/SchoolResult';
 import Worksheets from './components/Worksheets';
+import ErrorLog from './components/ErrorLog';
 import { isConfigured } from './lib/supabase';
 
 function SetupBanner() {
@@ -66,6 +67,7 @@ function AppShell() {
               <Route path="/home" element={<HomeDashboard />} />
               <Route path="/progress" element={<ProgressPage />} />
               <Route path="/school" element={<SchoolWork />} />
+              <Route path="/errors" element={<ErrorLog />} />
               <Route path="/school/:id" element={<SchoolResult />} />
               <Route path="/admin" element={<AdminPage />} />
 
