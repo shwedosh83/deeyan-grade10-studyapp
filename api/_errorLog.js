@@ -38,7 +38,11 @@ const dayOf = t => String(t || '').slice(0, 10);
 
 // MCQs: show the whole question with its options, and answers as "(c) option text", so the log can be revised from.
 const optEntries = o => (o && typeof o === 'object' ? (Array.isArray(o) ? o.map((v, i) => ['abcd'[i], v]) : Object.entries(o)) : []);
-const withOptions = (stem, o) => { const e = optEntries(o); return e.length ? `${stem || ''}\n${e.map(([k, v]) => `(${k}) ${v}`).join('\n')}` : stem; };
+const withOptions = (stem, o) => {
+  const e = optEntries(o);
+  if (!e.length || /\(a\)[\s\S]*\(b\)/i.test(stem || '')) return stem;   // some older questions already list the options in the stem
+  return `${stem || ''}\n${e.map(([k, v]) => `(${k}) ${v}`).join('\n')}`;
+};
 const optionText = (letter, o) => {
   const k = String(letter || '').trim().replace(/[()\s.]/g, '').toLowerCase();
   const v = optEntries(o).find(([key]) => key === k)?.[1];
