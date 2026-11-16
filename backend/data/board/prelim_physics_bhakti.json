@@ -1351,54 +1351,6 @@
    "page": 7
   },
   {
-   "q_label": "5(c)",
-   "q_order": 35,
-   "q_main": 5,
-   "section": "Section B",
-   "type": "short",
-   "marks": 4.0,
-   "mandatory": "choice",
-   "choice_note": "any 4 of 6 questions in Section B",
-   "chapter": "Sound",
-   "topic": "SONAR components",
-   "bloom": "understand",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 2,
-   "concepts": [
-    "SONAR",
-    "ultrasound echo"
-   ],
-   "question": "The word SONAR stands for Sound Navigation and Ranging. It is an apparatus used to find the depth of sea or to locate under water things like fish and ice bergs. This apparatus is shown in the figure (ship with two devices under its hull; labels S at the left device, P on the ray going down to the object, R near the ray returning to the right device, Q at the underwater object).\nComplete the table, using the labels from the figure. The first label is done for you.\n(i) Transmitter — S\n(ii) Receiver — ?\n(iii) Ultrasound pulse — ?\n(iv) Echo — ?\n(v) Object — ?",
-   "options": {},
-   "is_objective": false,
-   "correct_option": null,
-   "answer_items": null,
-   "solution": "(ii) Receiver — the right-hand device (label R side).\n(iii) Ultrasound pulse — P (sent down from the transmitter).\n(iv) Echo — R (the reflected wave returning from the object to the receiver).\n(v) Object — Q.\nNote: the figure has only P, R and Q left for four blanks; R lies beside both the returning ray and the receiver, so a key may accept R for receiver/echo.",
-   "marking_points": [
-    {
-     "point": "Receiver — R side device",
-     "marks": 1
-    },
-    {
-     "point": "Ultrasound pulse — P",
-     "marks": 1
-    },
-    {
-     "point": "Echo — R (reflected ray)",
-     "marks": 1
-    },
-    {
-     "point": "Object — Q",
-     "marks": 1
-    }
-   ],
-   "needs_figure": true,
-   "figure_desc": "Ship with SONAR transmitter (S) and receiver under the hull; ray P goes down to an underwater object Q and reflected ray near R returns to the receiver.",
-   "page": 8,
-   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_bhakti/p8.jpg"
-  },
-  {
    "q_label": "6(a)",
    "q_order": 36,
    "q_main": 6,
@@ -1931,6 +1883,12 @@
    "figure_desc": "Coil wound on a soft iron cylinder with ends A (left) and B (right), connected to a cell (positive plate on the left) and a plug key.",
    "page": 11,
    "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_bhakti/p11.jpg"
+  }
+ ],
+ "audit_excluded": [
+  {
+   "q_label": "5(c)",
+   "reason": "Figure labels only S, P, R, Q; four blanks (receiver, pulse, echo, object) remain for three labels and the receiver has no label of its own, so the table cannot be completed unambiguously (stored answer itself notes this)."
   }
  ]
 }

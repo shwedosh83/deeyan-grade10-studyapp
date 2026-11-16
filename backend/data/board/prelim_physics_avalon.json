@@ -858,46 +858,6 @@
    "page": 5
   },
   {
-   "q_label": "3(i)",
-   "q_order": 23,
-   "q_main": 3,
-   "section": "Section A",
-   "type": "diagram",
-   "marks": 2.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Heat (Calorimetry)",
-   "topic": "Heat capacity vs mass graph",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 3,
-   "concepts": [
-    "slope of C vs m = specific heat capacity",
-    "low SHC heats faster"
-   ],
-   "question": "In the physics laboratory, various blocks of materials labelled A and B, each with masses ranging from 10 g to 50 g, are utilised to determine their respective heat capacities. A graph of heat capacity (y-axis) against mass (x-axis) gives two straight lines through the origin, A being steeper than B.\n(a) Plot the graph illustrating the relationship between the mass and specific heat capacity of materials A and B.\n(b) Which material is a relatively better conductor?",
-   "options": {},
-   "is_objective": false,
-   "correct_option": null,
-   "answer_items": null,
-   "solution": "Slope of heat capacity vs mass = specific heat capacity, so c_A > c_B (both constant).\n(a) Specific heat capacity (y) vs mass (x): two horizontal straight lines parallel to the mass axis, line A above line B.\n(b) B — it has the lower specific heat capacity, so it heats up (and conducts) more readily.",
-   "marking_points": [
-    {
-     "point": "(a) Horizontal lines, A above B",
-     "marks": 1
-    },
-    {
-     "point": "(b) B",
-     "marks": 1
-    }
-   ],
-   "needs_figure": true,
-   "figure_desc": "Graph of heat capacity vs mass with two straight lines from the origin, A steeper than B.",
-   "page": 5,
-   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_avalon/p5.jpg"
-  },
-  {
    "q_label": "3(ii)",
    "q_order": 24,
    "q_main": 3,
@@ -1944,6 +1904,12 @@
    "needs_figure": false,
    "figure_desc": null,
    "page": 12
+  }
+ ],
+ "audit_excluded": [
+  {
+   "q_label": "3(i)",
+   "reason": "Part (b) asks which material is a 'better conductor' from a heat-capacity graph; specific heat capacity says nothing about thermal conductivity, so there is no physically valid answer (the stored answer B teaches a false link)."
   }
  ]
 }

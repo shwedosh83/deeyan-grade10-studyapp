@@ -63,40 +63,6 @@
    "page": 1
   },
   {
-   "q_label": "1(ii)",
-   "q_order": 1,
-   "q_main": 1,
-   "section": "Section A",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Sound",
-   "topic": "Pitch and frequency of waves",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 2,
-   "concepts": [
-    "pitch and frequency from waveform"
-   ],
-   "question": "The diagram below shows four sound waves. Which sound has the highest pitch?",
-   "options": {
-    "a": "Wave A",
-    "b": "Wave B",
-    "c": "Wave C",
-    "d": "Wave D"
-   },
-   "is_objective": true,
-   "correct_option": "b",
-   "answer_items": null,
-   "solution": "(b) Wave B (highest frequency, hence highest pitch)",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Displacement-time graphs of four sound waves A, B, C, D; wave B has the most cycles per unit time (highest frequency).",
-   "page": 1
-  },
-  {
    "q_label": "1(iii)",
    "q_order": 2,
    "q_main": 1,
@@ -162,41 +128,6 @@
    "marking_points": [],
    "needs_figure": false,
    "figure_desc": null,
-   "page": 1
-  },
-  {
-   "q_label": "1(v)",
-   "q_order": 4,
-   "q_main": 1,
-   "section": "Section A",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Electricity and Magnetism",
-   "topic": "Magnetic effect of current deflection",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 3,
-   "concepts": [
-    "Oersted effect and direction of deflection",
-    "right-hand rule for wire above needle"
-   ],
-   "question": "A conductor AB is kept along north south direction of the earth above a magnetic needle as shown below. When the key K is closed then",
-   "options": {
-    "a": "the needle will not show any deflection.",
-    "b": "the needle will deflect towards east.",
-    "c": "the needle will turn in the opposite direction i.e., towards south.",
-    "d": "the needle will deflect towards west."
-   },
-   "is_objective": true,
-   "correct_option": "b",
-   "answer_items": null,
-   "solution": "(b) the needle will deflect towards east.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Conductor AB along N-S above a magnetic needle, connected to a battery (+/-) through key K; compass directions N, S, E, W marked, A at one end and B at the other.",
    "page": 1
   },
   {
@@ -368,82 +299,6 @@
    "needs_figure": false,
    "figure_desc": null,
    "page": 2
-  },
-  {
-   "q_label": "2(i)(a)",
-   "q_order": 10,
-   "q_main": 2,
-   "section": "Section B",
-   "type": "short",
-   "marks": 1.0,
-   "mandatory": "choice",
-   "choice_note": "any 3 of 5 questions in Section B",
-   "chapter": "Electricity and Magnetism",
-   "topic": "Solenoid and compass deflection",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 2,
-   "concepts": [
-    "compass deflection shows current in solenoid"
-   ],
-   "question": "The diagram below shows a magnetic compass kept closer to a coil AB wound around a hollow cylindrical cardboard (coil connected to a battery through switch S1; compass directions N, S, E, W marked).\n(a) After studying the circuit and the magnetic compass carefully, state whether the switch S1 is open or closed.",
-   "options": {},
-   "is_objective": true,
-   "correct_option": null,
-   "answer_items": [
-    {
-     "prompt": "Switch S1 open or closed",
-     "accepted": [
-      "closed",
-      "S1 is closed",
-      "switch is closed"
-     ]
-    }
-   ],
-   "solution": "The switch S1 is closed.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Coil AB wound on a hollow cardboard cylinder, connected to a battery (+/-) via switch S1, with a magnetic compass placed near end A; the compass needle is shown deflected.",
-   "page": 3
-  },
-  {
-   "q_label": "2(i)(b)",
-   "q_order": 11,
-   "q_main": 2,
-   "section": "Section B",
-   "type": "short",
-   "marks": 1.0,
-   "mandatory": "choice",
-   "choice_note": "any 3 of 5 questions in Section B",
-   "chapter": "Electricity and Magnetism",
-   "topic": "Solenoid and compass deflection",
-   "bloom": "understand",
-   "applied": false,
-   "applied_kind": null,
-   "difficulty": 2,
-   "concepts": [
-    "magnetic effect of current"
-   ],
-   "question": "The diagram below shows a magnetic compass kept closer to a coil AB wound around a hollow cylindrical cardboard (coil connected to a battery through switch S1; compass directions N, S, E, W marked).\n(b) How did you arrive at the conclusion in (a)?",
-   "options": {},
-   "is_objective": false,
-   "correct_option": null,
-   "answer_items": null,
-   "solution": "There is a deflection in the magnetic compass, so it is concluded that the switch S1 is closed and current is flowing through the coil.",
-   "marking_points": [
-    {
-     "point": "Compass shows deflection",
-     "marks": 0.5
-    },
-    {
-     "point": "Hence current flows through the coil / switch is closed",
-     "marks": 0.5
-    }
-   ],
-   "needs_figure": true,
-   "figure_desc": "Coil AB wound on a hollow cardboard cylinder, connected to a battery (+/-) via switch S1, with a magnetic compass placed near end A; the compass needle is shown deflected.",
-   "page": 3
   },
   {
    "q_label": "2(i)(c)",
@@ -660,60 +515,6 @@
    ],
    "needs_figure": true,
    "figure_desc": "Circuit: 2 ohm resistor in series with a parallel combination of 12 ohm and 8 ohm resistors; current I enters, I1 = 0.4 A flows through the 12 ohm resistor and I2 flows through the 8 ohm resistor.",
-   "page": 3
-  },
-  {
-   "q_label": "3(i)",
-   "q_order": 18,
-   "q_main": 3,
-   "section": "Section B",
-   "type": "match",
-   "marks": 3.0,
-   "mandatory": "choice",
-   "choice_note": "any 3 of 5 questions in Section B",
-   "chapter": "Electricity and Magnetism",
-   "topic": "Colour coding of three-pin socket",
-   "bloom": "recall",
-   "applied": false,
-   "applied_kind": null,
-   "difficulty": 2,
-   "concepts": [
-    "colour coding of three-pin socket terminals"
-   ],
-   "question": "Three wires with proper colour coding are connected to the three terminals of a three-pin socket. Match the colour of the wire with the proper terminals A, B and C of the socket.\n(a) Brown\n(b) Green\n(c) Light blue",
-   "options": {},
-   "is_objective": true,
-   "correct_option": null,
-   "answer_items": [
-    {
-     "prompt": "Brown wire connects to",
-     "accepted": [
-      "live",
-      "line",
-      "live terminal",
-      "line terminal"
-     ]
-    },
-    {
-     "prompt": "Green wire connects to",
-     "accepted": [
-      "earth",
-      "earth terminal",
-      "ground"
-     ]
-    },
-    {
-     "prompt": "Light blue wire connects to",
-     "accepted": [
-      "neutral",
-      "neutral terminal"
-     ]
-    }
-   ],
-   "solution": "Brown wire → live (line) terminal. Light blue wire → neutral terminal. Green wire → earth terminal. (In the standard three-pin socket figure the top larger pin is earth and the two lower pins are live and neutral; match A, B, C accordingly from the figure.)",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Front view of a three-pin socket with three terminals labelled A, B and C (earth pin at the top, live and neutral at the bottom in the standard layout).",
    "page": 3
   },
   {
@@ -1106,44 +907,6 @@
    "page": 4
   },
   {
-   "q_label": "4(iii)(c)",
-   "q_order": 29,
-   "q_main": 4,
-   "section": "Section B",
-   "type": "short",
-   "marks": 1.0,
-   "mandatory": "choice",
-   "choice_note": "any 3 of 5 questions in Section B",
-   "chapter": "Modern Physics (Radioactivity)",
-   "topic": "Beta decay nuclear equation",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "reasoning",
-   "difficulty": 3,
-   "concepts": [
-    "writing beta decay nuclear equation"
-   ],
-   "question": "(c) Write a nuclear reaction indicating the nuclear change mentioned in (b).",
-   "options": {},
-   "is_objective": false,
-   "correct_option": null,
-   "answer_items": null,
-   "solution": "Z X^A -> Z+1 Y^A + (-1) e^0 (beta particle); mass number A unchanged, atomic number increases from Z to Z+1.",
-   "marking_points": [
-    {
-     "point": "Correct parent and daughter with mass number A unchanged, atomic number Z to Z+1",
-     "marks": 0.5
-    },
-    {
-     "point": "Beta particle -1e0 shown on the product side",
-     "marks": 0.5
-    }
-   ],
-   "needs_figure": false,
-   "figure_desc": null,
-   "page": 4
-  },
-  {
    "q_label": "4(iii)(d)",
    "q_order": 30,
    "q_main": 4,
@@ -1334,44 +1097,6 @@
    ],
    "needs_figure": true,
    "figure_desc": "Vibrating tuning fork E mounted on a sound box X; tuning forks A, B, C, D of frequencies 225 Hz, 320 Hz, 384 Hz, 512 Hz respectively are placed one by one on sound box Y.",
-   "page": 5
-  },
-  {
-   "q_label": "5(iii)(a)",
-   "q_order": 35,
-   "q_main": 5,
-   "section": "Section B",
-   "type": "other",
-   "marks": 2.0,
-   "mandatory": "choice",
-   "choice_note": "any 3 of 5 questions in Section B",
-   "chapter": "Heat (Calorimetry)",
-   "topic": "Heating curve melting/boiling points",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 3,
-   "concepts": [
-    "reading melting and boiling points from heating curve"
-   ],
-   "question": "(a) From the graph of heating curve given below state the melting point and boiling point of the substance.",
-   "options": {},
-   "is_objective": false,
-   "correct_option": null,
-   "answer_items": null,
-   "solution": "Melting point is 40°C and boiling point is 100°C.",
-   "marking_points": [
-    {
-     "point": "Melting point 40°C",
-     "marks": 1
-    },
-    {
-     "point": "Boiling point 100°C",
-     "marks": 1
-    }
-   ],
-   "needs_figure": true,
-   "figure_desc": "Heating curve: temperature (°C, axis marked 40, 80, 120, 160, 200) against time (s), starting at (0, 20); has two flat portions, the first at 40°C (melting) and the second at 100°C (boiling).",
    "page": 5
   },
   {
@@ -1722,6 +1447,36 @@
    "needs_figure": false,
    "figure_desc": null,
    "page": 5
+  }
+ ],
+ "audit_excluded": [
+  {
+   "q_label": "1(ii)",
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s2). Must compare the four waveforms. Key (b) Wave B is correct for the source figure."
+  },
+  {
+   "q_label": "1(v)",
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s2). Battery polarity, which sets the current direction, is only in the figure. Also the stored key looks wrong: in the source figure current flows A to B (south to north) over the needle, so the SNOW rule deflects the N-pole to the WEST (d), not east (b). The Oswaal key (east) gives no derivation."
+  },
+  {
+   "q_label": "2(i)(a)",
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s2). Open/closed is read from the deflected compass in the figure. Key 'closed' matches the source."
+  },
+  {
+   "q_label": "3(i)",
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s2). Needs the socket figure to map A/B/C. Also the accepted answers are 'live/earth/neutral', but the question asks for terminals A, B, C. Correct mapping from the source: Brown to C (live), Light blue to B (neutral), Green to A (earth)."
+  },
+  {
+   "q_label": "2(i)(b)",
+   "reason": "Depends on the figure (whether the compass is deflected), and figure_url is missing; also refers to answer of part (a) not in this row."
+  },
+  {
+   "q_label": "4(iii)(c)",
+   "reason": "Asks for the reaction for the change \"mentioned in (b)\", but part (b) (atomic number rises by 1) is not in this row, so it cannot be answered standalone."
+  },
+  {
+   "q_label": "5(iii)(a)",
+   "reason": "Melting/boiling points must be read from the heating-curve graph, which is not uploaded (figure_url missing)."
   }
  ]
 }

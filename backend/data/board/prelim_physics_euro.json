@@ -1453,53 +1453,6 @@
    "page": null
   },
   {
-   "q_label": "6(iii)",
-   "q_order": 38,
-   "q_main": 6,
-   "section": "Section B",
-   "type": "short",
-   "marks": 4.0,
-   "mandatory": "choice",
-   "choice_note": "any 4 of 6 questions in Section B",
-   "chapter": "Sound",
-   "topic": "Jalatarang - pitch and water level",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 4,
-   "concepts": [
-    "jalatarang - pitch and water level"
-   ],
-   "question": "The image shows a musical set-up called Jalatarang, consisting of 5 identical glasses filled with coloured water at decreasing levels from left to right (Glass 1 fullest, Glass 5 empty). A spoon is used to strike the glasses to produce musical notes.\n(a) Which glass will produce the highest pitch sound and which one will produce the lowest pitch sound when struck with the spoon?\n(b) Study the wave pattern produced by striking glasses 1, 3 and 4 once (displacement-time graph from 0 to 0.06 s: a high-frequency burst, then a low-frequency burst, then a medium-frequency burst, then another high-frequency burst). To reproduce this sound pattern with a single strike on each glass, write the sequence in which the glasses should be struck.",
-   "options": {},
-   "is_objective": false,
-   "correct_option": null,
-   "answer_items": null,
-   "solution": "(a) When a glass is struck, the glass and its water vibrate; more water means more vibrating mass and a lower natural frequency. So Glass 5 (empty/least water) produces the highest pitch and Glass 1 (most water) produces the lowest pitch. (b) Among glasses 1, 3 and 4: Glass 4 gives the highest frequency, Glass 3 a medium frequency and Glass 1 the lowest. The graph shows high → low → medium (→ high) frequency, so the sequence is Glass 4 → Glass 1 → Glass 3 (the final high-frequency burst again matches Glass 4).",
-   "marking_points": [
-    {
-     "point": "(a) Highest pitch: Glass 5",
-     "marks": 1
-    },
-    {
-     "point": "(a) Lowest pitch: Glass 1 (more water - lower frequency)",
-     "marks": 1
-    },
-    {
-     "point": "(b) Identifies frequencies: 4 highest, 3 medium, 1 lowest",
-     "marks": 1
-    },
-    {
-     "point": "(b) Sequence 4 → 1 → 3",
-     "marks": 1
-    }
-   ],
-   "needs_figure": true,
-   "figure_desc": "Photo of five glasses with decreasing water levels (Glass 1 to Glass 5) and a spoon; a displacement-time graph (0-0.06 s) showing bursts of high, low, medium and high frequency.",
-   "page": 9,
-   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_euro/p9.jpg"
-  },
-  {
    "q_label": "7(i)",
    "q_order": 39,
    "q_main": 7,
@@ -1890,6 +1843,12 @@
    "figure_desc": "Skate ramp on a grid: skater at P at 4 m height, descends to Q at 0 m, then rises to R at about 2 m on the right.",
    "page": 12,
    "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_euro/p12.jpg"
+  }
+ ],
+ "audit_excluded": [
+  {
+   "q_label": "6(iii)",
+   "reason": "Part (b) graph shows four bursts (high, low, medium, high again) but asks for a single strike on each of only three glasses, so the pattern cannot be reproduced as stated; stored answer 4-1-3 has to ignore the final burst."
   }
  ]
 }

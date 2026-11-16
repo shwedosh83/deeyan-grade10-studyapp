@@ -55,40 +55,6 @@
    "page": 1
   },
   {
-   "q_label": "2",
-   "q_order": 1,
-   "q_main": 2,
-   "section": "Semester 1 Paper",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Light (Refraction, Lenses, Spectrum)",
-   "topic": "Meaning of refractive index",
-   "bloom": "recall",
-   "applied": false,
-   "applied_kind": null,
-   "difficulty": 1,
-   "concepts": [
-    "meaning of refractive index μ=c/v"
-   ],
-   "question": "The refractive index of a diamond is 2.4. It means that",
-   "options": {
-    "a": "the speed of light in vacuum is equal to 2.4 times the speed of light in diamond.",
-    "b": "the speed of light in the diamond is 2.4 times the speed of light in a vacuum.",
-    "c": "the speed of light in a vacuum is 2.4 times the speed of light in the diamond.",
-    "d": "the wavelength of light in diamond is 2.4 times the wavelength of light in vacuum."
-   },
-   "is_objective": true,
-   "correct_option": "c",
-   "answer_items": null,
-   "solution": "(c) the speed of light in a vacuum is 2.4 times the speed of light in the diamond. mu = c/v, so c = 2.4 v.",
-   "marking_points": [],
-   "needs_figure": false,
-   "figure_desc": null,
-   "page": 1
-  },
-  {
    "q_label": "3",
    "q_order": 2,
    "q_main": 3,
@@ -120,41 +86,6 @@
    "marking_points": [],
    "needs_figure": false,
    "figure_desc": null,
-   "page": 1
-  },
-  {
-   "q_label": "4",
-   "q_order": 3,
-   "q_main": 4,
-   "section": "Semester 1 Paper",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Light (Refraction, Lenses, Spectrum)",
-   "topic": "Refraction through glass slab",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 2,
-   "concepts": [
-    "lateral displacement through glass slab",
-    "emergent ray parallel to incident ray"
-   ],
-   "question": "A ray of light IM is incident on a glass slab ABCD as shown in the figure. The emergent ray for this incident ray is",
-   "options": {
-    "a": "NQ",
-    "b": "NR",
-    "c": "NP",
-    "d": "NS"
-   },
-   "is_objective": true,
-   "correct_option": "a",
-   "answer_items": null,
-   "solution": "(a) NQ. The emergent ray is parallel to the incident ray.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Glass slab ABCD with incident ray IM striking one face; refracted ray MN inside the slab; four candidate emergent rays NP, NQ, NR, NS drawn from N on the opposite face (NQ is the one parallel to IM).",
    "page": 1
   },
   {
@@ -224,143 +155,6 @@
    "needs_figure": false,
    "figure_desc": null,
    "page": 1
-  },
-  {
-   "q_label": "7(i)",
-   "q_order": 6,
-   "q_main": 7,
-   "section": "Semester 1 Paper",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Light (Refraction, Lenses, Spectrum)",
-   "topic": "Image nature between F and 2F",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 3,
-   "concepts": [
-    "identify lens from ray diagram",
-    "image formed between F and 2F"
-   ],
-   "question": "Observe the diagram which shows the path of an incident ray through an optical plane LL' of a lens. The focal length of the lens is 20 cm.\n(i) If an object is placed at a distance of 30 cm in front of this lens, then",
-   "options": {
-    "a": "the image will be virtual",
-    "b": "the image will be diminished and inverted.",
-    "c": "the image will be diminished.",
-    "d": "the image will be real and magnified."
-   },
-   "is_objective": true,
-   "correct_option": "d",
-   "answer_items": null,
-   "solution": "(d) the image will be real and magnified. The lens is convex; an object between F and 2F gives a real, inverted, magnified image.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Ray diagram of a ray passing through a lens at optical plane LL'; the ray converges after the lens, showing it is a convex (converging) lens.",
-   "page": 2
-  },
-  {
-   "q_label": "7(ii)",
-   "q_order": 7,
-   "q_main": 7,
-   "section": "Semester 1 Paper",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Light (Refraction, Lenses, Spectrum)",
-   "topic": "Uses of convex lens",
-   "bloom": "understand",
-   "applied": false,
-   "applied_kind": null,
-   "difficulty": 2,
-   "concepts": [
-    "uses of convex lens, hypermetropia correction"
-   ],
-   "question": "(ii) This type of lens (the lens in the diagram above) can be used",
-   "options": {
-    "a": "to correct hypermetropia.",
-    "b": "to correct myopia.",
-    "c": "to diverge light.",
-    "d": "in the front door peepholes."
-   },
-   "is_objective": true,
-   "correct_option": "a",
-   "answer_items": null,
-   "solution": "(a) to correct hypermetropia. In hypermetropia rays meet beyond the retina; a convex lens makes them meet on the retina.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Same lens diagram as 7(i): a ray bending towards the axis through a convex lens at plane LL'.",
-   "page": 2
-  },
-  {
-   "q_label": "7(iii)",
-   "q_order": 8,
-   "q_main": 7,
-   "section": "Semester 1 Paper",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Light (Refraction, Lenses, Spectrum)",
-   "topic": "Lens formula image distance",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "numerical",
-   "difficulty": 3,
-   "concepts": [
-    "lens formula with sign convention"
-   ],
-   "question": "(iii) An object is placed in front of this lens (f = 20 cm) at a distance of 60 cm. Then the image distance from the lens with proper sign convention is",
-   "options": {
-    "a": "+60 cm",
-    "b": "+30 cm",
-    "c": "-30 cm",
-    "d": "+15 cm"
-   },
-   "is_objective": true,
-   "correct_option": "b",
-   "answer_items": null,
-   "solution": "(b) +30 cm. 1/v - 1/u = 1/f; 1/v + 1/60 = 1/20; 1/v = 1/30; v = +30 cm.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Same lens diagram as 7(i): convex lens, f = 20 cm.",
-   "page": 2
-  },
-  {
-   "q_label": "7(iv)",
-   "q_order": 9,
-   "q_main": 7,
-   "section": "Semester 1 Paper",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Light (Refraction, Lenses, Spectrum)",
-   "topic": "Lens magnification calculation",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "numerical",
-   "difficulty": 3,
-   "concepts": [
-    "lens magnification m=v/u"
-   ],
-   "question": "(iv) An object is placed in front of this lens (f = 20 cm) at a distance of 60 cm. Then the magnification of the image is",
-   "options": {
-    "a": "0.25",
-    "b": "1.25",
-    "c": "-0.5",
-    "d": "1"
-   },
-   "is_objective": true,
-   "correct_option": "c",
-   "answer_items": null,
-   "solution": "(c) -0.5. m = v/u = 30/(-60) = -0.5.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Same lens diagram as 7(i): convex lens, f = 20 cm.",
-   "page": 2
   },
   {
    "q_label": "8",
@@ -462,40 +256,6 @@
    "marking_points": [],
    "needs_figure": false,
    "figure_desc": null,
-   "page": 2
-  },
-  {
-   "q_label": "11",
-   "q_order": 13,
-   "q_main": 11,
-   "section": "Semester 1 Paper",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Force: Turning Forces and Uniform Circular Motion",
-   "topic": "Balancing of metre scale, moments",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 3,
-   "concepts": [
-    "principle of moments, shifting fulcrum of metre scale"
-   ],
-   "question": "The diagram below shows the balanced position of a metre scale (supported at a point other than the centre with a mass hanging on one side). Which one of the following diagrams shows the correct position of the scale when it is supported at the centre?",
-   "options": {
-    "a": "Diagram (a): left side of the scale tilted down",
-    "b": "Diagram (b)",
-    "c": "Diagram (c)",
-    "d": "Diagram (d)"
-   },
-   "is_objective": true,
-   "correct_option": "a",
-   "answer_items": null,
-   "solution": "(a). When the fulcrum is shifted to the 50 cm mark, the mass of the left side becomes more than that of the right side, so the left side of the scale tilts down.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "A metre scale balanced on a knife edge away from the centre with a weight on one side; four options show the scale supported at the 50 cm mark tilted in different ways. Option (a) shows the left side down. Option contents (a)-(d) are diagrams, not text.",
    "page": 2
   },
   {
@@ -769,40 +529,6 @@
    "needs_figure": false,
    "figure_desc": null,
    "page": 3
-  },
-  {
-   "q_label": "16",
-   "q_order": 22,
-   "q_main": 16,
-   "section": "Semester 1 Paper",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Mechanics (Machines, Gravitation)",
-   "topic": "Velocity ratio of pulley system",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 3,
-   "concepts": [
-    "velocity ratio of pulley system from diagram"
-   ],
-   "question": "In the diagram shown below, the velocity ratio of the arrangement is",
-   "options": {
-    "a": "1",
-    "b": "2",
-    "c": "3",
-    "d": "0"
-   },
-   "is_objective": true,
-   "correct_option": "b",
-   "answer_items": null,
-   "solution": "(b) 2. If pulley B moves x downwards, the rope moves 2x, so velocity ratio = 2.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "A pulley arrangement with a movable pulley B and a rope; the diagram is needed to see the pulley system.",
-   "page": 4
   },
   {
    "q_label": "17",
@@ -1177,211 +903,64 @@
    "needs_figure": false,
    "figure_desc": null,
    "page": 5
+  }
+ ],
+ "audit_excluded": [
+  {
+   "q_label": "2",
+   "reason": "Two options are correct: (a) 'speed of light in vacuum is equal to 2.4 times the speed in diamond' and (c) 'speed of light in a vacuum is 2.4 times the speed in the diamond' say the same thing (flaw in the original paper)."
+  },
+  {
+   "q_label": "4",
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s1). Emergent ray choice (NQ etc.) only identifiable from the slab figure. Key (a) NQ matches the source PDF."
+  },
+  {
+   "q_label": "7(i)",
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s1). Lens type (convex) is shown only in the figure; text never says convex, so (i)/(ii) cannot be answered and (iii)/(iv) rely on it. Keys d/a/b/c are correct for a convex lens (v=+30 cm, m=-0.5)."
+  },
+  {
+   "q_label": "7(ii)",
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s1). Lens type (convex) is shown only in the figure; text never says convex, so (i)/(ii) cannot be answered and (iii)/(iv) rely on it. Keys d/a/b/c are correct for a convex lens (v=+30 cm, m=-0.5)."
+  },
+  {
+   "q_label": "7(iii)",
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s1). Lens type (convex) is shown only in the figure; text never says convex, so (i)/(ii) cannot be answered and (iii)/(iv) rely on it. Keys d/a/b/c are correct for a convex lens (v=+30 cm, m=-0.5)."
+  },
+  {
+   "q_label": "7(iv)",
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s1). Lens type (convex) is shown only in the figure; text never says convex, so (i)/(ii) cannot be answered and (iii)/(iv) rely on it. Keys d/a/b/c are correct for a convex lens (v=+30 cm, m=-0.5)."
+  },
+  {
+   "q_label": "11",
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s1). Options are diagrams, and the stem paraphrase ('a mass hanging on one side') does not match the source (non-uniform scale balanced at 40 cm). Key (a) is correct in the source."
+  },
+  {
+   "q_label": "16",
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s1). Velocity ratio depends on the pulley arrangement drawn. Key (b) 2 is correct for the source figure."
   },
   {
    "q_label": "24(i)",
-   "q_order": 34,
-   "q_main": 24,
-   "section": "Semester 1 Paper",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Light (Refraction, Lenses, Spectrum)",
-   "topic": "Angle of incidence at surface",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 3,
-   "concepts": [
-    "angle of incidence measured from normal"
-   ],
-   "question": "The diagram below shows a ray of light travelling from air into a glass material (a block with a curved surface AD and flat surfaces AB, BC). Answer the questions that follow:\n(i) The angle of incidence at the surface AB is",
-   "options": {
-    "a": "43°",
-    "b": "47°",
-    "c": "90°",
-    "d": "0°"
-   },
-   "is_objective": true,
-   "correct_option": "b",
-   "answer_items": null,
-   "solution": "(b) 47°. Angle of incidence = 90° - 43° = 47°.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Glass block with a curved surface AD and flat faces AB, BC. A ray enters the curved surface AD undeviated (along a radius), strikes AB where an angle of 43 degrees is marked with the surface, undergoes total internal reflection at F, then meets BC.",
-   "page": 5
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s1). Angles (43 deg at AB) and the ray path are only in the figure. Keys b/c/a/b match the source figure."
   },
   {
    "q_label": "24(ii)",
-   "q_order": 35,
-   "q_main": 24,
-   "section": "Semester 1 Paper",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Light (Refraction, Lenses, Spectrum)",
-   "topic": "Refraction at curved surface",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 3,
-   "concepts": [
-    "refraction at curved surface along radius, no deviation"
-   ],
-   "question": "(ii) Select a correct statement from the following.",
-   "options": {
-    "a": "The speed of light at the curved surface AD does not change while entering the block.",
-    "b": "The ray at the surface AD is not travelling along the radius of the curved part.",
-    "c": "The ray at the surface AD is travelling along the radius of the curved part.",
-    "d": "Light never refracts when it enters a curved surface."
-   },
-   "is_objective": true,
-   "correct_option": "c",
-   "answer_items": null,
-   "solution": "(c) The ray at the surface AD is travelling along the radius of the curved part, since it is not deviated at AD.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Same glass block diagram as 24(i).",
-   "page": 5
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s1). Angles (43 deg at AB) and the ray path are only in the figure. Keys b/c/a/b match the source figure."
   },
   {
    "q_label": "24(iii)",
-   "q_order": 36,
-   "q_main": 24,
-   "section": "Semester 1 Paper",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Light (Refraction, Lenses, Spectrum)",
-   "topic": "Angle of incidence at BC",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 4,
-   "concepts": [
-    "geometry of angles in glass block, total internal reflection"
-   ],
-   "question": "(iii) The angle of incidence on the surface BC is",
-   "options": {
-    "a": "43°",
-    "b": "47°",
-    "c": "90°",
-    "d": "0°"
-   },
-   "is_objective": true,
-   "correct_option": "a",
-   "answer_items": null,
-   "solution": "(a) 43°. TIR occurs at F; angle EFB = 43 deg, FEB = 90 - 43 = 47 deg, so angle of incidence at BC = 90 - 47 = 43 deg.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Same glass block diagram as 24(i).",
-   "page": 5
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s1). Angles (43 deg at AB) and the ray path are only in the figure. Keys b/c/a/b match the source figure."
   },
   {
    "q_label": "24(iv)",
-   "q_order": 37,
-   "q_main": 24,
-   "section": "Semester 1 Paper",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Light (Refraction, Lenses, Spectrum)",
-   "topic": "Critical angle from diagram",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 4,
-   "concepts": [
-    "finding critical angle from TIR diagram"
-   ],
-   "question": "(iv) The critical angle of this material of glass",
-   "options": {
-    "a": "47°",
-    "b": "43°",
-    "c": "42°",
-    "d": "45°"
-   },
-   "is_objective": true,
-   "correct_option": "b",
-   "answer_items": null,
-   "solution": "(b) 43°. TIR occurs at 47 deg at F, so critical angle is less than that; at BC the refracted ray grazes the surface, so the incidence angle 43 deg equals the critical angle.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Same glass block diagram as 24(i).",
-   "page": 5
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s1). Angles (43 deg at AB) and the ray path are only in the figure. Keys b/c/a/b match the source figure."
   },
   {
    "q_label": "25(i)",
-   "q_order": 38,
-   "q_main": 25,
-   "section": "Semester 1 Paper",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Light (Refraction, Lenses, Spectrum)",
-   "topic": "Angle of right-angled prism",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 4,
-   "concepts": [
-    "total internal reflection in right-angled prism",
-    "angle geometry"
-   ],
-   "question": "The diagram below shows the path of light passing through a right-angled prism of critical angle 42°.\n(i) The angle C of the prism is",
-   "options": {
-    "a": "45°",
-    "b": "60°",
-    "c": "90°",
-    "d": "30°"
-   },
-   "is_objective": true,
-   "correct_option": "d",
-   "answer_items": null,
-   "solution": "(d) 30°. Angle of incidence (60 deg) > critical angle, TIR at D; angle ADE = 90 - 60 = 30 deg, so angle A = 60 deg; in triangle ABC, 60 + 90 + C = 180, so C = 30 deg.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Right-angled prism ABC (angle B = 90 deg) with a ray entering one face, striking the hypotenuse side at D at 60 degrees incidence, and continuing.",
-   "page": 5
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s1). The 60 deg incidence at the hypotenuse is only in the figure. Key (d) 30 deg is correct for the source figure."
   },
   {
    "q_label": "25(ii)",
-   "q_order": 39,
-   "q_main": 25,
-   "section": "Semester 1 Paper",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Light (Refraction, Lenses, Spectrum)",
-   "topic": "Total internal reflection in prism",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 4,
-   "concepts": [
-    "ray path in prism with TIR then refraction"
-   ],
-   "question": "(ii) Which one of the following diagrams shows the correct path of this ray till it emerges out of the prism?",
-   "options": {
-    "a": "Diagram (a)",
-    "b": "Diagram (b)",
-    "c": "Diagram (c)",
-    "d": "Diagram (d)"
-   },
-   "is_objective": true,
-   "correct_option": "b",
-   "answer_items": null,
-   "solution": "(b). TIR occurs at D (60 deg > 42 deg), angle of reflection 60 deg; angle of incidence at F = 120 - 90 = 30 deg < critical angle, so regular refraction takes place and the ray emerges.",
-   "marking_points": [],
-   "needs_figure": true,
-   "figure_desc": "Right-angled prism ABC with four candidate ray paths (a)-(d) drawn; the options are diagrams only. Correct (b): TIR at D, then refraction out at F.",
-   "page": 5
+   "reason": "Depends on a figure that is not attached in the app (needs_figure true, figure_url null; no page image exists in board-figures/physics_2022s1). Options are diagrams only. Key (b) is correct in the source."
   }
  ]
 }

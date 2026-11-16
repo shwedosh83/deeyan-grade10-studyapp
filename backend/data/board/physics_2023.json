@@ -880,8 +880,7 @@
      "accepted": [
       "MCB",
       "miniature circuit breaker",
-      "fuse",
-      "fuse/MCB"
+      "circuit breaker"
      ]
     },
     {
@@ -893,7 +892,7 @@
      ]
     }
    ],
-   "solution": "(a) Miniature Circuit Breaker (MCB) - printed key states fuse protects the circuit and MCB can be used as a switch.\n(b) Live wire.",
+   "solution": "(a) Miniature Circuit Breaker (MCB). It trips and breaks the circuit when the current exceeds a safe value, and it can also be switched on and off by hand. (A fuse protects but cannot be used as a switch.) (b) Live wire.",
    "marking_points": [],
    "needs_figure": false,
    "figure_desc": null,
@@ -1099,18 +1098,18 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "The ray PQ meets the second face at an angle of incidence of 60 degrees, which exceeds the critical angle 42 degrees, so it undergoes total internal reflection at Q. It is reflected (angle of reflection 60 degrees) towards the third face and emerges there, normal to it (angle 0 / emerges undeviated along the normal), with angles 60, 90 marked as in the diagram.",
+   "solution": "The ray PQ is incident normally on face AB, so it enters undeviated at Q. It meets the base BC at an angle of incidence of 60°, which is more than the critical angle 42°, so it is totally internally reflected at BC (angle of reflection 60°). The reflected ray strikes face AC normally (angle of incidence 0°) and emerges undeviated, perpendicular to AC. Mark the 60° angles of incidence and reflection at BC and the 90° at AC.",
    "marking_points": [
     {
-     "point": "Total internal reflection at Q since angle of incidence 60° > critical angle 42°",
+     "point": "Ray enters AB undeviated and is totally internally reflected at base BC since angle of incidence 60° > critical angle 42°",
      "marks": 1
     },
     {
-     "point": "Reflected ray drawn with angle of reflection 60° towards the other face (R)",
+     "point": "Reflected ray drawn with angle of reflection 60° towards face AC",
      "marks": 1
     },
     {
-     "point": "Emergent ray drawn from that face with necessary angles marked",
+     "point": "Ray emerges from AC along the normal (undeviated), angles marked",
      "marks": 1
     }
    ],
@@ -1272,22 +1271,22 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "(a) Infrared radiation provides night vision (it can be detected in darkness/through haze), hence it is used in warfare.\n(b) 1. Refraction and dispersion of light (on entering and emerging, the light is refracted and split into colours with deviation).\n2. The cause is the difference in speed (hence refractive index) of different colours of light in the medium.",
+   "solution": "(a) Every warm body (soldiers, vehicles, weapons) emits infrared radiation. Infrared detectors / night-vision devices pick up this radiation, so enemy targets can be seen and tracked in darkness, fog or haze (infrared is also scattered less). Hence infrared is used in warfare.\n(b) 1. Dispersion of light (the white light is refracted and split into its constituent colours, red deviating least and violet most).\n2. Cause: light of different colours travels with different speeds in glass, so the refractive index of glass is different for different colours (wavelengths) and each colour is deviated by a different amount.",
    "marking_points": [
     {
-     "point": "Infrared gives night vision / usable in dark",
+     "point": "(a) Infrared used for night vision / detecting enemy targets in darkness or fog",
      "marks": 1
     },
     {
-     "point": "Dispersion (with refraction) named",
+     "point": "(a) Reason: warm bodies emit infrared which IR detectors can sense",
      "marks": 1
     },
     {
-     "point": "Cause: different colours have different speeds in the medium",
+     "point": "(b)1 Dispersion",
      "marks": 1
     },
     {
-     "point": "Reason given linked to wavelength/refractive index variation in prism",
+     "point": "(b)2 Different colours have different speeds / refractive index in glass",
      "marks": 1
     }
    ],
@@ -1460,11 +1459,11 @@
      "marks": 1
     },
     {
-     "point": "Formula d = vt/2 and substitution",
+     "point": "Formula d = v x t (or d = vt/2 for the distance of the reflecting object) with substitution",
      "marks": 1
     },
     {
-     "point": "10.5 km",
+     "point": "21 km total path covered by the wave (accept 10.5 km if stated as the distance of the obstacle)",
      "marks": 1
     }
    ],
@@ -1632,11 +1631,11 @@
      "marks": 1
     },
     {
-     "point": "Shielding with thick lead/steel walls",
+     "point": "Shielding with thick lead/steel/concrete walls",
      "marks": 1
     },
     {
-     "point": "Radon (or other valid internal source)",
+     "point": "Internal source: radioactive K-40 or C-14 present inside the human body",
      "marks": 1
     }
    ],
@@ -1827,5 +1826,6 @@
    "page": 11,
    "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/physics_2023/p11.jpg"
   }
- ]
+ ],
+ "audit_excluded": []
 }

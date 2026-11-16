@@ -137,40 +137,6 @@
    "page": 1
   },
   {
-   "q_label": "1(iv)",
-   "q_order": 3,
-   "q_main": 1,
-   "section": "Section A",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Work, Power and Energy",
-   "topic": "Work done when no displacement along force",
-   "bloom": "understand",
-   "applied": true,
-   "applied_kind": "reasoning",
-   "difficulty": 3,
-   "concepts": [
-    "work done when force ⟂ displacement"
-   ],
-   "question": "If a parrot flies at a height of 300 m above sea level by applying a force of 10 N. Then, what is the work done by the parrot?",
-   "options": {
-    "a": "zero",
-    "b": "3000 J",
-    "c": "negative",
-    "d": "30000 J"
-   },
-   "is_objective": true,
-   "correct_option": "a",
-   "answer_items": null,
-   "solution": "(a) zero. The parrot flies horizontally at a constant height; its upward force (balancing its weight) is perpendicular to the horizontal displacement, so W = Fs cos 90° = 0.",
-   "marking_points": [],
-   "needs_figure": false,
-   "figure_desc": null,
-   "page": 2
-  },
-  {
    "q_label": "1(v)",
    "q_order": 4,
    "q_main": 1,
@@ -305,41 +271,6 @@
    "correct_option": "c",
    "answer_items": null,
    "solution": "(c) 2 : 3. Q = mcΔT with same Q and ΔT gives c ∝ 1/m, so cP : cQ = 2 : 3.",
-   "marking_points": [],
-   "needs_figure": false,
-   "figure_desc": null,
-   "page": 2
-  },
-  {
-   "q_label": "1(ix)",
-   "q_order": 8,
-   "q_main": 1,
-   "section": "Section A",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Heat (Calorimetry)",
-   "topic": "Heat capacity and specific heat calculation",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "numerical",
-   "difficulty": 3,
-   "concepts": [
-    "heat capacity = Q/ΔT",
-    "specific heat = Q/(mΔT)"
-   ],
-   "question": "m = 10 g, quantity of heat supplied = 1200 J, rise in temperature = 20 °C\nStatement A: The heat capacity of the substance is 60 J g⁻¹.\nStatement B: The specific heat capacity of the substance is 1.2 J g⁻¹K⁻¹.",
-   "options": {
-    "a": "Only statement A is correct",
-    "b": "Only statement B is correct",
-    "c": "Both statements A and B are correct",
-    "d": "Both statements A and B are incorrect."
-   },
-   "is_objective": true,
-   "correct_option": "a",
-   "answer_items": null,
-   "solution": "(a) Only statement A is correct. Heat capacity = Q/ΔT = 1200/20 = 60 J K⁻¹ (the unit is misprinted as J g⁻¹ in the paper). Specific heat capacity = Q/(mΔT) = 1200/(10 × 20) = 6 J g⁻¹K⁻¹, not 1.2, so B is incorrect.",
    "marking_points": [],
    "needs_figure": false,
    "figure_desc": null,
@@ -1929,6 +1860,16 @@
    "needs_figure": false,
    "figure_desc": null,
    "page": 8
+  }
+ ],
+ "audit_excluded": [
+  {
+   "q_label": "1(iv)",
+   "reason": "Ambiguous: the stem never says the parrot flies horizontally; key 'zero' assumes horizontal flight, but 3000 J (F x 300 m) is equally readable from the wording. Two options defensible."
+  },
+  {
+   "q_label": "1(ix)",
+   "reason": "Statement A gives heat capacity as 60 J g⁻¹ (wrong unit). If the unit is treated as a misprint the answer is (a); if not, both are false (d). Key picks (a) while the VTS paper's identical item treats the same unit error as making A false. Ambiguous."
   }
  ]
 }

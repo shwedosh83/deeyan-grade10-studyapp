@@ -66,41 +66,6 @@
    "page": 1
   },
   {
-   "q_label": "1(ii)",
-   "q_order": 1,
-   "q_main": 1,
-   "section": "Section A",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Electricity and Magnetism",
-   "topic": "V-I graph slope",
-   "bloom": "understand",
-   "applied": false,
-   "applied_kind": null,
-   "difficulty": 1,
-   "concepts": [
-    "Ohm's law",
-    "slope of V-I graph = R"
-   ],
-   "question": "The graph between voltage and current for a conductor is a straight line. The slope of the graph represents:",
-   "options": {
-    "a": "Resistivity",
-    "b": "Electric potential",
-    "c": "Resistance",
-    "d": "Conductance"
-   },
-   "is_objective": true,
-   "correct_option": "c",
-   "answer_items": null,
-   "solution": "(c) Resistance. For a V (y-axis) vs I (x-axis) graph, slope = V/I = R.",
-   "marking_points": [],
-   "needs_figure": false,
-   "figure_desc": null,
-   "page": 1
-  },
-  {
    "q_label": "1(iii)",
    "q_order": 2,
    "q_main": 1,
@@ -1948,6 +1913,12 @@
    "needs_figure": false,
    "figure_desc": null,
    "page": 11
+  }
+ ],
+ "audit_excluded": [
+  {
+   "q_label": "1(ii)",
+   "reason": "Axes not specified (no figure in source, checked PDF p1): slope is resistance (c) if V is on the y-axis, conductance (d) if I is on the y-axis. Two options defensible."
   }
  ]
 }

@@ -788,14 +788,14 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "(a) Q. (b) Drawing the medians, their meeting point is Q. For a uniform triangular lamina the meeting point of the medians is the centre of gravity; for the kite (a quadrilateral, split in triangles) Q is the most probable position of the centre of gravity.",
+   "solution": "(a) R.\n(b) A freely suspended body comes to rest with its centre of gravity vertically below the point of suspension (the line of action of its weight passes through the point of suspension, so there is no turning moment). In the figure, R is the point lying vertically below the point where the string is attached, so R is the most probable position of the centre of gravity.",
    "marking_points": [
     {
-     "point": "(a) Q",
+     "point": "(a) R",
      "marks": 1
     },
     {
-     "point": "(b) reason: Q is the point where the medians meet / hanging body's CG lies vertically below the suspension point",
+     "point": "(b) CG of a freely suspended body lies vertically below the point of suspension; R is directly below it",
      "marks": 1
     }
    ],
@@ -1143,18 +1143,18 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "(a) Ray J. Inside the prism the angles of incidence of rays I, J, H are 30°, 60° and 30° respectively; only J (60°) exceeds the critical angle 42°. (b) Ray J is totally reflected at the face (angle of reflection 60°), travels on and meets the next face normally (0 degrees angle of incidence) and emerges undeviated.",
+   "solution": "(a) Ray J. The rays enter the hypotenuse face normally and go undeviated. Inside, ray J strikes the vertical face at an angle of incidence of 60°, which is more than the critical angle 42°, so it undergoes total internal reflection. Rays I and H strike a face at 30° (less than 42°) and are refracted out.\n(b) Ray J is totally internally reflected at the vertical face (angle of reflection 60°). The reflected ray then meets the base at an angle of incidence of 30°. As 30° is less than the critical angle, it refracts out into air, bending away from the normal (angle of refraction about 48°, since n = 1/sin 42° ≈ 1.49).",
    "marking_points": [
     {
-     "point": "(a) Ray J, as its angle of incidence 60° exceeds the critical angle 42°",
+     "point": "(a) Ray J, as its angle of incidence 60° at the vertical face exceeds the critical angle 42°",
      "marks": 1
     },
     {
-     "point": "(b) J shown totally reflected at the prism face with angle of reflection equal to angle of incidence",
+     "point": "(b) J totally reflected at the vertical face with angle of reflection 60°",
      "marks": 1
     },
     {
-     "point": "(b) reflected ray shown emerging from the other face (normally, undeviated)",
+     "point": "(b) Reflected ray meets the base at 30° and emerges refracted away from the normal",
      "marks": 1
     }
    ],
@@ -1690,14 +1690,14 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "(a) X is the company (pole) fuse; it has no fixed current rating, it depends on the load capacity of the connection. (b) Z (main switch) connects/disconnects both live and neutral lines simultaneously, whereas household appliance switches connect/disconnect only the live line. (c) kWh (kilowatt-hour).",
+   "solution": "(a) X is the main (company/pole) fuse, placed before the meter. It has a high current rating, about 30 A (some texts give up to 50 A), much higher than the 5 A / 15 A fuses of individual circuits.\n(b) Z is the main switch, a double pole switch: it connects or disconnects both the live and the neutral wires at the same time. The switches used for appliances at home are single pole switches, connected only in the live wire.\n(c) kWh (kilowatt-hour).",
    "marking_points": [
     {
-     "point": "(a) Company fuse / no fixed rating, depends on load capacity of connection",
+     "point": "(a) Main/company fuse of high rating, about 30 A (accept up to 50 A)",
      "marks": 1
     },
     {
-     "point": "(b) Z breaks live and neutral together; appliance switches only the live wire",
+     "point": "(b) Z is a double pole switch breaking live and neutral together; appliance switches break only the live wire",
      "marks": 1
     },
     {
@@ -1891,55 +1891,12 @@
    "needs_figure": false,
    "figure_desc": null,
    "page": 7
-  },
+  }
+ ],
+ "audit_excluded": [
   {
    "q_label": "9(iii)",
-   "q_order": 47,
-   "q_main": 9,
-   "section": "Section B",
-   "type": "short",
-   "marks": 4.0,
-   "mandatory": "choice",
-   "choice_note": "any 4 of 6 questions in Section B",
-   "chapter": "Electricity and Magnetism",
-   "topic": "Force on current-carrying conductor",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "reasoning",
-   "difficulty": 4,
-   "concepts": [
-    "Fleming's left hand rule, force on current-carrying conductor",
-    "effect of cross-section on resistance and current",
-    "F = BIL"
-   ],
-   "question": "A copper rod PQ carrying current is kept in a magnetic field between the poles N and S as shown in the diagram (points A and C are marked on either side of the rod).\n(a) The copper rod PQ will move towards C. State True or False.\n(b) Name the law used to determine the direction of motion of PQ.\n(c) What will be the effect on the force experienced, if the rod PQ is replaced by another copper rod of same length but of greater cross-sectional area?\n(d) Justify your answer in (c).",
-   "options": {},
-   "is_objective": false,
-   "correct_option": null,
-   "answer_items": null,
-   "solution": "(a) True. (b) Fleming's left hand rule. (c) The force increases. (d) Greater cross-sectional area means lower resistance, so more current flows; force F = BIL sinθ increases as I increases.",
-   "marking_points": [
-    {
-     "point": "(a) True",
-     "marks": 1
-    },
-    {
-     "point": "(b) Fleming's left hand rule",
-     "marks": 1
-    },
-    {
-     "point": "(c) Force increases",
-     "marks": 1
-    },
-    {
-     "point": "(d) Lower resistance gives larger current; F = BIL sinθ",
-     "marks": 1
-    }
-   ],
-   "needs_figure": true,
-   "figure_desc": "Copper rod PQ across a magnetic field between N and S poles of magnets, current flowing from left to right, field directed downward; points A and C lie on opposite sides of the rod (C is the direction of the force).",
-   "page": 16,
-   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/physics_2025/p16.jpg"
+   "reason": "(c) has two defensible answers (force increases vs remains same) depending on whether current is held constant"
   }
  ]
 }

@@ -697,14 +697,14 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "(a) Mechanical advantage of a block and tackle of 9 pulleys is 9, whereas that of a single movable pulley is 2.\n(b) Increasing the number of pulleys increases the mechanical advantage.",
+   "solution": "(a) The block and tackle of 9 pulleys has VR = 9 (ideal MA = 9), whereas a single movable pulley has MA = 2, so a much smaller effort lifts the heavy load.\n(b) With an odd number (9) of pulleys, the upper fixed block has one more pulley (5) than the lower movable block (4). This keeps the lower movable block lighter, so less effort is wasted in lifting it and the efficiency (and actual MA) is higher. The string is tied to the lower block and its free end comes down from the fixed block, so the effort is applied conveniently downwards.",
    "marking_points": [
     {
-     "point": "Greater mechanical advantage (9 vs 2)",
+     "point": "Greater mechanical advantage (9 compared with 2), so less effort needed",
      "marks": 1
     },
     {
-     "point": "More pulleys give higher mechanical advantage / VR",
+     "point": "Fewer pulleys in the movable block keep it lighter (less wasted effort, higher efficiency) / effort applied downwards",
      "marks": 1
     }
    ],
@@ -1139,7 +1139,7 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "(a) Red is scattered least due to its longest wavelength in the visible range, so it is visible from a very long distance.\n(b) 1. Critical angle = 43 degrees (ray meets the second face at 43 deg, emerging along the surface at 90 deg... per figure 47 + 43 = 90).\n2. Angle of prism = 43 degrees.\n3. Indigo or violet; their critical angles are less than that of blue, so the 43 deg angle of incidence exceeds the critical angle and TIR occurs.",
+   "solution": "(a) Red light has the longest wavelength in the visible spectrum, so it is scattered the least by air particles and can be seen from a large distance.\n(b) 1. The ray enters face AB normally and meets face AC. It emerges grazing along AC, and the figure shows 133° between the ray inside and the emergent ray, so the ray inside makes 180° - 133° = 47° with face AC. The angle of incidence on AC = 90° - 47° = 43°. Since the emergent ray grazes the surface (angle of refraction 90°), this angle is the critical angle: C = 43°.\n2. In the triangle formed at A, the ray is perpendicular to AB, so A = 180° - 90° - 47° = 43°.\n3. Indigo or violet. They have a larger refractive index and so a smaller critical angle than blue, so the 43° angle of incidence exceeds their critical angle and they undergo total internal reflection.",
    "marking_points": [
     {
      "point": "Red scattered least / longest wavelength, visible from far",
@@ -1364,18 +1364,18 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "(a) Marble A (Path 1 is frictionless).\n(b) Mechanical energy is conserved along Path 1 only, where there is no friction. (The printed board key says both paths; either is accepted.)\n(c) The law of conservation of energy is obeyed along both paths, since energy lost to friction on Path 2 appears as heat.",
+   "solution": "(a) Marble A (Path 1 is frictionless, so it reaches the next peak of the same height).\n(b) Path 1 only. On Path 2, friction converts part of the mechanical energy into heat, so mechanical energy is not conserved there.\n(c) Both paths. The total energy is conserved on both; on Path 2 the lost mechanical energy appears as heat.",
    "marking_points": [
     {
      "point": "Marble A",
      "marks": 1
     },
     {
-     "point": "Mechanical energy conserved: Path 1 (frictionless); printed key says both, accept either",
+     "point": "Mechanical energy conserved along Path 1 only",
      "marks": 1
     },
     {
-     "point": "Law of conservation of energy: both paths (friction converts energy to heat)",
+     "point": "Law of conservation of energy obeyed along both paths",
      "marks": 1
     }
    ],
@@ -1767,7 +1767,7 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "(a) When a lake freezes it releases latent heat to the atmosphere, which warms the surroundings.\n(b) No change, since the temperature does not change (stays 0 deg C).\n(c) 1 g of water at 0 deg C contains more heat energy than 1 g of ice at 0 deg C, because water has absorbed the latent heat of fusion. (The printed board key states ice, which is physically incorrect; either answer is accepted.)",
+   "solution": "(a) When the water of the lake freezes, it gives out its latent heat of fusion to the surroundings, which warms the air.\n(b) No change, because the temperature stays at 0°C during freezing, and average kinetic energy depends on temperature.\n(c) 1 g of water at 0°C contains more heat energy, because it holds the latent heat of fusion (about 336 J) that 1 g of ice at 0°C has given out.",
    "marking_points": [
     {
      "point": "Latent heat released to surroundings on freezing",
@@ -1778,7 +1778,7 @@
      "marks": 1
     },
     {
-     "point": "Water at 0 deg C has more heat energy than ice (printed key says ice; accept either)",
+     "point": "Water at 0°C, as it has extra latent heat",
      "marks": 1
     }
    ],
@@ -1835,5 +1835,6 @@
    "page": 12,
    "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/physics_2024/p12.jpg"
   }
- ]
+ ],
+ "audit_excluded": []
 }

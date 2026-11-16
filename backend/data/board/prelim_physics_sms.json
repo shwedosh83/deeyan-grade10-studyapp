@@ -1839,51 +1839,6 @@
    "page": 6
   },
   {
-   "q_label": "9(ii)",
-   "q_order": 46,
-   "q_main": 9,
-   "section": "Section B",
-   "type": "short",
-   "marks": 3.0,
-   "mandatory": "choice",
-   "choice_note": "any 4 of 6 questions in Section B",
-   "chapter": "Electricity and Magnetism",
-   "topic": "Electromagnet attracting an iron bar",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 4,
-   "concepts": [
-    "clock rule",
-    "electromagnet",
-    "oscillatory motion"
-   ],
-   "question": "[Figure: an iron bar hangs from a spring attached to a wooden clamp stand, just above a vertical electromagnet; the electromagnet is connected in series with an ammeter, a switch, a battery and a rheostat; a half-metre ruler beside it measures the position of the bar.]\na) State the polarity at top end of the electromagnet when the switch is closed.\nb) What will happen to the iron bar when that happens?\nc) State the type of motion iron bar will have after opening the switch.",
-   "options": {},
-   "is_objective": false,
-   "correct_option": null,
-   "answer_items": null,
-   "solution": "(a) South pole. The wire from the + terminal enters the coil at its top on the right and, as drawn, the current flows clockwise when viewed from above, so the top end becomes a South pole (clock rule). [Answer depends on the winding as drawn in the figure.]\n(b) The iron bar gets magnetised by induction and is attracted downward towards the electromagnet, stretching the spring.\n(c) On opening the switch the electromagnet loses its magnetism; the stretched spring pulls the bar back up and it oscillates up and down (vibratory/oscillatory motion, simple harmonic), gradually dying out.",
-   "marking_points": [
-    {
-     "point": "(a) South pole at top (clock rule)",
-     "marks": 1
-    },
-    {
-     "point": "(b) Iron bar attracted downwards, spring stretches",
-     "marks": 1
-    },
-    {
-     "point": "(c) Oscillatory (vibratory) motion up and down",
-     "marks": 1
-    }
-   ],
-   "needs_figure": true,
-   "figure_desc": "Iron bar suspended from a spring on a clamp stand above a vertical electromagnet wired with an ammeter, switch, battery and rheostat; half-metre ruler beside it.",
-   "page": 7,
-   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_sms/p7.jpg"
-  },
-  {
    "q_label": "9(iii)",
    "q_order": 47,
    "q_main": 9,
@@ -1929,6 +1884,12 @@
    "needs_figure": false,
    "figure_desc": null,
    "page": 7
+  }
+ ],
+ "audit_excluded": [
+  {
+   "q_label": "9(ii)",
+   "reason": "Part (a) polarity depends on the winding sense, which the low-resolution clip-art figure does not show clearly (horizontal front strands, no current arrows). The most plausible reading (wire enters top-right, passes behind, front strands carry current left to right, anticlockwise seen from above) gives a North pole at the top, contradicting the stored South; the stored answer itself admits it depends on the drawing."
   }
  ]
 }

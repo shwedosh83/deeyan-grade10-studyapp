@@ -305,40 +305,6 @@
    "page": null
   },
   {
-   "q_label": "1(ix)",
-   "q_order": 8,
-   "q_main": 1,
-   "section": "Section A",
-   "type": "assertion_reason",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Light (Refraction, Lenses, Spectrum)",
-   "topic": "Total internal reflection vs plane mirror (assertion-reason)",
-   "bloom": "understand",
-   "applied": true,
-   "applied_kind": "assertion_reason",
-   "difficulty": 4,
-   "concepts": [
-    "total internal reflection vs plane mirror (assertion-reason)"
-   ],
-   "question": "Assertion (A): In the process of total internal reflection 100% of light energy is reflected back as it happens in a plane mirror.\nReason (R): During TIR, there is no absorption of light taking place, as light passes from a denser to a rarer medium.",
-   "options": {
-    "a": "Both A and R are true, R is the correct explanation of A",
-    "b": "Both A and R are true, R is not the correct explanation of A",
-    "c": "A is true and R is false",
-    "d": "A is false and R is true"
-   },
-   "is_objective": true,
-   "correct_option": "d",
-   "answer_items": null,
-   "solution": "(d) A is false and R is true. In TIR 100% of the light is reflected, but this does NOT happen in a plane mirror (a mirror absorbs part of the light), so A as stated is false. R is true - there is no absorption or refraction in TIR, which is why TIR gives 100% reflection. (If the clause about the plane mirror is ignored, the intended answer would be (a).)",
-   "marking_points": [],
-   "needs_figure": false,
-   "figure_desc": null,
-   "page": null
-  },
-  {
    "q_label": "1(x)",
    "q_order": 9,
    "q_main": 1,
@@ -435,40 +401,6 @@
    "correct_option": "a",
    "answer_items": null,
    "solution": "(a) infra-red rays. Infrared rays are less scattered (penetrate haze) and are emitted by warm objects, so they are used for night/haze photography.",
-   "marking_points": [],
-   "needs_figure": false,
-   "figure_desc": null,
-   "page": null
-  },
-  {
-   "q_label": "1(xiii)",
-   "q_order": 12,
-   "q_main": 1,
-   "section": "Section A",
-   "type": "mcq",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Work, Power and Energy",
-   "topic": "Momentum for equal kinetic energy",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "reasoning",
-   "difficulty": 3,
-   "concepts": [
-    "momentum for equal kinetic energy"
-   ],
-   "question": "Two bodies A and B of masses m and M such that M >> m. If both the bodies have the same kinetic energy, then:",
-   "options": {
-    "a": "B has more momentum than A",
-    "b": "A has more momentum than B",
-    "c": "both the bodies will have equal momentum",
-    "d": "A has more velocity than B"
-   },
-   "is_objective": true,
-   "correct_option": "a",
-   "answer_items": null,
-   "solution": "(a) B has more momentum than A. p = √(2mK); for equal K the heavier body B has greater momentum. (Note: option (d) is also physically true, since v = √(2K/m) is larger for A; the intended answer about momentum is (a).)",
    "marking_points": [],
    "needs_figure": false,
    "figure_desc": null,
@@ -806,45 +738,6 @@
    "needs_figure": false,
    "figure_desc": null,
    "page": null
-  },
-  {
-   "q_label": "2(iii)",
-   "q_order": 22,
-   "q_main": 2,
-   "section": "Section A",
-   "type": "short",
-   "marks": 2.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Modern Physics (Radioactivity)",
-   "topic": "Identifying radiations by deflection; ionising power",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "data_diagram",
-   "difficulty": 3,
-   "concepts": [
-    "identifying radiations by deflection; ionising power"
-   ],
-   "question": "Observe the figure: radiations from a radioactive substance in a lead box pass between two charged plates (negative plate on the left, positive on the right). P is deflected slightly towards the negative plate, Q is deflected strongly towards the positive plate, and R goes straight up undeflected.\n(a) Out of the two radiations P and Q, which one would cause more biological damage?\n(b) Arrange the radiations P, Q and R in the increasing order of their ionising power.",
-   "options": {},
-   "is_objective": false,
-   "correct_option": null,
-   "answer_items": null,
-   "solution": "P is α (positive, heavy - small deflection towards −), Q is β (negative, light - large deflection towards +), R is γ (undeflected). (a) Q (β-particles): from outside the body α is stopped by the skin, whereas β penetrates the tissue and damages cells. (If the source is taken inside the body, α causes more damage because of its high ionising power.) (b) Increasing ionising power: R (γ) < Q (β) < P (α).",
-   "marking_points": [
-    {
-     "point": "(a) Q (beta) with reason (greater penetration into body tissue)",
-     "marks": 1
-    },
-    {
-     "point": "(b) R < Q < P (gamma < beta < alpha)",
-     "marks": 1
-    }
-   ],
-   "needs_figure": true,
-   "figure_desc": "Radioactive substance in a lead box emitting three radiations between a negative (left) and positive (right) plate: P bends slightly left, Q bends strongly right, R goes straight.",
-   "page": 6,
-   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_bss/p6.jpg"
   },
   {
    "q_label": "3(i)",
@@ -1327,52 +1220,6 @@
     },
     {
      "point": "Plateau at 100°C labelled boiling; axes labelled",
-     "marks": 1
-    }
-   ],
-   "needs_figure": false,
-   "figure_desc": null,
-   "page": null
-  },
-  {
-   "q_label": "5(iii)",
-   "q_order": 35,
-   "q_main": 5,
-   "section": "Section B",
-   "type": "numerical",
-   "marks": 4.0,
-   "mandatory": "choice",
-   "choice_note": "any 4 of 6 questions in Section B",
-   "chapter": "Work, Power and Energy",
-   "topic": "Work to pull hanging chain onto table",
-   "bloom": "apply",
-   "applied": true,
-   "applied_kind": "numerical",
-   "difficulty": 4,
-   "concepts": [
-    "work to pull hanging chain onto table"
-   ],
-   "question": "A uniform chain of length 30 m has a mass of 0.3 kg. Two-third part of the chain is on a frictionless table and one-third part is vertically suspended from the edge. Then calculate:\n(a) the work done to bring the C.G. of the present hanging part of the chain up onto the corner of the table.\n(b) the amount of force applied on the chain to pull the chain just completely on the table.\nTake g = 10 m s⁻².",
-   "options": {},
-   "is_objective": false,
-   "correct_option": null,
-   "answer_items": null,
-   "solution": "(a) Hanging part: length 10 m, mass 0.3/3 = 0.1 kg; its C.G. is 5 m below the edge. W = mgh = 0.1 × 10 × 5 = 5 J. (b) The chain end must be pulled 10 m to bring it fully on the table; average force = work/distance = 5 J / 10 m = 0.5 N. (The force needed at the start equals the weight of the hanging part, 0.1 × 10 = 1 N, decreasing uniformly to zero, so the average is 0.5 N.)",
-   "marking_points": [
-    {
-     "point": "(a) Mass of hanging part 0.1 kg and its C.G. 5 m below edge",
-     "marks": 1
-    },
-    {
-     "point": "(a) W = 5 J",
-     "marks": 1
-    },
-    {
-     "point": "(b) Distance pulled = 10 m; F = W/d",
-     "marks": 1
-    },
-    {
-     "point": "(b) F = 0.5 N (average; initial 1 N)",
      "marks": 1
     }
    ],
@@ -1902,6 +1749,24 @@
    "figure_desc": "Semicircular glass slab with flat edge XY and centre O; rays A, B, C enter radially towards O at increasing angles from the dotted normal; B emerges grazing along XY as OB'.",
    "page": 11,
    "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_bss/p11.jpg"
+  }
+ ],
+ "audit_excluded": [
+  {
+   "q_label": "1(ix)",
+   "reason": "Ambiguous: whether A is true depends on how 'as it happens in a plane mirror' is read (comparison vs claim that a mirror reflects 100%); (a), (c) and (d) are all arguable. The stored solution itself concedes the intended answer could be (a)."
+  },
+  {
+   "q_label": "1(xiii)",
+   "reason": "Two options are true: with equal KE and M >> m, B has more momentum (a) AND A has more velocity (d). Stored solution concedes (d) is also correct."
+  },
+  {
+   "q_label": "2(iii)",
+   "reason": "Part (a) (alpha P vs beta Q: which causes more biological damage) has two defensible answers depending on whether the source is outside (beta) or inside the body (alpha); the stored answer itself hedges both ways."
+  },
+  {
+   "q_label": "5(iii)",
+   "reason": "Part (b) 'the amount of force applied to pull the chain completely on the table' is ambiguous: the force needed varies from 1 N (weight of hanging part) to 0; both 1 N and the stored average 0.5 N are defensible."
   }
  ]
 }

@@ -101,41 +101,6 @@
    "page": 1
   },
   {
-   "q_label": "1(iii)",
-   "q_order": 2,
-   "q_main": 1,
-   "section": "Section A",
-   "type": "assertion_reason",
-   "marks": 1.0,
-   "mandatory": "compulsory",
-   "choice_note": null,
-   "chapter": "Electricity and Magnetism",
-   "topic": "High-tension transmission wires",
-   "bloom": "understand",
-   "applied": true,
-   "applied_kind": "assertion_reason",
-   "difficulty": 3,
-   "concepts": [
-    "low resistance of thick wire",
-    "heating effect"
-   ],
-   "question": "Assertion (A): A high-tension wire has a low resistance and large surface area.\nReason (R): This wire burns if the current exceeds a specific limit.",
-   "options": {
-    "a": "Both A and R are true and R is the correct explanation of A.",
-    "b": "Both A and R are true and R is not the correct explanation of A.",
-    "c": "Assertion is true but reason is false.",
-    "d": "Assertion is false but reason is true."
-   },
-   "is_objective": true,
-   "correct_option": "b",
-   "answer_items": null,
-   "solution": "(b) Both A and R are true and R is not the correct explanation of A. High-tension wires are thick (large area, low resistance) to reduce I²R loss; any wire overheats/burns if the current exceeds its limit, but that is not why the wire is made thick with low resistance.",
-   "marking_points": [],
-   "needs_figure": false,
-   "figure_desc": null,
-   "page": 2
-  },
-  {
    "q_label": "1(iv)",
    "q_order": 3,
    "q_main": 1,
@@ -1293,10 +1258,10 @@
    "is_objective": false,
    "correct_option": null,
    "answer_items": null,
-   "solution": "(a) Join the upper contact of switch 1 to the upper contact of switch 2 and the lower contact of switch 1 to the lower contact of switch 2 (the two connecting wires); set both levers on the same connecting wire (both up or both down) so the circuit is complete and the bulb glows.\n(b) The supply terminal connected to the switches is L (live) — switches must be in the live wire; the terminal connected directly to the bulb is N (neutral).\n(c) It is a single pole (two-way) switch — each switch breaks only one wire.",
+   "solution": "(a) The two traveller wires (top contact to top contact, bottom contact to bottom contact) are already drawn. Complete each switch by joining its middle (common) contact to its top contact in both switches (or to its bottom contact in both), so the circuit is closed through one traveller wire and the bulb glows.\n(b) The supply terminal connected to the switches is L (live) — switches must be in the live wire; the terminal connected directly to the bulb is N (neutral).\n(c) It is a single pole (two-way) switch — each switch breaks only one wire.",
    "marking_points": [
     {
-     "point": "(a) Correct connections between the two two-way switches with both levers on the same connector",
+     "point": "(a) Middle (common) contact of each switch joined to the same traveller (both top or both bottom), completing the circuit",
      "marks": 1
     },
     {
@@ -1945,6 +1910,12 @@
    "needs_figure": false,
    "figure_desc": null,
    "page": 12
+  }
+ ],
+ "audit_excluded": [
+  {
+   "q_label": "1(iii)",
+   "reason": "Ambiguous A-R: R ('this wire burns if current exceeds a specific limit') is a fuse-wire property; it can be judged false for a high-tension wire (answer c) or trivially true but unrelated (answer b, the key). Two options defensible."
   }
  ]
 }
