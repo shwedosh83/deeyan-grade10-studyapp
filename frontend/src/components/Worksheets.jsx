@@ -29,18 +29,18 @@ export default function Worksheets() {
         <div className="flex flex-wrap items-center justify-between gap-3">
           <button onClick={() => { setOpen(null); setShowSol(false); }} className="text-xs font-semibold text-brand hover:text-brand-ink">← All worksheets</button>
           <div className="flex items-center gap-2">
-            <div className="inline-flex gap-1 rounded-xl border border-line bg-surface-2 p-1" role="radiogroup" aria-label="Questions or solutions">
+            {open.solutions && <div className="inline-flex gap-1 rounded-xl border border-line bg-surface-2 p-1" role="radiogroup" aria-label="Questions or solutions">
               <button type="button" role="radio" aria-checked={!showSol} onClick={() => setShowSol(false)}
                 className={`rounded-lg px-3 py-1.5 text-xs font-semibold transition duration-150 ${!showSol ? 'bg-surface text-ink shadow-soft' : 'text-ink-3 hover:text-ink'}`}>Questions</button>
               <button type="button" role="radio" aria-checked={showSol}
                 onClick={() => { if (showSol || window.confirm('Show the solutions? Best after you have finished and timed the set.')) setShowSol(true); }}
                 className={`rounded-lg px-3 py-1.5 text-xs font-semibold transition duration-150 ${showSol ? 'bg-surface text-ink shadow-soft' : 'text-ink-3 hover:text-ink'}`}>Solutions</button>
-            </div>
+            </div>}
             <a href={url} target="_blank" rel="noreferrer" className="btn-secondary px-3 py-1.5 text-xs">Open / print ↗</a>
           </div>
         </div>
         <div>
-          <p className="eyebrow">Worksheet {open.no}{showSol ? ' · Solutions' : ''}</p>
+          <p className="eyebrow">{open.guide ? 'Study guide' : `Worksheet ${open.no}`}{showSol ? ' · Solutions' : ''}</p>
           <h2 className="section-title">{open.title}</h2>
         </div>
         <div className="card overflow-hidden p-0">
@@ -57,14 +57,14 @@ export default function Worksheets() {
       </p>
       <div className="grid grid-cols-2 gap-4">
         {state.list.map(w => (
-          <button key={w.no} onClick={() => { setOpen(w); setShowSol(false); }} className="card card-hover p-5 text-left">
+          <button key={w.guide ? `g${w.no}` : w.no} onClick={() => { setOpen(w); setShowSol(false); }} className="card card-hover p-5 text-left">
             <div className="flex items-start justify-between gap-3">
-              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-brand-soft font-display text-sm font-bold text-brand-ink">{w.no}</span>
-              <span className="pill bg-surface-2 text-ink-2">{w.full_paper ? '80 marks · full paper' : `${w.marks} marks`}</span>
+              <span className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-xl font-display text-sm font-bold ${w.guide ? 'bg-accent-soft text-accent' : 'bg-brand-soft text-brand-ink'}`}>{w.guide ? '★' : w.no}</span>
+              <span className="pill bg-surface-2 text-ink-2">{w.guide ? 'Study guide' : w.full_paper ? '80 marks · full paper' : `${w.marks} marks`}</span>
             </div>
             <p className="mt-3 font-semibold leading-snug text-ink">{w.title}</p>
             {w.focus && <p className="mt-1 line-clamp-2 text-xs text-ink-3">{w.focus.replace(/\$[^$]*\$/g, '').trim()}</p>}
-            {!w.full_paper && <p className="mt-2 text-[11px] text-ink-3">{w.sets.map(s => `${s.name.split(' · ')[0]} ${s.marks}`).join(' · ')}</p>}
+            {!w.full_paper && !w.guide && w.sets && <p className="mt-2 text-[11px] text-ink-3">{w.sets.map(s => `${s.name.split(' · ')[0]} ${s.marks}`).join(' · ')}</p>}
           </button>
         ))}
       </div>
