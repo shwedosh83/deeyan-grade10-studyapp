@@ -49,7 +49,7 @@ function activeSeconds(times) {
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
   // The error log is served by this function to stay within the plan's function limit.
-  if (req.body?.action === 'errors' || req.body?.action === 'errors_tag') return errorLog(req, res);
+  if (req.body?.action === 'errors' || req.body?.action === 'fixit') return errorLog(req, res);
   const { userId } = req.body || {};
   if (!userId) return res.status(400).json({ error: 'userId required' });
   try {

@@ -71,6 +71,13 @@ export default async function handler(req, res) {
 
     if (action === 'sprint') {
       const { subject, count = 15, source = null } = req.body;   // source: 'board' | 'prelim' | 'competency' | null = board + prelim
+      if (Array.isArray(req.body.ids) && req.body.ids.length) {   // an exact set, e.g. the fix-it set from the error log
+        const { data, error } = await admin.from('board_questions').select(PUBLIC_Q_COLS + ',correct_option,solution,answer_items').in('id', req.body.ids.slice(0, 50)).eq('is_objective', true);
+        if (error) throw error;
+        const order = new Map(req.body.ids.map((id, i) => [id, i]));
+        const qs = (data || []).sort((a, b) => order.get(a.id) - order.get(b.id));
+        return res.json({ questions: qs, pool_size: qs.length, chapters: [], sources: [] });
+      }
       const chapters = chapterList(req.body);
       let query = admin.from('board_questions')
         .select(PUBLIC_Q_COLS + ',correct_option,solution,answer_items')
@@ -95,6 +102,13 @@ export default async function handler(req, res) {
 
     if (action === 'applied') {
       const { subject, kinds = [], count = 10, userId = null, source = null } = req.body;   // source: 'board' | 'prelim' | 'competency' | null = board + prelim
+      if (Array.isArray(req.body.ids) && req.body.ids.length) {   // an exact set, e.g. the fix-it set from the error log
+        const { data, error } = await admin.from('board_questions').select(PUBLIC_Q_COLS + ',answer_items').in('id', req.body.ids.slice(0, 30)).eq('is_objective', false);
+        if (error) throw error;
+        const order = new Map(req.body.ids.map((id, i) => [id, i]));
+        const qs = (data || []).sort((a, b) => order.get(a.id) - order.get(b.id)).map(stripItems);
+        return res.json({ questions: qs, pool_size: qs.length, unseen: qs.length, chapters: [], kinds: [], sources: [] });
+      }
       const chapters = chapterList(req.body);
       let q = admin.from('board_questions').select(PUBLIC_Q_COLS + ',answer_items').eq('subject', subject).eq('applied', true).eq('is_objective', false).not('solution', 'is', null);
       if (kinds.length) q = q.in('applied_kind', kinds);

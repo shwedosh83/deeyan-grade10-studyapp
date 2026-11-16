@@ -11,7 +11,7 @@ import { EmptyCard, ErrorCard, Field, Segmented, Spinner, TimerPill } from './ui
 const COUNTS = [10, 15, 20];
 const SECONDS_PER_Q = 45;
 
-export default function BoardSprint({ fixedSource = null }) {
+export default function BoardSprint({ fixedSource = null, fixedIds = null }) {
   const { subject } = useSubject();
   const { user } = useAuth();
   const navigate = useNavigate();
@@ -53,7 +53,7 @@ export default function BoardSprint({ fixedSource = null }) {
   async function start() {
     setPhase('loading'); setError(null);
     try {
-      const d = await boardApi('boardPapers', { action: 'sprint', subject: subject.id, count: Number(count), chapters: selChapters, source: source || null });
+      const d = await boardApi('boardPapers', fixedIds ? { action: 'sprint', subject: subject.id, ids: fixedIds } : { action: 'sprint', subject: subject.id, count: Number(count), chapters: selChapters, source: source || null });
       if (!d.questions?.length) { setError(selChapters.length ? `No objective questions for ${selChapters.join(', ')} yet.` : 'No objective questions for this subject yet.'); setPhase('setup'); return; }
       setQuestions(d.questions); setPoolSize(d.pool_size); setIdx(0); setAnswers({}); setChecked({}); finishing.current = false;
       const t = Date.now(); setStartedAt(t); setDeadline(t + d.questions.length * SECONDS_PER_Q * 1000);
@@ -89,7 +89,11 @@ export default function BoardSprint({ fixedSource = null }) {
 
   useEffect(() => { if (phase === 'running' && deadline && now >= deadline) finish(); }, [now, phase, deadline]); // eslint-disable-line
 
+  // A fixed set (from the error log) skips the setup screen.
+  useEffect(() => { if (fixedIds?.length && phase === 'setup' && !error) start(); }, [fixedIds, phase]); // eslint-disable-line
   if (!hasBoard) return <EmptyCard text={`Board papers for ${subject.label} aren't in the app yet.`} />;
+
+  if (fixedIds && (phase === 'setup' || phase === 'loading')) return error ? <ErrorCard title="Couldn't start" message={error} /> : <Spinner label="Getting your questions…" />;
 
   if (phase === 'setup' || phase === 'loading') return (
     <div className="max-w-2xl space-y-6 animate-fade-in">

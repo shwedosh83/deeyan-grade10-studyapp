@@ -10,7 +10,7 @@ import { EmptyCard, ErrorCard, Field, Ring, Segmented, TONE, toneOf } from './ui
 const KINDS = ['numerical', 'data_diagram', 'reasoning', 'case', 'program', 'map'];
 const COUNTS = [5, 10, 15];
 
-export default function BoardApplied({ fixedSource = null }) {
+export default function BoardApplied({ fixedSource = null, fixedIds = null }) {
   const { subject } = useSubject();
   const { user } = useAuth();
   const navigate = useNavigate();
@@ -43,7 +43,7 @@ export default function BoardApplied({ fixedSource = null }) {
   async function start() {
     setPhase('loading'); setError(null);
     try {
-      const d = await boardApi('boardPapers', { action: 'applied', subject: subject.id, kinds, chapters: selChapters, count, userId: user?.id || null, source: source || null });
+      const d = await boardApi('boardPapers', fixedIds ? { action: 'applied', subject: subject.id, ids: fixedIds } : { action: 'applied', subject: subject.id, kinds, chapters: selChapters, count, userId: user?.id || null, source: source || null });
       if (!d.questions?.length) { setError('No applied questions match those filters.'); setPhase('setup'); return; }
       setQuestions(d.questions); setIdx(0); setAnswer(''); setFb(null); setLog([]); setPhase('running');
     } catch (e) { setError(e.message); setPhase('setup'); }
@@ -77,10 +77,14 @@ export default function BoardApplied({ fixedSource = null }) {
     setIdx(idx + 1); setAnswer(''); setFb(null);
   }
 
+  // A fixed set (from the error log) skips the setup screen.
+  useEffect(() => { if (fixedIds?.length && phase === 'setup' && !error) start(); }, [fixedIds, phase]); // eslint-disable-line
   if (!hasBoard) return <EmptyCard text={`Board papers for ${subject.label} aren't in the app yet.`} />;
 
   // Only the kinds that exist in this subject's question pool (all of them until the info call returns).
   const availableKinds = info?.kinds ? KINDS.filter(k => info.kinds.includes(k)) : KINDS;
+
+  if (fixedIds && (phase === 'setup' || phase === 'loading')) return error ? <ErrorCard title="Couldn't start" message={error} /> : <EmptyCard text="Getting your questions…" />;
 
   if (phase === 'setup' || phase === 'loading') return (
     <div className="max-w-2xl space-y-6 animate-fade-in">
