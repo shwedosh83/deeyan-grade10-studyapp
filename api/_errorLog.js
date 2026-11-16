@@ -11,9 +11,10 @@ const FIX_DAYS = 2;            // aligned questions right on this many different
 const SET_SIZE = 12;
 
 async function inChunks(ids, fn, size = 200) {
-  const out = [];
-  for (let i = 0; i < ids.length; i += size) { const { data } = await fn(ids.slice(i, i + size)); out.push(...(data || [])); }
-  return out;
+  const slices = [];
+  for (let i = 0; i < ids.length; i += size) slices.push(ids.slice(i, i + size));
+  const results = await Promise.all(slices.map(fn));   // chunks in parallel
+  return results.flatMap(r => r.data || []);
 }
 const missingTable = e => /classwork_results/.test(e?.message || '') && /(does not exist|schema cache|Could not find)/i.test(e?.message || '');
 
@@ -50,14 +51,23 @@ const optionText = (letter, o) => {
 };
 
 async function gather(userId) {
-  // Chapter quizzes
+  // The three histories are independent: fetch them in parallel.
+  const [quiz, board, school] = await Promise.all([quizHistory(userId), boardHistory(userId), schoolHistory(userId)]);
+  const { sess, qa, qInfo } = quiz, { att, ba, bInfo } = board, { cw, cInfo } = school;
+  return build(sess, qa, qInfo, att, ba, bInfo, cw, cInfo);
+}
+
+async function quizHistory(userId) {
   const { data: sessions } = await admin.from('sessions').select('id, subject, chapter_name, started_at').eq('user_id', userId).limit(5000);
   const sess = Object.fromEntries((sessions || []).map(s => [s.id, s]));
   const qa = await inChunks(Object.keys(sess), ids => admin.from('session_answers').select('id, session_id, question_id, user_answer, is_correct, answered_at').in('session_id', ids).limit(20000));
   const qInfo = Object.fromEntries((await inChunks([...new Set(qa.map(a => a.question_id))], ids =>
     admin.from('questions').select('id, subject, chapter_name, skill, question, options, answer, explanation').in('id', ids))).map(q => [q.id, { ...q, subject: String(q.subject || '').replace(/^retired_/, '') }]));   // retired questions keep their history
 
-  // Board-paper practice
+  return { sess, qa, qInfo };
+}
+
+async function boardHistory(userId) {
   const { data: attempts } = await admin.from('board_attempts').select('id, subject, mode, paper_id, started_at, submitted_at').eq('user_id', userId).limit(5000);
   const att = Object.fromEntries((attempts || []).map(a => [a.id, a]));
   const ba = await inChunks(Object.keys(att), ids => admin.from('board_attempt_answers')
@@ -65,12 +75,19 @@ async function gather(userId) {
   const bInfo = Object.fromEntries((await inChunks([...new Set(ba.map(a => a.question_id))], ids =>
     admin.from('board_questions').select('id, subject, chapter, topic, concepts, q_label, question, solution, correct_option, options, source, school, paper_id, is_objective').in('id', ids))).map(q => [q.id, q]));
 
-  // Marked school tests
+  return { att, ba, bInfo };
+}
+
+async function schoolHistory(userId) {
   const { data: cw, error: cwErr } = await admin.from('classwork_results').select('id, upload_id, question_id, subject, chapter, topic, marks, got, mistake, test_date, created_at').eq('user_id', userId).not('got', 'is', null).limit(5000);
   if (cwErr && !missingTable(cwErr)) throw cwErr;
   const cInfo = Object.fromEntries((await inChunks([...new Set((cw || []).map(r => r.question_id).filter(Boolean))], ids =>
     admin.from('board_questions').select('id, q_label, question, solution, school, topic, concepts, is_objective').in('id', ids))).map(q => [q.id, q]));
 
+  return { cw, cInfo };
+}
+
+function build(sess, qa, qInfo, att, ba, bInfo, cw, cInfo) {
   const errors = [], wins = [];
   for (const a of qa) {
     const s = sess[a.session_id] || {}, q = qInfo[a.question_id] || {};

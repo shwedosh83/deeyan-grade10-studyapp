@@ -24,10 +24,15 @@ export default function ErrorLog() {
   const [state, setState] = useState({ loading: true, error: null, rows: [] });
   const [tab, setTab] = useState('loop');
 
+  // Show the last error log instantly from this device, then refresh it.
   const load = () => post({ action: 'errors', userId: user.id })
-    .then(d => setState({ loading: false, error: null, rows: d.rows }))
-    .catch(e => setState(s => ({ ...s, loading: false, error: e.message })));
-  useEffect(() => { if (user?.id) load(); }, [user?.id]); // eslint-disable-line
+    .then(d => { setState({ loading: false, error: null, rows: d.rows }); try { localStorage.setItem(`fm_errors_${user.id}`, JSON.stringify(d.rows)); } catch { /* ignore */ } })
+    .catch(e => setState(s => ({ ...s, loading: false, error: s.rows.length ? null : e.message })));
+  useEffect(() => {
+    if (!user?.id) return;
+    try { const c = JSON.parse(localStorage.getItem(`fm_errors_${user.id}`) || 'null'); if (c) setState({ loading: false, error: null, rows: c }); } catch { /* ignore */ }
+    load();
+  }, [user?.id]); // eslint-disable-line
 
   const bySubject = useMemo(() => {
     const m = {};

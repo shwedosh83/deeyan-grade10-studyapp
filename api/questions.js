@@ -20,10 +20,17 @@ export default async function handler(req, res) {
 
   if (!subject) return res.status(400).json({ error: 'subject required' });
 
-  // ── 1. Fetch full question pool matching filters ──────────────────────────
+  // ── 1. Find the pool by id only (light), then fetch full text just for the questions picked ──
+  const FULL = 'id, subject, chapter_id, chapter_name, question, answer, options, type, skill, year_tag, board_tips, explanation';
+  const withDetails = async picked => {
+    if (!picked.length) return [];
+    const { data } = await admin.from('questions').select(FULL).in('id', picked.map(q => q.id));
+    const byId = Object.fromEntries((data || []).map(q => [q.id, q]));
+    return picked.map(q => byId[q.id]).filter(Boolean);
+  };
   let query = admin
     .from('questions')
-    .select('id, subject, chapter_id, chapter_name, question, answer, options, type, skill, year_tag, board_tips, explanation')
+    .select('id')
     .eq('subject', subject);
 
   if (chapters && chapters.length > 0 && source !== 'prelim') {
@@ -50,11 +57,11 @@ export default async function handler(req, res) {
   // ── 2. No userId → plain shuffle, no spaced repetition ───────────────────
   if (!userId) {
     const shuffled = shuffle(pool).slice(0, limit);
-    return res.json({ questions: shuffled });
+    return res.json({ questions: await withDetails(shuffled) });
   }
 
   // ── 3. Fetch user's answer history for this subject ───────────────────────
-  // Get sessions belonging to this user + subject
+  // Get sessions belonging to this user + subject (session ids → answers)
   const { data: sessions } = await admin
     .from('sessions')
     .select('id')
@@ -121,7 +128,7 @@ export default async function handler(req, res) {
   addFrom(correct, true);
 
   return res.json({
-    questions: picked,
+    questions: await withDetails(picked),
     meta: {
       unseen:  Math.min(unseen.length, limit),
       wrong:   wrong.length,

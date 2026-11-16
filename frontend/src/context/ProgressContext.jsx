@@ -11,6 +11,8 @@ export function ProgressProvider({ children }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  // Last result is kept in localStorage so pages show numbers instantly; fresh data replaces it a moment later.
+  const cacheKey = user?.id ? `fm_progress_${user.id}` : null;
   const refresh = useCallback(async () => {
     if (!user?.id) { setLoading(false); return; }
     try {
@@ -18,11 +20,17 @@ export function ProgressProvider({ children }) {
       const json = await res.json();
       if (!res.ok) throw new Error(json?.error || `Request failed (${res.status})`);
       setData(json); setError(null);
+      try { localStorage.setItem(`fm_progress_${user.id}`, JSON.stringify(json)); } catch { /* storage full or blocked */ }
     } catch (e) { setError(e.message); }
     setLoading(false);
   }, [user?.id]);
 
-  useEffect(() => { setLoading(true); refresh(); }, [refresh]);
+  useEffect(() => {
+    let cached = null;
+    try { cached = cacheKey ? JSON.parse(localStorage.getItem(cacheKey) || 'null') : null; } catch { cached = null; }
+    if (cached) { setData(cached); setLoading(false); } else setLoading(true);
+    refresh();
+  }, [refresh, cacheKey]);
 
   return <ProgressContext.Provider value={{ data, loading, error, refresh }}>{children}</ProgressContext.Provider>;
 }

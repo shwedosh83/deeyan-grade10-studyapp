@@ -25,8 +25,11 @@ const addDays = (d, n) => { const x = new Date(d + 'T00:00:00Z'); x.setUTCDate(x
 const pct = (c, n) => (n ? Math.round((c / n) * 100) : null);
 
 async function inChunks(ids, fetcher, size = 300) {
+  const slices = [];
+  for (let i = 0; i < ids.length; i += size) slices.push(ids.slice(i, i + size));
+  const results = await Promise.all(slices.map(fetcher));   // chunks in parallel
   const out = [];
-  for (let i = 0; i < ids.length; i += size) { const { data, error } = await fetcher(ids.slice(i, i + size)); if (error) throw error; out.push(...(data || [])); }
+  for (const { data, error } of results) { if (error) throw error; out.push(...(data || [])); }
   return out;
 }
 
@@ -53,26 +56,33 @@ export default async function handler(req, res) {
   const { userId } = req.body || {};
   if (!userId) return res.status(400).json({ error: 'userId required' });
   try {
-    // ── raw activity ────────────────────────────────────────────────────────
-    const { data: sessions, error: sErr } = await admin.from('sessions')
-      .select('id, subject, started_at, ended_at, chapter_name').eq('user_id', userId).limit(5000);
-    if (sErr) throw sErr;
-    const sessById = Object.fromEntries((sessions || []).map(s => [s.id, s]));
-    const quizAnswers = await inChunks(Object.keys(sessById), ids =>
-      admin.from('session_answers').select('session_id, question_id, is_correct, answered_at').in('session_id', ids).limit(20000));
-    const qIds = [...new Set(quizAnswers.map(a => a.question_id))];
-    const qInfo = Object.fromEntries((await inChunks(qIds, ids =>
-      admin.from('questions').select('id, subject, chapter_name, skill').in('id', ids))).map(q => [q.id, { ...q, subject: String(q.subject || '').replace(/^retired_/, '') }]));   // retired questions keep their history
-
-    const { data: attempts, error: aErr } = await admin.from('board_attempts')
-      .select('id, subject, mode, paper_id, started_at, submitted_at, seconds_used, score, max_score, status').eq('user_id', userId).limit(5000);
-    if (aErr) throw aErr;
-    const attById = Object.fromEntries((attempts || []).map(a => [a.id, a]));
-    const boardAnswers = await inChunks(Object.keys(attById), ids =>
-      admin.from('board_attempt_answers').select('attempt_id, question_id, marks_awarded, max_marks, answered_at').in('attempt_id', ids).limit(20000));
-    const bIds = [...new Set(boardAnswers.map(a => a.question_id))];
-    const bInfo = Object.fromEntries((await inChunks(bIds, ids =>
-      admin.from('board_questions').select('id, subject, chapter, difficulty, source').in('id', ids))).map(q => [q.id, q]));
+    // ── raw activity: quiz history and board-practice history are fetched in parallel ──
+    const quizSide = (async () => {
+      const { data: sessions, error } = await admin.from('sessions')
+        .select('id, subject, started_at, ended_at, chapter_name').eq('user_id', userId).limit(5000);
+      if (error) throw error;
+      const sessById = Object.fromEntries((sessions || []).map(s => [s.id, s]));
+      const quizAnswers = await inChunks(Object.keys(sessById), ids =>
+        admin.from('session_answers').select('session_id, question_id, is_correct, answered_at').in('session_id', ids).limit(20000));
+      const qIds = [...new Set(quizAnswers.map(a => a.question_id))];
+      const qInfo = Object.fromEntries((await inChunks(qIds, ids =>
+        admin.from('questions').select('id, subject, chapter_name, skill').in('id', ids))).map(q => [q.id, { ...q, subject: String(q.subject || '').replace(/^retired_/, '') }]));   // retired questions keep their history
+      return { sessById, quizAnswers, qInfo };
+    })();
+    const boardSide = (async () => {
+      const { data: attempts, error } = await admin.from('board_attempts')
+        .select('id, subject, mode, paper_id, started_at, submitted_at, seconds_used, score, max_score, status').eq('user_id', userId).limit(5000);
+      if (error) throw error;
+      const attById = Object.fromEntries((attempts || []).map(a => [a.id, a]));
+      const boardAnswers = await inChunks(Object.keys(attById), ids =>
+        admin.from('board_attempt_answers').select('attempt_id, question_id, marks_awarded, max_marks, answered_at').in('attempt_id', ids).limit(20000));
+      const bIds = [...new Set(boardAnswers.map(a => a.question_id))];
+      const bInfo = Object.fromEntries((await inChunks(bIds, ids =>
+        admin.from('board_questions').select('id, subject, chapter, difficulty, source').in('id', ids))).map(q => [q.id, q]));
+      return { attempts, attById, boardAnswers, bInfo };
+    })();
+    const schoolSide = admin.from('classwork_results').select('subject, chapter, marks, got, test_date').eq('user_id', userId).not('got', 'is', null).limit(5000);
+    const [{ sessById, quizAnswers, qInfo }, { attempts, attById, boardAnswers, bInfo }, { data: cwRows }] = await Promise.all([quizSide, boardSide, schoolSide]);
 
     // ── one unified event list: every answered question ──────────────────────
     const events = [];
@@ -145,7 +155,6 @@ export default async function handler(req, res) {
 
     // ── school class tests (marks the teacher gave; kept apart from XP, streaks and time) ──
     // The table appears only after backend/migrations/add_classwork.sql; until then this is simply empty.
-    const { data: cwRows } = await admin.from('classwork_results').select('subject, chapter, marks, got, test_date').eq('user_id', userId).not('got', 'is', null).limit(5000);
     const schoolMap = {};
     for (const r of cwRows || []) {
       const S = (schoolMap[r.subject] ||= {}), k = r.chapter || 'Other';
