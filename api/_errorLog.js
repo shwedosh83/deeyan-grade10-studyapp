@@ -36,13 +36,22 @@ const words = (...xs) => new Set(xs.flat().filter(Boolean).join(' ').toLowerCase
 const overlap = (a, b) => { let n = 0; for (const w of a) if (b.has(w)) n++; return n; };
 const dayOf = t => String(t || '').slice(0, 10);
 
+// MCQs: show the whole question with its options, and answers as "(c) option text", so the log can be revised from.
+const optEntries = o => (o && typeof o === 'object' ? (Array.isArray(o) ? o.map((v, i) => ['abcd'[i], v]) : Object.entries(o)) : []);
+const withOptions = (stem, o) => { const e = optEntries(o); return e.length ? `${stem || ''}\n${e.map(([k, v]) => `(${k}) ${v}`).join('\n')}` : stem; };
+const optionText = (letter, o) => {
+  const k = String(letter || '').trim().replace(/[()\s.]/g, '').toLowerCase();
+  const v = optEntries(o).find(([key]) => key === k)?.[1];
+  return v ? `(${k}) ${v}` : letter;
+};
+
 async function gather(userId) {
   // Chapter quizzes
   const { data: sessions } = await admin.from('sessions').select('id, subject, chapter_name, started_at').eq('user_id', userId).limit(5000);
   const sess = Object.fromEntries((sessions || []).map(s => [s.id, s]));
   const qa = await inChunks(Object.keys(sess), ids => admin.from('session_answers').select('id, session_id, question_id, user_answer, is_correct, answered_at').in('session_id', ids).limit(20000));
   const qInfo = Object.fromEntries((await inChunks([...new Set(qa.map(a => a.question_id))], ids =>
-    admin.from('questions').select('id, subject, chapter_name, skill, question, answer, explanation').in('id', ids))).map(q => [q.id, q]));
+    admin.from('questions').select('id, subject, chapter_name, skill, question, options, answer, explanation').in('id', ids))).map(q => [q.id, q]));
 
   // Board-paper practice
   const { data: attempts } = await admin.from('board_attempts').select('id, subject, mode, paper_id, started_at, submitted_at').eq('user_id', userId).limit(5000);
@@ -64,7 +73,8 @@ async function gather(userId) {
     const base = { at: a.answered_at || s.started_at, subject: q.subject || s.subject, chapter: q.chapter_name || s.chapter_name, words: words(q.question) };   // quiz 'skill' is often just the chapter name, so match on the question's own terms
     if (a.is_correct) { wins.push({ ...base, qid: `quiz:${a.question_id}` }); continue; }
     errors.push({ ...base, source: 'quiz', ref_id: String(a.id), qid: `quiz:${a.question_id}`, objective: true, type: 'concept',
-      where: `Chapter quiz${q.skill ? ` · ${q.skill}` : ''}`, question: q.question, your_answer: a.user_answer, correct: q.answer, why: q.explanation, lost: 1, marks: 1 });
+      where: `Chapter quiz${q.skill ? ` · ${q.skill}` : ''}`, question: withOptions(q.question, q.options), your_answer: optionText(a.user_answer, q.options) || '(no answer)',
+      correct: optionText(q.answer, q.options), why: q.explanation, lost: 1, marks: 1 });
   }
   for (const a of ba) {
     const t = att[a.attempt_id] || {}, q = bInfo[a.question_id] || {};
@@ -75,7 +85,8 @@ async function gather(userId) {
     const blank = !String(a.answer_text || '').trim();
     errors.push({ ...base, source: 'board', ref_id: String(a.id), qid: a.question_id, objective: !!q.is_objective,
       type: blank ? 'time' : q.is_objective ? 'concept' : typeFrom(`${missed} ${a.feedback || ''}`, 'method'),
-      where: `${MODE[t.mode] || 'Board practice'} · ${paper} Q${q.q_label || ''}`, question: q.question, your_answer: a.answer_text,
+      where: `${MODE[t.mode] || 'Board practice'} · ${paper} Q${q.q_label || ''}`, question: q.is_objective ? withOptions(q.question, q.options) : q.question,
+      your_answer: q.is_objective ? optionText(a.answer_text, q.options) : a.answer_text,
       correct: q.correct_option ? `(${q.correct_option}) ${q.options?.[q.correct_option] || ''}`.trim() : q.solution,
       why: [missed && `Missed: ${missed}`, a.feedback].filter(Boolean).join(' · ') || null, lost: Number(a.max_marks) - Number(a.marks_awarded), marks: Number(a.max_marks) });
   }

@@ -190,7 +190,7 @@ function AllErrors({ bySubject, rows: all }) {
                     <td className="max-w-[160px] px-3 py-2.5 text-xs text-ink-2">{r.chapter || '—'}</td>
                     <td className="max-w-[340px] px-3 py-2.5">
                       <button onClick={() => setOpen(isOpen ? null : key)} className="text-left text-xs text-ink hover:text-brand">
-                        <span className={isOpen ? '' : 'line-clamp-2'}>{r.question || '(question text not available)'}</span>
+                        <span className={isOpen ? 'whitespace-pre-line' : 'line-clamp-2'}>{r.question || '(question text not available)'}</span>
                         <span className="mt-0.5 block font-semibold text-brand">{isOpen ? 'Hide' : 'See answer'}</span>
                       </button>
                     </td>
