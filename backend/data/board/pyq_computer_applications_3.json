@@ -1,0 +1,2028 @@
+{
+ "paper_id": "pyq_computer_applications_3",
+ "subject": "computer_applications",
+ "year": 2024,
+ "sem": null,
+ "label": "Past papers · Class as the Basis of Computation",
+ "source": "pyq",
+ "school": "CISCE past papers",
+ "exam_label": "Past papers by chapter",
+ "max_marks": 245.0,
+ "duration_minutes": 0,
+ "reading_minutes": 0,
+ "instructions": "Chapter-wise questions from ICSE board, compartment and specimen papers, 2015–2024.",
+ "sections": [
+  {
+   "name": "Past-paper questions",
+   "total_marks": 245.0,
+   "rule": "Practise in any order.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "1",
+   "q_order": 0,
+   "q_main": 1,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "OOP features implemented by classes",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "OOP features",
+    "abstraction, inheritance, encapsulation"
+   ],
+   "question": "Which of the following is NOT a feature of Object-Oriented Programming (OOP) implemented by classes in Java?",
+   "options": {
+    "a": "Abstraction",
+    "b": "Inheritance",
+    "c": "Encapsulation",
+    "d": "Compilation"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Compilation. Compilation is a step in running a program, not an OOP feature; abstraction, inheritance and encapsulation are.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 93,
+   "school": "ICSE 2024 specimen"
+  },
+  {
+   "q_label": "7",
+   "q_order": 1,
+   "q_main": 7,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Size of int",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "int is 32 bits"
+   ],
+   "question": "What is the size of an int data type in Java?",
+   "options": {
+    "a": "1 byte",
+    "b": "2 bytes",
+    "c": "4 bytes",
+    "d": "8 bytes"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 4 bytes. An int occupies 32 bits = 4 bytes in Java.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 94,
+   "school": "ICSE 2018 specimen"
+  },
+  {
+   "q_label": "10",
+   "q_order": 2,
+   "q_main": 10,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Purpose of encapsulation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "encapsulation",
+    "data hiding"
+   ],
+   "question": "What is the primary purpose of encapsulation in Java?",
+   "options": {
+    "a": "To enable inheritance between classes",
+    "b": "To hide the implementation details and protect data",
+    "c": "To provide faster compilation",
+    "d": "To improve runtime efficiency"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) To hide the implementation details and protect data. Encapsulation wraps data and methods together and restricts direct access to the data.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 94,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "11",
+   "q_order": 3,
+   "q_main": 11,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "What a class is called",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "object factory",
+    "user-defined data type",
+    "composite data type"
+   ],
+   "question": "A class is called :",
+   "options": {
+    "a": "Object Factory",
+    "b": "User defined data type",
+    "c": "Composite data type",
+    "d": "All of these"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) All of these. A class creates many objects (object factory), is defined by the programmer (user-defined type) and groups several members of different types (composite type).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 94,
+   "school": "ICSE 2020"
+  },
+  {
+   "q_label": "13",
+   "q_order": 4,
+   "q_main": 13,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Static (class) variable",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "static variable",
+    "class variable lifetime"
+   ],
+   "question": "A variable whose value is not associated to an object and its value exists throughout the life of the program is a?",
+   "options": {
+    "a": "Local variable",
+    "b": "Static variable",
+    "c": "Final variable",
+    "d": "None of these"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Static variable. A static variable belongs to the class, not to any object, and lives as long as the program runs.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 94,
+   "school": "ICSE 2024 specimen"
+  },
+  {
+   "q_label": "16",
+   "q_order": 5,
+   "q_main": 16,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Object name in a creation statement",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "object creation",
+    "reference variable"
+   ],
+   "question": "In the below statement, what is the name of the object being created?\nStudent stu = new Student();",
+   "options": {
+    "a": "Student",
+    "b": "stu",
+    "c": "Stu",
+    "d": "None of these"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) stu. Student is the class; stu is the object (reference variable). Java is case-sensitive, so Stu is different.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 95,
+   "school": "ICSE 2018 compartment"
+  },
+  {
+   "q_label": "17",
+   "q_order": 6,
+   "q_main": 17,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Identifying data members",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "data members",
+    "local variables"
+   ],
+   "question": "In the below class, choose the name of the data members :\nclass Test {\n    String name;\n    int age;\n    public static void main() {\n        float x = 5;\n        int p;\n    }\n}",
+   "options": {
+    "a": "name, age",
+    "b": "x, p",
+    "c": "name, x",
+    "d": "age, p"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) name, age. Data members are declared inside the class but outside every method; x and p are local variables of main().",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 95,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "18",
+   "q_order": 7,
+   "q_main": 18,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Fixed-size data types",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "primitive types have fixed size"
+   ],
+   "question": "For which of the following data types, the size of the variable declared will be fixed?",
+   "options": {
+    "a": "Primitive",
+    "b": "Reference",
+    "c": "Composite",
+    "d": "None of these"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Primitive. Every primitive type has a fixed size (e.g. int 4 bytes, double 8 bytes); the size of composite/reference data depends on its members.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 95,
+   "school": "ICSE 2020"
+  },
+  {
+   "q_label": "19",
+   "q_order": 8,
+   "q_main": 19,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "OOP characteristic implemented by a class",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "encapsulation",
+    "class binds data and methods"
+   ],
+   "question": "A class implements which of the following Object Oriented programming characteristic?",
+   "options": {
+    "a": "Encapsulation",
+    "b": "Inheritance",
+    "c": "Abstraction",
+    "d": "Polymorphism"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Encapsulation. A class wraps data members and member methods into a single unit, which is encapsulation.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 95,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "20",
+   "q_order": 9,
+   "q_main": 20,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Message passing",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "message passing",
+    "method parameters"
+   ],
+   "question": "The messages are passed in a class using :",
+   "options": {
+    "a": "Local variables",
+    "b": "Function parameters",
+    "c": "Objects",
+    "d": "None of these"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Function parameters. A message is a method call; the data it carries is passed through the method's parameters.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 95,
+   "school": "ICSE 2016 specimen"
+  },
+  {
+   "q_label": "22",
+   "q_order": 10,
+   "q_main": 22,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "new operator and garbage collection",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "new allocates memory at runtime",
+    "garbage collection"
+   ],
+   "question": "Statement 1 : The new operator in Java is used to create objects dynamically at runtime.\nStatement 2 : The new operator is also responsible for deleting objects from memory when they are no longer used.",
+   "options": {
+    "a": "Both statements are true.",
+    "b": "Both statements are false.",
+    "c": "Statement 1 is true, but Statement 2 is false.",
+    "d": "Statement 1 is false, but Statement 2 is true."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Statement 1 is true, but Statement 2 is false. new allocates memory for objects at runtime; unused objects are removed by Java's garbage collector, not by new.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 96,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "23",
+   "q_order": 11,
+   "q_main": 23,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Objects as instances of a class",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "object is an instance",
+    "class creates many objects"
+   ],
+   "question": "Statement 1 : An object is an instance of a class and can have its own unique state and behavior.\nStatement 2 : A class can only have one object created from it.",
+   "options": {
+    "a": "Both statements are true.",
+    "b": "Both statements are false.",
+    "c": "Statement 1 is true, but Statement 2 is false.",
+    "d": "Statement 1 is false, but Statement 2 is true."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Statement 1 is true, but Statement 2 is false. A class is an object factory: any number of objects can be created from it.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 96,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "24",
+   "q_order": 12,
+   "q_main": 24,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Lifetime of local and instance variables",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "local variable scope",
+    "instance variable lifetime"
+   ],
+   "question": "Statement 1 : In Java, local variables are destroyed once the method or block in which they are defined finishes execution.\nStatement 2 : Instance variables are tied to specific objects and their lifetime depends on the object.",
+   "options": {
+    "a": "Both statements are true.",
+    "b": "Both statements are false.",
+    "c": "Statement 1 is true, but Statement 2 is false.",
+    "d": "Statement 1 is false, but Statement 2 is true."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both statements are true. Local variables exist only while their block runs; each object has its own copy of the instance variables, which lives as long as the object.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 96,
+   "school": "ICSE 2018"
+  },
+  {
+   "q_label": "25",
+   "q_order": 13,
+   "q_main": 25,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "public and private access",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "public access",
+    "private access"
+   ],
+   "question": "Statement 1 : The public access specifier makes class members accessible from anywhere in the program.\nStatement 2 : The private access specifier makes class members accessible from subclasses of the class.",
+   "options": {
+    "a": "Both statements are true.",
+    "b": "Both statements are false.",
+    "c": "Statement 1 is true, but Statement 2 is false.",
+    "d": "Statement 1 is false, but Statement 2 is true."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Statement 1 is true, but Statement 2 is false. private members are accessible only inside their own class, not in subclasses.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 96,
+   "school": "ICSE 2019 compartment"
+  },
+  {
+   "q_label": "26",
+   "q_order": 14,
+   "q_main": 26,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class vs primitive variable",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "class as blueprint",
+    "primitives are not objects"
+   ],
+   "question": "Statement 1 : A class is a blueprint for creating objects.\nStatement 2 : A variable of a primitive type can also act as an object.",
+   "options": {
+    "a": "Both statements are true.",
+    "b": "Both statements are false.",
+    "c": "Statement 1 is true, but Statement 2 is false.",
+    "d": "Statement 1 is false, but Statement 2 is true."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Statement 1 is true, but Statement 2 is false. Primitive variables (int, char, boolean...) hold plain values and are not objects.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 96,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "27",
+   "q_order": 15,
+   "q_main": 27,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "final keyword",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "final variable",
+    "final class"
+   ],
+   "question": "Statement 1 : In Java, variables declared with the final keyword cannot be reassigned after their initial assignment.\nStatement 2 : The final keyword can also be used to prevent a class from being subclassed.",
+   "options": {
+    "a": "Both statements are true.",
+    "b": "Both statements are false.",
+    "c": "Statement 1 is true, but Statement 2 is false.",
+    "d": "Statement 1 is false, but Statement 2 is true."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both statements are true. A final variable is a constant, and a final class cannot be extended.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 96,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "28",
+   "q_order": 16,
+   "q_main": 28,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "State, behaviour and class of an object",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "state and behaviour",
+    "object needs a class"
+   ],
+   "question": "Statement 1 : An object's state is defined by its attributes, while its behavior is defined by its methods.\nStatement 2 : An object in Java can exist without being associated with a class.",
+   "options": {
+    "a": "Both statements are true.",
+    "b": "Both statements are false.",
+    "c": "Statement 1 is true, but Statement 2 is false.",
+    "d": "Statement 1 is false, but Statement 2 is true."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Statement 1 is true, but Statement 2 is false. Every Java object is created from a class, its blueprint.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 97,
+   "school": "ICSE 2024 compartment"
+  },
+  {
+   "q_label": "29",
+   "q_order": 17,
+   "q_main": 29,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Composite vs primitive data types",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "composite data type",
+    "primitive data type"
+   ],
+   "question": "Statement 1 : Composite data types in Java can combine different types of data into a single entity.\nStatement 2 : Primitive data types like int and float are examples of composite data types.",
+   "options": {
+    "a": "Both statements are true.",
+    "b": "Both statements are false.",
+    "c": "Statement 1 is true, but Statement 2 is false.",
+    "d": "Statement 1 is false, but Statement 2 is true."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Statement 1 is true, but Statement 2 is false. int and float are primitive types; classes and arrays are composite types.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 97,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "30",
+   "q_order": 18,
+   "q_main": 30,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Strong typing",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "strongly typed language",
+    "declared type fixed"
+   ],
+   "question": "Statement 1 : Java is a strongly typed language, ensuring all variables have specific types.\nStatement 2 : The type of a variable in Java can change during program execution.",
+   "options": {
+    "a": "Both statements are true.",
+    "b": "Both statements are false.",
+    "c": "Statement 1 is true, but Statement 2 is false.",
+    "d": "Statement 1 is false, but Statement 2 is true."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Statement 1 is true, but Statement 2 is false. A variable's declared type is fixed at compile time and cannot change while the program runs.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 97,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "31",
+   "q_order": 19,
+   "q_main": 31,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Declaring and initialising an int",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "variable declaration",
+    "primitives do not use new"
+   ],
+   "question": "A student declares an integer variable z and wants to assign a value of 15 to it. Which of the following statements is correct?\nA. int z = 15;\nB. z = new int(15);\nC. int z = new 15;\nD. z int = 15;",
+   "options": {
+    "a": "Only A",
+    "b": "Both A and B",
+    "c": "Only C",
+    "d": "Both B and C"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Only A. Primitives are not created with new; the type comes before the name: int z = 15;",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 97,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "41",
+   "q_order": 20,
+   "q_main": 41,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "new operator",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 3,
+   "concepts": [
+    "new allocates memory at runtime",
+    "default values of instance variables"
+   ],
+   "question": "Assertion (A) : The new operator in Java allocates memory to an object at runtime.\nReason (R) : The new operator in Java initializes all instance variables to their default values.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A.",
+    "b": "Both A and R are true, but R is not the correct explanation of A.",
+    "c": "A is true, but R is false.",
+    "d": "A is false, but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Both A and R are true, but R is not the correct explanation of A. Both are true: new allocates memory at runtime, and the fresh object's instance variables get default values (0, 0.0, false, null). But giving default values does not explain why memory is allocated at runtime, so R is not the explanation of A. (Corrected: the source key said (a).)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 99,
+   "school": "ICSE 2017 compartment"
+  },
+  {
+   "q_label": "45",
+   "q_order": 21,
+   "q_main": 45,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Access specifiers",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "access specifiers",
+    "protected access"
+   ],
+   "question": "Assertion (A) : Access specifiers in Java are used to control the visibility of data members and member functions.\nReason (R) : Protected access specifier in Java makes members visible only within the same class.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A.",
+    "b": "Both A and R are true, but R is not the correct explanation of A.",
+    "c": "A is true, but R is false.",
+    "d": "A is false, but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) A is true, but R is false. protected members are visible in the same class, the same package and subclasses; only private restricts access to the same class.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 100,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "52",
+   "q_order": 22,
+   "q_main": 52,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Categories of data types",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "primitive data types",
+    "reference data types"
+   ],
+   "question": "What are the different set of data types available in Java?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Java has two sets of data types:\n(i) Primitive (intrinsic) data types: the eight built-in types byte, short, int, long, float, double, char and boolean.\n(ii) Reference (non-primitive / composite) data types: classes, arrays and interfaces (e.g. String, Scanner, int[]); a variable of these types holds a reference to the data.",
+   "marking_points": [
+    {
+     "point": "Primitive data types named with examples",
+     "marks": 1
+    },
+    {
+     "point": "Reference / non-primitive data types named with examples",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 101,
+   "school": "ICSE 2023 compartment"
+  },
+  {
+   "q_label": "53",
+   "q_order": 23,
+   "q_main": 53,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "public vs private members",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "public access",
+    "private access"
+   ],
+   "question": "Difference between public and private modifiers for members of a class.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "public: a public member can be accessed from any class, in any package.\nprivate: a private member can be accessed only inside the class in which it is declared.",
+   "marking_points": [
+    {
+     "point": "public: accessible from any class / anywhere",
+     "marks": 1
+    },
+    {
+     "point": "private: accessible only within its own class",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 101,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "54",
+   "q_order": 24,
+   "q_main": 54,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Reference data types",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "reference data types",
+    "class, array, interface"
+   ],
+   "question": "List various reference data types of Java.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Reference data types in Java are:\n(i) Class (e.g. String, Scanner or any user-defined class; its objects are accessed through references)\n(ii) Array (e.g. int[], String[])\n(iii) Interface",
+   "marking_points": [
+    {
+     "point": "Class (objects of a class)",
+     "marks": 1
+    },
+    {
+     "point": "Array and interface",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 101,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "63",
+   "q_order": 25,
+   "q_main": 63,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Access specifiers",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "public",
+    "private",
+    "protected"
+   ],
+   "question": "What are the primary access specifiers in Java?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) public: the member is accessible from any class in any package.\n(ii) private: the member is accessible only inside the class where it is declared.\n(iii) protected: the member is accessible inside its class, by other classes in the same package and by subclasses.\n(If no specifier is written, the member has default (package) access: visible only within the same package.)",
+   "marking_points": [
+    {
+     "point": "public with its scope",
+     "marks": 1
+    },
+    {
+     "point": "private with its scope",
+     "marks": 1
+    },
+    {
+     "point": "protected with its scope",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 102,
+   "school": "ICSE 2016 specimen"
+  },
+  {
+   "q_label": "67",
+   "q_order": 26,
+   "q_main": 67,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Role of the new operator",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "new operator",
+    "dynamic memory allocation"
+   ],
+   "question": "What is the role of the new operator in Java?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The new operator allocates memory for an object at runtime (dynamically), creates the object by calling the constructor, and returns a reference to it.\nExample: Student obj = new Student(); creates a Student object and stores its reference in obj.",
+   "marking_points": [
+    {
+     "point": "Allocates memory for an object at runtime / creates an instance",
+     "marks": 1
+    },
+    {
+     "point": "Returns the reference, with a correct example",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 103,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "76(i)",
+   "q_order": 27,
+   "q_main": 76,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Types of variables: argument",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "method parameter",
+    "argument variable"
+   ],
+   "question": "Observe the code snippet given below, state the name of the:\nclass myClass {\n    static int x = 7;\n    int y = 2;\n    public static void main(String args[]) {\n        myClass obj = new myClass();\n        System.out.println(x);\n        obj.sampleMethod(5);\n        int a = 6;\n        System.out.println(a);\n    }\n    void sampleMethod(int n) {\n        System.out.println(n);\n        System.out.println(y);\n    }\n}\n(i) Method argument or argument variable.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Name of the method argument (argument variable) of sampleMethod",
+     "accepted": [
+      "n"
+     ]
+    }
+   ],
+   "solution": "n. It is the parameter of sampleMethod(int n) and receives the argument 5. (args is likewise the parameter of main.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 105,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "76(ii)",
+   "q_order": 28,
+   "q_main": 76,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Types of variables: class variable",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "static variable",
+    "class variable"
+   ],
+   "question": "Observe the code snippet given below, state the name of the:\nclass myClass {\n    static int x = 7;\n    int y = 2;\n    public static void main(String args[]) {\n        myClass obj = new myClass();\n        System.out.println(x);\n        obj.sampleMethod(5);\n        int a = 6;\n        System.out.println(a);\n    }\n    void sampleMethod(int n) {\n        System.out.println(n);\n        System.out.println(y);\n    }\n}\n(ii) Class variable",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Name of the class variable",
+     "accepted": [
+      "x"
+     ]
+    }
+   ],
+   "solution": "x. It is declared static, so one copy belongs to the class.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 105,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "76(iii)",
+   "q_order": 29,
+   "q_main": 76,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Types of variables: local variable",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "local variable"
+   ],
+   "question": "Observe the code snippet given below, state the name of the:\nclass myClass {\n    static int x = 7;\n    int y = 2;\n    public static void main(String args[]) {\n        myClass obj = new myClass();\n        System.out.println(x);\n        obj.sampleMethod(5);\n        int a = 6;\n        System.out.println(a);\n    }\n    void sampleMethod(int n) {\n        System.out.println(n);\n        System.out.println(y);\n    }\n}\n(iii) Local variable",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "obj and a. Both are declared inside main(), so they are local to it.",
+   "marking_points": [
+    {
+     "point": "obj and a",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 105,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "76(iv)",
+   "q_order": 30,
+   "q_main": 76,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Types of variables: instance variable",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "instance variable"
+   ],
+   "question": "Observe the code snippet given below, state the name of the:\nclass myClass {\n    static int x = 7;\n    int y = 2;\n    public static void main(String args[]) {\n        myClass obj = new myClass();\n        System.out.println(x);\n        obj.sampleMethod(5);\n        int a = 6;\n        System.out.println(a);\n    }\n    void sampleMethod(int n) {\n        System.out.println(n);\n        System.out.println(y);\n    }\n}\n(iv) Instance variable",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Name of the instance variable",
+     "accepted": [
+      "y"
+     ]
+    }
+   ],
+   "solution": "y. It is declared in the class without static, so each object has its own copy.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 105,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "78(i)",
+   "q_order": 31,
+   "q_main": 78,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Designing classes: staff management",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "identifying classes",
+    "attributes and methods"
+   ],
+   "question": "Prepare a list of classes, the attributes, and the methods that you would expect the following real-world systems to handle.\n(i) Staff management system of a company",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Class 1: PersonalDetails (objects: all staff members)\nAttributes: employee code, name, address, contact number, qualifications, previous experience.\nMethods: getData(), showData(), searchByName(), sortByName().\n\nClass 2: SalaryDetails (objects: all staff members)\nAttributes: employee code, name, basic salary, DA, HRA, PF, travel allowance.\nMethods: getData(), showData(), calculateNetSalary(), printPaySlip().",
+   "marking_points": [
+    {
+     "point": "At least two suitable classes identified",
+     "marks": 1
+    },
+    {
+     "point": "Relevant attributes listed for the classes",
+     "marks": 1
+    },
+    {
+     "point": "Relevant methods listed for the classes",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 107,
+   "school": "ICSE 2017 specimen"
+  },
+  {
+   "q_label": "78(ii)",
+   "q_order": 32,
+   "q_main": 78,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Designing classes: banking system",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "identifying classes",
+    "attributes and methods"
+   ],
+   "question": "Prepare a list of classes, the attributes, and the methods that you would expect the following real-world systems to handle.\n(ii) A banking system",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Class 1: Customer (objects: all customers of the bank)\nAttributes: customer code, name, address, contact number, account number, nominee name.\nMethods: getData(), showData(), searchByAccountNumber(), sortByName().\n\nClass 2: Account (objects: all accounts)\nAttributes: account number, account holder name, balance, account type, type of latest transaction (D/W), amount of latest transaction, cheque book number.\nMethods: getData(), showData(), deposit(), withdraw().\n\n(Staff and payslip classes, as in a staff management system, can also be added.)",
+   "marking_points": [
+    {
+     "point": "At least two suitable classes identified",
+     "marks": 1
+    },
+    {
+     "point": "Relevant attributes listed for the classes",
+     "marks": 1
+    },
+    {
+     "point": "Relevant methods listed for the classes",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 107,
+   "school": "ICSE 2017 specimen"
+  },
+  {
+   "q_label": "78(iii)",
+   "q_order": 33,
+   "q_main": 78,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Designing classes: railway reservation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "case",
+   "difficulty": 2,
+   "concepts": [
+    "identifying classes",
+    "attributes and methods"
+   ],
+   "question": "Prepare a list of classes, the attributes, and the methods that you would expect the following real-world systems to handle.\n(iii) Railway reservation system",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Class 1: Train (objects: all trains)\nAttributes: train number, train name, starting and last station, intermediate stations, departure time, days of running, classes available.\nMethods: getData(), showData(), calculateTravelTime().\n\nClass 2: Passenger (objects: all passengers)\nAttributes: name, age, date of travel, train number, boarding station, destination station.\nMethods: getData(), calculateFare(), allotSeat(), printTicket().\n\n(Staff and salary classes can also be added.)",
+   "marking_points": [
+    {
+     "point": "At least two suitable classes identified",
+     "marks": 1
+    },
+    {
+     "point": "Relevant attributes listed for the classes",
+     "marks": 1
+    },
+    {
+     "point": "Relevant methods listed for the classes",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 107,
+   "school": "ICSE 2017 specimen"
+  },
+  {
+   "q_label": "79",
+   "q_order": 34,
+   "q_main": 79,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Message passing between objects",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "message passing",
+    "method call with arguments"
+   ],
+   "question": "Explain how the objects communicate with each other. Illustrate the concept by taking an example of the objects around you.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Objects communicate by message passing: one object calls a method of another object and passes it data as arguments; the called object does the work and may return a result.\nExample: student A passes the marks of six subjects to student B. B uses its method to calculate the total and percentage and returns the result to A. A and B are the objects, the marks are the arguments of the message, and the percentage-calculating method is the behaviour invoked. In Java this is written as b.percentage(marks...), i.e. message passing = calling a method with arguments.",
+   "marking_points": [
+    {
+     "point": "Objects communicate by message passing (calling another object's methods)",
+     "marks": 1
+    },
+    {
+     "point": "Data is sent as arguments and a result may be returned",
+     "marks": 1
+    },
+    {
+     "point": "A suitable real-life example clearly mapped to objects, message and method",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 107,
+   "school": "ICSE 2018 compartment"
+  },
+  {
+   "q_label": "81",
+   "q_order": 35,
+   "q_main": 81,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Kinetic energy from a formula",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "arithmetic expression",
+    "avoid integer division 1/2"
+   ],
+   "question": "Write a Java program that prints the computed kinetic energy by the formula :\nK.E. = (1/2) m v^2, where m = 4.5 kg, v = 10 m/s.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Output: Kinetic Energy = 225.0\n(0.5 * 4.5 * 10 * 10 = 225.0. Writing 1/2 * m * v * v would give 0.0, because 1/2 is integer division = 0.)\n\nclass Kinetic\n{\n    public static void main(String args[])\n    {\n        double m = 4.5;            // mass in kg\n        double v = 10.0;           // velocity in m/s\n        double ke = 0.5 * m * v * v;   // K.E. = 1/2 m v^2\n        System.out.println(\"Kinetic Energy = \" + ke);\n    }\n}\n\n/* Variable description\n   m  : double : mass of the body (kg)\n   v  : double : velocity of the body (m/s)\n   ke : double : computed kinetic energy */",
+   "marking_points": [
+    {
+     "point": "Class and main() declared correctly",
+     "marks": 2
+    },
+    {
+     "point": "Variables declared with correct data types and initialised",
+     "marks": 2
+    },
+    {
+     "point": "K.E. computed as 0.5 * m * v * v (no integer division)",
+     "marks": 7
+    },
+    {
+     "point": "Output printed with suitable messages / required format",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 108,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "82",
+   "q_order": 36,
+   "q_main": 82,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Double and half of a number",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "arithmetic operators",
+    "double data type"
+   ],
+   "question": "Write a Java program that computes the double and half of a, where a stores 10.92.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Output:\nDouble of 10.92 = 21.84\nHalf of 10.92 = 5.46\n\nclass Compute\n{\n    public static void main(String args[])\n    {\n        double a = 10.92;      // the given number\n        double d = 2 * a;      // double of a\n        double h = a / 2.0;    // half of a\n        System.out.println(\"Double of \" + a + \" = \" + d);\n        System.out.println(\"Half of \" + a + \" = \" + h);\n    }\n}\n\n/* Variable description\n   a : double : the given number\n   d : double : double of a\n   h : double : half of a */",
+   "marking_points": [
+    {
+     "point": "Class and main() declared correctly",
+     "marks": 2
+    },
+    {
+     "point": "Variables declared with correct data types and initialised",
+     "marks": 2
+    },
+    {
+     "point": "Double computed as 2 * a and half as a / 2.0",
+     "marks": 7
+    },
+    {
+     "point": "Output printed with suitable messages / required format",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 108,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "83",
+   "q_order": 37,
+   "q_main": 83,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Profit percent",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "arithmetic expression",
+    "profit percentage"
+   ],
+   "question": "Given that the cost price of an article is Rs. 60.25 and it is sold for Rs. 89.75. Write a program that calculates the profit percent of the sale using the formula :\nProfit in % = (Profit / C.P.) x 100\nWhere profit = S.P. - C.P.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Profit = 89.75 - 60.25 = 29.5; Profit % = 29.5 / 60.25 * 100 = 48.96265560165975 (about 48.96%).\nOutput: Profit in per cent = 48.96265560165975%\n\nclass Profit\n{\n    public static void main(String args[])\n    {\n        double cp = 60.25, sp = 89.75;   // cost price and selling price\n        double pr = sp - cp;             // profit\n        double percentProfit = pr / cp * 100;\n        System.out.println(\"Profit in per cent = \" + percentProfit + \"%\");\n    }\n}\n\n/* Variable description\n   cp            : double : cost price\n   sp            : double : selling price\n   pr            : double : profit = sp - cp\n   percentProfit : double : profit percentage */",
+   "marking_points": [
+    {
+     "point": "Class and main() declared correctly",
+     "marks": 2
+    },
+    {
+     "point": "Variables declared with correct data types and initialised",
+     "marks": 2
+    },
+    {
+     "point": "Profit = sp - cp and profit % = profit / cp * 100",
+     "marks": 7
+    },
+    {
+     "point": "Output printed with suitable messages / required format",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 108,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "84",
+   "q_order": 38,
+   "q_main": 84,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Real quotient and remainder",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "type casting",
+    "integer vs real division",
+    "% operator"
+   ],
+   "question": "Write a program using Java, to print the real quotient obtained by dividing two integer numbers. Also, print the remainder obtained after dividing them.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample run: 5 and 50 -> Real quotient = 0.1, Remainder = 5.\nThe cast (double) must be applied to an operand before the division; (double)(num1 / num2) would give 0.0.\n\nimport java.util.*;\n\nclass Real\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter the first integer (dividend): \");\n        int num1 = sc.nextInt();\n        System.out.print(\"Enter the second integer (divisor): \");\n        int num2 = sc.nextInt();\n        double q = (double) num1 / num2;   // real quotient (cast before dividing)\n        int rem = num1 % num2;             // remainder\n        System.out.println(\"Real quotient = \" + q);\n        System.out.println(\"Remainder = \" + rem);\n    }\n}\n\n/* Variable description\n   num1 : int    : dividend\n   num2 : int    : divisor\n   q    : double : real (decimal) quotient\n   rem  : int    : remainder */",
+   "marking_points": [
+    {
+     "point": "Class and main() declared correctly",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Real quotient with (double) cast before division, and remainder with %",
+     "marks": 7
+    },
+    {
+     "point": "Output printed with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 109,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "85",
+   "q_order": 39,
+   "q_main": 85,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Real quotient and remainder",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "type casting",
+    "integer vs real division",
+    "% operator"
+   ],
+   "question": "Write a program using Java to print the real quotient obtained by dividing two integer numbers. Also, print the remainder obtained after dividing them.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample run: 17 and 5 -> Real quotient = 3.4, Remainder = 2.\nThe cast (double) must be applied to an operand before the division; plain num1 / num2 gives the integer quotient 3.\n\nimport java.util.*;\n\nclass Real\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter the first integer (dividend): \");\n        int num1 = sc.nextInt();\n        System.out.print(\"Enter the second integer (divisor): \");\n        int num2 = sc.nextInt();\n        double q = (double) num1 / num2;   // real quotient (cast before dividing)\n        int rem = num1 % num2;             // remainder\n        System.out.println(\"Real quotient = \" + q);\n        System.out.println(\"Remainder = \" + rem);\n    }\n}\n\n/* Variable description\n   num1 : int    : dividend\n   num2 : int    : divisor\n   q    : double : real (decimal) quotient\n   rem  : int    : remainder */\n\n(Corrected: the source key printed the integer quotient dividend / divisor, which is not the real quotient asked for.)",
+   "marking_points": [
+    {
+     "point": "Class and main() declared correctly",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Real quotient with (double) cast before division, and remainder with %",
+     "marks": 7
+    },
+    {
+     "point": "Output printed with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 109,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "86",
+   "q_order": 40,
+   "q_main": 86,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Sum and difference of input numbers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "Scanner input",
+    "arithmetic operators"
+   ],
+   "question": "Write a program using Java to calculate and display the sum and difference of two integer numbers entered by the user.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample run: 25 and 10 -> Sum = 35, Difference = 15.\n\nimport java.util.*;\n\nclass SumDifference\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter the first number: \");\n        int num1 = sc.nextInt();\n        System.out.print(\"Enter the second number: \");\n        int num2 = sc.nextInt();\n        int sum = num1 + num2;\n        int difference = num1 - num2;\n        System.out.println(\"Sum = \" + sum);\n        System.out.println(\"Difference = \" + difference);\n    }\n}\n\n/* Variable description\n   num1, num2 : int : the two numbers entered\n   sum        : int : num1 + num2\n   difference : int : num1 - num2 */",
+   "marking_points": [
+    {
+     "point": "Class and main() declared correctly",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Sum and difference computed correctly",
+     "marks": 7
+    },
+    {
+     "point": "Output printed with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 109,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "87",
+   "q_order": 41,
+   "q_main": 87,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Adding two times using objects",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "objects with instance variables",
+    "carry using / and %"
+   ],
+   "question": "Write a Java class Time with member variables hours, minutes, and seconds. Implement a main method in the class that initializes two time instances (t1 and t2) with specific values and calculates their total time. Display the result in the format :\ntotHours : totMinutes : totSeconds.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "With t1 = 10:40:35 and t2 = 6:45:29 the output is: 17 : 26 : 4\n(seconds 35+29 = 64 -> 4 s, carry 1 min; minutes 40+45+1 = 86 -> 26 min, carry 1 h; hours 10+6+1 = 17.)\n\nclass Time\n{\n    int hours, minutes, seconds;     // instance variables\n\n    public static void main(String args[])\n    {\n        Time t1 = new Time();\n        Time t2 = new Time();\n        t1.hours = 10; t1.minutes = 40; t1.seconds = 35;\n        t2.hours = 6;  t2.minutes = 45; t2.seconds = 29;\n\n        int s = t1.seconds + t2.seconds;\n        int totSeconds = s % 60;\n        int m = t1.minutes + t2.minutes + s / 60;    // add carried minutes\n        int totMinutes = m % 60;\n        int totHours = t1.hours + t2.hours + m / 60; // add carried hours\n\n        System.out.println(totHours + \" : \" + totMinutes + \" : \" + totSeconds);\n    }\n}\n\n/* Variable description\n   hours, minutes, seconds : int : instance variables of a Time object\n   t1, t2                  : Time : the two time objects\n   s, m                    : int : raw sums of seconds and minutes\n   totHours, totMinutes, totSeconds : int : the total time */",
+   "marking_points": [
+    {
+     "point": "Class with instance variables hours, minutes, seconds",
+     "marks": 2
+    },
+    {
+     "point": "Two objects created with new and initialised",
+     "marks": 2
+    },
+    {
+     "point": "Seconds and minutes added with carry using / and %",
+     "marks": 7
+    },
+    {
+     "point": "Output in the format totHours : totMinutes : totSeconds",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 109,
+   "school": "ICSE 2024 compartment"
+  },
+  {
+   "q_label": "89",
+   "q_order": 42,
+   "q_main": 89,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Difference between two times",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "objects with instance variables",
+    "convert to seconds",
+    "/ and %"
+   ],
+   "question": "Write a main method for the class Time to calculate and display the difference between two given times in hours, minutes, and seconds.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "With T1 = 5:35:20 and T2 = 12:45:35 the output is:\nDifference in time is:\n7 hours:10 minutes:15 seconds\n(T1 = 20120 s, T2 = 45935 s, difference = 25815 s = 7 h, 615 s left = 10 min 15 s.)\n\nclass Time\n{\n    int hours, minutes, seconds;\n\n    public static void main(String args[])\n    {\n        Time T1 = new Time();\n        Time T2 = new Time();\n        T1.hours = 5;  T1.minutes = 35; T1.seconds = 20;\n        T2.hours = 12; T2.minutes = 45; T2.seconds = 35;\n\n        int totSeconds1 = T1.hours * 3600 + T1.minutes * 60 + T1.seconds;\n        int totSeconds2 = T2.hours * 3600 + T2.minutes * 60 + T2.seconds;\n        int diff = totSeconds2 - totSeconds1;\n\n        int hr = diff / 3600;\n        int left = diff % 3600;\n        int min = left / 60;\n        int sec = left % 60;\n\n        System.out.println(\"Difference in time is:\");\n        System.out.println(hr + \" hours:\" + min + \" minutes:\" + sec + \" seconds\");\n    }\n}\n\n/* Variable description\n   T1, T2                   : Time : the two time objects\n   totSeconds1, totSeconds2 : int  : each time converted to seconds\n   diff                     : int  : difference in seconds\n   hr, min, sec             : int  : difference split into hours, minutes, seconds\n   left                     : int  : seconds remaining after whole hours */",
+   "marking_points": [
+    {
+     "point": "Class with instance variables and two objects created",
+     "marks": 2
+    },
+    {
+     "point": "Objects initialised with two times",
+     "marks": 2
+    },
+    {
+     "point": "Both times converted to seconds and difference found, then split with / and %",
+     "marks": 7
+    },
+    {
+     "point": "Difference displayed in hours, minutes and seconds",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 110,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "91",
+   "q_order": 43,
+   "q_main": 91,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Area and circumference of two circles",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "objects with instance variables",
+    "formula evaluation"
+   ],
+   "question": "Define a main method for the class Circle that calculates and displays the area and circumference of two circles based on their radii. Use the formula for area Area = π × r² and for circumference Circumference = 2 × π × r. Assume π = 3.14.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "With radii 7.0 and 10.0:\nCircle 1: Area : 153.86, Circumference : 43.96\nCircle 2: Area : 314.0, Circumference : 62.8 (Java may print 62.800000000000004 because of floating-point rounding)\n\nclass Circle\n{\n    double radius;     // instance variable\n\n    public static void main(String args[])\n    {\n        Circle c1 = new Circle();\n        Circle c2 = new Circle();\n        c1.radius = 7.0;\n        c2.radius = 10.0;\n\n        double area1 = 3.14 * c1.radius * c1.radius;\n        double circumference1 = 2 * 3.14 * c1.radius;\n        double area2 = 3.14 * c2.radius * c2.radius;\n        double circumference2 = 2 * 3.14 * c2.radius;\n\n        System.out.println(\"Circle 1:\");\n        System.out.println(\"Area : \" + area1 + \", Circumference : \" + circumference1);\n        System.out.println(\"Circle 2:\");\n        System.out.println(\"Area : \" + area2 + \", Circumference : \" + circumference2);\n    }\n}\n\n/* Variable description\n   radius                         : double : radius of a circle object\n   c1, c2                         : Circle : the two circle objects\n   area1, area2                   : double : areas\n   circumference1, circumference2 : double : circumferences */",
+   "marking_points": [
+    {
+     "point": "Class with instance variable radius and two objects created",
+     "marks": 2
+    },
+    {
+     "point": "Radii assigned to both objects",
+     "marks": 2
+    },
+    {
+     "point": "Area and circumference computed correctly for both circles",
+     "marks": 7
+    },
+    {
+     "point": "Results displayed for both circles",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 111,
+   "school": "ICSE 2024 compartment"
+  },
+  {
+   "q_label": "93",
+   "q_order": 44,
+   "q_main": 93,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Area and perimeter of two squares",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "objects with instance variables",
+    "formula evaluation"
+   ],
+   "question": "Define a main method for the class Square that calculates and displays the area and perimeter of two squares based on their side lengths. Use the formula for area Area = side² and for perimeter Perimeter = 4 × side.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "With sides 5.0 and 7.0:\nSquare 1: Area : 25.0, Perimeter : 20.0\nSquare 2: Area : 49.0, Perimeter : 28.0\n\nclass Square\n{\n    double side;     // instance variable\n\n    public static void main(String args[])\n    {\n        Square s1 = new Square();\n        Square s2 = new Square();\n        s1.side = 5.0;\n        s2.side = 7.0;\n\n        double area1 = s1.side * s1.side;\n        double perimeter1 = 4 * s1.side;\n        double area2 = s2.side * s2.side;\n        double perimeter2 = 4 * s2.side;\n\n        System.out.println(\"Square 1:\");\n        System.out.println(\"Area : \" + area1 + \", Perimeter : \" + perimeter1);\n        System.out.println(\"Square 2:\");\n        System.out.println(\"Area : \" + area2 + \", Perimeter : \" + perimeter2);\n    }\n}\n\n/* Variable description\n   side                   : double : side of a square object\n   s1, s2                 : Square : the two square objects\n   area1, area2           : double : areas\n   perimeter1, perimeter2 : double : perimeters */",
+   "marking_points": [
+    {
+     "point": "Class with instance variable side and two objects created",
+     "marks": 2
+    },
+    {
+     "point": "Sides assigned to both objects",
+     "marks": 2
+    },
+    {
+     "point": "Area and perimeter computed correctly for both squares",
+     "marks": 7
+    },
+    {
+     "point": "Results displayed for both squares",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 112,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "94",
+   "q_order": 45,
+   "q_main": 94,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Adding two distances in feet and inches",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "objects with instance variables",
+    "carry using / and %",
+    "escape sequence \\\""
+   ],
+   "question": "Write a Java class Distance with member variables feet and inches. Implement a main method to initialize two instances (d1 and d2) with specific values and calculate their total distance. Display the result in the format : totFeet' totInches\".",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "With d1 = 5' 9\" and d2 = 6' 11\" the output is: Total Distance : 12' 8\"\n(inches 9+11 = 20 -> 8 in, carry 1 ft; feet 5+6+1 = 12.)\n\nclass Distance\n{\n    int feet, inches;     // instance variables\n\n    public static void main(String args[])\n    {\n        Distance d1 = new Distance();\n        Distance d2 = new Distance();\n        d1.feet = 5; d1.inches = 9;\n        d2.feet = 6; d2.inches = 11;\n\n        int sumIn = d1.inches + d2.inches;\n        int totInches = sumIn % 12;\n        int totFeet = d1.feet + d2.feet + sumIn / 12;   // 12 inches = 1 foot\n\n        System.out.println(\"Total Distance : \" + totFeet + \"' \" + totInches + \"\\\"\");\n    }\n}\n\n/* Variable description\n   feet, inches       : int : instance variables of a Distance object\n   d1, d2             : Distance : the two distance objects\n   sumIn              : int : sum of the inches\n   totFeet, totInches : int : total distance */",
+   "marking_points": [
+    {
+     "point": "Class with instance variables feet and inches",
+     "marks": 2
+    },
+    {
+     "point": "Two objects created and initialised",
+     "marks": 2
+    },
+    {
+     "point": "Inches added with carry to feet using / 12 and % 12",
+     "marks": 7
+    },
+    {
+     "point": "Output in the format totFeet' totInches\" (escape sequence for the double quote)",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 114,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "95",
+   "q_order": 46,
+   "q_main": 95,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Adding two durations",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "objects with instance variables",
+    "carry using / and %"
+   ],
+   "question": "Write a Java class Duration with member variables hours, minutes, and seconds. Implement a main method to initialize two durations (d1 and d2) and calculate their total time. Display the result in the format : hh:mm:ss.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "With d1 = 2:50:40 and d2 = 1:45:35 the output is: Total Duration : 04:36:15\n(seconds 40+35 = 75 -> 15 s, carry 1; minutes 50+45+1 = 96 -> 36 min, carry 1; hours 2+1+1 = 4.)\n\nclass Duration\n{\n    int hours, minutes, seconds;     // instance variables\n\n    public static void main(String args[])\n    {\n        Duration d1 = new Duration();\n        Duration d2 = new Duration();\n        d1.hours = 2; d1.minutes = 50; d1.seconds = 40;\n        d2.hours = 1; d2.minutes = 45; d2.seconds = 35;\n\n        int s = d1.seconds + d2.seconds;\n        int totS = s % 60;\n        int m = d1.minutes + d2.minutes + s / 60;\n        int totM = m % 60;\n        int totH = d1.hours + d2.hours + m / 60;\n\n        // print each part with two digits (hh:mm:ss)\n        String hh = (totH < 10 ? \"0\" : \"\") + totH;\n        String mm = (totM < 10 ? \"0\" : \"\") + totM;\n        String ss = (totS < 10 ? \"0\" : \"\") + totS;\n        System.out.println(\"Total Duration : \" + hh + \":\" + mm + \":\" + ss);\n    }\n}\n\n/* Variable description\n   hours, minutes, seconds : int : instance variables of a Duration object\n   d1, d2                  : Duration : the two duration objects\n   s, m                    : int : raw sums of seconds and minutes\n   totH, totM, totS        : int : total hours, minutes, seconds\n   hh, mm, ss              : String : two-digit forms for printing */",
+   "marking_points": [
+    {
+     "point": "Class with instance variables hours, minutes, seconds",
+     "marks": 2
+    },
+    {
+     "point": "Two objects created and initialised",
+     "marks": 2
+    },
+    {
+     "point": "Seconds and minutes added with carry using / and %",
+     "marks": 7
+    },
+    {
+     "point": "Output in the format hh:mm:ss",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 114,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "97",
+   "q_order": 47,
+   "q_main": 97,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Remainder and absolute difference",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "Scanner input",
+    "% operator",
+    "Math.abs()"
+   ],
+   "question": "Write a program using Java to calculate and display the remainder and absolute difference of two integer numbers entered by the user.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample run: 7 and 20 -> Remainder = 7 (7 % 20), Absolute Difference = 13 (Math.abs(7 - 20)).\n\nimport java.util.*;\n\nclass RemainderAbsDiff\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter the first integer: \");\n        int num1 = sc.nextInt();\n        System.out.print(\"Enter the second integer: \");\n        int num2 = sc.nextInt();\n        int remainder = num1 % num2;\n        int absDiff = Math.abs(num1 - num2);\n        System.out.println(\"Remainder = \" + remainder);\n        System.out.println(\"Absolute Difference = \" + absDiff);\n    }\n}\n\n/* Variable description\n   num1, num2 : int : the two numbers entered\n   remainder  : int : num1 % num2\n   absDiff    : int : |num1 - num2| using Math.abs() */",
+   "marking_points": [
+    {
+     "point": "Class and main() declared correctly",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Remainder with % and absolute difference with Math.abs()",
+     "marks": 7
+    },
+    {
+     "point": "Output printed with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 115,
+   "school": "ICSE 2020"
+  }
+ ]
+}

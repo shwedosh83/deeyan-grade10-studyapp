@@ -1,0 +1,2390 @@
+{
+ "paper_id": "pyq_computer_applications_8",
+ "subject": "computer_applications",
+ "year": 2024,
+ "sem": null,
+ "label": "Past papers · String Handling",
+ "source": "pyq",
+ "school": "CISCE past papers",
+ "exam_label": "Past papers by chapter",
+ "max_marks": 284.0,
+ "duration_minutes": 0,
+ "reading_minutes": 0,
+ "instructions": "Chapter-wise questions from ICSE board, compartment and specimen papers, 2015–2024.",
+ "sections": [
+  {
+   "name": "Past-paper questions",
+   "total_marks": 284.0,
+   "rule": "Practise in any order.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "140",
+   "q_order": 0,
+   "q_main": 140,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "2D array: row and column totals of sales",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "double-dimension array",
+    "row sums",
+    "column sums"
+   ],
+   "question": "WAP in Java to accept the total sales done by three salesmen in four products. Use a double-dimension array to compute and print the total sales of each salesman and total sales of each product.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Sales\n{\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        double A[][] = new double[3][4];\n        int i, j;\n        for (i = 0; i < 3; i++)\n        {\n            for (j = 0; j < 4; j++)\n            {\n                System.out.print(\"Sales of salesman \" + (i + 1) + \" for product \" + (j + 1) + \": \");\n                A[i][j] = sc.nextDouble();\n            }\n        }\n        // total of each salesman = row sum\n        for (i = 0; i < 3; i++)\n        {\n            double s = 0;\n            for (j = 0; j < 4; j++)\n                s = s + A[i][j];\n            System.out.println(\"Total sales by salesman \" + (i + 1) + \" = \" + s);\n        }\n        // total of each product = column sum\n        for (j = 0; j < 4; j++)\n        {\n            double s = 0;\n            for (i = 0; i < 3; i++)\n                s = s + A[i][j];\n            System.out.println(\"Total sales of product \" + (j + 1) + \" = \" + s);\n        }\n    }\n}\n\n/* Variable description\n   A    : double[3][4]  sales; row = salesman, column = product\n   i, j : int           loop counters\n   s    : double        running total of a row or a column  */\n\n(Corrected: the source program adds into an undeclared s1 and has a stray line int k=i+1 in the product loop; both are fixed above.)",
+   "marking_points": [
+    {
+     "point": "Class, main() and Scanner input as required",
+     "marks": 3
+    },
+    {
+     "point": "Input of the 3 x 4 array with nested loops",
+     "marks": 3
+    },
+    {
+     "point": "Row sums for each salesman",
+     "marks": 3
+    },
+    {
+     "point": "Column sums for each product",
+     "marks": 3
+    },
+    {
+     "point": "Output in the required format",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 272,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "141",
+   "q_order": 1,
+   "q_main": 141,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "2D array printed as a calendar",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "2D String array",
+    "nested loops for printing"
+   ],
+   "question": "Using a double subscripted variable WAP in Java to enter data to form a 6 x 7 array and get a printout as follows:\nSUN  MON  TUE  WED  THUR FRI  SAT\n-    -    1    2    3    4    5\n6    7    8    9    10   11   12\n13   14   15   16   17   18   19\n20   21   22   23   24   25   26\n27   28   29   30",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass CalendarPrint\n{\n    public static void main(String[] args)\n    {\n        String cal[][] = new String[6][7];\n        String days[] = {\"SUN\", \"MON\", \"TUE\", \"WED\", \"THUR\", \"FRI\", \"SAT\"};\n        int i, j, d = 1;\n        for (j = 0; j < 7; j++)\n            cal[0][j] = days[j];\n        for (i = 1; i < 6; i++)\n        {\n            for (j = 0; j < 7; j++)\n            {\n                if (i == 1 && j < 2)\n                    cal[i][j] = \"-\";          // blank days before the 1st\n                else if (d <= 30)\n                {\n                    cal[i][j] = \"\" + d;\n                    d++;\n                }\n                else\n                    cal[i][j] = \"\";           // after the 30th\n            }\n        }\n        for (i = 0; i < 6; i++)\n        {\n            for (j = 0; j < 7; j++)\n                System.out.print(cal[i][j] + \"\\t\");\n            System.out.println();\n        }\n    }\n}\n\n/* Variable description\n   cal  : String[6][7]  the calendar table (row 0 = day names)\n   days : String[]      names of the days\n   d    : int           next date to place (1 to 30)\n   i, j : int           row and column counters  */",
+   "marking_points": [
+    {
+     "point": "Declaration of a 6 x 7 two-dimensional array",
+     "marks": 3
+    },
+    {
+     "point": "Filling the day-name row",
+     "marks": 2
+    },
+    {
+     "point": "Filling dates 1-30 with the two leading blanks",
+     "marks": 5
+    },
+    {
+     "point": "Printing row by row with nested loops",
+     "marks": 3
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 272,
+   "school": "ICSE 2018 specimen"
+  },
+  {
+   "q_label": "142",
+   "q_order": 2,
+   "q_main": 142,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "2D array filled by a formula",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "2D array",
+    "nested loops",
+    "integer vs real division"
+   ],
+   "question": "Calculate elements of numeric table table which has 8 rows and 12 columns. Each element of table is calculated as:\ntable[i][j] = 1 / (i + j - 1)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "class Table\n{\n    public static void main(String[] args)\n    {\n        double table[][] = new double[8][12];\n        int i, j;\n        for (i = 1; i <= 8; i++)              // rows numbered 1 to 8\n        {\n            for (j = 1; j <= 12; j++)         // columns numbered 1 to 12\n            {\n                table[i - 1][j - 1] = 1.0 / (i + j - 1);\n                System.out.print(table[i - 1][j - 1] + \"  \");\n            }\n            System.out.println();\n        }\n    }\n}\n\n/* Variable description\n   table : double[8][12]  the numeric table\n   i, j  : int            row and column numbers (1-based, so i + j - 1 is never 0)  */\n\nNote: 1.0 is used so the division is real; 1 / (i + j - 1) in int would give 0 for every element except table[1][1]. (Corrected: the source program used an int array, integer division and loops starting at index 1 that skip row 0 and column 0.)",
+   "marking_points": [
+    {
+     "point": "Declaration of an 8 x 12 array of a real type",
+     "marks": 3
+    },
+    {
+     "point": "Nested loops over 8 rows and 12 columns",
+     "marks": 4
+    },
+    {
+     "point": "Formula 1.0 / (i + j - 1) with real division and no division by zero",
+     "marks": 4
+    },
+    {
+     "point": "Printing the table row by row",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 272,
+   "school": "ICSE 2019 compartment"
+  },
+  {
+   "q_label": "143",
+   "q_order": 3,
+   "q_main": 143,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Largest, smallest and sum of array elements",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "array input",
+    "max/min search",
+    "sum of elements"
+   ],
+   "question": "Write a program to input integer elements into an array of size 20 and perform the following operations:\n(i) Display the largest number from the array.\n(ii) Display the smallest number from the array.\n(iii) Display the sum of all the elements of the array.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass ArrayOps\n{\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        int a[] = new int[20];\n        int j;\n        System.out.println(\"Enter 20 numbers:\");\n        for (j = 0; j < 20; j++)\n            a[j] = sc.nextInt();\n        int largest = a[0], smallest = a[0], sum = 0;\n        for (j = 0; j < 20; j++)\n        {\n            if (a[j] > largest)\n                largest = a[j];\n            if (a[j] < smallest)\n                smallest = a[j];\n            sum = sum + a[j];\n        }\n        System.out.println(\"Largest number: \" + largest);\n        System.out.println(\"Smallest number: \" + smallest);\n        System.out.println(\"Sum of all elements: \" + sum);\n    }\n}\n\n/* Variable description\n   a        : int[20]  the numbers\n   largest  : int      biggest element\n   smallest : int      smallest element\n   sum      : int      total of all elements\n   j        : int      loop counter  */",
+   "marking_points": [
+    {
+     "point": "Class, main() and Scanner input as required",
+     "marks": 3
+    },
+    {
+     "point": "Largest element",
+     "marks": 3
+    },
+    {
+     "point": "Smallest element",
+     "marks": 3
+    },
+    {
+     "point": "Sum of elements",
+     "marks": 3
+    },
+    {
+     "point": "Output in the required format",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 271,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "144",
+   "q_order": 4,
+   "q_main": 144,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Average and deviation using parallel arrays",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "parallel arrays",
+    "average",
+    "deviation"
+   ],
+   "question": "Write a program to accept name and total marks of N number of students in two single subscript arrays name[ ] and totalmarks[ ].\n(i) The average of the total marks obtained by N number of students.\naverage = (sum of total marks of all the students) / N\n(ii) Deviation of each student's total marks with the average.\ndeviation = total marks of a student - average",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Marks\n{\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter number of students N: \");\n        int N = sc.nextInt();\n        String name[] = new String[N];\n        double totalmarks[] = new double[N];\n        double total = 0;\n        int i;\n        for (i = 0; i < N; i++)\n        {\n            System.out.print(\"Name: \");\n            name[i] = sc.next();\n            System.out.print(\"Total marks: \");\n            totalmarks[i] = sc.nextDouble();\n            total = total + totalmarks[i];\n        }\n        double avg = total / N;\n        System.out.println(\"Average = \" + avg);\n        System.out.println(\"Name\\tTotalMarks\\tDeviation\");\n        for (i = 0; i < N; i++)\n            System.out.println(name[i] + \"\\t\" + totalmarks[i] + \"\\t\" + (totalmarks[i] - avg));\n    }\n}\n\n/* Variable description\n   N          : int       number of students\n   name       : String[]  student names\n   totalmarks : double[]  total marks of each student\n   total      : double    sum of all total marks\n   avg        : double    average marks\n   i          : int       loop counter  */\n\n(Corrected: the source program misspells totalmarks as totalsmarks in the output loop and has an extra closing brace.)",
+   "marking_points": [
+    {
+     "point": "Class, main() and Scanner input as required",
+     "marks": 3
+    },
+    {
+     "point": "Two parallel arrays filled in one loop",
+     "marks": 3
+    },
+    {
+     "point": "Sum and average",
+     "marks": 3
+    },
+    {
+     "point": "Deviation of each student from the average",
+     "marks": 3
+    },
+    {
+     "point": "Output in the required format",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 271,
+   "school": "ICSE 2018 specimen"
+  },
+  {
+   "q_label": "2",
+   "q_order": 5,
+   "q_main": 2,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "equals() compares content",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "equals() compares characters",
+    "new String(t) has same content"
+   ],
+   "question": "Write the output of the below code:\nString t = \"Reduce Reuse Recycle\";\nString x = new String(t);\nSystem.out.print(x.equals(t));",
+   "options": {
+    "a": "True",
+    "b": "False",
+    "c": "Error",
+    "d": "1"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) True. equals() compares the characters of the two strings; x and t hold the same text, so true is printed.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 275,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "4",
+   "q_order": 6,
+   "q_main": 4,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "compareTo() for equal strings",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "compareTo() returns int",
+    "0 when equal"
+   ],
+   "question": "The method compareTo() returns _____ if two strings are equal:",
+   "options": {
+    "a": "True",
+    "b": "1",
+    "c": "0",
+    "d": "False"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 0. compareTo() returns an int: the difference of the first unequal characters, or 0 when the strings are equal.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 276,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "5",
+   "q_order": 7,
+   "q_main": 5,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "indexOf() when character is absent",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "indexOf returns -1 if not found"
+   ],
+   "question": "What is the output for the below statement?\nSystem.out.print(\"Save electricity and water\".indexOf('b') + 1);",
+   "options": {
+    "a": "3",
+    "b": "0",
+    "c": "1",
+    "d": "-1"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 0. 'b' does not occur in the string, so indexOf('b') returns -1, and -1 + 1 = 0.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 276,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "14",
+   "q_order": 8,
+   "q_main": 14,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Default value of a String variable",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "reference types default to null"
+   ],
+   "question": "What is the default value of a String variable in Java if not initialized?",
+   "options": {
+    "a": "null",
+    "b": "\"\"",
+    "c": "undefined",
+    "d": "\" \""
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) null. A String is a reference type, so an uninitialised String instance variable holds null.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 277,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "15",
+   "q_order": 9,
+   "q_main": 15,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "String immutability",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Strings are immutable"
+   ],
+   "question": "What happens when you try to modify a String object in Java?",
+   "options": {
+    "a": "The original string is modified.",
+    "b": "A new String object is created.",
+    "c": "An error occurs.",
+    "d": "The changes are ignored."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) A new String object is created. Strings are immutable, so methods like toUpperCase() or replace() return a new String and leave the original unchanged.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 277,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "16",
+   "q_order": 10,
+   "q_main": 16,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Creating a String",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "string literals need double quotes"
+   ],
+   "question": "Which of the following is not a valid way to create a string in Java?",
+   "options": {
+    "a": "String s = \"Hello\";",
+    "b": "String s = new String(\"Hello\");",
+    "c": "String s = Hello;",
+    "d": "String s = new String();"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) String s = Hello; Without double quotes, Hello is treated as a variable name, which is not declared, so it does not compile.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 278,
+   "school": "ICSE 2018"
+  },
+  {
+   "q_label": "17",
+   "q_order": 11,
+   "q_main": 17,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "equals() method",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "equals() compares content, case-sensitive"
+   ],
+   "question": "What does the equals() method in the String class compare?",
+   "options": {
+    "a": "Memory location of strings",
+    "b": "Characters in the strings",
+    "c": "Case-insensitive equality of strings",
+    "d": "String length"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Characters in the strings. equals() checks the two strings character by character (case-sensitive); == compares references.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 278,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "23",
+   "q_order": 12,
+   "q_main": 23,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "substring() method",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "substring() extracts part of a string"
+   ],
+   "question": "Which method is used to extract a portion of a string?",
+   "options": {
+    "a": "substring()",
+    "b": "indexOf()",
+    "c": "replace()",
+    "d": "split()"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) substring(). substring(start) or substring(start, end) returns the part of the string between those indices.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 279,
+   "school": "ICSE 2017 specimen"
+  },
+  {
+   "q_label": "24",
+   "q_order": 13,
+   "q_main": 24,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "indexOf() of a string",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "indexing starts at 0",
+    "indexOf gives first occurrence"
+   ],
+   "question": "What is the result of indexOf(\"a\") for the string \"banana\"?",
+   "options": {
+    "a": "0",
+    "b": "1",
+    "c": "2",
+    "d": "3"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 1. b is at index 0, and the first 'a' is at index 1.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 279,
+   "school": "ICSE 2021 compartment"
+  },
+  {
+   "q_label": "26",
+   "q_order": 14,
+   "q_main": 26,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "replace() method",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "replace() replaces every occurrence"
+   ],
+   "question": "Which method replaces all occurrences of a character in a string?",
+   "options": {
+    "a": "replace()",
+    "b": "replaceAll()",
+    "c": "substring()",
+    "d": "charAt()"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) replace(). replace(char old, char new) returns a new string with every occurrence of old replaced by new, e.g. \"banana\".replace('a', 'o') gives \"bonono\".",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 279,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "28",
+   "q_order": 15,
+   "q_main": 28,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "startsWith() method",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "startsWith() returns boolean"
+   ],
+   "question": "What does the startsWith(\"J\") method return for the string \"Java\"?",
+   "options": {
+    "a": "True",
+    "b": "False",
+    "c": "\"Java\"",
+    "d": "An error"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) True. \"Java\" begins with \"J\", so startsWith(\"J\") returns the boolean true.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 280,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "29",
+   "q_order": 16,
+   "q_main": 29,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "String.valueOf()",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "valueOf() converts to String"
+   ],
+   "question": "What does the valueOf() method do?",
+   "options": {
+    "a": "Converts a string to uppercase",
+    "b": "Converts a string to a number",
+    "c": "Converts other data types to a string",
+    "d": "Splits a string into an array"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Converts other data types to a string. For example, String.valueOf(42) returns \"42\".",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 280,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "38",
+   "q_order": 17,
+   "q_main": 38,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Ordering statements: length()",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "declare, assign, then print"
+   ],
+   "question": "Consider the following program segment to find the length of a string. The statements are jumbled. Choose the correct order of statements.\nvoid findLength(String str) {\n    int length;                    // (1)\n    System.out.println(length);    // (2)\n    length = str.length();         // (3)\n}",
+   "options": {
+    "a": "(1) (3) (2)",
+    "b": "(3) (1) (2)",
+    "c": "(2) (1) (3)",
+    "d": "(1) (2) (3)"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) (1) (3) (2). Declare length, assign str.length() to it, then print it.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 288,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "39",
+   "q_order": 18,
+   "q_main": 39,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Ordering statements: toUpperCase()",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "declare, assign, then print"
+   ],
+   "question": "Consider the following program segment to convert a string to uppercase. The statements are jumbled. Choose the correct order of statements.\nvoid toUpperCase(String str) {\n    String upperStr;                 // (1)\n    upperStr = str.toUpperCase();    // (2)\n    System.out.println(upperStr);    // (3)\n}",
+   "options": {
+    "a": "(1) (2) (3)",
+    "b": "(2) (1) (3)",
+    "c": "(1) (3) (2)",
+    "d": "(3) (1) (2)"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) (1) (2) (3). Declare upperStr, store str.toUpperCase() in it, then print it.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 288,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "40",
+   "q_order": 19,
+   "q_main": 40,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Ordering statements: replace()",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "declare, assign, then print"
+   ],
+   "question": "Consider the following program segment to replace characters in a string. The statements are jumbled. Choose the correct order of statements.\nvoid replaceCharacters(String str) {\n    String replacedStr;                    // (1)\n    replacedStr = str.replace('a', 'o');   // (2)\n    System.out.println(replacedStr);       // (3)\n}",
+   "options": {
+    "a": "(1) (3) (2)",
+    "b": "(1) (2) (3)",
+    "c": "(2) (1) (3)",
+    "d": "(3) (2) (1)"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) (1) (2) (3). Declare replacedStr, assign str.replace('a', 'o') to it, then print it.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 288,
+   "school": "ICSE 2018"
+  },
+  {
+   "q_label": "41",
+   "q_order": 20,
+   "q_main": 41,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Ordering statements: substring()",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "declare, assign, then print"
+   ],
+   "question": "Consider the following program segment to extract a substring from a string. The statements are jumbled. Choose the correct order of statements.\nvoid extractSubstring(String str) {\n    String subStr;                   // (1)\n    subStr = str.substring(5, 10);   // (2)\n    System.out.println(subStr);      // (3)\n}",
+   "options": {
+    "a": "(1) (3) (2)",
+    "b": "(2) (1) (3)",
+    "c": "(1) (2) (3)",
+    "d": "(3) (2) (1)"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) (1) (2) (3). Declare subStr, assign str.substring(5, 10) to it, then print it.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 288,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "48(i)",
+   "q_order": 21,
+   "q_main": 48,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "lastIndexOf() for last space",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "lastIndexOf(' ')",
+    "position = index + 1"
+   ],
+   "question": "Write a statement to perform the following task on a string:\nFind and display the position of the last space in a string s.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "System.out.println(s.lastIndexOf(' '));\nlastIndexOf(' ') gives the index of the last space. (If position is counted from 1, print s.lastIndexOf(' ') + 1.)",
+   "marking_points": [
+    {
+     "point": "Correct use of s.lastIndexOf(' ') inside System.out.println",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 284,
+   "school": "ICSE 2024 specimen"
+  },
+  {
+   "q_label": "48(ii)",
+   "q_order": 22,
+   "q_main": 48,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "String to double conversion",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "Double.parseDouble()"
+   ],
+   "question": "Write a statement to perform the following task on a string:\nConvert a number stored in a string variable x to double data type.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "double d = Double.parseDouble(x);\nThe wrapper class method Double.parseDouble() converts a numeric String into a double.",
+   "marking_points": [
+    {
+     "point": "double d = Double.parseDouble(x);",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 284,
+   "school": "ICSE 2024 specimen"
+  },
+  {
+   "q_label": "50",
+   "q_order": 23,
+   "q_main": 50,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Character class methods",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "Character.isUpperCase()",
+    "Character.toUpperCase()"
+   ],
+   "question": "Write the output of the following:\n(i) System.out.println(Character.isUpperCase('R'));\n(ii) System.out.println(Character.toUpperCase('J'));",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(i) Output",
+     "accepted": [
+      "true"
+     ]
+    },
+    {
+     "prompt": "(ii) Output",
+     "accepted": [
+      "J"
+     ]
+    }
+   ],
+   "solution": "(i) true: 'R' is an uppercase letter.\n(ii) J: 'J' is already uppercase, so it is returned unchanged.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 284,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "51(i)",
+   "q_order": 24,
+   "q_main": 51,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Purpose and return type of indexOf()",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "indexOf() returns int"
+   ],
+   "question": "State the purpose and return data type of the following String function: indexOf()",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "indexOf() returns the index of the first occurrence of a character (or substring) in a string, or -1 if it is not found. Return type: int.",
+   "marking_points": [
+    {
+     "point": "Purpose (first occurrence index, -1 if absent) and return type int",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 284,
+   "school": "ICSE 2023 compartment"
+  },
+  {
+   "q_label": "51(ii)",
+   "q_order": 25,
+   "q_main": 51,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Purpose and return type of compareTo()",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "compareTo() returns int",
+    "lexicographic comparison"
+   ],
+   "question": "State the purpose and return data type of the following String function: compareTo()",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "compareTo() compares two strings lexicographically (by character codes). It returns 0 if they are equal, a negative number if the calling string comes first, and a positive number if it comes after (the value is the difference of the first unequal characters, or of the lengths). Return type: int.",
+   "marking_points": [
+    {
+     "point": "Purpose (lexicographic comparison: 0 / negative / positive) and return type int",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 284,
+   "school": "ICSE 2023 compartment"
+  },
+  {
+   "q_label": "52",
+   "q_order": 26,
+   "q_main": 52,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Return type of replace()",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "replace() returns String"
+   ],
+   "question": "Write the return type of the following library function:\nreplace(char, char)",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Return type",
+     "accepted": [
+      "String"
+     ]
+    }
+   ],
+   "solution": "String. replace(char, char) returns a new String with the characters replaced.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 284,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "54",
+   "q_order": 27,
+   "q_main": 54,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "startsWith(), substring() and charAt() output",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "substring(5, n)",
+    "startsWith()",
+    "char comparison with =="
+   ],
+   "question": "State the output of the following program segment:\nString s = \"Examination\";\nint n = s.length();\nSystem.out.println(s.startsWith(s.substring(5, n)));\nSystem.out.println(s.charAt(2) == s.charAt(6));",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "false\ntrue\n\nTrace: n = 11. s.substring(5, 11) = \"nation\" (E0 x1 a2 m3 i4 n5 a6 t7 i8 o9 n10). \"Examination\" does not start with \"nation\", so false. charAt(2) = 'a' and charAt(6) = 'a', so the comparison is true.",
+   "marking_points": [
+    {
+     "point": "false",
+     "marks": 1
+    },
+    {
+     "point": "true",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 285,
+   "school": "ICSE 2019 compartment"
+  },
+  {
+   "q_label": "55",
+   "q_order": 28,
+   "q_main": 55,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "substring(), indexOf(), charAt(), equals()",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "substring end index is exclusive",
+    "indexOf(charAt())",
+    "equals()"
+   ],
+   "question": "If String x = \"Computer\"; String y = \"Applications\";\nwhat do the following functions return for:\n(i) System.out.println(x.substring(1, 5));\n(ii) System.out.println(x.indexOf(x.charAt(4)));\n(iii) System.out.println(y + x.substring(5));\n(iv) System.out.println(x.equals(y));",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(i)",
+     "accepted": [
+      "ompu"
+     ]
+    },
+    {
+     "prompt": "(ii)",
+     "accepted": [
+      "4"
+     ]
+    },
+    {
+     "prompt": "(iii)",
+     "accepted": [
+      "Applicationster"
+     ]
+    },
+    {
+     "prompt": "(iv)",
+     "accepted": [
+      "false"
+     ]
+    }
+   ],
+   "solution": "(i) ompu: indices 1 to 4 of C0 o1 m2 p3 u4 t5 e6 r7.\n(ii) 4: x.charAt(4) is 'u', whose first occurrence is at index 4.\n(iii) Applicationster: x.substring(5) = \"ter\" is joined to y.\n(iv) false: the strings differ. (Corrected: the source key gave (i) as omput; substring(1, 5) stops before index 5, so it is ompu.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 285,
+   "school": "ICSE 2020"
+  },
+  {
+   "q_label": "65",
+   "q_order": 29,
+   "q_main": 65,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "substring(), toUpperCase(), equalsIgnoreCase() output",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "substring()",
+    "equalsIgnoreCase()"
+   ],
+   "question": "State the output when the following program segment is executed:\nString a = \"Smartphone\", b = \"Graphic Art\";\nString h = a.substring(2, 5);\nString k = b.substring(8).toUpperCase();\nSystem.out.println(h);\nSystem.out.println(k.equalsIgnoreCase(h));",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "art\ntrue\n\nTrace: a.substring(2, 5) = \"art\" (S0 m1 a2 r3 t4). In \"Graphic Art\" index 7 is the space, so b.substring(8) = \"Art\" and k = \"ART\". \"ART\" equals \"art\" ignoring case, so true.",
+   "marking_points": [
+    {
+     "point": "art",
+     "marks": 1
+    },
+    {
+     "point": "true",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 282,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "68",
+   "q_order": 30,
+   "q_main": 68,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Package of String class",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "java.lang is imported by default"
+   ],
+   "question": "In which package are the two classes String and StringBuffer defined?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Package",
+     "accepted": [
+      "java.lang"
+     ]
+    }
+   ],
+   "solution": "java.lang. It is imported automatically into every Java program.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 282,
+   "school": "ICSE 2018 specimen"
+  },
+  {
+   "q_label": "69",
+   "q_order": 31,
+   "q_main": 69,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "How Java manages strings",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "String is a class in java.lang",
+    "Strings are immutable",
+    "string pool"
+   ],
+   "question": "Explain briefly how Java manages strings?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "In Java a string is not a plain array of characters: it is an object of the String class (java.lang). String objects are immutable, so methods such as toUpperCase(), replace() or substring() return a new String instead of changing the original. String literals are stored in a string pool, so identical literals share one object, while new String(...) creates a separate object. The String class provides methods (length(), charAt(), indexOf(), compareTo(), equals(), etc.) to work with strings, and values of other types can be converted to and from strings (String.valueOf(), Integer.parseInt()).",
+   "marking_points": [
+    {
+     "point": "Strings are objects of the String class (not char arrays)",
+     "marks": 1
+    },
+    {
+     "point": "Immutability / new object on modification, with methods to manipulate strings",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 282,
+   "school": "ICSE 2024 compartment"
+  },
+  {
+   "q_label": "72",
+   "q_order": 32,
+   "q_main": 72,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "indexOf() and substring() output",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "indexOf()",
+    "substring end index exclusive"
+   ],
+   "question": "Write the output for the following:\nString s = \"Today is Test\";\nSystem.out.println(s.indexOf('T'));\nSystem.out.println(s.substring(0, 7) + \" \" + \"Holiday\");",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "0\nToday i Holiday\n\nTrace: the first 'T' is at index 0. substring(0, 7) takes indices 0-6: T o d a y (space) i = \"Today i\". Adding \" \" and \"Holiday\" gives \"Today i Holiday\". (Corrected: the source key said Today is Holiday; index 7 is 's', which substring(0, 7) leaves out.)",
+   "marking_points": [
+    {
+     "point": "0",
+     "marks": 1
+    },
+    {
+     "point": "Today i Holiday",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 286,
+   "school": "ICSE 2017 compartment"
+  },
+  {
+   "q_label": "73",
+   "q_order": 33,
+   "q_main": 73,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "String concatenation vs Integer.parseInt()",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "+ joins strings",
+    "Integer.parseInt()"
+   ],
+   "question": "Give the output of the following code:\nString A = \"26\", B = \"100\";\nString D = A + B + \"200\";\nint x = Integer.parseInt(A);\nint y = Integer.parseInt(B);\nint d = x + y;\nSystem.out.println(\"Result 1 = \" + D);\nSystem.out.println(\"Result 2 = \" + d);",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Result 1 = 26100200\nResult 2 = 126\n\nTrace: A + B + \"200\" joins the strings: \"26100200\". parseInt gives 26 and 100, whose sum is 126.",
+   "marking_points": [
+    {
+     "point": "Result 1 = 26100200",
+     "marks": 1
+    },
+    {
+     "point": "Result 2 = 126",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 286,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "74",
+   "q_order": 34,
+   "q_main": 74,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "String concatenation vs Integer.parseInt()",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "+ joins strings",
+    "Integer.parseInt()"
+   ],
+   "question": "Consider the following code and predict the output:\nString X = \"50\", Y = \"25\";\nString Z = X + Y + \"75\";\nint a = Integer.parseInt(X);\nint b = Integer.parseInt(Y);\nint sum = a + b + 75;\nSystem.out.println(\"Concatenation Result = \" + Z);\nSystem.out.println(\"Arithmetic Result = \" + sum);",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Concatenation Result = 502575\nArithmetic Result = 150\n\nTrace: X + Y + \"75\" joins the strings: \"502575\". 50 + 25 + 75 = 150.",
+   "marking_points": [
+    {
+     "point": "Concatenation Result = 502575",
+     "marks": 1
+    },
+    {
+     "point": "Arithmetic Result = 150",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 286,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "75",
+   "q_order": 35,
+   "q_main": 75,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Return types of library functions",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "endsWith/startsWith return boolean",
+    "Math.random() returns double"
+   ],
+   "question": "Write the return data type of the following function:\n(i) endsWith()\n(ii) startsWith()\n(iii) random()",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(i) endsWith()",
+     "accepted": [
+      "boolean"
+     ]
+    },
+    {
+     "prompt": "(ii) startsWith()",
+     "accepted": [
+      "boolean"
+     ]
+    },
+    {
+     "prompt": "(iii) random()",
+     "accepted": [
+      "double"
+     ]
+    }
+   ],
+   "solution": "(i) boolean (ii) boolean (iii) double. Math.random() returns a double from 0.0 up to (not including) 1.0.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 286,
+   "school": "ICSE 2016 compartment"
+  },
+  {
+   "q_label": "76",
+   "q_order": 36,
+   "q_main": 76,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "replace() and compareTo() output",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "replace() all occurrences",
+    "compareTo() = difference of first unequal chars"
+   ],
+   "question": "Give the output of the following string functions:\n(i) \"ACHIEVEMENT\".replace('E', 'A')\n(ii) \"DEDICATE\".compareTo(\"DEVOTE\")",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(i)",
+     "accepted": [
+      "ACHIAVAMANT"
+     ]
+    },
+    {
+     "prompt": "(ii)",
+     "accepted": [
+      "-18"
+     ]
+    }
+   ],
+   "solution": "(i) ACHIAVAMANT: every 'E' becomes 'A'.\n(ii) -18: D = D and E = E; the third characters differ, 'D' (68) - 'V' (86) = -18. (Corrected: the source key said 1.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 286,
+   "school": "ICSE 2018"
+  },
+  {
+   "q_label": "77",
+   "q_order": 37,
+   "q_main": 77,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Replace vowels with the next character",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "toLowerCase()",
+    "charAt() loop",
+    "char + 1"
+   ],
+   "question": "Write a program to accept a word and convert it into lowercase if it is in uppercase, and display the new word by replacing only the vowels with the character following it.\nExample:\nSample Input: computer\nSample Output: cpmpvtfr",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass ReplaceVowel\n{\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a word: \");\n        String str = sc.next();\n        String w = str.toLowerCase();\n        String newstr = \"\";\n        int i;\n        for (i = 0; i < w.length(); i++)\n        {\n            char c = w.charAt(i);\n            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')\n                newstr = newstr + (char)(c + 1);\n            else\n                newstr = newstr + c;\n        }\n        System.out.println(\"New word: \" + newstr);\n    }\n}\n\n/* Variable description\n   str    : String  word entered\n   w      : String  word in lowercase\n   newstr : String  word after replacing vowels\n   c      : char    current character\n   i      : int     loop counter  */\n\nCheck: computer -> c, o->p, m, p, u->v, t, e->f, r = cpmpvtfr.\n(Corrected: the source program's switch block is broken, with its braces closed before the case labels.)",
+   "marking_points": [
+    {
+     "point": "Class, main() and Scanner input as required",
+     "marks": 3
+    },
+    {
+     "point": "Conversion to lowercase",
+     "marks": 2
+    },
+    {
+     "point": "Loop over the word with length() and charAt()",
+     "marks": 3
+    },
+    {
+     "point": "Vowel check and replacement with (char)(c + 1)",
+     "marks": 4
+    },
+    {
+     "point": "Output in the required format",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 286,
+   "school": "ICSE 2024 specimen"
+  },
+  {
+   "q_label": "78",
+   "q_order": 38,
+   "q_main": 78,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Count double-letter sequences",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "toUpperCase()",
+    "compare adjacent characters"
+   ],
+   "question": "Write a program to accept a string, convert the string to uppercase, count, and output the number of double-letter sequences that exist in the string.\nSample Input: \"SHE WAS FEEDING THE LITTLE RABBIT WITH AN APPLE\"\nSample Output: 4",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass DoubleLetters\n{\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"Enter a string:\");\n        String str = sc.nextLine().toUpperCase();\n        int len = str.length();\n        int count = 0, i;\n        for (i = 0; i < len - 1; i++)\n        {\n            char c = str.charAt(i);\n            char d = str.charAt(i + 1);\n            if (c == d && Character.isLetter(c))\n                count++;\n        }\n        System.out.println(\"Number of double-letter sequences: \" + count);\n    }\n}\n\n/* Variable description\n   str   : String  input converted to uppercase\n   len   : int     length of str\n   c, d  : char    a character and the one after it\n   count : int     number of double-letter pairs\n   i     : int     loop counter  */\n\nCheck: FEEDING (EE), LITTLE (TT), RABBIT (BB), APPLE (PP) = 4.",
+   "marking_points": [
+    {
+     "point": "Class, main() and Scanner input as required",
+     "marks": 3
+    },
+    {
+     "point": "Conversion to uppercase",
+     "marks": 2
+    },
+    {
+     "point": "Loop up to length() - 1 comparing charAt(i) and charAt(i + 1)",
+     "marks": 4
+    },
+    {
+     "point": "Counting the equal adjacent letters",
+     "marks": 3
+    },
+    {
+     "point": "Output in the required format",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 289,
+   "school": "ICSE 2020 compartment"
+  },
+  {
+   "q_label": "88",
+   "q_order": 39,
+   "q_main": 88,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Concatenate two strings",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "concat()",
+    "Scanner input"
+   ],
+   "question": "Write a complete Java program to concatenate two strings str1 and str2 entered from the keyboard.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Concat\n{\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter the first string: \");\n        String str1 = sc.nextLine();\n        System.out.print(\"Enter the second string: \");\n        String str2 = sc.nextLine();\n        String str3 = str1.concat(str2);\n        System.out.println(\"The concatenated string is: \" + str3);\n    }\n}\n\n/* Variable description\n   str1, str2 : String  strings entered by the user\n   str3       : String  str1 joined with str2  */",
+   "marking_points": [
+    {
+     "point": "Class and main() declaration",
+     "marks": 3
+    },
+    {
+     "point": "Scanner object created",
+     "marks": 2
+    },
+    {
+     "point": "Input of both strings",
+     "marks": 4
+    },
+    {
+     "point": "Concatenation with concat() or +",
+     "marks": 3
+    },
+    {
+     "point": "Output of the result",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 290,
+   "school": "ICSE 2022"
+  },
+  {
+   "q_label": "89",
+   "q_order": 40,
+   "q_main": 89,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Replace first occurrence of a word",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "indexOf()",
+    "substring()",
+    "method returning String"
+   ],
+   "question": "Define a method replaceSubstring(String input) to replace the first occurrence of the word \"apple\" with \"orange\". The modified string should be returned to the main method, where it is displayed.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass ReplaceApple\n{\n    static String replaceSubstring(String input)\n    {\n        int k = input.indexOf(\"apple\");\n        if (k == -1)\n            return input;                       // no \"apple\" found\n        return input.substring(0, k) + \"orange\" + input.substring(k + 5);\n    }\n\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"Enter a sentence:\");\n        String s = sc.nextLine();\n        String r = replaceSubstring(s);\n        System.out.println(\"Modified string: \" + r);\n    }\n}\n\n/* Variable description\n   input : String  sentence passed to the method\n   k     : int     index of the first \"apple\" (\"apple\".length() is 5)\n   s, r  : String  original and modified sentences  */\n\nExample: \"An apple a day. The apple is sweet.\" -> \"An orange a day. The apple is sweet.\"\n(Note: the source answer uses replaceFirst() with a regular expression, which is outside the ICSE syllabus; indexOf() and substring() do the same job.)",
+   "marking_points": [
+    {
+     "point": "Correct method header (name, parameters, return type)",
+     "marks": 1
+    },
+    {
+     "point": "Finding the first \"apple\" with indexOf() and rebuilding with substring()",
+     "marks": 2
+    },
+    {
+     "point": "Result returned/displayed from main",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 290,
+   "school": "ICSE 2024 specimen"
+  },
+  {
+   "q_label": "90",
+   "q_order": 41,
+   "q_main": 90,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Replace last occurrence of a word",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "lastIndexOf()",
+    "substring()",
+    "method returning String"
+   ],
+   "question": "Define a method replaceWord(String input) to replace the last occurrence of the word \"is\" with \"was\". The modified string should be returned to the main method, where it is displayed.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass ReplaceLast\n{\n    static String replaceWord(String input)\n    {\n        String s = \" \" + input + \" \";          // pad so the first/last word also has spaces round it\n        int k = s.lastIndexOf(\" is \");         // spaces stop \"is\" inside \"This\" from matching\n        if (k == -1)\n            return input;\n        s = s.substring(0, k) + \" was \" + s.substring(k + 4);\n        return s.substring(1, s.length() - 1); // remove the padding spaces\n    }\n\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"Enter a sentence:\");\n        String str = sc.nextLine();\n        System.out.println(\"Modified string: \" + replaceWord(str));\n    }\n}\n\n/* Variable description\n   input : String  sentence passed to the method\n   s     : String  padded sentence being changed\n   k     : int     index where the last \" is \" starts\n   str   : String  sentence entered  */\n\nExample: \"This is a test. It is just an example.\" -> \"This is a test. It was just an example.\" ",
+   "marking_points": [
+    {
+     "point": "Correct method header (name, parameters, return type)",
+     "marks": 1
+    },
+    {
+     "point": "Finding the last \" is \" with lastIndexOf() and rebuilding with substring()",
+     "marks": 2
+    },
+    {
+     "point": "Result returned/displayed from main",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 290,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "91",
+   "q_order": 42,
+   "q_main": 91,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Replace first occurrence of a word",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "indexOf()",
+    "substring()",
+    "word boundaries with spaces"
+   ],
+   "question": "Define a method replaceString to replace the first occurrence of the word \"an\" with \"the\".",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass ReplaceAn\n{\n    static void replaceString(String h)\n    {\n        String s = \" \" + h + \" \";              // padding so \"an\" is matched only as a whole word\n        int x = s.indexOf(\" an \");\n        if (x >= 0)\n        {\n            s = s.substring(0, x) + \" the \" + s.substring(x + 4);\n            System.out.println(\"The resulting string is: \" + s.trim());\n        }\n        else\n            System.out.println(\"an not found to be replaced\");\n    }\n\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Please enter a string: \");\n        String sh = sc.nextLine();\n        replaceString(sh);\n    }\n}\n\n/* Variable description\n   h  : String  sentence passed to the method\n   s  : String  padded sentence being changed\n   x  : int     index of the first \" an \"\n   sh : String  sentence entered  */\n\nExample: \"I ate an apple and an orange\" -> \"I ate the apple and an orange\".\n(Corrected: the source program never inserts \"the\" (it concatenates a space instead), its index arithmetic is wrong, and it reads the sentence with next(), which stops at the first space.)",
+   "marking_points": [
+    {
+     "point": "Correct method header (name, parameters, return type)",
+     "marks": 1
+    },
+    {
+     "point": "Locating the first whole word \"an\" and joining the parts with \"the\"",
+     "marks": 2
+    },
+    {
+     "point": "Result returned/displayed from main",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 290,
+   "school": "ICSE 2018"
+  },
+  {
+   "q_label": "92(i)",
+   "q_order": 43,
+   "q_main": 92,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Count digits using string functions",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "String.valueOf()",
+    "length()"
+   ],
+   "question": "(i) Define a method that finds the number of digits in a number entered by the user from the keyboard. Show the use of string functions.\n(ii) Define another method in the class that replaces the first digit with 0.\nAnswer part (i).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Digits\n{\n    static void find(long num)\n    {\n        String str = String.valueOf(num);       // number -> string\n        System.out.println(\"The number of digits in the number = \" + str.length());\n    }\n\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        long n = sc.nextLong();\n        find(n);\n    }\n}\n\n/* Variable description\n   num, n : long    the number (assumed positive)\n   str    : String  the number as a string  */\n\nExample: 2567 -> The number of digits in the number = 4",
+   "marking_points": [
+    {
+     "point": "Correct method header (name, parameters, return type)",
+     "marks": 1
+    },
+    {
+     "point": "Converting the number to a String and using length()",
+     "marks": 2
+    },
+    {
+     "point": "Result returned/displayed from main",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 295,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "92(ii)",
+   "q_order": 44,
+   "q_main": 92,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Replace the first digit with 0",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "charAt()/substring()",
+    "string concatenation"
+   ],
+   "question": "(i) Define a method that finds the number of digits in a number entered by the user from the keyboard. Show the use of string functions.\n(ii) Define another method in the class that replaces the first digit with 0.\nAnswer part (ii).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Digits\n{\n    static void repl(String a)\n    {\n        String j = \"0\" + a.substring(1);        // keep everything after the first digit\n        System.out.println(\"The final string: \" + j);\n    }\n\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        String f = sc.next();\n        repl(f);\n    }\n}\n\n/* Variable description\n   a, f : String  the number as a string\n   j    : String  number with its first digit changed to 0  */\n\nExample: 2567 -> 0567; 2562 -> 0562.\n(Corrected: the source uses a.replace(a.charAt(0), '0'), which also changes every later copy of that digit, e.g. 2562 would become 0560.)",
+   "marking_points": [
+    {
+     "point": "Correct method header (name, parameters, return type)",
+     "marks": 1
+    },
+    {
+     "point": "Replacing only the first character, e.g. \"0\" + a.substring(1)",
+     "marks": 2
+    },
+    {
+     "point": "Result returned/displayed from main",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 295,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "98",
+   "q_order": 45,
+   "q_main": 98,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Reverse n characters from position m",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "substring(m, m + n)",
+    "reverse with a loop"
+   ],
+   "question": "Define a method rev(String, m, n) where m denotes the position in string and n denotes the number of character from m position. The method reverses the n characters specified from position m and returns the reversed string to main method where it is displayed.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Reverse\n{\n    static String rev(String str, int m, int n)\n    {\n        String part = str.substring(m, m + n);  // n characters from index m\n        String r = \"\";\n        for (int i = part.length() - 1; i >= 0; i--)\n            r = r + part.charAt(i);\n        return r;\n    }\n\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"Please enter the string:\");\n        String nam = sc.nextLine();\n        System.out.println(\"Position (index) to start from:\");\n        int pos = sc.nextInt();\n        System.out.println(\"Number of characters:\");\n        int nm = sc.nextInt();\n        System.out.println(rev(nam, pos, nm));\n    }\n}\n\n/* Variable description\n   str, nam : String  the string\n   m, pos   : int     starting index\n   n, nm    : int     number of characters\n   part     : String  the extracted characters\n   r        : String  the reversed characters\n   i        : int     loop counter  */\n\nExample: rev(\"COMPUTER\", 2, 4) extracts \"MPUT\" and returns \"TUPM\".\n(The source answer uses StringBuffer.reverse(); a loop with charAt() gives the same result using only the String class.)",
+   "marking_points": [
+    {
+     "point": "Correct method header (name, parameters, return type)",
+     "marks": 1
+    },
+    {
+     "point": "Extracting with substring(m, m + n) and reversing with a loop",
+     "marks": 2
+    },
+    {
+     "point": "Result returned/displayed from main",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 298,
+   "school": "ICSE 2017 specimen"
+  },
+  {
+   "q_label": "99",
+   "q_order": 46,
+   "q_main": 99,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Class with constructor, counter and substring",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "default constructor",
+    "member methods",
+    "substring() for last four characters"
+   ],
+   "question": "Define a class Increment that contains the following members:\nData members: count, age, name, code\nConstructor: Initializes count to zero value.\nMethods:\n(i) countIncrement() to increase the value of count by 1.\n(ii) extractDigits() to extract last four digits of code.\n(iii) checkAge() to increment the count when age is less than 18 years. At the same time, prints the last four extracted digits of the code.\n(iv) Main method to call checkAge().",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Increment\n{\n    int count, age;\n    String name, code;\n\n    Increment()\n    {\n        count = 0;\n    }\n\n    void countIncrement()\n    {\n        count++;\n    }\n\n    String extractDigits()\n    {\n        int len = code.length();\n        return code.substring(len - 4);         // last four characters\n    }\n\n    void checkAge()\n    {\n        if (age < 18)\n        {\n            countIncrement();\n            System.out.println(\"Last four digits of code: \" + extractDigits());\n        }\n        System.out.println(\"Count = \" + count);\n    }\n\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        Increment obj = new Increment();\n        System.out.print(\"Enter name: \");\n        obj.name = sc.nextLine();\n        System.out.print(\"Enter age: \");\n        obj.age = sc.nextInt();\n        System.out.print(\"Enter code (at least 4 digits): \");\n        obj.code = sc.next();\n        obj.checkAge();\n    }\n}\n\n/* Variable description\n   count : int     number of persons under 18\n   age   : int     age of the person\n   name  : String  name of the person\n   code  : String  code of the person\n   len   : int     length of code  */\n\nExample: age 15, code 5503217 -> prints 3217 and Count = 1.",
+   "marking_points": [
+    {
+     "point": "Data members with correct types",
+     "marks": 2
+    },
+    {
+     "point": "Constructor setting count to 0",
+     "marks": 2
+    },
+    {
+     "point": "countIncrement()",
+     "marks": 1
+    },
+    {
+     "point": "extractDigits() using substring(len - 4)",
+     "marks": 3
+    },
+    {
+     "point": "checkAge() condition, increment and printing the digits",
+     "marks": 3
+    },
+    {
+     "point": "main() creating the object, input and calling checkAge()",
+     "marks": 3
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 297,
+   "school": "ICSE 2021 compartment"
+  },
+  {
+   "q_label": "101",
+   "q_order": 47,
+   "q_main": 101,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "toUpperCase() and toLowerCase()",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "toUpperCase()",
+    "toLowerCase()"
+   ],
+   "question": "Write a Java method swapCase(String input1, String input2) that converts the first string (input1) to uppercase and the second string (input2) to lowercase. Display the converted results.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "class SwapCaseExample\n{\n    static void swapCase(String input1, String input2)\n    {\n        String up = input1.toUpperCase();\n        String low = input2.toLowerCase();\n        System.out.println(\"First string in uppercase: \" + up);\n        System.out.println(\"Second string in lowercase: \" + low);\n    }\n\n    public static void main(String[] args)\n    {\n        swapCase(\"hello World\", \"JAVA Programming\");\n    }\n}\n\n/* Variable description\n   input1, input2 : String  strings passed in\n   up, low        : String  converted strings  */\n\nOutput:\nFirst string in uppercase: HELLO WORLD\nSecond string in lowercase: java programming",
+   "marking_points": [
+    {
+     "point": "Correct method header (name, parameters, return type)",
+     "marks": 1
+    },
+    {
+     "point": "Using toUpperCase() on input1 and toLowerCase() on input2 and printing them",
+     "marks": 2
+    },
+    {
+     "point": "Result returned/displayed from main",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 300,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "102",
+   "q_order": 48,
+   "q_main": 102,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Split a time hh:mm:ss into integers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "indexOf()/lastIndexOf()",
+    "substring()",
+    "Integer.parseInt()"
+   ],
+   "question": "Write a program that accepts a time in the format hh:mm:ss and separates the hours, minutes, and seconds as integer numbers. Display the extracted values.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass TimeSeparator\n{\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter time in hh:mm:ss format: \");\n        String time = sc.next();\n        int p1 = time.indexOf(':');\n        int p2 = time.lastIndexOf(':');\n        int hours = Integer.parseInt(time.substring(0, p1));\n        int minutes = Integer.parseInt(time.substring(p1 + 1, p2));\n        int seconds = Integer.parseInt(time.substring(p2 + 1));\n        System.out.println(\"Hours: \" + hours);\n        System.out.println(\"Minutes: \" + minutes);\n        System.out.println(\"Seconds: \" + seconds);\n    }\n}\n\n/* Variable description\n   time                   : String  time entered\n   p1, p2                 : int     positions of the two colons\n   hours, minutes, seconds: int     extracted values  */\n\nExample: 09:45:30 -> Hours: 9, Minutes: 45, Seconds: 30.\n(The source answer uses split(), which is outside the ICSE syllabus; indexOf() and substring() do the same job.)",
+   "marking_points": [
+    {
+     "point": "Class, main() and Scanner input as required",
+     "marks": 3
+    },
+    {
+     "point": "Locating the colons with indexOf()/lastIndexOf()",
+     "marks": 3
+    },
+    {
+     "point": "Extracting the three parts with substring()",
+     "marks": 3
+    },
+    {
+     "point": "Converting to int with Integer.parseInt()",
+     "marks": 3
+    },
+    {
+     "point": "Output in the required format",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 300,
+   "school": "ICSE 2017 compartment"
+  },
+  {
+   "q_label": "103",
+   "q_order": 49,
+   "q_main": 103,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Split a date dd/mm/yyyy into integers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "indexOf()/lastIndexOf()",
+    "substring()",
+    "Integer.parseInt()"
+   ],
+   "question": "Write a program that accepts a date in the format dd/mm/yyyy, and separates the day, the month and the year as integer numbers.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass DateSeparator\n{\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter date in dd/mm/yyyy format: \");\n        String date = sc.next();\n        int p1 = date.indexOf('/');\n        int p2 = date.lastIndexOf('/');\n        int day = Integer.parseInt(date.substring(0, p1));\n        int month = Integer.parseInt(date.substring(p1 + 1, p2));\n        int year = Integer.parseInt(date.substring(p2 + 1));\n        System.out.println(\"Day: \" + day);\n        System.out.println(\"Month: \" + month);\n        System.out.println(\"Year: \" + year);\n    }\n}\n\n/* Variable description\n   date            : String  date entered\n   p1, p2          : int     positions of the two '/' characters\n   day, month, year: int     extracted values  */\n\nExample: 26/01/2016 -> Day: 26, Month: 1, Year: 2016.\n(Corrected: the source program never forms the numbers; it subtracts 48 from each digit and prints the digits side by side.)",
+   "marking_points": [
+    {
+     "point": "Class, main() and Scanner input as required",
+     "marks": 3
+    },
+    {
+     "point": "Locating the '/' characters",
+     "marks": 3
+    },
+    {
+     "point": "Extracting day, month and year with substring()",
+     "marks": 3
+    },
+    {
+     "point": "Converting to int with Integer.parseInt()",
+     "marks": 3
+    },
+    {
+     "point": "Output in the required format",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 300,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "104",
+   "q_order": 50,
+   "q_main": 104,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Update age text for a new year",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "indexOf()/lastIndexOf()",
+    "Integer.parseInt()",
+    "string building"
+   ],
+   "question": "Consider that the age of a person is read as \"10 years old in the year 1960\", write a java method that changes the age accordingly if the current year is 2005.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "class AgeChange\n{\n    static String change(String str, int current)\n    {\n        int sp = str.indexOf(' ');                       // end of the age\n        int last = str.lastIndexOf(' ');                 // start of the year\n        int age = Integer.parseInt(str.substring(0, sp));\n        int yr = Integer.parseInt(str.substring(last + 1));\n        int newAge = age + (current - yr);\n        return newAge + str.substring(sp, last + 1) + current;\n    }\n\n    public static void main(String[] args)\n    {\n        String s = \"10 years old in the year 1960\";\n        System.out.println(change(s, 2005));\n    }\n}\n\n/* Variable description\n   str      : String  original sentence\n   current  : int     current year (2005)\n   sp, last : int     positions of the first and last space\n   age, yr  : int     age and year in the sentence\n   newAge   : int     age in the current year  */\n\nOutput: 55 years old in the year 2005   (10 + (2005 - 1960) = 55)\n(Corrected: the source program subtracts the year from 2000 instead of 2005, which would give 50.)",
+   "marking_points": [
+    {
+     "point": "Correct method header (name, parameters, return type)",
+     "marks": 1
+    },
+    {
+     "point": "Extracting age and year, computing age + (2005 - year) and rebuilding the sentence",
+     "marks": 2
+    },
+    {
+     "point": "Result returned/displayed from main",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 301,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "113",
+   "q_order": 51,
+   "q_main": 113,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Capitalise the first letter of each word",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "charAt()",
+    "Character.toUpperCase()",
+    "word start after a space"
+   ],
+   "question": "Write a Java program to take a string in lowercase and convert the first letter of each word to uppercase. Display the modified string.\nSample Input: we are in cyber world\nSample Output: We Are In Cyber World",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Capitalise\n{\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"Enter a sentence in lowercase:\");\n        String s = sc.nextLine().trim();\n        String n = \"\";\n        int i;\n        for (i = 0; i < s.length(); i++)\n        {\n            char ch = s.charAt(i);\n            if (i == 0 || s.charAt(i - 1) == ' ')\n                n = n + Character.toUpperCase(ch);   // first letter of a word\n            else\n                n = n + ch;\n        }\n        System.out.println(n);\n    }\n}\n\n/* Variable description\n   s  : String  sentence entered (trimmed)\n   n  : String  new sentence\n   ch : char    current character\n   i  : int     loop counter  */",
+   "marking_points": [
+    {
+     "point": "Class, main() and Scanner input as required",
+     "marks": 3
+    },
+    {
+     "point": "Loop over the sentence with charAt()",
+     "marks": 3
+    },
+    {
+     "point": "Detecting the first letter of each word (index 0 or after a space)",
+     "marks": 3
+    },
+    {
+     "point": "Character.toUpperCase() and building the new string",
+     "marks": 3
+    },
+    {
+     "point": "Output in the required format",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 304,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "114",
+   "q_order": 52,
+   "q_main": 114,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Count digits, alphabets and special characters",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "Character.isDigit()",
+    "Character.isLetter()",
+    "counters"
+   ],
+   "question": "Define a class to accept a String and print the number of digits, alphabets, and special characters in the string.\nExample:\nS = \"KAPILDEV@83\"\nOutput:\nNumber of digits = 2\nNumber of Alphabets = 8\nNumber of Special characters = 1",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Count\n{\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a string: \");\n        String S = sc.nextLine();\n        int d = 0, a = 0, sp = 0, i;\n        for (i = 0; i < S.length(); i++)\n        {\n            char c = S.charAt(i);\n            if (Character.isDigit(c))\n                d++;\n            else if (Character.isLetter(c))\n                a++;\n            else\n                sp++;\n        }\n        System.out.println(\"Number of digits = \" + d);\n        System.out.println(\"Number of Alphabets = \" + a);\n        System.out.println(\"Number of Special characters = \" + sp);\n    }\n}\n\n/* Variable description\n   S  : String  string entered\n   c  : char    current character\n   d  : int     count of digits\n   a  : int     count of letters\n   sp : int     count of other (special) characters\n   i  : int     loop counter  */\n\nCheck: KAPILDEV@83 -> 8 letters, 2 digits (8, 3), 1 special (@).",
+   "marking_points": [
+    {
+     "point": "Class, main() and Scanner input as required",
+     "marks": 3
+    },
+    {
+     "point": "Loop over the string with charAt()",
+     "marks": 3
+    },
+    {
+     "point": "Digit and letter checks with Character methods",
+     "marks": 3
+    },
+    {
+     "point": "Counting the remaining characters as special",
+     "marks": 3
+    },
+    {
+     "point": "Output in the required format",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 304,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "115",
+   "q_order": 53,
+   "q_main": 115,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Count uppercase, lowercase and spaces",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "Character.isUpperCase()",
+    "Character.isLowerCase()",
+    "space check"
+   ],
+   "question": "Define a class to accept a String and print the number of uppercase letters, lowercase letters, and spaces in the string.\nExample:\nInput:\nS = \"Hello World 2023\"\nOutput:\nNumber of uppercase letters = 2\nNumber of lowercase letters = 8\nNumber of spaces = 2",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass CountCharacters\n{\n    public static void main(String[] args)\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a string: \");\n        String S = sc.nextLine();\n        int up = 0, low = 0, sp = 0, i;\n        for (i = 0; i < S.length(); i++)\n        {\n            char ch = S.charAt(i);\n            if (Character.isUpperCase(ch))\n                up++;\n            else if (Character.isLowerCase(ch))\n                low++;\n            else if (ch == ' ')\n                sp++;\n        }\n        System.out.println(\"Number of uppercase letters = \" + up);\n        System.out.println(\"Number of lowercase letters = \" + low);\n        System.out.println(\"Number of spaces = \" + sp);\n    }\n}\n\n/* Variable description\n   S   : String  string entered\n   ch  : char    current character\n   up  : int     uppercase count\n   low : int     lowercase count\n   sp  : int     space count\n   i   : int     loop counter  */\n\nCheck: Hello World 2023 -> H, W uppercase (2); ello, orld lowercase (8); 2 spaces.",
+   "marking_points": [
+    {
+     "point": "Class, main() and Scanner input as required",
+     "marks": 3
+    },
+    {
+     "point": "Loop over the string with charAt()",
+     "marks": 3
+    },
+    {
+     "point": "Uppercase and lowercase checks with Character methods",
+     "marks": 4
+    },
+    {
+     "point": "Space check",
+     "marks": 2
+    },
+    {
+     "point": "Output in the required format",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 307,
+   "school": "ICSE 2018 specimen"
+  }
+ ]
+}

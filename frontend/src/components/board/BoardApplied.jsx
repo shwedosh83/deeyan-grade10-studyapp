@@ -104,7 +104,7 @@ export default function BoardApplied({ fixedSource = null, fixedIds = null }) {
       <div className="card space-y-6 p-6">
         {!fixedSource && (info?.sources || []).length > 1 && (
           <Field label="Which papers?">
-            <Segmented value={source} onChange={setSource} options={['', 'board', 'prelim'].map(s => [s, SOURCE_LABELS[s]])} />
+            <Segmented value={source} onChange={setSource} options={['', ...['board', 'prelim', 'pyq'].filter(x => (info?.sources || []).includes(x))].map(s => [s, SOURCE_LABELS[s]])} />
           </Field>
         )}
         <Field label="Type of question" hint="(none selected = all)">

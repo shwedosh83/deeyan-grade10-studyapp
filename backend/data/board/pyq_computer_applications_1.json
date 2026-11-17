@@ -1,0 +1,2436 @@
+{
+ "paper_id": "pyq_computer_applications_1",
+ "subject": "computer_applications",
+ "year": 2024,
+ "sem": null,
+ "label": "Past papers · Revision (part 1)",
+ "source": "pyq",
+ "school": "CISCE past papers",
+ "exam_label": "Past papers by chapter",
+ "max_marks": 95.0,
+ "duration_minutes": 0,
+ "reading_minutes": 0,
+ "instructions": "Chapter-wise questions from ICSE board, compartment and specimen papers, 2015–2024.",
+ "sections": [
+  {
+   "name": "Past-paper questions",
+   "total_marks": 95.0,
+   "rule": "Practise in any order.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "2",
+   "q_order": 0,
+   "q_main": 2,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Number of primitive data types",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "primitive data types"
+   ],
+   "question": "What is the total number of primitive data types available in Java?",
+   "options": {
+    "a": "4",
+    "b": "6",
+    "c": "8",
+    "d": "2"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 8. Java has eight primitive types: byte, short, int, long, float, double, char and boolean.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 40,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "3",
+   "q_order": 1,
+   "q_main": 3,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Precedence of && and ||",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "operator precedence",
+    "logical operators"
+   ],
+   "question": "Which operator has higher precedence in an expression containing both && and || in Java?",
+   "options": {
+    "a": "&&",
+    "b": "||",
+    "c": "Both have equal precedence",
+    "d": "None"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) &&. Logical AND is evaluated before logical OR unless parentheses change the order.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 40,
+   "school": "ICSE 2023 compartment"
+  },
+  {
+   "q_label": "4",
+   "q_order": 2,
+   "q_main": 4,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Accumulator variable",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "accumulator"
+   ],
+   "question": "In the statement t = t + (i + x);, which variable acts as the accumulator?",
+   "options": {
+    "a": "t",
+    "b": "i",
+    "c": "x",
+    "d": "None"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) t. t keeps the running total: its old value is added to and stored back into t.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 41,
+   "school": "ICSE 2021 specimen"
+  },
+  {
+   "q_label": "6",
+   "q_order": 3,
+   "q_main": 6,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "Package of String class",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "String class",
+    "java.lang"
+   ],
+   "question": "In Java, which package does the String class belong to?",
+   "options": {
+    "a": "java.io",
+    "b": "java.string",
+    "c": "java.lang",
+    "d": "java.awt"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) java.lang. String is in java.lang, which every Java program imports automatically.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 41,
+   "school": "ICSE 2018 specimen"
+  },
+  {
+   "q_label": "7",
+   "q_order": 4,
+   "q_main": 7,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Valid variable declarations",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "variable declaration"
+   ],
+   "question": "Which of the following statements is invalid in Java?",
+   "options": {
+    "a": "int x, y;",
+    "b": "int x = 0, y = 0;",
+    "c": "int x, y = 0;",
+    "d": "long x, int y = 0;"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) long x, int y = 0;. One declaration statement can name only one data type; variables of different types need separate statements.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 41,
+   "school": "ICSE 2020"
+  },
+  {
+   "q_label": "8",
+   "q_order": 5,
+   "q_main": 8,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Compound assignment *=",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "shorthand assignment operator"
+   ],
+   "question": "State the output of the following code:\nint x = 3, y = 0; x *= 3 + y;",
+   "options": {
+    "a": "9",
+    "b": "11",
+    "c": "0",
+    "d": "6"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 9. x *= 3 + y means x = x * (3 + y) = 3 * 3 = 9.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 41,
+   "school": "ICSE 2019 compartment"
+  },
+  {
+   "q_label": "16",
+   "q_order": 6,
+   "q_main": 16,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Facts about data types",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "float",
+    "char size",
+    "boolean"
+   ],
+   "question": "Which statement about Java's data types is true?",
+   "options": {
+    "a": "The boolean data type can store more than two values.",
+    "b": "The char data type uses 1 byte.",
+    "c": "The float data type is used for single-precision numbers.",
+    "d": "The int data type stores characters."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) The float data type is used for single-precision numbers. float is a 4-byte single-precision type; char uses 2 bytes and boolean holds only true or false.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 42,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "19",
+   "q_order": 7,
+   "q_main": 19,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Iteration construct",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "iteration",
+    "loops"
+   ],
+   "question": "Which Java construct is used to repeat a block of statements until a condition becomes false?",
+   "options": {
+    "a": "Selection construct",
+    "b": "Iteration construct",
+    "c": "Branching statement",
+    "d": "Jumping statement"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Iteration construct. Loops (for, while, do-while) repeat a block while the condition is true.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 43,
+   "school": "ICSE 2020 compartment"
+  },
+  {
+   "q_label": "21",
+   "q_order": 8,
+   "q_main": 21,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Math.PI",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Math.PI"
+   ],
+   "question": "What does the Math.PI constant represent?",
+   "options": {
+    "a": "The value of the square root of 2.",
+    "b": "The value of pi (π).",
+    "c": "The base of natural logarithms (e).",
+    "d": "The value of infinity."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) The value of pi (π). Math.PI is the double value 3.141592653589793.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 43,
+   "school": "ICSE 2017 specimen"
+  },
+  {
+   "q_label": "22",
+   "q_order": 9,
+   "q_main": 22,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Reading an int with Scanner",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Scanner",
+    "nextInt()"
+   ],
+   "question": "Which of the following is the correct way to read an integer from the console using the Scanner class?\nA. int num = scan.nextInt();\nB. int num = scan.readInt();\nC. int num = scan.inputInt();\nD. int num = nextInt(scan);",
+   "options": {
+    "a": "Only A",
+    "b": "Only B",
+    "c": "Both A and B",
+    "d": "All the three"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Only A. Scanner reads an int with nextInt() called on the Scanner object; readInt(), inputInt() and nextInt(scan) do not exist.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 43,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "24",
+   "q_order": 10,
+   "q_main": 24,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "Multi-line comment syntax",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "comments"
+   ],
+   "question": "Which of the following is the correct way to create a multi-line comment in Java?\nA. /* This is a multi-line comment */\nB. // This is a multi-line comment //\nC. <!-- This is a multi-line comment -->\nD. ** This is a multi-line comment **",
+   "options": {
+    "a": "Only A",
+    "b": "Only B",
+    "c": "Both A and B",
+    "d": "All the three"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Only A. A multi-line comment starts with /* and ends with */. // is a single-line comment; <!-- --> is HTML.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 44,
+   "school": "ICSE 2016 specimen"
+  },
+  {
+   "q_label": "25",
+   "q_order": 11,
+   "q_main": 25,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Math.sqrt usage",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Math.sqrt"
+   ],
+   "question": "Which of the following is the correct way to use the Math class to find the square root of a number?\nA. double result = Math.sqrt(16);\nB. double result = Math.square(16);\nC. double result = sqrt.Math(16);\nD. double result = square.Math(16);",
+   "options": {
+    "a": "Only A",
+    "b": "Only B",
+    "c": "Both A and C",
+    "d": "All the three"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Only A. The method is Math.sqrt(), called as ClassName.methodName; Math.square() does not exist.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 44,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "26",
+   "q_order": 12,
+   "q_main": 26,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Character literal",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "char literal"
+   ],
+   "question": "Which of the following is the correct way to represent a character in Java?\nA. char c = 'A';\nB. char c = \"A\";\nC. char c = A;\nD. char c = (char)\"A\";",
+   "options": {
+    "a": "Only A",
+    "b": "Only B",
+    "c": "Both A and C",
+    "d": "All the three"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Only A. A char literal is written in single quotes. \"A\" is a String, and A without quotes is an identifier.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 44,
+   "school": "ICSE 2019 compartment"
+  },
+  {
+   "q_label": "32",
+   "q_order": 13,
+   "q_main": 32,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "Platform independence and byte code",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "byte code",
+    "JVM"
+   ],
+   "question": "Assertion (A): Java is a platform-independent programming language.\nReason (R): Java programs are compiled into byte code, which is executed by the Java Virtual Machine (JVM).",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A.",
+    "b": "Both A and R are true, but R is not the correct explanation of A.",
+    "c": "A is true, but R is false.",
+    "d": "A is false, but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both A and R are true, and R is the correct explanation of A. The same byte code runs on any machine that has a JVM, which is what makes Java platform independent.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 45,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "33",
+   "q_order": 14,
+   "q_main": 33,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "OOP vs procedure-oriented",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "OOP",
+    "POP"
+   ],
+   "question": "Assertion (A): Object-Oriented Programming (OOP) is focused on procedures and logic.\nReason (R): OOP uses concepts like encapsulation, inheritance and polymorphism to model real-world entities.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A.",
+    "b": "Both A and R are true, but R is not the correct explanation of A.",
+    "c": "A is true, but R is false.",
+    "d": "A is false, but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) A is false, but R is true. Focusing on procedures and logic describes procedure-oriented programming; OOP models real-world objects.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 45,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "34",
+   "q_order": 15,
+   "q_main": 34,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Fall-through in switch",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "switch",
+    "fall through",
+    "break"
+   ],
+   "question": "Assertion (A): The switch construct in Java is also known as a fall-through construct.\nReason (R): The break statement is mandatory after every case in a switch construct.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A.",
+    "b": "Both A and R are true, but R is not the correct explanation of A.",
+    "c": "A is true, but R is false.",
+    "d": "A is false, but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) A is true, but R is false. Without break, control falls through to the next case, which is why switch is called fall-through; break is optional.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 46,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "36",
+   "q_order": 16,
+   "q_main": 36,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Nested for loop",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "nested loops"
+   ],
+   "question": "Assertion (A): A nested for loop in Java allows one loop to exist inside another.\nReason (R): The outer loop must always complete all iterations before the inner loop can execute.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A.",
+    "b": "Both A and R are true, but R is not the correct explanation of A.",
+    "c": "A is true, but R is false.",
+    "d": "A is false, but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) A is true, but R is false. The inner loop runs completely for each single iteration of the outer loop.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 46,
+   "school": "ICSE 2020"
+  },
+  {
+   "q_label": "37",
+   "q_order": 17,
+   "q_main": 37,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "Encapsulation",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "encapsulation",
+    "data hiding"
+   ],
+   "question": "Assertion (A): Encapsulation is one of the key principles of Object-Oriented Programming (OOP).\nReason (R): Encapsulation allows data to be hidden within an object, ensuring controlled access through methods.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A.",
+    "b": "Both A and R are true, but R is not the correct explanation of A.",
+    "c": "A is true, but R is false.",
+    "d": "A is false, but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both A and R are true, and R is the correct explanation of A. Wrapping data and methods together and controlling access is what makes encapsulation a core OOP principle.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 46,
+   "school": "ICSE 2017 compartment"
+  },
+  {
+   "q_label": "38",
+   "q_order": 18,
+   "q_main": 38,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "new operator",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 3,
+   "concepts": [
+    "new operator",
+    "object reference"
+   ],
+   "question": "Assertion (A): The keyword new in Java is used to allocate memory for an object at runtime.\nReason (R): The new keyword returns the reference (address) of the allocated memory.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A.",
+    "b": "Both A and R are true, but R is not the correct explanation of A.",
+    "c": "A is true, but R is false.",
+    "d": "A is false, but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Both A and R are true, but R is not the correct explanation of A. new allocates memory and then returns its reference; returning the reference is a further fact, not the reason memory is allocated. (Corrected: the source key said (a).)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 46,
+   "school": "ICSE 2021 specimen"
+  },
+  {
+   "q_label": "40",
+   "q_order": 19,
+   "q_main": 40,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Range of byte",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "byte range"
+   ],
+   "question": "Assertion (A): The byte data type in Java is capable of storing large numerical values.\nReason (R): The range of the byte data type is from -128 to +127.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A.",
+    "b": "Both A and R are true, but R is not the correct explanation of A.",
+    "c": "A is true, but R is false.",
+    "d": "A is false, but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) A is false, but R is true. byte is 1 byte with range -128 to +127, so it cannot store large values.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 47,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "41",
+   "q_order": 20,
+   "q_main": 41,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "ASCII vs Unicode in Java",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "Unicode",
+    "ASCII"
+   ],
+   "question": "Assertion (A): Java uses ASCII to store characters.\nReason (R): ASCII assigns unique binary values to characters and symbols, allowing computers to store and process them.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A.",
+    "b": "Both A and R are true, but R is not the correct explanation of A.",
+    "c": "A is true, but R is false.",
+    "d": "A is false, but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) A is false, but R is true. Java stores characters in Unicode (2 bytes), not ASCII; R correctly describes ASCII.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 47,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "42",
+   "q_order": 21,
+   "q_main": 42,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "Definition of OOP",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "OOP"
+   ],
+   "question": "What is object-oriented programming?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Object-oriented programming is a way of programming that models the real world in software: a program is built from objects, each combining data (attributes) and the methods (behaviour) that act on it, and objects are grouped into classes.",
+   "marking_points": [
+    {
+     "point": "Programming based on objects that model real-world entities",
+     "marks": 1
+    },
+    {
+     "point": "Objects combine data and methods / grouped into classes",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 47,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "43",
+   "q_order": 22,
+   "q_main": 43,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "POP and OOP languages",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "POP",
+    "OOP languages"
+   ],
+   "question": "Name two Process Oriented languages and two Object Oriented languages.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Process (procedure) oriented: C, Fortran (also Pascal, BASIC).\nObject oriented: Java, C++ (also Python, C#).",
+   "marking_points": [
+    {
+     "point": "Two correct process-oriented languages",
+     "marks": 1
+    },
+    {
+     "point": "Two correct object-oriented languages",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 47,
+   "school": "ICSE 2022"
+  },
+  {
+   "q_label": "45",
+   "q_order": 23,
+   "q_main": 45,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "Uses of OOP principles",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "encapsulation",
+    "inheritance",
+    "polymorphism"
+   ],
+   "question": "Write the usage of different OOPs concepts.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Encapsulation: binds data and methods into one unit (class) and protects the data from misuse.\nAbstraction: shows only essential features and hides the details.\nInheritance: a derived class reuses the features of a base class, so they need not be redefined.\nPolymorphism: the same method name can behave differently (e.g. method overloading).",
+   "marking_points": [
+    {
+     "point": "Encapsulation and abstraction uses",
+     "marks": 1
+    },
+    {
+     "point": "Inheritance and polymorphism uses",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 47,
+   "school": "ICSE 2021 compartment"
+  },
+  {
+   "q_label": "46",
+   "q_order": 24,
+   "q_main": 46,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "Byte code",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "byte code"
+   ],
+   "question": "Define the term Byte code.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Byte code is the intermediate, machine-independent code produced when the Java compiler compiles source code. It is not tied to any machine and is run by the Java Virtual Machine (JVM), which interprets it into the machine code of the system.",
+   "marking_points": [
+    {
+     "point": "Intermediate code produced by the Java compiler",
+     "marks": 1
+    },
+    {
+     "point": "Machine independent, executed/interpreted by the JVM",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 47,
+   "school": "ICSE 2020 compartment"
+  },
+  {
+   "q_label": "47",
+   "q_order": 25,
+   "q_main": 47,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "Need of JVM",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "JVM"
+   ],
+   "question": "What is the need of JVM?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Byte code cannot run directly on a machine. The JVM (Java Virtual Machine) is an interpreter on each machine that translates byte code into that machine's own machine language and runs it. This is what lets the same byte code run on any system.",
+   "marking_points": [
+    {
+     "point": "JVM interprets byte code into the machine's language and executes it",
+     "marks": 1
+    },
+    {
+     "point": "Enables platform independence",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 47,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "48",
+   "q_order": 26,
+   "q_main": 48,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "Compilation and execution in Java",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "compiler",
+    "byte code",
+    "JVM"
+   ],
+   "question": "Explain the compilation process/execution stages in Java.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Java programs are both compiled and interpreted. 1) The Java compiler (javac) translates the source code (.java) into byte code (.class), an intermediate machine-independent code. 2) The Java Virtual Machine (JVM) on the target machine interprets the byte code into that machine's language and runs it.",
+   "marking_points": [
+    {
+     "point": "Compiler converts source code to byte code",
+     "marks": 1
+    },
+    {
+     "point": "JVM interprets byte code to machine code and executes it",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 47,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "50",
+   "q_order": 27,
+   "q_main": 50,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Object-Oriented Programming Concepts",
+   "topic": "Java as Internet language",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "portability",
+    "byte code"
+   ],
+   "question": "Why is Java called Internet language?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Java source is compiled to byte code, which does not depend on the machine; any computer with a JVM can run it. So Java programs are portable and can be distributed over the Internet to many different kinds of machines. Java is also secure and supports networking, which suits Internet applications.",
+   "marking_points": [
+    {
+     "point": "Byte code is machine independent / portable",
+     "marks": 1
+    },
+    {
+     "point": "Can be run on any machine on the Internet via JVM",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 48,
+   "school": "ICSE 2020 compartment"
+  },
+  {
+   "q_label": "51",
+   "q_order": 28,
+   "q_main": 51,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class vs object",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "class",
+    "object"
+   ],
+   "question": "Differentiate between a class and an object.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Class | Object\nA blueprint or template from which objects are created. | An instance of a class.\nHas logical existence; no memory is allocated when it is declared. | Has physical existence; memory is allocated when it is created.\nDeclared once using the keyword class. | Many objects can be created, using the keyword new.",
+   "marking_points": [
+    {
+     "point": "Class is a blueprint/template; object is an instance",
+     "marks": 1
+    },
+    {
+     "point": "Any second valid difference (memory/existence/keyword)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 48,
+   "school": "ICSE 2022"
+  },
+  {
+   "q_label": "56",
+   "q_order": 29,
+   "q_main": 56,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Unicode vs ASCII",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Unicode",
+    "ASCII"
+   ],
+   "question": "What is the difference between Unicode and ASCII?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "ASCII uses 7 bits (stored in 1 byte) and codes only 128 characters (0 to 127), mainly English letters, digits and symbols.\nUnicode uses 16 bits (2 bytes) in Java, coding 65,536 characters, so it covers the scripts of most languages of the world. Unicode is a superset of ASCII: codes 0 to 127 mean the same in both (65 is 'A'). (Corrected: the source key said codes 0–128 match; ASCII codes run 0–127.)",
+   "marking_points": [
+    {
+     "point": "ASCII: 7 bits / 128 characters / English only",
+     "marks": 1
+    },
+    {
+     "point": "Unicode: 16 bits (2 bytes) / 65,536 characters / most world languages",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 49,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "58",
+   "q_order": 30,
+   "q_main": 58,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Size of short and float",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "data type sizes"
+   ],
+   "question": "Write the memory capacity (storage size) of short and float data type in bytes.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "short",
+     "accepted": [
+      "2",
+      "2 bytes",
+      "2 Bytes",
+      "2 byte",
+      "16 bits"
+     ]
+    },
+    {
+     "prompt": "float",
+     "accepted": [
+      "4",
+      "4 bytes",
+      "4 Bytes",
+      "4 byte",
+      "32 bits"
+     ]
+    }
+   ],
+   "solution": "short = 2 bytes; float = 4 bytes.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 49,
+   "school": "ICSE 2018"
+  },
+  {
+   "q_label": "63",
+   "q_order": 31,
+   "q_main": 63,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Ranges of integer types",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "integer data types",
+    "range"
+   ],
+   "question": "Write the range of acceptable values of these data types:\n(i) int\n(ii) short\n(iii) long\n(iv) byte",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) int: -2^31 to 2^31 - 1 (-2147483648 to 2147483647)\n(ii) short: -32768 to 32767\n(iii) long: -2^63 to 2^63 - 1\n(iv) byte: -128 to 127",
+   "marking_points": [
+    {
+     "point": "int and short ranges",
+     "marks": 1
+    },
+    {
+     "point": "long and byte ranges",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 49,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "67",
+   "q_order": 32,
+   "q_main": 67,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Binary operators",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "binary operators"
+   ],
+   "question": "What are the binary operators?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Binary operators work on two operands, e.g. a + b. Examples: arithmetic + - * / %; relational < > <= >= == !=; logical && ||.",
+   "marking_points": [
+    {
+     "point": "Operators that need two operands",
+     "marks": 1
+    },
+    {
+     "point": "Correct examples",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 50,
+   "school": "ICSE 2020"
+  },
+  {
+   "q_label": "70",
+   "q_order": 33,
+   "q_main": 70,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Operator precedence order",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "operator precedence"
+   ],
+   "question": "Operators with higher precedence are evaluated before operators with relatively lower precedence. Arrange the operators given below in order of higher precedence to lower precedence.\n(i) &&\n(ii) %\n(iii) >=\n(iv) ++",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Order from highest to lowest",
+     "accepted": [
+      "++, %, >=, &&",
+      "++ % >= &&",
+      "++, %, >= , &&",
+      "(iv), (ii), (iii), (i)",
+      "iv, ii, iii, i",
+      "(iv) (ii) (iii) (i)",
+      "iv ii iii i"
+     ]
+    }
+   ],
+   "solution": "++ , % , >= , && — i.e. (iv), (ii), (iii), (i). Unary ++ is highest, then multiplicative %, then relational >=, then logical &&.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 50,
+   "school": "ICSE 2017 specimen"
+  },
+  {
+   "q_label": "73",
+   "q_order": 34,
+   "q_main": 73,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Types of literals",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "literals"
+   ],
+   "question": "Identify the literals listed below:\n(i) 0.5\n(ii) 'A'\n(iii) false\n(iv) \"a\"",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "0.5",
+     "accepted": [
+      "Floating literal",
+      "Floating point literal",
+      "Floating-point literal",
+      "Real literal",
+      "double literal",
+      "Floating"
+     ]
+    },
+    {
+     "prompt": "'A'",
+     "accepted": [
+      "Character literal",
+      "char literal",
+      "Character"
+     ]
+    },
+    {
+     "prompt": "false",
+     "accepted": [
+      "Boolean literal",
+      "boolean",
+      "Boolean"
+     ]
+    },
+    {
+     "prompt": "\"a\"",
+     "accepted": [
+      "String literal",
+      "String"
+     ]
+    }
+   ],
+   "solution": "(i) 0.5 – floating-point (real) literal; (ii) 'A' – character literal; (iii) false – boolean literal; (iv) \"a\" – String literal.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 51,
+   "school": "ICSE 2023 compartment"
+  },
+  {
+   "q_label": "76",
+   "q_order": 35,
+   "q_main": 76,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Unary vs binary operators",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "unary operators",
+    "binary operators"
+   ],
+   "question": "Give one point of difference between unary and binary operators.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A unary operator works on one operand (e.g. ++a, -a, !flag), whereas a binary operator works on two operands (e.g. a + b, a > b).",
+   "marking_points": [
+    {
+     "point": "Unary: one operand, with example",
+     "marks": 1
+    },
+    {
+     "point": "Binary: two operands, with example",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 51,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "77",
+   "q_order": 36,
+   "q_main": 77,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Java expression with Math.sqrt",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Math.sqrt",
+    "Java expressions"
+   ],
+   "question": "Write a Java expression for √(2as + u²)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Math.sqrt(2 * a * s + u * u)   (or Math.sqrt(2 * a * s + Math.pow(u, 2)))",
+   "marking_points": [
+    {
+     "point": "Math.sqrt applied to the whole expression",
+     "marks": 1
+    },
+    {
+     "point": "2 * a * s + u * u written correctly",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 51,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "81",
+   "q_order": 37,
+   "q_main": 81,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Types of errors",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "syntax error",
+    "runtime error",
+    "logical error"
+   ],
+   "question": "Name the type of error (syntax, runtime, or logical error) in each case given below:\n(i) Division of a variable by a variable that contains a value of zero.\n(ii) Use of multiplication operator for a division operation.\n(iii) Missing a semicolon in a Java sentence.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(i)",
+     "accepted": [
+      "Runtime error",
+      "Runtime",
+      "Run time error",
+      "Run-time error"
+     ]
+    },
+    {
+     "prompt": "(ii)",
+     "accepted": [
+      "Logical error",
+      "Logical",
+      "Logic error"
+     ]
+    },
+    {
+     "prompt": "(iii)",
+     "accepted": [
+      "Syntax error",
+      "Syntax"
+     ]
+    }
+   ],
+   "solution": "(i) Runtime error (integer division by zero throws ArithmeticException while running); (ii) Logical error (compiles and runs, but gives a wrong result); (iii) Syntax error (caught by the compiler).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 51,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "83(i)",
+   "q_order": 38,
+   "q_main": 83,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "if-else to ternary",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "ternary operator"
+   ],
+   "question": "Rewrite the following decision-making statement using the conditional operator:\nif (x > 0)\n    flag = 1;\nelse\n    flag = 0;",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "flag = (x > 0) ? 1 : 0;",
+   "marking_points": [
+    {
+     "point": "Condition x > 0 with ? :",
+     "marks": 1
+    },
+    {
+     "point": "Correct values 1 and 0 assigned to flag",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 52,
+   "school": "ICSE 2017 compartment"
+  },
+  {
+   "q_label": "83(ii)",
+   "q_order": 39,
+   "q_main": 83,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "if statements to ternary",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "ternary operator",
+    "if-else"
+   ],
+   "question": "Rewrite the following decision-making statements using the conditional operator:\nif (x <= 0)\n    value = 2 * x;\nif (x > 0 && x < 10)\n    value = 5 * x;\nelse\n    value = 0;",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "value = (x > 0 && x < 10) ? 5 * x : 0;\nThe two if statements are separate, so for x <= 0 the first if sets value = 2 * x but the second if-else then overwrites it with 0. The net effect is therefore: 5 * x when 0 < x < 10, otherwise 0.\n(If the second if were meant as else-if, the answer would be value = (x <= 0) ? 2 * x : (x < 10) ? 5 * x : 0;)\n(Corrected: the source key said value = (!(x <= 0)) ? ((x > 0 && x < 10) ? (5 * x) : 0) : (2 * x), which gives 2 * x for x <= 0, but the code as written leaves value = 0 there.)",
+   "marking_points": [
+    {
+     "point": "Condition x > 0 && x < 10 with ? :",
+     "marks": 1
+    },
+    {
+     "point": "Correct results 5 * x and 0",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 52,
+   "school": "ICSE 2017 compartment"
+  },
+  {
+   "q_label": "87",
+   "q_order": 40,
+   "q_main": 87,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Postfix and prefix in compound assignment",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "postfix increment",
+    "prefix increment",
+    "compound assignment"
+   ],
+   "question": "What will be the output of the following code?\nint k = 5, j = 9;\nk += k++ - ++j + k;\nSystem.out.println(\"k=\" + k);\nSystem.out.println(\"j=\" + j);",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "k=6\nj=10\nTrace: k += expr means k = 5 + (expr), with the left k (5) saved first. k++ gives 5 (k becomes 6); ++j gives 10; then k is 6. expr = 5 - 10 + 6 = 1, so k = 5 + 1 = 6. j = 10.",
+   "marking_points": [
+    {
+     "point": "k=6",
+     "marks": 1
+    },
+    {
+     "point": "j=10",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 52,
+   "school": "ICSE 2018 compartment"
+  },
+  {
+   "q_label": "90(ii)",
+   "q_order": 41,
+   "q_main": 90,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Evaluating prefix/postfix expression",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "prefix decrement",
+    "postfix increment"
+   ],
+   "question": "If the value of x = 2, y = 3, and z = 1, find:\nv = x + --z + y++ + y;",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "v",
+     "accepted": [
+      "9",
+      "v = 9",
+      "v=9"
+     ]
+    }
+   ],
+   "solution": "v = 9. Trace: x = 2; --z = 0; y++ gives 3 (y becomes 4); y = 4. v = 2 + 0 + 3 + 4 = 9.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 53,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "91(i)",
+   "q_order": 42,
+   "q_main": 91,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Prefix vs postfix in expression",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "prefix increment",
+    "postfix increment"
+   ],
+   "question": "What will be the output of the following, if x = 5 initially?\n(a) 5 * ++x\n(b) 5 * x++",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(a) 5 * ++x",
+     "accepted": [
+      "30"
+     ]
+    },
+    {
+     "prompt": "(b) 5 * x++",
+     "accepted": [
+      "25"
+     ]
+    }
+   ],
+   "solution": "(a) 30: x becomes 6 first, 5 * 6 = 30. (b) 25: the old value 5 is used, 5 * 5 = 25, then x becomes 6.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 53,
+   "school": "ICSE 2021 compartment"
+  },
+  {
+   "q_label": "91(ii)",
+   "q_order": 43,
+   "q_main": 91,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "char + short arithmetic",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "char arithmetic",
+    "type promotion"
+   ],
+   "question": "What is the output of the following?\nchar c = 'A';\nshort m = 26;\nint n = c + m;\nSystem.out.println(n);",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Output",
+     "accepted": [
+      "91"
+     ]
+    }
+   ],
+   "solution": "91. 'A' has code 65; 65 + 26 = 91, stored in int n and printed.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 53,
+   "school": "ICSE 2021 compartment"
+  },
+  {
+   "q_label": "92",
+   "q_order": 44,
+   "q_main": 92,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Character.isDigit return",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "Character.isDigit",
+    "boolean"
+   ],
+   "question": "State the data type and value of res after the following is executed:\nchar ch = '9';\nres = Character.isDigit(ch);",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Data type of res",
+     "accepted": [
+      "boolean"
+     ]
+    },
+    {
+     "prompt": "Value of res",
+     "accepted": [
+      "true"
+     ]
+    }
+   ],
+   "solution": "res is boolean and its value is true, because '9' is a digit character. (Corrected: the source key only repeated the code.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 53,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "93",
+   "q_order": 45,
+   "q_main": 93,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "a++ vs ++a",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "prefix increment",
+    "postfix increment"
+   ],
+   "question": "Is a++ equivalent to ++a ?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Only when written as a separate statement: both a++; and ++a; increase a by 1 (int a = 10; a++; or ++a; leaves a = 11). Inside an expression they differ: ++a increments first and uses the new value, a++ uses the old value and then increments. E.g. with a = 10, b = ++a gives b = 11, but b = a++ gives b = 10 (a becomes 11 in both).",
+   "marking_points": [
+    {
+     "point": "Same effect when used as a standalone statement",
+     "marks": 1
+    },
+    {
+     "point": "Differ in an expression: prefix uses new value, postfix uses old value",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 53,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "102",
+   "q_order": 46,
+   "q_main": 102,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Packages",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "packages"
+   ],
+   "question": "What is meant by a package? Name any two Java Application Programming Interface packages.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A package is a group (namespace, like a folder) of related classes and interfaces. Java API packages: java.lang, java.util (also java.io, java.math).",
+   "marking_points": [
+    {
+     "point": "Definition of package",
+     "marks": 1
+    },
+    {
+     "point": "Two correct API packages",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 54,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "103",
+   "q_order": 47,
+   "q_main": 103,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "User-defined packages",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "user-defined package"
+   ],
+   "question": "What are User-defined packages?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Packages created by the programmer to group their own classes, using the package keyword followed by the package name as the first statement of the file (e.g. package mytools;). The classes can then be reused in other programs with import.",
+   "marking_points": [
+    {
+     "point": "Created by the programmer to group own classes",
+     "marks": 1
+    },
+    {
+     "point": "Using the package keyword",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 54,
+   "school": "ICSE 2018 compartment"
+  },
+  {
+   "q_label": "104",
+   "q_order": 48,
+   "q_main": 104,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Package of wrapper classes",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "wrapper classes",
+    "java.lang"
+   ],
+   "question": "Name the API package that contains wrapper classes.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Package",
+     "accepted": [
+      "java.lang",
+      "java.lang package"
+     ]
+    }
+   ],
+   "solution": "java.lang. Wrapper classes such as Integer, Double and Character are in java.lang.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 54,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "107",
+   "q_order": 49,
+   "q_main": 107,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Package of String and StringBuffer",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "String class",
+    "java.lang"
+   ],
+   "question": "In which package are the two classes String and StringBuffer defined?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Package",
+     "accepted": [
+      "java.lang",
+      "java.lang package"
+     ]
+    }
+   ],
+   "solution": "java.lang.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 54,
+   "school": "ICSE 2021 specimen"
+  },
+  {
+   "q_label": "109",
+   "q_order": 50,
+   "q_main": 109,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Library classes",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "library classes"
+   ],
+   "question": "What are library classes? Give an example.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Library classes are the pre-defined classes supplied with Java (in its packages), whose ready-made methods a programmer can use instead of writing them. Examples: Math, String, Scanner, Integer.",
+   "marking_points": [
+    {
+     "point": "Pre-defined classes provided by Java",
+     "marks": 1
+    },
+    {
+     "point": "Correct example",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 54,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "115",
+   "q_order": 51,
+   "q_main": 115,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Math.ceil output",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "Math.ceil"
+   ],
+   "question": "Give the output of the following Math function:\nMath.ceil(4.2)",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Math.ceil(4.2)",
+     "accepted": [
+      "5.0"
+     ]
+    }
+   ],
+   "solution": "5.0. ceil returns the smallest whole number not less than 4.2, as a double. (Corrected: the book printed Math.ceil(4.2) twice and keyed the second as 4; Math.ceil always returns a double, so it is 5.0 both times.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 55,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "116",
+   "q_order": 52,
+   "q_main": 116,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Math.ceil and Math.floor outputs",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Math.ceil",
+    "Math.floor",
+    "negative numbers"
+   ],
+   "question": "Write the output of the below ceil and floor methods:\nMath.ceil(5.9)\nMath.ceil(5.2)\nMath.ceil(-5.9)\nMath.ceil(-5.2)\nMath.ceil(0)\nMath.ceil(9.0)\nMath.floor(5.9)\nMath.floor(5.2)\nMath.floor(-5.9)\nMath.floor(-5.2)\nMath.floor(0)\nMath.floor(9.0)",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Math.ceil(5.9)",
+     "accepted": [
+      "6.0"
+     ]
+    },
+    {
+     "prompt": "Math.ceil(5.2)",
+     "accepted": [
+      "6.0"
+     ]
+    },
+    {
+     "prompt": "Math.ceil(-5.9)",
+     "accepted": [
+      "-5.0"
+     ]
+    },
+    {
+     "prompt": "Math.ceil(-5.2)",
+     "accepted": [
+      "-5.0"
+     ]
+    },
+    {
+     "prompt": "Math.ceil(0)",
+     "accepted": [
+      "0.0"
+     ]
+    },
+    {
+     "prompt": "Math.ceil(9.0)",
+     "accepted": [
+      "9.0"
+     ]
+    },
+    {
+     "prompt": "Math.floor(5.9)",
+     "accepted": [
+      "5.0"
+     ]
+    },
+    {
+     "prompt": "Math.floor(5.2)",
+     "accepted": [
+      "5.0"
+     ]
+    },
+    {
+     "prompt": "Math.floor(-5.9)",
+     "accepted": [
+      "-6.0"
+     ]
+    },
+    {
+     "prompt": "Math.floor(-5.2)",
+     "accepted": [
+      "-6.0"
+     ]
+    },
+    {
+     "prompt": "Math.floor(0)",
+     "accepted": [
+      "0.0"
+     ]
+    },
+    {
+     "prompt": "Math.floor(9.0)",
+     "accepted": [
+      "9.0"
+     ]
+    }
+   ],
+   "solution": "ceil: 6.0, 6.0, -5.0, -5.0, 0.0, 9.0. floor: 5.0, 5.0, -6.0, -6.0, 0.0, 9.0. ceil rounds up (towards +infinity), floor rounds down (towards -infinity); both return double, so 0 prints as 0.0.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 55,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "118",
+   "q_order": 53,
+   "q_main": 118,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Block of statements",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "block",
+    "compound statement"
+   ],
+   "question": "What is a block?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A block (compound statement) is a group of statements enclosed in a pair of curly braces { }, treated as a single unit, e.g. the body of an if, a loop or a method.",
+   "marking_points": [
+    {
+     "point": "Set of statements enclosed in { }",
+     "marks": 1
+    },
+    {
+     "point": "Treated as a single unit / example",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 56,
+   "school": "ICSE 2020"
+  },
+  {
+   "q_label": "121",
+   "q_order": 54,
+   "q_main": 121,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "if-else vs switch-case",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "if-else",
+    "switch"
+   ],
+   "question": "Distinguish the if-else construct from a switch-case construct.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "1) if-else can test any condition, including ranges and logical expressions (x > 10 && x < 20); switch-case only tests equality of one expression against constant case values.\n2) if-else can work with any data type, including float, double and boolean conditions; switch works only with int, char, byte, short and String (not float, double or boolean).\n(Corrected: the source key said switch can use booleans; it cannot.)",
+   "marking_points": [
+    {
+     "point": "if-else tests ranges/logical conditions; switch only equality with constants",
+     "marks": 1
+    },
+    {
+     "point": "Data types: switch cannot use float/double/boolean",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 56,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "122",
+   "q_order": 55,
+   "q_main": 122,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "break in switch",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "break",
+    "fall through"
+   ],
+   "question": "What is the significance of a break statement in a switch-case construct?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "When a case matches, its statements execute until a break is met. break ends the switch and sends control to the statement after it. Without break, execution falls through into the following case blocks as well.",
+   "marking_points": [
+    {
+     "point": "break terminates the switch / exits the construct",
+     "marks": 1
+    },
+    {
+     "point": "Prevents fall-through to the next case",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 56,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "123(i)",
+   "q_order": 56,
+   "q_main": 123,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Nested if output: leap year",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "nested if",
+    "modulus"
+   ],
+   "question": "State the output of the following program segment for each input:\nif (year % 100 == 0) {\n    if (year % 400 == 0)\n        System.out.println(\"LEAP YEAR\");\n    else\n        System.out.println(\"NOT LEAP YEAR\");\n} else {\n    System.out.print(\"NOT A CENTURY YEAR\");\n}\n(i) year = 2051\n(ii) year = 2000\n(iii) year = 2171\n(iv) year = 1900",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) NOT A CENTURY YEAR\n(ii) LEAP YEAR\n(iii) NOT A CENTURY YEAR\n(iv) NOT LEAP YEAR\nTrace: 2051 and 2171 are not divisible by 100 → else branch. 2000 % 100 == 0 and 2000 % 400 == 0 → LEAP YEAR. 1900 % 100 == 0 but 1900 % 400 = 300 → NOT LEAP YEAR.",
+   "marking_points": [
+    {
+     "point": "(i) NOT A CENTURY YEAR",
+     "marks": 0.5
+    },
+    {
+     "point": "(ii) LEAP YEAR",
+     "marks": 0.5
+    },
+    {
+     "point": "(iii) NOT A CENTURY YEAR",
+     "marks": 0.5
+    },
+    {
+     "point": "(iv) NOT LEAP YEAR",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 56,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "123(ii)",
+   "q_order": 57,
+   "q_main": 123,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "if-else-if with ++/-- in conditions",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 4,
+   "concepts": [
+    "if-else-if",
+    "prefix increment in condition"
+   ],
+   "question": "State the output of the following program segment for each value of x:\nif (++x == 11) {\n    System.out.print(\"RESULT IS 11\");\n} else if (++x == 10) {\n    System.out.print(\"RESULT IS 10\");\n} else if (--x == 10) {\n    System.out.print(\"RESULT IS 10\");\n} else {\n    System.out.print(\"RESULT IS NEITHER 10 NOR 11\");\n}\n(i) x = 9\n(ii) x = 10\n(iii) x = 11\n(iv) x = 12",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) RESULT IS 10\n(ii) RESULT IS 11\n(iii) RESULT IS NEITHER 10 NOR 11\n(iv) RESULT IS NEITHER 10 NOR 11\nTrace: each condition changes x before testing it.\nx = 9: ++x = 10 (≠11), ++x = 11 (≠10), --x = 10 (==10) → RESULT IS 10.\nx = 10: ++x = 11 → RESULT IS 11.\nx = 11: 12, 13, 12 → none match → NEITHER.\nx = 12: 13, 14, 13 → NEITHER.\n(Corrected: the source key swapped (ii) and (iii), giving NEITHER for x = 10 and RESULT IS 11 for x = 11.)",
+   "marking_points": [
+    {
+     "point": "(i) RESULT IS 10",
+     "marks": 0.5
+    },
+    {
+     "point": "(ii) RESULT IS 11",
+     "marks": 0.5
+    },
+    {
+     "point": "(iii) RESULT IS NEITHER 10 NOR 11",
+     "marks": 0.5
+    },
+    {
+     "point": "(iv) RESULT IS NEITHER 10 NOR 11",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 56,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "123(iii)",
+   "q_order": 58,
+   "q_main": 123,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "switch fall-through output",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "switch",
+    "fall through"
+   ],
+   "question": "State the output of the following program segment for each value of num:\nswitch (num) {\n    case 10:\n    case 100:\n        System.out.println(\"original\" + num);\n        ++num;\n    case 1000:\n    case 500:\n        ++num;\n    default:\n        --num;\n        System.out.print(\"Final\" + num);\n}\n(i) num = 10\n(ii) num = 100\n(iii) num = 0\n(iv) num = 500",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) original10\n    Final11\n(ii) original100\n    Final101\n(iii) Final-1\n(iv) Final500\nTrace: there is no break, so control falls through to the end. num = 10: prints original10, ++num → 11, ++num → 12, --num → 11, prints Final11. num = 100: original100, 101, 102, 101 → Final101. num = 0: only default runs, --num → -1 → Final-1. num = 500: ++num → 501, --num → 500 → Final500. There is no space after \"original\" or \"Final\" in the strings.",
+   "marking_points": [
+    {
+     "point": "(i) original10 / Final11",
+     "marks": 0.5
+    },
+    {
+     "point": "(ii) original100 / Final101",
+     "marks": 0.5
+    },
+    {
+     "point": "(iii) Final-1",
+     "marks": 0.5
+    },
+    {
+     "point": "(iv) Final500",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 62,
+   "school": "ICSE 2020 specimen"
+  }
+ ]
+}

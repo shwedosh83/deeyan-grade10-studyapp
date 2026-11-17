@@ -34,7 +34,7 @@ function questionRow(p, q) {
     question: q.question, options: q.options || {}, is_objective: !!q.is_objective, correct_option: q.correct_option, answer_items: q.answer_items || null,
     solution: q.solution, marking_points: q.marking_points || [],
     needs_figure: !!q.needs_figure, figure_desc: q.figure_desc || null, figure_page: q.page || null, figure_url: q.figure_url || null,
-    source: p.source || 'board', school: p.school || null,
+    source: p.source || 'board', school: q.school || p.school || null,   // pyq rows carry their own origin, e.g. "ICSE 2017 specimen"
   };
 }
 

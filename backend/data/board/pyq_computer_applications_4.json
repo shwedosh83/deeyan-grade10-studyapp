@@ -1,0 +1,2320 @@
+{
+ "paper_id": "pyq_computer_applications_4",
+ "subject": "computer_applications",
+ "year": 2024,
+ "sem": null,
+ "label": "Past papers · User-Defined Methods",
+ "source": "pyq",
+ "school": "CISCE past papers",
+ "exam_label": "Past papers by chapter",
+ "max_marks": 193.0,
+ "duration_minutes": 0,
+ "reading_minutes": 0,
+ "instructions": "Chapter-wise questions from ICSE board, compartment and specimen papers, 2015–2024.",
+ "sections": [
+  {
+   "name": "Past-paper questions",
+   "total_marks": 193.0,
+   "rule": "Practise in any order.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "2",
+   "q_order": 0,
+   "q_main": 2,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Function signature",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "method signature"
+   ],
+   "question": "What does the term \"function signature\" refer to?",
+   "options": {
+    "a": "The body of the function",
+    "b": "The return type of the function",
+    "c": "The combination of the function's name and parameter list",
+    "d": "The access specifier of the function"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) The combination of the function's name and parameter list. The signature (name plus the number, types and order of parameters) is what tells overloaded methods apart; the return type is not part of it.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 123,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "3",
+   "q_order": 1,
+   "q_main": 3,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Syntax for creating an object",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "new keyword",
+    "object creation"
+   ],
+   "question": "What is the correct syntax for creating an object in Java?",
+   "options": {
+    "a": "ClassName objectName = ClassName();",
+    "b": "objectName = new ClassName();",
+    "c": "ClassName objectName = new ClassName();",
+    "d": "new ClassName objectName;"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) ClassName objectName = new ClassName();. The reference is declared with the class name and the object is created with the new keyword followed by a constructor call.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 123,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "4",
+   "q_order": 2,
+   "q_main": 4,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Static (non-member) methods",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "static methods",
+    "instance methods"
+   ],
+   "question": "Which of the following is an example of a non-member method?",
+   "options": {
+    "a": "void display()",
+    "b": "static void checkSum()",
+    "c": "void sum()",
+    "d": "public void calculate()"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) static void checkSum(). A static method belongs to the class, not to any object, so it is called a non-member (class) method; the others are instance (member) methods.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 123,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "13",
+   "q_order": 3,
+   "q_main": 13,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Return statements in a method",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "return statement"
+   ],
+   "question": "How many return statements can a method have and how many of them should get executed for the program to run successfully?",
+   "options": {
+    "a": "1, 1",
+    "b": "Many, 1",
+    "c": "1, Many",
+    "d": "Many, Many"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Many, 1. A method may contain several return statements (e.g. in different branches), but the first one executed ends the method, so only one runs per call.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 124,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "19",
+   "q_order": 4,
+   "q_main": 19,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Valid overload of a method",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "method overloading",
+    "return type not part of signature"
+   ],
+   "question": "What would be the prototype of the below method for implementing method overloading?\nint check(double x)",
+   "options": {
+    "a": "double check(int x, double y)",
+    "b": "double check(double x)",
+    "c": "Both (a) and (b)",
+    "d": "Neither (a) nor (b)"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) double check(int x, double y). Overloaded methods must differ in their parameter list; (b) has the same parameter list (double) and differs only in return type, which is a compile-time error.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 125,
+   "school": "ICSE 2016 specimen"
+  },
+  {
+   "q_label": "20",
+   "q_order": 5,
+   "q_main": 20,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Formal parameters",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "formal parameters"
+   ],
+   "question": "The parameters that are used in the prototype of the method are called",
+   "options": {
+    "a": "Actual parameters",
+    "b": "Formal parameters",
+    "c": "Virtual parameters",
+    "d": "Real parameters"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Formal parameters. The variables declared in the method header receive the values of the actual parameters passed in the call.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 125,
+   "school": "ICSE 2017 compartment"
+  },
+  {
+   "q_label": "22",
+   "q_order": 6,
+   "q_main": 22,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Values returned by a method",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "return statement"
+   ],
+   "question": "The number of values that a method can return is",
+   "options": {
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 1. A return statement sends back a single value of the declared return type, and it ends the method.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 126,
+   "school": "ICSE 2018"
+  },
+  {
+   "q_label": "23",
+   "q_order": 7,
+   "q_main": 23,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Correct assignment statement",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "compound assignment operators"
+   ],
+   "question": "A student writes the following code to multiply a variable z by 5. He has written the following statement, which is incorrect:\nz * 5;\nWhat will be the correct statement?\nA. z *= 5;\nB. z = z * 5;\nC. z * 5;",
+   "options": {
+    "a": "Only A",
+    "b": "Only B",
+    "c": "Both A and B",
+    "d": "All the three"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Both A and B. z *= 5; is shorthand for z = z * 5;. z * 5; on its own is not a valid Java statement (compile error), since the result is not stored.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 126,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "24",
+   "q_order": 8,
+   "q_main": 24,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Correct assignment statement",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "compound assignment operators"
+   ],
+   "question": "A student writes the following code to divide a variable a by 4. He has written the following statement, which is incorrect:\na = /4;\nWhat will be the correct statement?\nA. a /= 4;\nB. a = a / 4;\nC. a = /4;",
+   "options": {
+    "a": "Only A",
+    "b": "Only B",
+    "c": "Both A and B",
+    "d": "All the three"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Both A and B. a /= 4; is shorthand for a = a / 4;. a = /4; is a syntax error because / needs an operand on both sides.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 126,
+   "school": "ICSE 2020 compartment"
+  },
+  {
+   "q_label": "25",
+   "q_order": 9,
+   "q_main": 25,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Ways to increment a variable",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "increment operator",
+    "compound assignment operators"
+   ],
+   "question": "A student writes the following code to increment a variable n by 1. He has written the following statement, which is incorrect:\nn + 1;\nA. n++;\nB. n += 1;\nC. n = n + 1;",
+   "options": {
+    "a": "Only A",
+    "b": "Only C",
+    "c": "All A, B, and C",
+    "d": "None of the above"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) All A, B, and C. n++, n += 1 and n = n + 1 all add 1 to n and store it; n + 1; alone is not a valid statement.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 126,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "27",
+   "q_order": 10,
+   "q_main": 27,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "Ways to double a variable",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "compound assignment operators"
+   ],
+   "question": "A student writes the following code to double the value of a variable q. He has written the following statement, which is incorrect:\nq + q;\nWhat will be the correct statement?\nA. q *= 2;\nB. q = q * 2;\nC. q = q + q;",
+   "options": {
+    "a": "Only A",
+    "b": "Only B",
+    "c": "Both A and B",
+    "d": "All A, B, and C"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) All A, B, and C. Each of q *= 2, q = q * 2 and q = q + q stores twice the old value in q; q + q; alone is not a valid statement.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 127,
+   "school": "ICSE 2023 compartment"
+  },
+  {
+   "q_label": "33",
+   "q_order": 11,
+   "q_main": 33,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Static (non-member) methods",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "static methods"
+   ],
+   "question": "Assertion (A): Non-member methods are tied to specific objects in Java.\nReason (R): Non-member methods are declared using the static keyword and can be accessed without creating an object.",
+   "options": {
+    "a": "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+    "b": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+    "c": "Assertion (A) is true, but Reason (R) is false.",
+    "d": "Assertion (A) is false, but Reason (R) is true."
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) Assertion (A) is false, but Reason (R) is true. Static (non-member) methods belong to the class, not to any object, so A is false; R correctly describes them.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 128,
+   "school": "ICSE 2024 specimen"
+  },
+  {
+   "q_label": "41",
+   "q_order": 12,
+   "q_main": 41,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Creating objects with new",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "new keyword",
+    "constructor"
+   ],
+   "question": "Assertion (A): Objects in Java are created using the new keyword.\nReason (R): The new keyword allocates memory for the object and calls its constructor.",
+   "options": {
+    "a": "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+    "b": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+    "c": "Assertion (A) is true, but Reason (R) is false.",
+    "d": "Assertion (A) is false, but Reason (R) is true."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A). new allocates memory for the object and invokes the constructor to initialise it, which is how objects are created.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 130,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "42",
+   "q_order": 13,
+   "q_main": 42,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Pure functions",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "pure function",
+    "side effects"
+   ],
+   "question": "Assertion (A): A pure function does not change the state of the arguments passed to it.\nReason (R): A pure function only performs operations on the arguments and returns a value without side effects.",
+   "options": {
+    "a": "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+    "b": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+    "c": "Assertion (A) is true, but Reason (R) is false.",
+    "d": "Assertion (A) is false, but Reason (R) is true."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A). A pure function has no side effects: it only uses its arguments to compute and return a value, so it never changes their state.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 130,
+   "school": "ICSE 2018 compartment"
+  },
+  {
+   "q_label": "44(i)",
+   "q_order": 14,
+   "q_main": 44,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Writing a function prototype",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "function prototype"
+   ],
+   "question": "Write a function prototype of the following:\n(i) A function PosChar which takes a string argument and a character argument and returns an integer value.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "int PosChar(String s, char ch);\n(Parameter names may be any valid identifiers.)",
+   "marking_points": [
+    {
+     "point": "Return type int and name PosChar",
+     "marks": 0.5
+    },
+    {
+     "point": "Parameters (String, char) in that order",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 131,
+   "school": "ICSE 2021 compartment"
+  },
+  {
+   "q_label": "44(ii)",
+   "q_order": 15,
+   "q_main": 44,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Writing a function prototype",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "function prototype"
+   ],
+   "question": "Write a function prototype of the following:\n(ii) Function that returns a double value and takes three double parameters x, y, and z as its parameters.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "double compute(double x, double y, double z);\n(The question gives no name, so any valid method name is accepted.)",
+   "marking_points": [
+    {
+     "point": "Return type double",
+     "marks": 0.5
+    },
+    {
+     "point": "Three parameters double x, double y, double z",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 131,
+   "school": "ICSE 2021 compartment"
+  },
+  {
+   "q_label": "45(i)",
+   "q_order": 16,
+   "q_main": 45,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Writing a function prototype",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "function prototype"
+   ],
+   "question": "Write a function prototype of the following:\n(i) Function that returns a boolean value and takes an integer variable as its argument.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "boolean check(int n);\n(Any valid method name is accepted.)",
+   "marking_points": [
+    {
+     "point": "Return type boolean",
+     "marks": 0.5
+    },
+    {
+     "point": "One int parameter",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 131,
+   "school": "ICSE 2022"
+  },
+  {
+   "q_label": "45(ii)",
+   "q_order": 17,
+   "q_main": 45,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Writing a function prototype",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "function prototype",
+    "static methods"
+   ],
+   "question": "Write a function prototype of the following:\n(ii) A static method named calculator that accepts two short type variables as its arguments and returns an integer value.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "static int calculator(short a, short b);",
+   "marking_points": [
+    {
+     "point": "static int calculator",
+     "marks": 0.5
+    },
+    {
+     "point": "Two short parameters",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 131,
+   "school": "ICSE 2022"
+  },
+  {
+   "q_label": "46(i)",
+   "q_order": 18,
+   "q_main": 46,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Writing a function prototype",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "function prototype"
+   ],
+   "question": "Write a function prototype of the following:\n(i) A function divide that takes two integer values and returns the quotient of double type.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "double divide(int a, int b);",
+   "marking_points": [
+    {
+     "point": "Return type double and name divide",
+     "marks": 0.5
+    },
+    {
+     "point": "Two int parameters",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 131,
+   "school": "ICSE 2024 compartment"
+  },
+  {
+   "q_label": "46(ii)",
+   "q_order": 19,
+   "q_main": 46,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Prototype of an overloaded function",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "function prototype",
+    "method overloading"
+   ],
+   "question": "Write a function prototype of the following:\n(ii) An overloaded function (of divide, which takes two integer values and returns the quotient of double type) that takes two double values as formal parameters and returns the quotient of double type.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "double divide(double a, double b);\nIt keeps the same name divide but has a different parameter list (double, double), so it overloads divide(int, int).",
+   "marking_points": [
+    {
+     "point": "Same name divide with return type double",
+     "marks": 0.5
+    },
+    {
+     "point": "Two double parameters",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 131,
+   "school": "ICSE 2024 compartment"
+  },
+  {
+   "q_label": "49",
+   "q_order": 20,
+   "q_main": 49,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "General form of a method definition",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "method header",
+    "method body"
+   ],
+   "question": "Write the general format of defining a function in a Java class.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "[access specifier] [static] return_type method_name(formal parameter list)\n{\n    // method body: statements\n    [return value;]\n}\nExample:\npublic static int sum(int a, int b)\n{\n    return a + b;\n}",
+   "marking_points": [
+    {
+     "point": "Header in the correct order: access specifier, (static), return type, name, parameter list",
+     "marks": 1
+    },
+    {
+     "point": "Body of statements enclosed in braces, with return for a non-void method",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 131,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "63(i)",
+   "q_order": 21,
+   "q_main": 63,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Tracing a method with an object parameter",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "object passed by reference",
+    "compound assignment"
+   ],
+   "question": "Read the following impure method definition and answer the question that follows:\nstatic int solve(int a, Number num) {\n    num.value *= a;\n    return num.value;\n}\n(i) State the output (the value stored in c) for the following function call:\nint c = solve(10, ob);\n(if all member variables for this object ob are initialized as 0)",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Value stored in c",
+     "accepted": [
+      "0"
+     ]
+    }
+   ],
+   "solution": "0. num.value = num.value * a = 0 * 10 = 0, and that value is returned and stored in c (ob.value also stays 0).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 134,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "63(ii)",
+   "q_order": 22,
+   "q_main": 63,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Member variable in a method",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "member variables",
+    "dot operator"
+   ],
+   "question": "Read the following impure method definition and answer the question that follows:\nstatic int solve(int a, Number num) {\n    num.value *= a;\n    return num.value;\n}\n(ii) Name the member variable as read in the method.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Member variable",
+     "accepted": [
+      "value",
+      "num.value"
+     ]
+    }
+   ],
+   "solution": "value (accessed as num.value through the object num).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 134,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "63(iii)",
+   "q_order": 23,
+   "q_main": 63,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Data type of a member variable",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "return type"
+   ],
+   "question": "Read the following impure method definition and answer the question that follows:\nstatic int solve(int a, Number num) {\n    num.value *= a;\n    return num.value;\n}\n(iii) What is the expected data type of this member variable?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Data type",
+     "accepted": [
+      "int"
+     ]
+    }
+   ],
+   "solution": "int. The method returns num.value from a method whose return type is int, so value is expected to be int.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 134,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "63(iv)",
+   "q_order": 24,
+   "q_main": 63,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Reference vs primitive types in a header",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "reference data types",
+    "primitive data types"
+   ],
+   "question": "Read the following impure method definition and answer the question that follows:\nstatic int solve(int a, Number num) {\n    num.value *= a;\n    return num.value;\n}\n(iv) Name the reference data type and the primitive data types as read from the function definition.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Reference data type: Number (the class type of parameter num).\nPrimitive data type: int (parameter a and the return type).",
+   "marking_points": [
+    {
+     "point": "Reference data type: Number",
+     "marks": 1
+    },
+    {
+     "point": "Primitive data type: int",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 134,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "65",
+   "q_order": 25,
+   "q_main": 65,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Method to compute volume of a sphere",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "returning a value",
+    "Math.PI",
+    "integer vs real division"
+   ],
+   "question": "Define a Java method volSphere to compute the volume of a sphere given as (4/3)πr³ for a sphere of radius 5 cm.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "class Sphere\n{\n    static double volSphere(double r)\n    {\n        return 4.0 / 3.0 * Math.PI * r * r * r;\n    }\n\n    public static void main(String args[])\n    {\n        System.out.println(\"Volume = \" + volSphere(5) + \" cubic cm\");\n    }\n}\nOutput: Volume = 523.5987755982989 cubic cm (about 523.33 if 3.14 is used for pi).\nNote: write 4.0 / 3.0, not 4 / 3, which is integer division and gives 1.\n\n// Variable description\n// r : double : radius of the sphere",
+   "marking_points": [
+    {
+     "point": "Method volSphere with double return type and radius parameter",
+     "marks": 1
+    },
+    {
+     "point": "Correct formula using 4.0/3 (real division) and pi",
+     "marks": 1
+    },
+    {
+     "point": "Method called with 5 and the result printed/returned",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 135,
+   "school": "ICSE 2016 specimen"
+  },
+  {
+   "q_label": "66",
+   "q_order": 26,
+   "q_main": 66,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Method returning the average of three numbers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "parameter passing",
+    "returning a value"
+   ],
+   "question": "Write a complete Java program to calculate the average of three numbers passed to a method AVG, which returns the result to main().",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Average\n{\n    double AVG(int a, int b, int c)\n    {\n        return (a + b + c) / 3.0;\n    }\n\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter three numbers: \");\n        int x = sc.nextInt();\n        int y = sc.nextInt();\n        int z = sc.nextInt();\n        Average ob = new Average();\n        double avg = ob.AVG(x, y, z);\n        System.out.println(\"Average = \" + avg);\n    }\n}\nSample: 5 10 15 gives Average = 10.0\n\n// Variable description\n// x, y, z : int : the three numbers (actual parameters)\n// a, b, c : int : formal parameters of AVG\n// avg : double : average returned by AVG",
+   "marking_points": [
+    {
+     "point": "Method AVG with three parameters and double return type",
+     "marks": 1
+    },
+    {
+     "point": "Returns (a + b + c) / 3.0 avoiding integer division",
+     "marks": 1
+    },
+    {
+     "point": "Inputs the three numbers in main",
+     "marks": 1
+    },
+    {
+     "point": "Calls AVG through an object and prints the returned value",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 135,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "67",
+   "q_order": 27,
+   "q_main": 67,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Method for Fahrenheit to Celsius",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "returning a value",
+    "integer vs real division"
+   ],
+   "question": "Define a Java method temp-convert to convert Fahrenheit temperature to Celsius. The formula for the conversion is given as\nC = (5/9)(F - 32), for F taken as 45°F.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "class Temp\n{\n    static double tempConvert(double f)\n    {\n        double c = 5.0 / 9.0 * (f - 32);\n        return c;\n    }\n\n    public static void main(String args[])\n    {\n        System.out.println(\"Celsius = \" + tempConvert(45));\n    }\n}\nOutput: Celsius = 7.222222222222222\n(temp-convert is not a valid identifier because of the hyphen, so the method is named tempConvert. 5 / 9 in integers would be 0, so 5.0 / 9.0 is used.)\n\n// Variable description\n// f : double : temperature in Fahrenheit\n// c : double : temperature in Celsius",
+   "marking_points": [
+    {
+     "point": "Valid method header with a double parameter and double return type",
+     "marks": 1
+    },
+    {
+     "point": "Formula 5.0/9 * (f - 32) with real division",
+     "marks": 1
+    },
+    {
+     "point": "Returns the Celsius value",
+     "marks": 1
+    },
+    {
+     "point": "Method invoked with 45 and result displayed",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 135,
+   "school": "ICSE 2024 specimen"
+  },
+  {
+   "q_label": "68(i)",
+   "q_order": 28,
+   "q_main": 68,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Access specifier of a class",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "default access",
+    "access specifiers"
+   ],
+   "question": "Read the given segment of program and answer the question that follows:\nclass Customer {\n    private long Cust_id;\n    String Cust_name;\n    Customer(long id, String n) {\n        Cust_id = id;\n        Cust_name = n;\n    }\n    public char funct() {\n        System.out.println(Cust_id + \" \" + Cust_name);\n        char chr = '#';\n        return chr;\n    }\n}\n(i) Write the access specifier of the class Customer.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "No access specifier is written, so the class has default (package / friendly) access: it can be used by any class in the same package. (Corrected: the source key said \"public, by default\"; a class without a specifier is not public.)",
+   "marking_points": [
+    {
+     "point": "Default (package) access, since no specifier is written",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 135,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "68(ii)",
+   "q_order": 29,
+   "q_main": 68,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Scope of a private member",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "private access",
+    "scope"
+   ],
+   "question": "Read the given segment of program and answer the question that follows:\nclass Customer {\n    private long Cust_id;\n    String Cust_name;\n    Customer(long id, String n) {\n        Cust_id = id;\n        Cust_name = n;\n    }\n    public char funct() {\n        System.out.println(Cust_id + \" \" + Cust_name);\n        char chr = '#';\n        return chr;\n    }\n}\n(ii) What is the scope of member Cust_id?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Cust_id is private, so its scope is limited to the class Customer: only the constructor and methods of Customer can use it.",
+   "marking_points": [
+    {
+     "point": "Private: accessible only inside class Customer",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 136,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "68(iii)",
+   "q_order": 30,
+   "q_main": 68,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Members accessible from another class",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "access specifiers"
+   ],
+   "question": "Read the given segment of program and answer the question that follows:\nclass Customer {\n    private long Cust_id;\n    String Cust_name;\n    Customer(long id, String n) {\n        Cust_id = id;\n        Cust_name = n;\n    }\n    public char funct() {\n        System.out.println(Cust_id + \" \" + Cust_name);\n        char chr = '#';\n        return chr;\n    }\n}\n(iii) Name the members of the class that can be accessed in another class, namely Account.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Cust_name (default access) and the method funct() (public). The constructor Customer(long, String) can also be used to create objects (default access, same package). Cust_id cannot, as it is private.",
+   "marking_points": [
+    {
+     "point": "Cust_name",
+     "marks": 1
+    },
+    {
+     "point": "funct()",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 136,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "68(iv)",
+   "q_order": 31,
+   "q_main": 68,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Members accessible inside the same class",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "private access",
+    "static main"
+   ],
+   "question": "Read the given segment of program and answer the question that follows:\nclass Customer {\n    private long Cust_id;\n    String Cust_name;\n    Customer(long id, String n) {\n        Cust_id = id;\n        Cust_name = n;\n    }\n    public char funct() {\n        System.out.println(Cust_id + \" \" + Cust_name);\n        char chr = '#';\n        return chr;\n    }\n}\n(iv) Name the members of the class that can be accessed in the main method contained in the same class Customer.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "All the members: Cust_id, Cust_name and funct() (and the constructor). Every member, even a private one, is accessible inside its own class. Since main is static, the instance members are used through an object, e.g. obj.Cust_id.",
+   "marking_points": [
+    {
+     "point": "All members, including private Cust_id, are accessible within the same class",
+     "marks": 1
+    },
+    {
+     "point": "Names Cust_id, Cust_name and funct() (used through an object in static main)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 136,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "68(v)",
+   "q_order": 32,
+   "q_main": 68,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "main method invoking constructor and methods",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "parameterised constructor",
+    "calling instance methods"
+   ],
+   "question": "Read the given segment of program and answer the question that follows:\nclass Customer {\n    private long Cust_id;\n    String Cust_name;\n    Customer(long id, String n) {\n        Cust_id = id;\n        Cust_name = n;\n    }\n    public char funct() {\n        System.out.println(Cust_id + \" \" + Cust_name);\n        char chr = '#';\n        return chr;\n    }\n}\n(v) Define the main method that invokes the constructor and the member functions of the class.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "public static void main(String args[])\n{\n    Customer obj = new Customer(1001L, \"Arjun\");   // invokes the constructor\n    char d = obj.funct();                          // invokes the member function\n    System.out.println(d);\n}\nOutput:\n1001 Arjun\n#\n(Corrected: the source key wrote new Customer(); there is no default constructor here, since a parameterised constructor is defined, so arguments must be passed.)",
+   "marking_points": [
+    {
+     "point": "Object created with new Customer(long, String) passing arguments",
+     "marks": 1
+    },
+    {
+     "point": "funct() called through the object",
+     "marks": 1
+    },
+    {
+     "point": "Returned char stored/printed",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 136,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "69(i)",
+   "q_order": 33,
+   "q_main": 69,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "char arithmetic with ++",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "postfix vs prefix increment",
+    "char to int promotion"
+   ],
+   "question": "Read the given segment of program and answer the question that follows:\nclass Record {\n    public void method_Info(String x) {\n        char a = 'A', b = 'a';\n        int c = a++ + ++b;\n    }\n}\n(i) What value is stored in c after the method gets executed?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Value of c",
+     "accepted": [
+      "163"
+     ]
+    }
+   ],
+   "solution": "163. a++ uses the old value of a, 'A' = 65, then a becomes 'B'. ++b first increments b from 'a' (97) to 'b' (98) and uses 98. c = 65 + 98 = 163. (Corrected: the source key said 162, forgetting that ++b is a pre-increment.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 136,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "69(ii)",
+   "q_order": 34,
+   "q_main": 69,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Values, Data Types and Operators",
+   "topic": "char variable after increment",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "increment on char"
+   ],
+   "question": "Read the given segment of program and answer the question that follows:\nclass Record {\n    public void method_Info(String x) {\n        char a = 'A', b = 'a';\n        int c = a++ + ++b;\n    }\n}\n(ii) What is the value stored in a after the execution of the method?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Value of a",
+     "accepted": [
+      "B",
+      "'B'"
+     ]
+    }
+   ],
+   "solution": "B. a++ increments the char a from 'A' (65) to 66, which is the character 'B'.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 136,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "69(iii)",
+   "q_order": 35,
+   "q_main": 69,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Calling an instance method from main",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "calling instance methods",
+    "actual parameters"
+   ],
+   "question": "Read the given segment of program and answer the question that follows:\nclass Record {\n    public void method_Info(String x) {\n        char a = 'A', b = 'a';\n        int c = a++ + ++b;\n    }\n}\n(iii) Define the main method which calls the above method_Info.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "public static void main(String args[])\n{\n    Record obj = new Record();\n    obj.method_Info(\"Hello\");\n}\nmethod_Info is non-static, so it is called through an object, passing a String argument.",
+   "marking_points": [
+    {
+     "point": "Object of Record created in main",
+     "marks": 1
+    },
+    {
+     "point": "method_Info called through the object with a String argument",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 136,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "69(iv)",
+   "q_order": 36,
+   "q_main": 69,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Displaying a result inside a method",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "method body"
+   ],
+   "question": "Read the given segment of program and answer the question that follows:\nclass Record {\n    public void method_Info(String x) {\n        char a = 'A', b = 'a';\n        int c = a++ + ++b;\n    }\n}\n(iv) Modify method_Info so that the resultant c is displayed on the screen.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "public void method_Info(String x)\n{\n    char a = 'A', b = 'a';\n    int c = a++ + ++b;\n    System.out.println(\"Value of c = \" + c);\n}\nOutput when called: Value of c = 163",
+   "marking_points": [
+    {
+     "point": "Same declarations and computation of c retained",
+     "marks": 1
+    },
+    {
+     "point": "Print statement for c added after the computation",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 136,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "70(i)",
+   "q_order": 37,
+   "q_main": 70,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Member method assigning and displaying data",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "instance methods",
+    "member variables"
+   ],
+   "question": "Read the given segment of program and answer the question that follows:\nclass MyClass {\n    short roll_no;\n    long candidate_code;\n    String cand_name;\n}\n(i) Define a member method of the class that displays the cand_name, candidate_code, and roll_no, the values being assigned as \"ASTITVA\", 2005123, and 20 respectively.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "public void display()\n{\n    roll_no = 20;\n    candidate_code = 2005123;\n    cand_name = \"ASTITVA\";\n    System.out.println(\"NAME = \" + cand_name);\n    System.out.println(\"CODE = \" + candidate_code);\n    System.out.println(\"ROLL NO. = \" + roll_no);\n}",
+   "marking_points": [
+    {
+     "point": "Non-static method defined inside MyClass",
+     "marks": 1
+    },
+    {
+     "point": "Values assigned to the three members",
+     "marks": 1
+    },
+    {
+     "point": "All three values displayed",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 136,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "70(ii)",
+   "q_order": 38,
+   "q_main": 70,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Calling an instance method",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "calling instance methods"
+   ],
+   "question": "Read the given segment of program and answer the question that follows:\nclass MyClass {\n    short roll_no;\n    long candidate_code;\n    String cand_name;\n}\n(ii) Write the Java statement that calls the above-defined method (the member method display() that shows cand_name, candidate_code and roll_no).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "MyClass ob = new MyClass();\nob.display();\n(Corrected: the source key also offered MyClass.display(), which will not compile because display() is not static.)",
+   "marking_points": [
+    {
+     "point": "Object created and display() called through it",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 137,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "70(iii)",
+   "q_order": 39,
+   "q_main": 70,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Default access of a class",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "default access",
+    "access specifiers"
+   ],
+   "question": "Read the given segment of program and answer the question that follows:\nclass MyClass {\n    short roll_no;\n    long candidate_code;\n    String cand_name;\n}\n(iii) What happens if an object of the above class is created in another class Set_Account?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "MyClass has no access specifier, so it has default (package) access. If Set_Account is in the same package, the object is created without any error, and its default-access members roll_no, candidate_code and cand_name can be used through it. (From a class in a different package, MyClass would not be accessible.) (Corrected: the source key said MyClass has private access and the object cannot be created.)",
+   "marking_points": [
+    {
+     "point": "Default (package) access, so object creation is allowed in the same package",
+     "marks": 1
+    },
+    {
+     "point": "Its default members can be accessed through the object there",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 137,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "70(iv)",
+   "q_order": 40,
+   "q_main": 70,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Making a member private",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "private access",
+    "initialising members"
+   ],
+   "question": "Read the given segment of program and answer the question that follows:\nclass MyClass {\n    short roll_no;\n    long candidate_code;\n    String cand_name;\n}\n(iv) What happens if the statement short roll_no is changed to private short roll_no = 25;?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "roll_no is then initialised to 25 in every new object, and being private it can be accessed only inside MyClass. Methods of MyClass (like display()) can still use it, but any statement in another class such as ob.roll_no gives a compile-time error.",
+   "marking_points": [
+    {
+     "point": "roll_no gets the initial value 25 for every object",
+     "marks": 1
+    },
+    {
+     "point": "Private: accessible only within MyClass, not from other classes",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 137,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "75",
+   "q_order": 41,
+   "q_main": 75,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Method to evaluate an expression",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "Java expressions",
+    "parameter passing"
+   ],
+   "question": "Define a Java method to find the result of the following arithmetic expression\n(4.52a + b²) / (a - b)\nfor the values of a and b taken as 2.2 and 3.5, respectively.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "class Expression\n{\n    static void expression(double a, double b)\n    {\n        double r = (4.52 * a + b * b) / (a - b);\n        System.out.println(\"The result of the expression is : \" + r);\n    }\n\n    public static void main(String args[])\n    {\n        expression(2.2, 3.5);\n    }\n}\nOutput: The result of the expression is : -17.072307692307692\nCheck: (9.944 + 12.25) / (-1.3) = 22.194 / -1.3 = -17.0723...\n\n// Variable description\n// a, b : double : values of a and b\n// r : double : result of the expression",
+   "marking_points": [
+    {
+     "point": "Method with two double parameters",
+     "marks": 1
+    },
+    {
+     "point": "Numerator 4.52 * a + b * b and denominator (a - b) bracketed correctly",
+     "marks": 2
+    },
+    {
+     "point": "Called with 2.2 and 3.5 and result displayed",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 141,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "76(i)",
+   "q_order": 42,
+   "q_main": 76,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 3.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Method to evaluate a function",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "Java expressions"
+   ],
+   "question": "(i) Write a method to print the result of the following function\nf(x) = 2.4x² + 5.3x - 1.6,\nfor x taken as -2.\n(ii) Write the main method to invoke the above-defined method.\nAnswer part (i): the method that prints f(x).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "static void f(double x)\n{\n    double r = 2.4 * x * x + 5.3 * x - 1.6;\n    System.out.println(\"The result is \" + r);\n}\n\nFull program:\nclass Function\n{\n    static void f(double x)\n    {\n        double r = 2.4 * x * x + 5.3 * x - 1.6;\n        System.out.println(\"The result is \" + r);\n    }\n\n    public static void main(String args[])\n    {\n        f(-2);\n    }\n}\nOutput: The result is -2.6\nCheck: 2.4(4) + 5.3(-2) - 1.6 = 9.6 - 10.6 - 1.6 = -2.6",
+   "marking_points": [
+    {
+     "point": "Method header with a double parameter",
+     "marks": 1
+    },
+    {
+     "point": "Expression 2.4*x*x + 5.3*x - 1.6 written correctly",
+     "marks": 1
+    },
+    {
+     "point": "Result printed",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 141,
+   "school": "ICSE 2016 compartment"
+  },
+  {
+   "q_label": "76(ii)",
+   "q_order": 43,
+   "q_main": 76,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "main method invoking a static method",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "calling static methods"
+   ],
+   "question": "(i) Write a method to print the result of the following function\nf(x) = 2.4x² + 5.3x - 1.6,\nfor x taken as -2.\n(ii) Write the main method to invoke the above-defined method.\nAnswer part (ii): the main method that invokes the method for x = -2.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "public static void main(String args[])\n{\n    f(-2);\n}\nf is static, so it is called directly from the static main without an object.\nOutput: The result is -2.6\n\nFull program:\nclass Function\n{\n    static void f(double x)\n    {\n        double r = 2.4 * x * x + 5.3 * x - 1.6;\n        System.out.println(\"The result is \" + r);\n    }\n\n    public static void main(String args[])\n    {\n        f(-2);\n    }\n}\nOutput: The result is -2.6\nCheck: 2.4(4) + 5.3(-2) - 1.6 = 9.6 - 10.6 - 1.6 = -2.6",
+   "marking_points": [
+    {
+     "point": "Correct main header",
+     "marks": 1
+    },
+    {
+     "point": "Method invoked with -2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 141,
+   "school": "ICSE 2016 compartment"
+  },
+  {
+   "q_label": "77",
+   "q_order": 44,
+   "q_main": 77,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Method printing ASCII codes",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "type casting char to int",
+    "ASCII codes"
+   ],
+   "question": "Write a complete Java program to print the ASCII codes of the following characters: ?, Z, m, #\nDefine a method named ASC() to perform the above-stated job.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "class AsciiCodes\n{\n    static void ASC()\n    {\n        char c1 = '?', c2 = 'Z', c3 = 'm', c4 = '#';\n        System.out.println(\"The ASCII code of \" + c1 + \" is \" + (int) c1);\n        System.out.println(\"The ASCII code of \" + c2 + \" is \" + (int) c2);\n        System.out.println(\"The ASCII code of \" + c3 + \" is \" + (int) c3);\n        System.out.println(\"The ASCII code of \" + c4 + \" is \" + (int) c4);\n    }\n\n    public static void main(String args[])\n    {\n        ASC();\n    }\n}\nOutput:\nThe ASCII code of ? is 63\nThe ASCII code of Z is 90\nThe ASCII code of m is 109\nThe ASCII code of # is 35\n\n// Variable description\n// c1, c2, c3, c4 : char : the four characters",
+   "marking_points": [
+    {
+     "point": "Class and method ASC() declared correctly",
+     "marks": 2
+    },
+    {
+     "point": "Characters stored as char literals in single quotes",
+     "marks": 3
+    },
+    {
+     "point": "Conversion to int by type casting (int) or assignment to an int",
+     "marks": 4
+    },
+    {
+     "point": "Output of each character with its code (63, 90, 109, 35)",
+     "marks": 3
+    },
+    {
+     "point": "main() calls ASC()",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 141,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "78(i)",
+   "q_order": 45,
+   "q_main": 78,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Method returning a percentage",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "parameter passing",
+    "returning a value"
+   ],
+   "question": "(i) Write a Java method result that takes the roll number, name, and marks of 3 subjects (engMarks, mathMarks, compMarks) as parameters from the main. The method returns the percentage of the student, assuming that the maximum marks of each subject is 100.\n(ii) Define the main method for calling the result method.\nAnswer part (i): the method result.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "double result(int roll, String name, int engMarks, int mathMarks, int compMarks)\n{\n    int total = engMarks + mathMarks + compMarks;\n    double per = total / 300.0 * 100;\n    return per;\n}\n\nFull program:\nimport java.util.*;\n\nclass Student\n{\n    double result(int roll, String name, int engMarks, int mathMarks, int compMarks)\n    {\n        int total = engMarks + mathMarks + compMarks;\n        double per = total / 300.0 * 100;\n        return per;\n    }\n\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter roll number: \");\n        int roll = sc.nextInt();\n        sc.nextLine();\n        System.out.print(\"Enter name: \");\n        String name = sc.nextLine();\n        System.out.print(\"Enter marks in English, Maths and Computer: \");\n        int e = sc.nextInt();\n        int m = sc.nextInt();\n        int c = sc.nextInt();\n        Student ob = new Student();\n        double p = ob.result(roll, name, e, m, c);\n        System.out.println(\"Percentage of \" + name + \" = \" + p);\n    }\n}\nSample: 80, 90, 70 gives Percentage = 80.0\n\n// Variable description\n// roll : int : roll number;  name : String : student's name\n// e, m, c : int : marks in English, Maths, Computer\n// total : int : total marks;  per, p : double : percentage",
+   "marking_points": [
+    {
+     "point": "Method header with the five parameters and double return type",
+     "marks": 2
+    },
+    {
+     "point": "Percentage computed as total / 300.0 * 100 (real division)",
+     "marks": 1
+    },
+    {
+     "point": "Percentage returned",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 142,
+   "school": "ICSE 2018 specimen"
+  },
+  {
+   "q_label": "78(ii)",
+   "q_order": 46,
+   "q_main": 78,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "main method passing inputs to a method",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "actual parameters",
+    "Scanner input"
+   ],
+   "question": "(i) Write a Java method result that takes the roll number, name, and marks of 3 subjects (engMarks, mathMarks, compMarks) as parameters from the main. The method returns the percentage of the student, assuming that the maximum marks of each subject is 100.\n(ii) Define the main method for calling the result method.\nAnswer part (ii): the main method that calls result.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "public static void main(String args[])\n{\n    Scanner sc = new Scanner(System.in);\n    System.out.print(\"Enter roll number: \");\n    int roll = sc.nextInt();\n    sc.nextLine();\n    System.out.print(\"Enter name: \");\n    String name = sc.nextLine();\n    System.out.print(\"Enter marks in English, Maths and Computer: \");\n    int e = sc.nextInt();\n    int m = sc.nextInt();\n    int c = sc.nextInt();\n    Student ob = new Student();\n    double p = ob.result(roll, name, e, m, c);\n    System.out.println(\"Percentage of \" + name + \" = \" + p);\n}\n\nFull program:\nimport java.util.*;\n\nclass Student\n{\n    double result(int roll, String name, int engMarks, int mathMarks, int compMarks)\n    {\n        int total = engMarks + mathMarks + compMarks;\n        double per = total / 300.0 * 100;\n        return per;\n    }\n\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter roll number: \");\n        int roll = sc.nextInt();\n        sc.nextLine();\n        System.out.print(\"Enter name: \");\n        String name = sc.nextLine();\n        System.out.print(\"Enter marks in English, Maths and Computer: \");\n        int e = sc.nextInt();\n        int m = sc.nextInt();\n        int c = sc.nextInt();\n        Student ob = new Student();\n        double p = ob.result(roll, name, e, m, c);\n        System.out.println(\"Percentage of \" + name + \" = \" + p);\n    }\n}\nSample: 80, 90, 70 gives Percentage = 80.0\n\n// Variable description\n// roll : int : roll number;  name : String : student's name\n// e, m, c : int : marks in English, Maths, Computer\n// total : int : total marks;  per, p : double : percentage",
+   "marking_points": [
+    {
+     "point": "Inputs roll, name and three marks with Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Creates an object and calls result with actual parameters",
+     "marks": 1
+    },
+    {
+     "point": "Displays the returned percentage",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 142,
+   "school": "ICSE 2018 specimen"
+  },
+  {
+   "q_label": "79(i)",
+   "q_order": 47,
+   "q_main": 79,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 6.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Methods for algebraic expressions",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "method calling another method",
+    "returning a value"
+   ],
+   "question": "(i) Define methods in the class Algebra to find the difference in the two algebraic expressions given as\nf1(x) = x² + 2x + 4\nf2(y) = -y² - 20y - 1\nf3(x, y) = f1(x) - f2(y)\nwhere values of x and y will be passed to the methods from main.\n(ii) Define the main method to display the result of f3(x, y).\nAnswer part (i): the methods f1, f2 and f3 of class Algebra.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "static double f1(double x)\n{\n    return x * x + 2 * x + 4;\n}\n\nstatic double f2(double y)\n{\n    return -(y * y) - 20 * y - 1;\n}\n\nstatic double f3(double x, double y)\n{\n    return f1(x) - f2(y);\n}\n\nFull program:\nimport java.util.*;\n\nclass Algebra\n{\n    static double f1(double x)\n    {\n        return x * x + 2 * x + 4;\n    }\n\n    static double f2(double y)\n    {\n        return -(y * y) - 20 * y - 1;\n    }\n\n    static double f3(double x, double y)\n    {\n        return f1(x) - f2(y);\n    }\n\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter x and y: \");\n        double x = sc.nextDouble();\n        double y = sc.nextDouble();\n        System.out.println(\"f3(x, y) = \" + f3(x, y));\n    }\n}\nSample: x = 1, y = 1: f1 = 7, f2 = -22, f3 = 7 - (-22) = 29.0\n\n// Variable description\n// x, y : double : values passed to the methods",
+   "marking_points": [
+    {
+     "point": "f1 returns x*x + 2*x + 4",
+     "marks": 2
+    },
+    {
+     "point": "f2 returns -(y*y) - 20*y - 1",
+     "marks": 2
+    },
+    {
+     "point": "f3 calls f1 and f2 and returns their difference",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 142,
+   "school": "ICSE 2019 compartment"
+  },
+  {
+   "q_label": "79(ii)",
+   "q_order": 48,
+   "q_main": 79,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "main method displaying a method's result",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "actual parameters"
+   ],
+   "question": "(i) Define methods in the class Algebra to find the difference in the two algebraic expressions given as\nf1(x) = x² + 2x + 4\nf2(y) = -y² - 20y - 1\nf3(x, y) = f1(x) - f2(y)\nwhere values of x and y will be passed to the methods from main.\n(ii) Define the main method to display the result of f3(x, y).\nAnswer part (ii): the main method.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "public static void main(String args[])\n{\n    Scanner sc = new Scanner(System.in);\n    System.out.print(\"Enter x and y: \");\n    double x = sc.nextDouble();\n    double y = sc.nextDouble();\n    System.out.println(\"f3(x, y) = \" + f3(x, y));\n}\n\nFull program:\nimport java.util.*;\n\nclass Algebra\n{\n    static double f1(double x)\n    {\n        return x * x + 2 * x + 4;\n    }\n\n    static double f2(double y)\n    {\n        return -(y * y) - 20 * y - 1;\n    }\n\n    static double f3(double x, double y)\n    {\n        return f1(x) - f2(y);\n    }\n\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter x and y: \");\n        double x = sc.nextDouble();\n        double y = sc.nextDouble();\n        System.out.println(\"f3(x, y) = \" + f3(x, y));\n    }\n}\nSample: x = 1, y = 1: f1 = 7, f2 = -22, f3 = 7 - (-22) = 29.0\n\n// Variable description\n// x, y : double : values passed to the methods",
+   "marking_points": [
+    {
+     "point": "Inputs x and y",
+     "marks": 2
+    },
+    {
+     "point": "Calls f3(x, y) passing the values",
+     "marks": 1
+    },
+    {
+     "point": "Displays the result",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 142,
+   "school": "ICSE 2019 compartment"
+  },
+  {
+   "q_label": "80",
+   "q_order": 49,
+   "q_main": 80,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Menu-driven methods for perimeters",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "returning a value",
+    "switch-case menu",
+    "static methods"
+   ],
+   "question": "Define the following methods in class Computation:\n(i) perimeter-rectangle: To calculate and return the perimeter of a rectangle.\n(ii) squarePara: To compute and return the perimeter of a square.\n(iii) main(): To call the above-defined methods.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Computation\n{\n    static long perimeterRectangle(long l, long b)\n    {\n        return 2 * (l + b);\n    }\n\n    static long squarePara(long s)\n    {\n        return 4 * s;\n    }\n\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"1. Perimeter of rectangle\");\n        System.out.println(\"2. Perimeter of square\");\n        System.out.print(\"Enter your choice: \");\n        int ch = sc.nextInt();\n        switch (ch)\n        {\n            case 1:\n                System.out.print(\"Enter length and breadth: \");\n                long l = sc.nextLong();\n                long b = sc.nextLong();\n                System.out.println(\"Perimeter of rectangle = \" + perimeterRectangle(l, b));\n                break;\n            case 2:\n                System.out.print(\"Enter side: \");\n                long s = sc.nextLong();\n                System.out.println(\"Perimeter of square = \" + squarePara(s));\n                break;\n            default:\n                System.out.println(\"Invalid choice\");\n        }\n    }\n}\n(perimeter-rectangle is not a valid identifier because of the hyphen, so it is named perimeterRectangle.)\n\n// Variable description\n// ch : int : menu choice\n// l, b : long : length and breadth of the rectangle\n// s : long : side of the square",
+   "marking_points": [
+    {
+     "point": "Class and method declarations with correct return and parameter types",
+     "marks": 2
+    },
+    {
+     "point": "perimeterRectangle returns 2 * (l + b)",
+     "marks": 3
+    },
+    {
+     "point": "squarePara returns 4 * s",
+     "marks": 2
+    },
+    {
+     "point": "Menu with switch-case in main and inputs for each choice",
+     "marks": 3
+    },
+    {
+     "point": "Methods called with actual parameters and results displayed",
+     "marks": 3
+    },
+    {
+     "point": "Default case for an invalid choice",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 143,
+   "school": "ICSE 2020 compartment"
+  },
+  {
+   "q_label": "82",
+   "q_order": 50,
+   "q_main": 82,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Overloaded area methods for a triangle",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "method overloading",
+    "Math.sqrt",
+    "Heron's formula"
+   ],
+   "question": "Write a class TriangleArea that contains the overloaded methods area, one that accepts the length of the base of a triangle and the height of the triangle as parameters. The other area method accepts the length of three sides of a triangle. The two formulas for computing the area are\narea1 = 1/2 × base × height\narea2 = √(s(s - a)(s - b)(s - c))",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass TriangleArea\n{\n    static double area(double base, double height)\n    {\n        return 0.5 * base * height;\n    }\n\n    static double area(double a, double b, double c)\n    {\n        double s = (a + b + c) / 2.0;       // semi-perimeter\n        return Math.sqrt(s * (s - a) * (s - b) * (s - c));\n    }\n\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter base and height: \");\n        double bs = sc.nextDouble();\n        double h = sc.nextDouble();\n        System.out.println(\"Area (base and height) = \" + area(bs, h));\n        System.out.print(\"Enter the three sides: \");\n        double x = sc.nextDouble();\n        double y = sc.nextDouble();\n        double z = sc.nextDouble();\n        System.out.println(\"Area (Heron's formula) = \" + area(x, y, z));\n    }\n}\nSample: base 6, height 4 gives 12.0; sides 3, 4, 5 give s = 6 and area = sqrt(6*3*2*1) = 6.0\n(In area2, s is the semi-perimeter (a + b + c) / 2.)\n\n// Variable description\n// bs, h : double : base and height\n// x, y, z : double : three sides\n// s : double : semi-perimeter",
+   "marking_points": [
+    {
+     "point": "Class and method declarations with correct return and parameter types",
+     "marks": 2
+    },
+    {
+     "point": "area(base, height) returns 0.5 * base * height (no 1/2 integer division)",
+     "marks": 3
+    },
+    {
+     "point": "area(a, b, c) computes s = (a + b + c) / 2.0",
+     "marks": 2
+    },
+    {
+     "point": "Returns Math.sqrt(s*(s-a)*(s-b)*(s-c))",
+     "marks": 2
+    },
+    {
+     "point": "Inputs in main",
+     "marks": 2
+    },
+    {
+     "point": "Both overloaded versions called and results displayed",
+     "marks": 3
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 144,
+   "school": "ICSE 2022"
+  },
+  {
+   "q_label": "83",
+   "q_order": 51,
+   "q_main": 83,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Methods to assign, double and display a number",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "instance methods",
+    "member variables"
+   ],
+   "question": "Write a complete Java program that defines the following methods:\nassign(): Assigns value to a number.\ndoublenumber(): Doubles the number assigned above.\ndisplay(): Displays the result.\nmain(): Calls the above methods.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass DoubleIt\n{\n    double num, result;\n\n    void assign(double n)\n    {\n        num = n;\n    }\n\n    void doublenumber()\n    {\n        result = num * 2;\n    }\n\n    void display()\n    {\n        System.out.println(\"Original number : \" + num);\n        System.out.println(\"Doubled number  : \" + result);\n    }\n\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        double n = sc.nextDouble();\n        DoubleIt ob = new DoubleIt();\n        ob.assign(n);\n        ob.doublenumber();\n        ob.display();\n    }\n}\nSample: 7.5 gives Original number : 7.5, Doubled number : 15.0\n\n// Variable description\n// num : double : number assigned\n// result : double : doubled number\n// n : double : number input by the user",
+   "marking_points": [
+    {
+     "point": "Class and method declarations with correct return and parameter types",
+     "marks": 2
+    },
+    {
+     "point": "Member variables to hold the number and the result",
+     "marks": 2
+    },
+    {
+     "point": "assign() stores the value in the member variable",
+     "marks": 2
+    },
+    {
+     "point": "doublenumber() computes num * 2",
+     "marks": 2
+    },
+    {
+     "point": "display() prints the original and doubled numbers",
+     "marks": 2
+    },
+    {
+     "point": "main() inputs the number, creates an object and calls the methods in order",
+     "marks": 4
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 144,
+   "school": "ICSE 2023 compartment"
+  },
+  {
+   "q_label": "84",
+   "q_order": 52,
+   "q_main": 84,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Forming a number from its digits",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "place value",
+    "returning a value"
+   ],
+   "question": "Write a complete Java program that contains the following methods:\nassign(): Accepts values of the digit at units place, the digit at tens place, and the digit at hundreds place.\nfindNumber(): Finds the number corresponding to the accepted digits.\nmain(): Calls the above methods and displays the computed number.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass FormNumber\n{\n    int units, tens, hundreds;\n\n    void assign(int u, int t, int h)\n    {\n        units = u;\n        tens = t;\n        hundreds = h;\n    }\n\n    int findNumber()\n    {\n        return hundreds * 100 + tens * 10 + units;\n    }\n\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter the units, tens and hundreds digits: \");\n        int u = sc.nextInt();\n        int t = sc.nextInt();\n        int h = sc.nextInt();\n        FormNumber ob = new FormNumber();\n        ob.assign(u, t, h);\n        System.out.println(\"The number is : \" + ob.findNumber());\n    }\n}\nSample: units 5, tens 2, hundreds 7 gives The number is : 725\n\n// Variable description\n// units, tens, hundreds : int : the three digits\n// u, t, h : int : digits input by the user",
+   "marking_points": [
+    {
+     "point": "Class and method declarations with correct return and parameter types",
+     "marks": 2
+    },
+    {
+     "point": "assign() accepts the three digits as parameters and stores them",
+     "marks": 3
+    },
+    {
+     "point": "findNumber() returns hundreds*100 + tens*10 + units",
+     "marks": 4
+    },
+    {
+     "point": "main() inputs the three digits",
+     "marks": 2
+    },
+    {
+     "point": "main() calls assign and findNumber through an object and displays the number",
+     "marks": 3
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 145,
+   "school": "ICSE 2024 compartment"
+  },
+  {
+   "q_label": "92",
+   "q_order": 53,
+   "q_main": 92,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class ParkingLot with bill calculation",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "class with member methods",
+    "if-else",
+    "Scanner input"
+   ],
+   "question": "Define a class called ParkingLot with the following description.\nInstance variables/data members:\nint vno - To store the vehicle number\nint hours - To store the number of hours the vehicle is parked in the parking lot\ndouble bill - To store the bill amount\nMember methods:\n(i) void input() - To input the vno and hours\n(ii) void calculate() - To compute the parking charge at the rate of ₹3 for the first hour or part thereof, and ₹1.50 for each additional hour or part thereof\n(iii) void display() - To display the details\nWrite a main method to create an object of the class and call the above methods.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass ParkingLot\n{\n    int vno;\n    int hours;\n    double bill;\n\n    void input()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter vehicle number: \");\n        vno = sc.nextInt();\n        System.out.print(\"Enter number of hours: \");\n        hours = sc.nextInt();\n    }\n\n    void calculate()\n    {\n        if (hours <= 1)\n            bill = 3.0;\n        else\n            bill = 3.0 + (hours - 1) * 1.50;\n    }\n\n    void display()\n    {\n        System.out.println(\"Vehicle number : \" + vno);\n        System.out.println(\"Hours parked   : \" + hours);\n        System.out.println(\"Bill (Rs)      : \" + bill);\n    }\n\n    public static void main(String args[])\n    {\n        ParkingLot ob = new ParkingLot();\n        ob.input();\n        ob.calculate();\n        ob.display();\n    }\n}\nSample: 5 hours gives 3 + 4 x 1.50 = Rs 7.5\n(The first hour or part of it is charged Rs 3, so hours <= 1 gives a bill of 3.0. The source program wrote bill = 3 * hours, which would charge 0 for 0 hours.)\n\n// Variable description\n// vno : int : vehicle number\n// hours : int : hours parked\n// bill : double : parking charge",
+   "marking_points": [
+    {
+     "point": "Class and data members declared with correct types",
+     "marks": 2
+    },
+    {
+     "point": "input() reads vno and hours using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "First hour (or part) charged Rs 3",
+     "marks": 3
+    },
+    {
+     "point": "Each additional hour charged Rs 1.50",
+     "marks": 3
+    },
+    {
+     "point": "display() shows vno, hours and bill",
+     "marks": 2
+    },
+    {
+     "point": "main() creates an object and calls input, calculate, display",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 149,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "98",
+   "q_order": 54,
+   "q_main": 98,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Methods to assign, reverse and display a string",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "string reversal",
+    "charAt and length",
+    "instance methods"
+   ],
+   "question": "Write a complete Java program that defines the following methods:\n(i) assign(): Assigns a value to a string.\n(ii) reverse-string(): Reverses the string assigned above.\n(iii) display(): Displays the original and reversed strings.\n(iv) main(): Calls the above methods.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass StringReverse\n{\n    String str, rev;\n\n    void assign()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a string: \");\n        str = sc.nextLine();\n    }\n\n    void reverseString()\n    {\n        rev = \"\";\n        for (int i = str.length() - 1; i >= 0; i--)\n        {\n            rev = rev + str.charAt(i);\n        }\n    }\n\n    void display()\n    {\n        System.out.println(\"Original string : \" + str);\n        System.out.println(\"Reversed string : \" + rev);\n    }\n\n    public static void main(String args[])\n    {\n        StringReverse ob = new StringReverse();\n        ob.assign();\n        ob.reverseString();\n        ob.display();\n    }\n}\nSample: Hello Java gives Reversed string : avaJ olleH\n(reverse-string is not a valid identifier because of the hyphen, so it is named reverseString.)\n\n// Variable description\n// str : String : original string\n// rev : String : reversed string\n// i : int : loop index",
+   "marking_points": [
+    {
+     "point": "Class and method declarations with correct return and parameter types",
+     "marks": 2
+    },
+    {
+     "point": "assign() stores a string (input or assigned)",
+     "marks": 2
+    },
+    {
+     "point": "reverseString() loops from length()-1 down to 0",
+     "marks": 3
+    },
+    {
+     "point": "Builds the reversed string with charAt(i)",
+     "marks": 2
+    },
+    {
+     "point": "display() prints original and reversed strings",
+     "marks": 2
+    },
+    {
+     "point": "main() creates an object and calls the methods in order",
+     "marks": 3
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 153,
+   "school": "ICSE 2017 compartment"
+  }
+ ]
+}

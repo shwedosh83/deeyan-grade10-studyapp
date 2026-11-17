@@ -1,0 +1,1705 @@
+{
+ "paper_id": "pyq_computer_applications_5",
+ "subject": "computer_applications",
+ "year": 2024,
+ "sem": null,
+ "label": "Past papers · Constructors",
+ "source": "pyq",
+ "school": "CISCE past papers",
+ "exam_label": "Past papers by chapter",
+ "max_marks": 230.0,
+ "duration_minutes": 0,
+ "reading_minutes": 0,
+ "instructions": "Chapter-wise questions from ICSE board, compartment and specimen papers, 2015–2024.",
+ "sections": [
+  {
+   "name": "Past-paper questions",
+   "total_marks": 230.0,
+   "rule": "Practise in any order.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "2",
+   "q_order": 0,
+   "q_main": 2,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Access specifiers on constructors",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "constructor access specifiers"
+   ],
+   "question": "Is the following statement true/false?\nAccess specifiers can be used for defining constructors.",
+   "options": {
+    "a": "True",
+    "b": "False",
+    "c": "May be",
+    "d": "May not be"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) True. A constructor can be declared public, private, protected or with default access; the specifier controls where objects can be created.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 156,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "3",
+   "q_order": 1,
+   "q_main": 3,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Return type of a constructor",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "constructor has no return type"
+   ],
+   "question": "Which of the following is a return type of a constructor?",
+   "options": {
+    "a": "Void",
+    "b": "Int",
+    "c": "Null",
+    "d": "None of the above"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) None of the above. A constructor has no return type, not even void.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 156,
+   "school": "ICSE 2021 compartment"
+  },
+  {
+   "q_label": "5",
+   "q_order": 2,
+   "q_main": 5,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "No constructor defined",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "default constructor supplied by compiler",
+    "default values"
+   ],
+   "question": "How would the compiler/interpreter behave if there is no constructor defined in the class?",
+   "options": {
+    "a": "No error. Default values will be initialized to members",
+    "b": "Error",
+    "c": "Impossible",
+    "d": "Program hangs"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) No error. Default values will be initialized to members. The compiler supplies a default constructor, and instance variables get default values (0, false, null).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 156,
+   "school": "ICSE 2018 specimen"
+  },
+  {
+   "q_label": "6",
+   "q_order": 3,
+   "q_main": 6,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Default values of instance variables",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "default value of int is 0",
+    "default value of String is null"
+   ],
+   "question": "State the output of the below code:\nclass Abc {\n    int a; String c;\n    public static void main() {\n        Abc ob = new Abc();\n        System.out.print(ob.a + \"  \" + ob.c);\n    }\n}",
+   "options": {
+    "a": "1 * 1",
+    "b": "0 0",
+    "c": "0",
+    "d": "0 null"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 0 null. No constructor sets a or c, so they keep their default values: int a = 0 and String c = null; the line prints 0, the spaces, then null.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 156,
+   "school": "ICSE 2019 compartment"
+  },
+  {
+   "q_label": "7",
+   "q_order": 4,
+   "q_main": 7,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Parameterized constructor output",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "parameterized constructor",
+    "object initialisation"
+   ],
+   "question": "State the output of the below code:\nclass Abc {\n    int a; String c;\n    Abc(int x, String y) {\n        a = x;\n        c = y;\n    }\n    public static void main() {\n        Abc ob = new Abc(2, \"!\");\n        System.out.print(ob.a + \"  \" + ob.c);\n    }\n}",
+   "options": {
+    "a": "2null",
+    "b": "error",
+    "c": "nullnull",
+    "d": "2!"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) 2!. The parameterized constructor stores a = 2 and c = \"!\", so the values 2 and ! are printed (separated by the spaces in the string literal).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 156,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "12",
+   "q_order": 5,
+   "q_main": 12,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Purpose of a constructor",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "constructor initialises data members"
+   ],
+   "question": "What is the purpose of a constructor in a class?",
+   "options": {
+    "a": "To define class methods",
+    "b": "To initialize class data members",
+    "c": "To destroy objects",
+    "d": "To handle exceptions"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) To initialize class data members. A constructor runs when an object is created and initializes its data members.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 157,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "15",
+   "q_order": 6,
+   "q_main": 15,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "No constructor defined",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "default constructor"
+   ],
+   "question": "What happens if no constructor is defined in a class?",
+   "options": {
+    "a": "The program throws an error.",
+    "b": "A default constructor is automatically provided.",
+    "c": "The class cannot be instantiated.",
+    "d": "The object is created without initialization."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) A default constructor is automatically provided.. The compiler adds a default constructor, which leaves members at their default values.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 158,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "16",
+   "q_order": 7,
+   "q_main": 16,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Access specifier for constructors",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "public constructor"
+   ],
+   "question": "Which access specifier is most commonly used for constructors?",
+   "options": {
+    "a": "Private",
+    "b": "Public",
+    "c": "Protected",
+    "d": "Default"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Public. Constructors are usually public so that objects of the class can be created from any other class.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 158,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "17",
+   "q_order": 8,
+   "q_main": 17,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Parameterized constructor",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "parameterized constructor"
+   ],
+   "question": "What is the primary function of a parameterized constructor?",
+   "options": {
+    "a": "To return a value",
+    "b": "To set default values",
+    "c": "To accept arguments for initialization",
+    "d": "To invoke another constructor"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) To accept arguments for initialization. A parameterized constructor receives values as arguments and uses them to initialize the data members.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 158,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "21",
+   "q_order": 9,
+   "q_main": 21,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Creating an object with the default constructor",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "new operator",
+    "non-parameterized constructor call"
+   ],
+   "question": "Which of these correctly initializes an object using a default constructor?",
+   "options": {
+    "a": "MyClass obj = new MyClass(5);",
+    "b": "MyClass obj = new MyClass();",
+    "c": "MyClass obj;",
+    "d": "obj = MyClass();"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) MyClass obj = new MyClass();. new MyClass() with empty brackets calls the constructor that takes no arguments; (c) only declares a reference.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 159,
+   "school": "ICSE 2019 compartment"
+  },
+  {
+   "q_label": "23",
+   "q_order": 10,
+   "q_main": 23,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Formal parameters",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "formal parameter"
+   ],
+   "question": "What is a formal parameter in a constructor?",
+   "options": {
+    "a": "A variable declared outside the constructor.",
+    "b": "A placeholder variable declared in the constructor definition.",
+    "c": "A variable used to call a method.",
+    "d": "A parameter used to call another constructor."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) A placeholder variable declared in the constructor definition.. Formal parameters are declared in the constructor's heading and receive the values of the actual parameters.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 159,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "24",
+   "q_order": 11,
+   "q_main": 24,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Defining a parameterized constructor",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "parameterized constructor"
+   ],
+   "question": "How do you define a parameterized constructor?",
+   "options": {
+    "a": "By providing default values to all variables.",
+    "b": "By defining a constructor with parameters to accept values.",
+    "c": "By using a special access specifier.",
+    "d": "By defining a constructor without any parameters."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) By defining a constructor with parameters to accept values.. A parameterized constructor has a parameter list through which values are passed at object creation.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 159,
+   "school": "ICSE 2017 compartment"
+  },
+  {
+   "q_label": "26",
+   "q_order": 12,
+   "q_main": 26,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Constructor overloading",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "constructor overloading"
+   ],
+   "question": "Which of these is an example of constructor overloading?",
+   "options": {
+    "a": "A class having multiple constructors with the same name and parameter lists.",
+    "b": "A class having multiple constructors with different parameter lists.",
+    "c": "A class having a single constructor.",
+    "d": "A class having private constructors only."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) A class having multiple constructors with different parameter lists.. Overloaded constructors share the class name but differ in the number, type or order of parameters.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 159,
+   "school": "ICSE 2021 compartment"
+  },
+  {
+   "q_label": "45(i)",
+   "q_order": 13,
+   "q_main": 45,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Number of constructors in a class",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "constructor overloading"
+   ],
+   "question": "How many constructors can a class have?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A class can have any number of constructors, provided each has a different parameter list (number, type or order of parameters). This is constructor overloading.",
+   "marking_points": [
+    {
+     "point": "Any number of constructors, as long as their parameter lists differ",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 171,
+   "school": "ICSE 2024 specimen"
+  },
+  {
+   "q_label": "45(ii)",
+   "q_order": 14,
+   "q_main": 45,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Why constructors have no return type",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "constructor has no return type"
+   ],
+   "question": "Why do constructors not have any return type?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A constructor is not called to compute and return a value; it is invoked automatically by new only to initialize the object being created, and new itself gives back the reference to that object. So a constructor has no return type, not even void (its implicit return is the object of the class type).",
+   "marking_points": [
+    {
+     "point": "Constructor only initializes the object when it is created and is not meant to return a value (new returns the object reference / implicit return is the class type)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 171,
+   "school": "ICSE 2024 specimen"
+  },
+  {
+   "q_label": "53",
+   "q_order": 15,
+   "q_main": 53,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Constructor overloading",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "constructor overloading",
+    "parameter list"
+   ],
+   "question": "Explain the concept of constructor overloading.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Constructor overloading means defining more than one constructor in a class, all with the class name but differing in the number or types of parameters. The constructor that runs is chosen automatically by the arguments given when the object is created.\nExample:\nclass Point {\n    int x, y;\n    Point() { x = 0; y = 0; }\n    Point(int a, int b) { x = a; y = b; }\n}\nnew Point() calls the first; new Point(3, 4) calls the second.",
+   "marking_points": [
+    {
+     "point": "More than one constructor in the same class with different parameter lists",
+     "marks": 1
+    },
+    {
+     "point": "Correct constructor chosen automatically by the arguments at object creation (or a valid example)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 166,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "54",
+   "q_order": 16,
+   "q_main": 54,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Features of a constructor",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "constructor name same as class",
+    "invoked automatically"
+   ],
+   "question": "State two features of a constructor.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) A constructor has the same name as the class.\n(ii) It is invoked automatically when an object of the class is created.\n(Also acceptable: it has no return type, not even void; it is used to initialize data members.)",
+   "marking_points": [
+    {
+     "point": "First valid feature (e.g. same name as the class)",
+     "marks": 1
+    },
+    {
+     "point": "Second valid feature (e.g. invoked automatically on object creation / no return type)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 166,
+   "school": "ICSE 2016 compartment"
+  },
+  {
+   "q_label": "55",
+   "q_order": 17,
+   "q_main": 55,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Default constructor",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "default constructor",
+    "non-parameterized constructor"
+   ],
+   "question": "What is a default constructor?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A default constructor is a constructor that takes no parameters. If a class has no constructor at all, the compiler supplies one, which initializes the data members to their default values (0, false, null). A no-argument constructor written by the programmer is also called a default (non-parameterized) constructor.\nExample:\nclass MyClass {\n    private int c;\n    MyClass() {\n        c = 10;\n    }\n}",
+   "marking_points": [
+    {
+     "point": "Constructor that accepts no parameters",
+     "marks": 1
+    },
+    {
+     "point": "Supplied by the compiler when none is defined / initializes members to default values (or a correct example)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 166,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "56",
+   "q_order": 18,
+   "q_main": 56,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 4.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Swapping values passed through a constructor",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "parameterized constructor",
+    "swapping with a temporary variable"
+   ],
+   "question": "Enter any two variables through constructor parameters and write a program to swap and print the values.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample output for new Swap(10, 20): a = 20, b = 10\n\nclass Swap {\n    int a, b;\n    Swap(int x, int y) {\n        a = x;\n        b = y;\n    }\n    void swapValues() {\n        int temp = a;\n        a = b;\n        b = temp;\n    }\n    void display() {\n        System.out.println(\"a = \" + a + \", b = \" + b);\n    }\n    public static void main(String args[]) {\n        Swap obj = new Swap(10, 20);\n        obj.swapValues();\n        obj.display();\n    }\n}\n// a, b : data members holding the two values\n// x, y : formal parameters of the constructor\n// temp : temporary variable used for swapping",
+   "marking_points": [
+    {
+     "point": "Parameterized constructor assigning the two values to data members",
+     "marks": 1
+    },
+    {
+     "point": "Correct swap using a temporary variable",
+     "marks": 2
+    },
+    {
+     "point": "main creates the object, calls swap and prints the values",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 166,
+   "school": "ICSE 2018 specimen"
+  },
+  {
+   "q_label": "57",
+   "q_order": 19,
+   "q_main": 57,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Writing a parameterized constructor",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "parameterized constructor"
+   ],
+   "question": "Define a parameterized constructor for the class Floppy that assigns the diameter and storage space passed to it to the member variables diameter and space.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "class Floppy {\n    double diameter, space;\n    Floppy(double d, double s) {\n        diameter = d;\n        space = s;\n    }\n}",
+   "marking_points": [
+    {
+     "point": "Constructor heading Floppy(double d, double s) with no return type",
+     "marks": 1
+    },
+    {
+     "point": "Assigns the parameters to diameter and space",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 167,
+   "school": "ICSE 2019 compartment"
+  },
+  {
+   "q_label": "58",
+   "q_order": 20,
+   "q_main": 58,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Default vs parameterized constructor",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "default constructor",
+    "parameterized constructor"
+   ],
+   "question": "Write the difference between default constructor and parameterized constructor.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A default (non-parameterized) constructor accepts no parameters, so every object gets the same initial (default) values, e.g. Student() { marks = 0; }.\nA parameterized constructor accepts arguments, so the initial values are supplied when the object is created and can differ for each object, e.g. Student(int m) { marks = m; }.",
+   "marking_points": [
+    {
+     "point": "Default constructor takes no parameters / gives default values",
+     "marks": 1
+    },
+    {
+     "point": "Parameterized constructor takes arguments supplied at object creation",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 167,
+   "school": "ICSE 2020"
+  },
+  {
+   "q_label": "59",
+   "q_order": 21,
+   "q_main": 59,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Actual vs formal parameters",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "actual parameters",
+    "formal parameters"
+   ],
+   "question": "Can the number of actual parameters be different from the number of formal parameters?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "No. When an object is created, the number (and types, in order) of actual parameters must match the formal parameters of the constructor being invoked; otherwise that constructor cannot be called and the compiler reports an error (unless another overloaded constructor matches the given arguments).",
+   "marking_points": [
+    {
+     "point": "No",
+     "marks": 1
+    },
+    {
+     "point": "They must match in number and type for the constructor invoked, else compile error",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 167,
+   "school": "ICSE 2021 specimen"
+  },
+  {
+   "q_label": "60",
+   "q_order": 22,
+   "q_main": 60,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Object creation without a constructor",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "default constructor supplied by compiler"
+   ],
+   "question": "If a programmer does not define a constructor in a class, can the programmer still create an object in the program?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Yes. If no constructor is defined, the compiler supplies a default constructor, so an object can still be created with new ClassName(); its instance variables get default values (0, 0.0, false, null).",
+   "marking_points": [
+    {
+     "point": "Yes, an object can be created",
+     "marks": 1
+    },
+    {
+     "point": "Because the compiler supplies a default constructor that gives default values",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 167,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "65",
+   "q_order": 23,
+   "q_main": 65,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Constructor vs method",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "constructor vs method"
+   ],
+   "question": "State the difference between Constructor and Method.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Constructor: has the same name as the class; has no return type, not even void; is invoked automatically when an object is created; is used to initialize data members.\nMethod: has a name different from the class name; must have a return type (void if it returns nothing); is invoked explicitly by calling it; performs some operation on the data.",
+   "marking_points": [
+    {
+     "point": "Name / return type difference",
+     "marks": 1
+    },
+    {
+     "point": "Automatic vs explicit invocation (or purpose: initialize vs perform a task)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 168,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "77",
+   "q_order": 24,
+   "q_main": 77,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Constructor initialising to zero; commission",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "non-parameterized constructor",
+    "parameterized constructor",
+    "percentage calculation"
+   ],
+   "question": "Define a Java class Salesman that initializes the commission of the salesman and the sale done by him to zero, using constructor. Define main method that computes his commission, if his sales is Rs. 15000 and the commission is 2%.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Output: Commission in Rupees = 300.0\n\nclass Salesman {\n    double sales, commission;\n\n    Salesman() {\n        sales = 0;          // initializes sales to 0\n        commission = 0;     // initializes commission to 0\n    }\n\n    Salesman(double s, double c) {\n        sales = s;\n        commission = c;\n    }\n\n    public static void main(String args[]) {\n        Salesman obj = new Salesman();        // both values are 0\n        System.out.println(\"Initial sales = \" + obj.sales + \", commission = \" + obj.commission);\n        Salesman obj1 = new Salesman(15000, 2);\n        double comInRupees = obj1.commission / 100 * obj1.sales;\n        System.out.println(\"Commission in Rupees = \" + comInRupees);\n    }\n}\n// sales       : sales in rupees\n// commission  : commission in percent\n// s, c        : formal parameters of the constructor\n// comInRupees : commission earned in rupees (2/100 * 15000 = 300.0)",
+   "marking_points": [
+    {
+     "point": "Class with data members sales and commission",
+     "marks": 2
+    },
+    {
+     "point": "Constructor initializing both to zero",
+     "marks": 3
+    },
+    {
+     "point": "Parameterized constructor / assigning 15000 and 2",
+     "marks": 2
+    },
+    {
+     "point": "Commission computed as 2% of 15000",
+     "marks": 4
+    },
+    {
+     "point": "Output printed",
+     "marks": 2
+    },
+    {
+     "point": "main creates objects",
+     "marks": 1
+    },
+    {
+     "point": "Variable description",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 172,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "78",
+   "q_order": 25,
+   "q_main": 78,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Class with default constructor: FruitJuice",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "default constructor",
+    "Scanner input",
+    "member methods"
+   ],
+   "question": "Define a class named FruitJuice with the following description:\nInstance variables/data members:\n(i) int product_code – stores the product code number\n(ii) String flavour – stores the flavour of the juice (e.g., orange, apple, etc.)\n(iii) String pack_type – stores the type of packaging (e.g., tetra-pack, PET bottle, etc.)\n(iv) int pack_size – stores the package size (e.g., 200 ml, 400 ml, etc.)\n(v) int product_price – stores the price of the product\nMember methods:\n(i) FruitJuice() – Default constructor to initialize integer data members to 0 and String data members to \"\".\n(ii) void input() – To input and store the product code, flavour, pack type, pack size, and product price.\n(iii) void discount() – To reduce the product price by 10.\n(iv) void display() – To display the product code, flavour, pack type, pack size, and product price.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass FruitJuice {\n    int product_code;\n    String flavour;\n    String pack_type;\n    int pack_size;\n    int product_price;\n\n    FruitJuice() {\n        product_code = 0;\n        flavour = \"\";\n        pack_type = \"\";\n        pack_size = 0;\n        product_price = 0;\n    }\n\n    void input() {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter product code: \");\n        product_code = sc.nextInt();\n        sc.nextLine();\n        System.out.print(\"Enter flavour: \");\n        flavour = sc.nextLine();\n        System.out.print(\"Enter pack type: \");\n        pack_type = sc.nextLine();\n        System.out.print(\"Enter pack size (ml): \");\n        pack_size = sc.nextInt();\n        System.out.print(\"Enter product price: \");\n        product_price = sc.nextInt();\n    }\n\n    void discount() {\n        product_price = product_price - 10;\n    }\n\n    void display() {\n        System.out.println(\"Product code  : \" + product_code);\n        System.out.println(\"Flavour       : \" + flavour);\n        System.out.println(\"Pack type     : \" + pack_type);\n        System.out.println(\"Pack size     : \" + pack_size + \" ml\");\n        System.out.println(\"Product price : \" + product_price);\n    }\n\n    public static void main(String args[]) {\n        FruitJuice ob = new FruitJuice();\n        ob.input();\n        ob.discount();\n        ob.display();\n    }\n}\n// product_code  : product code number\n// flavour       : flavour of the juice\n// pack_type     : type of packaging\n// pack_size     : package size in ml\n// product_price : price of the product\n// ob            : object of FruitJuice",
+   "marking_points": [
+    {
+     "point": "Class and five data members declared with correct types",
+     "marks": 2
+    },
+    {
+     "point": "Default constructor setting ints to 0 and Strings to \"\"",
+     "marks": 3
+    },
+    {
+     "point": "input() reading all five values with Scanner",
+     "marks": 3
+    },
+    {
+     "point": "discount() reducing price by 10",
+     "marks": 2
+    },
+    {
+     "point": "display() printing all five members",
+     "marks": 2
+    },
+    {
+     "point": "main creates object and calls input, discount, display",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 169,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "79",
+   "q_order": 26,
+   "q_main": 79,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Default and parameterized constructors: Employee salary",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "default constructor",
+    "parameterized constructor",
+    "percentage calculation"
+   ],
+   "question": "Define a Java class Employee with the following members:\nData members: code, name, basic, hra, da, PF\nDefault constructor: Initializes code, basic, hra, da, and PF to zero.\nParameterized constructor: Initializes basic, computes hra, da, and PF as per the following criteria:\nhra = 10% of basic\nda = 55% of basic\nPF = Rs. 1000\nMain method: Computes and displays the net salary\nNetSalary = basic + da + hra – PF",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Employee {\n    int code;\n    String name;\n    double basic, hra, da, PF;\n\n    Employee() {\n        code = 0;\n        name = \"\";\n        basic = 0;\n        hra = 0;\n        da = 0;\n        PF = 0;\n    }\n\n    Employee(int c, String n, double b) {\n        code = c;\n        name = n;\n        basic = b;\n        hra = 10.0 / 100 * basic;\n        da = 55.0 / 100 * basic;\n        PF = 1000;\n    }\n\n    public static void main(String args[]) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter employee code: \");\n        int cd = sc.nextInt();\n        sc.nextLine();\n        System.out.print(\"Enter name: \");\n        String nm = sc.nextLine();\n        System.out.print(\"Enter basic salary: \");\n        double bs = sc.nextDouble();\n        Employee emp = new Employee(cd, nm, bs);\n        double netSalary = emp.basic + emp.da + emp.hra - emp.PF;\n        System.out.println(\"EMPLOYEE PAYSLIP\");\n        System.out.println(\"CODE       : \" + emp.code);\n        System.out.println(\"NAME       : \" + emp.name);\n        System.out.println(\"NET SALARY : \" + netSalary);\n    }\n}\n// code, name, basic : employee code, name and basic salary\n// hra, da, PF       : allowances and provident fund\n// cd, nm, bs        : values input in main (actual parameters)\n// netSalary         : basic + da + hra - PF\n(Note: the source answer placed main outside the class; it must be inside class Employee.)",
+   "marking_points": [
+    {
+     "point": "Class with data members code, name, basic, hra, da, PF",
+     "marks": 2
+    },
+    {
+     "point": "Default constructor initializing members to zero",
+     "marks": 2
+    },
+    {
+     "point": "Parameterized constructor computing hra = 10%, da = 55%, PF = 1000",
+     "marks": 4
+    },
+    {
+     "point": "Input of values in main",
+     "marks": 2
+    },
+    {
+     "point": "Net salary computed as basic + da + hra - PF",
+     "marks": 2
+    },
+    {
+     "point": "Net salary displayed",
+     "marks": 1
+    },
+    {
+     "point": "Object created with parameterized constructor",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 174,
+   "school": "ICSE 2017 compartment"
+  },
+  {
+   "q_label": "80",
+   "q_order": 27,
+   "q_main": 80,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Default and parameterized constructors: Color",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "default constructor",
+    "parameterized constructor",
+    "String data members"
+   ],
+   "question": "Define a Java class Color as described below:\nInstance variables: colTop, colBottom – To store the top and bottom colors of the dress.\nDefault Constructor: Initialize colTop as Pink and colBottom as Black.\nParameterized Constructor: Initialize colTop and colBottom by accepted values.\nMain method (main): Display the default colors as well as assigned ones through objects.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Color {\n    String colTop, colBottom;\n\n    Color() {\n        colTop = \"Pink\";\n        colBottom = \"Black\";\n    }\n\n    Color(String t, String b) {\n        colTop = t;\n        colBottom = b;\n    }\n\n    public static void main(String args[]) {\n        Scanner sc = new Scanner(System.in);\n        Color dress1 = new Color();\n        System.out.println(\"Default colors: top = \" + dress1.colTop + \", bottom = \" + dress1.colBottom);\n        System.out.print(\"Enter top color: \");\n        String s1 = sc.nextLine();\n        System.out.print(\"Enter bottom color: \");\n        String s2 = sc.nextLine();\n        Color dress2 = new Color(s1, s2);\n        System.out.println(\"Assigned colors: top = \" + dress2.colTop + \", bottom = \" + dress2.colBottom);\n    }\n}\n// colTop, colBottom : colors of the top and bottom of the dress\n// t, b              : formal parameters of the parameterized constructor\n// s1, s2            : colors entered by the user (actual parameters)\n// dress1, dress2    : objects created with the default and parameterized constructors",
+   "marking_points": [
+    {
+     "point": "Class with String data members colTop, colBottom",
+     "marks": 2
+    },
+    {
+     "point": "Default constructor setting Pink and Black",
+     "marks": 3
+    },
+    {
+     "point": "Parameterized constructor assigning accepted values",
+     "marks": 3
+    },
+    {
+     "point": "Input of new colors",
+     "marks": 2
+    },
+    {
+     "point": "Two objects created with the two constructors",
+     "marks": 2
+    },
+    {
+     "point": "Both sets of colors displayed",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 174,
+   "school": "ICSE 2018"
+  },
+  {
+   "q_label": "81",
+   "q_order": 28,
+   "q_main": 81,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Constructor computing double, square and half",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "parameterized constructor",
+    "integer vs double arithmetic"
+   ],
+   "question": "Write a Java program to calculate and display the double, square, and half of an integer number using a constructor that takes the number as a parameter. The program should also print the computed results.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample: for 86 -> Double of 86 = 172, Square of 86 = 7396, Half of 86 = 43.0\n\nimport java.util.*;\n\nclass ComputeNumber {\n    int number;\n    int d, s;\n    double h;\n\n    ComputeNumber(int a) {\n        number = a;\n        d = 2 * number;          // double\n        s = number * number;     // square\n        h = number / 2.0;        // half (2.0 avoids integer division)\n    }\n\n    void display() {\n        System.out.println(\"Double of \" + number + \" = \" + d);\n        System.out.println(\"Square of \" + number + \" = \" + s);\n        System.out.println(\"Half of \" + number + \" = \" + h);\n    }\n\n    public static void main(String args[]) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter an integer: \");\n        int n = sc.nextInt();\n        ComputeNumber ob = new ComputeNumber(n);\n        ob.display();\n    }\n}\n// number : the integer passed to the constructor\n// d, s   : double and square of number\n// h      : half of number (double)\n// a      : formal parameter; n : actual parameter; ob : object",
+   "marking_points": [
+    {
+     "point": "Class with data members",
+     "marks": 2
+    },
+    {
+     "point": "Parameterized constructor receiving the number",
+     "marks": 3
+    },
+    {
+     "point": "Input of the number",
+     "marks": 2
+    },
+    {
+     "point": "Double, square and half computed correctly (half without integer division)",
+     "marks": 4
+    },
+    {
+     "point": "Results displayed",
+     "marks": 2
+    },
+    {
+     "point": "main creates object and calls display",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 177,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "82",
+   "q_order": 29,
+   "q_main": 82,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Constructor with cube, square root, reciprocal",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "parameterized constructor",
+    "Math.pow",
+    "Math.sqrt"
+   ],
+   "question": "Write a Java program to compute and display the cube, square root, and reciprocal of a given integer using a constructor that accepts the number as a parameter. The program should also print the computed results.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample: for 4 -> Cube: 64.0, Square Root: 2.0, Reciprocal: 0.25\n\nimport java.util.*;\n\nclass NumberOperations {\n    int number;\n\n    NumberOperations(int num) {\n        number = num;\n    }\n\n    double calculateCube() {\n        return Math.pow(number, 3);\n    }\n\n    double calculateSquareRoot() {\n        return Math.sqrt(number);\n    }\n\n    double calculateReciprocal() {\n        return 1.0 / number;\n    }\n\n    public static void main(String args[]) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter an integer number: \");\n        int num = sc.nextInt();\n        NumberOperations obj = new NumberOperations(num);\n        System.out.println(\"Number: \" + num);\n        System.out.println(\"Cube: \" + obj.calculateCube());\n        System.out.println(\"Square Root: \" + obj.calculateSquareRoot());\n        System.out.println(\"Reciprocal: \" + obj.calculateReciprocal());\n    }\n}\n// number : data member set by the constructor\n// num    : number entered by the user\n// obj    : object of NumberOperations",
+   "marking_points": [
+    {
+     "point": "Class with data member",
+     "marks": 2
+    },
+    {
+     "point": "Parameterized constructor storing the number",
+     "marks": 3
+    },
+    {
+     "point": "Input of the number",
+     "marks": 2
+    },
+    {
+     "point": "Cube, square root and reciprocal computed correctly (1.0/number avoids integer division)",
+     "marks": 4
+    },
+    {
+     "point": "Results displayed",
+     "marks": 2
+    },
+    {
+     "point": "main creates object and calls methods",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 177,
+   "school": "ICSE 2020 compartment"
+  },
+  {
+   "q_label": "83",
+   "q_order": 30,
+   "q_main": 83,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Default constructor and rating messages: movieMagic",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "default constructor",
+    "if-else-if ladder",
+    "Scanner input"
+   ],
+   "question": "Define a class named movieMagic with the following specifications:\nInstance variables/data members:\nint year: To store the year of release of a movie.\nString title: To store the title of the movie.\nfloat rating: To store the popularity rating of the movie (minimum rating = 0.0 and maximum rating = 5.0).\nMember methods:\n(i) movieMagic(): Default constructor to initialize numeric data members to 0 and String data member to \"\".\n(ii) void accept(): To input and store year, title, and rating.\n(iii) void display(): To display the title of a movie and a message based on the rating as per the table below.\nRating | Message to be displayed\n0.0 to 2.0 | Flop\n2.1 to 3.4 | Semi-hit\n3.5 to 4.5 | Hit\n4.6 to 5.0 | Super Hit\nWrite a main method to create an object of the class and call the above member methods.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass movieMagic {\n    int year;\n    String title;\n    float rating;\n\n    movieMagic() {\n        year = 0;\n        title = \"\";\n        rating = 0.0f;\n    }\n\n    void accept() {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter year of release: \");\n        year = sc.nextInt();\n        sc.nextLine();\n        System.out.print(\"Enter title: \");\n        title = sc.nextLine();\n        System.out.print(\"Enter rating (0.0 to 5.0): \");\n        rating = sc.nextFloat();\n    }\n\n    void display() {\n        System.out.println(\"Title: \" + title);\n        if (rating <= 2.0)\n            System.out.println(\"Flop\");\n        else if (rating <= 3.4)\n            System.out.println(\"Semi-hit\");\n        else if (rating <= 4.5)\n            System.out.println(\"Hit\");\n        else\n            System.out.println(\"Super Hit\");\n    }\n\n    public static void main(String args[]) {\n        movieMagic mov = new movieMagic();\n        mov.accept();\n        mov.display();\n    }\n}\n// year   : year of release\n// title  : title of the movie\n// rating : popularity rating, 0.0 to 5.0\n// mov    : object of movieMagic\n(Note: the ladder uses upper limits only, so a value such as 2.05 that falls between the table's ranges is still classified; the source used both bounds and printed nothing for such values.)",
+   "marking_points": [
+    {
+     "point": "Class and data members with correct types",
+     "marks": 2
+    },
+    {
+     "point": "Default constructor initializing 0 and \"\"",
+     "marks": 2
+    },
+    {
+     "point": "accept() reading year, title and rating",
+     "marks": 2
+    },
+    {
+     "point": "if-else-if ladder for Flop / Semi-hit / Hit / Super Hit",
+     "marks": 5
+    },
+    {
+     "point": "Title and message displayed",
+     "marks": 2
+    },
+    {
+     "point": "main creates object and calls accept and display",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 176,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "84",
+   "q_order": 31,
+   "q_main": 84,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Constructor in one class used from another class",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "parameterized constructor",
+    "public data members",
+    "object of another class"
+   ],
+   "question": "(i) Write a Java class Days. Define its constructor that takes two integer values and stores in public variables day1 and day2.\n(ii) Write another class Difference that creates an object of class Days, computes, and prints the difference in the two days day1 and day2.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Days {\n    public int day1, day2;\n\n    Days(int d1, int d2) {\n        day1 = d1;\n        day2 = d2;\n    }\n}\n\nclass Difference {\n    public static void main(String args[]) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter first day: \");\n        int dd1 = sc.nextInt();\n        System.out.print(\"Enter second day: \");\n        int dd2 = sc.nextInt();\n        Days obj = new Days(dd1, dd2);\n        int diff = Math.abs(obj.day2 - obj.day1);\n        System.out.println(\"Difference in number of days = \" + diff);\n    }\n}\n// day1, day2 : public data members of Days\n// d1, d2     : formal parameters of the constructor\n// dd1, dd2   : actual parameters entered by the user\n// diff       : difference between the two days\n(Sample: 15 and 25 -> Difference in number of days = 10)",
+   "marking_points": [
+    {
+     "point": "Class Days with public int day1, day2",
+     "marks": 2
+    },
+    {
+     "point": "Parameterized constructor storing the two values",
+     "marks": 3
+    },
+    {
+     "point": "Class Difference with main",
+     "marks": 2
+    },
+    {
+     "point": "Input / values for the two days",
+     "marks": 2
+    },
+    {
+     "point": "Object of Days created in Difference",
+     "marks": 2
+    },
+    {
+     "point": "Difference computed and printed",
+     "marks": 3
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 175,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "86",
+   "q_order": 32,
+   "q_main": 86,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Default and parameterized constructors: Box volume",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "default constructor",
+    "parameterized constructor"
+   ],
+   "question": "Design a Java class named Box with the following specifications:\n(i) The default constructor initializes the dimensions length, width, and height to zero.\n(ii) A parameterized constructor accepts three double values representing the dimensions of the box.\nWrite a main method to create a Box object with dimensions 3.89 cm, 2.1 cm, and 1.5 cm, and calculate its volume.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Volume = 3.89 × 2.1 × 1.5 = 12.2535 cubic cm. Output: Volume of the box = 12.2535 cubic cm\n\nclass Box {\n    double length, width, height;\n\n    Box() {\n        length = 0;\n        width = 0;\n        height = 0;\n    }\n\n    Box(double l, double w, double h) {\n        length = l;\n        width = w;\n        height = h;\n    }\n\n    double volume() {\n        return length * width * height;\n    }\n\n    public static void main(String args[]) {\n        Box obj = new Box(3.89, 2.1, 1.5);\n        System.out.println(\"Volume of the box = \" + obj.volume() + \" cubic cm\");\n    }\n}\n// length, width, height : dimensions of the box\n// l, w, h               : formal parameters\n// obj                   : Box object with the given dimensions",
+   "marking_points": [
+    {
+     "point": "Class with double data members length, width, height",
+     "marks": 2
+    },
+    {
+     "point": "Default constructor setting all to zero",
+     "marks": 3
+    },
+    {
+     "point": "Parameterized constructor assigning three values",
+     "marks": 3
+    },
+    {
+     "point": "Object created with 3.89, 2.1, 1.5",
+     "marks": 2
+    },
+    {
+     "point": "Volume = length × width × height",
+     "marks": 3
+    },
+    {
+     "point": "Volume displayed",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 178,
+   "school": "ICSE 2024 specimen"
+  },
+  {
+   "q_label": "87",
+   "q_order": 33,
+   "q_main": 87,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Constructor initialising triangle sides; Pythagoras",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "parameterized constructor",
+    "Math.sqrt",
+    "Pythagoras theorem"
+   ],
+   "question": "Consider a right-angled triangle whose longest side is given as 6 cm and the base as 4 cm. Write a Java program that initializes the given sides of the triangle in a constructor and computes and displays the third side.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Third side = √(6² − 4²) = √20 ≈ 4.47 cm. Java prints: The third side = 4.47213595499958\n\nclass TriangleSide {\n    double longestSide, base;\n\n    TriangleSide(double l, double b) {\n        longestSide = l;\n        base = b;\n    }\n\n    public static void main(String args[]) {\n        TriangleSide t = new TriangleSide(6, 4);\n        double s3 = Math.sqrt(t.longestSide * t.longestSide - t.base * t.base);\n        System.out.println(\"The third side = \" + s3);\n    }\n}\n// longestSide, base : hypotenuse and base of the right-angled triangle\n// l, b              : formal parameters of the constructor\n// s3                : third side = sqrt(hypotenuse^2 - base^2)",
+   "marking_points": [
+    {
+     "point": "Class with data members for the two sides",
+     "marks": 2
+    },
+    {
+     "point": "Parameterized constructor initializing the sides",
+     "marks": 3
+    },
+    {
+     "point": "Object created with 6 and 4",
+     "marks": 2
+    },
+    {
+     "point": "Third side = sqrt(hypotenuse² − base²) using Math.sqrt",
+     "marks": 5
+    },
+    {
+     "point": "Result displayed",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 178,
+   "school": "ICSE 2018"
+  },
+  {
+   "q_label": "88",
+   "q_order": 34,
+   "q_main": 88,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Constructor initialising sides; perimeter",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "parameterized constructor",
+    "method returning a value"
+   ],
+   "question": "Write a Java program to represent an isosceles triangle where the two equal sides are 5 cm each, and the base is 6 cm. Initialize the sides of the triangle using a constructor, and compute and display the perimeter of the triangle.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Output: The perimeter of the isosceles triangle is: 16.0 cm\n\nclass IsoscelesTriangle {\n    double side1, side2, base;\n\n    IsoscelesTriangle(double s1, double s2, double b) {\n        side1 = s1;\n        side2 = s2;\n        base = b;\n    }\n\n    double calculatePerimeter() {\n        return side1 + side2 + base;\n    }\n\n    public static void main(String args[]) {\n        IsoscelesTriangle triangle = new IsoscelesTriangle(5.0, 5.0, 6.0);\n        double perimeter = triangle.calculatePerimeter();\n        System.out.println(\"The perimeter of the isosceles triangle is: \" + perimeter + \" cm\");\n    }\n}\n// side1, side2 : equal sides (5 cm each); base : base (6 cm)\n// s1, s2, b    : formal parameters of the constructor\n// perimeter    : side1 + side2 + base = 16.0",
+   "marking_points": [
+    {
+     "point": "Class with data members for the three sides",
+     "marks": 2
+    },
+    {
+     "point": "Parameterized constructor initializing the sides",
+     "marks": 3
+    },
+    {
+     "point": "Object created with 5, 5, 6",
+     "marks": 2
+    },
+    {
+     "point": "Perimeter computed as sum of sides",
+     "marks": 4
+    },
+    {
+     "point": "Perimeter displayed",
+     "marks": 2
+    },
+    {
+     "point": "Method call from main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 178,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "91",
+   "q_order": 35,
+   "q_main": 91,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Constructor computing total and average",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "parameterized constructor",
+    "average"
+   ],
+   "question": "Write a class named Numbers with three numbers as its data members. Calculate the total and average of the numbers.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample: 10, 20, 30 -> Total: 60.0, Average: 20.0\n\nimport java.util.*;\n\nclass Numbers {\n    double number1, number2, number3, total, average;\n\n    Numbers(double n1, double n2, double n3) {\n        number1 = n1;\n        number2 = n2;\n        number3 = n3;\n        total = number1 + number2 + number3;\n        average = total / 3;\n    }\n\n    void displayResults() {\n        System.out.println(\"Number 1: \" + number1);\n        System.out.println(\"Number 2: \" + number2);\n        System.out.println(\"Number 3: \" + number3);\n        System.out.println(\"Total: \" + total);\n        System.out.println(\"Average: \" + average);\n    }\n\n    public static void main(String args[]) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter three numbers: \");\n        double a = sc.nextDouble(), b = sc.nextDouble(), c = sc.nextDouble();\n        Numbers ob = new Numbers(a, b, c);\n        ob.displayResults();\n    }\n}\n// number1..3     : the three numbers\n// total, average : their sum and average\n// n1, n2, n3     : formal parameters; a, b, c : values input; ob : object",
+   "marking_points": [
+    {
+     "point": "Class with three number data members (and total, average)",
+     "marks": 2
+    },
+    {
+     "point": "Constructor initializing the numbers",
+     "marks": 3
+    },
+    {
+     "point": "Input of three numbers",
+     "marks": 2
+    },
+    {
+     "point": "Total and average computed correctly",
+     "marks": 4
+    },
+    {
+     "point": "Results displayed",
+     "marks": 2
+    },
+    {
+     "point": "main creates object and calls display",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 181,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "92",
+   "q_order": 36,
+   "q_main": 92,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Constructors",
+   "topic": "Constructor computing volume and surface area",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "parameterized constructor",
+    "volume and surface area"
+   ],
+   "question": "Write a class named Box with length, width, and height as its data members. Calculate the volume and surface area of the box.\nFormulas: Volume = length × width × height\nSurface Area = 2 × (length × width + width × height + height × length)",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample: 5, 4, 3 -> Volume: 60.0, Surface Area: 94.0\n\nimport java.util.*;\n\nclass Box {\n    double length, width, height, volume, surfaceArea;\n\n    Box(double l, double w, double h) {\n        length = l;\n        width = w;\n        height = h;\n    }\n\n    void calculate() {\n        volume = length * width * height;\n        surfaceArea = 2 * (length * width + width * height + height * length);\n    }\n\n    void display() {\n        System.out.println(\"Volume: \" + volume);\n        System.out.println(\"Surface Area: \" + surfaceArea);\n    }\n\n    public static void main(String args[]) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter length, width and height: \");\n        double l = sc.nextDouble(), w = sc.nextDouble(), h = sc.nextDouble();\n        Box ob = new Box(l, w, h);\n        ob.calculate();\n        ob.display();\n    }\n}\n// length, width, height : dimensions of the box\n// volume, surfaceArea   : computed results\n// l, w, h               : values input in main; ob : object",
+   "marking_points": [
+    {
+     "point": "Class with data members length, width, height",
+     "marks": 2
+    },
+    {
+     "point": "Constructor initializing the dimensions",
+     "marks": 3
+    },
+    {
+     "point": "Input of the dimensions",
+     "marks": 2
+    },
+    {
+     "point": "Volume and surface area computed with the given formulas",
+     "marks": 4
+    },
+    {
+     "point": "Results displayed",
+     "marks": 2
+    },
+    {
+     "point": "main creates object and calls methods",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 180,
+   "school": "ICSE 2021"
+  }
+ ]
+}

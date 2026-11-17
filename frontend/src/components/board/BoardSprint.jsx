@@ -105,7 +105,7 @@ export default function BoardSprint({ fixedSource = null, fixedIds = null }) {
         {!fixedSource && sources.length > 1 && (
           <Field label="Which papers?">
             <Segmented value={source} onChange={s => { setSource(s); setSelChapters([]); }}
-              options={['', 'board', 'prelim'].map(s => [s, SOURCE_LABELS[s]])} />
+              options={['', ...['board', 'prelim', 'pyq'].filter(x => sources.includes(x))].map(s => [s, SOURCE_LABELS[s]])} />
             {source === 'prelim' && <p className="text-xs text-ink-3">Objective questions from the top board-aligned school prelim papers (2025-26), each tagged with its school.</p>}
           </Field>
         )}

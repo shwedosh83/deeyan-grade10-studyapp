@@ -22,7 +22,7 @@ for f in files:
     for k in ('paper_id','subject','label','source','school','exam_label','max_marks','duration_minutes','sections','questions'):
         if k not in p or p[k] in (None, '', []): errs.append(f'missing {k}')
     if p.get('paper_id') != pid: errs.append(f'paper_id {p.get("paper_id")} != filename {pid}')
-    if p.get('source') not in ('prelim', 'board', 'competency', 'classwork'): errs.append(f'bad source {p.get("source")}')
+    if p.get('source') not in ('prelim', 'board', 'competency', 'classwork', 'pyq'): errs.append(f'bad source {p.get("source")}')
     qs = p.get('questions', [])
     labels = [q.get('q_label') for q in qs]
     if len(set(labels)) != len(labels): errs.append('duplicate q_labels: ' + str([l for l in labels if labels.count(l) > 1][:6]))

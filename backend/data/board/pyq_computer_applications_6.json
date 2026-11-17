@@ -1,0 +1,1382 @@
+{
+ "paper_id": "pyq_computer_applications_6",
+ "subject": "computer_applications",
+ "year": 2024,
+ "sem": null,
+ "label": "Past papers · Encapsulation",
+ "source": "pyq",
+ "school": "CISCE past papers",
+ "exam_label": "Past papers by chapter",
+ "max_marks": 167.0,
+ "duration_minutes": 0,
+ "reading_minutes": 0,
+ "instructions": "Chapter-wise questions from ICSE board, compartment and specimen papers, 2015–2024.",
+ "sections": [
+  {
+   "name": "Past-paper questions",
+   "total_marks": 167.0,
+   "rule": "Practise in any order.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "Ch5-61",
+   "q_order": 0,
+   "q_main": 61,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class Teacher: salary increment and income tax",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "class with data members and methods",
+    "conditional tax calculation",
+    "Scanner input"
+   ],
+   "question": "Define a class Teacher described as below:\nData Members: Name, Address, Phone number, Highest Qualification, Subject Specialization, Monthly Salary, Income Tax.\nMember Methods:\n(i) To accept the details of a teacher.\n(ii) To display the teacher's details.\n(iii) To increment the monthly salary by 5000.\n(iv) To compute the annual income tax as 5% of the annual salary above 150000.\nWrite a main method to create objects of the class and call the member methods.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample check: monthly salary 20000 -> after increment 25000 -> annual 300000 -> tax = 5% of (300000 - 150000) = 7500.0\n\nimport java.util.*;\n\nclass Teacher\n{\n    String name, address, phone, qualification, subject;\n    double salary;   // monthly salary\n    double tax;      // annual income tax\n\n    void accept()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter name: \");\n        name = sc.nextLine();\n        System.out.print(\"Enter address: \");\n        address = sc.nextLine();\n        System.out.print(\"Enter phone number: \");\n        phone = sc.nextLine();\n        System.out.print(\"Enter highest qualification: \");\n        qualification = sc.nextLine();\n        System.out.print(\"Enter subject specialization: \");\n        subject = sc.nextLine();\n        System.out.print(\"Enter monthly salary: \");\n        salary = sc.nextDouble();\n    }\n\n    void display()\n    {\n        System.out.println(\"Name           : \" + name);\n        System.out.println(\"Address        : \" + address);\n        System.out.println(\"Phone number   : \" + phone);\n        System.out.println(\"Qualification  : \" + qualification);\n        System.out.println(\"Specialization : \" + subject);\n        System.out.println(\"Monthly salary : \" + salary);\n        System.out.println(\"Income tax     : \" + tax);\n    }\n\n    void increment()\n    {\n        salary = salary + 5000;\n    }\n\n    void computeTax()\n    {\n        double annual = salary * 12;\n        if (annual > 150000)\n            tax = 0.05 * (annual - 150000);\n        else\n            tax = 0;\n    }\n\n    public static void main(String args[])\n    {\n        Teacher t = new Teacher();\n        t.accept();\n        t.increment();\n        t.computeTax();\n        t.display();\n    }\n}\n\n// Variable description\n// name, address, phone, qualification, subject : String  - teacher's details\n// salary : double - monthly salary\n// tax    : double - annual income tax\n// annual : double - annual salary (local to computeTax)\n// t      : Teacher - object used in main\n\n(Corrected: the source program had a misplaced closing brace in accept(), read salary with nextInt() and charged negative tax when the annual salary was below 150000.)",
+   "marking_points": [
+    {
+     "point": "Class declaration with all seven data members of suitable types",
+     "marks": 2
+    },
+    {
+     "point": "accept() inputs all details using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "increment() adds 5000 to monthly salary",
+     "marks": 2
+    },
+    {
+     "point": "computeTax(): annual = 12 x salary",
+     "marks": 1
+    },
+    {
+     "point": "Tax = 5% of (annual - 150000) only when annual > 150000, else 0",
+     "marks": 3
+    },
+    {
+     "point": "display() prints all details",
+     "marks": 2
+    },
+    {
+     "point": "main() creates object and calls methods in order",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 197,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "Ch5-62",
+   "q_order": 1,
+   "q_main": 62,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class Box: volume and total surface area",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "class with data members and methods",
+    "volume l*b*h",
+    "surface area 2(lb+bh+hl)"
+   ],
+   "question": "Write a program to design a class Box with members as follows:\nData Members: length, breadth and height.\nMember Methods:\n(i) Compute volume of the box.\n(ii) Compute the total area of the box.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample check: 2, 3, 4 -> volume 24, total surface area 2(6 + 12 + 8) = 52.\n\nimport java.util.*;\n\nclass Box\n{\n    double length, breadth, height;\n\n    void accept()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter length, breadth and height: \");\n        length = sc.nextDouble();\n        breadth = sc.nextDouble();\n        height = sc.nextDouble();\n    }\n\n    void volume()\n    {\n        double vol = length * breadth * height;\n        System.out.println(\"Volume of the box = \" + vol);\n    }\n\n    void area()\n    {\n        double a = 2 * (length * breadth + breadth * height + height * length);\n        System.out.println(\"Total surface area of the box = \" + a);\n    }\n\n    public static void main(String args[])\n    {\n        Box ob = new Box();\n        ob.accept();\n        ob.volume();\n        ob.area();\n    }\n}\n\n// Variable description\n// length, breadth, height : double - dimensions of the box\n// vol : double - volume (local)\n// a   : double - total surface area (local)\n// ob  : Box - object used in main",
+   "marking_points": [
+    {
+     "point": "Class declaration with length, breadth, height",
+     "marks": 2
+    },
+    {
+     "point": "Input of the three dimensions using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "volume() computes length x breadth x height",
+     "marks": 3
+    },
+    {
+     "point": "area() computes 2(lb + bh + hl)",
+     "marks": 4
+    },
+    {
+     "point": "Results printed with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() creates object and calls the methods",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 200,
+   "school": "ICSE 2021 specimen"
+  },
+  {
+   "q_label": "Ch5-63",
+   "q_order": 2,
+   "q_main": 63,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class Friend: accept and display details",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "class with data members and methods",
+    "Scanner nextInt then nextLine",
+    "object creation"
+   ],
+   "question": "(i) Define a class to represent your friends with the following details:\nData Members: serial number, name, address, phone number, date of birth (birth day, month, birth year)\nMember Methods:\n(a) To accept the information of a friend.\n(b) To display a friend's details.\n(ii) Write main to create class objects and call the methods.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Friend\n{\n    int sno, day, month, year;\n    String name, address, phone;\n\n    void accept()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter serial number: \");\n        sno = sc.nextInt();\n        sc.nextLine();                      // clear the rest of the line\n        System.out.print(\"Enter name: \");\n        name = sc.nextLine();\n        System.out.print(\"Enter address: \");\n        address = sc.nextLine();\n        System.out.print(\"Enter phone number: \");\n        phone = sc.nextLine();\n        System.out.print(\"Enter birth day, month and year: \");\n        day = sc.nextInt();\n        month = sc.nextInt();\n        year = sc.nextInt();\n    }\n\n    void display()\n    {\n        System.out.println(\"Serial number : \" + sno);\n        System.out.println(\"Name          : \" + name);\n        System.out.println(\"Address       : \" + address);\n        System.out.println(\"Phone number  : \" + phone);\n        System.out.println(\"Date of birth : \" + day + \"/\" + month + \"/\" + year);\n    }\n\n    public static void main(String args[])\n    {\n        Friend f1 = new Friend();\n        Friend f2 = new Friend();\n        f1.accept();\n        f2.accept();\n        f1.display();\n        f2.display();\n    }\n}\n\n// Variable description\n// sno : int - serial number\n// name, address, phone : String - friend's details\n// day, month, year : int - date of birth\n// f1, f2 : Friend - objects used in main\n\n(Corrected: the source program read name with nextLine() straight after nextInt(), which would leave name empty; an extra sc.nextLine() is added.)",
+   "marking_points": [
+    {
+     "point": "Class declaration with all data members of suitable types",
+     "marks": 3
+    },
+    {
+     "point": "accept() inputs all details using Scanner",
+     "marks": 4
+    },
+    {
+     "point": "display() prints all details",
+     "marks": 3
+    },
+    {
+     "point": "main() creates object(s) and calls accept() and display()",
+     "marks": 3
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 200,
+   "school": "ICSE 2020"
+  },
+  {
+   "q_label": "Ch5-65",
+   "q_order": 3,
+   "q_main": 65,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class Table: metres to centimetres",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "class with data members and methods",
+    "unit conversion 1 m = 100 cm"
+   ],
+   "question": "Write a program in Java that defines class Table whose description is given below:\nData Members (Instance variables): length, breadth, and height in meters.\nMember Methods:\n(i) To accept the values\n(ii) To display the values\n(iii) Convert meters to centimeters.\nDefine main method to call the above methods.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Table\n{\n    double length, breadth, height;   // in metres\n\n    void accept()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter length, breadth and height in metres: \");\n        length = sc.nextDouble();\n        breadth = sc.nextDouble();\n        height = sc.nextDouble();\n    }\n\n    void display()\n    {\n        System.out.println(\"Length  = \" + length + \" m\");\n        System.out.println(\"Breadth = \" + breadth + \" m\");\n        System.out.println(\"Height  = \" + height + \" m\");\n    }\n\n    void convert()\n    {\n        double cl = length * 100;\n        double cb = breadth * 100;\n        double ch = height * 100;\n        System.out.println(\"Length in cm  = \" + cl);\n        System.out.println(\"Breadth in cm = \" + cb);\n        System.out.println(\"Height in cm  = \" + ch);\n    }\n\n    public static void main(String args[])\n    {\n        Table ob = new Table();\n        ob.accept();\n        ob.display();\n        ob.convert();\n    }\n}\n\n// Variable description\n// length, breadth, height : double - dimensions in metres\n// cl, cb, ch : double - dimensions in centimetres (local to convert)\n// ob : Table - object used in main\n\n(Corrected: the source program mixed a BufferedReader with Scanner methods and would not compile.)",
+   "marking_points": [
+    {
+     "point": "Class declaration with length, breadth, height",
+     "marks": 2
+    },
+    {
+     "point": "accept() inputs the values using Scanner",
+     "marks": 3
+    },
+    {
+     "point": "display() prints the values",
+     "marks": 2
+    },
+    {
+     "point": "convert() multiplies each value by 100 and prints it",
+     "marks": 4
+    },
+    {
+     "point": "main() creates object and calls all three methods",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 199,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "Ch5-66",
+   "q_order": 4,
+   "q_main": 66,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class ReserveTicket with a sold-ticket counter",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "class with data members and methods",
+    "static counter shared by objects"
+   ],
+   "question": "Write a program to create a class ReserveTicket with the following specifications:\nData Members: Name of the buyer, Amount of the ticket, Counter to count sold tickets\nMember Methods:\n(i) Accept values\n(ii) Display the values\n(iii) Increase ticket amount by 10",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass ReserveTicket\n{\n    String name;\n    double amount;\n    static int count = 0;    // tickets sold, shared by all objects\n\n    void accept()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter name of the buyer: \");\n        name = sc.nextLine();\n        System.out.print(\"Enter amount of the ticket: \");\n        amount = sc.nextDouble();\n        count++;\n    }\n\n    void display()\n    {\n        System.out.println(\"Buyer        : \" + name);\n        System.out.println(\"Amount       : \" + amount);\n        System.out.println(\"Tickets sold : \" + count);\n    }\n\n    void increase()\n    {\n        amount = amount + 10;\n    }\n\n    public static void main(String args[])\n    {\n        ReserveTicket t = new ReserveTicket();\n        t.accept();\n        t.display();\n        t.increase();\n        System.out.println(\"After increasing the amount by 10:\");\n        t.display();\n    }\n}\n\n// Variable description\n// name   : String - buyer's name\n// amount : double - ticket amount\n// count  : static int - number of tickets sold\n// t      : ReserveTicket - object used in main\n\n(Corrected: the source program left out the counter of sold tickets.)",
+   "marking_points": [
+    {
+     "point": "Class declaration with name, amount and a counter",
+     "marks": 3
+    },
+    {
+     "point": "accept() inputs name and amount and increases the counter",
+     "marks": 3
+    },
+    {
+     "point": "display() prints name, amount and tickets sold",
+     "marks": 2
+    },
+    {
+     "point": "increase() adds 10 to amount",
+     "marks": 3
+    },
+    {
+     "point": "main() creates object and calls the methods",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 204,
+   "school": "ICSE 2017 compartment"
+  },
+  {
+   "q_label": "Ch5-67",
+   "q_order": 5,
+   "q_main": 67,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class Donor: accept and display details",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "class with data members and methods",
+    "Scanner input"
+   ],
+   "question": "Create a class Donor with the following specifications:\nData Members: Donor's name, Blood group, Haemoglobin level (in percentage)\nMember Methods:\n(i) Accept the details of the donor\n(ii) Display the donor details\nWrite a main method to call the above functions for a donor.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Donor\n{\n    String name, group;\n    double hb;    // haemoglobin level in percent\n\n    void accept()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter donor's name: \");\n        name = sc.nextLine();\n        System.out.print(\"Enter blood group: \");\n        group = sc.nextLine();\n        System.out.print(\"Enter haemoglobin level (%): \");\n        hb = sc.nextDouble();\n    }\n\n    void display()\n    {\n        System.out.println(\"Donor's name      : \" + name);\n        System.out.println(\"Blood group       : \" + group);\n        System.out.println(\"Haemoglobin level : \" + hb + \"%\");\n    }\n\n    public static void main(String args[])\n    {\n        Donor d = new Donor();\n        d.accept();\n        d.display();\n    }\n}\n\n// Variable description\n// name  : String - donor's name\n// group : String - blood group\n// hb    : double - haemoglobin level in percent\n// d     : Donor - object used in main",
+   "marking_points": [
+    {
+     "point": "Class declaration with name, blood group and haemoglobin level of suitable types",
+     "marks": 3
+    },
+    {
+     "point": "accept() inputs all three using Scanner",
+     "marks": 4
+    },
+    {
+     "point": "display() prints all three with labels",
+     "marks": 4
+    },
+    {
+     "point": "main() creates object and calls both methods",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 204,
+   "school": "ICSE 2016 specimen"
+  },
+  {
+   "q_label": "Ch5-68",
+   "q_order": 6,
+   "q_main": 68,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class Book: accept, display, increase cost by 50",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "class with data members and methods",
+    "updating an instance variable"
+   ],
+   "question": "Write a program to define a class Book, which is described as\nMember Variables: Name, Author, Publication, Cost, Number of pages\nMember Methods:\n(i) Accept book details\n(ii) Display the details\n(iii) Increase the cost of the book by 50",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Book\n{\n    String name, author, publication;\n    double cost;\n    int pages;\n\n    void accept()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter name of the book: \");\n        name = sc.nextLine();\n        System.out.print(\"Enter author: \");\n        author = sc.nextLine();\n        System.out.print(\"Enter publication: \");\n        publication = sc.nextLine();\n        System.out.print(\"Enter cost and number of pages: \");\n        cost = sc.nextDouble();\n        pages = sc.nextInt();\n    }\n\n    void display()\n    {\n        System.out.println(\"Name        : \" + name);\n        System.out.println(\"Author      : \" + author);\n        System.out.println(\"Publication : \" + publication);\n        System.out.println(\"Cost        : \" + cost);\n        System.out.println(\"Pages       : \" + pages);\n    }\n\n    void increase()\n    {\n        cost = cost + 50;\n    }\n\n    public static void main(String args[])\n    {\n        Book b = new Book();\n        b.accept();\n        b.display();\n        b.increase();\n        System.out.println(\"After increasing the cost by 50:\");\n        b.display();\n    }\n}\n\n// Variable description\n// name, author, publication : String - book details\n// cost  : double - cost of the book\n// pages : int - number of pages\n// b     : Book - object used in main",
+   "marking_points": [
+    {
+     "point": "Class declaration with all five member variables of suitable types",
+     "marks": 3
+    },
+    {
+     "point": "accept() inputs all details using Scanner",
+     "marks": 3
+    },
+    {
+     "point": "display() prints all details",
+     "marks": 2
+    },
+    {
+     "point": "increase() adds 50 to cost",
+     "marks": 3
+    },
+    {
+     "point": "main() creates object and calls the methods",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 2
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 201,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "Ch5-69",
+   "q_order": 7,
+   "q_main": 69,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class Time: interval and sum of two times",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 4,
+   "concepts": [
+    "objects as method parameters",
+    "converting h:m:s to seconds",
+    "integer division and modulus"
+   ],
+   "question": "Write a Java program that defines a class Time as:\nData Members: hours, minutes, seconds.\nMember Methods:\n(i) Initialize values\n(ii) Display the time\n(iii) Compute time interval in two time objects and print it\n(iv) Compute sum of the time objects and print it",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample check: 5:40:50 and 2:30:20 -> interval 3:10:30, sum 8:11:10.\n\nimport java.util.*;\n\nclass Time\n{\n    int hrs, min, sec;\n\n    void accept()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter hours, minutes and seconds: \");\n        hrs = sc.nextInt();\n        min = sc.nextInt();\n        sec = sc.nextInt();\n    }\n\n    void display()\n    {\n        System.out.println(hrs + \" hrs \" + min + \" min \" + sec + \" sec\");\n    }\n\n    int toSeconds()\n    {\n        return hrs * 3600 + min * 60 + sec;\n    }\n\n    void interval(Time t1, Time t2)\n    {\n        int d = Math.abs(t1.toSeconds() - t2.toSeconds());\n        int h = d / 3600;\n        int m = (d % 3600) / 60;\n        int s = d % 60;\n        System.out.println(\"Interval = \" + h + \" hrs \" + m + \" min \" + s + \" sec\");\n    }\n\n    void sum(Time t1, Time t2)\n    {\n        int total = t1.toSeconds() + t2.toSeconds();\n        int h = total / 3600;\n        int m = (total % 3600) / 60;\n        int s = total % 60;\n        System.out.println(\"Sum = \" + h + \" hrs \" + m + \" min \" + s + \" sec\");\n    }\n\n    public static void main(String args[])\n    {\n        Time t1 = new Time();\n        Time t2 = new Time();\n        Time ob = new Time();\n        t1.accept();\n        t2.accept();\n        t1.display();\n        t2.display();\n        ob.interval(t1, t2);\n        ob.sum(t1, t2);\n    }\n}\n\n// Variable description\n// hrs, min, sec : int - time stored in an object\n// d     : int - difference in seconds\n// total : int - sum in seconds\n// h, m, s : int - hours, minutes, seconds of the result\n// t1, t2, ob : Time - objects used in main\n\n(Corrected: the source program never set the seconds of the sum, used an invalid method name venextInt() and could give a negative interval.)",
+   "marking_points": [
+    {
+     "point": "Class declaration with hours, minutes, seconds",
+     "marks": 2
+    },
+    {
+     "point": "Method to initialise / input the values",
+     "marks": 2
+    },
+    {
+     "point": "display() prints the time",
+     "marks": 1
+    },
+    {
+     "point": "interval(): convert both times to seconds and take the difference",
+     "marks": 3
+    },
+    {
+     "point": "Convert seconds back to h, m, s using / and %",
+     "marks": 2
+    },
+    {
+     "point": "sum(): add with carry of seconds to minutes and minutes to hours",
+     "marks": 2
+    },
+    {
+     "point": "main() creates two objects and calls the methods",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 201,
+   "school": "ICSE 2016 compartment"
+  },
+  {
+   "q_label": "Ch5-70",
+   "q_order": 8,
+   "q_main": 70,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Hex digit to decimal using autoboxing and unboxing",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "autoboxing and unboxing",
+    "char arithmetic",
+    "Character class methods"
+   ],
+   "question": "Write a program that accepts a character representing a hexadecimal digit, converts it to its equivalent decimal value, and prints the result. Demonstrate the use of auto-boxing and unboxing in the process.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Sample check: input b -> 11; input 7 -> 7; input F -> 15.\n\nimport java.util.*;\n\nclass HexToDecimal\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a hexadecimal digit: \");\n        char ch = sc.next().charAt(0);\n\n        Character obj = ch;          // autoboxing: char -> Character\n        char c = obj;                // unboxing: Character -> char\n        c = Character.toUpperCase(c);\n\n        int d;\n        if (c >= '0' && c <= '9')\n            d = c - '0';\n        else if (c >= 'A' && c <= 'F')\n            d = c - 'A' + 10;\n        else\n        {\n            System.out.println(\"Invalid hexadecimal digit\");\n            return;\n        }\n\n        Integer value = d;           // autoboxing: int -> Integer\n        int result = value;          // unboxing: Integer -> int\n        System.out.println(\"Decimal value = \" + result);\n    }\n}\n\n// Variable description\n// ch     : char - character entered\n// obj    : Character - boxed form of ch\n// c      : char - unboxed, uppercase character\n// d      : int - decimal value\n// value  : Integer - boxed decimal value\n// result : int - unboxed decimal value printed",
+   "marking_points": [
+    {
+     "point": "Input of a character using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Autoboxing char to Character (or int to Integer) shown",
+     "marks": 2
+    },
+    {
+     "point": "Unboxing back to primitive shown",
+     "marks": 2
+    },
+    {
+     "point": "Digits '0'-'9' converted using c - '0'",
+     "marks": 3
+    },
+    {
+     "point": "Letters A-F (or a-f) converted using c - 'A' + 10",
+     "marks": 3
+    },
+    {
+     "point": "Invalid input handled and result printed",
+     "marks": 2
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 202,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "1",
+   "q_order": 9,
+   "q_main": 1,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Access specifier of main()",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "main must be public"
+   ],
+   "question": "Which of the following access control must be used for the main method to be invoked by the JVM?",
+   "options": {
+    "a": "Private",
+    "b": "Public",
+    "c": "Protected",
+    "d": "No access"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Public. The JVM calls main() from outside the class, so it must be public.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 205,
+   "school": "ICSE 2024 specimen"
+  },
+  {
+   "q_label": "2",
+   "q_order": 10,
+   "q_main": 2,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "static members",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "static members belong to the class"
+   ],
+   "question": "Which of the following keywords helps access a class member without creating an object and without associating a variable with an object?",
+   "options": {
+    "a": "Private",
+    "b": "Final",
+    "c": "Static",
+    "d": "Protected"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Static. A static member belongs to the class and can be used through the class name without an object.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 205,
+   "school": "ICSE 2023 compartment"
+  },
+  {
+   "q_label": "6",
+   "q_order": 11,
+   "q_main": 6,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Least accessible access modifier",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "private access"
+   ],
+   "question": "The access modifier that gives least accessibility is:",
+   "options": {
+    "a": "Private",
+    "b": "Public",
+    "c": "Protected",
+    "d": "Package"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Private. Private members are visible only inside their own class.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 208,
+   "school": "ICSE 2016 specimen"
+  },
+  {
+   "q_label": "7",
+   "q_order": 12,
+   "q_main": 7,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Scope of a private variable",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "private access"
+   ],
+   "question": "What is the scope of a private variable?",
+   "options": {
+    "a": "Within the class and its subclasses",
+    "b": "Only within the class in which it is defined",
+    "c": "Within the same package",
+    "d": "Accessible from any class"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Only within the class in which it is defined. A private member cannot be used outside the class that declares it, not even by subclasses.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 208,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "16",
+   "q_order": 13,
+   "q_main": 16,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Public access",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "public access"
+   ],
+   "question": "Which access modifier allows variables to be accessible in all classes, including other packages?",
+   "options": {
+    "a": "Public",
+    "b": "Private",
+    "c": "Default",
+    "d": "Protected"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Public. Public members are visible to every class in every package.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 210,
+   "school": "ICSE 2021 specimen"
+  },
+  {
+   "q_label": "17",
+   "q_order": 14,
+   "q_main": 17,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Private access",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "private access"
+   ],
+   "question": "Which modifier restricts accessibility to the same class only?",
+   "options": {
+    "a": "Public",
+    "b": "Private",
+    "c": "Protected",
+    "d": "Default"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Private. Private limits access to the declaring class.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 210,
+   "school": "ICSE 2023 compartment"
+  },
+  {
+   "q_label": "19",
+   "q_order": 15,
+   "q_main": 19,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Meaning of encapsulation",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "encapsulation"
+   ],
+   "question": "What is encapsulation in object-oriented programming?",
+   "options": {
+    "a": "Binding methods and variables together in a class",
+    "b": "Defining methods in an interface",
+    "c": "Extending the functionality of a base class",
+    "d": "Restricting variable access within a function"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Binding methods and variables together in a class. Encapsulation wraps data members and the methods that work on them into one unit, the class.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 210,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "24",
+   "q_order": 16,
+   "q_main": 24,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Declaring class variables",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "static keyword",
+    "class variables"
+   ],
+   "question": "What keyword is used to define class variables?",
+   "options": {
+    "a": "Final",
+    "b": "Abstract",
+    "c": "Static",
+    "d": "Volatile"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Static. A variable declared static belongs to the class, so it is a class variable.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 209,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "25",
+   "q_order": 17,
+   "q_main": 25,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Instance variables",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "instance variables"
+   ],
+   "question": "Which type of variable is specific to each object of a class?",
+   "options": {
+    "a": "Static variable",
+    "b": "Instance variable",
+    "c": "Local variable",
+    "d": "Global variable"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Instance variable. Each object gets its own copy of every instance variable.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 209,
+   "school": "ICSE 2017 specimen"
+  },
+  {
+   "q_label": "27",
+   "q_order": 18,
+   "q_main": 27,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Non-access modifiers",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "non-access modifiers",
+    "final"
+   ],
+   "question": "Which of these is a non-access modifier in Java?",
+   "options": {
+    "a": "Public",
+    "b": "Private",
+    "c": "Final",
+    "d": "Protected"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Final. final changes a member's behaviour, not its visibility; the other three are access modifiers.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 209,
+   "school": "ICSE 2021 compartment"
+  },
+  {
+   "q_label": "29",
+   "q_order": 19,
+   "q_main": 29,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Default (package) access",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "default access"
+   ],
+   "question": "Which access modifier allows variables to be accessible only in the same package?",
+   "options": {
+    "a": "Public",
+    "b": "Protected",
+    "c": "Default",
+    "d": "Private"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Default. With no modifier (default/friendly access) a member is visible only within its package.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 209,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "30",
+   "q_order": 20,
+   "q_main": 30,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Protected access",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "protected access"
+   ],
+   "question": "Which access modifier restricts variable inheritance to subclasses in the same or other packages?",
+   "options": {
+    "a": "Private",
+    "b": "Public",
+    "c": "Protected",
+    "d": "Default"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) Protected. Protected members are visible in the same package and are inherited by subclasses in any package.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 212,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "53",
+   "q_order": 21,
+   "q_main": 53,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "The four access levels in Java",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "access modifiers"
+   ],
+   "question": "List the four access modifiers provided by Java.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "public, protected, private and default (friendly / package access, when no modifier is written).",
+   "marking_points": [
+    {
+     "point": "Any two of public, protected, private, default",
+     "marks": 1
+    },
+    {
+     "point": "The other two",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 214,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "54",
+   "q_order": 22,
+   "q_main": 54,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Purpose of access modifiers",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "access modifiers",
+    "data hiding"
+   ],
+   "question": "What is the purpose of access modifiers?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Access modifiers control the visibility of a class's variables and methods, i.e. which classes and packages may use them. This protects data from unwanted access (data hiding) while letting the needed members be used from outside.",
+   "marking_points": [
+    {
+     "point": "They control visibility / accessibility of members",
+     "marks": 1
+    },
+    {
+     "point": "This protects data (data hiding / security)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 214,
+   "school": "ICSE 2021 compartment"
+  },
+  {
+   "q_label": "55",
+   "q_order": 23,
+   "q_main": 55,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Scope of local variables",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "local variables",
+    "scope"
+   ],
+   "question": "Explain the scope of local variables with an example.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A local variable is declared inside a method (or block). It can be used only inside that method/block and is destroyed when the method ends.\nExample:\nvoid sum()\n{\n    int a = 5, b = 10, c;\n    c = a + b;\n    System.out.print(c);\n}\nHere a, b and c are local to sum() and cannot be used in any other method.",
+   "marking_points": [
+    {
+     "point": "Scope limited to the method/block where declared",
+     "marks": 1
+    },
+    {
+     "point": "Correct example",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 214,
+   "school": "ICSE 2018"
+  },
+  {
+   "q_label": "56",
+   "q_order": 24,
+   "q_main": 56,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Instance variables",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "instance variables"
+   ],
+   "question": "What are instance variables? Give an example.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Instance variables are declared in the class body, outside every method and constructor, without the keyword static. Each object gets its own copy.\nExample:\nclass Abc\n{\n    int num1;\n    double num2;\n}\nnum1 and num2 are instance variables.",
+   "marking_points": [
+    {
+     "point": "Definition: declared in class, outside methods, separate copy per object",
+     "marks": 1
+    },
+    {
+     "point": "Correct example",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 214,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "57",
+   "q_order": 25,
+   "q_main": 57,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "private vs public",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "private access",
+    "public access"
+   ],
+   "question": "Differentiate between private and public access modifiers.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "private: the member can be used only inside the class in which it is declared.\npublic: the member can be used by every class, in the same package or in any other package.",
+   "marking_points": [
+    {
+     "point": "private: accessible only within its own class",
+     "marks": 1
+    },
+    {
+     "point": "public: accessible from all classes and packages",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 215,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "58",
+   "q_order": 26,
+   "q_main": 58,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Class variables",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "class variables",
+    "static keyword"
+   ],
+   "question": "What is a class variable? How is it declared?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A class variable belongs to the class, not to any object; only one copy exists and it is shared by all objects. It is declared with the keyword static, e.g. static int x;",
+   "marking_points": [
+    {
+     "point": "One copy shared by all objects / belongs to the class",
+     "marks": 1
+    },
+    {
+     "point": "Declared with static, with example",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 215,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "59",
+   "q_order": 27,
+   "q_main": 59,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Scope of protected",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "protected access"
+   ],
+   "question": "Explain the scope of protected access modifiers.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A protected member is accessible in its own class, in all classes of the same package, and in subclasses even when they are in other packages. Non-subclasses in other packages cannot access it.",
+   "marking_points": [
+    {
+     "point": "Accessible in the same class and same package",
+     "marks": 1
+    },
+    {
+     "point": "Also in subclasses in other packages",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 215,
+   "school": "ICSE 2016 specimen"
+  },
+  {
+   "q_label": "61",
+   "q_order": 28,
+   "q_main": 61,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Non-access modifiers",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "non-access modifiers"
+   ],
+   "question": "What are non-access modifiers? Give two examples.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Non-access modifiers give a variable or method a special property without changing its visibility. Examples: static, final.",
+   "marking_points": [
+    {
+     "point": "Meaning: give special properties, do not control access",
+     "marks": 1
+    },
+    {
+     "point": "Two examples such as static, final",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 215,
+   "school": "ICSE 2015 compartment"
+  },
+  {
+   "q_label": "79",
+   "q_order": 29,
+   "q_main": 79,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Scope errors in a class",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "local variable scope",
+    "undeclared variables"
+   ],
+   "question": "Find the errors and correct them:\nclass Data {\n    int result(int x, int y) {\n        int z = x * y;\n        return z;\n    }\n    double compute(int a, int b) {\n        double c;\n        c = a * b * z / a;\n        return c;\n    }\n    void display() {\n        System.out.println(z);\n        d = compute(5, 10);\n        System.out.println(c);\n    }\n}",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Errors (all are scope errors):\n1. c = a * b * z / a;  z is local to result(), so it is not known in compute(). Correction: c = a * b * result(a, b) / a; (or c = a * b / a;)\n2. System.out.println(z);  z is not known in display(). Correction: System.out.println(result(5, 10));\n3. d = compute(5, 10);  d is never declared. Correction: double d = compute(5, 10);\n4. System.out.println(c);  c is local to compute(). Correction: System.out.println(d);\n\nCorrected class:\nclass Data {\n    int result(int x, int y) {\n        int z = x * y;\n        return z;\n    }\n    double compute(int a, int b) {\n        double c;\n        c = a * b * result(a, b) / a;\n        return c;\n    }\n    void display() {\n        System.out.println(result(5, 10));\n        double d = compute(5, 10);\n        System.out.println(d);\n    }\n}\n(Corrected: the source key listed only errors 1 and 4 and missed println(z) and the undeclared d.)",
+   "marking_points": [
+    {
+     "point": "z used in compute() is out of scope, corrected",
+     "marks": 0.5
+    },
+    {
+     "point": "z used in display() is out of scope, corrected",
+     "marks": 0.5
+    },
+    {
+     "point": "d not declared, corrected",
+     "marks": 0.5
+    },
+    {
+     "point": "c used in display() is out of scope, corrected",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 226,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "80",
+   "q_order": 30,
+   "q_main": 80,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Encapsulation",
+   "topic": "Scope errors in a class",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "local variable scope",
+    "method arguments must match parameters"
+   ],
+   "question": "Find the errors in the following program and correct them:\nclass Simple {\n    int a, b, c;\n    double sumNumber() {\n        int d = a + b + c;\n        double e = d / 5.6;\n        return e;\n    }\n    void showNumber() {\n        a = 10; b = 20; c = 5;\n        System.out.println(d);\n        double f = sumNumber(a, b, c);\n        System.out.print(e);\n    }\n}",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Errors:\n1. System.out.println(d);  d is local to sumNumber(), so it is not known in showNumber(). Correction: remove it, or print a + b + c.\n2. double f = sumNumber(a, b, c);  sumNumber() takes no parameters, so it cannot be called with three arguments. Correction: double f = sumNumber();\n3. System.out.print(e);  e is local to sumNumber(). Correction: System.out.print(f);\n\nCorrected method:\nvoid showNumber() {\n    a = 10; b = 20; c = 5;\n    System.out.println(a + b + c);\n    double f = sumNumber();\n    System.out.print(f);\n}\n(Corrected: the source key missed the wrong call sumNumber(a, b, c).)",
+   "marking_points": [
+    {
+     "point": "d out of scope in showNumber(), corrected",
+     "marks": 0.5
+    },
+    {
+     "point": "sumNumber() called with arguments it does not accept, corrected",
+     "marks": 1
+    },
+    {
+     "point": "e out of scope, replaced by f",
+     "marks": 0.5
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 226,
+   "school": "ICSE 2024 compartment"
+  }
+ ]
+}

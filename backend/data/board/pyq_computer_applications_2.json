@@ -1,0 +1,2600 @@
+{
+ "paper_id": "pyq_computer_applications_2",
+ "subject": "computer_applications",
+ "year": 2024,
+ "sem": null,
+ "label": "Past papers · Revision (part 2) and Library Classes",
+ "source": "pyq",
+ "school": "CISCE past papers",
+ "exam_label": "Past papers by chapter",
+ "max_marks": 365.0,
+ "duration_minutes": 0,
+ "reading_minutes": 0,
+ "instructions": "Chapter-wise questions from ICSE board, compartment and specimen papers, 2015–2024.",
+ "sections": [
+  {
+   "name": "Past-paper questions",
+   "total_marks": 365.0,
+   "rule": "Practise in any order.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "124",
+   "q_order": 0,
+   "q_main": 124,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "while(true) loop with break: count and output",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "while(true) with break",
+    "tracing loop iterations"
+   ],
+   "question": "Analyse the following program segment and determine how many times the loop will be executed and what will be the output of the program segment:\nint p = 200;\nwhile (true) {\n    if (p < 100)\n        break;\n    p = p - 20;\n}\nSystem.out.println(p);",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Output: 80\nTrace: p goes 200 -> 180 -> 160 -> 140 -> 120 -> 100 -> 80. The statement p = p - 20 runs 6 times, so the loop executes 6 times (the next pass only finds p < 100 true and breaks). When the loop ends p = 80, which is printed.",
+   "marking_points": [
+    {
+     "point": "Loop executes 6 times",
+     "marks": 1
+    },
+    {
+     "point": "Output: 80",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 62,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "126(i)",
+   "q_order": 1,
+   "q_main": 126,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "while vs for: similarity and difference",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "entry-controlled loops",
+    "for vs while usage"
+   ],
+   "question": "State one similarity and one difference between while and for loop.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Similarity: both are entry-controlled loops; the condition is tested before the body runs, and the body repeats while the condition is true.\nDifference: a for loop is used when the number of iterations is known in advance (initialisation, condition and update are written in one line); a while loop is used when the number of iterations is not known and depends on a condition (e.g. user input).",
+   "marking_points": [
+    {
+     "point": "One correct similarity",
+     "marks": 1
+    },
+    {
+     "point": "One correct difference",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 63,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "126(ii)",
+   "q_order": 2,
+   "q_main": 126,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Tracing a while loop with integer division",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "integer division",
+    "while loop tracing"
+   ],
+   "question": "Analyze the following program segment and determine how many times the body of the loop will be executed (show the working):\nx = 5; y = 50;\nwhile (x <= y) {\n    y = y / x;\n    System.out.println(y);\n}",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "The body executes 2 times.\nWorking:\nPass 1: 5 <= 50 true, y = 50 / 5 = 10, prints 10\nPass 2: 5 <= 10 true, y = 10 / 5 = 2, prints 2\nCheck: 5 <= 2 false, loop ends.",
+   "marking_points": [
+    {
+     "point": "Working shown (y = 10, then y = 2)",
+     "marks": 1
+    },
+    {
+     "point": "Body executes 2 times",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 63,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "126(iii)",
+   "q_order": 3,
+   "q_main": 126,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Converting a for loop to do-while",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "for to do-while conversion"
+   ],
+   "question": "Convert the following segment into an equivalent do-while loop:\nint x, c;\nfor (x = 10, c = 20; c >= 10; c = c - 2)\n    x++;",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "int x, c;\nx = 10;\nc = 20;\ndo {\n    x++;\n    c = c - 2;\n} while (c >= 10);\n\n(Both versions run 6 times and end with x = 16, c = 8.)",
+   "marking_points": [
+    {
+     "point": "Initialisation before do, x++ and c = c - 2 inside the body",
+     "marks": 1
+    },
+    {
+     "point": "do { ... } while (c >= 10); syntax correct",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 63,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "131",
+   "q_order": 4,
+   "q_main": 131,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Converting a for loop to while",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "for to while conversion"
+   ],
+   "question": "Rewrite the following program segment using while instead of for statement.\nint f = 1, i;\nfor (i = 1; i <= 5; i++) {\n    f *= i;\n    System.out.println(f);\n}",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "int f = 1, i;\ni = 1;\nwhile (i <= 5) {\n    f *= i;\n    System.out.println(f);\n    i++;\n}\n(Prints 1, 2, 6, 24, 120 on separate lines, same as the for loop.)",
+   "marking_points": [
+    {
+     "point": "Initialisation i = 1 before while and condition i <= 5",
+     "marks": 1
+    },
+    {
+     "point": "Body with i++ as the last statement",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 63,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "134(i)",
+   "q_order": 5,
+   "q_main": 134,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "break and continue in a for loop: count",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "break ends the loop",
+    "continue"
+   ],
+   "question": "Analyze the given program segment and answer the following questions:\nfor (int m = 5; m <= 20; m += 5) {\n    if (m % 3 == 0)\n        break;\n    else if (m % 5 == 0)\n        System.out.println(m);\n    continue;\n}\n(i) How many times does the body of the loop get executed?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Number of times the loop body executes",
+     "accepted": [
+      "3",
+      "3 times",
+      "three",
+      "three times"
+     ]
+    }
+   ],
+   "solution": "3 times. m = 5 (prints 5), m = 10 (prints 10), m = 15 (15 % 3 == 0, break). The body is entered 3 times.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 64,
+   "school": "ICSE 2020"
+  },
+  {
+   "q_label": "134(ii)",
+   "q_order": 6,
+   "q_main": 134,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "break and continue in a for loop: output",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "break ends the loop",
+    "println prints on new lines"
+   ],
+   "question": "Analyze the given program segment and answer the following questions:\nfor (int m = 5; m <= 20; m += 5) {\n    if (m % 3 == 0)\n        break;\n    else if (m % 5 == 0)\n        System.out.println(m);\n    continue;\n}\n(ii) Write the output of the program segment.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Output:\n5\n10\nm = 5: 5 % 3 = 2, 5 % 5 == 0, prints 5. m = 10: 10 % 3 = 1, prints 10. m = 15: 15 % 3 == 0, break.",
+   "marking_points": [
+    {
+     "point": "5 and 10 on separate lines",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 64,
+   "school": "ICSE 2020"
+  },
+  {
+   "q_label": "135",
+   "q_order": 7,
+   "q_main": 135,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Comparing for, while and do-while",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "entry vs exit controlled",
+    "choice of loop"
+   ],
+   "question": "Compare all the three types of loops?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "for loop: used when the number of iterations is known in advance; entry-controlled (condition checked before the body).\nwhile loop: used when the number of iterations is not known beforehand; entry-controlled, so the body may not run even once.\ndo-while loop: used when the body must run at least once (e.g. a menu that asks whether to repeat); exit-controlled, the condition is checked after the body.",
+   "marking_points": [
+    {
+     "point": "Usage of for vs while (known vs unknown iterations)",
+     "marks": 1
+    },
+    {
+     "point": "do-while is exit-controlled / runs at least once; for and while are entry-controlled",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 64,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "138",
+   "q_order": 8,
+   "q_main": 138,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "break vs labelled break",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "unlabelled break",
+    "labelled break"
+   ],
+   "question": "What is the difference between break and labelled break?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "An unlabelled break terminates only the innermost loop (or switch) in which it appears.\nA labelled break (break label;) terminates the loop marked with that label, so it can end an outer loop from inside an inner loop.\nExample:\nouter:\nfor (int i = 1; i <= 3; i++)\n    for (int j = 1; j <= 3; j++)\n        if (j == 2) break outer;  // ends both loops",
+   "marking_points": [
+    {
+     "point": "break ends the innermost loop/switch",
+     "marks": 1
+    },
+    {
+     "point": "labelled break ends the labelled (outer) loop",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 64,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "139(i)",
+   "q_order": 9,
+   "q_main": 139,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Nested loop output",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "nested loops",
+    "variable re-initialised in outer loop"
+   ],
+   "question": "Write the output of the below statements:\nfor (int f = 10; f >= 5; f--) {\n    int x = -5;\n    for (int g = 1; g <= 2; g++) {\n        x = x + 1;\n    }\n    System.out.println(x);\n}",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Output (six lines):\n-3\n-3\n-3\n-3\n-3\n-3\nThe outer loop runs for f = 10, 9, 8, 7, 6, 5 (6 times). Each time x is reset to -5 and the inner loop adds 1 twice, so x = -3 is printed.",
+   "marking_points": [
+    {
+     "point": "Value -3",
+     "marks": 1
+    },
+    {
+     "point": "Printed 6 times on separate lines",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 64,
+   "school": "ICSE 2021 compartment"
+  },
+  {
+   "q_label": "140",
+   "q_order": 10,
+   "q_main": 140,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Menu-driven temperature conversion with switch",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "switch-case menu",
+    "temperature formulas",
+    "default for wrong choice"
+   ],
+   "question": "Using a switch statement, write a menu-driven program to convert a given temperature from Fahrenheit to Celsius and vice versa. For an incorrect choice, an appropriate error message should be displayed.\nC = 5/9 × (F − 32) and F = 1.8 × C + 32",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Temperature\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"MENU\");\n        System.out.println(\"1. Fahrenheit to Celsius\");\n        System.out.println(\"2. Celsius to Fahrenheit\");\n        System.out.print(\"Enter your choice: \");\n        int ch = sc.nextInt();\n        switch (ch)\n        {\n            case 1:\n                System.out.print(\"Enter temperature in Fahrenheit: \");\n                double f = sc.nextDouble();\n                double c = 5.0 / 9 * (f - 32);\n                System.out.println(\"Temperature in Celsius = \" + c);\n                break;\n            case 2:\n                System.out.print(\"Enter temperature in Celsius: \");\n                double c2 = sc.nextDouble();\n                double f2 = 1.8 * c2 + 32;\n                System.out.println(\"Temperature in Fahrenheit = \" + f2);\n                break;\n            default:\n                System.out.println(\"Incorrect choice\");\n        }\n    }\n}\n\n/* Variable description\nch - menu choice\nf, c - Fahrenheit input and Celsius result (case 1)\nc2, f2 - Celsius input and Fahrenheit result (case 2)\n*/\n\nNote: write 5.0 / 9, not 5 / 9; integer division 5 / 9 gives 0.",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "switch on the choice with case 1 and case 2 and break",
+     "marks": 2
+    },
+    {
+     "point": "C = 5.0/9 * (F - 32) using real division",
+     "marks": 2
+    },
+    {
+     "point": "F = 1.8 * C + 32",
+     "marks": 2
+    },
+    {
+     "point": "default case with error message",
+     "marks": 1
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 65,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "141",
+   "q_order": 11,
+   "q_main": 141,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Menu with switch: Floyd's triangle",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "switch-case menu",
+    "nested loops",
+    "Floyd's triangle"
+   ],
+   "question": "Using the switch statement, write a menu-driven program for the following:\nTo print Floyd's triangle (Given below):\n1\n2 3\n4 5 6\n7 8 9 10\n11 12 13 14 15\nFor an incorrect choice, an appropriate error message should be displayed.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Floyd\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"1. Floyd's triangle\");\n        System.out.print(\"Enter your choice: \");\n        int ch = sc.nextInt();\n        switch (ch)\n        {\n            case 1:\n                int n = 1;\n                for (int i = 1; i <= 5; i++)\n                {\n                    for (int j = 1; j <= i; j++)\n                    {\n                        System.out.print(n + \" \");\n                        n++;\n                    }\n                    System.out.println();\n                }\n                break;\n            default:\n                System.out.println(\"Wrong choice\");\n        }\n    }\n}\n\n/* Variable description\nch - menu choice\nn - number to be printed (1 to 15)\ni - row number, j - position in the row\n*/\n\nNote: the book prints only the triangle part; an incorrect-choice message is added in default.",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "switch on choice with case and break",
+     "marks": 1
+    },
+    {
+     "point": "Outer loop for 5 rows",
+     "marks": 2
+    },
+    {
+     "point": "Inner loop printing i numbers in row i",
+     "marks": 2
+    },
+    {
+     "point": "Counter n printed and incremented continuously; default message",
+     "marks": 2
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 65,
+   "school": "ICSE 2022"
+  },
+  {
+   "q_label": "142",
+   "q_order": 12,
+   "q_main": 142,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Positive, negative or zero",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "if-else-if ladder",
+    "comparison with zero"
+   ],
+   "question": "Accept a number from the keyboard and check whether it is a positive number, negative number, or zero. Print suitable messages.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Positive\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int num = sc.nextInt();\n        if (num > 0)\n            System.out.println(num + \" is a positive number\");\n        else if (num < 0)\n            System.out.println(num + \" is a negative number\");\n        else\n            System.out.println(\"The number is zero\");\n    }\n}\n\n/* Variable description\nnum - number entered by the user\n*/",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Condition num > 0 for positive",
+     "marks": 2
+    },
+    {
+     "point": "Condition num < 0 for negative",
+     "marks": 2
+    },
+    {
+     "point": "else branch for zero (if-else-if ladder)",
+     "marks": 3
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 66,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "143",
+   "q_order": 13,
+   "q_main": 143,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Odd or even",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "modulus operator %",
+    "if-else"
+   ],
+   "question": "Write a program to check if a number is odd or even. Print suitable messages for the number.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass OddEven\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int num = sc.nextInt();\n        if (num % 2 == 0)\n            System.out.println(num + \" is an even number.\");\n        else\n            System.out.println(num + \" is an odd number.\");\n    }\n}\n\n/* Variable description\nnum - number entered by the user\n*/",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Remainder num % 2 computed",
+     "marks": 3
+    },
+    {
+     "point": "if (num % 2 == 0) even, else odd",
+     "marks": 4
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 66,
+   "school": "ICSE 2023 compartment"
+  },
+  {
+   "q_label": "144",
+   "q_order": 14,
+   "q_main": 144,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Odd or even",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "modulus operator %",
+    "if-else"
+   ],
+   "question": "Write a program to check if a number is odd or even. Print suitable messages for the number.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass OddEven\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int num = sc.nextInt();\n        if (num % 2 == 0)\n            System.out.println(num + \" is an even number.\");\n        else\n            System.out.println(num + \" is an odd number.\");\n    }\n}\n\n/* Variable description\nnum - number entered by the user\n*/",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Remainder num % 2 computed",
+     "marks": 3
+    },
+    {
+     "point": "if (num % 2 == 0) even, else odd",
+     "marks": 4
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 66,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "145",
+   "q_order": 15,
+   "q_main": 145,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Electricity bill with slab rates and rent",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "slab-wise calculation",
+    "if-else-if ladder"
+   ],
+   "question": "An electricity board charges the bill depending on the number of units consumed as follows:\n(i) First 100 units : 40 P per unit\n(ii) Next 200 units : 60 P per unit\n(iii) Above 300 units : Rs 1 per unit\nWrite a Java program to print the net bill to be paid by a consumer. The net bill includes a rent of Rs 250.00 charged from a consumer.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Electricity\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter consumer name: \");\n        String name = sc.nextLine();\n        System.out.print(\"Enter units consumed: \");\n        int units = sc.nextInt();\n        double charge;\n        if (units <= 100)\n            charge = units * 0.40;\n        else if (units <= 300)\n            charge = 100 * 0.40 + (units - 100) * 0.60;\n        else\n            charge = 100 * 0.40 + 200 * 0.60 + (units - 300) * 1.0;\n        double net = charge + 250.0;\n        System.out.println(\"Name : \" + name);\n        System.out.println(\"Units consumed : \" + units);\n        System.out.println(\"Net bill (Rs) : \" + net);\n    }\n}\n\n/* Variable description\nname - consumer name\nunits - units consumed\ncharge - charge for the units\nnet - net bill including rent\n*/\n\nCheck: 350 units -> 40 + 120 + 50 = 210, net bill = 460.0.",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Slab 1: units * 0.40",
+     "marks": 2
+    },
+    {
+     "point": "Slab 2: 40 + (units - 100) * 0.60",
+     "marks": 2
+    },
+    {
+     "point": "Slab 3: 40 + 120 + (units - 300) * 1",
+     "marks": 2
+    },
+    {
+     "point": "Rent of 250 added",
+     "marks": 1
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 66,
+   "school": "ICSE 2021 compartment"
+  },
+  {
+   "q_label": "147",
+   "q_order": 16,
+   "q_main": 147,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Leap year check",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "leap year rule",
+    "logical operators && and ||"
+   ],
+   "question": "Write a class Leap to accept a year and check if it is a leap year or not.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Leap\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a year: \");\n        int yr = sc.nextInt();\n        if ((yr % 4 == 0 && yr % 100 != 0) || yr % 400 == 0)\n            System.out.println(yr + \" is a leap year.\");\n        else\n            System.out.println(yr + \" is not a leap year.\");\n    }\n}\n\n/* Variable description\nyr - year entered by the user\n*/\n\n(Corrected: the source key tested only yr % 4 == 0, which wrongly calls century years such as 1900 leap years. A year is a leap year if it is divisible by 4 but not by 100, or divisible by 400.)",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Divisible by 4 and not by 100",
+     "marks": 3
+    },
+    {
+     "point": "OR divisible by 400",
+     "marks": 2
+    },
+    {
+     "point": "if-else giving the result",
+     "marks": 2
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 67,
+   "school": "ICSE 2020 compartment"
+  },
+  {
+   "q_label": "155",
+   "q_order": 17,
+   "q_main": 155,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Library fine with slab rates",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "class with member method",
+    "slab-wise calculation"
+   ],
+   "question": "Design a class Library, define a method for the class that accepts the memberId, memberName, bookName, and computes the fine for a member. The fine is calculated depending on the number of days a book is returned late:\nDays | Fine per day in Rupees\nFirst ten days | Rs 1\nNext ten days | Rs 5\nLater than 20 days | Rs 8",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Library\n{\n    int memberId;\n    String memberName, bookName;\n    int days;\n    int fine;\n\n    void computeFine()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter member id: \");\n        memberId = sc.nextInt();\n        sc.nextLine();\n        System.out.print(\"Enter member name: \");\n        memberName = sc.nextLine();\n        System.out.print(\"Enter book name: \");\n        bookName = sc.nextLine();\n        System.out.print(\"Enter number of days late: \");\n        days = sc.nextInt();\n        if (days <= 10)\n            fine = days * 1;\n        else if (days <= 20)\n            fine = 10 * 1 + (days - 10) * 5;\n        else\n            fine = 10 * 1 + 10 * 5 + (days - 20) * 8;\n        System.out.println(\"Member id : \" + memberId);\n        System.out.println(\"Name      : \" + memberName);\n        System.out.println(\"Book      : \" + bookName);\n        System.out.println(\"Fine (Rs) : \" + fine);\n    }\n\n    public static void main(String args[])\n    {\n        Library ob = new Library();\n        ob.computeFine();\n    }\n}\n\n/* Variable description\nmemberId, memberName, bookName - member and book details\ndays - number of days the book is late\nfine - fine in rupees\n*/\n\nCheck: 25 days late -> 10 + 50 + 5 * 8 = 100.",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "First 10 days: days * 1",
+     "marks": 2
+    },
+    {
+     "point": "Next 10 days: 10 + (days - 10) * 5",
+     "marks": 2
+    },
+    {
+     "point": "Beyond 20 days: 10 + 50 + (days - 20) * 8",
+     "marks": 3
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 70,
+   "school": "ICSE 2021 specimen"
+  },
+  {
+   "q_label": "158",
+   "q_order": 18,
+   "q_main": 158,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Taxi fare with slab rates",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "slab-wise calculation",
+    "tabular output with \\t"
+   ],
+   "question": "WAP to compute the amount that a customer pays for the taxi that he hires based on the following conditions:\nKms Travelled | Amount per Km\nFirst 10 kms | Rs 25\nNext 20 kms | Rs 10\nNext 40 kms | Rs 15\nAbove 70 kms | Rs 12\nInput the customer's name, the taxi number, and the number of kilometers travelled by him.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass TaxiMeter\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter customer name: \");\n        String name = sc.nextLine();\n        System.out.print(\"Enter taxi number: \");\n        int taxino = sc.nextInt();\n        System.out.print(\"Enter kilometres travelled: \");\n        int km = sc.nextInt();\n        double amt;\n        if (km <= 10)\n            amt = 25 * km;\n        else if (km <= 30)\n            amt = 25 * 10 + 10 * (km - 10);\n        else if (km <= 70)\n            amt = 25 * 10 + 10 * 20 + 15 * (km - 30);\n        else\n            amt = 25 * 10 + 10 * 20 + 15 * 40 + 12 * (km - 70);\n        System.out.println(\"Taxi No.\\tName\\tKms travelled\\tBill Amount\");\n        System.out.println(taxino + \"\\t\" + name + \"\\t\" + km + \"\\t\" + amt);\n    }\n}\n\n/* Variable description\nname - customer name\ntaxino - taxi number\nkm - kilometres travelled\namt - bill amount\n*/\n\n(Corrected: the source key used 15 * 30 for the third slab; the third slab is the next 40 km (31 to 70), so above 70 km the fixed part is 250 + 200 + 600 = 1050.)",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "First 10 km at 25",
+     "marks": 1
+    },
+    {
+     "point": "Next 20 km at 10 (250 + ...)",
+     "marks": 2
+    },
+    {
+     "point": "Next 40 km at 15 (450 + ...)",
+     "marks": 2
+    },
+    {
+     "point": "Above 70 km at 12 (1050 + ...)",
+     "marks": 2
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 72,
+   "school": "ICSE 2018"
+  },
+  {
+   "q_label": "159",
+   "q_order": 19,
+   "q_main": 159,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Menu: Fibonacci terms and sum of digits",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "Fibonacci series",
+    "digit extraction with % and /",
+    "switch-case menu"
+   ],
+   "question": "Using the switch statement, write a menu-driven program to:\n(i) Generate and display the first 10 terms of the Fibonacci series 0, 1, 1, 2, 3, 5, ...\nThe first two Fibonacci numbers are 0 and 1 and each subsequent number is the sum of the previous two.\n(ii) Find the sum of the digits of an integer that is input.\nSample Input : 15390\nSample Output : Sum of the digits = 18\n(iii) For an incorrect choice, an appropriate error message should be displayed.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Menu\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"1. First 10 terms of Fibonacci series\");\n        System.out.println(\"2. Sum of digits of an integer\");\n        System.out.print(\"Enter your choice: \");\n        int ch = sc.nextInt();\n        switch (ch)\n        {\n            case 1:\n                int a = 0, b = 1, c;\n                System.out.print(a + \", \" + b);\n                for (int i = 3; i <= 10; i++)\n                {\n                    c = a + b;\n                    System.out.print(\", \" + c);\n                    a = b;\n                    b = c;\n                }\n                System.out.println();\n                break;\n            case 2:\n                System.out.print(\"Enter an integer: \");\n                int n = sc.nextInt();\n                n = Math.abs(n);\n                int sum = 0;\n                while (n > 0)\n                {\n                    sum = sum + n % 10;\n                    n = n / 10;\n                }\n                System.out.println(\"Sum of the digits = \" + sum);\n                break;\n            default:\n                System.out.println(\"Incorrect choice\");\n        }\n    }\n}\n\n/* Variable description\nch - menu choice\na, b, c - consecutive Fibonacci terms\nn - integer input, sum - sum of its digits\n*/\n\nOutput for choice 1: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Fibonacci: first two terms then loop for remaining 8, c = a + b, shift a and b",
+     "marks": 3
+    },
+    {
+     "point": "Sum of digits using n % 10 and n / 10 in a loop",
+     "marks": 3
+    },
+    {
+     "point": "default case with error message",
+     "marks": 1
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 72,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "164",
+   "q_order": 20,
+   "q_main": 164,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Menu: Buzz number and GCD",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "Buzz number",
+    "GCD by continued division",
+    "switch-case menu"
+   ],
+   "question": "Write a menu-driven program to:\n(i) Accept a number and check whether it is a 'BUZZ' number or not.\n(ii) Accept any two numbers and print the 'GCD' of them.\nHint:\n(i) BUZZ number : A number is said to be a BUZZ number if it either ends with 7 or is divisible by 7.\n(ii) GCD (Greatest Common Divisor) : The GCD of two integers is calculated using the continued division method. Divide the larger number by the smaller; the remainder then divides the previous divisor. The process is repeated until the remainder is zero. The divisor then becomes the GCD.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Menu\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"1. Buzz number\");\n        System.out.println(\"2. GCD of two numbers\");\n        System.out.print(\"Enter your choice: \");\n        int ch = sc.nextInt();\n        switch (ch)\n        {\n            case 1:\n                System.out.print(\"Enter a number: \");\n                int n = sc.nextInt();\n                if (n % 10 == 7 || n % 7 == 0)\n                    System.out.println(n + \" is a Buzz number\");\n                else\n                    System.out.println(n + \" is not a Buzz number\");\n                break;\n            case 2:\n                System.out.print(\"Enter two numbers: \");\n                int a = sc.nextInt();\n                int b = sc.nextInt();\n                int dividend = Math.max(a, b);\n                int divisor = Math.min(a, b);\n                int r = dividend % divisor;\n                while (r != 0)\n                {\n                    dividend = divisor;\n                    divisor = r;\n                    r = dividend % divisor;\n                }\n                System.out.println(\"GCD of \" + a + \" and \" + b + \" = \" + divisor);\n                break;\n            default:\n                System.out.println(\"Wrong choice\");\n        }\n    }\n}\n\n/* Variable description\nch - menu choice\nn - number checked for Buzz\na, b - numbers for GCD\ndividend, divisor, r - values in the continued division\n*/\n\nCheck: GCD of 24 and 36: 36 % 24 = 12, 24 % 12 = 0, so GCD = 12.",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Buzz check: n % 10 == 7 || n % 7 == 0",
+     "marks": 2
+    },
+    {
+     "point": "GCD: larger as dividend, smaller as divisor",
+     "marks": 1
+    },
+    {
+     "point": "Continued division loop until remainder is 0",
+     "marks": 3
+    },
+    {
+     "point": "switch with default message",
+     "marks": 1
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 76,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "166",
+   "q_order": 21,
+   "q_main": 166,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Sum of odd and even numbers up to n",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "for loop with step 2",
+    "accumulating sums"
+   ],
+   "question": "Write a program to calculate and print the sum of odd numbers and the sum of even numbers for the first n natural numbers. The integer n is to be entered by the user.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass SumOddEven\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter n: \");\n        int n = sc.nextInt();\n        int so = 0, se = 0;\n        for (int i = 1; i <= n; i++)\n        {\n            if (i % 2 == 0)\n                se = se + i;\n            else\n                so = so + i;\n        }\n        System.out.println(\"Sum of odd numbers = \" + so);\n        System.out.println(\"Sum of even numbers = \" + se);\n    }\n}\n\n/* Variable description\nn - limit\ni - loop variable\nso, se - sums of odd and even numbers\n*/\n\nCheck: n = 10 -> odd sum 25, even sum 30.",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Loop from 1 to n",
+     "marks": 2
+    },
+    {
+     "point": "Odd/even test with i % 2",
+     "marks": 2
+    },
+    {
+     "point": "Separate accumulation into so and se",
+     "marks": 3
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 77,
+   "school": "ICSE 2020 compartment"
+  },
+  {
+   "q_label": "168",
+   "q_order": 22,
+   "q_main": 168,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Menu: factors and factorial",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "factors using %",
+    "factorial",
+    "switch-case menu"
+   ],
+   "question": "Using the switch statement, write a menu-driven program:\n(i) To find and display all the factors of a number input by the user (including 1 and excluding the number itself).\nExample:\nSample Input : n = 15\nSample Output : 1, 3, 5\n(ii) To find and display the factorial of a number input by the user (the factorial of a non-negative integer n, denoted by n!, is the product of all integers less than or equal to n).\nExample:\nSample Input : n = 5\nSample Output : 5! = 1×2×3×4×5 = 120\nNote : For an incorrect choice, an appropriate error message should be displayed.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Menu\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"1. Factors of a number (excluding itself)\");\n        System.out.println(\"2. Factorial of a number\");\n        System.out.print(\"Enter your choice: \");\n        int ch = sc.nextInt();\n        switch (ch)\n        {\n            case 1:\n                System.out.print(\"Enter the number: \");\n                int num = sc.nextInt();\n                System.out.print(\"Factors : \");\n                for (int i = 1; i < num; i++)\n                {\n                    if (num % i == 0)\n                        System.out.print(i + \" \");\n                }\n                System.out.println();\n                break;\n            case 2:\n                System.out.print(\"Enter the number: \");\n                int n = sc.nextInt();\n                long f = 1;\n                for (int i = 1; i <= n; i++)\n                    f = f * i;\n                System.out.println(n + \"! = \" + f);\n                break;\n            default:\n                System.out.println(\"Invalid choice\");\n        }\n    }\n}\n\n/* Variable description\nch - menu choice\nnum - number whose factors are printed\nn - number whose factorial is found, f - factorial\ni - loop variable\n*/",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Factors: loop 1 to num - 1 with num % i == 0",
+     "marks": 3
+    },
+    {
+     "point": "Factorial: product from 1 to n starting from 1",
+     "marks": 3
+    },
+    {
+     "point": "switch with default message",
+     "marks": 1
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 78,
+   "school": "ICSE 2016 specimen"
+  },
+  {
+   "q_label": "170(i)",
+   "q_order": 23,
+   "q_main": 170,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 7.5,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Pattern of alternating * and #",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "nested loops",
+    "alternating characters using (i + j) % 2"
+   ],
+   "question": "Write a program to generate the following pattern using iteration (loop) statements:\n*\n# *\n* # *\n# * # *\n* # * # *",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "class PatternA\n{\n    public static void main(String args[])\n    {\n        for (int i = 1; i <= 5; i++)\n        {\n            for (int j = 1; j <= i; j++)\n            {\n                if ((i + j) % 2 == 0)\n                    System.out.print(\"* \");\n                else\n                    System.out.print(\"# \");\n            }\n            System.out.println();\n        }\n    }\n}\n\n/* Variable description\ni - row number\nj - column number\n*/\n\n(Corrected: the source key printed * for every odd column, which gives \"* #\" on row 2; the pattern starts row 2 with #, so the symbol depends on (i + j). Each row ends with *.)",
+   "marking_points": [
+    {
+     "point": "Outer loop for 5 rows",
+     "marks": 1.5
+    },
+    {
+     "point": "Inner loop printing i symbols per row",
+     "marks": 2
+    },
+    {
+     "point": "Choosing * or # correctly ((i + j) % 2)",
+     "marks": 3
+    },
+    {
+     "point": "New line after each row",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 79,
+   "school": "ICSE 2020 compartment"
+  },
+  {
+   "q_label": "170(ii)",
+   "q_order": 24,
+   "q_main": 170,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 7.5,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Decreasing number pattern 54321",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "nested loops",
+    "reverse counting"
+   ],
+   "question": "Write a program to generate the following pattern using iteration (loop) statements:\n54321\n5432\n543\n54\n5",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "class PatternB\n{\n    public static void main(String args[])\n    {\n        for (int i = 1; i <= 5; i++)\n        {\n            for (int j = 5; j >= i; j--)\n                System.out.print(j);\n            System.out.println();\n        }\n    }\n}\n\n/* Variable description\ni - row number\nj - digit printed\n*/",
+   "marking_points": [
+    {
+     "point": "Outer loop for 5 rows",
+     "marks": 1.5
+    },
+    {
+     "point": "Inner loop from 5 down to i",
+     "marks": 3
+    },
+    {
+     "point": "Printing j without spaces",
+     "marks": 2
+    },
+    {
+     "point": "New line after each row",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 79,
+   "school": "ICSE 2020 compartment"
+  },
+  {
+   "q_label": "172",
+   "q_order": 25,
+   "q_main": 172,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Niven number",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "sum of digits",
+    "divisibility test"
+   ],
+   "question": "Write a program to accept a number and check and display whether it is a Niven number or not.\n(Niven number is that number which is divisible by its sum of digits).\nExample:\nConsider the number 126.\nSum of its digits is 1 + 2 + 6 = 9 and 126 is divisible by 9.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Niven\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int num = sc.nextInt();\n        int m = num;\n        int s = 0;\n        while (num > 0)\n        {\n            s = s + num % 10;\n            num = num / 10;\n        }\n        if (s != 0 && m % s == 0)\n            System.out.println(m + \" is a Niven number\");\n        else\n            System.out.println(m + \" is not a Niven number\");\n    }\n}\n\n/* Variable description\nnum - number entered (destroyed while extracting digits)\nm - copy of the original number\ns - sum of digits\n*/",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Copy of the number kept before extracting digits",
+     "marks": 1
+    },
+    {
+     "point": "Sum of digits with % 10 and / 10 in a loop",
+     "marks": 4
+    },
+    {
+     "point": "Check m % s == 0",
+     "marks": 2
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 81,
+   "school": "ICSE 2020"
+  },
+  {
+   "q_label": "174",
+   "q_order": 26,
+   "q_main": 174,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Four-digit tech numbers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "splitting a number with / 100 and % 100",
+    "loop over a range"
+   ],
+   "question": "A tech number has an even number of digits. If the number is split into two equal halves, the square of the sum of these halves is equal to the number itself. Write a program to generate and print all four-digit tech numbers.\nExample : Consider the number 3025\nSquare of the sum of halves = (30 + 25)² = 55² = 3025\n3025 is a tech number.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "class TechNumber\n{\n    public static void main(String args[])\n    {\n        System.out.println(\"Four-digit tech numbers:\");\n        for (int i = 1000; i <= 9999; i++)\n        {\n            int first = i / 100;   // first two digits\n            int last = i % 100;    // last two digits\n            int sum = first + last;\n            if (sum * sum == i)\n                System.out.println(i);\n        }\n    }\n}\n\n/* Variable description\ni - four-digit number being tested\nfirst, last - the two halves\nsum - sum of the halves\n*/\n\nOutput:\nFour-digit tech numbers:\n2025\n3025\n9801\n(No input is needed, so the Scanner input marks go to the loop logic.)",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Loop from 1000 to 9999",
+     "marks": 2
+    },
+    {
+     "point": "Halves using i / 100 and i % 100",
+     "marks": 3
+    },
+    {
+     "point": "Square of the sum compared with i",
+     "marks": 2
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 82,
+   "school": "ICSE 2019 compartment"
+  },
+  {
+   "q_label": "175",
+   "q_order": 27,
+   "q_main": 175,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Class ShowRoom with discount slabs",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "default constructor",
+    "slab-wise discount",
+    "object creation and method calls"
+   ],
+   "question": "Design a class name ShowRoom with the following description:\nInstance variables / Data members:\nString name - To store the name of the customer.\nlong mobno - To store the mobile number of the customer.\ndouble cost - To store the cost of items purchased.\ndouble dis - To store the discount amount.\ndouble amount - To store the amount to be paid after discount.\nMember methods:\nShowRoom() - Default constructor to initialize data members.\nvoid input() - To input customer name, mobile number, cost.\nvoid calculate() - To calculate discount on the cost of purchased items, based on the following criteria:\nCost | Discount (%)\nLess than or equal to Rs 10,000 | 5%\nMore than Rs 10,000 and less than or equal to Rs 20,000 | 10%\nMore than Rs 20,000 and less than or equal to Rs 35,000 | 15%\nMore than Rs 35,000 | 20%\nvoid display() - To display customer name, mobile number, amount to be paid after discount.\nWrite a main method to create an object of the class and call the above member methods.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass ShowRoom\n{\n    String name;\n    long mobno;\n    double cost, dis, amount;\n\n    ShowRoom()\n    {\n        name = \"\";\n        mobno = 0;\n        cost = 0.0;\n        dis = 0.0;\n        amount = 0.0;\n    }\n\n    void input()\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter customer name: \");\n        name = sc.nextLine();\n        System.out.print(\"Enter mobile number: \");\n        mobno = sc.nextLong();\n        System.out.print(\"Enter cost: \");\n        cost = sc.nextDouble();\n    }\n\n    void calculate()\n    {\n        if (cost <= 10000)\n            dis = cost * 5 / 100;\n        else if (cost <= 20000)\n            dis = cost * 10 / 100;\n        else if (cost <= 35000)\n            dis = cost * 15 / 100;\n        else\n            dis = cost * 20 / 100;\n        amount = cost - dis;\n    }\n\n    void display()\n    {\n        System.out.println(\"Customer name : \" + name);\n        System.out.println(\"Mobile number : \" + mobno);\n        System.out.println(\"Amount to be paid : \" + amount);\n    }\n\n    public static void main(String args[])\n    {\n        ShowRoom ob = new ShowRoom();\n        ob.input();\n        ob.calculate();\n        ob.display();\n    }\n}\n\n/* Variable description\nname - customer name\nmobno - mobile number\ncost - cost of items\ndis - discount amount\namount - amount payable after discount\n*/\n\nCheck: cost 25000 -> discount 15% = 3750, amount = 21250.0.",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Default constructor initialising all data members",
+     "marks": 2
+    },
+    {
+     "point": "Discount slabs with if-else-if",
+     "marks": 3
+    },
+    {
+     "point": "amount = cost - dis",
+     "marks": 2
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 82,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "177",
+   "q_order": 28,
+   "q_main": 177,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "User-Defined Methods",
+   "topic": "Smith number",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 4,
+   "concepts": [
+    "prime factorisation",
+    "sum of digits",
+    "user-defined methods"
+   ],
+   "question": "Write a program to accept a number and check whether it is a Smith Number or not.\n(A Smith Number is a composite number whose sum of digits is equal to the sum of digits of its prime factors, excluding 1.)\nExample:\nConsider the number 85.\nPrime factorization of 85 is 5 × 17.\nSum of digits of 85 = 8 + 5 = 13.\nSum of digits of 5 + 17 = 5 + (1 + 7) = 13.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Smith\n{\n    static int sumDigits(int n)\n    {\n        int s = 0;\n        while (n > 0)\n        {\n            s = s + n % 10;\n            n = n / 10;\n        }\n        return s;\n    }\n\n    static boolean isPrime(int n)\n    {\n        if (n < 2)\n            return false;\n        for (int i = 2; i <= n / 2; i++)\n        {\n            if (n % i == 0)\n                return false;\n        }\n        return true;\n    }\n\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int num = sc.nextInt();\n        if (num < 4 || isPrime(num))\n        {\n            System.out.println(num + \" is not a Smith number (not composite)\");\n            return;\n        }\n        int n = num, sf = 0;\n        for (int i = 2; n > 1; i++)\n        {\n            while (n % i == 0)\n            {\n                sf = sf + sumDigits(i);\n                n = n / i;\n            }\n        }\n        if (sumDigits(num) == sf)\n            System.out.println(num + \" is a Smith number\");\n        else\n            System.out.println(num + \" is not a Smith number\");\n    }\n}\n\n/* Variable description\nnum - number entered\nn - copy reduced during factorisation\ni - trial factor\nsf - sum of digits of prime factors\ns - sum of digits (in sumDigits)\n*/\n\nCheck: 666 = 2 × 3 × 3 × 37; digit sum 18; factor digit sum 2 + 3 + 3 + 3 + 7 = 18, so 666 is a Smith number.",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Method for sum of digits",
+     "marks": 2
+    },
+    {
+     "point": "Composite check (primes and numbers below 4 rejected)",
+     "marks": 1
+    },
+    {
+     "point": "Prime factorisation, repeating each factor, adding digit sums",
+     "marks": 4
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 84,
+   "school": "ICSE 2021 specimen"
+  },
+  {
+   "q_label": "178",
+   "q_order": 29,
+   "q_main": 178,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Menu: area of rectangle or square",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "switch-case menu",
+    "area formulas"
+   ],
+   "question": "Write a menu-driven program to allow the user to enter a choice:\n(i) Find the area of a rectangle.\n(ii) Find the area of a square.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass Area\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"1. Area of a rectangle\");\n        System.out.println(\"2. Area of a square\");\n        System.out.print(\"Enter your choice: \");\n        int ch = sc.nextInt();\n        switch (ch)\n        {\n            case 1:\n                System.out.print(\"Enter length and breadth: \");\n                double l = sc.nextDouble();\n                double b = sc.nextDouble();\n                System.out.println(\"Area of rectangle = \" + (l * b));\n                break;\n            case 2:\n                System.out.print(\"Enter side: \");\n                double s = sc.nextDouble();\n                System.out.println(\"Area of square = \" + (s * s));\n                break;\n            default:\n                System.out.println(\"Invalid choice\");\n        }\n    }\n}\n\n/* Variable description\nch - menu choice\nl, b - length and breadth\ns - side of the square\n*/",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "switch with case 1, case 2 and break",
+     "marks": 2
+    },
+    {
+     "point": "Rectangle area l * b",
+     "marks": 2
+    },
+    {
+     "point": "Square area s * s",
+     "marks": 2
+    },
+    {
+     "point": "default case for invalid choice",
+     "marks": 1
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 84,
+   "school": "ICSE 2024 compartment"
+  },
+  {
+   "q_label": "180",
+   "q_order": 30,
+   "q_main": 180,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Conditional Constructs",
+   "topic": "Menu: Celsius and Fahrenheit conversion",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 1,
+   "concepts": [
+    "switch-case menu",
+    "temperature formulas"
+   ],
+   "question": "Write a menu-driven program to allow the user to enter a choice:\n(i) Convert temperature from Celsius to Fahrenheit.\n(ii) Convert temperature from Fahrenheit to Celsius.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass TemperatureConverter\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"1. Celsius to Fahrenheit\");\n        System.out.println(\"2. Fahrenheit to Celsius\");\n        System.out.print(\"Enter your choice: \");\n        int ch = sc.nextInt();\n        switch (ch)\n        {\n            case 1:\n                System.out.print(\"Enter temperature in Celsius: \");\n                double c = sc.nextDouble();\n                double f = c * 9 / 5 + 32;\n                System.out.println(\"Temperature in Fahrenheit = \" + f);\n                break;\n            case 2:\n                System.out.print(\"Enter temperature in Fahrenheit: \");\n                double f2 = sc.nextDouble();\n                double c2 = (f2 - 32) * 5 / 9;\n                System.out.println(\"Temperature in Celsius = \" + c2);\n                break;\n            default:\n                System.out.println(\"Invalid choice\");\n        }\n    }\n}\n\n/* Variable description\nch - menu choice\nc, f - Celsius input and Fahrenheit result\nf2, c2 - Fahrenheit input and Celsius result\n*/",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "switch with two cases and break",
+     "marks": 2
+    },
+    {
+     "point": "F = C * 9 / 5 + 32 with double values",
+     "marks": 2
+    },
+    {
+     "point": "C = (F - 32) * 5 / 9 with double values",
+     "marks": 2
+    },
+    {
+     "point": "default case for invalid choice",
+     "marks": 1
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 86,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "181",
+   "q_order": 31,
+   "q_main": 181,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Iterative and Nested Loops",
+   "topic": "Menu: factorial and prime check",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "factorial",
+    "prime check by counting factors",
+    "switch-case menu"
+   ],
+   "question": "Write a menu-driven program to allow the user to enter a choice:\n(i) Calculate the factorial of a number.\n(ii) Check whether a number is prime or not.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\n\nclass NumberOperations\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"1. Factorial of a number\");\n        System.out.println(\"2. Check prime number\");\n        System.out.print(\"Enter your choice: \");\n        int ch = sc.nextInt();\n        switch (ch)\n        {\n            case 1:\n                System.out.print(\"Enter a number: \");\n                int n = sc.nextInt();\n                long f = 1;\n                for (int i = 1; i <= n; i++)\n                    f = f * i;\n                System.out.println(\"Factorial of \" + n + \" = \" + f);\n                break;\n            case 2:\n                System.out.print(\"Enter a number: \");\n                int num = sc.nextInt();\n                int c = 0;\n                for (int i = 1; i <= num; i++)\n                {\n                    if (num % i == 0)\n                        c++;\n                }\n                if (c == 2)\n                    System.out.println(num + \" is a prime number\");\n                else\n                    System.out.println(num + \" is not a prime number\");\n                break;\n            default:\n                System.out.println(\"Invalid choice\");\n        }\n    }\n}\n\n/* Variable description\nch - menu choice\nn - number for factorial, f - factorial\nnum - number checked for prime, c - count of factors\ni - loop variable\n*/",
+   "marking_points": [
+    {
+     "point": "Class declaration and variables with correct data types",
+     "marks": 2
+    },
+    {
+     "point": "Input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Factorial loop multiplying 1 to n",
+     "marks": 3
+    },
+    {
+     "point": "Prime: count factors, prime if exactly 2",
+     "marks": 3
+    },
+    {
+     "point": "switch with default message",
+     "marks": 1
+    },
+    {
+     "point": "Output in the required format with suitable messages",
+     "marks": 2
+    },
+    {
+     "point": "main() / method calls correct",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 86,
+   "school": "ICSE 2023 compartment"
+  },
+  {
+   "q_label": "3",
+   "q_order": 32,
+   "q_main": 3,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Object: superclass of all classes",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Object class"
+   ],
+   "question": "Which of the following is a super class of all other Java classes?",
+   "options": {
+    "a": "Object",
+    "b": "Math",
+    "c": "System",
+    "d": "Import"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Object. Every Java class directly or indirectly inherits from the class Object (java.lang.Object).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 184,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "4",
+   "q_order": 33,
+   "q_main": 4,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Math.abs with type casting",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "Math.abs returns double",
+    "(int) cast truncates toward zero"
+   ],
+   "question": "Which of the following is the output of the below code snippet?\ndouble x = -3.142;\nint y = (int) Math.abs(x) + (int) x;\nSystem.out.print(y);",
+   "options": {
+    "a": "0",
+    "b": "6.284",
+    "c": "6.0",
+    "d": "-6"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) 0. Math.abs(-3.142) = 3.142, cast to int gives 3; (int) -3.142 gives -3 (truncation); 3 + (-3) = 0.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 187,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "6",
+   "q_order": 34,
+   "q_main": 6,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Unboxing",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "unboxing",
+    "autoboxing"
+   ],
+   "question": "When an object of a class is converted to a simple data type, it is called _______",
+   "options": {
+    "a": "Unboxing",
+    "b": "Boxing",
+    "c": "Explicit type conversion",
+    "d": "Implicit type conversion"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Unboxing. Converting a wrapper object (e.g. Integer) to its primitive (int) is unboxing; the reverse is boxing.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 187,
+   "school": "ICSE 2021 specimen"
+  },
+  {
+   "q_label": "7",
+   "q_order": 35,
+   "q_main": 7,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Character.isDigit with an int argument",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "Character.isDigit",
+    "code point argument"
+   ],
+   "question": "Which of the following would be the result if you execute the following statement?\nSystem.out.print(Character.isDigit(-1));",
+   "options": {
+    "a": "False",
+    "b": "True",
+    "c": "Error",
+    "d": "None of the above"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) False. Character.isDigit also accepts an int code point; -1 is not a valid digit code point, so the method returns false and \"false\" is printed. There is no compile or run-time error. (Corrected: the source key said (c) Error, although its own explanation says the method returns false.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 187,
+   "school": "ICSE 2020 compartment"
+  },
+  {
+   "q_label": "23",
+   "q_order": 36,
+   "q_main": 23,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Purpose of wrapper classes",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 2,
+   "concepts": [
+    "wrapper classes",
+    "primitives as objects"
+   ],
+   "question": "Assertion (A) : Wrapper classes in Java are used to treat primitive types as objects.\nReason (R) : Wrapper classes enable the use of primitive data types in data structures like ArrayList and HashMap.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A.",
+    "b": "Both A and R are true, but R is not the correct explanation of A.",
+    "c": "A is true, but R is false.",
+    "d": "A is false, but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both A and R are true, and R is the correct explanation of A. Structures such as ArrayList and HashMap store only objects, so a primitive must be wrapped (e.g. int as Integer) to be stored; that is why wrapper classes exist.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 185,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "24",
+   "q_order": 37,
+   "q_main": 24,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Character.isDigit",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 1,
+   "concepts": [
+    "Character.isDigit returns boolean"
+   ],
+   "question": "Assertion (A) : The method Character.isDigit(char ch) is used to check if a character is a digit.\nReason (R) : The Character.isDigit() method returns false for alphabetic characters and true for numerical characters.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A.",
+    "b": "Both A and R are true, but R is not the correct explanation of A.",
+    "c": "A is true, but R is false.",
+    "d": "A is false, but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Both A and R are true, and R is the correct explanation of A. isDigit returns true for '0' to '9' and false otherwise (including letters), which is how it checks for a digit.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 190,
+   "school": "ICSE 2016 specimen"
+  },
+  {
+   "q_label": "25",
+   "q_order": 38,
+   "q_main": 25,
+   "section": "Past-paper questions",
+   "type": "assertion_reason",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Integer.parseInt",
+   "bloom": "understand",
+   "applied": true,
+   "applied_kind": "assertion_reason",
+   "difficulty": 3,
+   "concepts": [
+    "Integer.parseInt",
+    "NumberFormatException"
+   ],
+   "question": "Assertion (A) : The parseInt() method in the Integer class is used to convert a string to an integer.\nReason (R) : The parseInt() method throws a NumberFormatException if the string cannot be converted to a valid integer.",
+   "options": {
+    "a": "Both A and R are true, and R is the correct explanation of A.",
+    "b": "Both A and R are true, but R is not the correct explanation of A.",
+    "c": "A is true, but R is false.",
+    "d": "A is false, but R is true."
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Both A and R are true, but R is not the correct explanation of A. parseInt converts a numeric string to int (A), and it throws NumberFormatException for a string like \"12a\" (R), but the exception does not explain why parseInt is used for conversion. (Corrected: the source key said (a).)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 190,
+   "school": "ICSE 2017 compartment"
+  },
+  {
+   "q_label": "28",
+   "q_order": 39,
+   "q_main": 28,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Basis of grouping library classes",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "packages",
+    "grouping by function"
+   ],
+   "question": "On what basis are the classes grouped?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Java's library classes are grouped into packages according to the functions they perform: classes doing related work are put in the same package. For example, java.lang holds the basic language classes (String, Math, wrapper classes), java.util holds utility classes (Scanner), and java.io holds input/output classes. (Corrected: the source key described a class grouping similar objects; in this chapter the question is about grouping classes into packages.)",
+   "marking_points": [
+    {
+     "point": "Classes are grouped into packages",
+     "marks": 1
+    },
+    {
+     "point": "Grouping is by related function, with an example",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 192,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "29",
+   "q_order": 40,
+   "q_main": 29,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Library classes",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "pre-defined classes",
+    "java.lang"
+   ],
+   "question": "What are library classes? Give an example.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Library classes are the pre-defined (built-in) classes supplied with Java, grouped into packages, which a program can use directly without writing them. They have their own data members, constructors and methods.\nExamples: Math, String, Scanner, Integer, Character.",
+   "marking_points": [
+    {
+     "point": "Definition: pre-defined classes provided with Java",
+     "marks": 1
+    },
+    {
+     "point": "Correct example",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 192,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "30",
+   "q_order": 41,
+   "q_main": 30,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Input and Mathematical Library Methods",
+   "topic": "Statements to input a character and a string",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "Scanner next().charAt(0)",
+    "nextLine()"
+   ],
+   "question": "Write a Java statement to input/read the following from the user using the keyboard:\n(i) Character\n(ii) String",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Using Scanner sc = new Scanner(System.in);\n(i) char ch = sc.next().charAt(0);\n(ii) String s = sc.nextLine();   (or sc.next() for a single word)\nUsing BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); the answers are (i) char ch = (char) br.read(); (ii) String s = br.readLine();",
+   "marking_points": [
+    {
+     "point": "(i) char ch = sc.next().charAt(0);",
+     "marks": 1
+    },
+    {
+     "point": "(ii) String s = sc.nextLine();",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 192,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "32",
+   "q_order": 42,
+   "q_main": 32,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Return types of isWhitespace and Math.random",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "isWhitespace returns boolean",
+    "Math.random returns double"
+   ],
+   "question": "What is the data type that the following library functions return?\n(i) isWhitespace(char ch)\n(ii) Math.random()",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "(i) isWhitespace(char ch)",
+     "accepted": [
+      "boolean"
+     ]
+    },
+    {
+     "prompt": "(ii) Math.random()",
+     "accepted": [
+      "double"
+     ]
+    }
+   ],
+   "solution": "(i) boolean\n(ii) double",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 192,
+   "school": "ICSE 2024 compartment"
+  },
+  {
+   "q_label": "33",
+   "q_order": 43,
+   "q_main": 33,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Library classes are grouped in packages",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "packages"
+   ],
+   "question": "Where are these classes (the library classes of Java) grouped together and placed?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Library classes are grouped together in",
+     "accepted": [
+      "packages",
+      "package",
+      "in packages",
+      "packages (class library)"
+     ]
+    }
+   ],
+   "solution": "In packages. Related library classes are grouped together in packages, which together form the Java class library.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 192,
+   "school": "ICSE 2024 compartment"
+  },
+  {
+   "q_label": "34",
+   "q_order": 44,
+   "q_main": 34,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Benefits of packages",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "packages",
+    "access control",
+    "name clashes"
+   ],
+   "question": "Write the benefit of grouping the classes as packages?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) Easier management: thousands of classes are organised by function, so a needed class is easy to find and import.\n(ii) Visibility control and no name clashes: access to classes and members can be restricted to the package, and two classes with the same name can exist in different packages.\n(Also: reusability, since classes in a package can be used in any program by importing them.)",
+   "marking_points": [
+    {
+     "point": "One benefit (organisation / easy management)",
+     "marks": 1
+    },
+    {
+     "point": "A second benefit (access control / avoiding name clashes / reusability)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 192,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "36",
+   "q_order": 45,
+   "q_main": 36,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Categories of packages",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "API packages",
+    "user-defined packages"
+   ],
+   "question": "What are the two categories of packages?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "(i) Built-in (Java API) packages, e.g. java.lang, java.util, java.io.\n(ii) User-defined packages, created by the programmer with the package keyword.",
+   "marking_points": [
+    {
+     "point": "Built-in / API packages",
+     "marks": 1
+    },
+    {
+     "point": "User-defined packages",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 192,
+   "school": "ICSE 2018 compartment"
+  },
+  {
+   "q_label": "37",
+   "q_order": 46,
+   "q_main": 37,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Package and API package names",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "package",
+    "java.lang",
+    "java.util"
+   ],
+   "question": "What is meant by a package? Name any two Java Application Programming Interface packages.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A package is a group (namespace, like a folder) of related classes and interfaces.\nTwo Java API packages: java.lang and java.util (others: java.io, java.math).",
+   "marking_points": [
+    {
+     "point": "Meaning of package",
+     "marks": 1
+    },
+    {
+     "point": "Two correct API package names",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 192,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "38",
+   "q_order": 47,
+   "q_main": 38,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Java API packages",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "Java API",
+    "import"
+   ],
+   "question": "What are Java API packages?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Java API (Application Programming Interface) packages are the built-in packages supplied with Java, in which the library classes are grouped according to their function, e.g. java.lang, java.util, java.io. Their classes can be imported into a program as needed.",
+   "marking_points": [
+    {
+     "point": "Built-in packages of library classes grouped by function",
+     "marks": 1
+    },
+    {
+     "point": "Example or use by import",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 193,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "39",
+   "q_order": 48,
+   "q_main": 39,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "User-defined packages",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "package keyword"
+   ],
+   "question": "What do you understand by the term \"User-defined packages\"?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A user-defined package is a package created by the programmer to group his own classes, using the keyword package followed by the package name as the first statement of the file, e.g.\npackage mypack;\nclass Abc { ... }",
+   "marking_points": [
+    {
+     "point": "Package created by the programmer for own classes",
+     "marks": 1
+    },
+    {
+     "point": "Created with the package keyword",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 193,
+   "school": "ICSE 2016 compartment"
+  },
+  {
+   "q_label": "40",
+   "q_order": 49,
+   "q_main": 40,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Library Classes and Wrapper Classes",
+   "topic": "Accessing classes of an API package",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "import statement"
+   ],
+   "question": "How can you access the classes stored in an API package?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "By writing an import statement at the top of the program:\nimport packagename.ClassName;   e.g. import java.util.Scanner;\nimport packagename.*;           e.g. import java.io.*;   (imports all classes of the package)\n(Classes of java.lang are imported by default.)",
+   "marking_points": [
+    {
+     "point": "Using the import statement",
+     "marks": 1
+    },
+    {
+     "point": "Correct syntax with an example",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 193,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "57",
+   "q_order": 50,
+   "q_main": 57,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Accessing members through an object",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "dot operator",
+    "object reference"
+   ],
+   "question": "How can a class type variable support the accessing of members of a class?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A class type variable (object reference) accesses the members of the class with the dot (.) operator:\nobject.member  e.g. ob.display(); or ob.marks = 90;",
+   "marking_points": [
+    {
+     "point": "Through the object using the dot operator",
+     "marks": 1
+    },
+    {
+     "point": "Correct example",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 195,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "58",
+   "q_order": 51,
+   "q_main": 58,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Class as the Basis of Computation",
+   "topic": "Object of another class as a member",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "class as a composite type",
+    "object as data member"
+   ],
+   "question": "Can another class be a member of a class?",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Yes. An object (reference variable) of another class can be declared as a data member of a class, since a class is a user-defined data type, e.g.\nclass Student {\n    String name;   // String is another class\n    Date dob;      // object of class Date as a member\n}\nJava also allows a class to be defined inside another class (a nested class).",
+   "marking_points": [
+    {
+     "point": "Yes",
+     "marks": 1
+    },
+    {
+     "point": "Explanation or example (object of another class as data member / nested class)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 195,
+   "school": "ICSE 2021 compartment"
+  }
+ ]
+}

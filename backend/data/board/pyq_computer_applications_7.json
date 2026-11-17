@@ -1,0 +1,3068 @@
+{
+ "paper_id": "pyq_computer_applications_7",
+ "subject": "computer_applications",
+ "year": 2024,
+ "sem": null,
+ "label": "Past papers · Arrays",
+ "source": "pyq",
+ "school": "CISCE past papers",
+ "exam_label": "Past papers by chapter",
+ "max_marks": 386.0,
+ "duration_minutes": 0,
+ "reading_minutes": 0,
+ "instructions": "Chapter-wise questions from ICSE board, compartment and specimen papers, 2015–2024.",
+ "sections": [
+  {
+   "name": "Past-paper questions",
+   "total_marks": 386.0,
+   "rule": "Practise in any order.",
+   "compulsory": true,
+   "attempt_n": null,
+   "out_of": null
+  }
+ ],
+ "has_solutions": true,
+ "questions": [
+  {
+   "q_label": "3",
+   "q_order": 0,
+   "q_main": 3,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Last subscript of an array",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "zero-based index",
+    "last index N-1"
+   ],
+   "question": "A single-dimensional array contains N elements. What will be the last subscript?",
+   "options": {
+    "a": "N",
+    "b": "N-1",
+    "c": "N-2",
+    "d": "N+1"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) N-1. Subscripts start at 0, so N elements use subscripts 0 to N-1.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 230,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "4",
+   "q_order": 1,
+   "q_main": 4,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Accessing an index beyond the array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "valid index range",
+    "ArrayIndexOutOfBoundsException"
+   ],
+   "question": "What is the value of temperature[5]? if the list of temperatures is defined as below\nint[] temperature = {30, 40, 70, 10, 55};",
+   "options": {
+    "a": "40",
+    "b": "55",
+    "c": "ArrayIndexOutOfBoundsException",
+    "d": "30"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) ArrayIndexOutOfBoundsException. The array has 5 elements with indices 0 to 4, so index 5 does not exist and the access throws the exception at run time.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 230,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "15",
+   "q_order": 2,
+   "q_main": 15,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Length of a row of a 2D array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "2D array length",
+    "row length"
+   ],
+   "question": "In the declaration int x[][] = new int[3][50];, what does x[0].length return?",
+   "options": {
+    "a": "3",
+    "b": "50",
+    "c": "150",
+    "d": "Undefined"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) 50. x.length is the number of rows (3); x[0] is the first row, which has 50 elements.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 233,
+   "school": "ICSE 2022"
+  },
+  {
+   "q_label": "16",
+   "q_order": 3,
+   "q_main": 16,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Search on unsorted arrays",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "linear search"
+   ],
+   "question": "Which of the following search techniques works on unsorted arrays?",
+   "options": {
+    "a": "Linear Search",
+    "b": "Binary Search",
+    "c": "Bubble Search",
+    "d": "Selection Search"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Linear Search. It checks elements one by one, so the order does not matter; binary search needs a sorted array, and the other two are not search techniques.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 233,
+   "school": "ICSE 2015 specimen"
+  },
+  {
+   "q_label": "17",
+   "q_order": 4,
+   "q_main": 17,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Binary search when value is smaller than middle",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "binary search",
+    "upper bound = mid - 1"
+   ],
+   "question": "In binary search, what happens when the value to be searched is less than the middle element?",
+   "options": {
+    "a": "The search continues in the second half of the array.",
+    "b": "The search stops, as the value cannot be found.",
+    "c": "The search continues in the first half of the array.",
+    "d": "The array is rearranged."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) The search continues in the first half of the array. In an ascending array a smaller value can only lie before the middle, so the upper bound becomes mid - 1.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 233,
+   "school": "ICSE 2018 compartment"
+  },
+  {
+   "q_label": "24",
+   "q_order": 5,
+   "q_main": 24,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Valid subscripts of an array of 10",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "zero-based index"
+   ],
+   "question": "What is the range of valid subscripts for an array declared as int a[10];?",
+   "options": {
+    "a": "1 to 10",
+    "b": "0 to 10",
+    "c": "0 to 9",
+    "d": "1 to 9"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) 0 to 9. An array of 10 elements has subscripts from 0 to 10 - 1 = 9.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 235,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "25",
+   "q_order": 6,
+   "q_main": 25,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Syntax of 2D array declaration",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "2D array declaration",
+    "new operator"
+   ],
+   "question": "Which of the following is a correct representation of a two-dimensional array declaration?",
+   "options": {
+    "a": "data type array_variable = new data type[rows][columns];",
+    "b": "data type array_variable[rows][columns];",
+    "c": "data type array_variable[][] = new data type[rows][columns];",
+    "d": "data type[][] array_variable = new data type[columns][rows];"
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) data type array_variable[][] = new data type[rows][columns];. The variable needs two pairs of brackets, and new allocates rows first, then columns.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 235,
+   "school": "ICSE 2021 compartment"
+  },
+  {
+   "q_label": "27",
+   "q_order": 7,
+   "q_main": 27,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "The length property",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "length property",
+    "1D and 2D arrays"
+   ],
+   "question": "Which of the following is true about the .length property in Java?",
+   "options": {
+    "a": "It can only be used with single-dimensional arrays.",
+    "b": "It returns the total memory size of the array.",
+    "c": "It returns the number of elements in a one-dimensional array or the size of a row in a two-dimensional array.",
+    "d": "It always returns the size of the array minus one."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) It returns the number of elements in a one-dimensional array or the size of a row in a two-dimensional array. For a 2D array x, x[r].length gives the size of row r (and x.length gives the number of rows).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 235,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "29",
+   "q_order": 8,
+   "q_main": 29,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Bubble sort definition",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "bubble sort",
+    "adjacent swap"
+   ],
+   "question": "Which sorting technique repeatedly swaps adjacent elements if they are in the wrong order?",
+   "options": {
+    "a": "Selection Sort",
+    "b": "Bubble Sort",
+    "c": "Merge Sort",
+    "d": "Quick Sort"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) Bubble Sort. It compares neighbouring elements and swaps them when they are out of order, pass after pass.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 228,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "30",
+   "q_order": 9,
+   "q_main": 30,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Selection sort pass",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "selection sort"
+   ],
+   "question": "In selection sort, what happens during each iteration?",
+   "options": {
+    "a": "Adjacent elements are compared and swapped if necessary.",
+    "b": "The largest element is moved to its correct position.",
+    "c": "The smallest element is found and swapped with the current element.",
+    "d": "All elements are divided into two halves and sorted recursively."
+   },
+   "is_objective": true,
+   "correct_option": "c",
+   "answer_items": null,
+   "solution": "(c) The smallest element is found and swapped with the current element. Each pass selects the smallest remaining element and puts it in the next position (for ascending order).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 228,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "41",
+   "q_order": 10,
+   "q_main": 41,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Correct array declaration",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "array declaration with new",
+    "array initialisation"
+   ],
+   "question": "A programmer writes the following code to declare an array in Java:\nint arr[5];\nThis is incorrect. What will be the correct statement?\nA. int arr[] = new int[5];\nB. int[] arr = new int[5];\nC. int arr[] = {1, 2, 3, 4, 5};\nD. All of the above",
+   "options": {
+    "a": "Only A",
+    "b": "Only B",
+    "c": "Both A and C",
+    "d": "All of the above"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) All of the above. Java does not allow a size inside the declaration brackets; an array of 5 ints is created with new int[5] (either bracket position) or by an initialiser list of 5 values.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 238,
+   "school": "ICSE 2018"
+  },
+  {
+   "q_label": "42",
+   "q_order": 11,
+   "q_main": 42,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Finding the length of an array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "length is a property",
+    "no size() for arrays"
+   ],
+   "question": "A student writes the following code to calculate the length of an array nums:\nint length = nums.size;\nThis is incorrect. What will be the correct statement?\nA. int length = nums.length;\nB. int length = nums[0].length;\nC. int size = nums.length();\nD. Both A and B",
+   "options": {
+    "a": "Only A",
+    "b": "Only B",
+    "c": "Only C",
+    "d": "Both A and B"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) Only A. The length of an array is the property nums.length (no brackets). nums[0].length would only compile if nums were a 2D array, and then it gives the length of the first row, not of nums; nums.length() is wrong because length is not a method for arrays. (Corrected: the source key said (d) Both A and B.)",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 239,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "43",
+   "q_order": 12,
+   "q_main": 43,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Binary search comparisons",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "binary search",
+    "first half / second half"
+   ],
+   "question": "A programmer writes the following code to search for a value in an array using binary search:\nif (value > mid) {\n    search = \"First Half\";\n}\nThis is incorrect. What will be the correct statement?\nA. if (value < mid) { search = \"First Half\"; }\nB. if (value > mid) { search = \"Second Half\"; }\nC. if (value == mid) { search = \"Found\"; }\nD. All of the above",
+   "options": {
+    "a": "Only A",
+    "b": "Both A and B",
+    "c": "Both B and C",
+    "d": "All of the above"
+   },
+   "is_objective": true,
+   "correct_option": "d",
+   "answer_items": null,
+   "solution": "(d) All of the above. Compared with the middle element, a smaller value lies in the first half, a larger value in the second half, and an equal value means it is found.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 239,
+   "school": "ICSE 2024 compartment"
+  },
+  {
+   "q_label": "46",
+   "q_order": 13,
+   "q_main": 46,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Order of linear search statements",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "linear search",
+    "break"
+   ],
+   "question": "Consider the following program segment where statements are jumbled. Choose the correct order of statements to search for an element using linear search.\nfor (int i = 0; i < n; i++) {    // (1)\nif (arr[i] == key) {            // (2)\nSystem.out.println(\"Found\");    // (3)\nbreak;                          // (4)\n}\n}",
+   "options": {
+    "a": "(1) (3) (4) (2)",
+    "b": "(1) (2) (3) (4)",
+    "c": "(2) (1) (4) (3)",
+    "d": "(4) (1) (3) (2)"
+   },
+   "is_objective": true,
+   "correct_option": "b",
+   "answer_items": null,
+   "solution": "(b) (1) (2) (3) (4). Loop over the array, compare each element with the key, print \"Found\" on a match and then break out of the loop.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 239,
+   "school": "ICSE 2016 compartment"
+  },
+  {
+   "q_label": "47",
+   "q_order": 14,
+   "q_main": 47,
+   "section": "Past-paper questions",
+   "type": "mcq",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Order of statements to find array length",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "length property"
+   ],
+   "question": "Consider the following program segment where statements are jumbled. Choose the correct order of statements to calculate the length of an array.\nint arr[] = {10, 20, 30, 40}; // (1)\nint length = arr.length;     // (2)\nSystem.out.println(length);  // (3)",
+   "options": {
+    "a": "(1) (2) (3)",
+    "b": "(2) (1) (3)",
+    "c": "(1) (3) (2)",
+    "d": "(3) (2) (1)"
+   },
+   "is_objective": true,
+   "correct_option": "a",
+   "answer_items": null,
+   "solution": "(a) (1) (2) (3). The array must exist before its length is read, and the length must be stored before it is printed.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 240,
+   "school": "ICSE 2020"
+  },
+  {
+   "q_label": "57",
+   "q_order": 15,
+   "q_main": 57,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Linear vs binary search",
+   "bloom": "understand",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "linear search",
+    "binary search"
+   ],
+   "question": "Write one difference between Linear Search and Binary Search.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Linear search checks the elements one by one from the start and works on sorted or unsorted arrays. Binary search works only on a sorted array: it compares the value with the middle element and keeps halving the search range, so it is much faster on long arrays.",
+   "marking_points": [
+    {
+     "point": "Linear search: element-by-element, works on unsorted arrays",
+     "marks": 1
+    },
+    {
+     "point": "Binary search: needs a sorted array, compares with middle element and halves the range",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 247,
+   "school": "ICSE 2019 specimen"
+  },
+  {
+   "q_label": "59",
+   "q_order": 16,
+   "q_main": 59,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Keyword to allocate memory to an array",
+   "bloom": "recall",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "new operator"
+   ],
+   "question": "Name the keyword that is used for allocating memory to an array.",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Keyword",
+     "accepted": [
+      "new"
+     ]
+    }
+   ],
+   "solution": "new. For example, int a[] = new int[10]; allocates 10 int locations.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 247,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "60(i)",
+   "q_order": 17,
+   "q_main": 60,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Array length",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "length property"
+   ],
+   "question": "If array[] = {1, 9, 8, 5, 2}:\n(i) What is array.length?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "array.length",
+     "accepted": [
+      "5"
+     ]
+    }
+   ],
+   "solution": "5. The array holds 5 elements.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 247,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "60(ii)",
+   "q_order": 18,
+   "q_main": 60,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Accessing an element by index",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "zero-based index"
+   ],
+   "question": "If array[] = {1, 9, 8, 5, 2}:\n(ii) What is array[2]?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "array[2]",
+     "accepted": [
+      "8"
+     ]
+    }
+   ],
+   "solution": "8. Indices start at 0: array[0] = 1, array[1] = 9, array[2] = 8.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 247,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "69(i)",
+   "q_order": 19,
+   "q_main": 69,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Declare and create an int array",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "array creation with new"
+   ],
+   "question": "Write a Java statement for the following purposes:\n(i) Declare and create an array NUM of 40 integers.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "int NUM[] = new int[40];",
+   "marking_points": [
+    {
+     "point": "int NUM[] declaration",
+     "marks": 1
+    },
+    {
+     "point": "new int[40]",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 243,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "69(ii)",
+   "q_order": 20,
+   "q_main": 69,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Declare and create a String array",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "String array"
+   ],
+   "question": "Write a Java statement for the following purposes:\n(ii) Declare and create an array STR of 20 names.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "String STR[] = new String[20];",
+   "marking_points": [
+    {
+     "point": "String STR[] declaration",
+     "marks": 1
+    },
+    {
+     "point": "new String[20]",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 243,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "69(iii)",
+   "q_order": 21,
+   "q_main": 69,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Initialise an int array with a list",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "array initialiser list"
+   ],
+   "question": "Write a Java statement for the following purposes:\n(iii) Initialize an array of integers to store numbers -10, -8, -6, ..., 12.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "int nums[] = {-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10, 12};\n(The numbers go up in steps of 2 from -10 to 12, which is 12 values.)",
+   "marking_points": [
+    {
+     "point": "int array declared with { } initialiser",
+     "marks": 1
+    },
+    {
+     "point": "All 12 values -10 to 12 in steps of 2",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 243,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "69(iv)",
+   "q_order": 22,
+   "q_main": 69,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Initialise a String array",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "String array initialiser"
+   ],
+   "question": "Write a Java statement for the following purposes:\n(iv) Initialize an array of 5 names of convent schools:\nST. MARY, ST. THOMAS, ST. JOSEPHS ACADEMY, ST. PAULS ACADEMY, and ST. PETERS ACADEMY.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "String schools[] = {\"ST. MARY\", \"ST. THOMAS\", \"ST. JOSEPHS ACADEMY\", \"ST. PAULS ACADEMY\", \"ST. PETERS ACADEMY\"};",
+   "marking_points": [
+    {
+     "point": "String array declaration with { }",
+     "marks": 1
+    },
+    {
+     "point": "All 5 names in double quotes, comma-separated",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 243,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "69(v)",
+   "q_order": 23,
+   "q_main": 69,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Create an array of real numbers",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "double/float array"
+   ],
+   "question": "Write a Java statement for the following purposes:\n(v) Create an array of 10 real numbers named as REAL.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "double REAL[] = new double[10];\n(float REAL[] = new float[10]; is also correct.)",
+   "marking_points": [
+    {
+     "point": "double (or float) REAL[] declaration",
+     "marks": 1
+    },
+    {
+     "point": "new double[10] (or new float[10])",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 243,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "71(i)",
+   "q_order": 24,
+   "q_main": 71,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Size given with an initialiser list",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "array initialiser",
+    "no size in declaration"
+   ],
+   "question": "Determine errors in the following statements of Java programs and correct them:\n(i) int a[10] = {5, 2, 3, 4, 6, 7};",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Error: Java does not allow a size inside the brackets of a declaration, and an initialiser list fixes the size by itself.\nCorrection: int a[] = {5, 2, 3, 4, 6, 7};",
+   "marking_points": [
+    {
+     "point": "Error identified: size in declaration brackets",
+     "marks": 1
+    },
+    {
+     "point": "Corrected statement",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 243,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "71(ii)",
+   "q_order": 25,
+   "q_main": 71,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "String array initialiser",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "String array initialiser"
+   ],
+   "question": "Determine errors in the following statements of Java programs and correct them:\n(ii) String x[] = {\"JAVA\", \"C++\"};",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "No error. It correctly creates a String array of 2 elements, \"JAVA\" and \"C++\".",
+   "marking_points": [
+    {
+     "point": "States the statement is correct",
+     "marks": 1
+    },
+    {
+     "point": "Reason: valid String array initialiser",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 243,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "71(iii)",
+   "q_order": 26,
+   "q_main": 71,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Errors in array declaration and loop",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "no size in declaration",
+    "valid index range"
+   ],
+   "question": "Determine errors in the following statements of Java programs and correct them:\n(iii)\nint x[5] = {6, -2, 2, 3, 5, 6};\nfor (int i = 0; i <= 5; i++) {\n    System.out.println(x[i]);\n}",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Error: int x[5] = {...} is not allowed; the size cannot be written in the declaration (and 6 values are listed anyway).\nCorrection:\nint x[] = {6, -2, 2, 3, 5, 6};\nfor (int i = 0; i < x.length; i++) {\n    System.out.println(x[i]);\n}\nWith 6 elements the indices are 0 to 5, so the loop i <= 5 is then also fine. (The book's version changes the loop to i < 5, which compiles but skips the last element 6.)",
+   "marking_points": [
+    {
+     "point": "Error identified: size in declaration",
+     "marks": 1
+    },
+    {
+     "point": "Corrected declaration with loop staying within indices 0 to 5",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 243,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "71(iv)",
+   "q_order": 27,
+   "q_main": 71,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "char array initialised with numbers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "char array",
+    "int to char in initialiser"
+   ],
+   "question": "Determine errors in the following statements of Java programs and correct them:\n(iv) char clr[] = {4, 6, 9, 2, 0};",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "No compile error: small int constants can be stored in a char array (they become the characters with codes 4, 6, 9, 2, 0). If the digit characters were meant, write char clr[] = {'4', '6', '9', '2', '0'};",
+   "marking_points": [
+    {
+     "point": "States the statement compiles",
+     "marks": 1
+    },
+    {
+     "point": "Explains values are character codes / digits need single quotes",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 243,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "72(i)",
+   "q_order": 28,
+   "q_main": 72,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Output of a loop over part of an array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "array traversal",
+    "loop start index"
+   ],
+   "question": "Write the output of the following program:\n(i)\nint x[] = {-5, -4, -3, -2, 1};\nfor (int i = 3; i < 5; i++) {\n    System.out.print(x[i] + \" \");\n}",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "-2 1\nTrace: the loop runs for i = 3 and 4, printing x[3] = -2 and x[4] = 1 on one line, each followed by a space.",
+   "marking_points": [
+    {
+     "point": "-2 printed",
+     "marks": 1
+    },
+    {
+     "point": "1 printed on the same line",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 243,
+   "school": "ICSE 2018 specimen"
+  },
+  {
+   "q_label": "72(iv)",
+   "q_order": 29,
+   "q_main": 72,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Storing int values in a double array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "int to double widening",
+    "println of double"
+   ],
+   "question": "Write the output of the following program:\n(iv)\ndouble x[] = new double[5];\nfor (int j = 0; j < 5; j++) {\n    x[j] = j;\n    System.out.println(x[j]);\n}",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "0.0\n1.0\n2.0\n3.0\n4.0\nEach int j is widened to double when stored, so it prints with .0, one per line.",
+   "marking_points": [
+    {
+     "point": "Values 0 to 4 each on its own line",
+     "marks": 1
+    },
+    {
+     "point": "Printed as doubles with .0",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 243,
+   "school": "ICSE 2018 specimen"
+  },
+  {
+   "q_label": "73(i)",
+   "q_order": 30,
+   "q_main": 73,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Output with modulus condition",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "array traversal",
+    "modulus"
+   ],
+   "question": "Write the output of the following program segments:\n(i)\nint a[] = {20, 30, 40, 50};\nfor (int i = 0; i < 4; i++) {\n    if (a[i] % 4 == 0) {\n        System.out.println(a[i]);\n    }\n}",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "20\n40\nTrace: 20 % 4 = 0 (printed), 30 % 4 = 2, 40 % 4 = 0 (printed), 50 % 4 = 2.",
+   "marking_points": [
+    {
+     "point": "20 printed",
+     "marks": 1
+    },
+    {
+     "point": "40 printed on the next line (30, 50 not printed)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 242,
+   "school": "ICSE 2019 compartment"
+  },
+  {
+   "q_label": "73(ii)",
+   "q_order": 31,
+   "q_main": 73,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Sum of first five elements",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "array sum",
+    "loop bound <="
+   ],
+   "question": "Write the output of the following program segments:\n(ii)\nint h[] = {6, 12, 18, 24, 30, 42};\nint sum = 0;\nfor (int k = 0; k <= 4; k++) {\n    sum += h[k];\n}\nSystem.out.print(sum);",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Output",
+     "accepted": [
+      "90"
+     ]
+    }
+   ],
+   "solution": "90. k runs 0 to 4, so sum = 6 + 12 + 18 + 24 + 30 = 90 (42 is not added).",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 242,
+   "school": "ICSE 2019 compartment"
+  },
+  {
+   "q_label": "74(i)",
+   "q_order": 32,
+   "q_main": 74,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Array length",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "length property"
+   ],
+   "question": "If int x[] = {4, 3, 7, 8, 9, 10}; what are the values of p and q?\n(i) p = x.length",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "p",
+     "accepted": [
+      "6"
+     ]
+    }
+   ],
+   "solution": "p = 6. The array has 6 elements.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 242,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "74(ii)",
+   "q_order": 33,
+   "q_main": 74,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Expression with array elements",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "zero-based index",
+    "operator precedence"
+   ],
+   "question": "If int x[] = {4, 3, 7, 8, 9, 10}; what are the values of p and q?\n(ii) q = x[2] + x[5] * x[1]",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "q",
+     "accepted": [
+      "37"
+     ]
+    }
+   ],
+   "solution": "q = 37. x[2] = 7, x[5] = 10, x[1] = 3; multiplication first: 7 + 10 * 3 = 7 + 30 = 37.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 242,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "76(i)",
+   "q_order": 34,
+   "q_main": 76,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Assign the first element",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "first element index 0"
+   ],
+   "question": "Write Java statements for the following:\n(i) Initialize the first element of a one-dimensional array A as 0.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "A[0] = 0;",
+   "marking_points": [
+    {
+     "point": "Index 0 used for the first element",
+     "marks": 1
+    },
+    {
+     "point": "Correct assignment statement",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 242,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "76(ii)",
+   "q_order": 35,
+   "q_main": 76,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Initialise an int array",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "array initialiser"
+   ],
+   "question": "Write Java statements for the following:\n(ii) Assign 65, 66, 67 to an array arr.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "int arr[] = {65, 66, 67};",
+   "marking_points": [
+    {
+     "point": "Declaration int arr[]",
+     "marks": 1
+    },
+    {
+     "point": "Initialiser {65, 66, 67}",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 242,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "76(iii)",
+   "q_order": 36,
+   "q_main": 76,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Check divisibility of an element",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 2,
+   "concepts": [
+    "index = position - 1",
+    "modulus"
+   ],
+   "question": "Write Java statements for the following:\n(iii) Check if an element at column 5 of an array x[10] is divisible by 2.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "if (x[4] % 2 == 0)\n    System.out.println(\"Divisible\");\nelse\n    System.out.println(\"Not divisible\");\nThe 5th position has index 4.",
+   "marking_points": [
+    {
+     "point": "x[4] used for the 5th position",
+     "marks": 1
+    },
+    {
+     "point": "Condition % 2 == 0 in an if",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 242,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "76(iv)",
+   "q_order": 37,
+   "q_main": 76,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Initialise a boolean array",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "boolean array"
+   ],
+   "question": "Write Java statements for the following:\n(iv) Initialize true, false, true, true to a boolean array.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "boolean b[] = {true, false, true, true};",
+   "marking_points": [
+    {
+     "point": "Declaration boolean b[]",
+     "marks": 1
+    },
+    {
+     "point": "Initialiser with the four values (no quotes)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 242,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "77(i)",
+   "q_order": 38,
+   "q_main": 77,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Range of indices",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "zero-based index"
+   ],
+   "question": "Consider the following Java statements and answer the questions that follow:\nString a[] = {\"FLORIDA\", \"AMAZON\", \"WASHINGTON\"};\n(i) What is the range of indices for array a?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Range of indices",
+     "accepted": [
+      "0 to 2",
+      "0-2",
+      "0 - 2",
+      "0 to 2 (0, 1, 2)",
+      "0, 1, 2",
+      "0,1,2"
+     ]
+    }
+   ],
+   "solution": "0 to 2. Three elements have indices 0, 1 and 2.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 242,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "77(iii)",
+   "q_order": 39,
+   "q_main": 77,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Size of the array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "length of array"
+   ],
+   "question": "Consider the following Java statements and answer the questions that follow:\nString a[] = {\"FLORIDA\", \"AMAZON\", \"WASHINGTON\"};\n(iii) What is the size of the array?",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Size",
+     "accepted": [
+      "3",
+      "3 locations",
+      "3 elements"
+     ]
+    }
+   ],
+   "solution": "3. The array has 3 locations of String type.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 242,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "81(i)",
+   "q_order": 40,
+   "q_main": 81,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Locations reserved by new",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "array size"
+   ],
+   "question": "How many locations are reserved for the following arrays?\n(i) int x[] = new int[25];",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Locations",
+     "accepted": [
+      "25"
+     ]
+    }
+   ],
+   "solution": "25 locations, x[0] to x[24].",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 246,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "81(ii)",
+   "q_order": 41,
+   "q_main": 81,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Locations reserved by new",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "array size"
+   ],
+   "question": "How many locations are reserved for the following arrays?\n(ii) float a[] = new float[42];",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Locations",
+     "accepted": [
+      "42"
+     ]
+    }
+   ],
+   "solution": "42 locations, a[0] to a[41].",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 246,
+   "school": "ICSE 2023 specimen"
+  },
+  {
+   "q_label": "88(iv)",
+   "q_order": 42,
+   "q_main": 88,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Default value and printing an array reference",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 3,
+   "concepts": [
+    "default value 0",
+    "printing an array reference"
+   ],
+   "question": "Write the output of the below program segments:\n(iv)\nint arr[] = new int[5];\nSystem.out.println(arr[0]);\nSystem.out.println(arr);",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "0\n[I@6bcfe29   (the part after @ varies from run to run)\nAn int array created with new is filled with 0, so arr[0] prints 0. Printing the array variable prints its reference: [I (int array type), @ and a hexadecimal hash code, not the elements.",
+   "marking_points": [
+    {
+     "point": "First line 0 (default value)",
+     "marks": 1
+    },
+    {
+     "point": "Second line is the reference/hash code like [I@..., not the elements",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 245,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "89(i)",
+   "q_order": 43,
+   "q_main": 89,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Declare a 2D String array",
+   "bloom": "apply",
+   "applied": false,
+   "applied_kind": null,
+   "difficulty": 1,
+   "concepts": [
+    "2D array declaration"
+   ],
+   "question": "Write the statements to:\n(i) Declare an array of strings with 3 rows and 5 columns.\n(ii) Input the values of this array from the user in row-wise order.\n(iii) Input values from the user in column-wise order.\nAnswer part (i).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "String str[][] = new String[3][5];",
+   "marking_points": [
+    {
+     "point": "String str[][] declaration",
+     "marks": 1
+    },
+    {
+     "point": "new String[3][5] (rows first)",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 245,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "89(ii)",
+   "q_order": 44,
+   "q_main": 89,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Row-wise input into a 2D array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "nested loops",
+    "row-major input"
+   ],
+   "question": "Write the statements to:\n(i) Declare an array of strings with 3 rows and 5 columns.\n(ii) Input the values of this array from the user in row-wise order.\n(iii) Input values from the user in column-wise order.\nAnswer part (ii).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Scanner sc = new Scanner(System.in);\nfor (int i = 0; i < 3; i++)        // rows\n    for (int j = 0; j < 5; j++)    // columns\n        str[i][j] = sc.next();",
+   "marking_points": [
+    {
+     "point": "Outer loop over 3 rows, inner over 5 columns",
+     "marks": 1
+    },
+    {
+     "point": "str[i][j] = sc.next() inside",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 245,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "89(iii)",
+   "q_order": 45,
+   "q_main": 89,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Column-wise input into a 2D array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "nested loops",
+    "column-major input"
+   ],
+   "question": "Write the statements to:\n(i) Declare an array of strings with 3 rows and 5 columns.\n(ii) Input the values of this array from the user in row-wise order.\n(iii) Input values from the user in column-wise order.\nAnswer part (iii).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "Scanner sc = new Scanner(System.in);\nfor (int j = 0; j < 5; j++)        // columns\n    for (int i = 0; i < 3; i++)    // rows\n        str[i][j] = sc.next();",
+   "marking_points": [
+    {
+     "point": "Outer loop over 5 columns, inner over 3 rows",
+     "marks": 1
+    },
+    {
+     "point": "str[i][j] filled with row index from the inner loop",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 245,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "90(i)",
+   "q_order": 46,
+   "q_main": 90,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Accessing a String array element",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 1,
+   "concepts": [
+    "zero-based index"
+   ],
+   "question": "String x[] = {\"SAMSUNG\", \"NOKIA\", \"SONY\", \"MICROMAX\", \"BLACKBERRY\"};\nGive the output of the following statements:\n(i) System.out.println(x[1]);",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Output",
+     "accepted": [
+      "NOKIA"
+     ]
+    }
+   ],
+   "solution": "NOKIA. x[1] is the second element.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 245,
+   "school": "ICSE 2017 specimen"
+  },
+  {
+   "q_label": "90(ii)",
+   "q_order": 47,
+   "q_main": 90,
+   "section": "Past-paper questions",
+   "type": "fill_blank",
+   "marks": 1.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Length of a String element",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "String length()"
+   ],
+   "question": "String x[] = {\"SAMSUNG\", \"NOKIA\", \"SONY\", \"MICROMAX\", \"BLACKBERRY\"};\nGive the output of the following statements:\n(ii) System.out.println(x[3].length());",
+   "options": {},
+   "is_objective": true,
+   "correct_option": null,
+   "answer_items": [
+    {
+     "prompt": "Output",
+     "accepted": [
+      "8"
+     ]
+    }
+   ],
+   "solution": "8. x[3] is \"MICROMAX\", which has 8 characters.",
+   "marking_points": [],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 245,
+   "school": "ICSE 2017 specimen"
+  },
+  {
+   "q_label": "91",
+   "q_order": 48,
+   "q_main": 91,
+   "section": "Past-paper questions",
+   "type": "short",
+   "marks": 2.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "String Handling",
+   "topic": "String methods on array elements",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "reasoning",
+   "difficulty": 2,
+   "concepts": [
+    "String length()",
+    "substring"
+   ],
+   "question": "Consider the following String array and give the output\nString arr[] = {\"DELHI\", \"CHENNAI\", \"MUMBAI\", \"LUCKNOW\", \"JAIPUR\"};\nSystem.out.println(arr[0].length() > arr[3].length());\nSystem.out.print(arr[4].substring(0, 3));",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "false\nJAI\nTrace: \"DELHI\".length() = 5 and \"LUCKNOW\".length() = 7; 5 > 7 is false. \"JAIPUR\".substring(0, 3) takes indices 0 to 2, giving JAI.",
+   "marking_points": [
+    {
+     "point": "false",
+     "marks": 1
+    },
+    {
+     "point": "JAI on the next line",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 245,
+   "school": "ICSE 2018 compartment"
+  },
+  {
+   "q_label": "93",
+   "q_order": 49,
+   "q_main": 93,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Selection sort in descending order",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "selection sort",
+    "descending order"
+   ],
+   "question": "Write a program to input and store the weight of ten people. Sort and display them in descending order using the selection sort technique.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass SortWeight\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        double weight[] = new double[10];\n        System.out.println(\"Enter the weight of 10 people:\");\n        for (int i = 0; i < 10; i++)\n            weight[i] = sc.nextDouble();\n        // selection sort: put the largest remaining weight at position i\n        for (int i = 0; i < 9; i++)\n        {\n            int pos = i;\n            for (int j = i + 1; j < 10; j++)\n            {\n                if (weight[j] > weight[pos])\n                    pos = j;\n            }\n            double t = weight[i];\n            weight[i] = weight[pos];\n            weight[pos] = t;\n        }\n        System.out.println(\"Weights in descending order:\");\n        for (int i = 0; i < 10; i++)\n            System.out.println(weight[i]);\n    }\n}\n\n/* Variable description\n   weight[] - double array of 10 weights\n   i, j - loop variables\n   pos - index of the largest element in the unsorted part\n   t - temporary variable for swapping\n*/\n\n(Corrected: the source program did not reset the index of the maximum at the start of each pass and had a missing brace, so it could swap the wrong element.)",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of the array elements using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Selection sort: find the largest in the unsorted part each pass and swap it into place",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 248,
+   "school": "ICSE 2024 specimen"
+  },
+  {
+   "q_label": "98",
+   "q_order": 50,
+   "q_main": 98,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Merging two arrays into a third",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "copying arrays",
+    "index offset"
+   ],
+   "question": "Write a program to store 6 elements in an array P, and 4 elements in an array Q and produce a third array R, containing all the elements of array P and Q. Display the resultant array.\nExample:\nINPUT P[]: 4, 6, 1, 2, 3, 10\nINPUT Q[]: 19, 23, 7, 8\nOUTPUT R[]: 4, 6, 1, 2, 3, 10, 19, 23, 7, 8",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass Merge\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int P[] = new int[6];\n        int Q[] = new int[4];\n        int R[] = new int[10];\n        System.out.println(\"Enter 6 elements of array P:\");\n        for (int i = 0; i < 6; i++)\n            P[i] = sc.nextInt();\n        System.out.println(\"Enter 4 elements of array Q:\");\n        for (int i = 0; i < 4; i++)\n            Q[i] = sc.nextInt();\n        for (int i = 0; i < 6; i++)        // copy P into R[0] to R[5]\n            R[i] = P[i];\n        for (int i = 0; i < 4; i++)        // copy Q into R[6] to R[9]\n            R[6 + i] = Q[i];\n        System.out.println(\"Resultant array R:\");\n        for (int i = 0; i < 10; i++)\n            System.out.println(R[i]);\n    }\n}\n\n/* Variable description\n   P[] - first array of 6 integers\n   Q[] - second array of 4 integers\n   R[] - resultant array of 10 integers\n   i - loop variable\n*/",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of the array elements using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Copy P into R[0..5] and Q into R[6..9] with the correct index offset",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 250,
+   "school": "ICSE 2017"
+  },
+  {
+   "q_label": "99",
+   "q_order": 51,
+   "q_main": 99,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Average marks of 50 students with conditions",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "parallel arrays",
+    "average",
+    "conditional display"
+   ],
+   "question": "The annual examination results of 50 students in a class is tabulated as follows:\nRoll No. | Subject A | Subject B | Subject C\n... | ... | ... | ...\nWrite a program to read the data, calculate, and display the following:\n1. Average mark obtained by each student.\n2. Print the roll number and average marks of the students whose average mark is above 80.\n3. Print the roll number and average marks of the students whose average mark is below 40.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass Result\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int roll[] = new int[50];\n        double a[] = new double[50];\n        double b[] = new double[50];\n        double c[] = new double[50];\n        double avg[] = new double[50];\n        for (int i = 0; i < 50; i++)\n        {\n            System.out.println(\"Enter roll number and marks in Subject A, B and C:\");\n            roll[i] = sc.nextInt();\n            a[i] = sc.nextDouble();\n            b[i] = sc.nextDouble();\n            c[i] = sc.nextDouble();\n            avg[i] = (a[i] + b[i] + c[i]) / 3.0;\n        }\n        System.out.println(\"Roll No.\\tAverage\");\n        for (int i = 0; i < 50; i++)\n            System.out.println(roll[i] + \"\\t\" + avg[i]);\n        System.out.println(\"Students with average above 80:\");\n        for (int i = 0; i < 50; i++)\n        {\n            if (avg[i] > 80)\n                System.out.println(roll[i] + \"\\t\" + avg[i]);\n        }\n        System.out.println(\"Students with average below 40:\");\n        for (int i = 0; i < 50; i++)\n        {\n            if (avg[i] < 40)\n                System.out.println(roll[i] + \"\\t\" + avg[i]);\n        }\n    }\n}\n\n/* Variable description\n   roll[] - roll numbers of 50 students\n   a[], b[], c[] - marks in subjects A, B and C\n   avg[] - average marks of each student\n   i - loop variable\n*/",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of roll numbers and marks of 50 students",
+     "marks": 2
+    },
+    {
+     "point": "Average of three subjects for each student, then two filtered lists (> 80 and < 40)",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 249,
+   "school": "ICSE 2021 specimen"
+  },
+  {
+   "q_label": "100",
+   "q_order": 52,
+   "q_main": 100,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Bubble sort in descending order",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "bubble sort",
+    "descending order"
+   ],
+   "question": "Write a program to input 10 integer elements in an array and sort them in descending order using the bubble sort technique.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass BubbleSort\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int a[] = new int[10];\n        System.out.println(\"Enter 10 integers:\");\n        for (int i = 0; i < 10; i++)\n            a[i] = sc.nextInt();\n        for (int i = 0; i < 9; i++)\n        {\n            for (int j = 0; j < 9 - i; j++)\n            {\n                if (a[j] < a[j + 1])     // smaller element moves right\n                {\n                    int t = a[j];\n                    a[j] = a[j + 1];\n                    a[j + 1] = t;\n                }\n            }\n        }\n        System.out.println(\"Sorted array in descending order:\");\n        for (int i = 0; i < 10; i++)\n            System.out.println(a[i]);\n    }\n}\n\n/* Variable description\n   a[] - array of 10 integers\n   i - pass counter\n   j - index of adjacent comparison\n   t - temporary variable for swapping\n*/",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of the array elements using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Bubble sort: compare adjacent elements and swap when the left is smaller, for 9 passes",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 252,
+   "school": "ICSE 2024 specimen"
+  },
+  {
+   "q_label": "101",
+   "q_order": 53,
+   "q_main": 101,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Bubble sort of city names",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "bubble sort on strings",
+    "compareTo"
+   ],
+   "question": "Define a class and store the given city names in a single-dimensional array. Sort these names in alphabetical order using the Bubble Sort technique only.\nINPUT: Delhi, Bangalore, Agra, Mumbai, Kolkata\nOUTPUT: Agra, Bangalore, Delhi, Kolkata, Mumbai",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "class SortCities\n{\n    public static void main(String args[])\n    {\n        String city[] = {\"Delhi\", \"Bangalore\", \"Agra\", \"Mumbai\", \"Kolkata\"};\n        int n = city.length;\n        for (int i = 0; i < n - 1; i++)\n        {\n            for (int j = 0; j < n - 1 - i; j++)\n            {\n                if (city[j].compareTo(city[j + 1]) > 0)\n                {\n                    String t = city[j];\n                    city[j] = city[j + 1];\n                    city[j + 1] = t;\n                }\n            }\n        }\n        System.out.println(\"Cities in alphabetical order:\");\n        for (int i = 0; i < n; i++)\n            System.out.println(city[i]);\n    }\n}\n\n/* Variable description\n   city[] - array of 5 city names\n   n - number of cities\n   i, j - loop variables\n   t - temporary String for swapping\n*/",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Array initialised with the given city names",
+     "marks": 2
+    },
+    {
+     "point": "Bubble sort using compareTo() > 0 to swap adjacent names",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 252,
+   "school": "ICSE 2023 compartment"
+  },
+  {
+   "q_label": "103",
+   "q_order": 54,
+   "q_main": 103,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Selection sort in ascending order",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "selection sort",
+    "ascending order"
+   ],
+   "question": "Write a program to accept 15 integers from the keyboard, assuming that no integer entered is a zero. Perform selection sort on the integers and then print them in ascending order.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass SelectionSorting\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int arr[] = new int[15];\n        System.out.println(\"Enter 15 non-zero integers:\");\n        for (int i = 0; i < 15; i++)\n            arr[i] = sc.nextInt();\n        for (int i = 0; i < 14; i++)\n        {\n            int min = i;\n            for (int j = i + 1; j < 15; j++)\n            {\n                if (arr[j] < arr[min])\n                    min = j;\n            }\n            int t = arr[i];\n            arr[i] = arr[min];\n            arr[min] = t;\n        }\n        System.out.println(\"Numbers in ascending order:\");\n        for (int i = 0; i < 15; i++)\n            System.out.println(arr[i]);\n    }\n}\n\n/* Variable description\n   arr[] - array of 15 integers\n   i, j - loop variables\n   min - index of the smallest element in the unsorted part\n   t - temporary variable for swapping\n*/",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of the array elements using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Selection sort: find the smallest remaining element each pass and swap it into position i",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 251,
+   "school": "ICSE 2016"
+  },
+  {
+   "q_label": "104",
+   "q_order": 55,
+   "q_main": 104,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Linear search in a double array",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "linear search",
+    "double array"
+   ],
+   "question": "Define a class to accept values into an array of double data type of size 20. Accept a double value from the user and search in the array using the linear search method. If the value is found, display the message \"Found\" with its position where it is present in the array. Otherwise, display the message \"Not found\".",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass LinearSearch\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        double arr[] = new double[20];\n        System.out.println(\"Enter 20 numbers:\");\n        for (int i = 0; i < 20; i++)\n            arr[i] = sc.nextDouble();\n        System.out.println(\"Enter the number to search:\");\n        double num = sc.nextDouble();\n        int pos = -1;\n        for (int i = 0; i < 20; i++)\n        {\n            if (arr[i] == num)\n            {\n                pos = i;\n                break;\n            }\n        }\n        if (pos != -1)\n            System.out.println(\"Found at position \" + (pos + 1));\n        else\n            System.out.println(\"Not found\");\n    }\n}\n\n/* Variable description\n   arr[] - array of 20 double values\n   num - value to search\n   pos - index where found (-1 if not found)\n   i - loop variable\n*/",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of the array elements using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Linear search comparing each element with the value, stopping when found",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 251,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "107",
+   "q_order": 56,
+   "q_main": 107,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Words beginning and ending with A or a",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "String array",
+    "charAt",
+    "first and last character"
+   ],
+   "question": "Define a class to declare an array to accept and store ten words. Display only those words which begin with the letter A or a and also end with the letter A or a.\nEXAMPLE:\nInput: Hari, Anita, Akash, Amrita, Alina, Devi, Rishab, John, Farha, AMITHA\nOutput:\nAnita\nAmrita\nAlina\nAMITHA",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass FilterWords\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        String words[] = new String[10];\n        System.out.println(\"Enter 10 words:\");\n        for (int i = 0; i < 10; i++)\n            words[i] = sc.next();\n        System.out.println(\"Words beginning and ending with A or a:\");\n        for (int i = 0; i < 10; i++)\n        {\n            String w = words[i];\n            char first = Character.toUpperCase(w.charAt(0));\n            char last = Character.toUpperCase(w.charAt(w.length() - 1));\n            if (first == 'A' && last == 'A')\n                System.out.println(w);\n        }\n    }\n}\n\n/* Variable description\n   words[] - array of 10 words\n   w - current word\n   first, last - first and last characters in upper case\n   i - loop variable\n*/",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of 10 words into a String array",
+     "marks": 2
+    },
+    {
+     "point": "Check first and last character of each word against A/a and print matches",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 253,
+   "school": "ICSE 2022 specimen"
+  },
+  {
+   "q_label": "112",
+   "q_order": 57,
+   "q_main": 112,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Bubble sort of names in descending order",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "bubble sort on strings",
+    "compareTo",
+    "descending order"
+   ],
+   "question": "Write a program to input twenty names in an array. Arrange these names in descending order of alphabets, using the bubble sort technique.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass ArrangeNames\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        String a[] = new String[20];\n        System.out.println(\"Enter twenty names:\");\n        for (int i = 0; i < 20; i++)\n            a[i] = sc.next();\n        for (int i = 0; i < 19; i++)\n        {\n            for (int j = 0; j < 19 - i; j++)\n            {\n                if (a[j].compareToIgnoreCase(a[j + 1]) < 0)\n                {\n                    String t = a[j];\n                    a[j] = a[j + 1];\n                    a[j + 1] = t;\n                }\n            }\n        }\n        System.out.println(\"Names in descending order:\");\n        for (int i = 0; i < 20; i++)\n            System.out.println(a[i]);\n    }\n}\n\n/* Variable description\n   a[] - array of 20 names\n   i, j - loop variables\n   t - temporary String for swapping\n*/",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of 20 names into a String array",
+     "marks": 2
+    },
+    {
+     "point": "Bubble sort swapping when the left name is alphabetically smaller (compareTo < 0)",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 256,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "114",
+   "q_order": 58,
+   "q_main": 114,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Position of a value in a list (linear search)",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "linear search",
+    "position = index + 1"
+   ],
+   "question": "Write a program to accept a list of 50 integers from the user and another value to search in the list. Your program should print the position of the value in the list.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass SearchPosition\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int a[] = new int[50];\n        System.out.println(\"Enter 50 integers:\");\n        for (int i = 0; i < 50; i++)\n            a[i] = sc.nextInt();\n        System.out.println(\"Enter the value to search:\");\n        int v = sc.nextInt();\n        int pos = -1;\n        for (int i = 0; i < 50; i++)\n        {\n            if (a[i] == v)\n            {\n                pos = i + 1;\n                break;\n            }\n        }\n        if (pos == -1)\n            System.out.println(\"Value not found in the list\");\n        else\n            System.out.println(\"Position = \" + pos);\n    }\n}\n\n/* Variable description\n   a[] - list of 50 integers\n   v - value to search\n   pos - position of v (1-based), -1 if absent\n   i - loop variable\n*/",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of the array elements using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Linear search recording position (index + 1) of the first match",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 255,
+   "school": "ICSE 2022 compartment"
+  },
+  {
+   "q_label": "115",
+   "q_order": 59,
+   "q_main": 115,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Days in a year using an array of month days",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "array of month lengths",
+    "leap year test"
+   ],
+   "question": "WAP in Java to enter a year and print the total number of days in that year, taking the case of the leap year which has 29 days in February. Your program should make use of an array to store the days of each month.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass DaysInYear\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int days[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};\n        System.out.println(\"Enter a year:\");\n        int y = sc.nextInt();\n        if ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0)\n            days[1] = 29;                 // February in a leap year\n        int total = 0;\n        for (int i = 0; i < 12; i++)\n            total = total + days[i];\n        System.out.println(\"Total number of days in \" + y + \" = \" + total);\n    }\n}\n\n/* Variable description\n   days[] - number of days in each month\n   y - year entered\n   total - total days in the year\n   i - loop variable\n*/",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of the year using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Leap-year test setting February to 29 and summing the 12 month lengths",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 255,
+   "school": "ICSE 2015"
+  },
+  {
+   "q_label": "116",
+   "q_order": 60,
+   "q_main": 116,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Sum of corresponding elements of two arrays",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "parallel traversal",
+    "arrays of different sizes"
+   ],
+   "question": "WAP in Java to accept two arrays of 10 integers and 20 integers respectively and finally store the sum of corresponding elements in a third array. Display the resultant array.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass SumArrays\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int a[] = new int[10];\n        int b[] = new int[20];\n        int c[] = new int[20];\n        System.out.println(\"Enter 10 integers of the first array:\");\n        for (int i = 0; i < 10; i++)\n            a[i] = sc.nextInt();\n        System.out.println(\"Enter 20 integers of the second array:\");\n        for (int i = 0; i < 20; i++)\n            b[i] = sc.nextInt();\n        for (int i = 0; i < 20; i++)\n        {\n            if (i < 10)\n                c[i] = a[i] + b[i];   // both arrays have an element here\n            else\n                c[i] = b[i];          // first array has no element here\n        }\n        System.out.println(\"Resultant array:\");\n        for (int i = 0; i < 20; i++)\n            System.out.println(c[i]);\n    }\n}\n\n/* Variable description\n   a[] - first array of 10 integers\n   b[] - second array of 20 integers\n   c[] - resultant array of 20 integers\n   i - loop variable\n*/",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of the array elements using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Add corresponding elements for indices 0-9 and copy b[10..19] where a has no element",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 255,
+   "school": "ICSE 2018 specimen"
+  },
+  {
+   "q_label": "117",
+   "q_order": 61,
+   "q_main": 117,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Merging two arrays alternately",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 4,
+   "concepts": [
+    "interleaving arrays",
+    "separate index counters"
+   ],
+   "question": "Two single-dimension arrays contain the elements as follows:\nx[10] = {5, -3, -2, 1, 0, 12, 14, 16, 25, 13}\ny[8] = {6, 5, 10, 15, 18, 20, 22, 30}\nWrite a program that results in a third array z as follows:\nz[18] = {5, 6, -3, 5, -2, 10, 1, 15, 0, 18, 12, 20, 14, 22, 16, 30, 25, 13}",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "class MergeAlternate\n{\n    public static void main(String args[])\n    {\n        int x[] = {5, -3, -2, 1, 0, 12, 14, 16, 25, 13};\n        int y[] = {6, 5, 10, 15, 18, 20, 22, 30};\n        int z[] = new int[18];\n        int k = 0;\n        for (int i = 0; i < 8; i++)     // take x and y alternately\n        {\n            z[k] = x[i];\n            k++;\n            z[k] = y[i];\n            k++;\n        }\n        z[16] = x[8];                   // remaining elements of x\n        z[17] = x[9];\n        for (int i = 0; i < 18; i++)\n            System.out.print(z[i] + \" \");\n    }\n}\n\n/* Variable description\n   x[] - first array of 10 elements\n   y[] - second array of 8 elements\n   z[] - resultant array of 18 elements\n   i - loop variable\n   k - next free index in z\n*/",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Arrays x and y initialised with the given values",
+     "marks": 2
+    },
+    {
+     "point": "Alternate x[i], y[i] into z for i = 0 to 7, then append x[8], x[9]",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 258,
+   "school": "ICSE 2019 compartment"
+  },
+  {
+   "q_label": "123",
+   "q_order": 62,
+   "q_main": 123,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Totals and highest marks with roll numbers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 4,
+   "concepts": [
+    "parallel arrays",
+    "maximum with its index"
+   ],
+   "question": "The annual exam result of 50 students of a class X-D of St. Xaviers is tabulated as follows:\nRoll No. | Subject A | Subject B | Subject C\nWAP in Java to read the data and determine:\n(i) Total marks obtained by each student.\n(ii) Highest marks in each subject and the roll number of the student who obtained it.\n(iii) Highest total marks and the roll number of the student who got it.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass ExamResult\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int R[] = new int[50];\n        int s1[] = new int[50];\n        int s2[] = new int[50];\n        int s3[] = new int[50];\n        int tot[] = new int[50];\n        for (int i = 0; i < 50; i++)\n        {\n            System.out.println(\"Enter roll number and marks in Subject A, B and C:\");\n            R[i] = sc.nextInt();\n            s1[i] = sc.nextInt();\n            s2[i] = sc.nextInt();\n            s3[i] = sc.nextInt();\n            tot[i] = s1[i] + s2[i] + s3[i];\n            System.out.println(\"Total marks of roll no. \" + R[i] + \" = \" + tot[i]);\n        }\n        int m1 = 0, m2 = 0, m3 = 0, mt = 0;   // indices of the highest scores\n        for (int i = 1; i < 50; i++)\n        {\n            if (s1[i] > s1[m1]) m1 = i;\n            if (s2[i] > s2[m2]) m2 = i;\n            if (s3[i] > s3[m3]) m3 = i;\n            if (tot[i] > tot[mt]) mt = i;\n        }\n        System.out.println(\"Highest in Subject A = \" + s1[m1] + \", Roll No. \" + R[m1]);\n        System.out.println(\"Highest in Subject B = \" + s2[m2] + \", Roll No. \" + R[m2]);\n        System.out.println(\"Highest in Subject C = \" + s3[m3] + \", Roll No. \" + R[m3]);\n        System.out.println(\"Highest total = \" + tot[mt] + \", Roll No. \" + R[mt]);\n    }\n}\n\n/* Variable description\n   R[] - roll numbers\n   s1[], s2[], s3[] - marks in subjects A, B and C\n   tot[] - total marks of each student\n   m1, m2, m3, mt - indices of the highest marks in each subject and in total\n   i - loop variable\n*/\n\n(Corrected: the source program set the roll numbers of the toppers to 0 at the start, so it printed roll number 0 whenever the first student had the highest marks; keeping the index of the maximum fixes this.)",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of roll numbers and marks of 50 students",
+     "marks": 2
+    },
+    {
+     "point": "Totals for each student, and highest of each subject and of totals tracked with their indices/roll numbers",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 260,
+   "school": "ICSE 2017 compartment"
+  },
+  {
+   "q_label": "124",
+   "q_order": 63,
+   "q_main": 124,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Binary search in 5 sorted integers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "binary search",
+    "lower and upper bounds"
+   ],
+   "question": "Using the technique of Binary Searching, print the position of a value in an arranged list of 5 integers. Assume that the entered list is in ascending order.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass BinarySearch\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int arr[] = new int[5];\n        System.out.println(\"Enter 5 numbers in ascending order:\");\n        for (int i = 0; i < 5; i++)\n            arr[i] = sc.nextInt();\n        System.out.println(\"Enter the number to search:\");\n        int value = sc.nextInt();\n        int lb = 0, ub = 4, pos = -1;\n        while (lb <= ub)\n        {\n            int mid = (lb + ub) / 2;\n            if (arr[mid] == value)\n            {\n                pos = mid;\n                break;\n            }\n            else if (value < arr[mid])\n                ub = mid - 1;\n            else\n                lb = mid + 1;\n        }\n        if (pos == -1)\n            System.out.println(\"Value not found\");\n        else\n            System.out.println(\"Position is: \" + (pos + 1));\n    }\n}\n\n/* Variable description\n   arr[] - 5 integers in ascending order\n   value - number to search\n   lb, ub, mid - lower bound, upper bound and middle index\n   pos - index where found (-1 if not found)\n   i - loop variable\n*/\n\n(Corrected: the source program set ub = mid and lb = mid and looped while value != arr[mid], which never ends when the value is not in the list.)",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of the array elements using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Binary search loop with lb <= ub, mid = (lb + ub) / 2 and ub = mid - 1 / lb = mid + 1",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 260,
+   "school": "ICSE 2021"
+  },
+  {
+   "q_label": "125",
+   "q_order": 64,
+   "q_main": 125,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Search a country and show its wonder",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "parallel arrays",
+    "linear search on strings"
+   ],
+   "question": "Write a program to initialize the Seven Wonders of the World along with their locations in two different arrays. Search for a name of the country input by the user. If found, display the name of the country along with its Wonder; otherwise, display \"Sorry Not Found!\".\nSeven wonders: CHICHEN ITZA, CHRIST THE REDEEMER, TAJMAHAL, GREAT WALL OF CHINA, MACHU PICCHU, PETRA, COLOSSEUM\nLocations: MEXICO, BRAZIL, INDIA, CHINA, PERU, JORDAN, ITALY\nExample:\nCountry Name: INDIA\nOutput: INDIA - TAJMAHAL\nCountry Name: USA\nOutput: Sorry Not Found!",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass Wonders\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        String w[] = {\"CHICHEN ITZA\", \"CHRIST THE REDEEMER\", \"TAJMAHAL\", \"GREAT WALL OF CHINA\",\n                      \"MACHU PICCHU\", \"PETRA\", \"COLOSSEUM\"};\n        String l[] = {\"MEXICO\", \"BRAZIL\", \"INDIA\", \"CHINA\", \"PERU\", \"JORDAN\", \"ITALY\"};\n        System.out.print(\"Country Name: \");\n        String c = sc.nextLine().trim();\n        boolean found = false;\n        for (int i = 0; i < l.length; i++)\n        {\n            if (l[i].equalsIgnoreCase(c))\n            {\n                System.out.println(l[i] + \" - \" + w[i]);\n                found = true;\n                break;\n            }\n        }\n        if (!found)\n            System.out.println(\"Sorry Not Found!\");\n    }\n}\n\n/* Variable description\n   w[] - names of the seven wonders\n   l[] - countries where they are located\n   c - country entered by the user\n   found - true when the country is in the list\n   i - loop variable\n*/",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Arrays initialised with the given data and country name input using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Linear search of the country in l[] and printing the matching wonder from w[] at the same index",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 263,
+   "school": "ICSE 2016 specimen"
+  },
+  {
+   "q_label": "126(i)",
+   "q_order": 65,
+   "q_main": 126,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Selection sort of 5 integers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "selection sort",
+    "ascending order"
+   ],
+   "question": "WAP to accept 5 integers from the console. Sort the list in ascending order using:\n(i) Selection Sort Method\n(ii) Bubble Sorting Method\nAnswer part (i).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass SelectionSort5\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int arr[] = new int[5];\n        System.out.println(\"Enter 5 integers:\");\n        for (int i = 0; i < 5; i++)\n            arr[i] = sc.nextInt();\n        for (int i = 0; i < 4; i++)\n        {\n            int min = i;\n            for (int j = i + 1; j < 5; j++)\n            {\n                if (arr[j] < arr[min])\n                    min = j;\n            }\n            int t = arr[i];\n            arr[i] = arr[min];\n            arr[min] = t;\n        }\n        System.out.println(\"Sorted list in ascending order:\");\n        for (int i = 0; i < 5; i++)\n            System.out.print(arr[i] + \" \");\n    }\n}\n\n/* Variable description\n   arr[] - array of 5 integers\n   i, j - loop variables\n   min - index of the smallest element in the unsorted part\n   t - temporary variable for swapping\n*/\n\n(Corrected: the source program kept minPosition from the previous pass when no smaller element was found, which can swap the wrong element.)",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of the array elements using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Selection sort: smallest remaining element swapped into position i each pass",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 263,
+   "school": "ICSE 2023 compartment"
+  },
+  {
+   "q_label": "126(ii)",
+   "q_order": 66,
+   "q_main": 126,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Bubble sort of 5 integers",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 2,
+   "concepts": [
+    "bubble sort",
+    "ascending order"
+   ],
+   "question": "WAP to accept 5 integers from the console. Sort the list in ascending order using:\n(i) Selection Sort Method\n(ii) Bubble Sorting Method\nAnswer part (ii).",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass BubbleSort5\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int arr[] = new int[5];\n        System.out.println(\"Enter 5 integers:\");\n        for (int i = 0; i < 5; i++)\n            arr[i] = sc.nextInt();\n        for (int i = 0; i < 4; i++)\n        {\n            for (int j = 0; j < 4 - i; j++)\n            {\n                if (arr[j] > arr[j + 1])\n                {\n                    int t = arr[j];\n                    arr[j] = arr[j + 1];\n                    arr[j + 1] = t;\n                }\n            }\n        }\n        System.out.println(\"Sorted list in ascending order:\");\n        for (int i = 0; i < 5; i++)\n            System.out.print(arr[i] + \" \");\n    }\n}\n\n/* Variable description\n   arr[] - array of 5 integers\n   i - pass counter\n   j - index of adjacent comparison\n   t - temporary variable for swapping\n*/\n\n(Note: the source program for this part read 15 numbers although the question asks for 5.)",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of the array elements using Scanner",
+     "marks": 2
+    },
+    {
+     "point": "Bubble sort: adjacent elements swapped when the left one is larger, 4 passes",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 263,
+   "school": "ICSE 2023 compartment"
+  },
+  {
+   "q_label": "128",
+   "q_order": 67,
+   "q_main": 128,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Average score of each student and class average",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "nested loops",
+    "running totals",
+    "average"
+   ],
+   "question": "WAP to process the exam scores for a group of students in a course. Assume that students have to appear in the same number of tests. Enter each students name and the exam scores, calculate the average score for each student and an overall class average.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass ExamScores\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"Enter the number of students:\");\n        int n = sc.nextInt();\n        System.out.println(\"Enter the number of tests:\");\n        int t = sc.nextInt();\n        String name[] = new String[n];\n        double avg[] = new double[n];\n        double classTotal = 0;\n        for (int i = 0; i < n; i++)\n        {\n            System.out.println(\"Enter the name of student \" + (i + 1) + \":\");\n            name[i] = sc.next();\n            double tot = 0;\n            for (int j = 0; j < t; j++)\n            {\n                System.out.println(\"Enter score in test \" + (j + 1) + \":\");\n                tot = tot + sc.nextDouble();\n            }\n            avg[i] = tot / t;\n            classTotal = classTotal + avg[i];\n        }\n        for (int i = 0; i < n; i++)\n            System.out.println(\"Average score of \" + name[i] + \" = \" + avg[i]);\n        System.out.println(\"Class average = \" + (classTotal / n));\n    }\n}\n\n/* Variable description\n   n - number of students\n   t - number of tests\n   name[] - names of the students\n   avg[] - average score of each student\n   tot - total score of one student\n   classTotal - sum of all student averages\n   i, j - loop variables\n*/\n\n(Note: the source program divided the sum of all scores by the number of students only, which gives an average total rather than an average test score; dividing the sum of the student averages by n, as here, gives the class average on the same scale as each student's average.)",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of number of students, tests, names and scores",
+     "marks": 2
+    },
+    {
+     "point": "Nested loops: total of t scores per student, student average, then class average",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 259,
+   "school": "ICSE 2016 specimen"
+  },
+  {
+   "q_label": "129",
+   "q_order": 68,
+   "q_main": 129,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Percentage and grade of 10 students",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "parallel arrays",
+    "percentage",
+    "if-else grading"
+   ],
+   "question": "Use arrays in Java and WAP to store roll numbers, names, and marks of six subjects for 10 students. Calculate the percentage marks obtained by each. Assume the maximum marks in each subject as 100. Calculate the grade as per the given criteria:\nPercent | Grade\n80 to 100 | A\n60 to 79 | B\n40 to 59 | C\nLess than 40 | D",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass Grades\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int roll[] = new int[10];\n        String name[] = new String[10];\n        int marks[][] = new int[10][6];\n        double per[] = new double[10];\n        char grade[] = new char[10];\n        for (int i = 0; i < 10; i++)\n        {\n            System.out.println(\"Enter roll number and name:\");\n            roll[i] = sc.nextInt();\n            name[i] = sc.next();\n            System.out.println(\"Enter marks in 6 subjects:\");\n            int tot = 0;\n            for (int j = 0; j < 6; j++)\n            {\n                marks[i][j] = sc.nextInt();\n                tot = tot + marks[i][j];\n            }\n            per[i] = tot / 6.0;          // out of 600, as a percentage\n            if (per[i] >= 80)\n                grade[i] = 'A';\n            else if (per[i] >= 60)\n                grade[i] = 'B';\n            else if (per[i] >= 40)\n                grade[i] = 'C';\n            else\n                grade[i] = 'D';\n        }\n        System.out.println(\"Roll No.\\tName\\tPercentage\\tGrade\");\n        for (int i = 0; i < 10; i++)\n            System.out.println(roll[i] + \"\\t\" + name[i] + \"\\t\" + per[i] + \"\\t\" + grade[i]);\n    }\n}\n\n/* Variable description\n   roll[] - roll numbers\n   name[] - names\n   marks[][] - marks of 10 students in 6 subjects\n   per[] - percentage of each student\n   grade[] - grade of each student\n   tot - total marks of one student\n   i, j - loop variables\n*/\n\n(Corrected: the source program did not compile - char grade = ; and grade = A without quotes - and kept marks in an array of only 6 places.)",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of roll number, name and 6 marks for 10 students",
+     "marks": 2
+    },
+    {
+     "point": "Total of 6 subjects, percentage = total / 6.0, and if-else ladder for grades A to D",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 259,
+   "school": "ICSE 2020 specimen"
+  },
+  {
+   "q_label": "139",
+   "q_order": 69,
+   "q_main": 139,
+   "section": "Past-paper questions",
+   "type": "long",
+   "marks": 15.0,
+   "mandatory": "compulsory",
+   "choice_note": null,
+   "chapter": "Arrays",
+   "topic": "Check identity matrix",
+   "bloom": "apply",
+   "applied": true,
+   "applied_kind": "program",
+   "difficulty": 3,
+   "concepts": [
+    "2D array",
+    "diagonal i == j",
+    "flag variable"
+   ],
+   "question": "Accept a matrix of 5 x 5 from the user and check whether it is an identity matrix or not. An identity matrix is one whose all diagonal elements are 1 and all other elements are zero.",
+   "options": {},
+   "is_objective": false,
+   "correct_option": null,
+   "answer_items": null,
+   "solution": "import java.util.*;\nclass IdentityMatrix\n{\n    public static void main(String args[])\n    {\n        Scanner sc = new Scanner(System.in);\n        int n[][] = new int[5][5];\n        System.out.println(\"Enter the 25 elements of the matrix row by row:\");\n        for (int i = 0; i < 5; i++)\n            for (int j = 0; j < 5; j++)\n                n[i][j] = sc.nextInt();\n        boolean identity = true;\n        for (int i = 0; i < 5; i++)\n        {\n            for (int j = 0; j < 5; j++)\n            {\n                if (i == j && n[i][j] != 1)\n                    identity = false;      // a diagonal element is not 1\n                else if (i != j && n[i][j] != 0)\n                    identity = false;      // an off-diagonal element is not 0\n            }\n        }\n        if (identity)\n            System.out.println(\"Identity matrix\");\n        else\n            System.out.println(\"Not an identity matrix\");\n    }\n}\n\n/* Variable description\n   n[][] - 5 x 5 matrix\n   identity - stays true only if every element fits the rule\n   i, j - row and column loop variables\n*/\n\n(Corrected: the source program set its flags to true as soon as one diagonal element was 1 and one other element was 0, so it called many non-identity matrices identity matrices.)",
+   "marking_points": [
+    {
+     "point": "Class, main method and array/variable declarations",
+     "marks": 2
+    },
+    {
+     "point": "Input of the 5 x 5 matrix with nested loops",
+     "marks": 2
+    },
+    {
+     "point": "Every diagonal element checked for 1 and every other element for 0 using one flag",
+     "marks": 7
+    },
+    {
+     "point": "Output displayed in the required form",
+     "marks": 2
+    },
+    {
+     "point": "Correct loops/bounds and statements in proper order in main",
+     "marks": 1
+    },
+    {
+     "point": "Variable description / comments",
+     "marks": 1
+    }
+   ],
+   "needs_figure": false,
+   "figure_desc": null,
+   "page": 268,
+   "school": "ICSE 2022 compartment"
+  }
+ ]
+}

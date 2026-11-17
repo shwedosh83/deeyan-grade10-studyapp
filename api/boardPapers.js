@@ -29,8 +29,9 @@ async function paperPdfUrl(id) {
 }
 
 // No source chosen = the exam papers (board + prelims). The CISCE competency item bank only appears when asked for.
-const EXAM_SOURCES = ['board', 'prelim'];
-const bySource = (q, source) => (source ? q.eq('source', source) : q.in('source', EXAM_SOURCES));
+const EXAM_SOURCES = ['board', 'prelim'];                 // full papers listed on the Papers tab
+const PRACTICE_SOURCES = [...EXAM_SOURCES, 'pyq'];        // + chapter-wise past-paper questions (no full paper)
+const bySource = (q, source) => (source ? q.eq('source', source) : q.in('source', PRACTICE_SOURCES));
 
 // Accepts `chapters` (array) or the older single `chapter`.
 function chapterList(body) {
