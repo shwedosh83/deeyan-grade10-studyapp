@@ -50,10 +50,21 @@ export default function BoardSprint({ fixedSource = null, fixedIds = null }) {
   }, [subject.id, hasBoard, source]);
   useEffect(() => { const t = setInterval(() => setNow(Date.now()), 500); return () => clearInterval(t); }, []);
 
+  // Questions shown in sprints on this device (answered or skipped), so the next round avoids them.
+  const shownKey = `fm_sprint_shown_${user?.id || 'anon'}_${subject.id}`;
+  function readShown() { try { return JSON.parse(localStorage.getItem(shownKey) || '{}'); } catch { return {}; } }
+  function markShown(id) {
+    try {
+      const m = readShown(); m[id] = Date.now();
+      const keep = Object.entries(m).sort((a, b) => b[1] - a[1]).slice(0, 1500);   // newest 1500
+      localStorage.setItem(shownKey, JSON.stringify(Object.fromEntries(keep)));
+    } catch { /* storage blocked: the server still knows answered questions */ }
+  }
+
   async function start() {
     setPhase('loading'); setError(null);
     try {
-      const d = await boardApi('boardPapers', fixedIds ? { action: 'sprint', subject: subject.id, ids: fixedIds } : { action: 'sprint', subject: subject.id, count: Number(count), chapters: selChapters, source: source || null });
+      const d = await boardApi('boardPapers', fixedIds ? { action: 'sprint', subject: subject.id, ids: fixedIds } : { action: 'sprint', subject: subject.id, count: Number(count), chapters: selChapters, source: source || null, userId: user?.id || null, shownIds: readShown() });
       if (!d.questions?.length) { setError(selChapters.length ? `No objective questions for ${selChapters.join(', ')} yet.` : 'No objective questions for this subject yet.'); setPhase('setup'); return; }
       setQuestions(d.questions); setPoolSize(d.pool_size); setIdx(0); setAnswers({}); setChecked({}); finishing.current = false;
       const t = Date.now(); setStartedAt(t); setDeadline(t + d.questions.length * SECONDS_PER_Q * 1000);
@@ -62,6 +73,7 @@ export default function BoardSprint({ fixedSource = null, fixedIds = null }) {
   }
 
   const q = questions[idx];
+  useEffect(() => { if (phase === 'running' && q?.id && !fixedIds) markShown(q.id); }, [phase, q?.id]); // eslint-disable-line
   const remaining = Math.max(0, Math.round((deadline - now) / 1000));
   const score = Object.values(checked).reduce((s, c) => s + (c.got / c.total), 0);
 

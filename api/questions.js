@@ -108,11 +108,15 @@ export default async function handler(req, res) {
     }
   }
 
-  // Shuffle unseen (random variety), sort wrong by most-recently-wrong first,
-  // sort correct by oldest-answered first (longest since seen)
+  // Unseen first (shuffled). Then mistakes, oldest first, then correct ones, longest ago first.
+  // Anything answered in the last 24 hours goes to the very end, so a new round never repeats
+  // what he just did while the bank still has other questions.
+  const DAY = 24 * 60 * 60 * 1000, now = Date.now();
+  const recent = x => now - new Date(x.answeredAt).getTime() < DAY;
   unseen.splice(0, unseen.length, ...shuffle(unseen));
-  wrong.sort((a, b) => new Date(b.answeredAt) - new Date(a.answeredAt));
-  correct.sort((a, b) => new Date(a.answeredAt) - new Date(b.answeredAt));
+  const byOldest = (a, b) => new Date(a.answeredAt) - new Date(b.answeredAt);
+  wrong.sort(byOldest);
+  correct.sort(byOldest);
 
   // ── 6. Fill up to `limit` from each bucket in order ──────────────────────
   const picked = [];
@@ -124,8 +128,9 @@ export default async function handler(req, res) {
   };
 
   addFrom(unseen, false);
-  addFrom(wrong, true);
-  addFrom(correct, true);
+  addFrom(wrong.filter(x => !recent(x)), true);
+  addFrom(correct.filter(x => !recent(x)), true);
+  addFrom([...wrong, ...correct].filter(recent).sort(byOldest), true);
 
   return res.json({
     questions: await withDetails(picked),

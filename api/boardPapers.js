@@ -71,7 +71,7 @@ export default async function handler(req, res) {
     }
 
     if (action === 'sprint') {
-      const { subject, count = 15, source = null } = req.body;   // source: 'board' | 'prelim' | 'competency' | null = board + prelim
+      const { subject, count = 15, source = null, userId = null } = req.body;   // source: 'board' | 'prelim' | 'competency' | null = board + prelim
       if (Array.isArray(req.body.ids) && req.body.ids.length) {   // an exact set, e.g. the fix-it set from the error log
         const { data, error } = await admin.from('board_questions').select(PUBLIC_Q_COLS + ',correct_option,solution,answer_items').in('id', req.body.ids.slice(0, 50)).eq('is_objective', true);
         if (error) throw error;
@@ -97,8 +97,37 @@ export default async function handler(req, res) {
         allChapters = [...new Set((data || []).map(x => x.chapter).filter(Boolean))].sort();
       }
       const sources = [...new Set((data || []).map(x => x.source).filter(Boolean))].sort();
-      const pool = mixSources(data || [], Math.min(count, 100));
-      return res.json({ questions: pool, pool_size: (data || []).length, chapters: allChapters, sources });
+      // Never repeat while the bank has more: questions he hasn't been shown come first, then the ones
+      // seen longest ago. "Seen" = answered in a saved sprint, or shown (even if skipped), which the app
+      // sends as shownIds. Sibling subparts of one printed question (same paper, same stem) look alike,
+      // so a round takes at most one from each group, preferring groups he hasn't met yet.
+      const n = Math.min(count, 100);
+      const lastSeen = new Map();
+      for (const [id, t] of Object.entries(req.body.shownIds || {})) lastSeen.set(id, Number(t) || 1);
+      if (userId && n > 0) {
+        const { data: atts } = await admin.from('board_attempts').select('id,started_at').eq('user_id', userId).eq('mode', 'sprint').eq('subject', subject);
+        const when = new Map((atts || []).map(a => [a.id, new Date(a.started_at).getTime()]));
+        if (when.size) {
+          const { data: ans } = await admin.from('board_attempt_answers').select('attempt_id,question_id').in('attempt_id', [...when.keys()]);
+          for (const a of ans || []) lastSeen.set(a.question_id, Math.max(lastSeen.get(a.question_id) || 0, when.get(a.attempt_id)));
+        }
+      }
+      const rows = data || [];
+      const group = x => `${x.paper_id}|${x.q_main}|${String(x.question || '').toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 60)}`;
+      const groupSeen = new Map();
+      for (const x of rows) if (lastSeen.has(x.id)) groupSeen.set(group(x), Math.max(groupSeen.get(group(x)) || 0, lastSeen.get(x.id)));
+      const tiers = [
+        rows.filter(x => !lastSeen.has(x.id) && !groupSeen.has(group(x))),                     // brand new
+        rows.filter(x => !lastSeen.has(x.id) && groupSeen.has(group(x)))                       // new subpart of a group he's met
+          .sort((p, q) => groupSeen.get(group(p)) - groupSeen.get(group(q))),
+        shuffle(rows.filter(x => lastSeen.has(x.id))).sort((p, q) => lastSeen.get(p.id) - lastSeen.get(q.id)),   // seen longest ago
+      ];
+      const picked = [], usedGroups = new Set();
+      const take = list => { for (const x of list) { if (picked.length >= n) return; if (usedGroups.has(group(x))) continue; usedGroups.add(group(x)); picked.push(x); } };
+      take(mixSources(tiers[0], tiers[0].length)); take(tiers[1]); take(tiers[2]);
+      if (picked.length < n) for (const x of [...tiers[0], ...tiers[1], ...tiers[2]]) { if (picked.length >= n) break; if (!picked.includes(x)) picked.push(x); }   // tiny chapters only
+      const pool = shuffle(picked);
+      return res.json({ questions: pool, pool_size: rows.length, unseen: rows.filter(x => !lastSeen.has(x.id)).length, chapters: allChapters, sources });
     }
 
     if (action === 'applied') {

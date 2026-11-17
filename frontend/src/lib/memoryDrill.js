@@ -31,10 +31,17 @@ export function saveMark(userId, itemId, mark) {
   return all;
 }
 
-// Not yet learnt first (missed, then nearly, then never tried), most-asked first within each group.
-const RANK = { missed: 0, nearly: 1, undefined: 2, got: 3 };
-export function orderForDrill(items, marks) {
+// A round mixes review and new cards: up to half are ones he missed or nearly got (least recently
+// tried first), the rest are cards he hasn't tried (most-asked first, shuffled within ties), then
+// learnt ones least recently seen. So a short round never just repeats the last one.
+export function orderForDrill(items, marks, size = 0) {
   const jitter = new Map(items.map(i => [i.id, Math.random()]));
-  return [...items].sort((a, b) =>
-    RANK[marks[a.id]?.last] - RANK[marks[b.id]?.last] || b.papers - a.papers || jitter.get(a.id) - jitter.get(b.id));
+  const at = i => marks[i.id]?.at || 0;
+  const review = items.filter(i => ['missed', 'nearly'].includes(marks[i.id]?.last)).sort((a, b) => at(a) - at(b) || jitter.get(a.id) - jitter.get(b.id));
+  const fresh = items.filter(i => !marks[i.id]).sort((a, b) => b.papers - a.papers || jitter.get(a.id) - jitter.get(b.id));
+  const learnt = items.filter(i => marks[i.id]?.last === 'got').sort((a, b) => at(a) - at(b) || jitter.get(a.id) - jitter.get(b.id));
+  if (!size) return [...review, ...fresh, ...learnt];
+  const nReview = Math.min(review.length, Math.max(Math.ceil(size / 2), size - fresh.length - learnt.length));
+  const picked = [...review.slice(0, nReview), ...fresh, ...learnt, ...review.slice(nReview)].slice(0, size);
+  return picked;
 }

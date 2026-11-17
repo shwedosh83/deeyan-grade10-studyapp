@@ -59,8 +59,7 @@ export default function BoardMemory() {
     setQueue(ids); setLog([]); setText(''); setShown(false); setPhase('running');
   }
   function startNew() {
-    const ordered = orderForDrill(pool, marks).map(i => i.id);
-    start(size ? ordered.slice(0, size) : ordered);
+    start(orderForDrill(pool, marks, size).map(i => i.id));
   }
   function markCard(mark) {
     const [id, ...rest] = queue;
