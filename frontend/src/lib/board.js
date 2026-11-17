@@ -69,8 +69,11 @@ export function hasAnswer(q, value) {
 
 // Same normalisation as the server (api/_boardLib.js) so Sprint feedback matches the final marking.
 export function normAnswer(t) {
-  return String(t ?? '').toLowerCase().replace(/[‘’“”'"`]/g, '').replace(/\b(the|a|an)\b/g, ' ')
-    .replace(/[^a-z0-9.+\-%\s/]/g, ' ').replace(/\s+/g, ' ').trim().replace(/\.+$/, '').trim();
+  const s = String(t ?? '').toLowerCase().replace(/[\u2018\u2019\u201c\u201d'"`]/g, '')
+    .replace(/\balpha\b/g, 'α').replace(/\bbeta\b/g, 'β').replace(/\bgamma\b/g, 'γ');
+  const clean = x => x.replace(/[^a-z0-9α-ω.+\-%\s/<>=]/g, ' ').replace(/\s+/g, ' ').trim().replace(/\.+$/, '').trim();
+  // Drop articles, unless the answer is only that letter (an option "A" or "(a)").
+  return clean(s.replace(/\b(the|a|an)\b/g, ' ')) || clean(s);
 }
 function sameAnswer(a, b) {
   const x = normAnswer(a), y = normAnswer(b);
@@ -79,6 +82,14 @@ function sameAnswer(a, b) {
   const num = /^[-+]?[0-9.]+(\s*[a-z%]+)?$/;
   const nx = parseFloat(x), ny = parseFloat(y);
   return !Number.isNaN(nx) && !Number.isNaN(ny) && num.test(x) && num.test(y) && nx === ny;
+}
+
+// "quality or timbre", "quality/timbre", "quality (timbre)": passes when every named part is itself
+// a correct answer, so a hedge like "pitch or quality" still fails.
+export function matchItem(given, accepted = []) {
+  if (accepted.some(a => sameAnswer(given, a))) return true;
+  const parts = String(given ?? '').split(/\s+or\s+|\s*[/;,()]\s*/i).filter(s => normAnswer(s));
+  return parts.length > 1 && parts.every(p => accepted.some(a => sameAnswer(p, a)));
 }
 
 export function correctKeys(q) {
@@ -90,7 +101,7 @@ export function checkObjective(q, value) {
   const items = q.answer_items || [];
   if (items.length) {
     const given = parseItems(value, items.length);
-    const flags = items.map((it, i) => (it.accepted || []).some(a => sameAnswer(given[i], a)));
+    const flags = items.map((it, i) => matchItem(given[i], it.accepted || []));
     const got = flags.filter(Boolean).length;
     return { correct: got === items.length, got, total: items.length, flags };
   }

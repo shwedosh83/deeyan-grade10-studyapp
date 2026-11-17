@@ -34,8 +34,11 @@ export function gradeObjective(q, answerText) {
 
 // ── Item-style objectives (fill in the blank, name the term, match the column) ──
 export function normAnswer(t) {
-  return String(t ?? '').toLowerCase().replace(/[\u2018\u2019\u201c\u201d'"`]/g, '').replace(/\b(the|a|an)\b/g, ' ')
-    .replace(/[^a-z0-9.+\-%\s/]/g, ' ').replace(/\s+/g, ' ').trim().replace(/\.+$/, '').trim();
+  const s = String(t ?? '').toLowerCase().replace(/[\u2018\u2019\u201c\u201d'"`]/g, '')
+    .replace(/\balpha\b/g, 'α').replace(/\bbeta\b/g, 'β').replace(/\bgamma\b/g, 'γ');
+  const clean = x => x.replace(/[^a-z0-9α-ω.+\-%\s/<>=]/g, ' ').replace(/\s+/g, ' ').trim().replace(/\.+$/, '').trim();
+  // Drop articles, unless the answer is only that letter (an option "A" or "(a)").
+  return clean(s.replace(/\b(the|a|an)\b/g, ' ')) || clean(s);
 }
 function sameAnswer(a, b) {
   const x = normAnswer(a), y = normAnswer(b);
@@ -45,13 +48,21 @@ function sameAnswer(a, b) {
   if (!Number.isNaN(nx) && !Number.isNaN(ny) && /^[-+]?[0-9.]+(\s*[a-z%]+)?$/.test(x) && /^[-+]?[0-9.]+(\s*[a-z%]+)?$/.test(y)) return nx === ny;
   return false;
 }
+// "quality or timbre", "quality/timbre", "quality (timbre)": passes when every named part is itself
+// a correct answer, so a hedge like "pitch or quality" still fails.
+export function matchItem(given, accepted = []) {
+  if (accepted.some(a => sameAnswer(given, a))) return true;
+  const parts = String(given ?? '').split(/\s+or\s+|\s*[/;,()]\s*/i).filter(s => normAnswer(s));
+  return parts.length > 1 && parts.every(p => accepted.some(a => sameAnswer(p, a)));
+}
+
 // answerText is a JSON array of strings (one per item) or a single string for one-item questions
 export function gradeItems(q, answerText) {
   const items = q.answer_items || [];
   let given = [];
   try { const j = JSON.parse(answerText); given = Array.isArray(j) ? j : [String(j)]; } catch { given = [String(answerText ?? '')]; }
   const per = Number(q.marks) / items.length;
-  const detail = items.map((it, i) => ({ prompt: it.prompt, given: given[i] ?? '', accepted: it.accepted, correct: (it.accepted || []).some(a => sameAnswer(given[i], a)) }));
+  const detail = items.map((it, i) => ({ prompt: it.prompt, given: given[i] ?? '', accepted: it.accepted, correct: matchItem(given[i], it.accepted || []) }));
   const right = detail.filter(d => d.correct).length;
   return { marks_awarded: Math.round(right * per * 100) / 100, max_marks: Number(q.marks), graded_by: 'auto', item_results: detail,
     points_hit: detail.filter(d => d.correct).map(d => d.prompt), points_missed: detail.filter(d => !d.correct).map(d => `${d.prompt}: ${d.accepted[0]}`) };
