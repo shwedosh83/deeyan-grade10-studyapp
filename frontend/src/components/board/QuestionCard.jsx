@@ -1,4 +1,5 @@
-import { useRef } from 'react';
+import { lazy, Suspense, useRef } from 'react';
+const CodeEditor = lazy(() => import('./CodeEditor'));
 import { fmtMarks, getItems, isMCQ, parseItems, correctKeys, KIND_LABELS, MATH_KEYS } from '../../lib/board';
 
 // One-tap symbol buttons for typing maths answers (√, ², ³, …).
@@ -129,7 +130,12 @@ export default function QuestionCard({ q, value, onChange = () => {}, disabled =
       )}
 
       {showStrip && items.length === 0 && <MathStrip onInsert={insertSym} />}
-      {!questionOnly && !mcq && items.length === 0 && (
+      {!questionOnly && !mcq && items.length === 0 && code && (
+        <Suspense fallback={<div className="h-80 animate-pulse rounded-xl bg-[#1c2333]" />}>
+          <CodeEditor value={value || ''} onChange={onChange} disabled={disabled} />
+        </Suspense>
+      )}
+      {!questionOnly && !mcq && items.length === 0 && !code && (
         <textarea
           value={value || ''} disabled={disabled} onChange={e => onChange(e.target.value)}
           ref={el => { inputRefs.current.text = el; }} onFocus={() => { activeKey.current = 'text'; }}

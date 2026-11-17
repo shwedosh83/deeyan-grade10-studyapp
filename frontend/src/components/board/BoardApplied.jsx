@@ -24,11 +24,11 @@ export default function BoardApplied({ fixedSource = null, fixedIds = null }) {
   const [info, setInfo] = useState(null);
   const [questions, setQuestions] = useState([]);
   const [idx, setIdx] = useState(0);
-  const [answer, setAnswer] = useState('');
-  const [fb, setFb] = useState(null);       // grading result for the current question
+  // Kept per question, so he can skip ahead and come back to any question.
+  const [answers, setAnswers] = useState({});      // id -> typed answer
+  const [results, setResults] = useState({});      // id -> grading response
+  const [selfMarksBy, setSelfMarksBy] = useState({});
   const [busy, setBusy] = useState(false);
-  const [selfMarks, setSelfMarks] = useState('');
-  const [log, setLog] = useState([]);       // { label, got, max }
   const [error, setError] = useState(null);
 
   const hasBoard = SUBJECTS_WITH_BOARD.includes(subject.id);
@@ -45,37 +45,40 @@ export default function BoardApplied({ fixedSource = null, fixedIds = null }) {
     try {
       const d = await boardApi('boardPapers', fixedIds ? { action: 'applied', subject: subject.id, ids: fixedIds } : { action: 'applied', subject: subject.id, kinds, chapters: selChapters, count, userId: user?.id || null, source: source || null });
       if (!d.questions?.length) { setError('No applied questions match those filters.'); setPhase('setup'); return; }
-      setQuestions(d.questions); setIdx(0); setAnswer(''); setFb(null); setLog([]); setPhase('running');
+      setQuestions(d.questions); setIdx(0); setAnswers({}); setResults({}); setSelfMarksBy({}); setPhase('running');
     } catch (e) { setError(e.message); setPhase('setup'); }
   }
 
   const q = questions[idx];
+  const answer = (q && answers[q.id]) || '';
+  const setAnswer = v => setAnswers(a => ({ ...a, [q.id]: v }));
+  const fb = q ? results[q.id] : null;
+  const selfMarks = (q && selfMarksBy[q.id]) || '';
+  const setSelfMarks = v => setSelfMarksBy(s => ({ ...s, [q.id]: v }));
+  const markOf = x => { const r = results[x.id]?.results?.[0]; return r && r.marks_awarded !== null && r.marks_awarded !== undefined ? { got: Number(r.marks_awarded), max: Number(r.marks) } : null; };
+  const log = questions.map(markOf).filter(Boolean);
 
   async function submit() {
+    const id = q.id;
     setBusy(true); setError(null);
     try {
-      const out = await boardApi('boardGrade', { userId: user?.id || null, subject: subject.id, mode: 'applied', inputMethod: 'typed', answers: [{ questionId: q.id, text: answer }] });
-      setFb(out); setSelfMarks('');
-      const r = out.results[0];
-      if (r.marks_awarded !== null && r.marks_awarded !== undefined) setLog(l => [...l, { label: q.q_label, got: Number(r.marks_awarded), max: Number(r.marks) }]);
+      const out = await boardApi('boardGrade', { userId: user?.id || null, subject: subject.id, mode: 'applied', inputMethod: 'typed', answers: [{ questionId: id, text: answer }] });
+      setResults(rs => ({ ...rs, [id]: out }));
     } catch (e) { setError(e.message); }
     setBusy(false);
   }
 
   async function saveSelf() {
-    const r = fb.results[0];
+    const id = q.id, r = fb.results[0];
     const m = Math.min(Number(selfMarks) || 0, Number(r.marks));
     try {
-      await boardApi('boardGrade', { action: 'selfmark', attemptId: fb.attemptId, marks: [{ questionId: q.id, marks: m }] });
-      setFb(f => ({ ...f, results: [{ ...f.results[0], marks_awarded: m, graded_by: 'self' }] }));
-      setLog(l => [...l, { label: q.q_label, got: m, max: Number(r.marks) }]);
+      await boardApi('boardGrade', { action: 'selfmark', attemptId: fb.attemptId, marks: [{ questionId: id, marks: m }] });
+      setResults(rs => ({ ...rs, [id]: { ...rs[id], results: [{ ...rs[id].results[0], marks_awarded: m, graded_by: 'self' }] } }));
     } catch (e) { setError(e.message); }
   }
 
-  function next() {
-    if (idx + 1 >= questions.length) { setPhase('done'); refresh(); return; }
-    setIdx(idx + 1); setAnswer(''); setFb(null);
-  }
+  function go(i) { if (busy) return; setError(null); setIdx(Math.max(0, Math.min(questions.length - 1, i))); }
+  function finish() { setPhase('done'); refresh(); }
 
   // A fixed set (from the error log) skips the setup screen.
   useEffect(() => { if (fixedIds?.length && phase === 'setup' && !error) start(); }, [fixedIds, phase]); // eslint-disable-line
@@ -158,7 +161,19 @@ export default function BoardApplied({ fixedSource = null, fixedIds = null }) {
           <p className="text-sm font-semibold text-ink">Question <span className="font-display text-lg">{idx + 1}</span> <span className="text-ink-3">of {questions.length}</span></p>
           {log.length > 0 && <span className="pill bg-accent-soft py-1 text-sm tabular-nums text-accent">{fmtMarks(log.reduce((s, x) => s + x.got, 0))} / {fmtMarks(log.reduce((s, x) => s + x.max, 0))}</span>}
         </div>
-        <div className="progress-track"><div className="progress-fill bg-brand" style={{ width: `${((idx + (fb ? 1 : 0)) / questions.length) * 100}%` }} /></div>
+        <div className="progress-track"><div className="progress-fill bg-brand" style={{ width: `${(Object.keys(results).length / questions.length) * 100}%` }} /></div>
+        <div className="flex flex-wrap gap-1.5 pt-1" aria-label="Jump to a question">
+          {questions.map((x, i) => {
+            const m = markOf(x), done = !!results[x.id], typed = !!answers[x.id]?.trim();
+            const pct = m && m.max ? (m.got / m.max) * 100 : null;
+            const tone = pct === null ? (done ? 'bg-warn-soft text-warn' : typed ? 'bg-brand-soft text-brand-ink' : 'bg-surface-2 text-ink-3')
+              : pct >= 80 ? 'bg-good-soft text-good' : pct >= 50 ? 'bg-warn-soft text-warn' : 'bg-bad-soft text-bad';
+            return (
+              <button key={x.id} onClick={() => go(i)} title={done ? 'Marked' : typed ? 'Answer started' : 'Not answered yet'}
+                className={`h-8 w-8 rounded-lg text-xs font-bold tabular-nums transition duration-150 ${tone} ${i === idx ? 'ring-2 ring-brand ring-offset-1 ring-offset-surface' : 'hover:brightness-95'}`}>{i + 1}</button>
+            );
+          })}
+        </div>
       </div>
       <div key={q.id} className="animate-slide-in-right">
         <QuestionCard q={q} value={answer} onChange={setAnswer} disabled={!!fb} tag={paperTag(q)} />
@@ -179,9 +194,15 @@ export default function BoardApplied({ fixedSource = null, fixedIds = null }) {
               <button onClick={saveSelf} className="btn-secondary !py-2">Save</button>
             </div>
           )}
-          <button onClick={next} disabled={needsSelf} className="btn-primary w-full">{idx + 1 >= questions.length ? 'Finish' : 'Next question →'}</button>
         </div>
       )}
+      <div className="flex items-center gap-3">
+        <button onClick={() => go(idx - 1)} disabled={idx === 0 || busy} className="btn-secondary">← Previous</button>
+        {idx + 1 < questions.length
+          ? <button onClick={() => go(idx + 1)} disabled={busy} className={`flex-1 ${fb ? 'btn-primary' : 'btn-secondary'}`}>{fb ? 'Next question →' : 'Skip for now →'}</button>
+          : <span className="flex-1" />}
+        <button onClick={finish} disabled={busy} className={idx + 1 >= questions.length && fb ? 'btn-primary' : 'btn-secondary'}>Finish</button>
+      </div>
     </div>
   );
 }

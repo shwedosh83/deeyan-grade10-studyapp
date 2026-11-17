@@ -132,9 +132,10 @@
    "answer_items": null,
    "solution": "(a) 52.5 gf. C.G. of the half-metre scale is at 25 cm. Moments about the 15 cm pivot: 35 × 15 = W × (25 − 15) → W = 525/10 = 52.5 gf.",
    "marking_points": [],
-   "needs_figure": false,
+   "needs_figure": true,
    "figure_desc": null,
-   "page": 1
+   "page": 1,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_ssrvm/p1.jpg"
   },
   {
    "q_label": "1(v)",
@@ -443,9 +444,10 @@
    "answer_items": null,
    "solution": "(c) L1 and L2 only. With S1 closed, current flows through the L1–L2 branch; the L3 branch is broken because S2 is open.",
    "marking_points": [],
-   "needs_figure": false,
+   "needs_figure": true,
    "figure_desc": null,
-   "page": 3
+   "page": 3,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/prelim_physics_ssrvm/p3.jpg"
   },
   {
    "q_label": "1(xv)",

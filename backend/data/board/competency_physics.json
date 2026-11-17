@@ -230,9 +230,10 @@
    "answer_items": null,
    "solution": "(a) 9 cm. The C.G. of a solid cone lies on its axis at h/4 from the base = 12/4 = 3 cm from the base, i.e. 12 − 3 = 9 cm from the apex.",
    "marking_points": [],
-   "needs_figure": false,
+   "needs_figure": true,
    "figure_desc": null,
-   "page": 6
+   "page": 6,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_physics/p6.jpg"
   },
   {
    "q_label": "7",
@@ -265,9 +266,10 @@
    "answer_items": null,
    "solution": "(c) Force is acting at an angle of 60° with the displacement. W = F s cos θ ⇒ 200 = 10 × 40 × cos θ ⇒ cos θ = 0.5 ⇒ θ = 60°.",
    "marking_points": [],
-   "needs_figure": false,
+   "needs_figure": true,
    "figure_desc": null,
-   "page": 7
+   "page": 7,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_physics/p7.jpg"
   },
   {
    "q_label": "8",
@@ -649,9 +651,10 @@
    "answer_items": null,
    "solution": "(b) A < C < D < B. R = ρl/A ∝ l/d². A: l/4d² = 0.25; B: 3l/d² = 3; C: 2l/4d² = 0.5; D: l/d² = 1 (in units of ρl/d² up to a common factor). Order: A (0.25) < C (0.5) < D (1) < B (3).",
    "marking_points": [],
-   "needs_figure": false,
+   "needs_figure": true,
    "figure_desc": null,
-   "page": 11
+   "page": 11,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/competency_physics/p11.jpg"
   },
   {
    "q_label": "21",

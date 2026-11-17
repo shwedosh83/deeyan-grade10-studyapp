@@ -299,9 +299,10 @@
    "answer_items": null,
    "solution": "(d) A = 2, 6; B = 2, 8, 7. A needs two electrons and each B needs one electron to complete the octet, so they form AB2 by sharing.",
    "marking_points": [],
-   "needs_figure": false,
+   "needs_figure": true,
    "figure_desc": "Electron-sharing diagram of AB2: A in the centre sharing one pair with each of two B atoms. The text options are sufficient to answer.",
-   "page": 1
+   "page": 1,
+   "figure_url": "https://exmpgqyufbibglsignxo.supabase.co/storage/v1/object/public/board-figures/prelim/chemistry_2025/p1.jpg"
   },
   {
    "q_label": "1(ix)",
