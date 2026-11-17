@@ -1,0 +1,4620 @@
+{
+ "version": 1,
+ "built": "2026-11-17",
+ "items": [
+  {
+   "id": "chem-electronegativity",
+   "subject": "chemistry",
+   "chapter": "Periodic Properties and Variations",
+   "kind": "define",
+   "prompt": "Define electronegativity.",
+   "answer": "Electronegativity is the tendency of an atom in a molecule to attract the shared pair of electrons towards itself.",
+   "keywords": [
+    "tendency of an atom",
+    "in a molecule",
+    "shared pair of electrons",
+    "towards itself"
+   ],
+   "tip": "It increases across a period and decreases down a group. Fluorine is the most electronegative element.",
+   "papers": 6,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2025_2(ii)",
+     "paper": "chemistry_2025",
+     "label": "Board 2025",
+     "q_label": "2(ii)",
+     "source": "board",
+     "year": 2025,
+     "how": "name"
+    },
+    {
+     "q": "chemistry_2024_2(iv)(d)",
+     "paper": "chemistry_2024",
+     "label": "Board 2024",
+     "q_label": "2(iv)(d)",
+     "source": "board",
+     "year": 2024,
+     "how": "name"
+    },
+    {
+     "q": "chemistry_2023_6(i)",
+     "paper": "chemistry_2023",
+     "label": "Board 2023",
+     "q_label": "6(i)",
+     "source": "board",
+     "year": 2023,
+     "how": "define"
+    },
+    {
+     "q": "chemistry_2022s1_4",
+     "paper": "chemistry_2022s1",
+     "label": "Board 2022 Sem 1",
+     "q_label": "4",
+     "source": "board",
+     "year": 2022,
+     "how": "mcq"
+    },
+    {
+     "q": "prelim_chemistry_cathedral_8(iv)",
+     "paper": "prelim_chemistry_cathedral",
+     "label": "Prelim · Cathedral",
+     "q_label": "8(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    },
+    {
+     "q": "prelim_chemistry_jbv_7(ii)",
+     "paper": "prelim_chemistry_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "7(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "chem-electron-affinity",
+   "subject": "chemistry",
+   "chapter": "Periodic Properties and Variations",
+   "kind": "term",
+   "prompt": "Give the term: the energy released when an atom in the gaseous state accepts an electron to form an anion.",
+   "answer": "Electron affinity.\nThe amount of energy released when an atom in the gaseous state accepts an electron to form an anion is called electron affinity.",
+   "keywords": [
+    "energy released",
+    "gaseous state",
+    "accepts an electron",
+    "anion"
+   ],
+   "tip": "Do not confuse with ionisation potential (energy REQUIRED to REMOVE an electron).",
+   "papers": 5,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2023_2(iv)",
+     "paper": "chemistry_2023",
+     "label": "Board 2023",
+     "q_label": "2(iv)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_bss_2(ii)",
+     "paper": "prelim_chemistry_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_jbv_2(iv)",
+     "paper": "prelim_chemistry_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_podar_2(iv)",
+     "paper": "prelim_chemistry_podar",
+     "label": "Prelim · Lilavatibai Podar",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_singhania_2(iv)",
+     "paper": "prelim_chemistry_singhania",
+     "label": "Prelim · Singhania (Set B)",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-ionisation-potential",
+   "subject": "chemistry",
+   "chapter": "Periodic Properties and Variations",
+   "kind": "term",
+   "prompt": "Give the term: the amount of energy required to remove an electron from the outermost shell of an isolated gaseous atom.",
+   "answer": "Ionisation potential (ionisation energy).\nThe amount of energy required to remove an electron from the outermost shell of an isolated gaseous atom is called its ionisation potential.",
+   "keywords": [
+    "energy required",
+    "remove an electron",
+    "outermost shell",
+    "isolated gaseous atom"
+   ],
+   "tip": "It increases across a period and decreases down a group.",
+   "papers": 2,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_cathedral_2(iv)",
+     "paper": "prelim_chemistry_cathedral",
+     "label": "Prelim · Cathedral",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_garodia_2(ii)",
+     "paper": "prelim_chemistry_garodia",
+     "label": "Prelim · P.G. Garodia",
+     "q_label": "2(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-coordinate-bond",
+   "subject": "chemistry",
+   "chapter": "Chemical Bonding",
+   "kind": "define",
+   "prompt": "Define co-ordinate bond.",
+   "answer": "A co-ordinate bond is the bond formed between two atoms by sharing a pair of electrons which is provided entirely by one of the combining atoms (the donor) but is shared by both atoms.",
+   "keywords": [
+    "pair of electrons",
+    "provided entirely by one atom",
+    "shared by both"
+   ],
+   "tip": "The atom giving the lone pair is the donor, the other the acceptor; shown by an arrow from donor to acceptor. Examples: H₃O⁺, NH₄⁺.",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2025_8(i)",
+     "paper": "chemistry_2025",
+     "label": "Board 2025",
+     "q_label": "8(i)",
+     "source": "board",
+     "year": 2025,
+     "how": "define"
+    },
+    {
+     "q": "prelim_chemistry_garodia_4(i)",
+     "paper": "prelim_chemistry_garodia",
+     "label": "Prelim · P.G. Garodia",
+     "q_label": "4(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "chem-electrovalent-bond",
+   "subject": "chemistry",
+   "chapter": "Chemical Bonding",
+   "kind": "define",
+   "prompt": "Define electrovalent (ionic) bond.",
+   "answer": "The chemical bond formed between two atoms by the complete transfer of one or more electrons from the atom of a metallic (electropositive) element to the atom of a non-metallic (electronegative) element is called an electrovalent or ionic bond.",
+   "keywords": [
+    "transfer of electrons",
+    "metal to non-metal",
+    "ions held by electrostatic attraction"
+   ],
+   "tip": "Example: NaCl — Na loses one electron to Cl, forming Na⁺ and Cl⁻.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_euro_2(iv)",
+     "paper": "prelim_chemistry_euro",
+     "label": "Prelim · EuroSchool",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "chem-polar-covalent",
+   "subject": "chemistry",
+   "chapter": "Chemical Bonding",
+   "kind": "term",
+   "prompt": "Give the term: the type of covalent bond in which electrons are shared unequally between the combining atoms.",
+   "answer": "Polar covalent bond.\nA covalent bond in which the shared pair of electrons is not shared equally but is displaced towards the more electronegative atom, so that one end gets a slight negative charge (δ⁻) and the other a slight positive charge (δ⁺).",
+   "keywords": [
+    "shared unequally",
+    "more electronegative atom",
+    "partial charges δ⁺ δ⁻"
+   ],
+   "tip": "Examples: HCl, H₂O, NH₃.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2025_2(ii)",
+     "paper": "chemistry_2025",
+     "label": "Board 2025",
+     "q_label": "2(ii)",
+     "source": "board",
+     "year": 2025,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-nonpolar-covalent",
+   "subject": "chemistry",
+   "chapter": "Chemical Bonding",
+   "kind": "term",
+   "prompt": "Give the term: a type of covalent bond in which electrons are shared equally between the combining atoms.",
+   "answer": "Non-polar covalent bond.\nA covalent bond in which the shared pair of electrons is shared equally by the two atoms (atoms of equal electronegativity), so the molecule has no partial charges.",
+   "keywords": [
+    "shared equally",
+    "equal electronegativity",
+    "no partial charges"
+   ],
+   "tip": "Examples: H₂, Cl₂, O₂, N₂, CH₄.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_jbv_2(iv)",
+     "paper": "prelim_chemistry_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-normal-salt",
+   "subject": "chemistry",
+   "chapter": "Study of Acids, Bases and Salts",
+   "kind": "define",
+   "prompt": "Define normal salt.",
+   "answer": "A normal salt is the salt formed by the complete replacement of the replaceable hydrogen ion(s) of an acid by a metallic ion or an ammonium ion.",
+   "keywords": [
+    "complete replacement",
+    "replaceable hydrogen ions",
+    "metallic or ammonium ion"
+   ],
+   "tip": "Examples: Na₂SO₄, NaCl, (NH₄)₂SO₄.",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2024_4(i)(b)",
+     "paper": "chemistry_2024",
+     "label": "Board 2024",
+     "q_label": "4(i)(b)",
+     "source": "board",
+     "year": 2024,
+     "how": "define"
+    },
+    {
+     "q": "prelim_chemistry_euro_2(iv)",
+     "paper": "prelim_chemistry_euro",
+     "label": "Prelim · EuroSchool",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "chem-acid-salt",
+   "subject": "chemistry",
+   "chapter": "Study of Acids, Bases and Salts",
+   "kind": "term",
+   "prompt": "Give the term: a salt formed by the incomplete neutralisation of an acid by a base.",
+   "answer": "Acid salt.\nAn acid salt is formed by the partial replacement of the replaceable hydrogen ions of a polybasic acid by a metallic or ammonium ion; it still contains replaceable hydrogen.",
+   "keywords": [
+    "partial replacement",
+    "replaceable hydrogen",
+    "polybasic acid"
+   ],
+   "tip": "Examples: NaHSO₄, NaHCO₃.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_shishuvan_2(d)",
+     "paper": "prelim_chemistry_shishuvan",
+     "label": "Prelim · Shishuvan",
+     "q_label": "2(d)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-basic-salt",
+   "subject": "chemistry",
+   "chapter": "Study of Acids, Bases and Salts",
+   "kind": "term",
+   "prompt": "Give the term: a salt formed by the partial replacement of the hydroxyl groups of a di-acidic or tri-acidic base by an acid radical.",
+   "answer": "Basic salt.\nA basic salt is formed by the partial replacement of the hydroxyl groups of a di-acidic or tri-acidic base by an acid radical.",
+   "keywords": [
+    "partial replacement",
+    "hydroxyl groups",
+    "di- or tri-acidic base",
+    "acid radical"
+   ],
+   "tip": "Examples: Pb(OH)Cl, Mg(OH)Cl, Cu(OH)Cl.",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2025_2(ii)",
+     "paper": "chemistry_2025",
+     "label": "Board 2025",
+     "q_label": "2(ii)",
+     "source": "board",
+     "year": 2025,
+     "how": "name"
+    },
+    {
+     "q": "chemistry_2023_2(iv)",
+     "paper": "chemistry_2023",
+     "label": "Board 2023",
+     "q_label": "2(iv)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-alkali",
+   "subject": "chemistry",
+   "chapter": "Study of Acids, Bases and Salts",
+   "kind": "define",
+   "prompt": "Define an alkali.",
+   "answer": "An alkali is a basic hydroxide which, when dissolved in water, produces hydroxyl ions (OH⁻) as the only negatively charged ions.",
+   "keywords": [
+    "basic hydroxide",
+    "soluble in water",
+    "OH⁻ as the only negative ions"
+   ],
+   "tip": "All alkalis are bases, but all bases are not alkalis. Examples: NaOH, KOH, Ca(OH)₂.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_euro_2(iv)",
+     "paper": "prelim_chemistry_euro",
+     "label": "Prelim · EuroSchool",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "chem-indicators",
+   "subject": "chemistry",
+   "chapter": "Study of Acids, Bases and Salts",
+   "kind": "define",
+   "prompt": "Define indicators.",
+   "answer": "Indicators are substances which indicate the acidic, basic or neutral nature of a solution by a change in their colour.",
+   "keywords": [
+    "acidic or basic nature",
+    "change in colour"
+   ],
+   "tip": "Examples: litmus, phenolphthalein, methyl orange, universal indicator.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_euro_2(iv)",
+     "paper": "prelim_chemistry_euro",
+     "label": "Prelim · EuroSchool",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "chem-dibasic",
+   "subject": "chemistry",
+   "chapter": "Sulphuric Acid",
+   "kind": "term",
+   "prompt": "Identify the term: the chemical property of sulphuric acid to form two types of salts with an alkali.",
+   "answer": "Dibasic nature (basicity of 2).\nH₂SO₄ has two replaceable hydrogen ions per molecule, so with an alkali it forms two types of salts — an acid salt (NaHSO₄) and a normal salt (Na₂SO₄).",
+   "keywords": [
+    "dibasic",
+    "two replaceable hydrogen ions",
+    "acid salt and normal salt"
+   ],
+   "tip": "NaOH + H₂SO₄ → NaHSO₄ + H₂O ; 2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2022s2_4(iv)(c)",
+     "paper": "chemistry_2022s2",
+     "label": "Board 2022 Sem 2",
+     "q_label": "4(iv)(c)",
+     "source": "board",
+     "year": 2022,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-gay-lussac",
+   "subject": "chemistry",
+   "chapter": "Mole Concept and Stoichiometry",
+   "kind": "law",
+   "prompt": "State Gay-Lussac's law of combining volumes.",
+   "answer": "When gases react, they do so in volumes which bear a simple whole-number ratio to one another and to the volumes of the gaseous products, provided all the volumes are measured under the same conditions of temperature and pressure.",
+   "keywords": [
+    "gases react",
+    "simple whole-number ratio",
+    "volumes of gaseous products",
+    "same temperature and pressure"
+   ],
+   "tip": "Example: N₂ + 3H₂ → 2NH₃ — 1 : 3 : 2 by volume.",
+   "papers": 3,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2023_6(i)",
+     "paper": "chemistry_2023",
+     "label": "Board 2023",
+     "q_label": "6(i)",
+     "source": "board",
+     "year": 2023,
+     "how": "state"
+    },
+    {
+     "q": "prelim_chemistry_cathedral_7(iii)",
+     "paper": "prelim_chemistry_cathedral",
+     "label": "Prelim · Cathedral",
+     "q_label": "7(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "state"
+    },
+    {
+     "q": "prelim_chemistry_jbpetit_6(ii)",
+     "paper": "prelim_chemistry_jbpetit",
+     "label": "Prelim · J.B. Petit",
+     "q_label": "6(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "state"
+    }
+   ]
+  },
+  {
+   "id": "chem-avogadro",
+   "subject": "chemistry",
+   "chapter": "Mole Concept and Stoichiometry",
+   "kind": "law",
+   "prompt": "State Avogadro's law.",
+   "answer": "Equal volumes of all gases, under similar conditions of temperature and pressure, contain an equal number of molecules.",
+   "keywords": [
+    "equal volumes",
+    "all gases",
+    "same temperature and pressure",
+    "equal number of molecules"
+   ],
+   "tip": "Say \"molecules\", not \"atoms\".",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2025_8(i)",
+     "paper": "chemistry_2025",
+     "label": "Board 2025",
+     "q_label": "8(i)",
+     "source": "board",
+     "year": 2025,
+     "how": "state"
+    },
+    {
+     "q": "prelim_chemistry_bss_8(i)",
+     "paper": "prelim_chemistry_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "8(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "state"
+    }
+   ]
+  },
+  {
+   "id": "chem-mole",
+   "subject": "chemistry",
+   "chapter": "Mole Concept and Stoichiometry",
+   "kind": "term",
+   "prompt": "State the term: the amount of substance which contains the same number of units as the number of atoms in 12 g of carbon-12.",
+   "answer": "Mole.\nA mole is the amount of a substance which contains as many elementary units (atoms, molecules or ions) as there are atoms in exactly 12 g of carbon-12, i.e. 6.022 × 10²³ units (Avogadro's number).",
+   "keywords": [
+    "amount of substance",
+    "as many units as atoms in 12 g of C-12",
+    "6.022 × 10²³"
+   ],
+   "tip": "Symbol: mol. 1 mole of a gas occupies 22.4 L at S.T.P.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2024_2(iv)(c)",
+     "paper": "chemistry_2024",
+     "label": "Board 2024",
+     "q_label": "2(iv)(c)",
+     "source": "board",
+     "year": 2024,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-molar-volume",
+   "subject": "chemistry",
+   "chapter": "Mole Concept and Stoichiometry",
+   "kind": "define",
+   "prompt": "Define molar volume.",
+   "answer": "The volume occupied by one mole (one gram molecule) of any gas at S.T.P. is called its molar volume (gram molecular volume). It is 22.4 litres (22.4 dm³) at S.T.P.",
+   "keywords": [
+    "volume of one mole",
+    "any gas",
+    "at S.T.P.",
+    "22.4 litres"
+   ],
+   "tip": "S.T.P. = 273 K (0 °C) and 1 atm (760 mm of Hg).",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2024_4(i)(a)",
+     "paper": "chemistry_2024",
+     "label": "Board 2024",
+     "q_label": "4(i)(a)",
+     "source": "board",
+     "year": 2024,
+     "how": "define"
+    },
+    {
+     "q": "prelim_chemistry_cathedral_2(iv)",
+     "paper": "prelim_chemistry_cathedral",
+     "label": "Prelim · Cathedral",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-empirical-formula",
+   "subject": "chemistry",
+   "chapter": "Mole Concept and Stoichiometry",
+   "kind": "term",
+   "prompt": "State the term: the formula which represents the simplest ratio between the atoms of the elements present in a compound.",
+   "answer": "Empirical formula.\nThe empirical formula of a compound is the formula which gives the simplest whole-number ratio of the atoms of the various elements present in one molecule of the compound.",
+   "keywords": [
+    "simplest whole-number ratio",
+    "atoms of elements",
+    "one molecule"
+   ],
+   "tip": "Molecular formula = (empirical formula)ₙ, where n = molecular mass ÷ empirical formula mass.",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2024_2(iv)(e)",
+     "paper": "chemistry_2024",
+     "label": "Board 2024",
+     "q_label": "2(iv)(e)",
+     "source": "board",
+     "year": 2024,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_garodia_2(ii)",
+     "paper": "prelim_chemistry_garodia",
+     "label": "Prelim · P.G. Garodia",
+     "q_label": "2(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-vapour-density",
+   "subject": "chemistry",
+   "chapter": "Mole Concept and Stoichiometry",
+   "kind": "term",
+   "prompt": "State the term: the ratio of the mass of a certain volume of gas to the mass of the same volume of hydrogen, measured under the same conditions of temperature and pressure.",
+   "answer": "Vapour density.\nVapour density is the ratio of the mass of a certain volume of a gas (or vapour) to the mass of the same volume of hydrogen, under the same conditions of temperature and pressure.",
+   "keywords": [
+    "ratio of masses",
+    "same volume of hydrogen",
+    "same temperature and pressure"
+   ],
+   "tip": "Relative molecular mass = 2 × vapour density. V.D. has no unit.",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2023_2(iv)",
+     "paper": "chemistry_2023",
+     "label": "Board 2023",
+     "q_label": "2(iv)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_bss_2(ii)",
+     "paper": "prelim_chemistry_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-electrolyte",
+   "subject": "chemistry",
+   "chapter": "Electrolysis",
+   "kind": "define",
+   "prompt": "Define electrolyte.",
+   "answer": "An electrolyte is a compound which, either in the molten state or in aqueous solution, conducts electricity and undergoes chemical decomposition due to the flow of current through it.",
+   "keywords": [
+    "compound",
+    "molten or aqueous",
+    "conducts electricity",
+    "decomposed by the current"
+   ],
+   "tip": "It conducts because of free mobile ions. Examples: NaCl (molten or aqueous), dilute H₂SO₄.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_gundecha_8(ii)",
+     "paper": "prelim_chemistry_gundecha",
+     "label": "Prelim · Gundecha",
+     "q_label": "8(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "chem-weak-electrolyte",
+   "subject": "chemistry",
+   "chapter": "Electrolysis",
+   "kind": "term",
+   "prompt": "Identify: compounds which allow a small amount of electricity to flow through them and contain ions as well as molecules.",
+   "answer": "Weak electrolytes.\nElectrolytes which are only partially dissociated (ionised) in the fused or aqueous state, so their solutions contain ions as well as un-ionised molecules and conduct electricity only to a small extent.",
+   "keywords": [
+    "partially ionised",
+    "ions and molecules",
+    "conduct to a small extent"
+   ],
+   "tip": "Examples: acetic acid, carbonic acid, ammonium hydroxide.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_jbpetit_2(b)",
+     "paper": "prelim_chemistry_jbpetit",
+     "label": "Prelim · J.B. Petit",
+     "q_label": "2(b)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-electrodes",
+   "subject": "chemistry",
+   "chapter": "Electrolysis",
+   "kind": "term",
+   "prompt": "State the term: two metal plates or wires through which the current enters and leaves the electrolytic cell.",
+   "answer": "Electrodes.\nThe anode is the electrode connected to the positive terminal of the battery (anions are discharged here — oxidation); the cathode is connected to the negative terminal (cations are discharged here — reduction).",
+   "keywords": [
+    "electrodes",
+    "anode +",
+    "cathode −"
+   ],
+   "tip": "Anode: oxidation (loss of electrons). Cathode: reduction (gain of electrons).",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2024_2(iv)(b)",
+     "paper": "chemistry_2024",
+     "label": "Board 2024",
+     "q_label": "2(iv)(b)",
+     "source": "board",
+     "year": 2024,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-dissociation",
+   "subject": "chemistry",
+   "chapter": "Electrolysis",
+   "kind": "term",
+   "prompt": "State the term: the process of separation of ions already in the ionic form.",
+   "answer": "Dissociation (electrolytic dissociation).\nDissociation is the separation of the ions already present in an electrovalent compound when it is melted or dissolved in water.",
+   "keywords": [
+    "ions already present",
+    "electrovalent compound",
+    "molten or in water"
+   ],
+   "tip": "Dissociation → ionic compounds (e.g. NaCl). Ionisation → polar covalent compounds (e.g. HCl).",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_garodia_2(ii)",
+     "paper": "prelim_chemistry_garodia",
+     "label": "Prelim · P.G. Garodia",
+     "q_label": "2(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-ionisation",
+   "subject": "chemistry",
+   "chapter": "Electrolysis",
+   "kind": "term",
+   "prompt": "Identify: the process of formation of ions from molecules which are not in the ionic state.",
+   "answer": "Ionisation.\nIonisation is the formation of ions from polar covalent compounds (which are not in the ionic state) when they are dissolved in water.",
+   "keywords": [
+    "formation of ions",
+    "polar covalent compounds",
+    "in solution"
+   ],
+   "tip": "Example: HCl + H₂O → H₃O⁺ + Cl⁻.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_bss_2(ii)",
+     "paper": "prelim_chemistry_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-electroplating",
+   "subject": "chemistry",
+   "chapter": "Electrolysis",
+   "kind": "define",
+   "prompt": "Define electroplating.",
+   "answer": "Electroplating is the electrolytic process of depositing a thin layer of a superior metal (such as silver, nickel or chromium) on an article made of an inferior metal, by passing current through an electrolyte containing ions of the superior metal.",
+   "keywords": [
+    "electrolytic process",
+    "thin layer of superior metal",
+    "article of inferior metal"
+   ],
+   "tip": "The article to be plated is the cathode; the plating metal is the anode.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_jbpetit_6(ii)",
+     "paper": "prelim_chemistry_jbpetit",
+     "label": "Prelim · J.B. Petit",
+     "q_label": "6(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "chem-electrorefining",
+   "subject": "chemistry",
+   "chapter": "Electrolysis",
+   "kind": "define",
+   "prompt": "Define electrorefining.",
+   "answer": "Electrorefining is the process by which a metal containing impurities is purified by electrolysis: the impure metal is made the anode, a thin sheet of the pure metal is the cathode, and a solution of a salt of the metal is the electrolyte. Pure metal deposits on the cathode.",
+   "keywords": [
+    "purify by electrolysis",
+    "impure metal = anode",
+    "pure metal = cathode",
+    "salt solution of the metal"
+   ],
+   "tip": "For copper: electrolyte = acidified CuSO₄; impurities collect below the anode as anode mud.",
+   "papers": 2,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_podar_3(i)",
+     "paper": "prelim_chemistry_podar",
+     "label": "Prelim · Lilavatibai Podar",
+     "q_label": "3(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    },
+    {
+     "q": "prelim_chemistry_garodia_8(iii)",
+     "paper": "prelim_chemistry_garodia",
+     "label": "Prelim · P.G. Garodia",
+     "q_label": "8(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "chem-ore",
+   "subject": "chemistry",
+   "chapter": "Metallurgy",
+   "kind": "define",
+   "prompt": "Define ores.",
+   "answer": "Ores are those minerals from which a metal can be extracted profitably (economically) and conveniently.",
+   "keywords": [
+    "minerals",
+    "extracted profitably",
+    "conveniently"
+   ],
+   "tip": "All ores are minerals, but all minerals are not ores.",
+   "papers": 3,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2024_1(xv)",
+     "paper": "chemistry_2024",
+     "label": "Board 2024",
+     "q_label": "1(xv)",
+     "source": "board",
+     "year": 2024,
+     "how": "mcq"
+    },
+    {
+     "q": "chemistry_2022s2_2(i)(b)",
+     "paper": "chemistry_2022s2",
+     "label": "Board 2022 Sem 2",
+     "q_label": "2(i)(b)",
+     "source": "board",
+     "year": 2022,
+     "how": "define"
+    },
+    {
+     "q": "prelim_chemistry_euro_2(iv)",
+     "paper": "prelim_chemistry_euro",
+     "label": "Prelim · EuroSchool",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "chem-minerals",
+   "subject": "chemistry",
+   "chapter": "Metallurgy",
+   "kind": "term",
+   "prompt": "Give one word: the compounds of various metals found in nature with earthly impurities.",
+   "answer": "Minerals.\nThe naturally occurring compounds of metals, found in the earth's crust mixed with earthly impurities such as sand and rock, are called minerals.",
+   "keywords": [
+    "naturally occurring compounds of metals",
+    "earthly impurities"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2022s2_6(ii)(a)",
+     "paper": "chemistry_2022s2",
+     "label": "Board 2022 Sem 2",
+     "q_label": "6(ii)(a)",
+     "source": "board",
+     "year": 2022,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-alloy",
+   "subject": "chemistry",
+   "chapter": "Metallurgy",
+   "kind": "term",
+   "prompt": "Give one word: a homogeneous mixture of two or more metals, or a metal and a non-metal, in a definite proportion.",
+   "answer": "Alloy.\nAn alloy is a homogeneous mixture of two or more metals, or of a metal and a non-metal, in a definite proportion, obtained by mixing them in the molten state and cooling.",
+   "keywords": [
+    "homogeneous mixture",
+    "metals (or metal + non-metal)",
+    "definite proportion",
+    "molten state"
+   ],
+   "tip": "Brass = Cu + Zn; bronze = Cu + Sn; solder = Pb + Sn; duralumin = Al + Cu + Mg + Mn.",
+   "papers": 3,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2022s2_6(ii)(b)",
+     "paper": "chemistry_2022s2",
+     "label": "Board 2022 Sem 2",
+     "q_label": "6(ii)(b)",
+     "source": "board",
+     "year": 2022,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_gundecha_2(iv)",
+     "paper": "prelim_chemistry_gundecha",
+     "label": "Prelim · Gundecha",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_podar_2(iv)",
+     "paper": "prelim_chemistry_podar",
+     "label": "Prelim · Lilavatibai Podar",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-metallurgy",
+   "subject": "chemistry",
+   "chapter": "Metallurgy",
+   "kind": "term",
+   "prompt": "Identify the term used to describe the extraction of metals from their ores.",
+   "answer": "Metallurgy.\nMetallurgy is the process of extraction of a metal in its pure form from its ore.",
+   "keywords": [
+    "extraction of a metal",
+    "pure form",
+    "from its ore"
+   ],
+   "tip": "Steps: concentration (dressing) → conversion to oxide → reduction → refining.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_cathedral_2(iv)",
+     "paper": "prelim_chemistry_cathedral",
+     "label": "Prelim · Cathedral",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-pulverisation",
+   "subject": "chemistry",
+   "chapter": "Metallurgy",
+   "kind": "term",
+   "prompt": "Identify: the process of crushing the ore into fine powder.",
+   "answer": "Pulverisation.\nThe crushing and grinding of the ore into a fine powder (in ball mills or stamp mills) before concentration.",
+   "keywords": [
+    "crushing",
+    "fine powder"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_jbv_2(iv)",
+     "paper": "prelim_chemistry_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-calcination",
+   "subject": "chemistry",
+   "chapter": "Metallurgy",
+   "kind": "term",
+   "prompt": "Identify: the process by which ores, especially carbonates, are converted to oxides by heating in the absence of air.",
+   "answer": "Calcination.\nCalcination is the process of heating the concentrated ore (generally a carbonate or hydrated ore) to a high temperature in the absence of air or in a limited supply of air, below its melting point, to convert it into its oxide.",
+   "keywords": [
+    "heating",
+    "absence (or limited supply) of air",
+    "below melting point",
+    "carbonate/hydrated ore → oxide"
+   ],
+   "tip": "ZnCO₃ → ZnO + CO₂. Compare roasting: sulphide ores heated in EXCESS air.",
+   "papers": 4,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_bss_2(ii)",
+     "paper": "prelim_chemistry_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_jbv_2(iv)",
+     "paper": "prelim_chemistry_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_garodia_2(ii)",
+     "paper": "prelim_chemistry_garodia",
+     "label": "Prelim · P.G. Garodia",
+     "q_label": "2(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_shishuvan_2(d)",
+     "paper": "prelim_chemistry_shishuvan",
+     "label": "Prelim · Shishuvan",
+     "q_label": "2(d)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-roasting",
+   "subject": "chemistry",
+   "chapter": "Metallurgy",
+   "kind": "term",
+   "prompt": "Identify: the process of strongly heating the ore in excess supply of air.",
+   "answer": "Roasting.\nRoasting is the process of heating the concentrated ore (generally a sulphide ore) strongly in an excess supply of air, below its melting point, to convert it into its oxide.",
+   "keywords": [
+    "heating",
+    "excess air",
+    "below melting point",
+    "sulphide ore → oxide"
+   ],
+   "tip": "2ZnS + 3O₂ → 2ZnO + 2SO₂",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_jbpetit_7(iv)",
+     "paper": "prelim_chemistry_jbpetit",
+     "label": "Prelim · J.B. Petit",
+     "q_label": "7(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-froth-flotation",
+   "subject": "chemistry",
+   "chapter": "Metallurgy",
+   "kind": "term",
+   "prompt": "Identify: the method to separate ores from the matrix based on difference in preferential wetting.",
+   "answer": "Froth flotation process.\nIt is used to concentrate sulphide ores. It is based on preferential wetting: the ore particles are wetted by oil (pine oil) and rise to the surface with the froth, while the gangue is wetted by water and sinks.",
+   "keywords": [
+    "sulphide ores",
+    "preferential wetting",
+    "ore wetted by oil — rises in froth",
+    "gangue wetted by water — sinks"
+   ],
+   "tip": "Example: zinc blende (ZnS).",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_singhania_2(iv)",
+     "paper": "prelim_chemistry_singhania",
+     "label": "Prelim · Singhania (Set B)",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-magnetic-separation",
+   "subject": "chemistry",
+   "chapter": "Metallurgy",
+   "kind": "define",
+   "prompt": "State the principle of magnetic separation.",
+   "answer": "Magnetic separation is based on the difference in the magnetic properties of the ore and the gangue: when the powdered ore falls on a belt moving over a magnetic roller, the magnetic particles are held by the roller and fall separately from the non-magnetic particles.",
+   "keywords": [
+    "difference in magnetic properties",
+    "ore and gangue",
+    "magnetic roller"
+   ],
+   "tip": "Used for magnetic ores such as magnetite (Fe₃O₄) and for removing magnetic wolframite from tinstone.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_jbpetit_7(ii)",
+     "paper": "prelim_chemistry_jbpetit",
+     "label": "Prelim · J.B. Petit",
+     "q_label": "7(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "state"
+    }
+   ]
+  },
+  {
+   "id": "chem-baeyer",
+   "subject": "chemistry",
+   "chapter": "Metallurgy",
+   "kind": "term",
+   "prompt": "Name the process used to concentrate bauxite ore (convert it to pure alumina).",
+   "answer": "Baeyer's process.\nPowdered bauxite is digested with concentrated sodium hydroxide solution under pressure; aluminium oxide dissolves as soluble sodium aluminate while impurities (Fe₂O₃) do not and are filtered off. Aluminium hydroxide is then precipitated and heated to about 1000 °C to give pure alumina.",
+   "keywords": [
+    "conc. NaOH",
+    "sodium aluminate",
+    "Al(OH)₃ precipitated",
+    "heated → pure Al₂O₃"
+   ],
+   "tip": "Al₂O₃·2H₂O + 2NaOH → 2NaAlO₂ + 3H₂O ;  2Al(OH)₃ → Al₂O₃ + 3H₂O (on heating)",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2025_7(ii)",
+     "paper": "chemistry_2025",
+     "label": "Board 2025",
+     "q_label": "7(ii)",
+     "source": "board",
+     "year": 2025,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_singhania_8(i)",
+     "paper": "prelim_chemistry_singhania",
+     "label": "Prelim · Singhania (Set B)",
+     "q_label": "8(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-hall-heroult",
+   "subject": "chemistry",
+   "chapter": "Metallurgy",
+   "kind": "term",
+   "prompt": "Name the process by which aluminium is extracted by the electrolytic reduction of fused alumina.",
+   "answer": "Hall–Heroult process.\nPure alumina is dissolved in fused cryolite (Na₃AlF₆) with fluorspar (CaF₂) and electrolysed: aluminium is deposited at the carbon-lined cathode and oxygen is liberated at the graphite anodes.",
+   "keywords": [
+    "electrolytic reduction",
+    "alumina + cryolite + fluorspar",
+    "Al at cathode"
+   ],
+   "tip": "Cathode: 2Al³⁺ + 6e⁻ → 2Al. Anode: 6O²⁻ → 3O₂ + 12e⁻. Powdered coke is sprinkled on top to reduce heat loss.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2023_2(ii)",
+     "paper": "chemistry_2023",
+     "label": "Board 2023",
+     "q_label": "2(ii)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-fountain",
+   "subject": "chemistry",
+   "chapter": "Hydrogen Chloride",
+   "kind": "term",
+   "prompt": "Identify the term: the experiment used to demonstrate the high solubility of HCl gas.",
+   "answer": "Fountain experiment.\nIt shows that hydrogen chloride gas is highly soluble in water: water rushes up into the flask of dry HCl as a fountain, and blue litmus solution turns red (acidic).",
+   "keywords": [
+    "fountain experiment",
+    "high solubility in water"
+   ],
+   "tip": "Ammonia also shows the fountain experiment (red litmus turns blue).",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2022s2_4(iv)(b)",
+     "paper": "chemistry_2022s2",
+     "label": "Board 2022 Sem 2",
+     "q_label": "4(iv)(b)",
+     "source": "board",
+     "year": 2022,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-haber",
+   "subject": "chemistry",
+   "chapter": "Ammonia",
+   "kind": "term",
+   "prompt": "Name the process by which ammonia is manufactured on a large scale.",
+   "answer": "Haber's process.\nN₂ + 3H₂ ⇌ 2NH₃ (+ heat), at 450–500 °C and 200–900 atm, using finely divided iron as the catalyst with molybdenum as the promoter.",
+   "keywords": [
+    "Haber's process",
+    "N₂ : H₂ = 1 : 3",
+    "iron catalyst, Mo promoter",
+    "450–500 °C, 200–900 atm"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2023_2(iv)",
+     "paper": "chemistry_2023",
+     "label": "Board 2023",
+     "q_label": "2(iv)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-catenation",
+   "subject": "chemistry",
+   "chapter": "Organic Chemistry",
+   "kind": "define",
+   "prompt": "Define catenation.",
+   "answer": "Catenation is the property of self-linking of atoms of an element through covalent bonds to form straight chains, branched chains or rings (closed chains) of different sizes.",
+   "keywords": [
+    "self-linking",
+    "atoms of the same element",
+    "covalent bonds",
+    "chains or rings"
+   ],
+   "tip": "Carbon shows maximum catenation (tetravalency + strong C–C bond).",
+   "papers": 6,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2023_2(iv)",
+     "paper": "chemistry_2023",
+     "label": "Board 2023",
+     "q_label": "2(iv)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_bss_8(i)",
+     "paper": "prelim_chemistry_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "8(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    },
+    {
+     "q": "prelim_chemistry_gundecha_8(ii)",
+     "paper": "prelim_chemistry_gundecha",
+     "label": "Prelim · Gundecha",
+     "q_label": "8(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    },
+    {
+     "q": "prelim_chemistry_gundecha_2(iv)",
+     "paper": "prelim_chemistry_gundecha",
+     "label": "Prelim · Gundecha",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_jbpetit_2(b)",
+     "paper": "prelim_chemistry_jbpetit",
+     "label": "Prelim · J.B. Petit",
+     "q_label": "2(b)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_jbv_2(iv)",
+     "paper": "prelim_chemistry_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_garodia_2(ii)",
+     "paper": "prelim_chemistry_garodia",
+     "label": "Prelim · P.G. Garodia",
+     "q_label": "2(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-isomerism",
+   "subject": "chemistry",
+   "chapter": "Organic Chemistry",
+   "kind": "define",
+   "prompt": "Define isomerism.",
+   "answer": "Isomerism is the phenomenon due to which compounds having the same molecular formula have different structural formulae (and hence different properties). Such compounds are called isomers.",
+   "keywords": [
+    "same molecular formula",
+    "different structural formulae",
+    "different properties"
+   ],
+   "tip": "Example: n-butane and iso-butane (2-methylpropane), both C₄H₁₀.",
+   "papers": 7,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2025_2(ii)",
+     "paper": "chemistry_2025",
+     "label": "Board 2025",
+     "q_label": "2(ii)",
+     "source": "board",
+     "year": 2025,
+     "how": "name"
+    },
+    {
+     "q": "chemistry_2023_7(i)",
+     "paper": "chemistry_2023",
+     "label": "Board 2023",
+     "q_label": "7(i)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    },
+    {
+     "q": "chemistry_2022s2_2(i)(a)",
+     "paper": "chemistry_2022s2",
+     "label": "Board 2022 Sem 2",
+     "q_label": "2(i)(a)",
+     "source": "board",
+     "year": 2022,
+     "how": "define"
+    },
+    {
+     "q": "prelim_chemistry_bss_2(ii)",
+     "paper": "prelim_chemistry_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_gundecha_4(iii)",
+     "paper": "prelim_chemistry_gundecha",
+     "label": "Prelim · Gundecha",
+     "q_label": "4(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    },
+    {
+     "q": "prelim_chemistry_jbv_7(ii)",
+     "paper": "prelim_chemistry_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "7(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    },
+    {
+     "q": "prelim_chemistry_garodia_4(i)",
+     "paper": "prelim_chemistry_garodia",
+     "label": "Prelim · P.G. Garodia",
+     "q_label": "4(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "chem-homologous-series",
+   "subject": "chemistry",
+   "chapter": "Organic Chemistry",
+   "kind": "define",
+   "prompt": "Define homologous series.",
+   "answer": "A homologous series is a group of organic compounds having a similar structure and similar chemical properties, in which the successive members differ by a CH₂ group.",
+   "keywords": [
+    "group of organic compounds",
+    "similar structure and chemical properties",
+    "successive members differ by CH₂"
+   ],
+   "tip": "Members share the same general formula and functional group; successive members differ in molecular mass by 14 u; physical properties change gradually.",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2023_7(i)",
+     "paper": "chemistry_2023",
+     "label": "Board 2023",
+     "q_label": "7(i)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_gundecha_4(iii)",
+     "paper": "prelim_chemistry_gundecha",
+     "label": "Prelim · Gundecha",
+     "q_label": "4(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "chem-functional-group",
+   "subject": "chemistry",
+   "chapter": "Organic Chemistry",
+   "kind": "term",
+   "prompt": "Identify: that part of an organic compound which determines its characteristic properties.",
+   "answer": "Functional group.\nAn atom or group of atoms present in an organic compound which determines its characteristic chemical properties is called the functional group.",
+   "keywords": [
+    "atom or group of atoms",
+    "determines chemical properties"
+   ],
+   "tip": "Examples: –OH (alcohol), –CHO (aldehyde), –COOH (carboxylic acid), –X (halide).",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_gundecha_2(iv)",
+     "paper": "prelim_chemistry_gundecha",
+     "label": "Prelim · Gundecha",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-alkyl-group",
+   "subject": "chemistry",
+   "chapter": "Organic Chemistry",
+   "kind": "term",
+   "prompt": "State the term: the group obtained by removing one hydrogen atom from the parent alkane.",
+   "answer": "Alkyl group.\nThe group formed by the removal of one hydrogen atom from an alkane; general formula CₙH₂ₙ₊₁ (shown as R–).",
+   "keywords": [
+    "remove one H from an alkane",
+    "CₙH₂ₙ₊₁"
+   ],
+   "tip": "CH₃– methyl, C₂H₅– ethyl, C₃H₇– propyl.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2024_2(iv)(a)",
+     "paper": "chemistry_2024",
+     "label": "Board 2024",
+     "q_label": "2(iv)(a)",
+     "source": "board",
+     "year": 2024,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-substitution",
+   "subject": "chemistry",
+   "chapter": "Organic Chemistry",
+   "kind": "term",
+   "prompt": "Identify: a reaction in which a hydrogen atom of an alkane is replaced by a halogen.",
+   "answer": "Substitution reaction.\nA reaction in which an atom or group of atoms of a molecule is replaced (substituted) by another atom or group of atoms. It is characteristic of saturated hydrocarbons (alkanes).",
+   "keywords": [
+    "replaced by another atom or group",
+    "saturated hydrocarbons"
+   ],
+   "tip": "CH₄ + Cl₂ → CH₃Cl + HCl (in diffused sunlight).",
+   "papers": 2,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_podar_2(iv)",
+     "paper": "prelim_chemistry_podar",
+     "label": "Prelim · Lilavatibai Podar",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_singhania_7(ii)",
+     "paper": "prelim_chemistry_singhania",
+     "label": "Prelim · Singhania (Set B)",
+     "q_label": "7(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-spurious-alcohol",
+   "subject": "chemistry",
+   "chapter": "Organic Chemistry",
+   "kind": "term",
+   "prompt": "State the term: undistilled alcohol containing a large amount of methanol.",
+   "answer": "Spurious alcohol.\nIllicit, undistilled alcohol containing a large proportion of methanol; drinking it can cause blindness and even death.",
+   "keywords": [
+    "undistilled",
+    "large amount of methanol",
+    "poisonous"
+   ],
+   "tip": null,
+   "papers": 3,
+   "board": true,
+   "asked": [
+    {
+     "q": "chemistry_2025_2(ii)",
+     "paper": "chemistry_2025",
+     "label": "Board 2025",
+     "q_label": "2(ii)",
+     "source": "board",
+     "year": 2025,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_gundecha_2(iv)",
+     "paper": "prelim_chemistry_gundecha",
+     "label": "Prelim · Gundecha",
+     "q_label": "2(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_jbpetit_7(iv)",
+     "paper": "prelim_chemistry_jbpetit",
+     "label": "Prelim · J.B. Petit",
+     "q_label": "7(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "chem-glacial-acetic",
+   "subject": "chemistry",
+   "chapter": "Organic Chemistry",
+   "kind": "define",
+   "prompt": "What is glacial acetic acid?",
+   "answer": "Pure (anhydrous) acetic acid which, on cooling below 16.6 °C (about 17 °C), freezes into an ice-like solid is called glacial acetic acid.",
+   "keywords": [
+    "pure acetic acid",
+    "below 16.6 °C",
+    "ice-like crystals"
+   ],
+   "tip": null,
+   "papers": 2,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_chemistry_garodia_7(iv)",
+     "paper": "prelim_chemistry_garodia",
+     "label": "Prelim · P.G. Garodia",
+     "q_label": "7(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_chemistry_singhania_5(i)",
+     "paper": "prelim_chemistry_singhania",
+     "label": "Prelim · Singhania (Set B)",
+     "q_label": "5(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-osmosis",
+   "subject": "biology",
+   "chapter": "Absorption by Roots",
+   "kind": "define",
+   "prompt": "Define osmosis.",
+   "answer": "Osmosis is the diffusion of water molecules from a region of their higher concentration (dilute solution) to a region of their lower concentration (concentrated solution) through a semi-permeable membrane.",
+   "keywords": [
+    "water molecules",
+    "higher to lower concentration of water",
+    "dilute → concentrated solution",
+    "semi-permeable membrane"
+   ],
+   "tip": "Always mention WATER molecules and the SEMI-PERMEABLE membrane.",
+   "papers": 2,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_avalon_6(i)",
+     "paper": "prelim_biology_avalon",
+     "label": "Prelim · Avalon Heights",
+     "q_label": "6(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    },
+    {
+     "q": "prelim_biology_jbv_7(i)",
+     "paper": "prelim_biology_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "7(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-active-transport",
+   "subject": "biology",
+   "chapter": "Absorption by Roots",
+   "kind": "define",
+   "prompt": "What is active transport?",
+   "answer": "Active transport is the movement of molecules or ions across a cell membrane from a region of their lower concentration to a region of their higher concentration, i.e. against the concentration gradient, using energy (ATP).",
+   "keywords": [
+    "lower to higher concentration",
+    "against the concentration gradient",
+    "uses energy (ATP)"
+   ],
+   "tip": "Root hairs absorb mineral ions from the soil by active transport.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2023_4(ii)",
+     "paper": "biology_2023",
+     "label": "Board 2023",
+     "q_label": "4(ii)",
+     "source": "board",
+     "year": 2023,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-imbibition",
+   "subject": "biology",
+   "chapter": "Absorption by Roots",
+   "kind": "define",
+   "prompt": "Define imbibition.",
+   "answer": "Imbibition is the absorption of water by the solid particles of a substance (hydrophilic colloids such as cellulose, starch and proteins) without forming a solution, causing it to swell.",
+   "keywords": [
+    "absorption of water",
+    "solid particles",
+    "without forming a solution",
+    "swelling"
+   ],
+   "tip": "Examples: dry seeds swell in water; wooden doors swell in the rainy season.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_jbv_8(i)",
+     "paper": "prelim_biology_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "8(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-plasmolysis",
+   "subject": "biology",
+   "chapter": "Absorption by Roots",
+   "kind": "explain",
+   "prompt": "Explain the term plasmolysis.",
+   "answer": "Plasmolysis is the shrinkage of the protoplasm (cytoplasm) of a plant cell away from its cell wall, due to the loss of water by exosmosis when the cell is placed in a hypertonic solution.",
+   "keywords": [
+    "shrinkage of protoplasm",
+    "away from the cell wall",
+    "exosmosis",
+    "hypertonic solution"
+   ],
+   "tip": "Uses: salting pickles / sugaring jams (microbes get plasmolysed); salt kills weeds.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_bss_4(ii)",
+     "paper": "prelim_biology_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "4(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "explain"
+    }
+   ]
+  },
+  {
+   "id": "bio-root-hairs",
+   "subject": "biology",
+   "chapter": "Absorption by Roots",
+   "kind": "term",
+   "prompt": "Name: unicellular outgrowths from the epidermis of roots.",
+   "answer": "Root hairs.\nThey increase the surface area for absorption of water and minerals from the soil.",
+   "keywords": [
+    "root hairs"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2024_2(i)",
+     "paper": "biology_2024",
+     "label": "Board 2024",
+     "q_label": "2(i)",
+     "source": "board",
+     "year": 2024,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-karyokinesis",
+   "subject": "biology",
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "kind": "term",
+   "prompt": "Give the biological term: nuclear changes which occur during cell division.",
+   "answer": "Karyokinesis.\nKaryokinesis is the division of the nucleus during cell division.",
+   "keywords": [
+    "division of the nucleus"
+   ],
+   "tip": "Division of the cytoplasm is cytokinesis.",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2022s1_4(i)",
+     "paper": "biology_2022s1",
+     "label": "Board 2022 Sem 1",
+     "q_label": "4(i)",
+     "source": "board",
+     "year": 2022,
+     "how": "mcq"
+    },
+    {
+     "q": "prelim_biology_bss_2(i)(a)",
+     "paper": "prelim_biology_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(i)(a)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-metaphase",
+   "subject": "biology",
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "kind": "term",
+   "prompt": "Give the term: the phase of mitosis in which the chromosomes line up in one plane at the equator.",
+   "answer": "Metaphase.\nThe chromosomes arrange themselves at the equator of the spindle, forming the metaphasic (equatorial) plate.",
+   "keywords": [
+    "metaphase",
+    "equatorial plate"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_vts_2(i)(a)",
+     "paper": "prelim_biology_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "2(i)(a)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-somatic-cells",
+   "subject": "biology",
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "kind": "term",
+   "prompt": "Give the term: the cells in which mitosis occurs.",
+   "answer": "Somatic (body) cells.\nMitosis occurs in somatic cells for growth and repair; meiosis occurs in the germ (reproductive) cells to form gametes.",
+   "keywords": [
+    "somatic cells"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_vts_2(i)(c)",
+     "paper": "prelim_biology_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "2(i)(c)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-centrosome",
+   "subject": "biology",
+   "chapter": "Cell Cycle and Structure of Chromosomes",
+   "kind": "term",
+   "prompt": "Name the organelle that forms the aster during cell division.",
+   "answer": "Centrosome.\nThe centrosome (with its two centrioles) forms the asters and spindle in animal cells; plant cells have no centrosome.",
+   "keywords": [
+    "centrosome"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2023_2(i)",
+     "paper": "biology_2023",
+     "label": "Board 2023",
+     "q_label": "2(i)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-law-dominance",
+   "subject": "biology",
+   "chapter": "Genetics",
+   "kind": "law",
+   "prompt": "State Mendel's law of dominance.",
+   "answer": "When two homozygous individuals with one or more pairs of contrasting characters are crossed, the characters that appear in the F₁ hybrids are dominant and those that do not appear in F₁ are recessive.\n(Out of a pair of contrasting alleles present together, only the dominant allele expresses itself while the recessive remains suppressed.)",
+   "keywords": [
+    "homozygous parents",
+    "contrasting characters",
+    "appears in F₁ = dominant",
+    "hidden = recessive"
+   ],
+   "tip": null,
+   "papers": 5,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2024_5(v)",
+     "paper": "biology_2024",
+     "label": "Board 2024",
+     "q_label": "5(v)",
+     "source": "board",
+     "year": 2024,
+     "how": "state"
+    },
+    {
+     "q": "biology_2022s1_4(ii)",
+     "paper": "biology_2022s1",
+     "label": "Board 2022 Sem 1",
+     "q_label": "4(ii)",
+     "source": "board",
+     "year": 2022,
+     "how": "mcq"
+    },
+    {
+     "q": "prelim_biology_bss_6(iv)",
+     "paper": "prelim_biology_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "6(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_biology_jbv_3(i)",
+     "paper": "prelim_biology_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "3(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "state"
+    },
+    {
+     "q": "prelim_biology_vts_6(i)",
+     "paper": "prelim_biology_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "6(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "state"
+    }
+   ]
+  },
+  {
+   "id": "bio-law-segregation",
+   "subject": "biology",
+   "chapter": "Genetics",
+   "kind": "law",
+   "prompt": "State Mendel's law of segregation.",
+   "answer": "The two members of a pair of factors (alleles) separate (segregate) from each other during the formation of gametes, so that each gamete receives only one factor of each pair.",
+   "keywords": [
+    "pair of alleles separate",
+    "during gamete formation",
+    "each gamete gets only one"
+   ],
+   "tip": "Also called the law of purity of gametes.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2023_4(iv)",
+     "paper": "biology_2023",
+     "label": "Board 2023",
+     "q_label": "4(iv)",
+     "source": "board",
+     "year": 2023,
+     "how": "state"
+    }
+   ]
+  },
+  {
+   "id": "bio-law-independent-assortment",
+   "subject": "biology",
+   "chapter": "Genetics",
+   "kind": "law",
+   "prompt": "State Mendel's law of independent assortment.",
+   "answer": "When two pairs of contrasting characters are considered together in a cross, the factors (alleles) of each pair segregate independently of the other pair during gamete formation and recombine at random, giving new combinations.",
+   "keywords": [
+    "two pairs of characters",
+    "segregate independently",
+    "gamete formation",
+    "new combinations"
+   ],
+   "tip": "Seen in a dihybrid cross: F₂ ratio 9 : 3 : 3 : 1.",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2025_8(v)(c)",
+     "paper": "biology_2025",
+     "label": "Board 2025",
+     "q_label": "8(v)(c)",
+     "source": "board",
+     "year": 2025,
+     "how": "state"
+    },
+    {
+     "q": "prelim_biology_avalon_4(iv)",
+     "paper": "prelim_biology_avalon",
+     "label": "Prelim · Avalon Heights",
+     "q_label": "4(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "state"
+    }
+   ]
+  },
+  {
+   "id": "bio-mutation",
+   "subject": "biology",
+   "chapter": "Genetics",
+   "kind": "define",
+   "prompt": "Define the term mutation.",
+   "answer": "Mutation is a sudden change in one or more genes, or in the number or structure of chromosomes, of an organism, which is heritable (passed on to the next generation).",
+   "keywords": [
+    "sudden change",
+    "genes or chromosomes",
+    "heritable"
+   ],
+   "tip": null,
+   "papers": 3,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2023_8(i)",
+     "paper": "biology_2023",
+     "label": "Board 2023",
+     "q_label": "8(i)",
+     "source": "board",
+     "year": 2023,
+     "how": "define"
+    },
+    {
+     "q": "biology_2022s1_4(iii)",
+     "paper": "biology_2022s1",
+     "label": "Board 2022 Sem 1",
+     "q_label": "4(iii)",
+     "source": "board",
+     "year": 2022,
+     "how": "mcq"
+    },
+    {
+     "q": "prelim_biology_vts_4(i)",
+     "paper": "prelim_biology_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "4(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-allele",
+   "subject": "biology",
+   "chapter": "Genetics",
+   "kind": "define",
+   "prompt": "Define the term allele.",
+   "answer": "Alleles (allelomorphs) are the alternative forms of a gene, occupying the same position (locus) on homologous chromosomes and controlling the contrasting forms of the same character.",
+   "keywords": [
+    "alternative forms of a gene",
+    "same locus",
+    "homologous chromosomes",
+    "contrasting forms of a character"
+   ],
+   "tip": "Example: T (tall) and t (dwarf) are alleles for height.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2025_7(i)",
+     "paper": "biology_2025",
+     "label": "Board 2025",
+     "q_label": "7(i)",
+     "source": "board",
+     "year": 2025,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-haemophilia",
+   "subject": "biology",
+   "chapter": "Genetics",
+   "kind": "term",
+   "prompt": "Name a genetic disorder in which the blood does not clot.",
+   "answer": "Haemophilia (bleeder's disease).\nA sex-linked recessive disorder (gene on the X chromosome); it shows up mostly in males.",
+   "keywords": [
+    "haemophilia",
+    "sex-linked recessive"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2023_2(i)",
+     "paper": "biology_2023",
+     "label": "Board 2023",
+     "q_label": "2(i)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-tropism",
+   "subject": "biology",
+   "chapter": "Chemical Coordination in Plants",
+   "kind": "define",
+   "prompt": "Define tropism (tropic movement).",
+   "answer": "Tropism (tropic movement) is the directional growth movement of a plant part in response to an external stimulus, the direction of the movement being determined by the direction of the stimulus.",
+   "keywords": [
+    "growth movement",
+    "plant part",
+    "external stimulus",
+    "direction decided by the stimulus"
+   ],
+   "tip": null,
+   "papers": 2,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_avalon_5(i)",
+     "paper": "prelim_biology_avalon",
+     "label": "Prelim · Avalon Heights",
+     "q_label": "5(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    },
+    {
+     "q": "prelim_biology_bss_3(iv)",
+     "paper": "prelim_biology_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "3(iv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-thigmotropism",
+   "subject": "biology",
+   "chapter": "Chemical Coordination in Plants",
+   "kind": "define",
+   "prompt": "Define thigmotropism.",
+   "answer": "Thigmotropism is the growth movement of a plant part in response to contact (touch) with a solid object or support.",
+   "keywords": [
+    "growth movement",
+    "response to contact / touch",
+    "solid support"
+   ],
+   "tip": "Example: tendrils of pea coil around a support.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2024_3(v)",
+     "paper": "biology_2024",
+     "label": "Board 2024",
+     "q_label": "3(v)",
+     "source": "board",
+     "year": 2024,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-chemotropism",
+   "subject": "biology",
+   "chapter": "Chemical Coordination in Plants",
+   "kind": "term",
+   "prompt": "Name the tropic movement of plant parts in response to chemicals.",
+   "answer": "Chemotropism.\nExample: the growth of the pollen tube towards the ovule.",
+   "keywords": [
+    "chemotropism"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2024_2(i)",
+     "paper": "biology_2024",
+     "label": "Board 2024",
+     "q_label": "2(i)",
+     "source": "board",
+     "year": 2024,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-parthenocarpy",
+   "subject": "biology",
+   "chapter": "Chemical Coordination in Plants",
+   "kind": "define",
+   "prompt": "What is parthenocarpy?",
+   "answer": "Parthenocarpy is the development of fruit without fertilisation; such fruits are seedless.",
+   "keywords": [
+    "fruit develops without fertilisation",
+    "seedless"
+   ],
+   "tip": "Induced by gibberellins or auxins, e.g. seedless grapes.",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2025_3(ii)",
+     "paper": "biology_2025",
+     "label": "Board 2025",
+     "q_label": "3(ii)",
+     "source": "board",
+     "year": 2025,
+     "how": "name"
+    },
+    {
+     "q": "prelim_biology_bss_8(i)",
+     "paper": "prelim_biology_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "8(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-ethylene",
+   "subject": "biology",
+   "chapter": "Chemical Coordination in Plants",
+   "kind": "term",
+   "prompt": "Name a gaseous plant hormone which promotes ripening of fruits.",
+   "answer": "Ethylene.",
+   "keywords": [
+    "ethylene"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2023_2(i)",
+     "paper": "biology_2023",
+     "label": "Board 2023",
+     "q_label": "2(i)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-photosynthesis",
+   "subject": "biology",
+   "chapter": "Photosynthesis",
+   "kind": "define",
+   "prompt": "Explain the term photosynthesis.",
+   "answer": "Photosynthesis is the process by which green plants manufacture carbohydrates (glucose) from carbon dioxide and water in the presence of sunlight and chlorophyll, releasing oxygen as a by-product.",
+   "keywords": [
+    "green plants",
+    "CO₂ and water",
+    "sunlight and chlorophyll",
+    "glucose",
+    "oxygen released"
+   ],
+   "tip": "6CO₂ + 12H₂O → C₆H₁₂O₆ + 6H₂O + 6O₂ (light, chlorophyll). It is the starting point of all food chains.",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2025_2(i)(d)",
+     "paper": "biology_2025",
+     "label": "Board 2025",
+     "q_label": "2(i)(d)",
+     "source": "board",
+     "year": 2025,
+     "how": "name"
+    },
+    {
+     "q": "biology_2022s1_4(iv)",
+     "paper": "biology_2022s1",
+     "label": "Board 2022 Sem 1",
+     "q_label": "4(iv)",
+     "source": "board",
+     "year": 2022,
+     "how": "mcq"
+    }
+   ]
+  },
+  {
+   "id": "bio-photophosphorylation",
+   "subject": "biology",
+   "chapter": "Photosynthesis",
+   "kind": "define",
+   "prompt": "Define photophosphorylation.",
+   "answer": "Photophosphorylation is the formation of ATP from ADP and inorganic phosphate using light energy, in the chloroplasts during the light reaction of photosynthesis.",
+   "keywords": [
+    "ATP from ADP + Pi",
+    "light energy",
+    "light reaction"
+   ],
+   "tip": null,
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2024_1(ii)",
+     "paper": "biology_2024",
+     "label": "Board 2024",
+     "q_label": "1(ii)",
+     "source": "board",
+     "year": 2024,
+     "how": "mcq"
+    },
+    {
+     "q": "prelim_biology_avalon_4(ii)",
+     "paper": "prelim_biology_avalon",
+     "label": "Prelim · Avalon Heights",
+     "q_label": "4(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-stroma",
+   "subject": "biology",
+   "chapter": "Photosynthesis",
+   "kind": "term",
+   "prompt": "Name the ground substance present in a chloroplast.",
+   "answer": "Stroma.\nThe dark reaction of photosynthesis takes place in the stroma; the light reaction in the grana.",
+   "keywords": [
+    "stroma"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_jbv_2(i)(a)",
+     "paper": "prelim_biology_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "2(i)(a)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-transpiration",
+   "subject": "biology",
+   "chapter": "Transpiration",
+   "kind": "define",
+   "prompt": "Define the term transpiration.",
+   "answer": "Transpiration is the loss of water in the form of water vapour from the aerial parts of the plant (mainly through the stomata of leaves).",
+   "keywords": [
+    "loss of water",
+    "as water vapour",
+    "aerial parts",
+    "stomata"
+   ],
+   "tip": "Three kinds: stomatal, cuticular, lenticular. Loss as droplets is guttation, not transpiration.",
+   "papers": 3,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2023_6(i)",
+     "paper": "biology_2023",
+     "label": "Board 2023",
+     "q_label": "6(i)",
+     "source": "board",
+     "year": 2023,
+     "how": "define"
+    },
+    {
+     "q": "biology_2022s1_4(v)",
+     "paper": "biology_2022s1",
+     "label": "Board 2022 Sem 1",
+     "q_label": "4(v)",
+     "source": "board",
+     "year": 2022,
+     "how": "mcq"
+    },
+    {
+     "q": "prelim_biology_avalon_8(i)",
+     "paper": "prelim_biology_avalon",
+     "label": "Prelim · Avalon Heights",
+     "q_label": "8(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-lenticels",
+   "subject": "biology",
+   "chapter": "Transpiration",
+   "kind": "term",
+   "prompt": "Name the openings on the bark of older stems (trees) through which transpiration occurs.",
+   "answer": "Lenticels.",
+   "keywords": [
+    "lenticels"
+   ],
+   "tip": null,
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2023_2(i)",
+     "paper": "biology_2023",
+     "label": "Board 2023",
+     "q_label": "2(i)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    },
+    {
+     "q": "prelim_biology_vts_2(i)(d)",
+     "paper": "prelim_biology_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "2(i)(d)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-cuticle",
+   "subject": "biology",
+   "chapter": "Transpiration",
+   "kind": "term",
+   "prompt": "Name the waxy layer on the upper epidermis of leaves which reduces transpiration.",
+   "answer": "Cuticle.",
+   "keywords": [
+    "cuticle"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2025_2(i)(b)",
+     "paper": "biology_2025",
+     "label": "Board 2025",
+     "q_label": "2(i)(b)",
+     "source": "board",
+     "year": 2025,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-diapedesis",
+   "subject": "biology",
+   "chapter": "The Circulatory System",
+   "kind": "define",
+   "prompt": "Define the term diapedesis.",
+   "answer": "Diapedesis is the process by which white blood cells (leucocytes) squeeze out through the walls of the blood capillaries into the surrounding tissues, to reach the site of infection.",
+   "keywords": [
+    "white blood cells",
+    "squeeze out",
+    "through capillary walls",
+    "site of infection"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2024_6(i)",
+     "paper": "biology_2024",
+     "label": "Board 2024",
+     "q_label": "6(i)",
+     "source": "board",
+     "year": 2024,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-pulse",
+   "subject": "biology",
+   "chapter": "The Circulatory System",
+   "kind": "define",
+   "prompt": "Define pulse.",
+   "answer": "Pulse is the alternate expansion and elastic recoil of the wall of an artery caused by the surge of blood pumped by the left ventricle at each heartbeat.",
+   "keywords": [
+    "alternate expansion and recoil",
+    "artery wall",
+    "each heartbeat (ventricular contraction)"
+   ],
+   "tip": "Felt at the wrist (radial artery); normal pulse rate ≈ 72 per minute.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_avalon_4(ii)",
+     "paper": "prelim_biology_avalon",
+     "label": "Prelim · Avalon Heights",
+     "q_label": "4(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-double-circulation",
+   "subject": "biology",
+   "chapter": "The Circulatory System",
+   "kind": "explain",
+   "prompt": "Explain the term double circulation.",
+   "answer": "In double circulation the blood passes through the heart twice during one complete cycle: once through the pulmonary circulation (heart → lungs → heart) and once through the systemic circulation (heart → body → heart).",
+   "keywords": [
+    "passes through the heart twice",
+    "pulmonary circulation",
+    "systemic circulation"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_vts_7(i)",
+     "paper": "prelim_biology_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "7(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "explain"
+    }
+   ]
+  },
+  {
+   "id": "bio-two-circulations",
+   "subject": "biology",
+   "chapter": "The Circulatory System",
+   "kind": "term",
+   "prompt": "What are the two types of blood circulation in humans?",
+   "answer": "Pulmonary circulation — right ventricle → pulmonary artery → lungs → pulmonary veins → left atrium.\nSystemic circulation — left ventricle → aorta → body organs → venae cavae → right atrium.",
+   "keywords": [
+    "pulmonary",
+    "systemic"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2022s2_2(ii)",
+     "paper": "biology_2022s2",
+     "label": "Board 2022 Sem 2",
+     "q_label": "2(ii)",
+     "source": "board",
+     "year": 2022,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-systole-diastole",
+   "subject": "biology",
+   "chapter": "The Circulatory System",
+   "kind": "term",
+   "prompt": "Give the technical terms for the contraction and the expansion (relaxation) phases of the heart.",
+   "answer": "Contraction phase: systole.\nRelaxation (expansion) phase: diastole.",
+   "keywords": [
+    "systole",
+    "diastole"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_vts_4(iii)",
+     "paper": "prelim_biology_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "4(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-polycythaemia",
+   "subject": "biology",
+   "chapter": "The Circulatory System",
+   "kind": "term",
+   "prompt": "Name a disorder which leads to an abnormal increase of erythrocytes.",
+   "answer": "Polycythaemia.\n(Abnormal decrease of RBCs / haemoglobin is anaemia.)",
+   "keywords": [
+    "polycythaemia"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_avalon_2(i)(e)",
+     "paper": "prelim_biology_avalon",
+     "label": "Prelim · Avalon Heights",
+     "q_label": "2(i)(e)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-excretion",
+   "subject": "biology",
+   "chapter": "The Excretory System",
+   "kind": "explain",
+   "prompt": "Explain the term excretion.",
+   "answer": "Excretion is the removal of metabolic wastes, especially the nitrogenous wastes (urea), along with excess water and salts, from the body.",
+   "keywords": [
+    "removal of metabolic wastes",
+    "nitrogenous wastes",
+    "from the body"
+   ],
+   "tip": "Do not confuse with egestion (removal of undigested food).",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2025_8(i)",
+     "paper": "biology_2025",
+     "label": "Board 2025",
+     "q_label": "8(i)",
+     "source": "board",
+     "year": 2025,
+     "how": "explain"
+    }
+   ]
+  },
+  {
+   "id": "bio-ultrafiltration",
+   "subject": "biology",
+   "chapter": "The Excretory System",
+   "kind": "define",
+   "prompt": "Define the term ultrafiltration.",
+   "answer": "Ultrafiltration is the filtration of blood under high pressure in the glomerulus, by which water and small dissolved molecules (glucose, urea, salts, amino acids) pass into the Bowman's capsule, while blood cells and plasma proteins remain in the blood.",
+   "keywords": [
+    "filtration under high pressure",
+    "glomerulus",
+    "into Bowman's capsule",
+    "proteins and cells stay back"
+   ],
+   "tip": "High pressure: the efferent arteriole is narrower than the afferent arteriole. The fluid is the glomerular filtrate.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2024_8(i)",
+     "paper": "biology_2024",
+     "label": "Board 2024",
+     "q_label": "8(i)",
+     "source": "board",
+     "year": 2024,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-urea",
+   "subject": "biology",
+   "chapter": "The Excretory System",
+   "kind": "term",
+   "prompt": "Name the main nitrogenous waste formed in the human body.",
+   "answer": "Urea (formed in the liver, removed by the kidneys).",
+   "keywords": [
+    "urea"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2024_2(i)",
+     "paper": "biology_2024",
+     "label": "Board 2024",
+     "q_label": "2(i)",
+     "source": "board",
+     "year": 2024,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-reflex-action",
+   "subject": "biology",
+   "chapter": "Nervous System and Sense Organs",
+   "kind": "define",
+   "prompt": "What is a reflex action?",
+   "answer": "A reflex action is an automatic, quick and involuntary response to a stimulus, carried out without the will (conscious control) of the individual.",
+   "keywords": [
+    "automatic, quick",
+    "involuntary",
+    "response to a stimulus",
+    "without conscious will"
+   ],
+   "tip": "Example: knee-jerk; withdrawing the hand from a hot object (spinal reflex).",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2023_7(i)",
+     "paper": "biology_2023",
+     "label": "Board 2023",
+     "q_label": "7(i)",
+     "source": "board",
+     "year": 2023,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-reflex-arc",
+   "subject": "biology",
+   "chapter": "Nervous System and Sense Organs",
+   "kind": "term",
+   "prompt": "Give the biological term: the shortest route that can be taken by an impulse from a receptor to an effector.",
+   "answer": "Reflex arc.\nReceptor → sensory neuron → spinal cord (relay neuron) → motor neuron → effector.",
+   "keywords": [
+    "reflex arc"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_bss_2(i)(b)",
+     "paper": "prelim_biology_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(i)(b)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-synapse",
+   "subject": "biology",
+   "chapter": "Nervous System and Sense Organs",
+   "kind": "define",
+   "prompt": "Define the term synapse.",
+   "answer": "A synapse is the point of contact between the terminal branches of the axon of one neuron and the dendrites of the next neuron, separated by a fine gap (synaptic cleft), across which the impulse is transmitted.",
+   "keywords": [
+    "point of contact",
+    "axon endings of one neuron",
+    "dendrites of the next",
+    "fine gap"
+   ],
+   "tip": "The impulse crosses chemically, by a neurotransmitter (acetylcholine).",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2022s2_4(iii)",
+     "paper": "biology_2022s2",
+     "label": "Board 2022 Sem 2",
+     "q_label": "4(iii)",
+     "source": "board",
+     "year": 2022,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-meninges",
+   "subject": "biology",
+   "chapter": "Nervous System and Sense Organs",
+   "kind": "term",
+   "prompt": "Give the collective term for the protective membranes of the brain.",
+   "answer": "Meninges.\nThree membranes: dura mater (outer, tough), arachnoid (middle), pia mater (inner, highly vascular).",
+   "keywords": [
+    "meninges",
+    "dura mater, arachnoid, pia mater"
+   ],
+   "tip": null,
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2025_7(v)",
+     "paper": "biology_2025",
+     "label": "Board 2025",
+     "q_label": "7(v)",
+     "source": "board",
+     "year": 2025,
+     "how": "name"
+    },
+    {
+     "q": "prelim_biology_gundecha_2(i)(a)",
+     "paper": "prelim_biology_gundecha",
+     "label": "Prelim · Gundecha",
+     "q_label": "2(i)(a)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-pia-mater",
+   "subject": "biology",
+   "chapter": "Nervous System and Sense Organs",
+   "kind": "term",
+   "prompt": "Name the innermost, highly vascular membrane of the meninges.",
+   "answer": "Pia mater.",
+   "keywords": [
+    "pia mater"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_jbv_2(i)(d)",
+     "paper": "prelim_biology_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "2(i)(d)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-corpus-callosum",
+   "subject": "biology",
+   "chapter": "Nervous System and Sense Organs",
+   "kind": "define",
+   "prompt": "Define corpus callosum.",
+   "answer": "Corpus callosum is a broad, thick band of transverse nerve fibres (white matter) which connects the right and left cerebral hemispheres.",
+   "keywords": [
+    "band of nerve fibres",
+    "connects the two cerebral hemispheres"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_jbv_5(i)",
+     "paper": "prelim_biology_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "5(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-neurilemma",
+   "subject": "biology",
+   "chapter": "Nervous System and Sense Organs",
+   "kind": "term",
+   "prompt": "Give the biological term: the thin sheath which covers the myelin sheath.",
+   "answer": "Neurilemma.",
+   "keywords": [
+    "neurilemma"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_bss_2(i)(d)",
+     "paper": "prelim_biology_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(i)(d)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-ganglia",
+   "subject": "biology",
+   "chapter": "Nervous System and Sense Organs",
+   "kind": "term",
+   "prompt": "Give the biological term: aggregates of cytons (cell bodies) of nerve cells outside the brain and spinal cord.",
+   "answer": "Ganglia (singular: ganglion).",
+   "keywords": [
+    "ganglia"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_bss_2(i)(e)",
+     "paper": "prelim_biology_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(i)(e)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-yellow-spot",
+   "subject": "biology",
+   "chapter": "Nervous System and Sense Organs",
+   "kind": "term",
+   "prompt": "Give the biological term for the yellow spot.",
+   "answer": "Macula lutea.\nThe region of the retina with the largest number of cones (no rods) — the region of sharpest (brightest) vision; its central pit is the fovea centralis.",
+   "keywords": [
+    "macula lutea"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_bss_2(i)(c)",
+     "paper": "prelim_biology_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(i)(c)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-astigmatism",
+   "subject": "biology",
+   "chapter": "Nervous System and Sense Organs",
+   "kind": "term",
+   "prompt": "Name the eye defect in which some parts of the object are in focus while other parts are blurred.",
+   "answer": "Astigmatism.\nCaused by uneven curvature of the cornea; corrected by cylindrical lenses.",
+   "keywords": [
+    "astigmatism",
+    "uneven curvature of cornea",
+    "cylindrical lens"
+   ],
+   "tip": null,
+   "papers": 3,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2024_2(i)",
+     "paper": "biology_2024",
+     "label": "Board 2024",
+     "q_label": "2(i)",
+     "source": "board",
+     "year": 2024,
+     "how": "name"
+    },
+    {
+     "q": "prelim_biology_gundecha_2(i)(b)",
+     "paper": "prelim_biology_gundecha",
+     "label": "Prelim · Gundecha",
+     "q_label": "2(i)(b)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_biology_jbv_2(i)(c)",
+     "paper": "prelim_biology_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "2(i)(c)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-ear-ossicles",
+   "subject": "biology",
+   "chapter": "Nervous System and Sense Organs",
+   "kind": "term",
+   "prompt": "Give the biological terms for the three tiny bones present in the middle ear.",
+   "answer": "Ear ossicles: malleus (hammer), incus (anvil) and stapes (stirrup).\nThe stapes fits into the oval window of the cochlea.",
+   "keywords": [
+    "malleus",
+    "incus",
+    "stapes"
+   ],
+   "tip": null,
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2025_2(i)(c)",
+     "paper": "biology_2025",
+     "label": "Board 2025",
+     "q_label": "2(i)(c)",
+     "source": "board",
+     "year": 2025,
+     "how": "name"
+    },
+    {
+     "q": "biology_2022s2_3(iv)",
+     "paper": "biology_2022s2",
+     "label": "Board 2022 Sem 2",
+     "q_label": "3(iv)",
+     "source": "board",
+     "year": 2022,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-lysozyme",
+   "subject": "biology",
+   "chapter": "Nervous System and Sense Organs",
+   "kind": "term",
+   "prompt": "Name the antiseptic enzyme present in tears.",
+   "answer": "Lysozyme (secreted by the lacrimal glands; kills germs).",
+   "keywords": [
+    "lysozyme"
+   ],
+   "tip": null,
+   "papers": 2,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_avalon_2(i)(b)",
+     "paper": "prelim_biology_avalon",
+     "label": "Prelim · Avalon Heights",
+     "q_label": "2(i)(b)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_biology_gundecha_2(i)(e)",
+     "paper": "prelim_biology_gundecha",
+     "label": "Prelim · Gundecha",
+     "q_label": "2(i)(e)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-hormone",
+   "subject": "biology",
+   "chapter": "The Endocrine System",
+   "kind": "define",
+   "prompt": "Define the term hormone.",
+   "answer": "Hormones are chemical substances (messengers) secreted by the endocrine (ductless) glands directly into the blood, which carries them to target organs where they produce specific effects.",
+   "keywords": [
+    "chemical messengers",
+    "endocrine (ductless) glands",
+    "directly into blood",
+    "target organs"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2024_7(i)",
+     "paper": "biology_2024",
+     "label": "Board 2024",
+     "q_label": "7(i)",
+     "source": "board",
+     "year": 2024,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-addisons",
+   "subject": "biology",
+   "chapter": "The Endocrine System",
+   "kind": "term",
+   "prompt": "Give the term: the disorder caused by hyposecretion of glucocorticoids and mineralocorticoids.",
+   "answer": "Addison's disease (adrenal cortex).",
+   "keywords": [
+    "Addison's disease"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_gundecha_2(i)(d)",
+     "paper": "prelim_biology_gundecha",
+     "label": "Prelim · Gundecha",
+     "q_label": "2(i)(d)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-oxytocin",
+   "subject": "biology",
+   "chapter": "The Endocrine System",
+   "kind": "term",
+   "prompt": "Name the hormone which stimulates milk ejection in females.",
+   "answer": "Oxytocin (posterior pituitary). It also causes contraction of the uterus during childbirth.",
+   "keywords": [
+    "oxytocin"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_vts_2(i)(e)",
+     "paper": "prelim_biology_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "2(i)(e)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-progesterone",
+   "subject": "biology",
+   "chapter": "The Endocrine System",
+   "kind": "term",
+   "prompt": "Name the hormone responsible for maintaining the uterine lining (during pregnancy).",
+   "answer": "Progesterone (secreted by the corpus luteum, and later by the placenta).",
+   "keywords": [
+    "progesterone"
+   ],
+   "tip": null,
+   "papers": 2,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_avalon_2(i)(a)",
+     "paper": "prelim_biology_avalon",
+     "label": "Prelim · Avalon Heights",
+     "q_label": "2(i)(a)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_biology_vts_2(iv)(d)",
+     "paper": "prelim_biology_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "2(iv)(d)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-implantation",
+   "subject": "biology",
+   "chapter": "The Reproductive System",
+   "kind": "term",
+   "prompt": "Name the process of attachment of the fertilised ovum to the wall of the uterus.",
+   "answer": "Implantation.\nThe embedding of the blastocyst in the endometrium (wall) of the uterus.",
+   "keywords": [
+    "implantation"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2024_2(i)",
+     "paper": "biology_2024",
+     "label": "Board 2024",
+     "q_label": "2(i)",
+     "source": "board",
+     "year": 2024,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-graafian",
+   "subject": "biology",
+   "chapter": "The Reproductive System",
+   "kind": "term",
+   "prompt": "Name the fully developed part of the ovary containing a mature ovum.",
+   "answer": "Graafian follicle.\nAfter ovulation it becomes the corpus luteum.",
+   "keywords": [
+    "Graafian follicle"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2025_2(i)(a)",
+     "paper": "biology_2025",
+     "label": "Board 2025",
+     "q_label": "2(i)(a)",
+     "source": "board",
+     "year": 2025,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-menopause",
+   "subject": "biology",
+   "chapter": "The Reproductive System",
+   "kind": "term",
+   "prompt": "Name the permanent stoppage of menstruation in human females around the age of 45 years.",
+   "answer": "Menopause. (The beginning of menstruation at puberty is menarche.)",
+   "keywords": [
+    "menopause"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2023_2(i)",
+     "paper": "biology_2023",
+     "label": "Board 2023",
+     "q_label": "2(i)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-tubectomy",
+   "subject": "biology",
+   "chapter": "The Reproductive System",
+   "kind": "term",
+   "prompt": "Give the biological term for the surgical method of contraception in human females.",
+   "answer": "Tubectomy (tubal ligation) — the fallopian tubes are cut and tied. In males it is vasectomy.",
+   "keywords": [
+    "tubectomy"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2024_4(i)",
+     "paper": "biology_2024",
+     "label": "Board 2024",
+     "q_label": "4(i)",
+     "source": "board",
+     "year": 2024,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-placenta",
+   "subject": "biology",
+   "chapter": "The Reproductive System",
+   "kind": "term",
+   "prompt": "Name the organ that helps in the exchange of nutrients and wastes between the mother and the foetus.",
+   "answer": "Placenta.\nThe intimate connection between the foetal membranes (chorion) and the uterine wall; it also acts as an endocrine gland (secretes progesterone, oestrogen, hCG).",
+   "keywords": [
+    "placenta"
+   ],
+   "tip": null,
+   "papers": 2,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_bss_2(iv)(d)",
+     "paper": "prelim_biology_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(iv)(d)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_biology_vts_2(iv)(a)",
+     "paper": "prelim_biology_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "2(iv)(a)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-umbilical-cord",
+   "subject": "biology",
+   "chapter": "The Reproductive System",
+   "kind": "term",
+   "prompt": "Which structure containing blood vessels connects the foetus to the placenta?",
+   "answer": "Umbilical cord.",
+   "keywords": [
+    "umbilical cord"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_vts_2(iv)(b)",
+     "paper": "prelim_biology_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "2(iv)(b)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-blastocyst",
+   "subject": "biology",
+   "chapter": "The Reproductive System",
+   "kind": "term",
+   "prompt": "Give the term: the small hollow ball of cells formed by the dividing zygote by the time it reaches the uterus.",
+   "answer": "Blastocyst.",
+   "keywords": [
+    "blastocyst"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_bss_2(iv)(b)",
+     "paper": "prelim_biology_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(iv)(b)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-gestation",
+   "subject": "biology",
+   "chapter": "The Reproductive System",
+   "kind": "term",
+   "prompt": "Give the term: the full term of development of the embryo in the uterus.",
+   "answer": "Gestation (gestation period) — about 280 days (≈ 40 weeks) in humans.",
+   "keywords": [
+    "gestation"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_bss_2(iv)(e)",
+     "paper": "prelim_biology_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(iv)(e)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-semen",
+   "subject": "biology",
+   "chapter": "The Reproductive System",
+   "kind": "define",
+   "prompt": "What is semen?",
+   "answer": "Semen is the milky fluid discharged by the male, consisting of sperms suspended in the secretions of the seminal vesicles, the prostate gland and Cowper's glands.",
+   "keywords": [
+    "sperms",
+    "seminal vesicles",
+    "prostate",
+    "Cowper's glands"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_vts_5(i)",
+     "paper": "prelim_biology_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "5(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-population-density",
+   "subject": "biology",
+   "chapter": "Human Population",
+   "kind": "explain",
+   "prompt": "Explain the term 'population density'.",
+   "answer": "Population density is the number of individuals (persons) living per unit area (e.g. per square kilometre) at a given time.",
+   "keywords": [
+    "number of individuals",
+    "per unit area"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2023_5(i)",
+     "paper": "biology_2023",
+     "label": "Board 2023",
+     "q_label": "5(i)",
+     "source": "board",
+     "year": 2023,
+     "how": "explain"
+    }
+   ]
+  },
+  {
+   "id": "bio-natality",
+   "subject": "biology",
+   "chapter": "Human Population",
+   "kind": "define",
+   "prompt": "Define natality.",
+   "answer": "Natality (birth rate) is the number of live births per 1000 individuals of a population per year.",
+   "keywords": [
+    "live births",
+    "per 1000 individuals",
+    "per year"
+   ],
+   "tip": null,
+   "papers": 3,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2025_1(i)",
+     "paper": "biology_2025",
+     "label": "Board 2025",
+     "q_label": "1(i)",
+     "source": "board",
+     "year": 2025,
+     "how": "mcq"
+    },
+    {
+     "q": "prelim_biology_bss_2(v)(b)",
+     "paper": "prelim_biology_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(v)(b)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    },
+    {
+     "q": "prelim_biology_gundecha_6(ii)",
+     "paper": "prelim_biology_gundecha",
+     "label": "Prelim · Gundecha",
+     "q_label": "6(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-mortality",
+   "subject": "biology",
+   "chapter": "Human Population",
+   "kind": "explain",
+   "prompt": "Explain the term mortality.",
+   "answer": "Mortality (death rate) is the number of deaths per 1000 individuals of a population per year.",
+   "keywords": [
+    "deaths",
+    "per 1000 individuals",
+    "per year"
+   ],
+   "tip": null,
+   "papers": 2,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_bss_2(v)(b)",
+     "paper": "prelim_biology_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "2(v)(b)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    },
+    {
+     "q": "prelim_biology_vts_3(i)",
+     "paper": "prelim_biology_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "3(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "explain"
+    }
+   ]
+  },
+  {
+   "id": "bio-demography",
+   "subject": "biology",
+   "chapter": "Human Population",
+   "kind": "define",
+   "prompt": "Define demography.",
+   "answer": "Demography is the statistical study of human population — its size, density, distribution, birth rate, death rate and growth.",
+   "keywords": [
+    "statistical study",
+    "human population"
+   ],
+   "tip": null,
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "biology_2023_1(viii)",
+     "paper": "biology_2023",
+     "label": "Board 2023",
+     "q_label": "1(viii)",
+     "source": "board",
+     "year": 2023,
+     "how": "mcq"
+    },
+    {
+     "q": "prelim_biology_gundecha_6(ii)",
+     "paper": "prelim_biology_gundecha",
+     "label": "Prelim · Gundecha",
+     "q_label": "6(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "bio-pollutant",
+   "subject": "biology",
+   "chapter": "Pollution",
+   "kind": "term",
+   "prompt": "Give the term used for any constituent which causes pollution.",
+   "answer": "Pollutant.\nAny substance (or form of energy, e.g. noise, heat) which causes an undesirable change in the environment.",
+   "keywords": [
+    "pollutant"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_vts_2(i)(b)",
+     "paper": "prelim_biology_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "2(i)(b)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "bio-landfill",
+   "subject": "biology",
+   "chapter": "Pollution",
+   "kind": "term",
+   "prompt": "Name the places where wastes are dumped in a ground depression and covered with soil every day.",
+   "answer": "Landfills (sanitary landfills).",
+   "keywords": [
+    "landfill"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_biology_jbv_2(i)(b)",
+     "paper": "prelim_biology_jbv",
+     "label": "Prelim · J.B. Vachha",
+     "q_label": "2(i)(b)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "phy-centre-of-gravity",
+   "subject": "physics",
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "kind": "define",
+   "prompt": "Define centre of gravity.",
+   "answer": "The centre of gravity (C.G.) of a body is the point about which the algebraic sum of the moments of the weights of all the particles of the body is zero. The entire weight of the body can be considered to act at this point, whatever the position of the body.",
+   "keywords": [
+    "point",
+    "sum of moments of weights = zero",
+    "whole weight acts here",
+    "any orientation"
+   ],
+   "tip": "C.G. of a hollow cone: h/3 from the base; solid cone: h/4 from the base.",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2024_6(i)",
+     "paper": "physics_2024",
+     "label": "Board 2024",
+     "q_label": "6(i)",
+     "source": "board",
+     "year": 2024,
+     "how": "define"
+    },
+    {
+     "q": "prelim_physics_ssrvm_5(iii)",
+     "paper": "prelim_physics_ssrvm",
+     "label": "Prelim · Sri Sri RVM",
+     "q_label": "5(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "phy-moment-units",
+   "subject": "physics",
+   "chapter": "Force: Turning Forces and Uniform Circular Motion",
+   "kind": "unit",
+   "prompt": "State the S.I. and C.G.S. units of moment of force and the relation between them.",
+   "answer": "S.I. unit: newton metre (N m).\nC.G.S. unit: dyne centimetre (dyne cm).\n1 N m = 10⁵ dyne × 10² cm = 10⁷ dyne cm.",
+   "keywords": [
+    "N m",
+    "dyne cm",
+    "1 N m = 10⁷ dyne cm"
+   ],
+   "tip": "Moment of force = force × perpendicular distance of its line of action from the axis.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2022s1_8",
+     "paper": "physics_2022s1",
+     "label": "Board 2022 Sem 1",
+     "q_label": "8",
+     "source": "board",
+     "year": 2022,
+     "how": "mcq"
+    }
+   ]
+  },
+  {
+   "id": "phy-refraction",
+   "subject": "physics",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "kind": "define",
+   "prompt": "Define refraction of light.",
+   "answer": "The change in the direction of the path of light when it passes obliquely from one transparent medium to another is called refraction of light. It happens because the speed of light is different in the two media.",
+   "keywords": [
+    "change in direction",
+    "passes obliquely",
+    "one transparent medium to another",
+    "change in speed"
+   ],
+   "tip": "A ray incident normally (i = 0°) passes undeviated.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_bhakti_4(c)",
+     "paper": "prelim_physics_bhakti",
+     "label": "Prelim · Bhaktivedanta",
+     "q_label": "4(c)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "phy-ri-meaning",
+   "subject": "physics",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "kind": "meaning",
+   "prompt": "'The refractive index of glass is 1.5.' What does this mean?",
+   "answer": "It means that the speed of light in vacuum (air) is 1.5 times its speed in glass:\nμ = speed of light in vacuum ÷ speed of light in glass = c/v = 1.5.",
+   "keywords": [
+    "c/v",
+    "speed in vacuum is 1.5 times speed in glass"
+   ],
+   "tip": "So v in glass = 3 × 10⁸ ÷ 1.5 = 2 × 10⁸ m s⁻¹. Refractive index has no unit.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_jns_6(ii)",
+     "paper": "prelim_physics_jns",
+     "label": "Prelim · Jamnabai Narsee",
+     "q_label": "6(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "meaning"
+    }
+   ]
+  },
+  {
+   "id": "phy-reversibility",
+   "subject": "physics",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "kind": "law",
+   "prompt": "State the principle of reversibility of the path of light.",
+   "answer": "If the direction of a ray of light is reversed (after reflection or refraction), it retraces its path.\nHence the refractive index of medium b with respect to a = 1 ÷ (refractive index of a with respect to b).",
+   "keywords": [
+    "ray reversed",
+    "retraces its path",
+    "aμb = 1 / bμa"
+   ],
+   "tip": "Example: if the refractive index of glass w.r.t. water is 9/8, that of water w.r.t. glass is 8/9.",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2024_5(i)",
+     "paper": "physics_2024",
+     "label": "Board 2024",
+     "q_label": "5(i)",
+     "source": "board",
+     "year": 2024,
+     "how": "name"
+    },
+    {
+     "q": "prelim_physics_jns_6(ii)",
+     "paper": "prelim_physics_jns",
+     "label": "Prelim · Jamnabai Narsee",
+     "q_label": "6(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "phy-critical-angle",
+   "subject": "physics",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "kind": "define",
+   "prompt": "Define critical angle.",
+   "answer": "The critical angle is the angle of incidence in the denser medium for which the angle of refraction in the rarer medium is 90°.",
+   "keywords": [
+    "angle of incidence",
+    "in the denser medium",
+    "angle of refraction 90°"
+   ],
+   "tip": "μ = 1 / sin C. It depends on the pair of media and on the colour of light (less for violet than red). For glass ≈ 42°.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_avalon_8(ii)",
+     "paper": "prelim_physics_avalon",
+     "label": "Prelim · Avalon Heights",
+     "q_label": "8(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "phy-tir",
+   "subject": "physics",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "kind": "define",
+   "prompt": "What is total internal reflection?",
+   "answer": "When a ray of light travelling from a denser medium to a rarer medium is incident at the surface at an angle of incidence greater than the critical angle, it is completely reflected back into the denser medium. This is total internal reflection.",
+   "keywords": [
+    "denser to rarer",
+    "angle of incidence > critical angle",
+    "reflected back into denser medium"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_bss_9(iii)",
+     "paper": "prelim_physics_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "9(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "phy-dispersion",
+   "subject": "physics",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "kind": "define",
+   "prompt": "What is dispersion of light?",
+   "answer": "The splitting of white light into its constituent colours (VIBGYOR) on passing through a prism is called dispersion. It occurs because the refractive index of glass (and so the deviation) is different for different colours.",
+   "keywords": [
+    "splitting of white light",
+    "constituent colours",
+    "different refractive index for each colour"
+   ],
+   "tip": "Violet deviates the most, red the least.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2023_5(iii)",
+     "paper": "physics_2023",
+     "label": "Board 2023",
+     "q_label": "5(iii)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "phy-scattering",
+   "subject": "physics",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "kind": "define",
+   "prompt": "What is meant by scattering of light?",
+   "answer": "Scattering of light is the process of absorption and then re-emission of light energy, in all directions, by the dust particles and air molecules present in the atmosphere.",
+   "keywords": [
+    "absorption and re-emission",
+    "in all directions",
+    "particles / air molecules"
+   ],
+   "tip": "Intensity of scattered light ∝ 1/λ⁴ (Rayleigh) — blue sky, red sunrise and sunset.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_vts_8(i)",
+     "paper": "prelim_physics_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "8(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "phy-power-lens",
+   "subject": "physics",
+   "chapter": "Light (Refraction, Lenses, Spectrum)",
+   "kind": "meaning",
+   "prompt": "The power of a lens is −5 D. What does this mean?",
+   "answer": "It is a concave (diverging) lens of focal length 20 cm.\nf = 1/P = 1/(−5) m = −0.2 m = −20 cm (negative sign → concave).",
+   "keywords": [
+    "concave lens",
+    "f = 1/P (in metres)",
+    "20 cm"
+   ],
+   "tip": "S.I. unit of power of a lens: dioptre (D) = m⁻¹.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_jasudben_1(x)",
+     "paper": "prelim_physics_jasudben",
+     "label": "Prelim · Jasudben ML",
+     "q_label": "1(x)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "mcq"
+    }
+   ]
+  },
+  {
+   "id": "phy-resonance",
+   "subject": "physics",
+   "chapter": "Sound",
+   "kind": "define",
+   "prompt": "Define resonance.",
+   "answer": "When the frequency of an externally applied periodic force on a body is equal to its natural frequency, the body readily begins to vibrate with an increased (large) amplitude. This phenomenon is called resonance.",
+   "keywords": [
+    "externally applied periodic force",
+    "frequency equal to natural frequency",
+    "large amplitude"
+   ],
+   "tip": "Resonance is a special case of forced vibrations. Examples: tuning a radio/TV, a loud sound from the air column of a burette.",
+   "papers": 5,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2024_7(iii)",
+     "paper": "physics_2024",
+     "label": "Board 2024",
+     "q_label": "7(iii)",
+     "source": "board",
+     "year": 2024,
+     "how": "name"
+    },
+    {
+     "q": "physics_2023_7(iii)",
+     "paper": "physics_2023",
+     "label": "Board 2023",
+     "q_label": "7(iii)",
+     "source": "board",
+     "year": 2023,
+     "how": "define"
+    },
+    {
+     "q": "prelim_physics_jns_5(iii)",
+     "paper": "prelim_physics_jns",
+     "label": "Prelim · Jamnabai Narsee",
+     "q_label": "5(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_physics_jasudben_7(iii)",
+     "paper": "prelim_physics_jasudben",
+     "label": "Prelim · Jasudben ML",
+     "q_label": "7(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_physics_sms_3(iii)",
+     "paper": "prelim_physics_sms",
+     "label": "Prelim · St. Mary's Mazagaon",
+     "q_label": "3(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "phy-pitch",
+   "subject": "physics",
+   "chapter": "Sound",
+   "kind": "define",
+   "prompt": "Define 'pitch' of a sound.",
+   "answer": "Pitch is that characteristic of sound which distinguishes a shrill (sharp) note from a grave (flat) note of the same loudness. It depends on the frequency: the higher the frequency, the higher the pitch.",
+   "keywords": [
+    "characteristic of sound",
+    "shrill vs grave (flat)",
+    "depends on frequency"
+   ],
+   "tip": "Loudness depends on amplitude; quality (timbre) depends on the waveform.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2022s2_4(i)(c)",
+     "paper": "physics_2022s2",
+     "label": "Board 2022 Sem 2",
+     "q_label": "4(i)(c)",
+     "source": "board",
+     "year": 2022,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "phy-specific-heat",
+   "subject": "physics",
+   "chapter": "Heat (Calorimetry)",
+   "kind": "define",
+   "prompt": "Define specific heat capacity and state its S.I. unit.",
+   "answer": "The specific heat capacity of a substance is the amount of heat energy required to raise the temperature of unit mass of the substance through 1 °C (or 1 K).\nS.I. unit: J kg⁻¹ K⁻¹.",
+   "keywords": [
+    "heat required",
+    "unit mass",
+    "raise temperature by 1 °C (1 K)",
+    "J kg⁻¹ K⁻¹"
+   ],
+   "tip": "c = Q / (m × Δt). Water: 4200 J kg⁻¹ K⁻¹ (highest of common substances). 1 J g⁻¹ °C⁻¹ = 1000 J kg⁻¹ K⁻¹.",
+   "papers": 3,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_euro_2(iii)",
+     "paper": "prelim_physics_euro",
+     "label": "Prelim · EuroSchool Thane",
+     "q_label": "2(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    },
+    {
+     "q": "prelim_physics_jns_2(iii)",
+     "paper": "prelim_physics_jns",
+     "label": "Prelim · Jamnabai Narsee",
+     "q_label": "2(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "meaning"
+    },
+    {
+     "q": "prelim_physics_jasudben_3(vi)",
+     "paper": "prelim_physics_jasudben",
+     "label": "Prelim · Jasudben ML",
+     "q_label": "3(vi)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "phy-specific-heat-meaning",
+   "subject": "physics",
+   "chapter": "Heat (Calorimetry)",
+   "kind": "meaning",
+   "prompt": "What is meant by: 'The specific heat capacity of water is 4200 J kg⁻¹ K⁻¹'?",
+   "answer": "1 kg of water absorbs (needs) 4200 J of heat energy to raise its temperature by 1 K (1 °C).",
+   "keywords": [
+    "1 kg",
+    "4200 J",
+    "1 K rise"
+   ],
+   "tip": "All three parts are needed: the mass (1 kg), the heat (4200 J) and the 1 K rise.",
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2023_1(xiii)",
+     "paper": "physics_2023",
+     "label": "Board 2023",
+     "q_label": "1(xiii)",
+     "source": "board",
+     "year": 2023,
+     "how": "mcq"
+    },
+    {
+     "q": "prelim_physics_avalon_1(iii)",
+     "paper": "prelim_physics_avalon",
+     "label": "Prelim · Avalon Heights",
+     "q_label": "1(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "mcq"
+    }
+   ]
+  },
+  {
+   "id": "phy-latent-fusion",
+   "subject": "physics",
+   "chapter": "Heat (Calorimetry)",
+   "kind": "define",
+   "prompt": "Define specific latent heat of fusion.",
+   "answer": "The specific latent heat of fusion of a substance is the quantity of heat energy required to convert unit mass of the substance from its solid state to its liquid state, at its melting point, without any change in its temperature.\nS.I. unit: J kg⁻¹.",
+   "keywords": [
+    "heat required",
+    "unit mass",
+    "solid → liquid",
+    "at its melting point",
+    "without change in temperature",
+    "J kg⁻¹"
+   ],
+   "tip": "Ice: 336 J g⁻¹ = 3.36 × 10⁵ J kg⁻¹. Without \"specific\", latent heat is for the whole given mass (unit J).",
+   "papers": 3,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_avalon_1(xv)",
+     "paper": "prelim_physics_avalon",
+     "label": "Prelim · Avalon Heights",
+     "q_label": "1(xv)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "mcq"
+    },
+    {
+     "q": "prelim_physics_jns_4(i)",
+     "paper": "prelim_physics_jns",
+     "label": "Prelim · Jamnabai Narsee",
+     "q_label": "4(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_physics_sms_8(i)",
+     "paper": "prelim_physics_sms",
+     "label": "Prelim · St. Mary's Mazagaon",
+     "q_label": "8(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "phy-calorimetry",
+   "subject": "physics",
+   "chapter": "Heat (Calorimetry)",
+   "kind": "law",
+   "prompt": "State the principle of calorimetry.",
+   "answer": "When a hot body and a cold body are kept in contact, heat energy lost by the hot body is equal to the heat energy gained by the cold body, provided no heat is lost to (or gained from) the surroundings.",
+   "keywords": [
+    "heat lost by hot body",
+    "= heat gained by cold body",
+    "no heat lost to surroundings"
+   ],
+   "tip": "A calorimeter is made of copper: it has a low specific heat capacity and is a good conductor of heat.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2023_9(ii)",
+     "paper": "physics_2023",
+     "label": "Board 2023",
+     "q_label": "9(ii)",
+     "source": "board",
+     "year": 2023,
+     "how": "state"
+    }
+   ]
+  },
+  {
+   "id": "phy-ohms-law",
+   "subject": "physics",
+   "chapter": "Electricity and Magnetism",
+   "kind": "law",
+   "prompt": "State Ohm's law.",
+   "answer": "The current flowing in a conductor is directly proportional to the potential difference across its ends, provided the physical conditions (temperature, etc.) of the conductor remain the same.\nV ∝ I, i.e. V = IR.",
+   "keywords": [
+    "current ∝ potential difference",
+    "physical conditions (temperature) constant",
+    "V = IR"
+   ],
+   "tip": "A conductor that obeys Ohm's law (straight V–I graph) is ohmic; if V/I changes, it is non-ohmic.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2024_8(i)",
+     "paper": "physics_2024",
+     "label": "Board 2024",
+     "q_label": "8(i)",
+     "source": "board",
+     "year": 2024,
+     "how": "state"
+    }
+   ]
+  },
+  {
+   "id": "phy-specific-resistance",
+   "subject": "physics",
+   "chapter": "Electricity and Magnetism",
+   "kind": "define",
+   "prompt": "Define specific resistance.",
+   "answer": "The specific resistance (resistivity) of a material is the resistance of a wire of that material of unit length and unit area of cross-section.\nρ = RA / l ; S.I. unit: ohm metre (Ω m).",
+   "keywords": [
+    "resistance",
+    "unit length",
+    "unit area of cross-section",
+    "Ω m"
+   ],
+   "tip": "It depends only on the material and temperature — not on length or thickness. Alloys like constantan and manganin: resistivity almost unchanged with temperature.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2023_8(i)",
+     "paper": "physics_2023",
+     "label": "Board 2023",
+     "q_label": "8(i)",
+     "source": "board",
+     "year": 2023,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "phy-flemings-left",
+   "subject": "physics",
+   "chapter": "Electricity and Magnetism",
+   "kind": "law",
+   "prompt": "State Fleming's left-hand rule.",
+   "answer": "Stretch the forefinger, the middle finger and the thumb of the left hand mutually perpendicular to each other. If the forefinger points in the direction of the magnetic field and the middle finger in the direction of the current, then the thumb points in the direction of the force (motion) on the conductor.",
+   "keywords": [
+    "left hand",
+    "mutually perpendicular",
+    "forefinger = field",
+    "middle finger = current",
+    "thumb = force"
+   ],
+   "tip": "Used for the d.c. motor. (Right-hand rule → generator / induced current.)",
+   "papers": 4,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2023_3(iii)",
+     "paper": "physics_2023",
+     "label": "Board 2023",
+     "q_label": "3(iii)",
+     "source": "board",
+     "year": 2023,
+     "how": "name"
+    },
+    {
+     "q": "physics_2022s2_4(ii)(b)",
+     "paper": "physics_2022s2",
+     "label": "Board 2022 Sem 2",
+     "q_label": "4(ii)(b)",
+     "source": "board",
+     "year": 2022,
+     "how": "name"
+    },
+    {
+     "q": "prelim_physics_euro_8(iii)",
+     "paper": "prelim_physics_euro",
+     "label": "Prelim · EuroSchool Thane",
+     "q_label": "8(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_physics_vts_8(iii)",
+     "paper": "prelim_physics_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "8(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "state"
+    }
+   ]
+  },
+  {
+   "id": "phy-right-hand-thumb",
+   "subject": "physics",
+   "chapter": "Electricity and Magnetism",
+   "kind": "law",
+   "prompt": "State the right-hand thumb rule.",
+   "answer": "If a current-carrying straight conductor is held in the right hand with the thumb pointing in the direction of the current, then the curled fingers give the direction of the magnetic field lines around the conductor.",
+   "keywords": [
+    "right hand",
+    "thumb = current",
+    "curled fingers = magnetic field"
+   ],
+   "tip": "Also called Maxwell's right-hand thumb rule. Used to predict the deflection of a compass near a wire.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2024_9(iii)",
+     "paper": "physics_2024",
+     "label": "Board 2024",
+     "q_label": "9(iii)",
+     "source": "board",
+     "year": 2024,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "phy-clock-rule",
+   "subject": "physics",
+   "chapter": "Electricity and Magnetism",
+   "kind": "law",
+   "prompt": "State the clock rule for the polarity of a current-carrying coil (solenoid).",
+   "answer": "Looking at an end (face) of the coil: if the current flows in the anticlockwise direction, that end behaves as a North pole; if the current flows in the clockwise direction, that end behaves as a South pole.",
+   "keywords": [
+    "anticlockwise = North",
+    "clockwise = South",
+    "viewed from that end"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_vts_9(iii)",
+     "paper": "prelim_physics_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "9(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "state"
+    }
+   ]
+  },
+  {
+   "id": "phy-lenz",
+   "subject": "physics",
+   "chapter": "Electricity and Magnetism",
+   "kind": "law",
+   "prompt": "State Lenz's law.",
+   "answer": "The direction of the induced e.m.f. (or induced current) in a circuit is always such that it opposes the cause (the change in magnetic flux) which produces it.",
+   "keywords": [
+    "direction of induced current",
+    "opposes",
+    "the change (cause) that produces it"
+   ],
+   "tip": "A magnet's N pole approaching a coil makes the near end of the coil a N pole (repels it). Lenz's law follows from conservation of energy.",
+   "papers": 2,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_jasudben_8(ii)",
+     "paper": "prelim_physics_jasudben",
+     "label": "Prelim · Jasudben ML",
+     "q_label": "8(ii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    },
+    {
+     "q": "prelim_physics_vts_1(viii)",
+     "paper": "prelim_physics_vts",
+     "label": "Prelim · Villa Theresa",
+     "q_label": "1(viii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "mcq"
+    }
+   ]
+  },
+  {
+   "id": "phy-emi-transformer",
+   "subject": "physics",
+   "chapter": "Electricity and Magnetism",
+   "kind": "law",
+   "prompt": "Name the principle on which a transformer works, and state it.",
+   "answer": "Electromagnetic induction (mutual induction).\nWhenever the magnetic flux linked with a coil changes, an e.m.f. is induced in it. In a transformer, the changing current in the primary coil changes the flux linked with the secondary coil, which induces an e.m.f. in the secondary.",
+   "keywords": [
+    "electromagnetic (mutual) induction",
+    "change in magnetic flux",
+    "e.m.f. induced"
+   ],
+   "tip": "Works only on a.c. — d.c. gives no changing flux, so no output (except a momentary one when switched on/off).",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_bss_6(iii)",
+     "paper": "prelim_physics_bss",
+     "label": "Prelim · Bombay Scottish",
+     "q_label": "6(iii)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "phy-kwh",
+   "subject": "physics",
+   "chapter": "Electricity and Magnetism",
+   "kind": "unit",
+   "prompt": "Name the unit in which the consumer pays for electrical energy, and convert it into joules.",
+   "answer": "Kilowatt hour (kWh), the \"unit\" of the electricity bill.\n1 kWh is the electrical energy consumed by an appliance of power 1 kW in 1 hour.\n1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ J.",
+   "keywords": [
+    "kWh",
+    "1 kW for 1 hour",
+    "3.6 × 10⁶ J"
+   ],
+   "tip": null,
+   "papers": 2,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2025_8(i)",
+     "paper": "physics_2025",
+     "label": "Board 2025",
+     "q_label": "8(i)",
+     "source": "board",
+     "year": 2025,
+     "how": "name"
+    },
+    {
+     "q": "prelim_physics_avalon_2(i)(a)",
+     "paper": "prelim_physics_avalon",
+     "label": "Prelim · Avalon Heights",
+     "q_label": "2(i)(a)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "phy-rating-meaning",
+   "subject": "physics",
+   "chapter": "Electricity and Magnetism",
+   "kind": "meaning",
+   "prompt": "'A geyser is rated 240 W – 220 V.' Explain the meaning of this statement.",
+   "answer": "When the geyser is connected to a 220 V supply, it consumes electrical energy at the rate of 240 J per second, i.e. its power is 240 W.",
+   "keywords": [
+    "when connected to 220 V",
+    "consumes 240 J per second"
+   ],
+   "tip": "From the rating: I = P/V and R = V²/P.",
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2023_2(vii)",
+     "paper": "physics_2023",
+     "label": "Board 2023",
+     "q_label": "2(vii)",
+     "source": "board",
+     "year": 2023,
+     "how": "meaning"
+    }
+   ]
+  },
+  {
+   "id": "phy-isotopes",
+   "subject": "physics",
+   "chapter": "Modern Physics (Radioactivity)",
+   "kind": "define",
+   "prompt": "Define isotopes.",
+   "answer": "Isotopes are atoms of the same element having the same atomic number but different mass numbers (i.e. different numbers of neutrons).",
+   "keywords": [
+    "same element",
+    "same atomic number",
+    "different mass numbers",
+    "different neutrons"
+   ],
+   "tip": "Examples: ¹₁H, ²₁H, ³₁H ; ³⁵₁₇Cl, ³⁷₁₇Cl.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_sms_9(i)",
+     "paper": "prelim_physics_sms",
+     "label": "Prelim · St. Mary's Mazagaon",
+     "q_label": "9(i)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "phy-isotones",
+   "subject": "physics",
+   "chapter": "Modern Physics (Radioactivity)",
+   "kind": "define",
+   "prompt": "What are isotones?",
+   "answer": "Isotones are atoms (nuclides) of different elements having the same number of neutrons, but different atomic numbers and different mass numbers.",
+   "keywords": [
+    "different elements",
+    "same number of neutrons",
+    "different Z and A"
+   ],
+   "tip": "Example: ¹⁴₆C and ¹⁶₈O (8 neutrons each). Isobars: same mass number, different atomic number.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_bhakti_4(b)",
+     "paper": "prelim_physics_bhakti",
+     "label": "Prelim · Bhaktivedanta",
+     "q_label": "4(b)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "phy-nuclear-energy",
+   "subject": "physics",
+   "chapter": "Modern Physics (Radioactivity)",
+   "kind": "define",
+   "prompt": "What is nuclear energy?",
+   "answer": "Nuclear energy is the energy released from the nucleus of an atom during a nuclear reaction (nuclear fission or nuclear fusion), when a small amount of mass (the mass defect) is converted into energy according to E = mc².",
+   "keywords": [
+    "energy from the nucleus",
+    "fission or fusion",
+    "mass converted to energy",
+    "E = mc²"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": true,
+   "asked": [
+    {
+     "q": "physics_2022s2_4(iii)(a)",
+     "paper": "physics_2022s2",
+     "label": "Board 2022 Sem 2",
+     "q_label": "4(iii)(a)",
+     "source": "board",
+     "year": 2022,
+     "how": "define"
+    }
+   ]
+  },
+  {
+   "id": "phy-background-radiation",
+   "subject": "physics",
+   "chapter": "Modern Physics (Radioactivity)",
+   "kind": "term",
+   "prompt": "Radiation from natural sources like soil and cosmic rays is called ______.",
+   "answer": "Background radiation.\nThe radiation always present around us from natural sources — cosmic rays, radioactive elements in the earth's crust (soil, rocks), and radioactive isotopes in our own body (K-40, C-14).",
+   "keywords": [
+    "background radiation"
+   ],
+   "tip": null,
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_sms_2(i)(c)",
+     "paper": "prelim_physics_sms",
+     "label": "Prelim · St. Mary's Mazagaon",
+     "q_label": "2(i)(c)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  },
+  {
+   "id": "phy-amu",
+   "subject": "physics",
+   "chapter": "Modern Physics (Radioactivity)",
+   "kind": "unit",
+   "prompt": "One atomic mass unit (a.m.u.) is equivalent to how much energy?",
+   "answer": "1 a.m.u. ≡ 931 MeV (more precisely 931.5 MeV).",
+   "keywords": [
+    "931 MeV"
+   ],
+   "tip": "1 a.m.u. = 1.66 × 10⁻²⁷ kg ; 1 MeV = 1.6 × 10⁻¹³ J.",
+   "papers": 1,
+   "board": false,
+   "asked": [
+    {
+     "q": "prelim_physics_ssrvm_5(ii)(a)",
+     "paper": "prelim_physics_ssrvm",
+     "label": "Prelim · Sri Sri RVM",
+     "q_label": "5(ii)(a)",
+     "source": "prelim",
+     "year": 2026,
+     "how": "name"
+    }
+   ]
+  }
+ ]
+}
