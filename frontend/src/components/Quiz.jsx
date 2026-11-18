@@ -82,6 +82,7 @@ export default function Quiz() {
   const [typedAnswer, setTypedAnswer] = useState('');
   const [evaluation, setEvaluation] = useState(null);
   const [evaluating, setEvaluating] = useState(false);
+  const [selfMarks, setSelfMarks] = useState('');   // marks he gives himself for a written answer
 
   // Shared state
   const [isAnswered, setIsAnswered] = useState(false);
@@ -253,10 +254,10 @@ export default function Quiz() {
     setPhase('running');
   }
 
-  function saveCurrentState(index) {
+  function saveCurrentState(index, evalOverride) {
     setQuestionStates(prev => ({
       ...prev,
-      [index]: { selectedAnswer, typedAnswer, evaluation, isAnswered, explanation, hint },
+      [index]: { selectedAnswer, typedAnswer, evaluation: evalOverride || evaluation, isAnswered, explanation, hint, selfMarks },
     }));
   }
 
@@ -269,6 +270,7 @@ export default function Quiz() {
       setIsAnswered(saved.isAnswered);
       setExplanation(saved.explanation);
       setHint(saved.hint);
+      setSelfMarks(saved.selfMarks || '');
     } else {
       resetAnswerState();
     }
@@ -281,6 +283,7 @@ export default function Quiz() {
     setIsAnswered(false);
     setExplanation(null);
     setHint(null);
+    setSelfMarks('');
   }
 
   async function getHint() {
@@ -334,23 +337,36 @@ export default function Quiz() {
         }),
       });
       const data = await res.json();
-      setEvaluation(data);
-      const isCorrect = data.score >= 0.5;
+      // He marks himself against the model answer; the AI score (when there is one) is only a suggestion.
+      if (data && data.result && typeof data.score === 'number') {
+        setEvaluation({ ...data, pending: true });
+        setSelfMarks(String(Math.round(data.score * questionMarks(q) * 2) / 2));
+      } else {
+        setEvaluation({ result: 'unavailable', pending: true });
+        setSelfMarks('');
+      }
       setIsAnswered(true);
-      await recordAnswer(q, typedAnswer, isCorrect);
-      setResults((prev) => [...prev, { question: q, userAnswer: typedAnswer, isCorrect, score: data.score, feedback: data.feedback, type: 'short_answer' }]);
     } catch {
-      setEvaluation({ result: 'unavailable' });
+      setEvaluation({ result: 'unavailable', pending: true });
+      setSelfMarks('');
       setIsAnswered(true);
     }
     setEvaluating(false);
   }
 
-  async function handleSelfMark(q, mark) {
-    const score = mark === 'correct' ? 1 : mark === 'partial' ? 0.5 : 0;
-    setEvaluation({ result: mark, score, feedback: 'Self-marked.' });
-    await recordAnswer(q, typedAnswer, score >= 0.5);
-    setResults((prev) => [...prev, { question: q, userAnswer: typedAnswer, isCorrect: score >= 0.5, score, feedback: 'Self-marked.', type: 'short_answer' }]);
+  // Saves the marks he gave himself (0 to the question's marks, half marks allowed).
+  async function saveSelfMarks(q, value = selfMarks) {
+    const max = questionMarks(q);
+    const got = Math.max(0, Math.min(max, Math.round(Number(value) * 2) / 2));
+    if (value === '' || Number.isNaN(got) || !evaluation?.pending) return undefined;
+    const score = max ? got / max : 0;
+    const isCorrect = score >= 0.5;
+    const result = score >= 0.8 ? 'correct' : score > 0 ? 'partial' : 'incorrect';
+    const next = { ...(evaluation || {}), pending: false, selfMarked: true, selfGot: got, selfMax: max, result, score };
+    setEvaluation(next);
+    await recordAnswer(q, typedAnswer, isCorrect);
+    setResults((prev) => [...prev, { question: q, userAnswer: typedAnswer, isCorrect, score, feedback: `Self-marked: ${got} / ${max}.`, type: 'short_answer' }]);
+    return next;
   }
 
   async function recordAnswer(q, answer, isCorrect) {
@@ -408,7 +424,10 @@ export default function Quiz() {
   }
 
   async function nextQuestion() {
-    saveCurrentState(currentIndex);
+    // An AI-suggested mark he didn't change still counts when he moves on.
+    let saved;
+    if (evaluation?.pending && evaluation.result !== 'unavailable' && selfMarks !== '') saved = await saveSelfMarks(questions[currentIndex]);
+    saveCurrentState(currentIndex, saved);
     const next = currentIndex + 1;
     if (next >= questions.length) {
       const correct = results.filter((r) => r.isCorrect).length;
@@ -894,8 +913,9 @@ export default function Quiz() {
               <div className={`rounded-xl border p-4 text-sm space-y-3 ${evaluation.result === 'correct' ? 'animate-pop' : ''} ${evalTone.panel}`}>
                 <div className="flex items-center justify-between gap-3">
                   <p className={`font-semibold ${evalTone.text}`}>
-                    {evaluation.result === 'correct' ? `Correct.${streakNote}` :
-                     evaluation.result === 'partial' ? 'Partially correct' :
+                    {evaluation.selfMarked ? `Your marks: ${evaluation.selfGot} / ${evaluation.selfMax}` :
+                     evaluation.result === 'correct' ? `Looks correct.${streakNote}` :
+                     evaluation.result === 'partial' ? 'Looks partly correct' :
                      evaluation.result === 'incorrect' ? 'Not quite' : 'Self-marked'}
                   </p>
                   {typeof evaluation.percentCovered === 'number' && (
@@ -937,21 +957,37 @@ export default function Quiz() {
               </div>
             )}
 
-            {/* Self-mark fallback when AI evaluation unavailable */}
+            {/* No automatic marking: show the model answer to mark against */}
             {!isMCQ && evaluation?.result === 'unavailable' && (
-              <div className="rounded-xl border border-line bg-surface-2 p-4 text-sm space-y-4">
-                <div>
-                  <p className="eyebrow mb-1">Model answer</p>
-                  <p className="text-ink-2 text-sm leading-relaxed">{q.answer}</p>
-                </div>
-                <div>
-                  <p className="text-xs text-ink-3 mb-2">Automatic marking isn't available — how did you do?</p>
-                  <div className="flex gap-2">
-                    <button onClick={() => handleSelfMark(q, 'correct')} className="flex-1 py-2 rounded-xl bg-good-soft text-good font-semibold text-xs border border-good/20 hover:border-good/50 transition duration-150">Got it</button>
-                    <button onClick={() => handleSelfMark(q, 'partial')} className="flex-1 py-2 rounded-xl bg-warn-soft text-warn font-semibold text-xs border border-warn/20 hover:border-warn/50 transition duration-150">Partially</button>
-                    <button onClick={() => handleSelfMark(q, 'incorrect')} className="flex-1 py-2 rounded-xl bg-bad-soft text-bad font-semibold text-xs border border-bad/20 hover:border-bad/50 transition duration-150">Missed it</button>
-                  </div>
-                </div>
+              <div className="rounded-xl border border-line bg-surface-2 p-4 text-sm">
+                <p className="eyebrow mb-1">Model answer</p>
+                <p className="text-ink-2 text-sm leading-relaxed">{q.answer}</p>
+              </div>
+            )}
+
+            {/* Self-marking: he gives himself marks against the model answer */}
+            {!isMCQ && evaluation && (evaluation.pending || evaluation.selfMarked) && (
+              <div className="rounded-xl border border-brand/30 bg-brand-soft/40 p-4 text-sm space-y-3">
+                {evaluation.pending ? (
+                  <>
+                    <p className="text-xs text-ink-2">
+                      Mark your answer against the model answer, the way an examiner would.
+                      {evaluation.result !== 'unavailable' && ' The suggested mark is filled in; change it if you disagree.'}
+                    </p>
+                    <div className="flex flex-wrap items-center gap-2">
+                      {Array.from({ length: questionMarks(q) * 2 + 1 }, (_, i) => i / 2).map((m) => (
+                        <button key={m} type="button" onClick={() => setSelfMarks(String(m))}
+                          className={`h-9 min-w-[2.5rem] rounded-lg border px-2 text-sm font-semibold tabular-nums transition duration-150 ${String(m) === selfMarks ? 'border-brand bg-brand text-white' : 'border-line bg-surface text-ink-2 hover:border-brand/50'}`}>
+                          {m}
+                        </button>
+                      ))}
+                      <span className="text-xs text-ink-3">/ {questionMarks(q)}</span>
+                      <button type="button" onClick={() => saveSelfMarks(q)} disabled={selfMarks === ''} className="btn-primary ml-auto !py-2">Save my marks</button>
+                    </div>
+                  </>
+                ) : (
+                  <p className="font-semibold text-ink">You gave yourself {evaluation.selfGot} / {evaluation.selfMax}.</p>
+                )}
               </div>
             )}
 
